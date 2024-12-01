@@ -1,0 +1,255 @@
+---
+project: libpag
+stars: 5056
+description: The official rendering library for PAG (Portable Animated Graphics) files that renders After Effects animations natively across multiple platforms.
+url: https://github.com/Tencent/libpag
+---
+
+English | 简体中文 | Homepage
+
+Introduction
+------------
+
+libpag is a real-time rendering library for PAG (Portable Animated Graphics) files that renders both vector-based and raster-based animations across most platforms, such as iOS, Android, OpenHarmony, macOS, Windows, Linux, and Web.
+
+PAG is an open-source file format for recording animations. PAG files can be created and exported from Adobe After Effects with the PAGExporter plugin and previewed in the PAGViewer app, which you can get from pag.io, and both of them are available on both macOS and Windows.
+
+PAG is now being used by 40+ Tencent apps, such as WeChat, Mobile QQ, Honor of Kings Mobile Game, Tencent Video, QQ Music, and so on, reaching hundreds of millions of users.
+
+Advantages
+----------
+
+-   **Highly efficient file format**
+
+Benefiting from the highly efficient binary format design, PAG files can be decoded 10x faster than JSON files but also are about 50% smaller in file size when exporting the same animations. Designers can also ship beautiful animations with bitmaps or audiovisual media integrated into a single file easily without other attachments.
+
+-   **All AE features supported**
+
+While other solutions may only support exporting limited vector-based AE features, PAG supports exporting all AE animations into a single file by combining vector-based exporting with raster-based exporting techniques. Therefore, third-party plugin effects in AE can be exported as well.
+
+-   **Measurable performance**
+
+PAG provides a monitoring panel in PAGViewer that shows normalized performance data for PAG files, which helps designers to examine and optimize performance easily without developers. Along with dozens of automatic optimization techniques from the PAGExporter plugin, animations with cool visual effects and excellent performance now can be created more effectively.
+
+-   **Runtime editable animations**
+
+With the flexible editing APIs from PAG SDK, developers can easily change the layer structure of a single PAG file, mix multiple PAG files into one composition, or replace texts and images with all pre-designed animation effects applied at runtime. It reduces tons of coding work for product features like video templates.
+
+System Requirements
+-------------------
+
+-   iOS 9.0 or later
+-   Android 4.4 or later
+-   HarmonyOS Next 5.0.0(12) or later
+-   macOS 10.15 or later
+-   Windows 7.0 or later
+-   Chrome 69.0 or later (Web)
+-   Safari 11.3 or later (Web)
+
+Getting Started
+---------------
+
+We currently only publish precompiled libraries for iOS, Android, and Web. You can build libraries of other platforms from the source code. The latest releases can be downloaded from here.
+
+### iOS Integration
+
+You can use the framework downloaded from the release page, or add libpag to your project by CocoaPods: Add the pod to your Podfile:
+
+```
+pod 'libpag'
+```
+
+And then run:
+
+```
+pod install
+```
+
+After installing the cocoapod into your project import libpag with
+
+```
+#import <libpag/xxx.h>
+```
+
+### Android Integration
+
+You can use the aar downloaded from the release page, or add libpag to your project by Maven:
+
+Edit the `build.gradle` file in the root of your project, add `mavenCentral()` to `repositories`:
+
+```
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.2.1'
+    }
+}
+```
+
+Add libpag to `app/build.gradle` (_`4.0.5.10` should be replaced with the latest release version_):
+
+```
+dependencies {
+    implementation 'com.tencent.tav:libpag:4.0.5.10'
+}
+```
+
+Add the following rule to your proguard rules to avoid the wrong obfuscation.
+
+```
+  -keep class org.libpag.** {*;}
+  -keep class androidx.exifinterface.** {*;}
+```
+
+Finally, run gradle sync and then build the project.
+
+### OpenHarmony Integration
+
+You can use the har downloaded from the release page, or add libpag to your project by OHPM:
+
+```
+ohpm install @tencent/libpag
+```
+
+Or, you can add it to your project manually. Add the following lines to oh-package.json5 on your app module.
+
+```
+"dependencies": {
+"@tencent/libpag": "^1.0.1",
+}
+```
+
+Then run
+
+```
+ohpm install
+```
+
+### Web Integration
+
+Simply copy the following code into an HTML file and open it in your browser:
+
+<canvas class\="canvas" id\="pag"\></canvas\>
+<script src\="https://unpkg.com/libpag@latest/lib/libpag.min.js"\></script\>
+<script\>
+  window.libpag.PAGInit().then((PAG) \=> {
+    const url \= 'https://pag.io/file/like.pag';
+    fetch(url)
+      .then((response) \=> response.blob())
+      .then(async (blob) \=> {
+        const file \= new window.File(\[blob\], url.replace(/(.\*\\/)\*(\[^.\]+)/i, '$2'));
+        // Do Something.
+      });
+  });
+</script\>
+
+More information：Web SDK Guide
+
+### Example
+
+Check out the following projects to learn how to use the APIs of libpag:
+
+-   https://github.com/libpag/pag-ios
+-   https://github.com/libpag/pag-android
+-   https://github.com/libpag/pag-web
+
+### Documentation
+
+-   iOS API Reference
+-   Android API Reference
+-   Web API Reference
+
+You can find other docs on pag.io
+
+Development
+-----------
+
+We recommend using CLion IDE on the macOS platform for development.
+
+### Branch Management
+
+-   The `main` branch is our active developing branch which contains the latest features and bugfixes.
+-   The branches under `release/` are our stable milestone branches which are fully tested. We will periodically cut a `release/{version}` branch from the `main` branch. After one `release/{version}` branch is cut, only high-priority fixes are checked into it.
+
+**Note: This repository only contains the latest code since PAG 4.0. To use the legacy PAG 3.0 versions, you can download the precompiled libraries from here.**
+
+### Build Prerequisites
+
+-   Xcode 11.0+
+-   GCC 9.0+
+-   Visual Studio 2019+
+-   NodeJS 14.14.0+
+-   Ninja 1.9.0+
+-   CMake 3.13.0+
+-   QT 5.13.0+
+-   NDK 19.2+ (**19.2.5345600 recommended**)
+-   Emscripten 3.1.58+
+
+### Dependency Management
+
+libpag uses depsync tool to manage third-party dependencies.
+
+**For macOS platform：**
+
+Run the script in the root of the project:
+
+```
+./sync_deps.sh
+```
+
+This script will automatically install the necessary tools and synchronize all third-party repositories.
+
+**For other platforms：**
+
+First, make sure you have installed the latest version of node.js (You may need to restart your computer after this step). And then run the following command to install depsync tool:
+
+```
+npm install -g depsync
+```
+
+And then run `depsync` in the root directory of the project.
+
+```
+depsync
+```
+
+Git account and password may be required during synchronizing. Please make sure you have enabled the `git-credential-store` so that `CMakeList.txt` can trigger synchronizing automatically next time.
+
+### Build
+
+After the synchronization, you can open the project with CLion and build the pag library.
+
+**For macOS platform：**
+
+There are no extra configurations of CLion required.
+
+**For Windows platform：**
+
+Please follow the following steps to configure the CLion environment correctly:
+
+-   Make sure you have installed at least the **\[Desktop development with C++\]** and **\[Universal Windows Platform development\]** components for VS2019.
+-   Open the **File->Setting** panel, and go to **Build, Execution, Deployment->ToolChains**, then set the toolchain of CLion to **Visual Studio** with **amd64 (Recommended)** or **x86** architecture.
+
+**Note: If anything goes wrong during cmake building, please update the cmake commandline tool to the latest version and try again.**
+
+Support Us
+----------
+
+If you find libpag is helpful, please give us a **Star**. We sincerely appreciate your support :)
+
+License
+-------
+
+libpag is licensed under the Apache Version 2.0 License
+
+Privacy Policy
+--------------
+
+Please comply with the personal information processing rules of PAG SDK while using libpag SDK
+
+Contribution
+------------
+
+If you have any ideas or suggestions to improve libpag, welcome to submit an issue / pull request. Before making a pull request or issue, please make sure to read Contributing Guide.
