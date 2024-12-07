@@ -1,6 +1,6 @@
 ---
 project: winter-cardinal-ui
-stars: 61
+stars: 62
 description: WebGL-based UI library
 url: https://github.com/winter-cardinal/winter-cardinal-ui
 ---

@@ -1,6 +1,6 @@
 ---
 project: Vue-Gantt-chart
-stars: 647
+stars: 646
 description: 使用Vue做数据控制的Gantt图表
 url: https://github.com/w1301625107/Vue-Gantt-chart
 ---
@@ -636,21 +636,21 @@ Caution
      	   :endTime\="endTime"
      	   :datas\="datas"\>
            <template v-slot:block\="{data,item}"\>
-     	<!\-- 你的容器块组件 \--\>
+     	<!-- 你的容器块组件 -->
      	<Test :data\="data" :item\="item"\></Test\>
            </template\>
-     </template\>
+     </template>
     
      // 2.6之前的语法
      <template\>
        <v-gantt-chart :startTime\="startTime"
      	   :endTime\="endTime"
      	   :datas\="datas"\>
-           <template slot\="block" slot-scope\="{data,item}"\>  //<--------区别在这里
+           <template slot\="block" slot-scope\="{data,item}"\>  //<\--\--\--\--区别在这里
      	<!\-- 你的容器块组件 \--\>
      	<Test :data\="data" :item\="item"\></Test\>
            </template\>
-     </template\>
+     </template>
     
 
 Update

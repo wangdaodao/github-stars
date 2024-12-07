@@ -1,6 +1,6 @@
 ---
 project: vue-analysis
-stars: 7675
+stars: 7678
 description: :thumbsup: Vue.js 源码分析
 url: https://github.com/ustbhuangyi/vue-analysis
 ---

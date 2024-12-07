@@ -1,6 +1,6 @@
 ---
 project: vue-plugin-hiprint
-stars: 1061
+stars: 1070
 description: hiprint for Vue2/Vue3 ⚡打印、打印设计、可视化设计器、报表设计、元素编辑、可视化打印编辑
 url: https://github.com/CcSimple/vue-plugin-hiprint
 ---
@@ -306,7 +306,7 @@ this.$error({
   content: (h) \=> (
     <div\>
       连接【{hiwebSocket.host}】失败！
-      <br /\>
+      <br />
       请确保目标服务器已
       <a
         href\="https://gitee.com/CcSimple/electron-hiprint/releases"
@@ -375,23 +375,23 @@ hiwebSocket.setHost("https://printjs.cn:17521", "vue-plugin-hiprint")
 
 > design时怎么修改默认图片？
 
-<!-- 组件内, 显示的图片\-->
-<style lang\="less" scoped\>
+<!\-- 组件内, 显示的图片-->
+<style lang="less" scoped>
 /deep/ .hiprint-printElement-image-content {
   img {
     content: url("~@/assets/logo.png");
   }
 }
-</style\>
-<!-- App.vue 拖拽时显示的图片\-->
-<!-- 不要 scoped, 拖拽时是添加到 html body内的\-->
-<style lang\="less"\>
+</style>
+<!-- App.vue 拖拽时显示的图片-->
+<!-- 不要 scoped, 拖拽时是添加到 html body内的-->
+<style lang="less">
 .hiprint-printElement-image-content {
   img {
     content: url("~@/assets/logo.png");
   }
 }
-</style\>
+</style>
 
 > print/print2 打印回调
 

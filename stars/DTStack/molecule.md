@@ -1,6 +1,6 @@
 ---
 project: molecule
-stars: 893
+stars: 895
 description: :rocket: A lightweight Web IDE UI framework.
 url: https://github.com/DTStack/molecule
 ---
@@ -47,9 +47,9 @@ const moInstance \= create({
     extensions: \[\],
 });
 
-const App \= () \=> moInstance.render(<Workbench /\>);
+const App \= () \=> moInstance.render(<Workbench />);
 
-ReactDOM.render(<App /\>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 
 The `extension` is the Extension applications entry, more details about Extension, please read the Quick Start.
 

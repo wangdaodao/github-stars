@@ -1,6 +1,6 @@
 ---
 project: tldraw
-stars: 36025
+stars: 36204
 description: whiteboard / infinite canvas SDK
 url: https://github.com/tldraw/tldraw
 ---
@@ -13,7 +13,7 @@ Welcome to the public monorepo for tldraw. tldraw is a library for creating infi
 -   Read the docs and learn more at tldraw.dev.
 -   Learn about our license.
 
-> 🤵 Interested in using tldraw in your product? Click here to learn about our license and pricing.
+> Click here to learn about our license and pricing.
 
 Installation
 ------------
@@ -29,7 +29,7 @@ import 'tldraw/tldraw.css'
 export default function App() {
 	return (
 		<div style\={{ position: 'fixed', inset: 0 }}\>
-			<Tldraw /\>
+			<Tldraw />
 		</div\>
 	)
 }

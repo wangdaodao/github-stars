@@ -590,103 +590,104 @@ error event
 
 supports dae/fbx/gltf(glb)/obj/ply/stl models
 
-<!-- fbx model \-->
+<!\-- fbx model -->
 <vue3dLoader
-  filePath\="models/collada/stormtrooper/stormtrooper.dae"
-></vue3dLoader\>
-<!-- obj model \-->
-<vue3dLoader filePath\="/obj/1.obj"\></vue3dLoader\>
+  filePath="models/collada/stormtrooper/stormtrooper.dae"
+></vue3dLoader>
+<!-- obj model -->
+<vue3dLoader filePath="/obj/1.obj"></vue3dLoader>
 
 #### 2\. Loading multiple models in the same scene
 
-<!-- 
+<!\-- 
     Load multiple models of different type,
     support for setting position, scale,
     and rotation for each model
-\-->
-<template\>
-  <div class\="check-box"\>
-    <input type\="checkbox" @change\="change($event, 'position')" checked /> Set
+-->
+<template>
+  <div class="check-box">
+    <input type="checkbox" @change="change($event, 'position')" checked /> Set
     position
-    <input type\="checkbox" @change\="change($event, 'rotation')" checked /> Set
+    <input type="checkbox" @change="change($event, 'rotation')" checked /> Set
     rotation
-    <input type\="checkbox" @change\="change($event, 'scale')" checked /> Set
+    <input type="checkbox" @change="change($event, 'scale')" checked /> Set
     scale
-  </div\>
+  </div>
   <vue3dLoader
-    :filePath\="filePath"
-    :position\="position"
-    :rotation\="rotation"
-    :scale\="scale"
-    :cameraPosition\="{ x: \-0, y: 0, z: \-500 }"
+    :filePath="filePath"
+    :position="position"
+    :rotation="rotation"
+    :scale="scale"
+    :cameraPosition="{ x: -0, y: 0, z: -500 }"
   />
-</template\>
-<script setup lang\="ts"\>
+</template>
+<script setup lang="ts">
 import { ref } from "vue";
-const filePath \= ref();
-filePath.value \= \[
+const filePath = ref();
+filePath.value = \[
   "/models/fbx/Samba Dancing.fbx",
   "/models/collada/pump/pump.dae",
 \];
-const position \= ref();
-position.value \= \[
+const position = ref();
+position.value = \[
   { x: 0, y: 0, z: 0 },
   { x: 100, y: 100, z: 100 },
 \];
-const rotation \= ref();
-rotation.value \= \[
+const rotation = ref();
+rotation.value = \[
   { x: 0, y: 0, z: 0 },
   { x: 10, y: 1, z: 1 },
 \];
-const scale \= ref();
-scale.value \= \[
+const scale = ref();
+scale.value = \[
   { x: 0.4, y: 0.4, z: 0.4 },
   { x: 0.8, y: 0.8, z: 0.8 },
 \];
+
 function change(event: any, type: string) {
-  const value \= event.target.checked;
+  const value = event.target.checked;
   switch (type) {
     case "position":
       value
-        ? (position.value \= \[
+        ? (position.value = \[
             { x: 0, y: 0, z: 0 },
             { x: 100, y: 100, z: 100 },
           \])
-        : (position.value \= \[\]);
+        : (position.value = \[\]);
       break;
     case "rotation":
       value
-        ? (rotation.value \= \[
+        ? (rotation.value = \[
             { x: 0, y: 0, z: 0 },
             { x: 10, y: 1, z: 1 },
           \])
-        : (rotation.value \= \[\]);
+        : (rotation.value = \[\]);
       break;
     case "scale":
       value
-        ? (scale.value \= \[
+        ? (scale.value = \[
             { x: 0.4, y: 0.4, z: 0.4 },
             { x: 0.8, y: 0.8, z: 0.8 },
           \])
-        : (scale.value \= \[\]);
+        : (scale.value = \[\]);
       break;
   }
 }
-</script\>
+</script>
 
 #### 3\. Material and texture
 
-<!-- obj and mtl material \-->
-<vue3dLoader filePath\="/obj/1.obj" mtlPath\="/obj/1.mtl"\></vue3dLoader\>
-<!-- fbx and png texture \-->
-<vue3dLoader filePath\="/fbx/1.fbx" textureImage\="/fbx/1.png"\></vue3dLoader\>
+<!\-- obj and mtl material -->
+<vue3dLoader filePath="/obj/1.obj" mtlPath="/obj/1.mtl"></vue3dLoader>
+<!-- fbx and png texture -->
+<vue3dLoader filePath="/fbx/1.fbx" textureImage="/fbx/1.png"></vue3dLoader>
 
 #### 4\. Background color and transparency
 
 <vue3dLoader
-  filePath\="/fbx/1.fbx"
+  filePath="/fbx/1.fbx"
   :backgroundAlpha\="0.5"
-  backgroundColor\="red"
+  backgroundColor="red"
 ></vue3dLoader\>
 
 #### 5\. Controls
@@ -695,15 +696,15 @@ function change(event: any, type: string) {
   <div class\="controls"\>
     <div class\="buttons"\>
       <!-- Disable right-click drag \-->
-      <button @click\="enablePan \= !enablePan"\>
+      <button @click\="enablePan = !enablePan"\>
         {{ enablePan ? "disable" : "enable" }} translation
       </button\>
       <!-- Disable zoom \-->
-      <button @click\="enableZoom \= !enableZoom"\>
+      <button @click\="enableZoom = !enableZoom"\>
         {{ enableZoom ? "disable" : "enable" }} zoom
       </button\>
       <!-- Disable rotation \-->
-      <button @click\="enableRotate \= !enableRotate"\>
+      <button @click\="enableRotate = !enableRotate"\>
         {{ enableRotate ? "disable" : "enable" }} rotation
       </button\>
     </div\>
@@ -714,11 +715,11 @@ function change(event: any, type: string) {
         enableZoom,
         enableRotate,
       }"
-      :cameraPosition\="{ x: 0, y: \-10, z: 13 }"
+      :cameraPosition\="{ x: 0, y: -10, z: 13 }"
     />
   </div\>
 </template\>
-<script setup lang\="ts"\>
+<script setup lang="ts">
   import { ref } from "vue";
   const enablePan \= ref(true);
   const enableZoom \= ref(true);
@@ -734,7 +735,7 @@ function change(event: any, type: string) {
     filePath\="/models/collada/elf/elf.dae"
   />
 </template\>
-<script setup lang\="ts"\>
+<script setup lang="ts">
   import { ref } from "vue";
   const rotation \= ref();
   rotation.value \= {
@@ -756,7 +757,7 @@ function change(event: any, type: string) {
 <template\>
   <vue3dLoader filePath\="/models/ply/Lucy100k.ply" @mousemove\="onMouseMove" />
 </template\>
-<script setup lang\="ts"\>
+<script setup lang="ts">
   import { ref } from "vue";
   const object \= ref(null);
   function onMouseMove(event: MouseEvent, intersected: any) {

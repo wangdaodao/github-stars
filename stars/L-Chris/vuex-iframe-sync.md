@@ -58,7 +58,7 @@ yarn add vuex-iframe-sync
 --------
 
 // in parent's component with iframe
-<iframe id\="frameId1"/\>
+<iframe id\="frameId1"/>
 <iframe id\="frameId2"/\>
 
 // in parent's store.js

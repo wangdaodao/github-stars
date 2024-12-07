@@ -1,6 +1,6 @@
 ---
 project: vue-word-highlighter
-stars: 301
+stars: 302
 description: The word highlighter library for Vue 2 and Vue 3.
 url: https://github.com/kawamataryo/vue-word-highlighter
 ---
@@ -47,7 +47,7 @@ To use it, just provide it with search words to props and a body of text to defa
   \-->
 </template\>
 
-<script lang\="ts"\>
+<script lang="ts">
 import { defineComponent } from "vue";
 import WordHighlighter from "vue-word-highlighter";
 export default defineComponent({
@@ -172,12 +172,12 @@ Example
   <div\>
     Matched word count: {{ matches.length }}
   </div\>
-  <WordHighlighter query\="vue" @matches\="(e) \=> { matches \= e }"\>
+  <WordHighlighter query\="vue" @matches\="(e) => { matches = e }"\>
     The word highlighter library for Vue 2.x Vue 3.x 💅
   </WordHighlighter\>
 </template\>
 
-<script lang\="ts"\>
+<script lang="ts">
 import { defineComponent, ref } from "vue";
 import WordHighlighter from "vue-word-highlighter";
 export default defineComponent({

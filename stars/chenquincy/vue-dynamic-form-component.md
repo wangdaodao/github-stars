@@ -24,7 +24,7 @@ Usage Example
     ref\="dynamic-form"
     v-model\="data"
     :descriptors\="descriptors"\>
-    <template slot\="operations"\>
+    <template slot="operations">
       <el-button @click\="reset"\>reset</el-button\>
       <el-button type\="primary" @click\="validate"\>validate</el-button\>
     </template\>

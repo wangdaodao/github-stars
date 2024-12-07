@@ -1,6 +1,6 @@
 ---
 project: lew-ui
-stars: 1418
+stars: 1423
 description: A beautiful component library based on vue3
 url: https://github.com/lewkamtao/lew-ui
 ---
@@ -23,7 +23,7 @@ How to use
 // main.ts
 import 'lew-ui/style'
 
-<script setup lang\="ts"\>
+<script setup lang="ts">
 // page.vue
 import { LewButton } from 'lew-ui'
 </script\>
@@ -37,9 +37,8 @@ Open Source Libraries
 
 Lew UI uses the following open source libraries:
 
--   tippy.js: For creating tooltips and popovers
+-   Tippy.js: For creating tooltips and popovers
 -   Lucide: Provides a clean and beautiful icon set
--   fancyapps: For creating image galleries and carousels
 -   VueUse: Collection of Vue Composition API utilities
 -   Day.js: Lightweight library for date manipulation
 -   Yup: Object schema validation library

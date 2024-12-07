@@ -1,6 +1,6 @@
 ---
 project: notion-avatar
-stars: 2890
+stars: 2892
 description: 🪄 An online tool for making notion-style avatars.
 url: https://github.com/Mayandev/notion-avatar
 ---

@@ -1,6 +1,6 @@
 ---
 project: father
-stars: 2153
+stars: 2154
 description: NPM package development tool
 url: https://github.com/umijs/father
 ---

@@ -54,11 +54,11 @@ Usage
     
 -   If you want to remove hours/minutes/seconds section, set `showHours`/`showMinutes`/`showSeconds` prop to `false` (available since v0.11.0)
     
-    <flip-countdown deadline\="2018-12-25 00:00:00" :showDays\="false"\></flip-countdown\>
+    <flip-countdown deadline="2018-12-25 00:00:00" :showDays\="false"\></flip-countdown\>
     
 -   To notify if timer has elapsed, bind a handler to `timeElapsed` event emitted by component
     
-    <flip-countdown deadline\="2018-12-25 00:00:00" @timeElapsed\="timeElapsedHandler"\></flip-countdown\>
+    <flip-countdown deadline="2018-12-25 00:00:00" @timeElapsed\="timeElapsedHandler"\></flip-countdown\>
     
 
 Please refer to `/demo` directory for examples.

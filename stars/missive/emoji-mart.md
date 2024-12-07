@@ -1,6 +1,6 @@
 ---
 project: emoji-mart
-stars: 8691
+stars: 8707
 description: 🏪 One component to pick them all
 url: https://github.com/missive/emoji-mart
 ---
@@ -75,7 +75,7 @@ import Picker from '@emoji-mart/react'
 
 function App() {
   return (
-    <Picker data\={data} onEmojiSelect\={console.log} /\>
+    <Picker data\={data} onEmojiSelect\={console.log} />
   )
 }
 
@@ -356,7 +356,7 @@ const custom \= \[
 
 function App() {
   return (
-    <Picker data\={data} custom\={custom} /\>
+    <Picker data\={data} custom\={custom} />
   )
 }
 

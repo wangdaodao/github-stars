@@ -1,6 +1,6 @@
 ---
 project: berial
-stars: 520
+stars: 521
 description: 😈 Simple micro-front-end framework.
 url: https://github.com/berialjs/berial
 ---

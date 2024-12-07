@@ -1,7 +1,7 @@
 ---
 project: text-image
 stars: 91
-description: 🐛🐛🐛  Text image can "textify" text, images, and videos, and can be used with simple configuration
+description: 🐛🐛🐛  Text image can "textify" text, images, and videos, and can be used with simple configuration 它可以将文字、图片、视频进行「文本化」  只需要通过简单的配置即可使用
 url: https://github.com/Sunny-117/text-image
 ---
 

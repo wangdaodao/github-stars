@@ -1,7 +1,7 @@
 ---
 project: vxe-pc-ui
 stars: 89
-description: Vxe UI 一个基于 vue 的 PC 端组件库
+description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
 

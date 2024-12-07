@@ -1,6 +1,6 @@
 ---
 project: MyUploader
-stars: 434
+stars: 435
 description: 单文件上传，多文件上传，大文件上传，断点续传，文件秒传，图片上传
 url: https://github.com/gaoyuyue/MyUploader
 ---
@@ -67,7 +67,7 @@ _**本项目为前端实现**_
 <template\>
     <div\>
       <uploader
-        browse\_button="browse\_button"
+        browse\_button\="browse\_button"
         :url\="server\_config.url+'/File/'"
         @inputUploader\="inputUploader"
       />
@@ -100,7 +100,7 @@ _**本项目为前端实现**_
   }
 </script\>
 
-<style scoped\>
+<style scoped>
 </style\>
 
 ### 使用Uploader组件必须要配置的参数：

@@ -1,6 +1,6 @@
 ---
 project: vue-echarts
-stars: 9786
+stars: 9805
 description: Vue.js component for Apache ECharts™.
 url: https://github.com/ecomfe/vue-echarts
 ---
@@ -29,7 +29,7 @@ Vue 3 Demo →
   <v-chart class\="chart" :option\="option" />
 </template\>
 
-<script setup\>
+<script setup>
 import { use } from "echarts/core";
 import { CanvasRenderer } from "echarts/renderers";
 import { PieChart } from "echarts/charts";
@@ -87,7 +87,7 @@ const option \= ref({
 });
 </script\>
 
-<style scoped\>
+<style scoped>
 .chart {
   height: 400px;
 }
@@ -174,7 +174,7 @@ export default {
 };
 </script\>
 
-<style scoped\>
+<style scoped>
 .chart {
   height: 400px;
 }

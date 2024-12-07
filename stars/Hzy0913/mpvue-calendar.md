@@ -33,7 +33,7 @@ npm i mpvue-calendar -S
   backgroundText
   class-name\="select-mode"
   :remarks\="remarks"
-/\>
+/>
 
 import { ref } from 'vue'
 import Calendar from 'mpvue-calendar'

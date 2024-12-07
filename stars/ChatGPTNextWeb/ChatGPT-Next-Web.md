@@ -1,6 +1,6 @@
 ---
 project: ChatGPT-Next-Web
-stars: 77137
+stars: 77357
 description: A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT/Gemini 应用。
 url: https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web
 ---

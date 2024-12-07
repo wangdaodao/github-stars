@@ -1,6 +1,6 @@
 ---
 project: siyuan
-stars: 23199
+stars: 23343
 description: A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
 url: https://github.com/siyuan-note/siyuan
 ---
@@ -88,7 +88,7 @@ Most features are free, even for commercial use.
 -   Multi-tab, drag and drop to split screen
 -   Template snippet
 -   JavaScript/CSS snippet
--   Android/iOS App
+-   Android/iOS/HarmonyOS App
 -   Docker deployment
 -   API
 -   Community marketplace
@@ -133,6 +133,10 @@ Android App
 ios
 
 iOS App
+
+harmony
+
+HarmonyOS App
 
 riff
 
@@ -346,6 +350,7 @@ SiYuan is completely open source, and contributions are welcome:
 -   User Interface and Kernel
 -   Android
 -   iOS
+-   HarmonyOS
 -   Chrome Clipping Extension
 
 For more details, please refer to Development Guide.

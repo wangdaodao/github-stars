@@ -46,7 +46,7 @@ app.mount("#app");
   <el-table v-el-table-infinite-scroll\="load"\></el-table\>
 </template\>
 
-<script setup\>
+<script setup>
 import { default as vElTableInfiniteScroll } from "el-table-infinite-scroll";
 </script\>
 
@@ -66,7 +66,7 @@ import { default as vElTableInfiniteScroll } from "el-table-infinite-scroll";
   </el-table\>
 </template\>
 
-<script setup\>
+<script setup>
 import { ref } from "vue";
 const dataTemplate \= new Array(10).fill({
   date: "2009-01-01",

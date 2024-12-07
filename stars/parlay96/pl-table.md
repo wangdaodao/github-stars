@@ -1,6 +1,6 @@
 ---
 project: pl-table
-stars: 1151
+stars: 1152
 description: A table based on element, 完美解决万级数据渲染卡顿问题
 url: https://github.com/parlay96/pl-table
 ---
@@ -64,17 +64,17 @@ pl-table 不在更新维护, 你可以使用umy-ui，这里面包含了pl-table�
 
 \*\* CDN方式 \*\*
 
-  <!\--引入表格样式\--\>
+  <!--引入表格样式-->
   <link rel\="stylesheet" href\="https://unpkg.com/pl-table/themes/index.css"\>
 
-  <!\--默认表格样式很丑 引入这个样式就可以好看啦\--\>
+  <!--默认表格样式很丑 引入这个样式就可以好看啦-->
   <link rel\="stylesheet" href\="https://unpkg.com/pl-table/themes/plTableStyle.css"\>
 
-  <!\-- import Vue \--\>
+  <!-- import Vue -->
   <script src\="https://unpkg.com/vue/dist/vue.js"\></script\>
 
   <script src\="https://unpkg.com/pl-table/lib/index.js"\></script\>
-  // 真实项目不建议你直接引入  <script src="https://unpkg.com/pl-table/lib/index.js"></script>这样去引如会直接下最新版本，如果你的项目打包发     // 布了，然后遇见pl-table大更新 你可能项目会报错。
+  // 真实项目不建议你直接引入  <script src\="https://unpkg.com/pl-table/lib/index.js"\></script\>这样去引如会直接下最新版本，如果你的项目打包发     // 布了，然后遇见pl-table大更新 你可能项目会报错。
   // 推荐你这样引入： https://unpkg.com/pl-table@2.7.4/lib/index.js   加入版本号！
 
 用前须知（必读）

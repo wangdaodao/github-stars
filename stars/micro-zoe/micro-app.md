@@ -1,6 +1,6 @@
 ---
 project: micro-app
-stars: 5650
+stars: 5666
 description: A simple, efficient and powerful micro front-end framework. 一款简约、高效、功能强大的微前端框架
 url: https://github.com/micro-zoe/micro-app
 ---

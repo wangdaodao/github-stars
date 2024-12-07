@@ -1,6 +1,6 @@
 ---
 project: 30-seconds-of-code
-stars: 121953
+stars: 122021
 description: Short code snippets for all your development needs
 url: https://github.com/Chalarangelo/30-seconds-of-code
 ---

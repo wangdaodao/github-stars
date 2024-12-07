@@ -1,6 +1,6 @@
 ---
 project: epic-designer
-stars: 317
+stars: 320
 description: vue3 表单设计器
 url: https://github.com/Kchengz/epic-designer
 ---
@@ -146,7 +146,7 @@ EDesigner(设计器) 基础用法
     <EDesigner />
   </div\>
 </template\>
-<script setup lang\="ts"\>
+<script setup lang="ts">
 import { EDesigner } from "epic-designer";
 </script\>
 <style\>
@@ -163,7 +163,7 @@ EBuilder(生成器) 基础用法
     <EBuilder :pageSchema\="pageSchema" />
   </div\>
 </template\>
-<script setup\>
+<script setup>
 import { EBuilder } from "epic-designer";
 const pageSchema \= {
   schemas: \[

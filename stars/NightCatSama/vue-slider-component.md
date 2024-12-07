@@ -1,6 +1,6 @@
 ---
 project: vue-slider-component
-stars: 2419
+stars: 2421
 description: 🌡 A highly customized slider component
 url: https://github.com/NightCatSama/vue-slider-component
 ---
@@ -76,7 +76,7 @@ Vue 3
   <vue-slider v-model\="value" />
 </template\>
 
-<script setup\>
+<script setup>
 import { reactive, toRefs } from 'vue'
 import VueSlider from 'vue-slider-component'
 import 'vue-slider-component/theme/antd.css'

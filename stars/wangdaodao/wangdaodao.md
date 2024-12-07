@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-01 18:22.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-08 06:19.
 
 📝 Hitokoto
 -----------
 
-> 要优秀啊，不然怎么遇见优秀的人！—— 佚名
+> 装作拥有某样品质，实际上就等于承认了自己并没有这样品质。—— 叔本华
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Icebergs, Antarctica (© Art Wolfe/DanitaDelimont.com)_
+_Pearl Harbor Memorial Bridge, New Haven, Connecticut (© Enzo Figueres/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: flowchart-vue
-stars: 347
+stars: 348
 description: Flowchart & designer component for Vue.js.
 url: https://github.com/joyceworks/flowchart-vue
 ---
@@ -32,7 +32,7 @@ yarn add flowchart-vue
         <button type\="button" v-if\="showRemovingConfirmation" @click\="confirmRemoving"\>
             Confirm removing
         </button\>
-        <button type\="button" v-if\="showRemovingConfirmation" @click\="showRemovingConfirmation \= false"\>
+        <button type\="button" v-if\="showRemovingConfirmation" @click\="showRemovingConfirmation = false"\>
             Reject removing
         </button\>
         <flowchart :nodes\="nodes" 
@@ -453,13 +453,13 @@ Starting/Ending position of node
 If you want you can pass value as slot. It allows you to add new UI elements to chart playground. These slot elements aren't selectable - are ignored while selection. Moreover actions on click and on double click are disabled in area filled by passed elements. You can use this functionality to e.g. in quite easy way add toolbar inside.
 
 <flowchart ...>
-  <div id\="toolbox" style\="position: absolute; bottom: 0; left: 0; width: 100%; height: 50px; 
+  <div id="toolbox" style="position: absolute; bottom: 0; left: 0; width: 100%; height: 50px; 
                            display: flex; align-items: center; 
-                           background-color: rgba(225, 225, 225, 0.7);"\>
-    <button @click\="$refs.chart.remove()"\>Delete(Del)</button\>
-    <button @click\="$refs.chart.editCurrent()"\>
+                           background-color: rgba(225, 225, 225, 0.7);">
+    <button @click="$refs.chart.remove()">Delete(Del)</button>
+    <button @click="$refs.chart.editCurrent()">
       Edit(Double-click node)
-    </button\>
-    <button @click\="$refs.chart.save()"\>Save</button\>
-  </div\>
+    </button>
+    <button @click="$refs.chart.save()">Save</button>
+  </div>
 </flowchart\>

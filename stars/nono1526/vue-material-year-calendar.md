@@ -70,7 +70,7 @@ export default {
 }
 </script\>
 
-<style lang\="stylus"\>
+<style lang="stylus">
 .your\_customized\_wrapper\_class
   background-color: #0aa
   color: white
@@ -132,7 +132,7 @@ ex:
 ></year-calendar\>
 </template\>
 
-<style lang\="stylus"\>
+<style lang="stylus">
 .your\_customized\_wrapper\_class
   background-color: #0aa
   color: white

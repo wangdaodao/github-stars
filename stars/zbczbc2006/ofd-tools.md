@@ -71,7 +71,7 @@ const loadOfd \= {
     },
   });
 }
-const displayOfdDiv \= (divs) \=> {
+const displayOfdDiv \= (divs) \=\> {
   ofdview.current.innerHTML \= '';
   for (const div of divs) {
     ofdview.current.appendChild(div);

@@ -1,6 +1,6 @@
 ---
 project: pdfvuer
-stars: 919
+stars: 920
 description: A PDF viewer for Vue using Mozilla's PDF.js that supports both Vue2 and Vue3
 url: https://github.com/arkokoley/pdfvuer
 ---
@@ -30,7 +30,7 @@ Example - basic
 
 <template\>
   <pdf src\="./static/relativity.pdf" :page\="1"\>
-    <template slot\="loading"\>
+    <template slot="loading">
       loading content here...
     </template\>
   </pdf\>
@@ -52,7 +52,7 @@ Example - Advanced
 <template\>
   <div id\="pdfvuer"\>
     <div id\="buttons" class\="ui grey three item inverted bottom fixed menu transition hidden"\>
-      <a class\="item" @click\="page \> 1 ? page\-- : 1"\>
+      <a class\="item" @click\="page > 1 ? page-- : 1"\>
         <i class\="left chevron icon"\></i\>
         Back
       </a\>
@@ -65,7 +65,7 @@ Example - Advanced
       </a\>
     </div\>
     <div id\="buttons" class\="ui grey three item inverted bottom fixed menu transition hidden"\>
-      <a class\="item" @click\="scale \-= scale \> 0.2 ? 0.1 : 0"\>
+      <a class\="item" @click\="scale -= scale > 0.2 ? 0.1 : 0"\>
         <i class\="left chevron icon" />
           Zoom -
       </a\>
@@ -82,7 +82,7 @@ Example - Advanced
         :annotation\="true"
         :resize\="true"
         @link-clicked\="handle\_pdf\_link"\>
-      <template slot\="loading"\>
+      <template slot="loading">
         loading content here...
       </template\>
     </pdf\>
@@ -173,8 +173,8 @@ export default {
   }
 }
 </script\>
-<style src\="pdfvuer/dist/pdfvuer.css"\></style\>
-<style lang\="css" scoped\>
+<style src="pdfvuer/dist/pdfvuer.css"></style\>
+<style lang="css" scoped>
   #buttons {
     margin-left: 0 !important;
     margin-right: 0 !important;

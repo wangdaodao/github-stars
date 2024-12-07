@@ -1,6 +1,6 @@
 ---
 project: API-Admin
-stars: 425
+stars: 426
 description: API 网站内容管理系统 内置 20+ API 接口
 url: https://github.com/5ime/API-Admin
 ---

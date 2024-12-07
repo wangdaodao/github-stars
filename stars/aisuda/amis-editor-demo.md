@@ -1,6 +1,6 @@
 ---
 project: amis-editor-demo
-stars: 2334
+stars: 2339
 description: amis 可视化编辑器示例 https://aisuda.github.io/amis-editor-demo
 url: https://github.com/aisuda/amis-editor-demo
 ---
@@ -46,7 +46,7 @@ render() {
   return (
     <Editor
       {...props}
-    /\>
+    />
   )
 }
 
@@ -219,7 +219,7 @@ import {registerEditorPlugin} from 'amis-editor';
 registerEditorPlugin(MyRendererPlugin);
 
 // 方式2，只让某些编辑器启用
-() \=> <Editor plugins\={\[MyRendererPlugin\]} /\>;
+() \=> <Editor plugins\={\[MyRendererPlugin\]} />;
 
 前面的示例只做了简单的说明，可用属性还有, 具体还是先看 npm 包里面的 .d.ts 文件吧，后面再补充更详细的文档。
 

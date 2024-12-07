@@ -1,6 +1,6 @@
 ---
 project: SM2
-stars: 163
+stars: 164
 description: SM2 国密前端算法代码
 url: https://github.com/Saberization/SM2
 ---

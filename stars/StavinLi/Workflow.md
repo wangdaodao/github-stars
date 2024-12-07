@@ -1,6 +1,6 @@
 ---
 project: Workflow
-stars: 1513
+stars: 1517
 description: 仿钉钉审批流程设置
 url: https://github.com/StavinLi/Workflow
 ---
@@ -41,11 +41,11 @@ workflow钉钉审批流程设置，基于vue开发。 QQ交流群①:639251756 Q
             <div class\="approver\_content"\>
                 <el-radio-group v-model\="approverConfig.settype" class\="clear" @change\="changeType"\>
                     <el-radio :label\="1"\>指定成员</el-radio\>
-                    <el-radio :label\="2"\>主管</el-radio>
-                    <el\-radio :label\="4"\>发起人自选</el-radio>
-                    <el-radio :label\="5"\>发起人自己</el-radio>
-                    <el-radio :label\="7"\>连续多级主管</el-radio>
-                </el\-radio\-group\>
+                    <el-radio :label\="2"\>主管</el-radio\>
+                    <el-radio :label\="4"\>发起人自选</el-radio\>
+                    <el-radio :label\="5"\>发起人自己</el-radio\>
+                    <el-radio :label\="7"\>连续多级主管</el-radio\>
+                </el-radio-group\>
                 ...
 
 1.  节点新增

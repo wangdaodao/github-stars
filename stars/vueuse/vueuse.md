@@ -1,6 +1,6 @@
 ---
 project: vueuse
-stars: 20193
+stars: 20227
 description: Collection of essential Vue Composition Utilities for Vue 2 and 3
 url: https://github.com/vueuse/vueuse
 ---
@@ -66,9 +66,9 @@ Add ons | Nuxt Module
 
 ### CDN
 
-<script src\="https://unpkg.com/@vueuse/shared"\></script\>
+<script src="https://unpkg.com/@vueuse/shared"></script\>
 
-<script src\="https://unpkg.com/@vueuse/core"\></script\>
+<script src="https://unpkg.com/@vueuse/core"></script\>
 
 It will be exposed to global as `window.VueUse`
 

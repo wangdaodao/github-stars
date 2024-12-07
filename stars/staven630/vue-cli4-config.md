@@ -117,7 +117,7 @@ IS\_ANALYZE \= true;
 
 <template\>
   <div class\="home"\>
-    <!\-- template中使用环境变量 \--\>
+    <!-- template中使用环境变量 -->
      API: {{ api }}
   </div\>
 </template\>
@@ -456,7 +456,7 @@ npm i -D svg-sprite-loader
 <template\>
   <svg class\="svg-icon"
        aria-hidden\="true"\>
-    <use :xlink:href\="iconName" /\>
+    <use :xlink:href\="iconName" />
   </svg\>
 </template\>
 

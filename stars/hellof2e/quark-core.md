@@ -1,6 +1,6 @@
 ---
 project: quark-core
-stars: 348
+stars: 347
 description: Open-source, Web Components engine designed for everyone.（用原生 JS 构建跨技术栈组件 / 无框架组件）
 url: https://github.com/hellof2e/quark-core
 ---
@@ -75,7 +75,7 @@ npm run build
 
 import "./lib/your-element"
 
-<my-element count\="count" /\>
+<my-element count\="count" />
 
 // vue
 // <my-element :count="count" />

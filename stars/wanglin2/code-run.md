@@ -1,6 +1,6 @@
 ---
 project: code-run
-stars: 528
+stars: 532
 description: 一个代码在线编辑预览工具，类似codepen、jsbin、jsfiddle等。
 url: https://github.com/wanglin2/code-run
 ---
@@ -247,7 +247,7 @@ export const layoutMap \= {
   </Drag\>
 </template\>
 
-<script setup\>
+<script setup>
 import Editor from '@/components/Editor.vue'
 import Preview from '@/components/Preview.vue'
 import Console from '@/components/Console.vue'

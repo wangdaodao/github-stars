@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 62405
+stars: 62595
 description: The official gpt4free repository | various collection of powerful language models
 url: https://github.com/xtekky/gpt4free
 ---
@@ -32,7 +32,7 @@ docker pull hlohaus789/g4f
 -   **For comprehensive details on new features and updates, please refer to our** Releases **page**
 -   **Installation Guide for Windows (.exe):** 💻 Installation Guide for Windows (.exe)
 -   **Join our Telegram Channel:** 📨 telegram.me/g4f\_channel
--   **Join our Discord Group:** 💬🆕️ discord.gg/vE7gCvss
+-   **Join our Discord Group:** 💬🆕️ discord.gg/qXA4Wf4Fsm
 
 🔻 Site Takedown
 ----------------
@@ -67,6 +67,7 @@ g4f.-.preview.mp4
     -   Local Inference
     -   Configuration
     -   Full Documentation for Python API
+        -   Requests API from G4F
         -   Client API from G4F
         -   AsyncClient API from G4F
 -   🚀 Providers and Models
@@ -108,7 +109,7 @@ docker run \\
   hlohaus789/g4f:latest-slim \\
   rm -r -f /app/g4f/ \\
   && pip install -U g4f\[slim\] \\
-  && python -m g4f.cli api --gui --debug
+  && python -m g4f --debug
 
 It also updates the `g4f` package at startup and installs any new required dependencies.
 
@@ -134,7 +135,7 @@ By following these steps, you should be able to successfully install and run the
 
 Run the **Webview UI** on other Platforms:
 
--   /docs/guides/webview
+-   /docs/webview
 
 ##### Use your smartphone:
 
@@ -192,6 +193,7 @@ client \= Client()
 response \= client.images.generate(
     model\="flux",
     prompt\="a white siamese cat",
+    response\_format\="url"
     \# Add any other necessary parameters
 )
 
@@ -202,6 +204,7 @@ print(f"Generated image URL: {image\_url}")
 
 -   **New:**
     
+    -   **Requests API from G4F:** /docs/requests
     -   **Client API from G4F:** /docs/client
     -   **AsyncClient API from G4F:** /docs/async\_client
 -   **Legacy:**
@@ -231,6 +234,10 @@ The **Interference API** enables seamless integration with OpenAI's services thr
 This API is designed for straightforward implementation and enhanced compatibility with other OpenAI integrations.
 
 ### Configuration
+
+#### Authentication
+
+Refer to the G4F Authentication Setup Guide for detailed instructions on setting up authentication.
 
 #### Cookies
 

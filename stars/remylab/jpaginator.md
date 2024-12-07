@@ -1,6 +1,6 @@
 ---
 project: jpaginator
-stars: 58
+stars: 57
 description: A JQuery plugin for pagination with a slider
 url: https://github.com/remylab/jpaginator
 ---

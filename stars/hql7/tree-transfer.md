@@ -42,11 +42,13 @@ el-tree-fransfer 是一个基于 VUE 和 element-ui 的树形穿梭框组件，�
         ...
         // 使用树形穿梭框组件
         <tree-transfer :title\="title" :from\_data='fromData' :to\_data='toData' :defaultProps="{label:'label'}" @add-btn='add' @remove-btn='remove' :mode='mode' height='540px' filter openAll>
-      </tree-transfer>
-      </div>
-    </template>
-    <script>
+      </tree\-transfer\>
+      </div\>
+    </template\>
+
+    <script\>
       import treeTransfer from 'el-tree-transfer' // 引入
+
       export defult {
         data(){
           return:{

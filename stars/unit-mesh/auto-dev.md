@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 2880
+stars: 2892
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---
@@ -42,7 +42,7 @@ AutoDev Feature Overview
 
 Features:
 
--   Languages support: Java, Kotlin, JavaScript/TypeScript, Rust, Python, Golang, C/C++/OC, or others...
+-   Languages support: Java, Kotlin, JavaScript/TypeScript, Rust, Python, Golang, C/C++/OC (TBC), or others...
 -   Auto development mode
     -   AutoCRUD (Spring framework）. With DevTi Protocol (like `devti://story/github/1102`) will auto generate Model-Controller-Service-Repository code.
     -   AutoSQL (required Database plugin). Context-aware SQL generation.

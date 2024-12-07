@@ -1,6 +1,6 @@
 ---
 project: el-table-virtual-scroll
-stars: 242
+stars: 244
 description: 基于Element-UI的Table 组件开发的虚拟滚动组件，支持动态高度，解决数据量大时滚动卡顿的问题。
 url: https://github.com/xiaocheng555/el-table-virtual-scroll
 ---
@@ -43,13 +43,13 @@ $ npm i el-table-virtual-scroll -S
 <virtual-scroll
   :data\="list"
   :item-size\="62"
-  key-prop\="id"
+  key-prop="id"
   @change\="(renderData) \=> virtualList \= renderData"\>
   <el-table 
-    row-key\="id" 
-    :data\="virtualList" 
-    height\="500px"\>
-  </el-table\>
+    row-key="id" 
+    :data="virtualList" 
+    height="500px">
+  </el-table>
 </virtual-scroll\>
 ...
 
@@ -309,7 +309,7 @@ import { VirtualColumn } from 'el-table-virtual-scroll'
 
 ...
 
-<virtual\-column type\="index/selection/radio/expand/tree"\></virtual-column\>
+<virtual-column type\="index/selection/radio/expand/tree"\></virtual-column\>
 
 ### Props
 

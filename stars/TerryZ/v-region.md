@@ -76,7 +76,7 @@ app.component('v-region-selects', RegionSelects)
     @change\="change"
   />
 </template\>
-<script setup lang\="ts"\>
+<script setup lang="ts">
 import { ref } from 'vue'
 import { RegionSelects } from 'v-region'
 import type { RegionValues, RegionModel } from 'v-region'

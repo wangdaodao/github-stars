@@ -1,6 +1,6 @@
 ---
 project: awesome-free-chatgpt
-stars: 18675
+stars: 18760
 description: 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated. 
 url: https://github.com/LiLittleCat/awesome-free-chatgpt
 ---
@@ -27,8 +27,6 @@ Awesome Free ChatGPT
 🏆 赞助商 🏆
 
 👉 WikeAI 支持 OpenAI 全系模型（GPT 3.5 Trubo、GPT 4o Mini、o1 Mini 免费），支持 Claude3.5，Gemini 1.5（Gemini 1.0 免费），Llama 3，Qwen（免费）等模型。
-
-👉 RawChat 公益站点 RawChat 公益站点，免费 GPT4，免费 Claude3.5，无需登录，打开即用。
 
 * * *
 

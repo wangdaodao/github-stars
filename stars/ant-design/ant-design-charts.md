@@ -1,6 +1,6 @@
 ---
 project: ant-design-charts
-stars: 1960
+stars: 1963
 description: A React Chart Library
 url: https://github.com/ant-design/ant-design-charts
 ---
@@ -56,7 +56,7 @@ const Page: React.FC \= () \=> {
     yField: 'value',
   };
 
-  return <Line {...props} /\>
+  return <Line {...props} />
 };
 export default Page;
 

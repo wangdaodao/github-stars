@@ -1,6 +1,6 @@
 ---
 project: vue-pdf
-stars: 2235
+stars: 2237
 description: vue.js pdf viewer
 url: https://github.com/FranckFreiburger/vue-pdf
 ---
@@ -130,8 +130,8 @@ Examples
 		{{currentPage}} / {{pageCount}}
 		<pdf
 			src\="https://cdn.mozilla.net/pdfjs/tracemonkey.pdf"
-			@num-pages\="pageCount \= $event"
-			@page-loaded\="currentPage \= $event"
+			@num-pages\="pageCount = $event"
+			@page-loaded\="currentPage = $event"
 		></pdf\>
 	</div\>
 </template\>
@@ -246,11 +246,11 @@ export default {
 		</select\>
 		<input v-model.number\="page" type\="number" style\="width: 5em"\> /{{numPages}}
 		<button @click\="rotate += 90"\>&#x27F3;</button\>
-		<button @click\="rotate \-= 90"\>&#x27F2;</button\>
+		<button @click\="rotate -= 90"\>&#x27F2;</button\>
 		<button @click\="$refs.pdf.print()"\>print</button\>
 		<div style\="width: 50%"\>
-			<div v-if\="loadedRatio \> 0 && loadedRatio < 1" style\="background-color: green; color: white; text-align: center" :style\="{ width: loadedRatio \* 100 + '%' }"\>{{ Math.floor(loadedRatio \* 100) }}%</div\>
-			<pdf v-if\="show" ref\="pdf" style\="border: 1px solid red" :src\="src" :page\="page" :rotate\="rotate" @password\="password" @progress\="loadedRatio \= $event" @error\="error" @num-pages\="numPages \= $event" @link-clicked\="page \= $event"\></pdf\>
+			<div v-if\="loadedRatio > 0 && loadedRatio < 1" style\="background-color: green; color: white; text-align: center" :style\="{ width: loadedRatio \* 100 + '%' }"\>{{ Math.floor(loadedRatio \* 100) }}%</div\>
+			<pdf v-if\="show" ref\="pdf" style\="border: 1px solid red" :src\="src" :page\="page" :rotate\="rotate" @password\="password" @progress\="loadedRatio = $event" @error\="error" @num-pages\="numPages = $event" @link-clicked\="page = $event"\></pdf\>
 		</div\>
 	</div\>
 </template\>

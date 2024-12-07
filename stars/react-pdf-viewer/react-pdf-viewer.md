@@ -1,6 +1,6 @@
 ---
 project: react-pdf-viewer
-stars: 2301
+stars: 2307
 description: A React component to view a PDF document
 url: https://github.com/react-pdf-viewer/react-pdf-viewer
 ---
@@ -30,7 +30,7 @@ const defaultLayoutPluginInstance \= defaultLayoutPlugin();
         defaultLayoutPluginInstance,
         ...
     \]}
-/\>
+/>
 
 Features
 --------

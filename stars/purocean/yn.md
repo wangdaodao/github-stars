@@ -1,6 +1,6 @@
 ---
 project: yn
-stars: 5655
+stars: 5671
 description: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
 url: https://github.com/purocean/yn
 ---
@@ -48,7 +48,7 @@ For more information on how to use the following functions, please see character
 -   **To-do list:** support to display the to-do progress in the document. Click to quickly switch the to-do status.
 -   **Quickly Open:** you can use shortcut key to open the file switch panel to quickly open files, tagged files, and full-text search for file contents.
 -   **Integrated terminal:** support to open the terminal in the editor to quickly switch the current working directory
--   **Katex:** support katex expression
+-   **LaTeX:** support LaTeX expression
 -   **Style:** Markdown uses GitHub styles and features
 -   **Repository:** multiple data locations can be defined for document classification
 -   **External link conversion:** convert external link or Base64 pictures into local pictures

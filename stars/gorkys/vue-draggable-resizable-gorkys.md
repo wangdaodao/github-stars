@@ -1,6 +1,6 @@
 ---
 project: vue-draggable-resizable-gorkys
-stars: 1204
+stars: 1205
 description: Vue 用于可调整大小和可拖动元素的组件并支持冲突检测、元素吸附、元素对齐、辅助线
 url: https://github.com/gorkys/vue-draggable-resizable-gorkys
 ---
@@ -104,17 +104,17 @@ VueDraggableResizable 2
 返回参数是一个Object,里面包含`vLine`与`hLine`，具体使用参考下面代码。
 
 <div\>
-  <vue-draggable-resizable :snap\="true" :snap-tolerance\="20" @refLineParams\="getRefLineParams" />
-  <vue-draggable-resizable :snap\="true" :snap-tolerance\="20" @refLineParams\="getRefLineParams" />
-  <span class\="ref-line v-line"
-      v-for\="item in vLine"
-      v-show\="item.display"
-      :style\="{ left: item.position, top: item.origin, height: item.lineLength}"
+  <vue-draggable-resizable :snap="true" :snap-tolerance="20" @refLineParams="getRefLineParams" />
+  <vue-draggable-resizable :snap="true" :snap-tolerance="20" @refLineParams="getRefLineParams" />
+  <span class="ref-line v-line"
+      v-for="item in vLine"
+      v-show="item.display"
+      :style="{ left: item.position, top: item.origin, height: item.lineLength}"
   />
-  <span class\="ref-line h-line"
-      v-for\="item in hLine"
-      v-show\="item.display"
-      :style\="{ top: item.position, left: item.origin, width: item.lineLength}"
+  <span class="ref-line h-line"
+      v-for="item in hLine"
+      v-show="item.display"
+      :style="{ top: item.position, left: item.origin, width: item.lineLength}"
   />
 </div\>
 

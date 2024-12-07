@@ -1,6 +1,6 @@
 ---
 project: my-tv-0
-stars: 2043
+stars: 2105
 description: 電視網絡視頻播放軟件，可以自定義視頻源
 url: https://github.com/lizongying/my-tv-0
 ---
@@ -25,6 +25,7 @@ my-tv-0
 
 注意：
 
+-   遇到問題可以先考慮重啟/恢復默認/清除數據/重新安裝等方式自助解決
 -   視頻源可以設置為本地文件，格式如：file:///mnt/sdcard/tmp/channels.m3u /channels.m3u
 
 目前支持的配置格式：

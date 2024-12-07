@@ -1,6 +1,6 @@
 ---
 project: fes.js
-stars: 1462
+stars: 1469
 description: Fes.js 是一个基于 Vue 3 好用的前端应用解决方案。以约定、配置化、组件化的设计思想，让用户仅仅关心用组件搭建页面内容。技术曲线平缓，上手也简单。在经过多个项目中打磨后趋于稳定。丰富的 Vue 3 生态 和 Fes.js 插件，让业务开发更加简单快捷~
 url: https://github.com/WeBankFinTech/fes.js
 ---

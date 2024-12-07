@@ -1,6 +1,6 @@
 ---
 project: vue-pdf-embed
-stars: 748
+stars: 752
 description: PDF embed component for Vue 2 and Vue 3
 url: https://github.com/hrynko/vue-pdf-embed
 ---
@@ -39,7 +39,7 @@ yarn add vue-pdf-embed
 Usage
 -----
 
-<script setup\>
+<script setup>
 import VuePdfEmbed from 'vue-pdf-embed'
 // optional styles
 import 'vue-pdf-embed/dist/styles/annotationLayer.css'
@@ -247,7 +247,7 @@ GlobalWorkerOptions.workerSrc \= PdfWorker
 
 Typically, document loading is internally handled within the component. However, for optimization purposes, the document can be loaded in the `useVuePdfEmbed` composable function and then passed as the `source` prop of the component (e.g. when sharing the source between multiple instances of the component).
 
-<script setup\>
+<script setup>
 import VuePdfEmbed, { useVuePdfEmbed } from 'vue-pdf-embed'
 const { doc } \= useVuePdfEmbed({ source: '<PDF\_URL>' })
 </script\>
@@ -270,8 +270,8 @@ The path to predefined CMaps should be specified to ensure correct rendering of 
 The image resource path must be specified for annotations to display correctly:
 
 <VuePdfEmbed
-  image-resources-path\="https://unpkg.com/pdfjs-dist/web/images/"
-  source\="<PDF\_URL>"
+  image-resources-path="https://unpkg.com/pdfjs-dist/web/images/"
+  source="<PDF\_URL>"
 />
 
 **Note:** The examples above use a CDN to load resources, however these resources can also be included in the build by installing the `pdfjs-dist` package as a dependency and further configuring the bundler.

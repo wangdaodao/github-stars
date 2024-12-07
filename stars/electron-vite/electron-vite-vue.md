@@ -1,6 +1,6 @@
 ---
 project: electron-vite-vue
-stars: 4326
+stars: 4343
 description: 🥳 Really simple Electron + Vite + Vue boilerplate.
 url: https://github.com/electron-vite/electron-vite-vue
 ---

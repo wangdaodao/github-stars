@@ -1,6 +1,6 @@
 ---
 project: gitstars
-stars: 1163
+stars: 1164
 description: Github Starred Repositories Manager
 url: https://github.com/cfour-hi/gitstars
 ---

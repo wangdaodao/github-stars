@@ -1,6 +1,6 @@
 ---
 project: vue-pdf-app
-stars: 225
+stars: 226
 description: VUEjs v2 PDF viewer based on Mozilla's PDFJS
 url: https://github.com/sandanat/vue-pdf-app
 ---
@@ -101,7 +101,7 @@ API
 -   Required: `false`
 -   Usage:
 
-<vue-pdf-app pdf\="https://example.com/sample.pdf" />
+<vue-pdf-app pdf="https://example.com/sample.pdf" />
 <vue-pdf-app :pdf\="ArrayBuffer" />
 
 :title
@@ -122,7 +122,7 @@ API
 -   Required: `false`
 -   Usage:
 
-<vue-pdf-app theme\="dark" />
+<vue-pdf-app theme="dark" />
 <vue-pdf-app :theme\="theme" />
 <vue-pdf-app :theme.sync\="theme" />
 
@@ -134,7 +134,7 @@ new :fileName
 -   Required: `false`
 -   Usage:
 
-<vue-pdf-app :pdf\="ArrayBuffer" file-name\="file name" />
+<vue-pdf-app :pdf\="ArrayBuffer" file-name="file name" />
 
 new :pageScale
 --------------
@@ -145,7 +145,7 @@ new :pageScale
 -   Usage:
 
 // 20%
-<vue-pdf-app page-scale\="20" />
+<vue-pdf-app page-scale="20" />
 <vue-pdf-app :page-scale\="20" />
 <vue-pdf-app :page-scale\="page\-actual" />
 
@@ -323,9 +323,9 @@ Each slot has props:
     
 
 <vue-pdf-app\>
-  <template #toolbar-left-prepend\="{ toggleTheme }"\>
-    <button @click\="toggleTheme" type\="button"\>Toggle theme</button\>
-  </template\>
+  <template #toolbar-left-prepend="{ toggleTheme }">
+    <button @click="toggleTheme" type="button">Toggle theme</button>
+  </template>
 </vue-pdf-app\>
 
 Color customization (IE11 not supported)
@@ -617,9 +617,9 @@ Algorithm of theme apply
 Toggle theme button is not implemented by default. It's up to you to decide where to place it. The button can be implemented with slots:
 
 <vue-pdf-app\>
-  <template #footer\="{ toggleTheme }"\>
-    <button @click\="toggleTheme" type\="button"\>Toggle theme</button\>
-  </template\>
+  <template #footer="{ toggleTheme }">
+    <button @click="toggleTheme" type="button">Toggle theme</button>
+  </template>
 </vue-pdf-app\>
 
 Localized panel
@@ -677,7 +677,7 @@ Typescript
   </div\>
 </template\>
 
-<script lang\="ts"\>
+<script lang="ts">
 import "vue-pdf-app/dist/icons/main.css";
 import VuePdfApp from "vue-pdf-app";
 import { Component, Vue } from "vue-property-decorator";

@@ -176,7 +176,7 @@ function App() {
                         UEDITOR\_HOME\_URL: '/static/UEditorPlus/',
                         UEDITOR\_CORS\_URL: '/static/UEditorPlus/',
                     }}
-                    onChange\={hanldeChage}/\>
+                    onChange\={hanldeChage}/>
             </div\>
         </div\>
     );

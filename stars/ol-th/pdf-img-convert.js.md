@@ -271,7 +271,7 @@ export default function PDFUploader() {
                 name\="fileUpload"
                 multiple
                 accept\=".pdf"
-            /\>
+            />
             <button type\="submit"\>Submit</button\>
         </form\>
         {errorMessage && (

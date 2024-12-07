@@ -51,7 +51,7 @@ Usage
 
 You can use it as a directive. Both `v-lazy-show` and `v-show.lazy` are supported and equivalent.
 
-<script setup lang\="ts"\>
+<script setup lang="ts">
 const show \= ref(false)
 </script\>
 

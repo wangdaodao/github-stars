@@ -185,7 +185,7 @@ false
     如:
     
     <div @contextmenu\="$easycm($event,$root,1)"\>
-        <p @contextmenu\="$easycm($event,$root,2)"\></p\>
+        <p @contextmenu="$easycm($event,$root,2)"></p>
     </div\>
     <easy-cm :tag\="1"\></easy-cm\>
     <easy-cm :tag\="2"\></easy-cm\>

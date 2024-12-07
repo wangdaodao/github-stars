@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2044
+stars: 2063
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Kilchurn Castle reflected in Loch Awe, Argyll and Bute, Scotland (© Tom Mackie/plainpicture)
+Today: Pearl Harbor Memorial Bridge, New Haven, Connecticut (© Enzo Figueres/Getty Images)
+
+2024-12-08 download 4k
+
+2024-12-07 download 4k
+
+2024-12-06 download 4k
+
+2024-12-05 download 4k
+
+2024-12-04 download 4k
+
+2024-12-03 download 4k
+
+2024-12-02 download 4k
 
 2024-12-01 download 4k
 
@@ -55,20 +69,6 @@ Today: Kilchurn Castle reflected in Loch Awe, Argyll and Bute, Scotland (© Tom 
 2024-11-10 download 4k
 
 2024-11-09 download 4k
-
-2024-11-08 download 4k
-
-2024-11-07 download 4k
-
-2024-11-06 download 4k
-
-2024-11-05 download 4k
-
-2024-11-04 download 4k
-
-2024-11-03 download 4k
-
-2024-11-02 download 4k
 
 ### 历史归档：
 
