@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25555
+stars: 25567
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,8 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2024.12.08) —— 第2063天
+🕟 今天的知识点 (2024.12.15) —— 第2070天
 --------------------------------
+
+        :one: \[js\] 跨页面如何进行通信？有哪些方法？
 
 ### 🐫 历史题目
 
@@ -70,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2062天 (2024.12.07)  
-    1️⃣ \[webpack\] 使用webpack打包时，如何区分本地开发和线上部署环境？
+-   第2069天 (2024.12.14)  
+    1️⃣ \[html\] 使用svg有什么优势？
     
 -   **查看全部**
     

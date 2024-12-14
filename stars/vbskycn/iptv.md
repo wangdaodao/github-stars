@@ -1,6 +1,6 @@
 ---
 project: iptv
-stars: 1617
+stars: 1689
 description: iptv最新可用直播源iptv4/iptv6。直播电视系统，这里有折腾好了的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
@@ -33,7 +33,7 @@ Home
 📺 自动扫描直播源 IPTV6：
 -----------------
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2024-12-08 00:19:26
+部署在服务器上的程序自动扫描而来，本次更新时间: 2024-12-15 06:17:05
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 
@@ -57,18 +57,20 @@ https://live.zbds.top/tv/iptv6.m3u
 
 快速复制
 
-\*\*有的地方已经屏蔽本站域名了，如果打开失败，请使用加速度地址访问\*\*
+\*有地方的宽带运营商已经污染本站域名了，免费使用的都封... 如果你打开失败，请使用加速地址访问\*
 
 ```
 https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.txt
+```
 
+```
 https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u
 ```
 
 📺 自动扫描直播源 IPTV4：
 -----------------
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2024-12-08 00:19:26
+部署在服务器上的程序自动扫描而来，本次更新时间: 2024-12-15 06:17:05
 
 名称
 
@@ -88,11 +90,13 @@ https://live.zbds.top/tv/iptv4.m3u
 
 快速复制
 
-\*\*有的地方已经屏蔽本站域名了，如果打开失败，请使用加速度地址访问\*\*
+\*有地方的宽带运营商已经污染本站域名了，免费使用的都封... 如果你打开失败，请使用加速地址访问\*
 
 ```
 https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
+```
 
+```
 https://ghp.ci/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
 ```
 
@@ -134,6 +138,7 @@ EPG 接口地址：
 📔 更新
 -----
 
+-   2024.12.13 跟着节奏继续优化
 -   2024.10.18 优化测试有效源代码
 -   2024.9.9 直播源失效速度太快，新添加deibian服务器，每日三次更新
 -   2024.8.27 新增一些道

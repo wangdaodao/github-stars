@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2063
+stars: 2072
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Pearl Harbor Memorial Bridge, New Haven, Connecticut (© Enzo Figueres/Getty Images)
+Today: Northern hawk-owl, Canada (© pchoui/Getty Images)
+
+2024-12-15 download 4k
+
+2024-12-14 download 4k
+
+2024-12-13 download 4k
+
+2024-12-12 download 4k
+
+2024-12-11 download 4k
+
+2024-12-10 download 4k
+
+2024-12-09 download 4k
 
 2024-12-08 download 4k
 
@@ -55,20 +69,6 @@ Today: Pearl Harbor Memorial Bridge, New Haven, Connecticut (© Enzo Figueres/Ge
 2024-11-17 download 4k
 
 2024-11-16 download 4k
-
-2024-11-15 download 4k
-
-2024-11-14 download 4k
-
-2024-11-13 download 4k
-
-2024-11-12 download 4k
-
-2024-11-11 download 4k
-
-2024-11-10 download 4k
-
-2024-11-09 download 4k
 
 ### 历史归档：
 

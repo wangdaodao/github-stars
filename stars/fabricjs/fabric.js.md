@@ -1,6 +1,6 @@
 ---
 project: fabric.js
-stars: 29253
+stars: 29297
 description: Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 url: https://github.com/fabricjs/fabric.js
 ---
@@ -148,7 +148,7 @@ export const FabricJSCanvas \= () \=> {
     }
   }, \[\]);
 
-  return <canvas width\="300" height\="300" ref\={canvasEl}/\>;
+  return <canvas width\="300" height\="300" ref\={canvasEl}/>;
 };
 
 **Node.js**

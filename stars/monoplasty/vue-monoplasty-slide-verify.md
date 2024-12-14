@@ -1,6 +1,6 @@
 ---
 project: vue-monoplasty-slide-verify
-stars: 747
+stars: 746
 description: vue slide verify online preview
 url: https://github.com/monoplasty/vue-monoplasty-slide-verify
 ---

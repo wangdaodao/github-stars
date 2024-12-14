@@ -1,6 +1,6 @@
 ---
 project: pdf-annotate.js
-stars: 547
+stars: 548
 description: Annotation layer for pdf.js (no longer maintained)
 url: https://github.com/instructure/pdf-annotate.js
 ---

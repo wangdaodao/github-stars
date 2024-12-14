@@ -1,6 +1,6 @@
 ---
 project: vue-easytable
-stars: 3722
+stars: 3727
 description: A  powerful data table based on vuejs. You can use  it as data grid、Microsoft Excel or Google sheets. It supports virtual scroll、cell edit etc. 
 url: https://github.com/Happy-Coding-Clans/vue-easytable
 ---

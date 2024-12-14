@@ -1,6 +1,6 @@
 ---
 project: form-create
-stars: 6193
+stars: 6202
 description: :fire::fire::fire: 强大的低代码动态表单组件，通过JSON数据驱动表单渲染，适配移动端，支持可视化设计。提高开发者对表单的开发效率。目前在政务系统、OA系统、ERP系统、电商系统、流程管理等系统中已稳定应用。
 url: https://github.com/xaboy/form-create
 ---
@@ -20,16 +20,10 @@ url: https://github.com/xaboy/form-create
 -   支持子表单和分组
 -   高性能
 -   **适配移动端**
+-   **多语言**
 
 支持的UI框架
 -------
-
--   element-plus
--   ant-design-vue
--   naive-ui
--   arco-design
--   tdesign
--   vant
 
 > 如果对您有帮助，您可以点右上角 "Star" 支持一下 谢谢！本项目还在不断开发完善中,如有任何建议或问题请在这里提出
 
@@ -78,6 +72,14 @@ naive-ui 版本
 
 tdesign 版本
 
+@form-create/iview
+
+iview 版本
+
+@form-create/view-design
+
+view-design 版本
+
 @form-create/vant
 
 vant 版本(移动端)
@@ -85,6 +87,10 @@ vant 版本(移动端)
 @form-create/designer
 
 可视化表单设计器
+
+@form-create/vant-designer
+
+移动端表单设计器
 
 示例
 --

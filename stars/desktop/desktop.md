@@ -1,6 +1,6 @@
 ---
 project: desktop
-stars: 19958
+stars: 19978
 description: Focus on what matters instead of fighting with Git.
 url: https://github.com/desktop/desktop
 ---

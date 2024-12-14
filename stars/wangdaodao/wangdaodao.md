@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-08 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-15 06:19.
 
 📝 Hitokoto
 -----------
 
-> 装作拥有某样品质，实际上就等于承认了自己并没有这样品质。—— 叔本华
+> 幸运的人一生都在被童年治愈，不幸的人一生都在治愈童年。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Pearl Harbor Memorial Bridge, New Haven, Connecticut (© Enzo Figueres/Getty Images)_
+_Northern hawk-owl, Canada (© pchoui/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

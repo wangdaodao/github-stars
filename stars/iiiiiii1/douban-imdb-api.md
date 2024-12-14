@@ -1,6 +1,6 @@
 ---
 project: douban-imdb-api
-stars: 693
+stars: 696
 description: 一个基于豆瓣、IMDB、烂番茄评分的电影电视剧双语(中英)数据api接口
 url: https://github.com/iiiiiii1/douban-imdb-api
 ---

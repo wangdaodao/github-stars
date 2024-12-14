@@ -1,6 +1,6 @@
 ---
 project: mind-map
-stars: 6835
+stars: 6947
 description: 一个还算强大的Web思维导图。A relatively powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---
@@ -46,7 +46,7 @@ Github：releases。百度云盘：地址。
 
 官方提供了如下插件，可根据需求按需引入（某个功能不生效大概率是因为你没有引入对应的插件），具体使用方式请查看文档：
 
-> RichText（节点富文本插件）、Select（鼠标多选节点插件）、Drag（节点拖拽插件）、AssociativeLine（关联线插件）、Export（导出插件）、KeyboardNavigation（键盘导航插件）、MiniMap（小地图插件）、Watermark（水印插件）、TouchEvent（移动端触摸事件支持插件）、NodeImgAdjust（拖拽调整节点图片大小插件）、Search（搜索插件）、Painter（节点格式刷插件）、Scrollbar（滚动条插件）、Formula（数学公式插件）、Cooperate（协同编辑插件）、RainbowLines（彩虹线条插件）、Demonstrate（演示模式插件）、OuterFrame（外框插件）、HandDrawnLikeStyle（手绘风格插件）\[收费\]、Notation（节点标记插件）\[收费\]、Numbers（节点编号插件）\[收费\]、Freemind（Freemind格式导入导出插件）\[收费\]、Excel（Excel格式导入导出插件）\[收费\]、Checkbox（待办插件）\[收费\]
+> RichText（节点富文本插件）、Select（鼠标多选节点插件）、Drag（节点拖拽插件）、AssociativeLine（关联线插件）、Export（导出插件）、KeyboardNavigation（键盘导航插件）、MiniMap（小地图插件）、Watermark（水印插件）、TouchEvent（移动端触摸事件支持插件）、NodeImgAdjust（拖拽调整节点图片大小插件）、Search（搜索插件）、Painter（节点格式刷插件）、Scrollbar（滚动条插件）、Formula（数学公式插件）、Cooperate（协同编辑插件）、RainbowLines（彩虹线条插件）、Demonstrate（演示模式插件）、OuterFrame（外框插件）、MindMapLayoutPro（思维导图布局插件）、HandDrawnLikeStyle（手绘风格插件）\[收费\]、Notation（节点标记插件）\[收费\]、Numbers（节点编号插件）\[收费\]、Freemind（Freemind格式导入导出插件）\[收费\]、Excel（Excel格式导入导出插件）\[收费\]、Checkbox（待办插件）\[收费\]、Lineflow（节点连线流动插件）\[收费\]
 
 本项目不会实现的特性：
 
@@ -89,14 +89,12 @@ const mindMap \= new MindMap({
   },
 });
 
-即可得到一个思维导图。
-
-想要实现更多功能？可以查看开发文档。
+即可得到一个思维导图。想要实现更多功能？可以查看开发文档。
 
 License
 =======
 
-MIT。保留`mind-map`版权声明的情况下可随意商用。如不想保留可联系作者。
+MIT。保留`mind-map`版权声明的情况下可随意商用，如不想保留可联系作者。
 
 微信交流群
 =====
@@ -116,12 +114,25 @@ star
 请作者喝杯咖啡
 =======
 
-开源不易，如果本项目有帮助到你的话，可以考虑请作者喝杯咖啡~
+开源不易，如果本项目有帮助到你的话，可以考虑请作者喝杯咖啡~你的赞助对项目的可持续发展非常重要，是作者持续维护的最大动力。
 
 > 推荐使用支付宝，微信获取不到头像。转账请备注【思维导图】。
 > 
 > 也可以通过购买付费插件来支持我们：付费插件。
 > 
-> 为什么需要你的赞助：simple-mind-map 的目标是成为开源中最好的思维导图，为开发者提供一个快速实现思维导图产品的js库，为用户提供一个免费好用的思维导图软件，为了这个目标，作者已经持续开发维护了3年多，耗费了非常多的精力，随着时间的推移，simple-mind-map 已经取得了一定的成绩，相比最初，无论是功能，还是体验都已经有了翻天覆地的改变，但是收益方面却可以忽略不计，因为 simple-mind-map 是采用 MIT 许可的开源项目，永久免费，保留版权下可随意商用，这也意味着很难直接通过项目获取收益，为爱发电的激情总会慢慢消退，所以你的赞助对项目的可持续发展非常重要，是作者持续维护的最大动力。
+> 赞助等级：最强王者（￥500+）、星耀赞助（￥300+）、钻石赞助（￥150+）、黄金赞助（￥50+）、青铜赞助
 
-Think 志斌 小土渣的宇宙 qp ZXR 花儿朵朵 suka Chris 水车 仓鼠 千帆 才镇 小米bbᯤ²ᴳ \*棐 Luke 布林 南风 蜉蝣撼大叔 乙 敏 沐风牧草 有希 樊笼 达仁科技 小逗比 天清如愿 敬明朗 飞箭 戚永峰 moom 张扬 长沙利奥软件 HaHN 继龙 欣 易空小易 国发 建明 汪津合 博文 慕智打印-兰兰 锦冰 旭东 俊奇 橘半 pluvet 皇登攀 风格 SR 逆水行舟 LiuJL L sunniberg 在下青铜五 木星二号 阿晨 铁 庆国 Alex 子豪 宏涛 最多5个字 雨馨 ZX 峰 协成 木木 好名字 Kyle lsytyrt 秀树因馨雨 buddy 小川 Tobin 夏虫不语冰 晴空 黄泳 ccccs 。 Jeffrey 张文建 炫 Lawliet 一叶孤舟 晏江 Eric Joe 中文网字计划-江夏尧 梁辉 海云 皮老板 h.r.w Matt 时光匆匆 广兴 一亩三
+钻石赞助
+----
+
+黄智彪@一米一栗科技
+
+黄金赞助
+----
+
+小土渣的宇宙 Chris 仓鼠 风格 LiuJL Kyle 秀树因馨雨 黄泳 ccccs 炫 晏江 梁辉 千帆 布林 达仁科技 沐风牧草 俊奇 庆国 Matt 雨馨 峰
+
+青铜赞助
+----
+
+Think 志斌 qp ZXR 花儿朵朵 suka 水车 才镇 小米bbᯤ²ᴳ \*棐 Luke 南风 蜉蝣撼大叔 乙 敏 有希 樊笼 小逗比 天清如愿 敬明朗 飞箭 戚永峰 moom 张扬 长沙利奥软件 HaHN 继龙 欣 易空小易 国发 建明 汪津合 博文 慕智打印-兰兰 锦冰 旭东 橘半 pluvet 皇登攀 SR 逆水行舟 L sunniberg 在下青铜五 木星二号 阿晨 铁 Alex 子豪 宏涛 最多5个字 ZX 协成 木木 好名字 lsytyrt buddy 小川 Tobin 夏虫不语冰 晴空 。 Jeffrey 张文建 Lawliet 一叶孤舟 Eric Joe 中文网字计划-江夏尧 海云 皮老板 h.r.w 时光匆匆 广兴 一亩三 xbkkjbs0246658 4399行星元帅 Xavier

@@ -1,6 +1,6 @@
 ---
 project: vue-json-excel
-stars: 687
+stars: 688
 description: null
 url: https://github.com/jecovier/vue-json-excel
 ---

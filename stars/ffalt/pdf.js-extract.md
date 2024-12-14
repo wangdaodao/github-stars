@@ -1,6 +1,6 @@
 ---
 project: pdf.js-extract
-stars: 216
+stars: 218
 description: nodejs lib for extracting data from PDF files
 url: https://github.com/ffalt/pdf.js-extract
 ---

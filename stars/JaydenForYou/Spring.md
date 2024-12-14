@@ -1,6 +1,6 @@
 ---
 project: Spring
-stars: 140
+stars: 141
 description: 响应式TYPECHO主题
 url: https://github.com/JaydenForYou/Spring
 ---

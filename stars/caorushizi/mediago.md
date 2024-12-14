@@ -1,6 +1,6 @@
 ---
 project: mediago
-stars: 4981
+stars: 5115
 description: m3u8[m3u8-downloader] 视频在线提取工具 流媒体下载 、视频下载 、 m3u8下载 、 B站视频下载 桌面客户端 windows mac
 url: https://github.com/caorushizi/mediago
 ---
@@ -73,6 +73,15 @@ Releases
 -   【mediago】 macos x64（intel 芯片） v3.0.0
 -   【mediago】 linux v3.0.0
 -   【mediago】 docker v3.0 `docker run -d --name mediago -p 8899:8899 -v /root/mediago:/root/mediago registry.cn-beijing.aliyuncs.com/caorushizi/mediago:v3.0.0`
+
+### docker 宝塔面板一键部署（推荐）
+
+1.  安装宝塔面板，前往 宝塔面板 官网，选择正式版的脚本下载安装
+    
+2.  安装后登录宝塔面板，在菜单栏中点击 `Docker`，首次进入会提示安装`Docker`服务，点击立即安装，按提示完成安装
+    
+3.  安装完成后在应用商店中找到`MediaGo`，点击安装，配置域名等基本信息即可完成安装
+    
 
 ### 软件截图
 

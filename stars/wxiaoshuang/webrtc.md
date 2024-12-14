@@ -1,6 +1,6 @@
 ---
 project: webrtc
-stars: 46
+stars: 47
 description: an demo of webrtc about video chat
 url: https://github.com/wxiaoshuang/webrtc
 ---

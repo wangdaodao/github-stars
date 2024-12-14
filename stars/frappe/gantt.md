@@ -1,118 +1,74 @@
 ---
 project: gantt
-stars: 4774
+stars: 4781
 description: Open Source Javascript Gantt
 url: https://github.com/frappe/gantt
 ---
 
 Frappe Gantt
+============
+
+**A modern, configurable, Gantt library for the web.**
+
+Frappe Gantt
 ------------
 
-A simple, interactive, modern gantt chart library for the web
+Gantt charts are bar charts that visually illustrate a project's tasks, schedule, and dependencies. With Frappe Gantt, you can build beautiful, customizable, Gantt charts with ease.
 
-**View the demo »**
+You can use it anywhere from hobby projects to tracking the goals of your team at the worksplace.
 
-### Install
+ERPNext uses Frappe Gantt.
 
-```
+### Motivation
+
+I needed a Gantt View for ERPNext. Surprisingly, I couldn't find a visually appealing Gantt library that was open source - so I decided to build it. Initially, the design was heavily inspired by Google Gantt and DHTMLX.
+
+### Key Features
+
+-   **Customizable Views**: customize the timeline based on various time periods - day, hour, or year, you have it. You can also create your own views.
+-   **Ignore Periods**: exclude weekends and other holidays from your tasks' progress calculation.
+-   **Configure Anything**: spacing, edit access, labels, you can control it all. Change both the style and functionality to meet your needs.
+-   **Multi-lingual Support**: suitable for companies with an international base.
+
+Usage
+-----
+
+Install with:
+
 npm install frappe-gantt
-```
-
-### Usage
 
 Include it in your HTML:
 
-```
-<script src="frappe-gantt.min.js"></script>
-<link rel="stylesheet" href="frappe-gantt.css">
-```
+<script src\="frappe-gantt.umd.js"\></script\>
+<link rel\="stylesheet" href\="frappe-gantt.css"\>
 
 Or from the CDN:
 
-```
-<script src="https://cdn.jsdelivr.net/npm/frappe-gantt/dist/frappe-gantt.umd.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/frappe-gantt/dist/frappe-gantt.css">
-```
+<script src\="https://cdn.jsdelivr.net/npm/frappe-gantt/dist/frappe-gantt.umd.js"\></script\>
+<link rel\="stylesheet" href\="https://cdn.jsdelivr.net/npm/frappe-gantt/dist/frappe-gantt.css"\>
 
-And start hacking:
+Star using Gantt:
 
-var tasks \= \[
+let tasks \= \[
   {
-    id: 'Task 1',
+    id: '1',
     name: 'Redesign website',
     start: '2016-12-28',
     end: '2016-12-31',
-    progress: 20,
-    dependencies: 'Task 2, Task 3',
-    custom\_class: 'bar-milestone' // optional
+    progress: 20
   },
   ...
 \]
-var gantt \= new Gantt("#gantt", tasks);
+let gantt \= new Gantt("#gantt", tasks);
 
-You can also pass various options to the Gantt constructor:
-
-var gantt \= new Gantt('#gantt', tasks, {
-    header\_height: 50,
-    column\_width: 30,
-    step: 24,
-    view\_modes: \['Quarter Day', 'Half Day', 'Day', 'Week', 'Month'\],
-    bar\_height: 20,
-    bar\_corner\_radius: 3,
-    arrow\_curve: 5,
-    padding: 18,
-    view\_mode: 'Day',
-    date\_format: 'YYYY-MM-DD',
-    language: 'en', // or 'es', 'it', 'ru', 'ptBr', 'fr', 'tr', 'zh', 'de', 'hu'
-    popup: null,
-});
-
-You can add `dark` class to the container element to apply dark theme.
-
-<div class\="gantt-target dark"\></div\>
-
-### Contributing
+Development Setup
+-----------------
 
 If you want to contribute enhancements or fixes:
 
 1.  Clone this repo.
-2.  `cd` into project directory
-3.  `yarn`
-4.  `yarn run dev`
-5.  Open `index.html` in your browser, make your code changes and test them.
-
-### Publishing
-
-If you have publishing rights (Frappe Team), follow these steps to publish a new version.
-
-Assuming the last commit (or a couple of commits) were enhancements or fixes,
-
-1.  Run `yarn build`
-    
-    This will generate files in the `dist/` folder. These files need to be committed.
-    
-2.  Run `yarn publish`
-    
-3.  Type the new version at the prompt
-    
-    Depending on the type of change, you can either bump the patch version or the minor version. For e.g.,
-    
-    ```
-    0.5.0 -> 0.6.0 (minor version bump)
-    0.5.0 -> 0.5.1 (patch version bump)
-    ```
-    
-4.  Now, there will be a commit named after the version you just entered. Include the generated files in `dist/` folder as part of this commit by running the command:
-    
-    ```
-    git add dist
-    git commit --amend
-    git push origin master
-    ```
-    
-
-License: MIT
-
-* * *
-
-Project maintained by frappe
+2.  `cd` into project directory.
+3.  Run `pnpm i` to install dependencies.
+4.  `pnpm run build` to build files - or `pnpm run build-dev` to build and watch for changes.
+5.  Open `index.html` in your browser.
+6.  Make your code changes and test them.

@@ -1,6 +1,6 @@
 ---
 project: html-to-pdfmake
-stars: 567
+stars: 569
 description: This module permits to convert HTML to the PDFMake format
 url: https://github.com/Aymkdn/html-to-pdfmake
 ---
@@ -71,8 +71,11 @@ const htmlToPdfmake \= require('html-to-pdfmake');
 const jsdom \= require('jsdom');
 const { JSDOM } \= jsdom;
 
-// Initialize
-pdfMake.vfs \= pdfFonts.pdfMake.vfs;
+// the below line may vary depending on your version of PDFMake
+// please, check https://github.com/bpampuch/pdfmake to know how to initialize this library
+pdfMake.vfs \= pdfFonts;
+
+// initiate the "window" object in Node
 const { window } \= new JSDOM('');
 
 // Convert HTML to PDFMake format

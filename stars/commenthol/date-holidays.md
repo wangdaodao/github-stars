@@ -1,6 +1,6 @@
 ---
 project: date-holidays
-stars: 936
+stars: 937
 description: worldwide holidays
 url: https://github.com/commenthol/date-holidays
 ---
@@ -356,7 +356,9 @@ Countries: 197
 ├── IT: Italia
 │   ├── 25: Lombardy
 │   │   └── MI: Milan
-│   └── 32: Südtirol, Alto Adige
+│   ├── 32: Alto Adige
+│   └── 52: Toscana
+│       └── FI: Firenze
 ├── JE: Jersey
 ├── JM: Jamaica
 ├── JP: 日本

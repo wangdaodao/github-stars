@@ -1,6 +1,6 @@
 ---
 project: theByteBook
-stars: 7392
+stars: 7548
 description: ⭐ 【开源书籍】深入讲解内核网络、Kubernetes、ServiceMesh、容器等云原生相关技术。经历实践检验的 DevOps、SRE指南。如发现错误，谢谢提issue
 url: https://github.com/isno/theByteBook
 ---
@@ -18,7 +18,7 @@ url: https://github.com/isno/theByteBook
 ⭐️ 为什么要写这个？
 -----------
 
-这几年互联网基础设施技术出现了很大的更新迭代，比如容器技术（Container、Kubernetes）、服务网格（ServiceMesh）、无服务器（Serverless）、高性能网络（DPDK、XDP） 等等，我对这些技术有一些浅薄的见解和实践，但也远没达到深刻理解的境界，我尝试使用 `费曼学习法` 把这些东西体系化地总结输出。一方面是加深自我的学习认识，另一方面也希望这些输出对其他人有所帮助。
+这几年互联网基础设施技术出现了很大的更新迭代，比如容器技术（Container、Kubernetes）、服务网格（ServiceMesh）、无服务器（Serverless）、高性能网络（DPDK、XDP、RDMA）等等，我对这些技术有一些浅薄的见解和实践，但远没达到深刻理解的境界，我尝试使用 `费曼学习法` 把这些东西体系化地总结输出。一方面加深自我的学习认知，另一方面也希望这些输出对其他人有所帮助。
 
 整个系列的内容主要集中在 `网络`、`集群以及服务治理`、`FinOps` 这三个主题，这也代表着基础架构的几个核心：稳定、效率、成本。
 

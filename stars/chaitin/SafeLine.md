@@ -1,6 +1,6 @@
 ---
 project: SafeLine
-stars: 13820
+stars: 14151
 description: serve as a reverse proxy to protect your web services from attacks and exploits.
 url: https://github.com/chaitin/SafeLine
 ---

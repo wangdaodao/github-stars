@@ -1,6 +1,6 @@
 ---
 project: sys-shim
-stars: 247
+stars: 250
 description: 使用前端语言快速实现桌面程序。
 url: https://github.com/wll8/sys-shim
 ---

@@ -1,6 +1,6 @@
 ---
 project: vant
-stars: 23401
+stars: 23415
 description: A lightweight, customizable Vue UI library for mobile web apps.
 url: https://github.com/youzan/vant
 ---
@@ -168,6 +168,10 @@ Mobile project template based on Vant
 vscode-common-intellisense
 
 A VS Code extension that provides better intellisense to Vant developers
+
+nuxt-vant-mobile
+
+Nuxt _⁴_ project template based on Vant, out of the box
 
 Links
 -----

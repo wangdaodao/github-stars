@@ -1,6 +1,6 @@
 ---
 project: dataease
-stars: 18500
+stars: 18556
 description: 🔥 人人可用的开源 BI 工具，Tableau、帆软的开源替代。
 url: https://github.com/dataease/dataease
 ---
@@ -8,7 +8,7 @@ url: https://github.com/dataease/dataease
 ### 人人可用的开源 BI 工具
 
   
-\[中文(简体)\] | \[English\]
+\[中文(简体)\] | \[English\] | \[日本語\]
 
 * * *
 

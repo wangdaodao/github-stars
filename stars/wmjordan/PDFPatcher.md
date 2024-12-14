@@ -1,6 +1,6 @@
 ---
 project: PDFPatcher
-stars: 9360
+stars: 9409
 description: PDF补丁丁——PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等
 url: https://github.com/wmjordan/PDFPatcher
 ---
