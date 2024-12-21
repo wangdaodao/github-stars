@@ -1,6 +1,6 @@
 ---
 project: l-watermark
-stars: 48
+stars: 49
 description: A web watermark SDK, support: custom watermark content and style, watermark encryption and decryption, watermark anomaly monitoring, etc.
 url: https://github.com/CleverLiurx/l-watermark
 ---

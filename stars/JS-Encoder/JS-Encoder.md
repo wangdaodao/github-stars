@@ -1,6 +1,6 @@
 ---
 project: JS-Encoder
-stars: 239
+stars: 240
 description: 一个前端在线编辑器，且致力于成为一个方便、快速的在线 Web 实例开发、调试工具。使用 Vue3 和 Codemirror6 构建。
 url: https://github.com/JS-Encoder/JS-Encoder
 ---

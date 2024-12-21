@@ -1,6 +1,6 @@
 ---
 project: Element-Pro-Crud
-stars: 259
+stars: 258
 description: 🚀 LowCode平台,配套表单,表格设计器,一键Crud🚀
 url: https://github.com/BoBoooooo/Element-Pro-Crud
 ---

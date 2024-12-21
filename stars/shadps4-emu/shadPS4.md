@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 11384
+stars: 11524
 description: PS4 emulator for Windows,Linux,MacOS
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -65,6 +65,26 @@ For more information on how to test, debug and report issues with the emulator o
 
 Keyboard mapping
 ================
+
+Button
+
+Function
+
+F10
+
+FPS Counter
+
+Ctrl+F10
+
+Video Debug Info
+
+F11
+
+Fullscreen
+
+F12
+
+Trigger RenderDoc Capture
 
 Note
 

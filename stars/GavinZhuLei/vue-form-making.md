@@ -1,6 +1,6 @@
 ---
 project: vue-form-making
-stars: 5491
+stars: 5504
 description: A visual form designer/generator base on Vue.js, make form development simple and efficient.（基于Vue的可视化表单设计器，让表单开发简单而高效。）
 url: https://github.com/GavinZhuLei/vue-form-making
 ---

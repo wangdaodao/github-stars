@@ -1,6 +1,6 @@
 ---
 project: vue-slider-component
-stars: 2424
+stars: 2425
 description: 🌡 A highly customized slider component
 url: https://github.com/NightCatSama/vue-slider-component
 ---

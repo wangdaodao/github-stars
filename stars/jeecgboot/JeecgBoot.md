@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 41002
+stars: 41058
 description: 🔥「企业级低代码平台」前后端分离架构SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领新的开发模式，引入AI模型能力 OnlineCoding->代码生成->手工MERGE，帮助Java项目解决70%重复工作，让开发更关注业务，既能快速提高效率，帮助公司节省成本，同时又不失灵活性。
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -86,7 +86,7 @@ JeecgBoot开源版本，底层完全开源可以自主开发，遵循Apache2.0�
 -   基础框架：Spring Boot 2.7.18
 -   微服务框架： Spring Cloud Alibaba 2021.0.1.0
 -   持久层框架：MybatisPlus 3.5.3.2
--   报表工具： JimuReport 1.8.1
+-   报表工具： JimuReport 1.9.1
 -   安全框架：Apache Shiro 1.12.0，Jwt 3.11.0
 -   微服务技术栈：Spring Cloud Alibaba、Nacos、Gateway、Sentinel、Skywalking
 -   数据库连接池：阿里巴巴Druid 1.1.22

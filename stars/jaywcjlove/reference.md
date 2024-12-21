@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 12440
+stars: 12500
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -283,7 +283,7 @@ Resolutions
 
 由于中国国内访问，时常打不开，你可以访问下面镜像网站(国内打不开的不再收录)。推荐自己的镜像网站
 
-dev.bi docflow.cn quickref.cn aibk.cn ecdata.cn quickref.hestudio.net qiubit.cc guoxudong.io moeyuuko.com terryyoung.cn quickref.binscor.top srebro.cn haah.net xiechengqi.top ownit.top 666666.dev mmoke.com laoleng.vip dbyun.net if010.com isteed.cc xushanxiang.com surcode.cn cms.im eryajf.net kjchmc.cn quickreference.pages.dev btaw.cn lzw.me itcent.cn coolxy.top notes-bin.top lzzzt.cn kclouder.cn longdada.me xalaok.top chenze.cloud ref.v-ta.com hao.kim tool.sakura.vin chenchen.site jgeek.cn itzcy.com fifo.site gaojs.com.cn 15926.tech jeffjade.com okhk.net wdft.com xiaopa.cc zsccodelnc.cn chanlun.pro likui.info ruiange.work denganliang.com ivanz.cc dev6.site mingming.dev zishu.me sucan2233.cn pages.dev hrzweb.xyz bobh.cool tangwudi.com alomerry.com osz.icu ylmty.cc kfele.asia 9up.dev cizai.io docs.willxup.top wangchunfei.com object.cool luckyits.com jeremyjone.com gistudy.net maoo.me deyout.com xod.cc const.team jhao.me 7yueee.cn liamng.top maisblog.cn ruochen.net zcsk18.cn doraemon.press foreverlink.love 94vessel.com hhxyrk.icu vhcffh.com magese.com childish.vip hackshen.com
+dev.bi docflow.cn quickref.cn aibk.cn ecdata.cn quickref.hestudio.net qiubit.cc guoxudong.io moeyuuko.com terryyoung.cn quickref.binscor.top srebro.cn haah.net xiechengqi.top ownit.top 666666.dev mmoke.com laoleng.vip dbyun.net if010.com isteed.cc xushanxiang.com surcode.cn cms.im eryajf.net kjchmc.cn quickreference.pages.dev btaw.cn lzw.me itcent.cn coolxy.top notes-bin.top lzzzt.cn kclouder.cn longdada.me xalaok.top chenze.cloud ref.v-ta.com hao.kim tool.sakura.vin chenchen.site jgeek.cn itzcy.com fifo.site gaojs.com.cn 15926.tech jeffjade.com okhk.net wdft.com xiaopa.cc zsccodelnc.cn chanlun.pro likui.info ruiange.work denganliang.com ivanz.cc dev6.site mingming.dev zishu.me sucan2233.cn pages.dev hrzweb.xyz bobh.cool tangwudi.com alomerry.com osz.icu ylmty.cc kfele.asia 9up.dev cizai.io docs.willxup.top wangchunfei.com object.cool luckyits.com jeremyjone.com gistudy.net maoo.me deyout.com xod.cc const.team jhao.me 7yueee.cn liamng.top maisblog.cn ruochen.net zcsk18.cn doraemon.press foreverlink.love 94vessel.com hhxyrk.icu vhcffh.com magese.com childish.vip hackshen.com afetera.top trtuaazz.com
 
 如果你有资源，可以很方便部署 web 版，这非常简单，只需要克隆 gh-pages 分支代码到你的静态服务就可以了，还可以使用 docker 快捷部署 web 版。
 

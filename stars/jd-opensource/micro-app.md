@@ -1,8 +1,8 @@
 ---
 project: micro-app
-stars: 5679
+stars: 5689
 description: A simple, efficient and powerful micro front-end framework. 一款简约、高效、功能强大的微前端框架
-url: https://github.com/micro-zoe/micro-app
+url: https://github.com/jd-opensource/micro-app
 ---
 
 English｜简体中文｜Documentation｜Discussions｜WeChat
@@ -66,7 +66,7 @@ If you're interested in this project, you're welcome to mention pull request, an
 1、Clone
 
 ```
-git clone https://github.com/micro-zoe/micro-app.git
+git clone https://github.com/jd-opensource/micro-app.git
 ```
 
 2、Install dependencies

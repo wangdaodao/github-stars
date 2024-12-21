@@ -1,6 +1,6 @@
 ---
 project: mind-map
-stars: 6947
+stars: 7009
 description: 一个还算强大的Web思维导图。A relatively powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---
@@ -135,4 +135,4 @@ star
 青铜赞助
 ----
 
-Think 志斌 qp ZXR 花儿朵朵 suka 水车 才镇 小米bbᯤ²ᴳ \*棐 Luke 南风 蜉蝣撼大叔 乙 敏 有希 樊笼 小逗比 天清如愿 敬明朗 飞箭 戚永峰 moom 张扬 长沙利奥软件 HaHN 继龙 欣 易空小易 国发 建明 汪津合 博文 慕智打印-兰兰 锦冰 旭东 橘半 pluvet 皇登攀 SR 逆水行舟 L sunniberg 在下青铜五 木星二号 阿晨 铁 Alex 子豪 宏涛 最多5个字 ZX 协成 木木 好名字 lsytyrt buddy 小川 Tobin 夏虫不语冰 晴空 。 Jeffrey 张文建 Lawliet 一叶孤舟 Eric Joe 中文网字计划-江夏尧 海云 皮老板 h.r.w 时光匆匆 广兴 一亩三 xbkkjbs0246658 4399行星元帅 Xavier
+Think 志斌 qp ZXR 花儿朵朵 suka 水车 才镇 小米bbᯤ²ᴳ \*棐 Luke 南风 蜉蝣撼大叔 乙 敏 有希 樊笼 小逗比 天清如愿 敬明朗 飞箭 戚永峰 moom 张扬 长沙利奥软件 HaHN 继龙 欣 易空小易 国发 建明 汪津合 博文 慕智打印-兰兰 锦冰 旭东 橘半 pluvet 皇登攀 SR 逆水行舟 L sunniberg 在下青铜五 木星二号 阿晨 铁 Alex 子豪 宏涛 最多5个字 ZX 协成 木木 好名字 lsytyrt buddy 小川 Tobin 夏虫不语冰 晴空 。 Jeffrey 张文建 Lawliet 一叶孤舟 Eric Joe 中文网字计划-江夏尧 海云 皮老板 h.r.w 时光匆匆 广兴 一亩三 xbkkjbs0246658 4399行星元帅 Xavier :)

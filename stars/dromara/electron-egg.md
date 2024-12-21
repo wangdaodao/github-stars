@@ -1,6 +1,6 @@
 ---
 project: electron-egg
-stars: 1907
+stars: 1918
 description: A simple, cross platform, enterprise desktop software development framework
 url: https://github.com/dromara/electron-egg
 ---
@@ -36,8 +36,8 @@ url: https://github.com/dromara/electron-egg
 -   🍩 **为什么使用？** 桌面软件（办公方向、 个人工具），仍然是未来十几年PC端需求之一，提高工作效率
 -   🍉 **简单：** 只需懂 JavaScript
 -   🍑 **愿景：** 所有开发者都能学会桌面软件研发
--   🍰 **gitee：** https://gitee.com/dromara/electron-egg **5100+**
--   🍨 **github：** https://github.com/dromara/electron-egg **1800+**
+-   🍰 **gitee：** https://gitee.com/dromara/electron-egg **5200+**
+-   🍨 **github：** https://github.com/dromara/electron-egg **1900+**
 -   🏆 码云最有价值开源项目
 
 📚 文档

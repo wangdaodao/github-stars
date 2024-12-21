@@ -1,6 +1,6 @@
 ---
 project: v-lazy-show
-stars: 487
+stars: 490
 description: Compile-time directive to lazy initialize v-show for Vue
 url: https://github.com/antfu/v-lazy-show
 ---
@@ -20,8 +20,8 @@ This package is completely compile-time, installed it as a `nodeTransformer` in 
 For example in Vite:
 
 // vite.config.ts
-import { defineConfig } from 'vite'
 import { transformLazyShow } from 'v-lazy-show'
+import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: \[
@@ -85,7 +85,7 @@ Like how `v-if` works, when you use this directive, it hint the compiler to do s
 
 will be compiled to
 
-import { Fragment as \_Fragment, createCommentVNode as \_createCommentVNode, createElementBlock as \_createElementBlock, createElementVNode as \_createElementVNode, openBlock as \_openBlock, vShow as \_vShow, withDirectives as \_withDirectives } from 'vue'
+import { createCommentVNode as \_createCommentVNode, createElementBlock as \_createElementBlock, createElementVNode as \_createElementVNode, Fragment as \_Fragment, openBlock as \_openBlock, vShow as \_vShow, withDirectives as \_withDirectives } from 'vue'
 
 export function render(\_ctx, \_cache) {
   return (\_cache.\_lazyshow1 || \_ctx.foo)

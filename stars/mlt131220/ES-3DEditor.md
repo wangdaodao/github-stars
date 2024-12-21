@@ -1,6 +1,6 @@
 ---
 project: ES-3DEditor
-stars: 172
+stars: 210
 description: 面相浏览器端免费开源的三维可视化编辑器，包含BIM轻量化，CAD解析预览等特色功能。                              A free and open source 3D visualization editor for browsers, including BIM lightweight, CAD parsing preview and other features.
 url: https://github.com/mlt131220/ES-3DEditor
 ---

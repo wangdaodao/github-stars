@@ -1,6 +1,6 @@
 ---
 project: splitpanes
-stars: 1919
+stars: 1924
 description: A Vue 3 (and 2) reliable, simple and touch-ready panes splitter / resizer.
 url: https://github.com/antoniandre/splitpanes
 ---

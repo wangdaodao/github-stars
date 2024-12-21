@@ -1,6 +1,6 @@
 ---
 project: el-table-virtual-scroll
-stars: 245
+stars: 248
 description: 基于Element-UI的Table 组件开发的虚拟滚动组件，支持动态高度，解决数据量大时滚动卡顿的问题。
 url: https://github.com/xiaocheng555/el-table-virtual-scroll
 ---
@@ -378,3 +378,10 @@ el-table-virtual-scroll 组件注意事项
 -   修复多选select-change事件在表格数据更新后未触发，导致旧数据未清除 #100
     
 -   npm 2.0.1 版本发包
+    
+
+### 2024-12-19
+
+-   修复el-table-column使用min-width+show-overflow-tooltip属性时拖动表头修改列宽度 单元格宽度未刷新
+    
+-   npm 2.0.2 版本发包

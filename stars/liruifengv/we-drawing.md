@@ -1,6 +1,6 @@
 ---
 project: we-drawing
-stars: 569
+stars: 570
 description: AI画图。每天一句中国古诗词，生成 AI 图片 Powered by Bing DALL-E-3.
 url: https://github.com/liruifengv/we-drawing
 ---

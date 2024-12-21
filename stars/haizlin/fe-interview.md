@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25567
+stars: 25584
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2024.12.15) —— 第2070天
+🕟 今天的知识点 (2024.12.22) —— 第2077天
 --------------------------------
 
-        :one: \[js\] 跨页面如何进行通信？有哪些方法？
+        :one: \[软技能\] git reset和git checkout有什么区别？
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2069天 (2024.12.14)  
-    1️⃣ \[html\] 使用svg有什么优势？
+-   第2076天 (2024.12.21)  
+    1️⃣ \[软技能\] git add和git stage有什么区别？
     
 -   **查看全部**
     

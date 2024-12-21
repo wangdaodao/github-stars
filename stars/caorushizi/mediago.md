@@ -1,7 +1,7 @@
 ---
 project: mediago
-stars: 5115
-description: m3u8[m3u8-downloader] 视频在线提取工具 流媒体下载 、视频下载 、 m3u8下载 、 B站视频下载 桌面客户端 windows mac
+stars: 5256
+description: 跨平台视频提取工具：支持流媒体下载、视频下载、m3u8 下载及 B站视频下载，提供 Windows 和 Mac 桌面客户端。Cross-platform video extraction tool: Supports streaming download, video download, m3u8 download, and Bilibili video download, with desktop clients for Windows and Mac.
 url: https://github.com/caorushizi/mediago
 ---
 
@@ -9,8 +9,9 @@ MediaGo
 =======
 
 快速开始   •   官网   •   文档   •   Discussions  
-  
-  
+
+English   •   日本語  
+
   
 
 * * *

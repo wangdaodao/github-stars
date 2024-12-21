@@ -1,6 +1,6 @@
 ---
 project: myIPTV
-stars: 1272
+stars: 1330
 description: 【典藏版】高清直播源涵盖几乎所有卫视节目，内置完美台标加节目预告
 url: https://github.com/suxuang/myIPTV
 ---
@@ -16,7 +16,7 @@ url: https://github.com/suxuang/myIPTV
 📺订阅地址
 ------
 
-https://ghp.ci/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
+https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
 
 📖项目说明
 ------
@@ -40,6 +40,10 @@ PS：部分高清直播源需开启IPV6访问权限，自行百度方法
 🆕更新日志
 ------
 
+-   2024/12/18：新增几个港澳台电影频道和凤凰电影台、纬来精采台
+    
+-   2024/12/17：github加速代理地址更新
+    
 -   2024/12/12：日常维护更新部分源
     
 -   2024/11/22：优化新增部分直播源

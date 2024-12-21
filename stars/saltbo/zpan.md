@@ -1,6 +1,6 @@
 ---
 project: zpan
-stars: 1852
+stars: 1854
 description: A self-hosted cloud disk base on the cloud storage./ 一个基于云存储的网盘系统，用于自建私人网盘或企业网盘。
 url: https://github.com/saltbo/zpan
 ---

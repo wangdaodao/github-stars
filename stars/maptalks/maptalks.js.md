@@ -1,86 +1,206 @@
 ---
 project: maptalks.js
-stars: 4338
+stars: 4347
 description: A light and plugable JavaScript library for integrated 2D/3D maps.
 url: https://github.com/maptalks/maptalks.js
 ---
 
-A light JavaScript library to create integrated 2D/3D maps.
+maptalks-gl
+===========
 
--   **2D/3D**: Integrated 2D/3D maps.
--   **Open and pluggable**: Easy to extend with techs you may love as plugins.
--   **Performant**: Can smoothly render tens of thousands of geometries.
--   **Simple**: Extremely easy to learn and use.
--   **Feature Packed**: Essential features for most mapping needs.
--   **SSR**: Server-Side Rendering
+NOTICE
+------
 
-The Story
----------
+maptalks is upgrading to maptalks-gl, a webgl (and webgpu in near future) driven 2D/3D map engine.
 
-**maptalks.js** was born for a map-centric project to help YUM! China (the most successful food chain in China) manage and analyze spatial data all over the country for choosing locations of new KFC and PizzaHut restaurants. After verified in many projects of government depts and enterprises, we are glad to open source it, and hoping it can help you deliver better mapping projects.
+The legacy maptalks library will be still maintained.
 
-20220116\_213033.mp4
+About
+-----
 
-Resources
----------
+maptalks-gl will be a pure WebGL driven map engine with performance and rich features in 3D. maptalks-gl is in active development now, and will be officially published in few months.
 
--   Web Site
--   A Quick Start
--   Examples
--   API Reference
--   Docs
--   Style Reference
--   Plugins
-    -   markercluster
-    -   heatmap
-    -   mapbox-gl-js
-    -   three.js
-    -   echarts
+With consistent API upgrade, you can easily migrate from legacy maptalks to maptalks-gl. (TBD)
 
-Supported Enviroments
----------------------
+If you are interested in what is going on, please refer to the previous releases notes of maptalks-gl.
 
--   Modern browsers and IE9+ (only IE11 for 3D features)
--   Mobile browsers
--   Node >= 4.x (for Server-Side Rendering)
--   Electron
+Features
+--------
 
-**maptalks** is well tested against IE9, IE10, IE11, Firefox and Chrome by more than 1.6K test cases running on CI services.
+-   Vector Tile format support
+-   3DTiles format support
+-   GLTF format support
+-   Magnificant performance enhancement by WebGL
+-   Rich 3D analysis functions
+-   Traffic simulation animations
 
-Install
--------
+Usage
+-----
 
--   Standalone file
+### Install
 
-Download the lastest release and load it in your HTML page like:
+npm i maptalks-gl
 
-<link href\="path/to/maptalks.css" rel\="stylesheet" type\="text/css" />
-<script src\="path/to/maptalks.min.js" type\="text/javascript"\></script\>
+#or
 
--   CDN Just include this in your html:
+yarn add maptalks-gl
 
-<link rel\="stylesheet" href\="https://cdn.jsdelivr.net/npm/maptalks/dist/maptalks.min.css"\>
-<script src\="https://cdn.jsdelivr.net/npm/maptalks/dist/maptalks.min.js"\></script\>
+#or
 
--   NPM
+pnpm i maptalks-gl
 
-npm install maptalks --save
+### ESM
 
-Plugin Development
-------------------
+import {
+    Map,
+    GroupGLLayer,
+    VectorTileLayer,
+    GLTFMarker,
+    GLTFLayer,
+    PolygonLayer
+} from 'maptalks-gl';
 
-It's easy and joyful to write plugins for maptalks, please check out the tutorials and begin to develop your own. And you are welcome to share your work with us.
+const map \= new Map('map', {
+    center: \[0, 0\],
+    zoom: 2
+});
+const vtLayer \= new VectorTileLayer('vt', {
+    urlTemplate: 'http://tile.maptalks.com/test/planet-single/{z}/{x}/{y}.mvt'
+});
 
-Contributing
-------------
+const groupLayer \= new GroupGLLayer('group', \[vtLayer\]).addTo(map);
 
-We warmly welcome any kind of contributions including issue reportings, pull requests, documentation corrections, feature requests and any other helps.
+const gltfLayer \= new GLTFLayer('gltflayer');
+groupLayer.addLayer(gltfLayer);
 
-### Contributing Guide
+const polygonLayer \= new PolygonLayer('polygonlayer');
+groupLayer.addLayer(polygonLayer);
+//other layers
 
-Please read our contributing guide to learn about our development process, how to propose fixes and improvements, and how to test your changes to maptalks.
+### CDN
 
-Acknowledgments
----------------
+You can also reference umd-formatted packages via CDN, note that all exported variables under the gl system are automatically mounted in the `maptalks` namespace.
 
-Maptalks is built on the shoulders of giants. Please refer to ACKNOWLEDGEMENT for details.
+<script type\="text/javascript" src\="https://unpkg.com/maptalks-gl/dist/maptalks-gl.js"\></script\>
+<script type\="text/javascript"\>
+    const map \= new maptalks.Map('map', {
+        center: \[0, 0\],
+        zoom: 2
+    });
+    const vtLayer \= new maptalks.VectorTileLayer('vt', {
+        urlTemplate: 'http://tile.maptalks.com/test/planet-single/{z}/{x}/{y}.mvt'
+    });
+
+    const groupLayer \= new maptalks.GroupGLLayer('group', \[vtLayer\]).addTo(map);
+
+    const gltfLayer \= new maptalks.GLTFLayer('gltflayer');
+    groupLayer.addLayer(gltfLayer)
+    const polygonLayer \= new maptalks.PolygonLayer('polygonlayer');
+    groupLayer.addLayer(polygonLayer);
+    //other layers
+</script\>
+
+### Optional transcoders
+
+If you need to introduce optional draco, ktx2 and other gl format decoding plugins, just introduce the decoding plugins after introducing the summary package as before:
+
+import {
+    Map,
+    Geo3DTilesLayer,
+    GLTFLayer
+} from 'maptalks-gl';
+import '@maptalks/transcoders.draco';
+import '@maptalks/transcoders.crn';
+import '@maptalks/transcoders.ktx2';
+
+or with umd bundle：
+
+<link rel\="stylesheet" href\="https://unpkg.com/maptalks-gl/dist/maptalks-gl.css"\>
+<script type\="text/javascript" src\="https://unpkg.com/maptalks-gl/dist/maptalks-gl.js"\></script\>
+<script type\="text/javascript" src\="https://unpkg.com/@maptalks/transcoders.draco/dist/transcoders.draco.js"\></script\>
+<script type\="text/javascript" src\="https://unpkg.com/@maptalks/transcoders.crn/dist/transcoders.crn.js"\></script\>
+<script type\="text/javascript" src\="https://unpkg.com/@maptalks/transcoders.ktx2/dist/transcoders.ktx2.js"\></script\>
+
+Packages introductions
+----------------------
+
+### basic libraries
+
+-   `gltf-loader` gltf format parsing library.
+-   `reshader.gl` A regl-based implementation of the 3D rendering interface, including renderer, scene, mesh, material and other commonly used rendering base classes and predefined rendering materials, such as PBR.
+
+### Map
+
+-   `map` home for Map class and other infrustructures.
+
+### Layers
+
+-   `gl` WebGL base layer functionality, including GroupGLLayer, terrain, post-processing and various 3D mask implementations.
+-   `layer-3dtiles` Implementation of the 3dtiles layer (Geo3DTilesLayer).
+-   `layer-gltf` Implementation of gltf layer (GLTFLayer/GLTFMarker).
+-   `layer-video` video layer (VideoLayer/VideoSurface) implementation
+
+### Vector tiles
+
+-   `vector-packer` Parsing of vector tile formats and organization of data structures.
+-   `vt-plugin` Interface definition for the vector tile rendering plugin.
+-   `vt` Vector tile layer (VectorTileLayer/GeoJSONVectorTileLayer) implementation.
+
+### Three-dimensional analysis
+
+-   `analysis` Implementation of various 3D analysis functions.
+-   `traffic` Implementation of traffic simulation.
+
+### transcoders
+
+-   `transcoders.crn` crn format parsing library
+-   `transcoders.draco` draco format parser library
+-   `transcoders.ktx` ktx2 compressed texture format parser library.
+
+Installation and compilation
+----------------------------
+
+### node environment
+
+The current minimum node environment is 18.16.1, if you don't meet the minimum node version requirement, you can use nvm / fnm to manage the node version.
+
+### pnpm version
+
+Currently this project is using pnpm@9.x.
+
+### Install dependencies
+
+pnpm i
+
+### Compile
+
+pnpm build
+
+### Debugging
+
+If you need to debug the code base in watch mode, and the target of the compilation contains the source code, run the following command in the root folder of package you are debugging:
+
+pnpm run dev
+
+Test
+----
+
+The project uses karma or electron-mocha (vt vs. layer-3dtiles) as the test framework, and the test cases are written based on mocha syntax.
+
+### Run a full test of the project
+
+Run `npm test` under each project.
+
+### Run the tests for the specified use case
+
+-   If the project is based on electron-mocha, run the
+
+pnpm run tdd -- -g “spec keywords”
+
+-   If the project is based on karma, you need to modify the test source code to specify the use cases to run via the only method in mocha, e.g..
+
+it('spec name', () \=> {});
+
+Change to:
+
+it.only('spec name', () \=> {});

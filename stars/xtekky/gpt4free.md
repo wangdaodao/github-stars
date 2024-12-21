@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 62684
+stars: 62779
 description: The official gpt4free repository | various collection of powerful language models
 url: https://github.com/xtekky/gpt4free
 ---
@@ -32,19 +32,30 @@ docker pull hlohaus789/g4f
 -   **For comprehensive details on new features and updates, please refer to our** Releases **page**
 -   **Installation Guide for Windows (.exe):** 💻 Installation Guide for Windows (.exe)
 -   **Join our Telegram Channel:** 📨 telegram.me/g4f\_channel
--   **Join our Discord Group:** 💬🆕️ discord.gg/qXA4Wf4Fsm
+-   **Join our Discord Group:** 💬🆕️ https://discord.gg/5E39JUWUFa
 
 🔻 Site Takedown
 ----------------
 
 Is your site on this repository and you want to take it down? Send an email to takedown@g4f.ai with proof it is yours and it will be removed as fast as possible. To prevent reproduction please secure your API. 😉
 
-🚀 Preview
-----------
+🚀 GPT4Free on HuggingFace
+--------------------------
 
-**Take a look at our GUI on the mobile device. We connect to ChatGPT and generate an image.**
+Explore our GPT4Free project on HuggingFace Spaces by clicking the link below:
 
-g4f.-.preview.mp4
+-   Visit GPT4Free on HuggingFace
+
+If you would like to create your own copy of this space, you can duplicate it using the following link:
+
+-   Duplicate GPT4Free Space
+
+### Access Information
+
+To access the space, please use the following login credentials:
+
+-   **Username:** any
+-   **Password:** gpt4free
 
 📚 Table of Contents
 --------------------

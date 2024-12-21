@@ -1,6 +1,6 @@
 ---
 project: mi-gpt
-stars: 8143
+stars: 8227
 description: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。
 url: https://github.com/idootop/mi-gpt
 ---
@@ -119,7 +119,7 @@ main();
 -   ✨ 更新日志
 -   🚀 Roadmap
 
-🤩 推荐项目与教程
+🔗 相关项目与教程
 ----------
 
 项目链接
@@ -136,11 +136,11 @@ MiGPT GUI
 
 @lmk123
 
-\-
+MiGPT 配置中心
 
-直接在网页上更方便的编辑和生成 `.migpt.js` 和 `.env` 配置文件
+基于 Vue 的 MiGPT 可视化配置界面，提供直观的服务管理和参数配置能力
 
-@lmk123
+@LipapaSma
 
 @shinedlc/mi-gpt
 

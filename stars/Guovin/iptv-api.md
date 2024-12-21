@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 8648
+stars: 9648
 description: 📺IPTV电视直播源更新工具🚀：✨央视、📡卫视、☘️广东及各省份地方台、🌊港·澳·台、🎬电影、🎥咪咕、🏀体育、🪁动画、🎮游戏、🎵音乐、🏛经典剧场；支持IPv4/IPv6；支持自定义增加频道；支持组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update tool
 url: https://github.com/Guovin/iptv-api
 ---
@@ -99,9 +99,9 @@ English | 中文
 
 -   接口源：
 
-https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
+https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 
-https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
 
 或
 
@@ -111,7 +111,7 @@ https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt
 
 -   数据源：
 
-https://ghp.ci/raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
+https://ghgo.xyz/raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 
 或
 
@@ -130,19 +130,13 @@ open\_driver
 
 开启浏览器运行，若更新无数据可开启此模式，较消耗性能
 
-True
+False
 
 open\_empty\_category
 
 开启无结果频道分类，自动归类至底部
 
 False
-
-open\_ffmpeg
-
-开启使用 FFmpeg 进行测速，获取更准确的速度与分辨率信息，需要提前手动安装
-
-True
 
 open\_filter\_resolution
 
@@ -218,7 +212,7 @@ False
 
 open\_request
 
-开启查询请求，数据来源于网络
+开启查询请求，数据来源于网络（仅针对酒店源与组播源）
 
 False
 
@@ -260,7 +254,7 @@ True
 
 open\_use\_cache
 
-开启使用本地缓存数据，适用于查询请求失败场景
+开启使用本地缓存数据，适用于查询请求失败场景（仅针对酒店源与组播源）
 
 True
 
@@ -270,11 +264,11 @@ open\_use\_old\_result
 
 True
 
-delay\_weight
+app\_port
 
-响应时间权重值（所有权重值总和应为 1）
+页面服务端口，用于控制页面服务的端口号
 
-0.25
+8000
 
 final\_file
 
@@ -286,7 +280,7 @@ hotel\_num
 
 结果中偏好的酒店源接口数量
 
-4
+10
 
 hotel\_page\_num
 
@@ -311,6 +305,12 @@ ipv6\_num
 结果中偏好的 IPv6 接口数量
 
 5
+
+ipv6\_support
+
+强制认为当前网络支持IPv6，跳过检测
+
+False
 
 ipv\_type
 
@@ -340,7 +340,7 @@ multicast\_num
 
 结果中偏好的组播源接口数量
 
-3
+10
 
 multicast\_page\_num
 
@@ -368,9 +368,7 @@ online\_search\_page\_num
 
 origin\_type\_prefer
 
-结果偏好的接口来源，结果优先按该顺序进行排序，hotel：酒店源，multicast：组播源，subscribe：订阅源，online\_search：关键字搜索
-
-hotel,multicast,subscribe,online\_search
+结果偏好的接口来源，结果优先按该顺序进行排序，逗号分隔，例如：hotel,multicast,subscribe,online\_search；hotel：酒店源，multicast：组播源，subscribe：订阅源，online\_search：关键字搜索；不填写则表示不指定来源，按照接口速率排序
 
 recent\_days
 
@@ -384,12 +382,6 @@ request\_timeout
 
 10
 
-resolution\_weight
-
-分辨率权重值 （所有权重值总和应为 1）
-
-0.25
-
 sort\_timeout
 
 单个接口测速超时时长，单位秒(s)；数值越大测速所属时间越长，能提高获取接口数量，但质量会有所下降；数值越小测速所需时间越短，能获取低延时的接口，质量较好；调整此值能优化更新时间
@@ -402,21 +394,11 @@ source\_file
 
 config/demo.txt
 
-speed\_weight
-
-速率权重值（所有权重值总和应为 1）
-
-0.5
-
 subscribe\_num
 
 结果中偏好的订阅源接口数量
 
-3
-
-url\_keywords\_blacklist
-
-接口关键字黑名单，用于过滤含特定字符的接口
+10
 
 urls\_limit
 

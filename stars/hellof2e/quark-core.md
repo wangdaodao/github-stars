@@ -1,6 +1,6 @@
 ---
 project: quark-core
-stars: 347
+stars: 348
 description: Open-source, Web Components engine designed for everyone.（用原生 JS 构建跨技术栈组件 / 无框架组件）
 url: https://github.com/hellof2e/quark-core
 ---

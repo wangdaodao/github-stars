@@ -1,6 +1,6 @@
 ---
 project: Blog
-stars: 30793
+stars: 30808
 description: 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。
 url: https://github.com/mqyqingfeng/Blog
 ---
@@ -8,53 +8,31 @@ url: https://github.com/mqyqingfeng/Blog
 冴羽的博客
 =====
 
-公众号
----
+关于作者
+----
 
-微信（冴羽本人）
+-   博客：https://yayujs.com/
+-   社群：“低调务实优秀中国好青年”前端社群
+-   成长：茶话会、微信读书
+-   小册：《Next.js 开发指南》、《Svelte 开发指南》
+-   翻译：TypeScript 中文文档、Solid 中文文档
+-   专栏：掘金、思否、语雀、公众号：冴羽（#yayujs）
+-   微信：mqyqingfeng
 
-公众号
+Solid.js 翻译
+-----------
 
-mqyqingfeng
+正在翻译中……
 
-冴羽的 JavaScript 博客
+Next.js 系列
+----------
 
-加入低调务实优秀中国好青年社群
-
-文章同步更新
-
-专栏
---
-
--   掘金
--   思否
--   知乎
--   语雀
--   慕课
-
-小册
---
-
--   《Next.js 开发指南》
-    -   60 篇文章，分为基础篇、实战篇、源码篇、面试篇，带你系统掌握 Next.js
+因为签约原因，首发在掘金，一共 24 篇，专栏地址：Next.js 开发指北
 
 React 系列
 --------
 
-1.  React 之 createElement 源码解读
-2.  React 之元素与组件的区别
-3.  React 之 Refs 的使用和 forwardRef 的源码解读
-4.  React 之 Context 的变迁与背后实现
-
-项目开发
-----
-
-1.  聊聊 npm 的语义化版本（Semver）
-
-个人成长
-----
-
-1.  如何让自己快速成长？来听听冴羽的这些演讲！（音视频版）
+因为签约原因，首发在掘金，一共 16 篇，专栏地址：React 基础与进阶
 
 冴羽答读者问
 ------
@@ -139,10 +117,11 @@ TypeScript4 官方文档翻译，收录在 ts.yayujs.com
 33.  搭建 VuePress 站点必做的 10 个优化
 34.  VuePress 博客搭建系列 33 篇正式完结！
 
-浏览器系列
------
+一些单篇
+----
 
 1.  浏览器系列之 Cookie 和 SameSite 属性
+2.  聊聊 npm 的语义化版本（Semver）
 
 面试系列
 ----
@@ -237,11 +216,6 @@ ES6 系列
 18.  ES6 系列之我们来聊聊装饰器
 19.  ES6 系列之私有变量的实现
 20.  ES6 完全使用手册
-
-注意
---
-
-深入系列文章部分是有先后顺序的，按照目录结构顺序阅读效果最好。
 
 勘误及提问
 -----

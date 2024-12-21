@@ -1,6 +1,6 @@
 ---
 project: font-carrier
-stars: 1618
+stars: 1620
 description: font-carrier是一个功能强大的字体操作库，使用它你可以随心所欲的操作字体。让你可以在svg的维度改造字体的展现形状。
 url: https://github.com/purplebamboo/font-carrier
 ---

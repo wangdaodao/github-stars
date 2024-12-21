@@ -1,6 +1,6 @@
 ---
 project: formDesigner
-stars: 91
+stars: 92
 description: 基于vue+elementui的表单设计器，可视化拖拽，让表单拖拽更加简单，持续更新中。The form designer based on Vue + elementui enables visual drag and drop, making form drag and drop easier and continuously updating.http://wurong19870715.gitee.io/formdesigner
 url: https://github.com/wison-wu/formDesigner
 ---

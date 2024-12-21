@@ -1,6 +1,6 @@
 ---
 project: x-crawl
-stars: 1587
+stars: 1590
 description: Flexible Node.js AI-assisted crawler library
 url: https://github.com/coder-hxl/x-crawl
 ---
@@ -34,13 +34,6 @@ Features
 -   **🚀 Priority Queue** - Based on the priority of a single crawl target, it can be crawled ahead of other targets.
 -   **🧾 Crawl information** - Controllable crawl information, which will output colored string information in the terminal.
 -   **🦾 TypeScript** - Own types and implement complete types through generics.
-
-Sponsors
---------
-
-🎁Discover seamless automatic captcha solving with our AI-powered Auto Web Unblock technology!
-
-🎁企业级 HTTP 代理 IP ! 现免费测试 2-4 小时 + 15% 返现活动
 
 AI assisted crawler
 -------------------

@@ -1,6 +1,6 @@
 ---
 project: vue-slider-vertify
-stars: 62
+stars: 63
 description: 基于vue3的滑动验证码组件
 url: https://github.com/MrXujiang/vue-slider-vertify
 ---

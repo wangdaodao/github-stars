@@ -1,6 +1,6 @@
 ---
 project: EveryDay
-stars: 1879
+stars: 1883
 description: 前端基础 个人博客 学习笔记
 url: https://github.com/WindRunnerMax/EveryDay
 ---
@@ -15,9 +15,9 @@ GitHub ｜ Timeline ｜ Blog ｜ Blog-SSG
 
 如果觉得还不错，点个`star`吧 😁
 
-版本库中共有`488`篇文章，总计`91219`行，`1080512`字，`3002624`字符。
+版本库中共有`489`篇文章，总计`92189`行，`1085701`字，`3028732`字符。
 
-这是一个前端小白的学习历程，如果只学习而不记录点什么那基本就等于白学了。这个版本库的名字`EveryDay`就是希望激励我能够每天学习，下面的文章就是从`2020.02.25`开始积累的文章，都是参考众多文章归纳整理学习而写的，文章包括了`HTML`基础、`CSS`基础、`JavaScript`基础与拓展、`Browser`浏览器相关、`Vue`使用与分析、`React`使用与分析、`Plugin`插件相关、`Patterns`设计模式、`Linux`命令、`LeetCode`题解等类别，内容都是比较基础的，毕竟我也还是个小。此外基本上每个示例都是本着能够即时运行为目标的，新建一个`HTML`文件复制之后即可在浏览器运行或者直接可以在`console`中运行。
+这是一个前端小白的学习历程，如果只学习而不记录点什么那基本就等于白学了。这个版本库的名字`EveryDay`就是希望激励我能够每天学习，下面的文章就是从`2020.02.25`开始积累的文章，都是参考众多文章归纳整理学习而写的，文章包括了`HTML`基础、`CSS`基础、`JavaScript`基础与拓展、`Browser`浏览器相关、`Vue`使用与分析、`React`使用与分析、`Plugin`插件相关、`RichText`富文本、`Patterns`设计模式、`Linux`命令、`LeetCode`题解等类别，内容都是比较基础的，毕竟我也还是个小。此外基本上每个示例都是本着能够即时运行为目标的，新建一个`HTML`文件复制之后即可在浏览器运行或者直接可以在`console`中运行。
 
 如果想按照笔记顺序进行阅读的话可以 查看目录 ，另外如果想更条理地查看的话可以访问 我的博客，博客同时也是本版本库的`gh-pages`分支，是作为纯静态页面搭建在`Git Pages`上的，使用`jsdelivr`以及`cloudflare`作为缓存缓解国内访问速度问题。后期还在`gh-pages-ssg`分支上部署了`SSG`版本的 新版博客，并且借助`ChatGPT`提供了英文翻译版本，分支是部署在`Vercel`上来缓解国内访问速度问题。在博客中的内容就相对比较多了，除了学习笔记之外还有一些做项目时的记录以及遇到的坑等。`HXDM`如果觉得还不错，点个`star`吧，这个对我真的很重要。
 
@@ -283,33 +283,39 @@ Plugin
 -   Nginx常用配置
 -   Rollup的基本使用
 -   Jest中Mock网络请求
+-   TS内置类型与拓展
+-   竞态问题与RxJs
+-   基于NoCode构建简历编辑器
+-   基于drawio构建流程图编辑器
 -   初探webpack之编写plugin
 -   初探webpack之搭建Vue开发环境
--   TS内置类型与拓展
 -   初探webpack之编写loader
--   竞态问题与RxJs
--   基于slate构建文档编辑器
--   基于NoCode构建简历编辑器
+-   初探webpack之单应用多端构建
+-   初探webpack之解析器resolver
+-   从零实现的Chrome扩展
+-   从零实现的浏览器Web脚本
+-   基于Chrome扩展的浏览器事件
+-   从脚本管理器的角度审视Chrome扩展
+-   基于WebRTC的局域网文件传输
+-   基于ServiceWorker的文件传输方案
+-   基于Canvas构建简历编辑器
+
+RichText
+--------
+
 -   初探富文本之富文本概述
 -   初探富文本之编辑器引擎
 -   初探富文本之OT协同算法
 -   初探富文本之OT协同实例
 -   初探富文本之CRDT协同算法
 -   初探富文本之CRDT协同实例
--   基于drawio构建流程图编辑器
--   从零实现的Chrome扩展
 -   初探富文本之React实时预览
--   从零实现的浏览器Web脚本
--   初探webpack之单应用多端构建
--   基于WebRTC的局域网文件传输
 -   初探富文本之文档diff算法
 -   初探富文本之在线文档交付
 -   初探富文本之划词评论能力
 -   初探富文本之文档虚拟滚动
--   基于Chrome扩展的浏览器事件
--   初探webpack之解析器resolver
--   基于ServiceWorker的文件传输方案
 -   初探富文本之搜索替换算法
+-   基于slate构建文档编辑器
 
 Patterns
 --------
@@ -356,8 +362,6 @@ Patterns
 Linux
 -----
 
--   简单安全防护
--   Ubuntu16.04安装QQ机器人
 -   cat命令
 -   chmod命令
 -   chown命令

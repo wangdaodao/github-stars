@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2072
+stars: 2121
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Northern hawk-owl, Canada (© pchoui/Getty Images)
+Today: Loisach River at Lake Kochelsee, Bavaria, Germany (© Christian Back/eStock Photo)
+
+2024-12-22 download 4k
+
+2024-12-21 download 4k
+
+2024-12-20 download 4k
+
+2024-12-19 download 4k
+
+2024-12-18 download 4k
+
+2024-12-17 download 4k
+
+2024-12-16 download 4k
 
 2024-12-15 download 4k
 
@@ -55,20 +69,6 @@ Today: Northern hawk-owl, Canada (© pchoui/Getty Images)
 2024-11-24 download 4k
 
 2024-11-23 download 4k
-
-2024-11-22 download 4k
-
-2024-11-21 download 4k
-
-2024-11-20 download 4k
-
-2024-11-19 download 4k
-
-2024-11-18 download 4k
-
-2024-11-17 download 4k
-
-2024-11-16 download 4k
 
 ### 历史归档：
 

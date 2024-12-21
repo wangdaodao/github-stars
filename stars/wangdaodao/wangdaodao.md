@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-15 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-22 06:18.
 
 📝 Hitokoto
 -----------
 
-> 幸运的人一生都在被童年治愈，不幸的人一生都在治愈童年。—— 佚名
+> 我这一生只赢过一次。—— 乱古大帝
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Northern hawk-owl, Canada (© pchoui/Getty Images)_
+_Loisach River at Lake Kochelsee, Bavaria, Germany (© Christian Back/eStock Photo)_
 
 📚 My Blog posts ...
 --------------------
