@@ -1,6 +1,6 @@
 ---
 project: templateWxappUniapp
-stars: 282
+stars: 283
 description: UNI-APP微信小程序
 url: https://github.com/yinchengnuo/templateWxappUniapp
 ---

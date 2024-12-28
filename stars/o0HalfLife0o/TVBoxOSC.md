@@ -1,6 +1,6 @@
 ---
 project: TVBoxOSC
-stars: 11714
+stars: 11795
 description: null
 url: https://github.com/o0HalfLife0o/TVBoxOSC
 ---

@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2121
+stars: 2143
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Loisach River at Lake Kochelsee, Bavaria, Germany (© Christian Back/eStock Photo)
+Today: A green sea turtle swims in the Pacific Ocean near the French special collectivity of New Caledonia (© Damsea/Shutterstock)
+
+2024-12-29 download 4k
+
+2024-12-28 download 4k
+
+2024-12-27 download 4k
+
+2024-12-26 download 4k
+
+2024-12-25 download 4k
+
+2024-12-24 download 4k
+
+2024-12-23 download 4k
 
 2024-12-22 download 4k
 
@@ -55,20 +69,6 @@ Today: Loisach River at Lake Kochelsee, Bavaria, Germany (© Christian Back/eSto
 2024-12-01 download 4k
 
 2024-11-30 download 4k
-
-2024-11-29 download 4k
-
-2024-11-28 download 4k
-
-2024-11-27 download 4k
-
-2024-11-26 download 4k
-
-2024-11-25 download 4k
-
-2024-11-24 download 4k
-
-2024-11-23 download 4k
 
 ### 历史归档：
 

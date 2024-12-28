@@ -1,6 +1,6 @@
 ---
 project: BBS_admin
-stars: 269
+stars: 268
 description: vue+ElementUI+axios 接入数据，仿segmentfault，做相关的后台管理系统 https://lyh.red/admin/
 url: https://github.com/2017coding/BBS_admin
 ---

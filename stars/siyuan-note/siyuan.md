@@ -1,6 +1,6 @@
 ---
 project: siyuan
-stars: 23609
+stars: 24819
 description: A privacy-first, self-hosted, fully open source personal knowledge management software, written in typescript and golang.
 url: https://github.com/siyuan-note/siyuan
 ---

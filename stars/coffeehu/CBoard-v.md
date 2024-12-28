@@ -1,6 +1,6 @@
 ---
 project: CBoard-v
-stars: 116
+stars: 115
 description: CBoard Vue 版 （BI dashboard platform）
 url: https://github.com/coffeehu/CBoard-v
 ---

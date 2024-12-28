@@ -1,6 +1,6 @@
 ---
 project: tldraw
-stars: 36742
+stars: 37809
 description: whiteboard / infinite canvas SDK
 url: https://github.com/tldraw/tldraw
 ---
@@ -93,4 +93,4 @@ Star History
 Contact
 -------
 
-Find us on Twitter/X at @tldraw. You can contact us at by email at hello@tldraw.com.
+Find us on Twitter/X at @tldraw. You can contact us by email at hello@tldraw.com.

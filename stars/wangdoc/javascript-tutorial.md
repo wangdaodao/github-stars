@@ -1,6 +1,6 @@
 ---
 project: javascript-tutorial
-stars: 3964
+stars: 3962
 description: JavaScript 教程 https://wangdoc.com/javascript
 url: https://github.com/wangdoc/javascript-tutorial
 ---

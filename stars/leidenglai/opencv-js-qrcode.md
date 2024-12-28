@@ -1,6 +1,6 @@
 ---
 project: opencv-js-qrcode
-stars: 166
+stars: 167
 description: 基于opencv与wechat_qrcode实现的JS版二维码图像识别库
 url: https://github.com/leidenglai/opencv-js-qrcode
 ---

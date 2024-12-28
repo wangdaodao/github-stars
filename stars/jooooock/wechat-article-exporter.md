@@ -1,6 +1,6 @@
 ---
 project: wechat-article-exporter
-stars: 2984
+stars: 3057
 description: 在线批量下载微信公众号文章，支持阅读量、评论、内嵌音视频，无需搭建任何环境，可100%还原文章样式，支持私有部署
 url: https://github.com/jooooock/wechat-article-exporter
 ---

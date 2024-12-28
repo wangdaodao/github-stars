@@ -1,6 +1,6 @@
 ---
 project: lsky-pro
-stars: 4206
+stars: 4215
 description: ☁️兰空图床(Lsky Pro) - Your photo album on the cloud.
 url: https://github.com/lsky-org/lsky-pro
 ---
@@ -11,6 +11,10 @@ Lsky Pro
 ☁ Your photo album on the cloud.
 
 官网 · 文档 · 社区 · 演示 · Telegram 群组
+
+Warning
+
+开源版本已停止维护，不再进行新特性更新和 bug 修复。
 
 > master 分支为未安装三方拓展的版本，通常包含了最新未发布版本的一些实验性新特性和修复补丁，正式版本请点击 这里 下载。  
 > 发现 bug 请提交 issues (提问前建议阅读提问的智慧)  

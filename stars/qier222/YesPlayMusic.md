@@ -1,6 +1,6 @@
 ---
 project: YesPlayMusic
-stars: 29965
+stars: 30019
 description: 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron: 
 url: https://github.com/qier222/YesPlayMusic
 ---

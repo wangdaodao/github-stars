@@ -1,6 +1,6 @@
 ---
 project: douban-api-rs
-stars: 130
+stars: 132
 description: 简单的豆瓣api，主要用于在jellyfin中刮削电影信息
 url: https://github.com/cxfksword/douban-api-rs
 ---

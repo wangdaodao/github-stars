@@ -1,6 +1,6 @@
 ---
 project: fabric.js
-stars: 29318
+stars: 29371
 description: Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 url: https://github.com/fabricjs/fabric.js
 ---
@@ -11,6 +11,7 @@ Fabric.js
 A **simple and powerful Javascript HTML5 canvas library**.
 
 -   **Website**
+-   **Old V5 documentation**
 -   **GOTCHAS**
 -   **Contributing, Developing and More**
 
@@ -83,14 +84,16 @@ Node.js
 
 Node.js installation
 
-Fabric.js Does not use transpilation by default, the browser version we support is determined by the level of canvas api we want to use and some js syntax. While JS can be easily transpiled, canvas API can't.
+Fabric.js does not use polyfills by default, or tries to keep it at minimum. the browser version we support is determined by the level of canvas api we want to use and some js syntax. While JS can be easily transpiled, canvas API can't.
 
 Installation
 ------------
 
 $ npm install fabric --save
-// or
+# or use yarn
 $ yarn add fabric
+# or use pnpm
+$ pnpm install fabric
 
 #### Browser
 
@@ -129,7 +132,7 @@ import { fabric } from 'fabric';
   canvas.add(rect);
 </script\>
 
-**ReactJS**
+**React.js**
 
 import React, { useEffect, useRef } from 'react';
 import \* as fabric from 'fabric'; // v6

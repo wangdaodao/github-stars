@@ -1,6 +1,6 @@
 ---
 project: joplin
-stars: 46660
+stars: 46789
 description: Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
 url: https://github.com/laurent22/joplin
 ---
@@ -81,6 +81,10 @@ Support Forum
 
 This is the main place for general discussion about Joplin, user support, software development questions, and to discuss new features. Also where the latest beta versions are released and discussed.
 
+Bluesky feed
+
+Follow us on Bluesky
+
 Twitter feed
 
 Follow us on Twitter
@@ -119,13 +123,16 @@ Thank you to everyone who've contributed to Joplin's source code!
 laurent22
 
   
+personalizedrefrigerator
+
+  
 tessus
 
   
 CalebJohn
 
   
-personalizedrefrigerator
+pedr
 
   
 roman-r-m
@@ -140,16 +147,22 @@ ken1kob
 genneko
 
   
+wh201906
+
+  
+Ardakilic
+
+  
 Daeraxa
+
+  
+NickWick13
 
   
 tanrax
 
   
 j-krl
-
-  
-wh201906
 
   
 JackGruber
@@ -164,16 +177,13 @@ PackElend
 julien-me
 
   
-pedr
+AliceHincu
 
   
 potatogim
 
   
-JonatanWick
-
-  
-Ardakilic
+Mr-Kanister
 
   
 milotype
@@ -188,46 +198,40 @@ rtmkrlv
 fmrtn
 
   
-Mr-Kanister
-
-  
-palerdot
-
-  
-matsest
+hubertfilho
 
   
 devonzuegel
 
   
-anjulalk
+ScriptInfra
 
   
-gabcoh
+matsest
 
   
-hubertfilho
+palerdot
 
   
 abonte
 
   
+rnbastos
+
+  
 Abijeet
-
-  
-ishantgupta777
-
-  
-ScriptInfra
 
   
 jd1378
 
   
-rabeehrz
+ishantgupta777
 
   
 coderrsid
+
+  
+rabeehrz
 
   
 mablin7
@@ -239,7 +243,13 @@ jackytsu
 mak2002
 
   
+ERYpTION
+
+  
 XarisA
+
+  
+CptMeetKat
 
   
 foxmask
@@ -257,46 +267,22 @@ Ahmad45123
 jonath92
 
   
-readingsnail
+qx100
 
   
 xavivars
 
   
-rnbastos
+readingsnail
 
   
-alexdevero
-
-  
-Elaborendum
-
-  
-Mannivu
-
-  
-nishantwrp
-
-  
-Runo-saduwa
-
-  
-shinglyu
-
-  
-Tolu-Mals
-
-  
-marcosvega91
-
-  
-mrkaato0
-
-  
-petrz12
+krotesk
 
   
 zblesk
+
+  
+findrakecil
 
   
 vsimkus
@@ -305,16 +291,70 @@ vsimkus
 Vaso3
 
   
-moltenform
+petrz12
+
+  
+mrkaato0
+
+  
+marcosvega91
+
+  
+Tolu-Mals
+
+  
+shinglyu
+
+  
+Runo-saduwa
+
+  
+nishantwrp
 
   
 marph91
 
   
+Mannivu
+
+  
+Elaborendum
+
+  
+alexdevero
+
+  
+RedDocMD
+
+  
+wljince007
+
+  
+RenatoXSR
+
+  
+leematos
+
+  
+amandamcg
+
+  
+ylc395
+
+  
+yaozeye
+
+  
 zuphilip
 
   
+kna
+
+  
 Retr0ve
+
+  
+maxpatiiuk
 
   
 Rishabh-malhotraa
@@ -335,34 +375,55 @@ WhiredPlanck
 ProgramFan
 
   
-yaozeye
+moltenform
 
   
-ylc395
+cagnusmarlsen
 
   
-amandamcg
+cedecode
 
   
-leematos
+piotrb
 
   
-RenatoXSR
+nathanleiby
 
   
-RedDocMD
+marcushill
 
   
-t1011
+adarsh-sgh
 
   
-whalehub
+RaphaelKimmig
+
+  
+tfinnberg
+
+  
+mrkaato
+
+  
+jcgurango
+
+  
+bradmcl
+
+  
+archont00
+
+  
+anihm136
 
   
 amitsin6h
 
   
 Atalanttore
+
+  
+t1011
 
   
 hieuthi
@@ -372,6 +433,9 @@ martonpaulo
 
   
 mmahmoudian
+
+  
+mimeyn
 
   
 bobchao
@@ -386,6 +450,9 @@ Rishabhraghwendra18
 sinkuu
 
   
+Sidd-R
+
+  
 stweil
 
   
@@ -395,88 +462,199 @@ Subhra264
 conyx
 
   
-anihm136
+fstanis
 
   
-archont00
+axq
 
   
-bradmcl
+alexchee
 
   
-jcgurango
+kowalskidev
 
   
-mrkaato
+jyuvaraj03
 
   
-tfinnberg
-
-  
-adarsh-sgh
-
-  
-marcushill
-
-  
-nathanleiby
-
-  
-piotrb
-
-  
-RaphaelKimmig
+Shoatally
 
   
 Wartijn
 
   
-xUser5000
+HahaBill
 
   
-serenitatis
+tmclo
 
   
-k33pn3xtlvl
+TobiasDev
 
   
-antontkv
+SubodhDahal
 
   
-infinity052
+StarFang208
 
   
-entrymaster
+LEVIII007
 
   
-BartBucknill
+sealch
 
   
-betty-alagwu
+sebastienjust
 
   
-mrwulf
+criticic
 
   
-brttbndr
+rt-oliveira
 
   
-cas--
+thearchivalone
 
   
-chrisb86
+ikunya
 
   
-chrmoritz
+ShuiHuo
 
   
-djunho
+paventyang
+
+  
+tiberiusteng
+
+  
+sensor-freak
+
+  
+kornava
+
+  
+s1nceri7y
+
+  
+ruuti
+
+  
+pf-siedler
+
+  
+mrjo118
+
+  
+majsterkovic
+
+  
+lscolombo
+
+  
+stingray-11
+
+  
+kik0220
+
+  
+jduar
+
+  
+ihan1004
+
+  
+eresytter
+
+  
+barbowza
+
+  
+balmag
 
   
 daniellandau
 
   
-krote5k
+djunho
+
+  
+idcristi
+
+  
+chrmoritz
+
+  
+chrisb86
+
+  
+cas--
+
+  
+brttbndr
+
+  
+mrwulf
+
+  
+betty-alagwu
+
+  
+BartBucknill
+
+  
+entrymaster
+
+  
+infinity052
+
+  
+antontkv
+
+  
+andypiper
+
+  
+k33pn3xtlvl
+
+  
+serenitatis
+
+  
+akirataguchi115
+
+  
+ab-elhaddad
+
+  
+xUser5000
+
+  
+PiotrNarel
+
+  
+Philipp91
+
+  
+RadCod3
+
+  
+popovoleksandr
+
+  
+mjjzf
+
+  
+Mohamad-Shiro
+
+  
+maicki
+
+  
+itzTheMeow
+
+  
+solariz
 
   
 ethan42411
@@ -509,112 +687,463 @@ krishna8421
 Linkosred
 
   
-solariz
+kirtanprht
 
   
-maicki
+xuhcc
 
   
-mjjzf
+kkoyung
 
   
-popovoleksandr
+khuongduy354
 
   
-Philipp91
+Kevin-vdberg
 
   
-rt-oliveira
+kevinshu1995
 
   
-sebastienjust
+y-usuzumi
 
   
-sealch
+kaustubhsh
 
   
-StarFang208
+KaneGreen
 
   
-SubodhDahal
+Juvecu
 
   
-TobiasDev
+dodog
 
   
-tmclo
+joybinchen
 
   
-Whaell
+joserebelo
 
   
-jyuvaraj03
+joesfer
 
   
-kowalskidev
+joschaschmiedt
 
   
-alexchee
+K0UR05H
 
   
-axq
+kklas
 
   
-balmag
+xmlangel
 
   
-barbowza
+Letty
 
   
-eresytter
+troilus
 
   
-kik0220
+LightTreasure
 
   
-stingray-11
+Longhao-Chen
 
   
-lscolombo
+diogocaveiro
 
   
-majsterkovic
+lboullo0
 
   
-pf-siedler
+mrlpm
 
   
-ruuti
+MHolkamp
 
   
-s1nceri7y
+mshibanami
 
   
-kornava
+marc-bouvier
 
   
-sensor-freak
+mvonmaltitz
 
   
-paventyang
+nicholas-10
 
   
-ShuiHuo
+Vistaus
 
   
-ikunya
+beonma
 
   
-bedwardly-down
+gtlsgamr
 
   
-fstanis
+horaceyoung
 
   
-sammyhori
+ianjs
+
+  
+iahmedbacha
+
+  
+eltociear
+
+  
+caseycs
+
+  
+IrvinDominin
+
+  
+ishammahajan
+
+  
+ffadilaputra
+
+  
+Oriwantgreencard
+
+  
+j0hn-mc-clane
+
+  
+JRaiden16
+
+  
+jacobherrington
+
+  
+jamesadjinwa
+
+  
+jrwrigh
+
+  
+analogist
+
+  
+JanhaviAlekar
+
+  
+jaredcrowe
+
+  
+jasonwilliams
+
+  
+J-U-B
+
+  
+imsardine
+
+  
+volatilevar
+
+  
+innkuika
+
+  
+Jia35
+
+  
+JoelRSimpson
+
+  
+joeltaylor
+
+  
+thejohnfreeman
+
+  
+exic
+
+  
+JonathanPlasse
+
+  
+nickhobbs94
+
+  
+Frichetten
+
+  
+nicolas-suzuki
+
+  
+Nicryc
+
+  
+nightknighto
+
+  
+nik-gautam
+
+  
+nitingururajk
+
+  
+noah-nash
+
+  
+vulpivia
+
+  
+OmGole
+
+  
+Ouvill
+
+  
+shorty2380
+
+  
+dist3r
+
+  
+BCSharp
+
+  
+rakleed
+
+  
+idle-code
+
+  
+Oaklight
+
+  
+Perkolator
+
+  
+petzi53
+
+  
+phavekes
+
+  
+phitsc
+
+  
+KowalskiPiotr98
+
+  
+Polaris66
+
+  
+Diadlo
+
+  
+pranavmodx
+
+  
+DarkFalc0n
+
+  
+psy-q
+
+  
+R3dError
+
+  
+rajprakash00
+
+  
+rahil1304
+
+  
+marcorombach
+
+  
+mlkood
+
+  
+plextoriano
+
+  
+Marmo
+
+  
+mcejp
+
+  
+freaktechnik
+
+  
+martinkorelic
+
+  
+Petemir
+
+  
+matsair
+
+  
+MattDemers
+
+  
+mgroth0
+
+  
+silentmatt
+
+  
+moorage
+
+  
+maxs-test
+
+  
+MichBoi
+
+  
+msorens
+
+  
+MikkCZ
+
+  
+MichipX
+
+  
+Elleo
+
+  
+phucbm
+
+  
+maholmlund
+
+  
+MovingEarth
+
+  
+MrTraduttore
+
+  
+ZhReimu
+
+  
+sanjarcode
+
+  
+Mustafa-ALD
+
+  
+LeMyst
+
+  
+matmolni
+
+  
+NJannasch
+
+  
+njmulsqb
+
+  
+zomglings
 
   
 hexclover
+
+  
+adrynov
+
+  
+andrewperry
+
+  
+tekdel
+
+  
+fobo66
+
+  
+andzs
+
+  
+pandeymangg
+
+  
+Shaxine
+
+  
+antonio-ramadas
+
+  
+aprvsh
+
+  
+archisman-panigrahi
+
+  
+aynp
+
+  
+assimd
+
+  
+Atrate
+
+  
+austindoupnik
+
+  
+azurelunatic
+
+  
+BeeverTeeth
+
+  
+be-we
+
+  
+ei8fdb
+
+  
+bimlas
+
+  
+bishoy-magdy
+
+  
+brad
+
+  
+brenobaptista
+
+  
+cuihaoleo
+
+  
+CandleCandle
+
+  
+carlbordum
+
+  
+carlosngo
+
+  
+carlosedp
+
+  
+chaifeng
+
+  
+charles-e
+
+  
+cyy53589
 
   
 2jaeyeol
@@ -629,6 +1158,9 @@ AIbnuHIbban
 asalthobaity
 
   
+awesome-pro
+
+  
 abhi-bhatra
 
   
@@ -638,10 +1170,13 @@ iamabhi222
 waditos
 
   
+AdrienPoupa
+
+  
 sandstone991
 
   
-Aksh-Konda
+aksh-konda
 
   
 alanfortlink
@@ -650,7 +1185,7 @@ alanfortlink
 alecmaly
 
   
-AverageUser2
+alessandroberna
 
   
 adw2019
@@ -686,7 +1221,7 @@ Jumanjii
 AlphaJack
 
   
-Lord-Aman
+captain-aman-11
 
   
 aminvakil
@@ -701,169 +1236,7 @@ andrejilderda
 deining
 
   
-adrynov
-
-  
-andrewperry
-
-  
-tekdel
-
-  
-fobo66
-
-  
-andzs
-
-  
-pandeymangg
-
-  
-rasklaad
-
-  
-Shaxine
-
-  
-antonio-ramadas
-
-  
-aprvsh
-
-  
-aynp
-
-  
-assimd
-
-  
-Atrate
-
-  
-austindoupnik
-
-  
-BeeverTeeth
-
-  
-be-we
-
-  
-ei8fdb
-
-  
-bimlas
-
-  
-bishoy-magdy
-
-  
-brad
-
-  
-brenobaptista
-
-  
-CandleCandle
-
-  
-carlbordum
-
-  
-carlosngo
-
-  
-carlosedp
-
-  
-chaifeng
-
-  
-charles-e
-
-  
-cyy53589
-
-  
 Chillu1
-
-  
-Techwolf12
-
-  
-christopher-o-toole
-
-  
-cloudtrends
-
-  
-idcristi
-
-  
-damienmascre
-
-  
-da2x
-
-  
-danielb2
-
-  
-danil-tolkachev
-
-  
-darshani28
-
-  
-daukadolt
-
-  
-DavidBeale
-
-  
-NeverMendel
-
-  
-Mr-DG-Wick
-
-  
-DG0lden
-
-  
-deunlee
-
-  
-diego-betto
-
-  
-erdody
-
-  
-diragb
-
-  
-domgoodwin
-
-  
-b4mboo
-
-  
-donbowman
-
-  
-DeeJayLSP
-
-  
-sirnacnud
-
-  
-dflock
-
-  
-drobilica
-
-  
-educbraga
 
   
 eduebernal
@@ -884,16 +1257,22 @@ etho201
 eodeluga
 
   
+Fabien-jrt
+
+  
+fabiogvdneto
+
+  
 fathyar
 
   
 Fejby
 
   
-fkinoshita
+fernandonagase
 
   
-fer22f
+ferk6a
 
   
 fpindado
@@ -903,6 +1282,9 @@ FleischKarussel
 
   
 easyteacher
+
+  
+glemco
 
   
 halkeye
@@ -947,490 +1329,91 @@ graueneko
 harshitkathuria
 
   
-Vistaus
+ckant
 
   
-gtlsgamr
+Techwolf12
 
   
-horaceyoung
+christopher-o-toole
 
   
-ianjs
+cloudtrends
 
   
-iahmedbacha
+cicerotcv
 
   
-caseycs
+CoolCu
 
   
-IrvinDominin
+CyrusYip
 
   
-ishammahajan
+damienmascre
 
   
-ffadilaputra
+da2x
 
   
-Iwantgreencard
+danielb2
 
   
-j0hn-mc-clane
+danimnunes
 
   
-JRaiden16
+danil-tolkachev
 
   
-jacobherrington
+darshani28
 
   
-jamesadjinwa
+dhgoldberg
 
   
-jrwrigh
+DavidBeale
 
   
-analogist
+NeverMendel
 
   
-jaredcrowe
+deeepsig
 
   
-jasonwilliams
+DG0lden
 
   
-volatilevar
+deunlee
 
   
-innkuika
+diego-betto
 
   
-JoelRSimpson
+erdody
 
   
-joeltaylor
+diragb
 
   
-thejohnfreeman
+domgoodwin
 
   
-exic
+b4mboo
 
   
-JonathanPlasse
+donbowman
 
   
-joschaschmiedt
+DeeJayLSP
 
   
-joesfer
+sirnacnud
 
   
-joserebelo
+dflock
 
   
-joybinchen
+drobilica
 
   
-Juvecu
-
-  
-KaneGreen
-
-  
-kaustubhsh
-
-  
-y-usuzumi
-
-  
-kevinshu1995
-
-  
-Kevin-vdberg
-
-  
-kkoyung
-
-  
-xuhcc
-
-  
-kirtanprht
-
-  
-k0ur0x
-
-  
-kklas
-
-  
-xmlangel
-
-  
-Letty
-
-  
-troilus
-
-  
-LightAPIs
-
-  
-Longhao-Chen
-
-  
-diogocaveiro
-
-  
-lboullo0
-
-  
-luisperezmarin
-
-  
-MHolkamp
-
-  
-marc-bouvier
-
-  
-mvonmaltitz
-
-  
-mlkood
-
-  
-plextoriano
-
-  
-Marmo
-
-  
-mcejp
-
-  
-freaktechnik
-
-  
-martinkorelic
-
-  
-Petemir
-
-  
-matsair
-
-  
-MattDemers
-
-  
-mgroth0
-
-  
-silentmatt
-
-  
-maxs-test
-
-  
-MichBoi
-
-  
-MikkCZ
-
-  
-MichipX
-
-  
-Elleo
-
-  
-phucbm
-
-  
-miucci
-
-  
-MovingEarth
-
-  
-MrTraduttore
-
-  
-sanjarcode
-
-  
-Mustafa-ALD
-
-  
-LeMyst
-
-  
-matmolni
-
-  
-NJannasch
-
-  
-kna
-
-  
-zomglings
-
-  
-nicholas-10
-
-  
-nickhobbs94
-
-  
-Frichetten
-
-  
-nicolas-suzuki
-
-  
-Nicryc
-
-  
-nik-gautam
-
-  
-noah-nash
-
-  
-OmGole
-
-  
-Ouvill
-
-  
-shorty2380
-
-  
-dist3r
-
-  
-rakleed
-
-  
-idle-code
-
-  
-Oaklight
-
-  
-Perkolator
-
-  
-petzi53
-
-  
-phitsc
-
-  
-KowalskiPiotr98
-
-  
-Polaris66
-
-  
-Diadlo
-
-  
-pranavmodx
-
-  
-R3dError
-
-  
-rajprakash00
-
-  
-rahil1304
-
-  
-rasulkireev
-
-  
-reinhart1010
-
-  
-Retew
-
-  
-ambrt
-
-  
-rio-codes
-
-  
-robmoffat
-
-  
-Derkades
-
-  
-fourstepper
-
-  
-rodgco
-
-  
-Ronnie76er
-
-  
-roryokane
-
-  
-ruzaq
-
-  
-szokesandor
-
-  
-forsh4w
-
-  
-SamuelBlickle
-
-  
-livingc0l0ur
-
-  
-bronson
-
-  
-sebthom
-
-  
-semperor
-
-  
-SeptemberHX
-
-  
-shawnaxsom
-
-  
-hurutoriya
-
-  
-siddharthmagadum16
-
-  
-5idereal
-
-  
-stephan-dev
-
-  
-SFoskitt
-
-  
-stephanoskomnenos
-
-  
-WebSnke
-
-  
-kcrt
-
-  
-xissy
-
-  
-tams
-
-  
-Tekki
-
-  
-Teko-uy
-
-  
-ThatcherC
-
-  
-TheoDutch
-
-  
-Theta-Dev
-
-  
-ThibaultJanBeyer
-
-  
-tbroadley
-
-  
-Kriechi
-
-  
-tkilaker
-
-  
-Archelyst
-
-  
-tcyrus
-
-  
-tobias-grasse
-
-  
-strobeltobias
-
-  
-kostegit
-
-  
-TomBursch
-
-  
-tbergeron
-
-  
-tbjers
-
-  
-trentlarson
-
-  
-Ullas-Aithal
-
-  
-vdeville
-
-  
-vassudanagunta
-
-  
-vijayjoshi16
-
-  
-vjocw
-
-  
-max-keviv
-
-  
-vandreykiv
-
-  
-warddr
-
-  
-westfalenyeti
-
-  
-WisdomCode
-
-  
-X3NOOO
-
-  
-xsak
+educbraga

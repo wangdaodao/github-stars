@@ -1,7 +1,7 @@
 ---
 project: ChatGPT-Next-Web
-stars: 77836
-description: A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT/Gemini 应用。
+stars: 78063
+description: A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT/Gemini/Claude LLM 应用。
 url: https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web
 ---
 
@@ -10,9 +10,9 @@ NextChat (ChatGPT Next Web)
 
 English / 简体中文
 
-One-Click to get a well-designed cross-platform ChatGPT web UI, with GPT3, GPT4 & Gemini Pro support.
+One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT4 & Gemini Pro support.
 
-一键免费部署你的跨平台私人 ChatGPT 应用, 支持 GPT3, GPT4 & Gemini Pro 模型。
+一键免费部署你的跨平台私人 ChatGPT 应用, 支持 Claude, GPT4 & Gemini Pro 模型。
 
 NextChatAI / Web App / Desktop App / Discord / Enterprise Edition / Twitter
 
@@ -339,6 +339,12 @@ For ByteDance: use `modelName@bytedance=deploymentName` to customize model name 
 ### `DEFAULT_MODEL` （optional）
 
 Change default model
+
+### `VISION_MODELS` (optional)
+
+> Default: Empty Example: `gpt-4-vision,claude-3-opus,my-custom-model` means add vision capabilities to these models in addition to the default pattern matches (which detect models containing keywords like "vision", "claude-3", "gemini-1.5", etc).
+
+Add additional models to have vision capabilities, beyond the default pattern matching. Multiple models should be separated by commas.
 
 ### `WHITE_WEBDAV_ENDPOINTS` (optional)
 

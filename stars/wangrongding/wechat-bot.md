@@ -1,6 +1,6 @@
 ---
 project: wechat-bot
-stars: 5817
+stars: 5921
 description: 🤖一个基于 WeChaty 结合 OpenAi ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 url: https://github.com/wangrongding/wechat-bot
 ---
@@ -108,7 +108,7 @@ API资源/平台收录
 赞助商
 ---
 
-302.AI 是一个汇集全球顶级 AI 的自助平台，按需付费，零月费，零门槛使用各种类型 AI。 网站介绍 | 产品链接
+302.AI 是一个汇集全球顶级 AI 的自助平台，按需付费，零月费，零门槛使用各种类型 AI。 产品链接
 
 提供claude gemini 等模型 价格低至0.55一刀 (vx: spkf789)
 

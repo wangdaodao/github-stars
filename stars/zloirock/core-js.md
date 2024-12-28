@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24669
+stars: 24689
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -162,6 +162,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `RegExp` escaping
             -   `Math.sumPrecise`
             -   `Symbol.metadata` for decorators metadata proposal
+            -   `Error.isError`
         -   Stage 2.7 proposals
             -   `Iterator` sequencing
         -   Stage 2 proposals
@@ -302,22 +303,22 @@ The bind operator is an early-stage ECMAScript proposal and usage of this syntax
 
 #### `@babel/polyfill`⬆
 
-`@babel/polyfill` **IS** just the import of stable `core-js` features and `regenerator-runtime` for generators and async functions, so if you load `@babel/polyfill` - you load the global version of `core-js` without ES proposals.
+`@babel/polyfill` **IS** just the import of stable `core-js` features and `regenerator-runtime` for generators and async functions, so loading `@babel/polyfill` means loading the global version of `core-js` without ES proposals.
 
-Now it's deprecated in favor of separate inclusion of required parts of `core-js` and `regenerator-runtime` and, for preventing breaking changes, left on `core-js@2`.
+Now it's deprecated in favor of separate inclusion of required parts of `core-js` and `regenerator-runtime` and, for backward compatibility, `@babel/polyfill` is still based on `core-js@2`.
 
-As a full equal of `@babel/polyfill`, you can use this:
+As a full equal of `@babel/polyfill`, you can use the following:
 
 import 'core-js/stable';
 import 'regenerator-runtime/runtime';
 
 #### `@babel/preset-env`⬆
 
-`@babel/preset-env` has `useBuiltIns` option, which optimizes working with the global version of `core-js`. With `useBuiltIns` option, you should also set `corejs` option to the used version of `core-js`, like `corejs: '3.39'`.
+`@babel/preset-env` has `useBuiltIns` option, which optimizes the use of the global version of `core-js`. With `useBuiltIns` option, you should also set `corejs` option to the used version of `core-js`, like `corejs: '3.39'`.
 
 Important
 
-Recommended to specify used minor `core-js` version, like `corejs: '3.39'`, instead of `corejs: 3`, since with `corejs: 3` will not be injected modules which were added in minor `core-js` releases.
+It is recommended to specify the used minor `core-js` version, like `corejs: '3.39'`, instead of `corejs: 3`, since with `corejs: 3` will not be injected modules which were added in minor `core-js` releases.
 
 * * *
 
@@ -2754,6 +2755,37 @@ core-js/proposals/decorator-metadata-v2
 core-js(-pure)/actual|full/symbol/metadata
 core-js(-pure)/actual|full/function/metadata
 ```
+
+````
+
+##### [`Error.isError`](https://github.com/tc39/proposal-is-error)[⬆](#index)
+Module [`esnext.error.is-error`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.error.is-error.js)
+```ts
+class Error {
+  static isError(value: any): boolean;
+}
+````
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/is-error
+core-js(-pure)/actual|full/error/is-error
+```
+
+_Example_:
+
+Error.isError(new Error('error')); // => true
+Error.isError(new TypeError('error')); // => true
+Error.isError(new DOMException('error')); // => true
+
+Error.isError(null); // => false
+Error.isError({}); // => false
+Error.isError(Object.create(Error.prototype)); // => false
+
+Warning
+
+We have no bulletproof way to polyfill this method / check if the object is an error, so it's an enough naive implementation.
 
 #### Stage 2.7 proposals⬆
 

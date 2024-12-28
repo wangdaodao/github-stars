@@ -1,6 +1,6 @@
 ---
 project: form-create
-stars: 6214
+stars: 6230
 description: :fire::fire::fire: 强大的低代码动态表单组件，通过JSON数据驱动表单渲染，适配移动端，支持可视化设计。提高开发者对表单的开发效率。目前在政务系统、OA系统、ERP系统、电商系统、流程管理等系统中已稳定应用。
 url: https://github.com/xaboy/form-create
 ---
@@ -91,6 +91,26 @@ vant 版本(移动端)
 @form-create/vant-designer
 
 移动端表单设计器
+
+**分支说明**
+
+-   **latest:** Vue2.0版本分支
+-   **super:** Vue2.7版本分支(该版本功能和next分支功能一致)
+-   **next:** Vue3.0版本分支
+
+例如:
+
+安装Vue2版本的@form-create/element-ui
+
+npm install @form-create/element-ui
+
+安装Vue2.7版本的@form-create/vant
+
+npm install @form-create/vant@super
+
+安装Vue3版本的@form-create/element-ui
+
+npm install @form-create/element-ui@next
 
 示例
 --

@@ -1,6 +1,6 @@
 ---
 project: vue-flowchart-editor
-stars: 192
+stars: 193
 description: A flowchart editor component base on Vue and G6, enjoy ~
 url: https://github.com/jnoodle/vue-flowchart-editor
 ---

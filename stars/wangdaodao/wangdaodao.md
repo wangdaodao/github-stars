@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-22 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-29 06:18.
 
 📝 Hitokoto
 -----------
 
-> 我这一生只赢过一次。—— 乱古大帝
+> 宇宙很大，生活更大，也许以后还有缘相见。—— 刘慈欣
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Loisach River at Lake Kochelsee, Bavaria, Germany (© Christian Back/eStock Photo)_
+_A green sea turtle swims in the Pacific Ocean near the French special collectivity of New Caledonia (© Damsea/Shutterstock)_
 
 📚 My Blog posts ...
 --------------------

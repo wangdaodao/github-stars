@@ -1,6 +1,6 @@
 ---
 project: vis-three
-stars: 327
+stars: 328
 description: A web 3D development framework for assembled based on three.js
 url: https://github.com/vis-three/vis-three
 ---
@@ -19,11 +19,6 @@ VIS-THREE
 基于 three.js 的组装式前端 3D 开发框架。
 
 > 夫物速成则疾亡，晚就则善终。朝华之草，夕而零落；松柏之茂，隆寒不衰。是以大雅君子恶速成。——《群书治要》
-
-说明
---
-
--   main 分支`0.7.x`基础版本已经更新完成，核心文档已经更新，其他文档会定期更新。
 
 主页、文档、案例在线地址
 ------------

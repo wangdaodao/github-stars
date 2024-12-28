@@ -1,6 +1,6 @@
 ---
 project: vue-excel-editor
-stars: 559
+stars: 560
 description: Vue2 plugin for displaying and editing the array-of-object in Excel style
 url: https://github.com/cscan/vue-excel-editor
 ---

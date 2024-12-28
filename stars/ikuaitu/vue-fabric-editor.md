@@ -1,122 +1,132 @@
 ---
 project: vue-fabric-editor
-stars: 6067
+stars: 6093
 description: 快图设计-基于fabric.js和Vue的开源图片编辑器，可自定义字体、素材、设计模板。fabric.js and Vue based image editor, can customize fonts, materials, design templates.
 url: https://github.com/ikuaitu/vue-fabric-editor
 ---
 
 English| 中文
 
-### Plugin architecture · Drag-and-drop design · Complete functions
+### 开源图片编辑器 · 插件化架构 · 拖拽式设计 · 功能完善
 
-Based on fabric.js and Vue developed plug-in image editor, can customize fonts, materials, design templates, right-click menu, shortcut keys
+基于 fabric.js 和 Vue 开发的插件化图片编辑器，可自定义字体、素材、设计模板、右键菜单、快捷键
 
-Preview · Document · Enterprise Edition Preview · Enterprise Edition
-
-  
+演示 · 文档 · 付费版演示 · 付费版介绍
 
   
 
-Introduction
-------------
+  
 
-Vue-Fabric-Editor is an image editor based on fabric.js and Vue, which can customize fonts, materials, design templates, right-click menus, and shortcut keys.
+简介
+--
 
-GIF introduction · Introductory video
+快图设计，vue-fabric-editor 是一款基于 fabric.js 和 Vue 开发的图片编辑器，可自定义字体、素材、设计模板、右键菜单、快捷键。
 
-### Features
+动图介绍 · 介绍视频
 
-1.  **Plug-in architecture**: can be extended and developed through plug-ins, supporting right-click menus and shortcut keys.
-2.  **Drag-and-drop design**: a graphic editor that is mainly lightweight and simple, rather than a large and comprehensive online PS-like heavy-line design tool.
-3.  **Full-featured**: PSD parsing, auxiliary lines, history, gradients, custom fonts, cropping and other functions.
+### 特点
 
-### Existing features
+1.  **插件化架构**：可通过插件的进行扩展开发，支持右键菜单和快捷键。
+2.  **拖拽式设计**：以轻量、简洁为主的图形编辑器，而非大而全的在线 PS 类的重行设计工具。
+3.  **功能完善**：PSD 解析、辅助线、历史记录、渐变、自定义字体、裁剪等功能。
 
--   Import JSON, PSD files
--   Export PNG, SVG, JSON files
--   Combine/split combinations
--   Layer functions
--   Gradient properties
--   Appearance properties/Font properties/Stroke/Shadow
--   Undo/Redo
--   Shortcuts
--   Right-click menu
--   Auxiliary lines
--   Rulers
--   Custom fonts
--   Custom template materials
--   Insert SVG, image materials
--   Horizontal and vertical alignment of multiple elements
--   Background property settings
--   Arrows/lines
--   Brush/polygon drawing
--   QR code/barcode
--   Image replacement/cropping/filters
--   Watermark
--   Internationalization
+### 已有功能
 
-Use
----
+-   导入 JSON、PSD 文件
+-   导出 PNG、SVG、JSON 文件
+-   组合/拆分组合
+-   图层功能
+-   渐变属性
+-   外观属性/字体属性/描边/阴影
+-   撤销/重做
+-   快捷键
+-   右键菜单
+-   辅助线
+-   标尺
+-   自定义字体
+-   自定义模板素材
+-   插入 SVG、图片素材
+-   多元素水平、垂直对齐方式
+-   背景属性设置
+-   箭头/线条
+-   画笔/多边形绘制
+-   二维码/条形码
+-   图片替换/裁剪/滤镜
+-   水印
+-   国际化
 
-Please install node.js v16 and pnpm first, then execute the following command:
+使用
+--
+
+请先安装 node.js v16，及 pnpm， 然后执行以下命令：
 
 ```
 pnpm i
 pnpm dev
 ```
 
-Enterprise Edition
-------------------
+开发者服务
+-----
 
-Help enterprises quickly build online design tools, **reduce enterprise R&D investment, and avoid reinventing the wheel.**
+-   **微信交流群**：我们组建了多个微信项目交流群，作者和项目维护者活跃在群内，定期解答问题。
+-   **fabric.js 中文教程**：https://blog.kuaitu.cc。
+-   **知识星球**：长期更新开源编辑器与 fabric.js 的相关资料，沉淀最佳实践、开发经验分享、代码示例等。
 
-Function Introduction · Product introduction · Preview
+付费版本
+----
 
-The open source version only contains the front-end code, while the paid version **provides complete front-end, back-end and management background, with full functionality out of the box, and provides source code authorization and supports secondary development**.
+帮助企业快速搭建在线设计工具，**减少企业研发投入，避免重复造轮子。**
 
--   **Ready to use out of the box, full functionality**: Rich design capabilities, providing complete front-end and back-end functions, ready to use after deployment.
--   **Plug-in architecture, easy to expand**: Based on plug-in API, quickly carry out secondary development of the editor.
--   **Batch generation, fast output**: Support batch generation of images through HTTP interface and table files.
--   **Drag-and-drop design, simple and easy to use**: Suitable for ordinary users, easy to get started without training.
--   **Technical docking, document training**: Provide more support and efficiently complete technical docking.
--   **Customized development, reduced investment**: Support the rapid completion of functional customized development and reduce R&D investment.
+功能介绍 · 产品介绍 · 演示
 
-Contribution guide
-------------------
+开源版本仅前端代码，付费版本**提供完整的前后端、管理后台，功能完整开箱即用，提供源码授权、支持二次开发**。
 
-The project is committed to creating an out-of-the-box web image editor application, and at the same time, it will precipitate an encapsulation layer between the web image editor application and fabric.js. It is expected that the encapsulation layer will be designed for developers and provide a simpler interface so that developers can easily develop image applications.
+-   **开箱即用，功能完整**：设计能力丰富，提供完整前台、后台功能，部署即可使用。
+-   **插件架构，扩展方便**：基于插件化 API，快速对编辑器进行二次开发。
+-   **批量生成，快速出图**：支持通过 HTTP 接口、表格文件批量生成图片。
+-   **拖拽式设计，简单易用**：适合普通用户操作，无需培训轻松上手。
+-   **全平台适配**：PC 版本、H5 版本支持各种应用场景。
+-   **技术对接，文档培训**：提供更多的支持，高效完成技术对接。
+-   **定制开发，减少投入**：支持快速完成功能定制开发，减少研发投入。
 
-If you are interested in this matter, we sincerely invite you to join us and grow together. You only need to know simple Git and Javascript syntax.
+贡献指南
+----
 
-### Related Materials
+项目致力于打造一个开箱即用的 web 图片编辑器应用，同时沉淀一个介于 web 图片编辑器应用与 fabric.js 之间的封装层，期望封装层面向开发者设计，提供更简单的接口，让开发者可以轻松的实现图片应用开发。
 
-This is a technical note I published on the Nuggets community about the editor, which will have more details:
+如果你对这件事情感兴趣，真诚的邀请你加入，我们一起成长，你只要会简单的 Git 和 Javascript 语法就可以。
 
-1.  Use fabric.js to quickly develop an image editor,
-2.  Detailed implementation of fabric.js developing an image editor
-3.  What functions can fabric.js develop an image editor to achieve?
-4.  Sharing my open source projects and open source experience
-5.  What functions can fabric.js achieve with the Canvas library?
-6.  Vue open source image editor
-7.  Sharing of personal open source project commercialization experience
-8.  Open source fabric.js image editor plug-in architecture
+【提交代码送赢雷蛇游戏鼠标】
 
-Note: If you encounter technical problems, you are expected to use issue Discussion, it is more open and transparent, enough information will make problem solving more efficient, refer to The wisdom of asking questions.
+### 相关资料
 
-Administrator
--------------
+这是我发表在掘金社区关于编辑器的技术笔记，会有更多的细节：
 
-  
-**nihaojob**
+1.  使用 fabric.js 快速开发一个图片编辑器，
+2.  fabric.js 开发图片编辑器的细节实现
+3.  fabric.js 开发图片编辑器可以实现哪些功能？多图
+4.  我的开源项目与开源经历分享
+5.  Canvas 库 fabric.js 可以实现哪些功能？ 动图介绍
+6.  Vue 开源图片编辑器
+7.  个人开源项目商业化经验分享
+8.  开源 fabric.js 图片编辑器的插件化架构
 
-  
-**Qiu-Jun**
+注：如果遇到技术问题，期望使用 issue 讨论，它更加开放与透明，足够多的信息会让解决问题变得更高效，参考提问的智慧。
 
-  
-**wuchenguang1998**
+致谢
+--
 
-Collaborators
--------------
+-   刘明野标尺功能作者。
+-   palxiao设计编辑器的渐变组件。
+
+友情赞助
+----
+
+管理员
+---
+
+贡献者
+---
 
   
 **nihaojob**

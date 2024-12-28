@@ -1,6 +1,6 @@
 ---
 project: myIPTV
-stars: 1330
+stars: 1394
 description: 【典藏版】高清直播源涵盖几乎所有卫视节目，内置完美台标加节目预告
 url: https://github.com/suxuang/myIPTV
 ---
@@ -11,12 +11,15 @@ url: https://github.com/suxuang/myIPTV
 💡项目公告
 ------
 
-本项目不定期维护更新直播源，如果有稳定可靠的直播源想加入本项目，可以在问题栏留言给我！！！
+**_本项目直播源纯手工不定期维护更新，致力于为大家呈现完美且免费的直播节目，工作量比较大，有能力的同学可以赞赏一下，谢谢！_**
 
 📺订阅地址
 ------
 
-https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u
+🌐订阅链接-IPV6专用：_https://ghgo.xyz/raw.githubusercontent.com/suxuang/myIPTV/main/ipv6.m3u_
+
+🙋‍♂️赞赏
+-------
 
 📖项目说明
 ------
@@ -32,14 +35,18 @@ PS：部分高清直播源需开启IPV6访问权限，自行百度方法
 🎬IPTV播放器
 ---------
 
--   推荐播放软件： 电脑端：PotPlayer 安卓/TV端：DIYP影音、TiviMate、Televizo IOS端：zFuse、APTV
+-   **推荐播放软件：** 电脑端：PotPlayer 安卓/TV端：DIYP影音、TiviMate、Televizo IOS端：zFuse、APTV
     
--   首选播放软件推荐： 安卓TV端：TiviMate （遇断流或者网络卡顿会自动刷新重载，播放非常稳定，解码强，支持epg和回看功能，支持每个频道单独设置不同的画面比例） IOS端：APTV （免费版可使用一套配置，支持epg和回看功能）
+-   **首选播放软件推荐：** 安卓TV端：TiviMate （遇断流或者网络卡顿会自动刷新重载，播放非常稳定，解码强，支持epg和回看功能，支持每个频道单独设置不同的画面比例） IOS端：APTV （免费版可使用一套配置，支持epg和回看功能）
     
 
 🆕更新日志
 ------
 
+-   2024/12/28：修复节目预告
+    
+-   2024/12/27：更新直播源加速代理地址以及最近失效的直播源
+    
 -   2024/12/18：新增几个港澳台电影频道和凤凰电影台、纬来精采台
     
 -   2024/12/17：github加速代理地址更新

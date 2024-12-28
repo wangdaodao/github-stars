@@ -1,6 +1,6 @@
 ---
 project: ai-chatbot
-stars: 10418
+stars: 10545
 description: A full-featured, hackable Next.js AI chatbot built by Vercel
 url: https://github.com/vercel/ai-chatbot
 ---

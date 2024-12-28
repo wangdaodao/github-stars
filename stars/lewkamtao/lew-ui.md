@@ -1,6 +1,6 @@
 ---
 project: lew-ui
-stars: 1428
+stars: 1433
 description: A beautiful component library based on vue3
 url: https://github.com/lewkamtao/lew-ui
 ---

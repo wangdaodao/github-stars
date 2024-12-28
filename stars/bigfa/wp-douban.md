@@ -12,7 +12,7 @@ wp-douban 4.0
 
 数据本地化，解决豆瓣接口失效及图片防盗链。
 
-last version `4.4.3`
+last version `4.4.4`
 
 快速配置
 ----

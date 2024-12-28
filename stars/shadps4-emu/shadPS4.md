@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 11524
+stars: 12098
 description: PS4 emulator for Windows,Linux,MacOS
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -94,6 +94,8 @@ Controller button
 
 Keyboard equivelant
 
+Mac alternative
+
 LEFT AXIS UP
 
 W
@@ -130,17 +132,25 @@ TRIANGLE
 
 Numpad 8
 
+C
+
 CIRCLE
 
 Numpad 6
+
+B
 
 CROSS
 
 Numpad 2
 
+N
+
 SQUARE
 
 Numpad 4
+
+V
 
 PAD UP
 
@@ -199,6 +209,11 @@ Main team
 -   **skmp**
 -   **wheremyfoodat**
 -   **raziel1000**
+-   **viniciuslrangel**
+-   **roamic**
+-   **poly**
+-   **squidbus**
+-   **frodo**
 
 Logo is done by **Xphalnos**
 

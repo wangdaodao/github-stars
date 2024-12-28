@@ -1,6 +1,6 @@
 ---
 project: gopeed
-stars: 17353
+stars: 17430
 description: A modern download manager that supports all platforms.  Built with Golang and Flutter.
 url: https://github.com/GopeedLab/gopeed
 ---
@@ -156,7 +156,7 @@ command:
 
 -   android
 
-gomobile bind -tags nosqlite -ldflags="\-w -s" -o ui/flutter/android/app/libs/libgopeed.aar -target=android -androidapi 21 -javapkg="com.gopeed" github.com/GopeedLab/gopeed/bind/mobile
+gomobile bind -tags nosqlite -ldflags="\-w -s -checklinkname=0" -o ui/flutter/android/app/libs/libgopeed.aar -target=android -androidapi 21 -javapkg="com.gopeed" github.com/GopeedLab/gopeed/bind/mobile
 cd ui/flutter
 flutter build apk
 

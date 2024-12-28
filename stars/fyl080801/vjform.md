@@ -1,6 +1,6 @@
 ---
 project: vjform
-stars: 107
+stars: 108
 description: 基于vue 通过 json 呈现视图
 url: https://github.com/fyl080801/vjform
 ---

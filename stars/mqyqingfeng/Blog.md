@@ -1,6 +1,6 @@
 ---
 project: Blog
-stars: 30808
+stars: 30825
 description: 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。
 url: https://github.com/mqyqingfeng/Blog
 ---
@@ -22,7 +22,7 @@ url: https://github.com/mqyqingfeng/Blog
 Solid.js 翻译
 -----------
 
-正在翻译中……
+主要内容已翻译完毕，查看 Solid 中文文档
 
 Next.js 系列
 ----------

@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 1088
+stars: 1151
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -39,19 +39,9 @@ EPG
 
 fanmingming
 
-https://live.fanmingming.cn/tv/m3u/ipv6.m3u
+https://live.fanmingming.com/tv/m3u/ipv6.m3u
 
 IPV6
-
-✔️
-
-✔️
-
-fanmingming
-
-https://live.fanmingming.cn/tv/m3u/itv.m3u
-
-IPV4
 
 ✔️
 
@@ -183,10 +173,10 @@ IPV6
 
 杂乱直播源：
 
--   iptv共享系统（TG获取密钥，稳定服务收费）：https://gyssi.link/login.html
--   epg.pw免费电视节目表：https://epg.pw/test\_channel\_page.html?lang=zh-hans
--   Pixman（普通人别折腾）：https://pixman.io/ https://hub.docker.com/r/pixman/pixman
--   stream-link.org(不支持中國大陸、臺灣省以及cloudflare使用)：https://www.stream-link.org/stream-link.m3u
+-   iptv共享系统（TG获取密钥，稳定服务收费）
+-   epg.pw免费电视节目表
+-   Pixman（普通人别折腾）
+-   stream link(不支持中國大陸、臺灣省以及cloudflare使用)
 
 * * *
 
@@ -270,7 +260,9 @@ http://6080.eu.org/
 
 源导航
 
-公开的点播源容易失效（基本是抓别人的云盘），需要维护，建议关注源的发布地址/QQ群。点播源里面自带的基本都是大家都能用的IPV4直播源。推荐饭太硬以及他主页推荐的源。饭太硬微信公众号：神秘的哥哥们 肥猫微信公众号：肥猫宝贝 OK猫开发：https://t.me/okdespace 影视APP发布：https://t.me/fongmi\_release
+点播源容易失效和遭人举报，建议关注原发布地址。付费源不可信，毕竟不是版权方。推荐饭太硬以及他主页推荐的源。
+
+饭太硬微信公众号：神秘的哥哥们 肥猫微信公众号：肥猫宝贝 OK猫开发TG 影视APP发布TG
 
 * * *
 
@@ -420,7 +412,7 @@ Android/iOS
 
 TVBOX、影视和影视仓关系图：
 
-TVBOX直播没有台标没有节目单。TiviMate不能扫码输入源，另外自动更新源和节目单需要解锁高级版（付费）。Kodi需要安装后设置中文，IPTV插件安装需要科学上网。TiviMate、Kodi和iOS的软件只能看直播。
+TVBOX直播没有台标没有节目单。TiviMate不能扫码输入源，另外自动更新源和节目单需要付费解锁高级版。Kodi需要安装后设置中文，IPTV插件安装需要科学上网。TiviMate、Kodi和iOS的软件只能看直播。
 
 自带源软件（直播）
 ---------
@@ -479,7 +471,7 @@ https://github.com/lizongying/my-tv-1/releases
 
 可配置源
 
-原版“我的电视”是lizongying开发，已经停更。202412021左右，接手版“我的电视”已删库，范明明.com域名被墙。
+也可以用影视APP只设置直播源再设置打开软件启动直播。原版“我的电视”是lizongying开发，已经停更。202412021左右，接手版“我的电视”已删库，范明明.com域名被墙。
 
 电视浏览器
 -----
@@ -510,11 +502,10 @@ GitHub镜像
 -   https://mirror.ghproxy.com/
 -   https://ghproxy.org/
 -   https://ghp.ci/
+-   https://ghgo.xyz/
 -   https://gh-proxy.com/
 
-在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。
-
-比如：https://ghp.ci/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。举例：https://ghp.ci/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 
 解决无法打开GitHub还有一种方法是更换DNS。DNS合集：https://dns.iui.im/ DNS测速：https://ping.sx/ping
 

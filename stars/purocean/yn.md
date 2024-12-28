@@ -1,6 +1,6 @@
 ---
 project: yn
-stars: 5690
+stars: 5698
 description: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
 url: https://github.com/purocean/yn
 ---
@@ -80,21 +80,15 @@ Screenshots
 Changelogs
 ----------
 
-### v3.78.1 2024-12-19
+### v3.78.2 2024-12-27
 
 Windows | macOS arm64 | macOS x64 | Linux AppImage | Linux deb
 
-1.  feat: Added the ability to view resource links and external links referenced in the current document through the link panel.
-2.  feat: Added a table insertion panel, supporting quick specification of rows and columns.
-3.  feat: Exporting to HTML now supports the inclusion of a table of contents.
-4.  feat: When unable to move a file to the recycle bin, prompt whether to permanently delete the file.
-5.  feat: Support for introducing images using the Wiki link method `![[Image Link]]`, but fuzzy path matching is not yet supported.
-6.  feat: Added the `{docPath}` variable to the image save path settings.
-7.  fix: Fixed the issue of incorrect automatic numbering of document titles in the latest version of the Chrome browser.
-8.  fix: Fixed the issue of incorrect UI element layering in certain situations.
-9.  feat(plugin): Added the `AFTER_PARSE_LINK` Hook to intercept link parsing.
-10.  feat(plugin): Added the `VIEW_DOM_ERROR` Hook to listen for errors in the preview area.
-11.  feat(plugin): Added the `ctx.components.IndexStatus` component.
+1.  feat: Enhance search result highlighting and interaction, automatically select search results in the editor when switching files
+2.  feat: Optimize ordered list auto-numbering, support single-entry multi-line recognition
+3.  fix: Fix the issue of losing styles when exporting to HTML
+4.  fix: Fix the issue of document index not updating after deleting a directory
+5.  fix: Fix the issue where searching for a large number of results may cause the application to freeze
 
 More release notes
 

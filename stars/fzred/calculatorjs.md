@@ -1,6 +1,6 @@
 ---
 project: calculatorjs
-stars: 192
+stars: 191
 description: Accurately arithmetic library. 解决Javascript浮点运算精度问题。
 url: https://github.com/fzred/calculatorjs
 ---

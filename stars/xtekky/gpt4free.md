@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 62779
+stars: 62889
 description: The official gpt4free repository | various collection of powerful language models
 url: https://github.com/xtekky/gpt4free
 ---
@@ -100,8 +100,15 @@ To access the space, please use the following login credentials:
 
 1.  **Install Docker:** Begin by downloading and installing Docker.
     
-2.  **Set Up the Container:** Use the following commands to pull the latest image and start the container:
+2.  **Check Directories:**
     
+
+Before running the container, make sure the necessary data directories exist or can be created. For example, you can create and set ownership on these directories by running:
+
+mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_images
+chown -R 1000:1000 ${PWD}/har\_and\_cookies ${PWD}/generated\_images
+
+1.  **Set Up the Container:** Use the following commands to pull the latest image and start the container:
 
 docker pull hlohaus789/g4f
 docker run \\
@@ -111,7 +118,9 @@ docker run \\
   -v ${PWD}/generated\_images:/app/generated\_images \\
   hlohaus789/g4f:latest
 
-To run the slim docker image. Use this command:
+##### Running the Slim Docker Image
+
+Use the following command to run the Slim Docker image. This command also updates the `g4f` package at startup and installs any additional dependencies:
 
 docker run \\
   -p 1337:1337 \\
@@ -121,8 +130,6 @@ docker run \\
   rm -r -f /app/g4f/ \\
   && pip install -U g4f\[slim\] \\
   && python -m g4f --debug
-
-It also updates the `g4f` package at startup and installs any new required dependencies.
 
 1.  **Access the Client:**
     
@@ -198,7 +205,7 @@ client \= Client()
 response \= client.chat.completions.create(
     model\="gpt-4o-mini",
     messages\=\[{"role": "user", "content": "Hello"}\],
-    \# Add any other necessary parameters
+    web\_search \= False
 )
 print(response.choices\[0\].message.content)
 
@@ -215,7 +222,6 @@ response \= client.images.generate(
     model\="flux",
     prompt\="a white siamese cat",
     response\_format\="url"
-    \# Add any other necessary parameters
 )
 
 image\_url \= response.data\[0\].url

@@ -1,6 +1,6 @@
 ---
 project: gantt
-stars: 4800
+stars: 4814
 description: Open Source Javascript Gantt
 url: https://github.com/frappe/gantt
 ---
@@ -21,7 +21,7 @@ ERPNext uses Frappe Gantt.
 
 ### Motivation
 
-I needed a Gantt View for ERPNext. Surprisingly, I couldn't find a visually appealing Gantt library that was open source - so I decided to build it. Initially, the design was heavily inspired by Google Gantt and DHTMLX.
+We needed a Gantt View for ERPNext. Surprisingly, we couldn't find a visually appealing Gantt library that was open source - so we decided to build it. Initially, the design was heavily inspired by Google Gantt and DHTMLX.
 
 ### Key Features
 

@@ -1,6 +1,6 @@
 ---
 project: cnpmcore
-stars: 631
+stars: 634
 description: Private NPM Registry for Enterprise
 url: https://github.com/cnpm/cnpmcore
 ---
