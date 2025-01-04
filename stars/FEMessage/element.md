@@ -1,6 +1,6 @@
 ---
 project: element
-stars: 60
+stars: 61
 description: deepexi customize element-ui
 url: https://github.com/FEMessage/element
 ---

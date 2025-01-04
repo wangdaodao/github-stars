@@ -1,6 +1,6 @@
 ---
 project: SteamTools
-stars: 20743
+stars: 20810
 description: 🛠「Watt Toolkit」是一个开源跨平台的多功能 Steam 工具箱。
 url: https://github.com/BeyondDimension/SteamTools
 ---

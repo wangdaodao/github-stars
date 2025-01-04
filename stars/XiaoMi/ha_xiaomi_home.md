@@ -1,6 +1,6 @@
 ---
 project: ha_xiaomi_home
-stars: 15648
+stars: 16570
 description: Xiaomi Home Integration for Home Assistant
 url: https://github.com/XiaoMi/ha_xiaomi_home
 ---
@@ -32,6 +32,7 @@ We recommend this installation method, for it is convenient to switch to a tag w
 For example, update to version v1.0.0
 
 cd config/ha\_xiaomi\_home
+git fetch
 git checkout v1.0.0
 ./install.sh /config
 
@@ -137,9 +138,9 @@ In MIoT-Spec-V2 protocol, a product is defined as a device. A device contains se
 
 -   Property
 
-format
-
 access
+
+format
 
 value-list
 

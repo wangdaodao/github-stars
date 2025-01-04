@@ -1,6 +1,6 @@
 ---
 project: yn
-stars: 5698
+stars: 5706
 description: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
 url: https://github.com/purocean/yn
 ---
@@ -80,15 +80,21 @@ Screenshots
 Changelogs
 ----------
 
-### v3.78.2 2024-12-27
+### v3.79.1 2025-01-02
 
 Windows | macOS arm64 | macOS x64 | Linux AppImage | Linux deb
 
-1.  feat: Enhance search result highlighting and interaction, automatically select search results in the editor when switching files
-2.  feat: Optimize ordered list auto-numbering, support single-entry multi-line recognition
-3.  fix: Fix the issue of losing styles when exporting to HTML
-4.  fix: Fix the issue of document index not updating after deleting a directory
-5.  fix: Fix the issue where searching for a large number of results may cause the application to freeze
+1.  feat: Markdown `![]()` image syntax now supports local video and audio paths
+2.  feat: Added the ability to preview video and audio files directly within the application
+3.  feat: Optimized HTML parsing
+4.  feat: Support for writing mhchem chemical equations
+5.  feat: Added a "Reset to Default" button in the settings panel
+6.  feat: Repositories with indexing enabled now support automatic refresh of the directory tree after adding/removing md files
+7.  fix: Fixed issue where clicking on anchors in exported HTML would open a new window
+8.  fix: Fixed issue where embedded local videos in documents could not be played
+9.  feat(plugin): Added `ctx.api.listUserDir` method to get a list of user plugin data directory files
+10.  feat(plugin): Added `SETTING_PANEL_AFTER_SHOW` Hook, triggered after the settings panel is displayed
+11.  feat(plugin): Added `INDEXER_FS_CHANGE` Hook, triggered after file changes in repositories with indexing enabled
 
 More release notes
 

@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24689
+stars: 24704
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---

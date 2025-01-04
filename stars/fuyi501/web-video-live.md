@@ -1,6 +1,6 @@
 ---
 project: web-video-live
-stars: 429
+stars: 431
 description: 网页H5播放视频流/直播系统，使用 flv.js，vue-video-player播放器，测试支持 rtmp，http-flv，hls 视频流格式，可以做视频监控，也可以通过视频截图。
 url: https://github.com/fuyi501/web-video-live
 ---

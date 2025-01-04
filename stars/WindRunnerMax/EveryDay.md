@@ -1,6 +1,6 @@
 ---
 project: EveryDay
-stars: 1889
+stars: 1892
 description: 前端基础 个人博客 学习笔记
 url: https://github.com/WindRunnerMax/EveryDay
 ---
@@ -15,7 +15,7 @@ GitHub ｜ Timeline ｜ Blog ｜ Blog-SSG
 
 如果觉得还不错，点个`star`吧 😁
 
-版本库中共有`491`篇文章，总计`92471`行，`1088893`字，`3035666`字符。
+版本库中共有`491`篇文章，总计`92453`行，`1089072`字，`3036151`字符。
 
 这是一个前端小白的学习历程，如果只学习而不记录点什么那基本就等于白学了。这个版本库的名字`EveryDay`就是希望激励我能够每天学习，下面的文章就是从`2020.02.25`开始积累的文章，都是参考众多文章归纳整理学习而写的，文章包括了`HTML`基础、`CSS`基础、`JavaScript`基础与拓展、`Browser`浏览器相关、`Vue`使用与分析、`React`使用与分析、`Plugin`插件相关、`RichText`富文本、`Patterns`设计模式、`Linux`命令、`LeetCode`题解等类别，内容都是比较基础的，毕竟我也还是个小。此外基本上每个示例都是本着能够即时运行为目标的，新建一个`HTML`文件复制之后即可在浏览器运行或者直接可以在`console`中运行。
 
@@ -363,71 +363,71 @@ Patterns
 Linux
 -----
 
--   cat命令
--   chmod命令
--   chown命令
--   cmp命令
--   diff命令
--   diffstat命令
--   file命令
--   find命令
--   cut命令
--   ln命令
--   less命令
--   locate命令
--   lsattr命令
--   chattr命令
--   mc命令
--   mktemp命令
--   more命令
--   mv命令
--   od命令
--   paste命令
--   patch命令
--   rcp命令
--   rm命令
--   split命令
--   tee命令
--   tmpwatch命令
--   touch命令
--   umask命令
--   which命令
--   cp命令
--   whereis命令
--   scp命令
--   awk命令
--   read命令
--   updatedb命令
--   col命令
--   colrm命令
--   comm命令
--   csplit命令
--   ed命令
--   egrep命令
--   ex命令
--   fgrep命令
--   fmt命令
--   fold命令
--   grep命令
--   aspell命令
--   join命令
--   look命令
--   pico命令
--   sed命令
--   sort命令
--   tr命令
--   expr命令
--   ps命令
--   netstat命令
--   ifconfig命令
--   traceroute命令
--   route命令
--   kill命令
--   systemctl命令
--   journalctl命令
--   ip命令
--   curl命令
--   top命令
+-   cat-输出文件内容
+-   chmod-更改文件权限
+-   chown-更改文件所有者
+-   cmp-文件差异状态
+-   diff-对比文件差异
+-   diffstat-文件差异计量
+-   file-探测文件类型
+-   find-查找文件
+-   cut-截取文件内容
+-   ln-创建文件链接
+-   less-分页输出文件内容
+-   locate-快速查找文件
+-   lsattr-显示文件属性
+-   chattr-更改文件属性
+-   mc-文件管理器
+-   mktemp-创建临时文件
+-   more-分页输出文件内容
+-   mv-移动文件
+-   od-读取文件内容
+-   paste-合并文件内容
+-   patch-修补生成文件
+-   rcp-远程文件拷贝
+-   rm-删除文件
+-   split-分割文件
+-   tee-文件内容分流
+-   tmpwatch-删除未访问文件
+-   touch-创建新文件
+-   umask-设置文件权限掩码
+-   which-输出命令路径
+-   cp-复制文件
+-   whereis-查找二进制文件
+-   scp-安全拷贝文件
+-   awk-文本处理工具
+-   read-读取用户输入
+-   updatedb-更新文件数据库
+-   col-过滤控制字符
+-   colrm-删除文件内容列
+-   comm-对比文件内容
+-   csplit-分割文件
+-   ed-文本编辑器
+-   egrep-正则模式搜索
+-   ex-文本编辑器
+-   fgrep-固定字符串搜索
+-   fmt-格式化输出内容
+-   fold-折叠文件内容
+-   grep-模式搜索匹配
+-   aspell-拼写检查
+-   join-合并文件内容
+-   look-查找字典单词
+-   pico-文本编辑程序
+-   sed-脚本处理文件
+-   sort-排序文件内容
+-   tr-转换文件内容
+-   expr-表达式计算
+-   ps-进程状态管理
+-   netstat-网络状态管理
+-   ifconfig-网络接口管理
+-   traceroute-网络路由跟踪
+-   route-网络路由管理
+-   kill-终止进程
+-   systemctl-系统服务管理
+-   journalctl-系统日志管理
+-   ip-网络接口管理
+-   curl-网络数据传输
+-   top-系统资源监控
 
 MiniProgram
 -----------

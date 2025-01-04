@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 62889
+stars: 62946
 description: The official gpt4free repository | various collection of powerful language models
 url: https://github.com/xtekky/gpt4free
 ---
@@ -49,13 +49,6 @@ Explore our GPT4Free project on HuggingFace Spaces by clicking the link below:
 If you would like to create your own copy of this space, you can duplicate it using the following link:
 
 -   Duplicate GPT4Free Space
-
-### Access Information
-
-To access the space, please use the following login credentials:
-
--   **Username:** any
--   **Password:** gpt4free
 
 📚 Table of Contents
 --------------------
@@ -234,6 +227,7 @@ print(f"Generated image URL: {image\_url}")
     -   **Requests API from G4F:** /docs/requests
     -   **Client API from G4F:** /docs/client
     -   **AsyncClient API from G4F:** /docs/async\_client
+    -   **File API from G4F:** /docs/file
 -   **Legacy:**
     
     -   **Legacy API with python modules:** /docs/legacy

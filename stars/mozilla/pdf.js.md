@@ -1,6 +1,6 @@
 ---
 project: pdf.js
-stars: 49131
+stars: 49217
 description: PDF Reader in JavaScript
 url: https://github.com/mozilla/pdf.js
 ---
@@ -100,7 +100,7 @@ This will generate `pdf.js` and `pdf.worker.js` in the `build/generic/build/` di
 Using PDF.js in a web application
 ---------------------------------
 
-To use PDF.js in a web application you can choose to use a pre-built version of the library or to build it from source. We supply pre-built versions for usage with NPM and Bower under the `pdfjs-dist` name. For more information and examples please refer to the wiki page on this subject.
+To use PDF.js in a web application you can choose to use a pre-built version of the library or to build it from source. We supply pre-built versions for usage with NPM under the `pdfjs-dist` name. For more information and examples please refer to the wiki page on this subject.
 
 Including via a CDN
 -------------------

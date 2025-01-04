@@ -1,6 +1,6 @@
 ---
 project: rxdrag
-stars: 3730
+stars: 3729
 description: Design anything based on HTML, 可视化编辑， 带逻辑引擎的低代码前端。
 url: https://github.com/codebdy/rxdrag
 ---

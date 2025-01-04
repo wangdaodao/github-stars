@@ -1,6 +1,6 @@
 ---
 project: three.js
-stars: 103515
+stars: 103620
 description: JavaScript 3D Library.
 url: https://github.com/mrdoob/three.js
 ---
@@ -10,7 +10,7 @@ three.js
 
 #### JavaScript 3D library
 
-The aim of the project is to create an easy-to-use, lightweight, cross-browser, general-purpose 3D library. The current builds only include a WebGL renderer but WebGPU (experimental), SVG and CSS3D renderers are also available as addons.
+The aim of the project is to create an easy-to-use, lightweight, cross-browser, general-purpose 3D library. The current builds only include WebGL and WebGPU renderers but SVG and CSS3D renderers are also available as addons.
 
 Examples — Docs — Manual — Wiki — Migrating — Questions — Forum — Discord
 

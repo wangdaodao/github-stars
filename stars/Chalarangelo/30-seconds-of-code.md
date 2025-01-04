@@ -1,26 +1,27 @@
 ---
 project: 30-seconds-of-code
-stars: 122206
-description: Short code snippets for all your development needs
+stars: 122259
+description: Coding articles to level up your development skills
 url: https://github.com/Chalarangelo/30-seconds-of-code
 ---
 
 30 seconds of code
 ==================
 
-> Short code snippets for all your development needs
+> Coding articles to level up your development skills
 
--   Visit the website to view the snippet collection.
--   Search for snippets and collections that suit your needs, using the name, tags, language or description.
--   Browse all snippets or individual snippet collections for each topic.
--   Click on each snippet card to view the whole snippet, including code, explanation and examples.
--   You can copy code blocks on any snippet card, using the copy button at the top right.
+-   Visit the website to view all articles.
+-   Search for articles and collections that suit your needs, using the name, tags, language or description.
+-   Browse all articles or individual collections for each topic.
+-   Click on each card to view the whole article, including code snippets, explanation and examples.
 -   If you like the project, give it a star. It means a lot.
 
 Want to contribute?
 -------------------
 
--   Community contributions are not accepted at this time. Check back later for updates.
+-   New content contributions are not accepted at this time.
+-   You can, however, report problems with the website or suggest improvements by opening an issue.
+-   You can also join the community discussions.
 
 Credits
 -------

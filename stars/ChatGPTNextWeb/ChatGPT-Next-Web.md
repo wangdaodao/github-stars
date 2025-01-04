@@ -1,6 +1,6 @@
 ---
 project: ChatGPT-Next-Web
-stars: 78063
+stars: 78246
 description: A cross-platform ChatGPT/Gemini UI (Web / PWA / Linux / Win / MacOS). 一键拥有你自己的跨平台 ChatGPT/Gemini/Claude LLM 应用。
 url: https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web
 ---
@@ -14,9 +14,9 @@ One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT
 
 一键免费部署你的跨平台私人 ChatGPT 应用, 支持 Claude, GPT4 & Gemini Pro 模型。
 
-NextChatAI / Web App / Desktop App / Discord / Enterprise Edition / Twitter
+NextChatAI / Web App Demo / Desktop App / Discord / Enterprise Edition / Twitter
 
-NextChatAI / 网页版 / 客户端 / 企业版 / 反馈
+NextChatAI / 自部署网页版 / 客户端 / 企业版 / 反馈
 
 Enterprise Edition
 ------------------
@@ -295,6 +295,14 @@ ChatGLM Api Key.
 ### `CHATGLM_URL` (optional)
 
 ChatGLM Api Url.
+
+### `DEEPSEEK_API_KEY` (optional)
+
+DeepSeek Api Key.
+
+### `DEEPSEEK_URL` (optional)
+
+DeepSeek Api Url.
 
 ### `HIDE_USER_API_KEY` (optional)
 

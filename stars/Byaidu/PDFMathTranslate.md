@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 11762
+stars: 13599
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -18,9 +18,12 @@ PDF scientific paper translation and bilingual comparison.
 
 Feel free to provide feedback in GitHub Issues, Telegram Group or QQ Group.
 
+For details on how to contribute, please consult the Contribution Guide.
+
 Updates
 -------
 
+-   \[Dec. 24 2024\] The translator now supports local models on Xinference _(by @imClumsyPanda)_
 -   \[Dec. 19 2024\] Non-PDF/A documents are now supported using `-cp` _(by @reycn)_
 -   \[Dec. 13 2024\] Additional support for backend by _(by @YadominJinta)_
 -   \[Dec. 10 2024\] The translator now supports OpenAI models on Azure _(by @yidasanqian)_

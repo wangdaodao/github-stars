@@ -1,6 +1,6 @@
 ---
 project: pdf-lib
-stars: 7122
+stars: 7142
 description: Create and modify PDF documents in any JavaScript environment
 url: https://github.com/Hopding/pdf-lib
 ---

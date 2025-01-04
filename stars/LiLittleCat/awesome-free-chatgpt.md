@@ -1,6 +1,6 @@
 ---
 project: awesome-free-chatgpt
-stars: 18978
+stars: 19108
 description: 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated. 
 url: https://github.com/LiLittleCat/awesome-free-chatgpt
 ---
@@ -241,13 +241,21 @@ https://newpc.icoding.ink/?debug=true
 
 21
 
+https://chat.lemonchat.xyz  
+
+🆓
+
+2024-12-21
+
+22
+
 https://44ai.cc/  
 
 🆓
 
 2024-11-11
 
-22
+23
 
 https://grok.free2gpt.com  
 
@@ -257,7 +265,7 @@ https://grok.free2gpt.com
 
 Grok-beta 模型
 
-23
+24
 
 https://gy.44vl.cc/  
 
@@ -265,7 +273,7 @@ https://gy.44vl.cc/
 
 2024-09-06
 
-24
+25
 
 https://www.opkfc.com/  
 
@@ -273,7 +281,7 @@ https://www.opkfc.com/
 
 2024-06-29
 
-25
+26
 
 https://chatgpt4online.org/chatgpt-free-online/#chat  
 
@@ -281,7 +289,7 @@ https://chatgpt4online.org/chatgpt-free-online/#chat
 
 2024-06-13
 
-26
+27
 
 https://chatgptplus.cn/  
 
@@ -289,7 +297,7 @@ https://chatgptplus.cn/
 
 2024-06-01
 
-27
+28
 
 https://www.51supergpt.com/  
 
@@ -299,7 +307,7 @@ https://www.51supergpt.com/
 
 GPT3.5 授权码 51supergpt.com
 
-28
+29
 
 https://tudouai.chat/chat  
 
@@ -307,7 +315,7 @@ https://tudouai.chat/chat
 
 2024-05-28
 
-29
+30
 
 https://chat.mynanian.top/  
 
@@ -315,7 +323,7 @@ https://chat.mynanian.top/
 
 2024-05-11
 
-30
+31
 
 https://free.icoding.ink/index2.html  
 
@@ -323,7 +331,7 @@ https://free.icoding.ink/index2.html
 
 2024-05-11
 
-31
+32
 
 https://chat.programapps.top/  
 
@@ -331,7 +339,7 @@ https://chat.programapps.top/
 
 2024-04-16
 
-32
+33
 
 https://chat.1-ai.sbs/  
 
@@ -339,7 +347,7 @@ https://chat.1-ai.sbs/
 
 2024-03-15
 
-33
+34
 
 https://ichuang.top  
 
@@ -347,7 +355,7 @@ https://ichuang.top
 
 2024-03-09
 
-34
+35
 
 https://ai.daladada.xyz/  
 
@@ -355,7 +363,7 @@ https://ai.daladada.xyz/
 
 2024-03-01
 
-35
+36
 
 https://chat.gptchatai.life/  
 
@@ -363,7 +371,7 @@ https://chat.gptchatai.life/
 
 2024-01-04
 
-36
+37
 
 https://promptboom.com/PowerChat/PowerChatTalk  
 
@@ -371,7 +379,7 @@ https://promptboom.com/PowerChat/PowerChatTalk
 
 2024-01-01
 
-37
+38
 
 https://1.bixin123.com  
 
@@ -379,7 +387,7 @@ https://1.bixin123.com
 
 2023-12-28
 
-38
+39
 
 https://chat.leapgpt.top/  
 
@@ -389,7 +397,7 @@ https://chat.leapgpt.top/
 
 登录码 leap@gpt+
 
-39
+40
 
 https://hai.dongstop.link/  
 
@@ -397,7 +405,7 @@ https://hai.dongstop.link/
 
 2023-10-19
 
-40
+41
 
 https://zz.aifree.site/  
 
@@ -405,7 +413,7 @@ https://zz.aifree.site/
 
 2023-10-17
 
-41
+42
 
 https://chat.aiearth.dev/  
 
@@ -415,7 +423,7 @@ https://chat.aiearth.dev/
 
 设置中输入访问密码 freegpt3
 
-42
+43
 
 https://academic.aiearth.dev/  
 
@@ -423,7 +431,7 @@ https://academic.aiearth.dev/
 
 2023-10-11
 
-43
+44
 
 https://cgs.skybyte.me/  
 
@@ -431,7 +439,7 @@ https://cgs.skybyte.me/
 
 2023-10-09
 
-44
+45
 
 http://decentrealizedweb.xyz/chat/bot  
 
@@ -439,7 +447,7 @@ http://decentrealizedweb.xyz/chat/bot
 
 2023-08-29
 
-45
+46
 
 https://aibn.cc/  
 
@@ -447,7 +455,7 @@ https://aibn.cc/
 
 2023-08-29
 
-46
+47
 
 https://chatgptduo.com/  
 
@@ -455,7 +463,7 @@ https://chatgptduo.com/
 
 2023-08-25
 
-47
+48
 
 https://chatp.free2gpt.xyz/  
 
@@ -463,7 +471,7 @@ https://chatp.free2gpt.xyz/
 
 2023-08-24
 
-48
+49
 
 http://chatgpt.bybyte.cn/  
 
@@ -471,7 +479,7 @@ http://chatgpt.bybyte.cn/
 
 2023-08-14
 
-49
+50
 
 https://chat.leadscloud.xyz/  
 
@@ -479,7 +487,7 @@ https://chat.leadscloud.xyz/
 
 2023-08-14
 
-50
+51
 
 http://gptgo.ai/  
 
@@ -487,7 +495,7 @@ http://gptgo.ai/
 
 2023-08-07
 
-51
+52
 
 https://powerchat.top/  
 
@@ -495,7 +503,7 @@ https://powerchat.top/
 
 2023-08-06
 
-52
+53
 
 https://f.aifree.site/  
 
@@ -503,7 +511,7 @@ https://f.aifree.site/
 
 2023-08-01
 
-53
+54
 
 https://ai.qidianym.net/  
 
@@ -511,7 +519,7 @@ https://ai.qidianym.net/
 
 2023-07-31
 
-54
+55
 
 https://gpt.freet.top  
 
@@ -519,7 +527,7 @@ https://gpt.freet.top
 
 2023-07-29
 
-55
+56
 
 https://www.chatfree.cc/  
 
@@ -527,7 +535,7 @@ https://www.chatfree.cc/
 
 2023-07-25
 
-56
+57
 
 https://chat.aifree.site/  
 
@@ -535,7 +543,7 @@ https://chat.aifree.site/
 
 2023-07-20
 
-57
+58
 
 https://chatz.free2gpt.xyz/  
 
@@ -543,7 +551,7 @@ https://chatz.free2gpt.xyz/
 
 2023-07-13
 
-58
+59
 
 http://c.newstop.uk  
 
@@ -551,7 +559,7 @@ http://c.newstop.uk
 
 2023-07-12
 
-59
+60
 
 https://openai.aifree.site/  
 
@@ -559,7 +567,7 @@ https://openai.aifree.site/
 
 2023-07-11
 
-60
+61
 
 https://ai.azstudio.top/  
 
@@ -567,7 +575,7 @@ https://ai.azstudio.top/
 
 2023-07-10
 
-61
+62
 
 https://ai.zenglingkun.cn/  
 
@@ -575,7 +583,7 @@ https://ai.zenglingkun.cn/
 
 2023-07-10
 
-62
+63
 
 https://chatgpt.kiask.xyz/  
 
@@ -583,7 +591,7 @@ https://chatgpt.kiask.xyz/
 
 2023-07-09
 
-63
+64
 
 https://chat.acytoo.com/  
 
@@ -591,7 +599,7 @@ https://chat.acytoo.com/
 
 2023-07-01
 
-64
+65
 
 http://g01.plitun.com/  
 
@@ -599,7 +607,7 @@ http://g01.plitun.com/
 
 2023-06-29
 
-65
+66
 
 https://c1ns.cn/chat/  
 
@@ -607,7 +615,7 @@ https://c1ns.cn/chat/
 
 2023-06-26
 
-66
+67
 
 https://newstop.c1ns.cn/  
 
@@ -615,7 +623,7 @@ https://newstop.c1ns.cn/
 
 2023-06-25
 
-67
+68
 
 https://gpt.aifree.site/  
 
@@ -623,7 +631,7 @@ https://gpt.aifree.site/
 
 2023-06-24
 
-68
+69
 
 https://hteyun.com/  
 
@@ -631,7 +639,7 @@ https://hteyun.com/
 
 2023-06-23
 
-69
+70
 
 https://chat.weuseing.com/  
 
@@ -639,7 +647,7 @@ https://chat.weuseing.com/
 
 2023-06-17
 
-70
+71
 
 https://zyq-chatgpt.github.io  
 
@@ -647,7 +655,7 @@ https://zyq-chatgpt.github.io
 
 2023-06-16
 
-71
+72
 
 http://chat.aisoftworks.com  
 
@@ -655,7 +663,7 @@ http://chat.aisoftworks.com
 
 2023-06-15
 
-72
+73
 
 https://gptdidi.com/  
 
@@ -663,7 +671,7 @@ https://gptdidi.com/
 
 2023-06-14
 
-73
+74
 
 http://chat.darkflow.top/  
 
@@ -671,7 +679,7 @@ http://chat.darkflow.top/
 
 2023-06-13
 
-74
+75
 
 https://chat.flares.ai/  
 
@@ -679,7 +687,7 @@ https://chat.flares.ai/
 
 2023-06-08
 
-75
+76
 
 https://devgpt.com/  
 
@@ -687,7 +695,7 @@ https://devgpt.com/
 
 2023-06-08
 
-76
+77
 
 https://chat.newstop.asia/  
 
@@ -695,7 +703,7 @@ https://chat.newstop.asia/
 
 2023-06-06
 
-77
+78
 
 https://nb8.c1ns.cn/  
 
@@ -703,7 +711,7 @@ https://nb8.c1ns.cn/
 
 2023-06-02
 
-78
+79
 
 https://chatyou.lovebaby.today/  
 
@@ -711,7 +719,7 @@ https://chatyou.lovebaby.today/
 
 2023-06-01
 
-79
+80
 
 https://www.magicaibot.com/talk  
 
@@ -719,7 +727,7 @@ https://www.magicaibot.com/talk
 
 2023-06-01
 
-80
+81
 
 https://521.zeabur.app/  
 
@@ -727,7 +735,7 @@ https://521.zeabur.app/
 
 2023-06-01
 
-81
+82
 
 https://chat.kunshanyuxin.com/  
 
@@ -735,7 +743,7 @@ https://chat.kunshanyuxin.com/
 
 2023-05-31
 
-82
+83
 
 https://chat.jubianxingqiu.com/  
 
@@ -743,7 +751,7 @@ https://chat.jubianxingqiu.com/
 
 2023-05-31
 
-83
+84
 
 https://a.aiask.me/  
 
@@ -751,7 +759,7 @@ https://a.aiask.me/
 
 2023-05-26
 
-84
+85
 
 https://ai.gptforlove.com/  
 
@@ -759,7 +767,7 @@ https://ai.gptforlove.com/
 
 2023-05-26
 
-85
+86
 
 https://as1.betai55.uk/  
 
@@ -769,7 +777,7 @@ https://as1.betai55.uk/
 
 设置中输入访问密码 586-482-535B
 
-86
+87
 
 https://chat.pinkfong.cn/  
 
@@ -777,7 +785,7 @@ https://chat.pinkfong.cn/
 
 2023-05-18
 
-87
+88
 
 https://ai.heptax.com/  
 
@@ -785,7 +793,7 @@ https://ai.heptax.com/
 
 2023-04-30
 
-88
+89
 
 https://index.chat.bnu120.space/  
 
@@ -793,7 +801,7 @@ https://index.chat.bnu120.space/
 
 2023-04-28
 
-89
+90
 
 https://f12.xjai.cc/  
 
@@ -801,7 +809,7 @@ https://f12.xjai.cc/
 
 2023-04-27
 
-90
+91
 
 https://nav4ai.net/chatgptweb  
 
@@ -809,7 +817,7 @@ https://nav4ai.net/chatgptweb
 
 2023-04-19
 
-91
+92
 
 https://mirrorchat.extkj.cn/  
 
@@ -817,7 +825,7 @@ https://mirrorchat.extkj.cn/
 
 2023-04-18
 
-92
+93
 
 https://chat13.xeasy.me/  
 
@@ -825,7 +833,7 @@ https://chat13.xeasy.me/
 
 2023-04-11
 
-93
+94
 
 https://dev.yqcloud.top/  
 
@@ -833,7 +841,7 @@ https://dev.yqcloud.top/
 
 2023-03-22
 
-94
+95
 
 https://www.promptboom.com/  
 
@@ -841,7 +849,7 @@ https://www.promptboom.com/
 
 2023-04-24
 
-95
+96
 
 https://chatgptfree.ai/  
 
@@ -849,7 +857,7 @@ https://chatgptfree.ai/
 
 2024-06-13
 
-96
+97
 
 https://chatcat.zhaoyoung.me  
 
@@ -859,7 +867,7 @@ https://chatcat.zhaoyoung.me
 
 设置中输入访问密码 chatcat
 
-97
+98
 
 https://ai.mcbbs.gq/  
 
@@ -867,7 +875,7 @@ https://ai.mcbbs.gq/
 
 2023-05-28
 
-98
+99
 
 https://ai.gogpt.site/  
 
@@ -875,7 +883,7 @@ https://ai.gogpt.site/
 
 2023-05-26
 
-99
+100
 
 https://aichat.gogpt.site/  
 
@@ -883,7 +891,7 @@ https://aichat.gogpt.site/
 
 2023-05-26
 
-100
+101
 
 https://vvanglro.eu.org/  
 
@@ -891,7 +899,7 @@ https://vvanglro.eu.org/
 
 2023-05-23
 
-101
+102
 
 http://chat1.manongzyg.one/  
 
@@ -901,7 +909,7 @@ http://chat1.manongzyg.one/
 
 设置中输入访问密码 857857
 
-102
+103
 
 https://pro.ai.ls/  
 
@@ -909,7 +917,7 @@ https://pro.ai.ls/
 
 2023-04-26
 
-103
+104
 
 https://www.aitianhu.com/  
 
@@ -917,7 +925,7 @@ https://www.aitianhu.com/
 
 2023-04-20
 
-104
+105
 
 https://chatcat.pages.dev/  
 
@@ -927,7 +935,7 @@ https://chatcat.pages.dev/
 
 设置中输入访问密码 chatcat
 
-105
+106
 
 https://chat2.geekr.dev/  
 
@@ -935,7 +943,7 @@ https://chat2.geekr.dev/
 
 2023-04-04
 
-106
+107
 
 https://ailink.icu/  
 
@@ -943,7 +951,7 @@ https://ailink.icu/
 
 2023-04-03
 
-107
+108
 
 https://desk.im/  
 
@@ -951,7 +959,7 @@ https://desk.im/
 
 2023-03-22
 
-108
+109
 
 https://ai.ls/  
 
@@ -959,7 +967,7 @@ https://ai.ls/
 
 2023-03-22
 
-109
+110
 
 https://ai.ci/  
 
@@ -967,7 +975,7 @@ https://ai.ci/
 
 2023-03-22
 
-110
+111
 
 https://chat2.xeasy.me/  
 
@@ -975,7 +983,7 @@ https://chat2.xeasy.me/
 
 2023-03-22
 
-111
+112
 
 https://gpt.xeasy.me/  
 
@@ -983,7 +991,7 @@ https://gpt.xeasy.me/
 
 2023-03-22
 
-112
+113
 
 https://gpt.getshare.net/  
 
@@ -991,7 +999,7 @@ https://gpt.getshare.net/
 
 2023-03-22
 
-113
+114
 
 http://chatai.fyi/  
 
@@ -999,7 +1007,7 @@ http://chatai.fyi/
 
 2023-03-22
 
-114
+115
 
 https://chat.51buygpt.com/  
 
@@ -1007,7 +1015,7 @@ https://chat.51buygpt.com/
 
 2023-03-22
 
-115
+116
 
 https://trychatgp.com/  
 
@@ -1015,7 +1023,7 @@ https://trychatgp.com/
 
 2023-03-22
 
-116
+117
 
 https://chat12.xeasy.me/  
 
@@ -1023,7 +1031,7 @@ https://chat12.xeasy.me/
 
 2023-03-10
 
-117
+118
 
 https://gpthi.cn/  
 
@@ -1031,7 +1039,7 @@ https://gpthi.cn/
 
 2024-11-12
 
-118
+119
 
 https://chatgpt.dairoot.cn/  
 
@@ -1039,7 +1047,7 @@ https://chatgpt.dairoot.cn/
 
 2024-07-02
 
-119
+120
 
 https://site.eqing.tech/  
 
@@ -1047,7 +1055,7 @@ https://site.eqing.tech/
 
 2024-06-07
 
-120
+121
 
 https://free2.nbmj.xyz/  
 
@@ -1057,7 +1065,7 @@ https://free2.nbmj.xyz/
 
 Midjourney
 
-121
+122
 
 https://newchat.hklan.top/  
 
@@ -1065,7 +1073,7 @@ https://newchat.hklan.top/
 
 2023-12-09
 
-122
+123
 
 https://t1.c1ns.cn/  
 
@@ -1073,7 +1081,7 @@ https://t1.c1ns.cn/
 
 2023-06-20
 
-123
+124
 
 https://webai.gpt-666.com  
 
@@ -1081,7 +1089,7 @@ https://webai.gpt-666.com
 
 2023-09-05
 
-124
+125
 
 https://likeyouto.cloudns.biz/  
 
@@ -1089,7 +1097,7 @@ https://likeyouto.cloudns.biz/
 
 2023-11-08
 
-125
+126
 
 http://www.airight.fun/  
 
@@ -1097,7 +1105,7 @@ http://www.airight.fun/
 
 2023-08-04
 
-126
+127
 
 https://unifyai.cn/  
 
@@ -1105,7 +1113,7 @@ https://unifyai.cn/
 
 2023-07-25
 
-127
+128
 
 https://chatgpt.hklan.top/  
 
@@ -1113,7 +1121,7 @@ https://chatgpt.hklan.top/
 
 2023-07-21
 
-128
+129
 
 https://deepai.org/  
 
@@ -1121,7 +1129,7 @@ https://deepai.org/
 
 2023-06-29
 
-129
+130
 
 https://aixforce.app/  
 
@@ -1129,7 +1137,7 @@ https://aixforce.app/
 
 2023-05-29
 
-130
+131
 
 https://www.perplexity.ai/  
 
@@ -1137,7 +1145,7 @@ https://www.perplexity.ai/
 
 2023-08-27
 
-131
+132
 
 https://99.opao.xyz/  
 
@@ -1145,7 +1153,7 @@ https://99.opao.xyz/
 
 2023-07-02
 
-132
+133
 
 http://www.tdchat.pro/  
 
@@ -1153,7 +1161,7 @@ http://www.tdchat.pro/
 
 2023-05-05
 
-133
+134
 
 https://chat.zhulei.xyz/  
 
@@ -1161,7 +1169,7 @@ https://chat.zhulei.xyz/
 
 2023-04-21
 
-134
+135
 
 https://ai1.yjie.fun/  
 
@@ -1169,7 +1177,7 @@ https://ai1.yjie.fun/
 
 2024-10-08
 
-135
+136
 
 https://chatplus.buzz  
 
@@ -1177,7 +1185,7 @@ https://chatplus.buzz
 
 2023-07-10
 
-136
+137
 
 https://www.typingmind.com/  
 
@@ -1185,7 +1193,7 @@ https://www.typingmind.com/
 
 2023-03-26
 
-137
+138
 
 https://caffcat.com  
 
@@ -1193,7 +1201,7 @@ https://caffcat.com
 
 2023-08-15
 
-138
+139
 
 https://www.jinwangyile.xyz  
 
@@ -1201,7 +1209,7 @@ https://www.jinwangyile.xyz
 
 2023-08-15
 
-139
+140
 
 https://bettergpt.chat/  
 
@@ -1211,7 +1219,7 @@ https://bettergpt.chat/
 
 内容过长，点击展开 免费操作步骤：转到 API 设置并选择“使用自定义 API 端点”。然后，输入 https://free.churchless.tech/v1/chat/completions 作为端点，并将 API 密钥字段留空。
 
-140
+141
 
 https://chatgpt-cn.co/  
 
@@ -1219,7 +1227,7 @@ https://chatgpt-cn.co/
 
 2023-04-23
 
-141
+142
 
 https://chatforai.com/  
 
@@ -1227,7 +1235,7 @@ https://chatforai.com/
 
 2023-03-22
 
-142
+143
 
 https://ai.okmiku.com/chat  
 
@@ -1235,7 +1243,7 @@ https://ai.okmiku.com/chat
 
 2023-03-22
 
-143
+144
 
 https://beta.aicatgirl.com/  
 
@@ -1243,7 +1251,7 @@ https://beta.aicatgirl.com/
 
 2023-11-21
 
-144
+145
 
 https://free.aitom.cc/  
 
@@ -1251,7 +1259,7 @@ https://free.aitom.cc/
 
 2023-09-12
 
-145
+146
 
 https://nb.aitom.cc  
 
@@ -1259,7 +1267,7 @@ https://nb.aitom.cc
 
 2023-09-03
 
-146
+147
 
 https://coffeecat.ai  
 
@@ -1267,7 +1275,7 @@ https://coffeecat.ai
 
 2023-08-03
 
-147
+148
 
 https://freegpt.dingtoucake.xyz/  
 
@@ -1275,7 +1283,7 @@ https://freegpt.dingtoucake.xyz/
 
 2023-07-26
 
-148
+149
 
 https://freegpt.cc/  
 
@@ -1283,7 +1291,7 @@ https://freegpt.cc/
 
 2023-03-22
 
-149
+150
 
 https://chattools.top  
 
@@ -1291,7 +1299,7 @@ https://chattools.top
 
 2024-11-02
 
-150
+151
 
 https://aicnn.cn  
 
@@ -1299,7 +1307,7 @@ https://aicnn.cn
 
 2024-09-21
 
-151
+152
 
 https://free-gpt.soruxgpt.com  
 
@@ -1307,7 +1315,7 @@ https://free-gpt.soruxgpt.com
 
 2024-09-02
 
-152
+153
 
 https://robotai.liujiarong.top  
 
@@ -1315,7 +1323,7 @@ https://robotai.liujiarong.top
 
 2024-08-14
 
-153
+154
 
 https://www.llmchathub.fun/  
 
@@ -1323,7 +1331,7 @@ https://www.llmchathub.fun/
 
 2024-08-04
 
-154
+155
 
 https://ssgpt.chat/  
 
@@ -1331,7 +1339,7 @@ https://ssgpt.chat/
 
 2024-08-01
 
-155
+156
 
 https://chatof.ai  
 
@@ -1339,7 +1347,7 @@ https://chatof.ai
 
 2024-07-23
 
-156
+157
 
 https://search.100ai.fun  
 
@@ -1347,7 +1355,7 @@ https://search.100ai.fun
 
 2024-07-19
 
-157
+158
 
 https://www.aicnn.cn/oaifree  
 
@@ -1355,7 +1363,7 @@ https://www.aicnn.cn/oaifree
 
 2024-07-18
 
-158
+159
 
 https://usergpt.top  
 
@@ -1363,7 +1371,7 @@ https://usergpt.top
 
 2024-07-15
 
-159
+160
 
 https://www.bfbke.com/chatgpt  
 
@@ -1371,7 +1379,7 @@ https://www.bfbke.com/chatgpt
 
 2024-07-04
 
-160
+161
 
 https://all.xjai.top  
 
@@ -1379,7 +1387,7 @@ https://all.xjai.top
 
 2024-07-01
 
-161
+162
 
 https://zhijianai.com.cn/chat  
 
@@ -1387,7 +1395,7 @@ https://zhijianai.com.cn/chat
 
 2024-06-22
 
-162
+163
 
 https://assistant.old-eight.top/#/chat/1002  
 
@@ -1395,7 +1403,7 @@ https://assistant.old-eight.top/#/chat/1002
 
 2024-06-09
 
-163
+164
 
 https://www.allyfy.chat/  
 
@@ -1403,7 +1411,7 @@ https://www.allyfy.chat/
 
 2024-05-31
 
-164
+165
 
 https://robot.liujiarong.me  
 
@@ -1411,7 +1419,7 @@ https://robot.liujiarong.me
 
 2024-05-27
 
-165
+166
 
 https://web.sydney-ai.com  
 
@@ -1421,7 +1429,7 @@ https://web.sydney-ai.com
 
 免费共享账户：maomi 密码：maomimaomi
 
-166
+167
 
 https://chatnio.liujiarong.top/  
 
@@ -1431,7 +1439,7 @@ https://chatnio.liujiarong.top/
 
 部分国产模型免费
 
-167
+168
 
 https://3am.com.hk  
 
@@ -1439,7 +1447,7 @@ https://3am.com.hk
 
 2024-05-19
 
-168
+169
 
 https://robot.liujiarong.top  
 
@@ -1447,7 +1455,7 @@ https://robot.liujiarong.top
 
 2024-05-18
 
-169
+170
 
 http://ai.omegaxyz.cn/  
 
@@ -1455,7 +1463,7 @@ http://ai.omegaxyz.cn/
 
 2024-05-16
 
-170
+171
 
 https://chat.freeuse.top/  
 
@@ -1463,7 +1471,7 @@ https://chat.freeuse.top/
 
 2024-04-30
 
-171
+172
 
 https://ai.dfcsf.asia/  
 
@@ -1471,7 +1479,7 @@ https://ai.dfcsf.asia/
 
 2024-04-18
 
-172
+173
 
 https://vip.talktoai.club/chat  
 
@@ -1479,7 +1487,7 @@ https://vip.talktoai.club/chat
 
 2024-01-26
 
-173
+174
 
 https://chat.anchongai.com  
 
@@ -1487,7 +1495,7 @@ https://chat.anchongai.com
 
 2024-01-16
 
-174
+175
 
 https://www.tomchat.fun  
 
@@ -1495,7 +1503,7 @@ https://www.tomchat.fun
 
 2024-01-16
 
-175
+176
 
 https://www.atalk-ai.com/  
 
@@ -1503,7 +1511,7 @@ https://www.atalk-ai.com/
 
 2024-01-10
 
-176
+177
 
 http://nmwaicg.top/  
 
@@ -1511,7 +1519,7 @@ http://nmwaicg.top/
 
 2023-12-05
 
-177
+178
 
 https://ai7.pro  
 
@@ -1519,7 +1527,7 @@ https://ai7.pro
 
 2023-12-05
 
-178
+179
 
 https://shaopchat.com  
 
@@ -1527,7 +1535,7 @@ https://shaopchat.com
 
 2023-12-03
 
-179
+180
 
 https://shaopchat.com  
 
@@ -1535,7 +1543,7 @@ https://shaopchat.com
 
 2023-11-27
 
-180
+181
 
 https://www.ealxc.cn  
 
@@ -1543,7 +1551,7 @@ https://www.ealxc.cn
 
 2023-11-08
 
-181
+182
 
 https://ai.haydenstudio.hk/  
 
@@ -1551,7 +1559,7 @@ https://ai.haydenstudio.hk/
 
 2023-10-16
 
-182
+183
 
 https://api.aiearth.dev/  
 
@@ -1559,7 +1567,7 @@ https://api.aiearth.dev/
 
 2023-10-11
 
-183
+184
 
 https://botqna.com/  
 
@@ -1567,7 +1575,7 @@ https://botqna.com/
 
 2023-10-09
 
-184
+185
 
 https://chat.ai-zc.com/  
 
@@ -1575,7 +1583,7 @@ https://chat.ai-zc.com/
 
 2023-10-08
 
-185
+186
 
 https://api.daifuku.cloud/  
 
@@ -1583,7 +1591,7 @@ https://api.daifuku.cloud/
 
 2023-10-06
 
-186
+187
 
 https://aigc.kungfu.wang/  
 
@@ -1591,7 +1599,7 @@ https://aigc.kungfu.wang/
 
 2023-09-23
 
-187
+188
 
 https://chat.gptwecan.com/chat  
 
@@ -1599,7 +1607,7 @@ https://chat.gptwecan.com/chat
 
 2023-09-19
 
-188
+189
 
 https://chat.bltcy.top/  
 
@@ -1607,7 +1615,7 @@ https://chat.bltcy.top/
 
 2023-09-05
 
-189
+190
 
 https://chat.sb-chat.com/index.php  
 
@@ -1615,7 +1623,7 @@ https://chat.sb-chat.com/index.php
 
 2023-08-30
 
-190
+191
 
 https://www.tomchat.uk  
 
@@ -1623,7 +1631,7 @@ https://www.tomchat.uk
 
 2023-08-25
 
-191
+192
 
 https://www.tomchat.work  
 
@@ -1631,7 +1639,7 @@ https://www.tomchat.work
 
 2023-08-05
 
-192
+193
 
 https://i.aibusx.com  
 
@@ -1639,7 +1647,7 @@ https://i.aibusx.com
 
 2023-08-04
 
-193
+194
 
 https://visionarybrush.com/  
 
@@ -1647,7 +1655,7 @@ https://visionarybrush.com/
 
 2023-07-29
 
-194
+195
 
 https://to.opengpt88.com/  
 
@@ -1655,7 +1663,7 @@ https://to.opengpt88.com/
 
 2023-07-12
 
-195
+196
 
 https://aigptx.top/  
 
@@ -1663,7 +1671,7 @@ https://aigptx.top/
 
 2023-07-11
 
-196
+197
 
 https://www.sreaigc.com/  
 
@@ -1671,7 +1679,7 @@ https://www.sreaigc.com/
 
 2023-07-06
 
-197
+198
 
 https://chattoai.cc/  
 
@@ -1679,7 +1687,7 @@ https://chattoai.cc/
 
 2023-06-23
 
-198
+199
 
 http://linkchat.fuckicoding.com/  
 
@@ -1687,7 +1695,7 @@ http://linkchat.fuckicoding.com/
 
 2023-06-17
 
-199
+200
 
 https://wrtn.ai/  
 
@@ -1695,7 +1703,7 @@ https://wrtn.ai/
 
 2023-06-13
 
-200
+201
 
 https://ai.hxkj.vip/  
 
@@ -1705,7 +1713,7 @@ https://ai.hxkj.vip/
 
 内容过长，点击展开 未登录用户三天免费额度，登录用户无限制，支持AI绘图（Stable Diffusion 和 Midjourney）
 
-201
+202
 
 https://carps.ink/  
 
@@ -1713,7 +1721,7 @@ https://carps.ink/
 
 2023-06-02
 
-202
+203
 
 https://chat.wenwen-ai.com/  
 
@@ -1721,7 +1729,7 @@ https://chat.wenwen-ai.com/
 
 2023-05-10
 
-203
+204
 
 https://free.ai99.asia  
 
@@ -1729,7 +1737,7 @@ https://free.ai99.asia
 
 2024-10-27
 
-204
+205
 
 https://gptcat.top/  
 
@@ -1737,7 +1745,7 @@ https://gptcat.top/
 
 2024-07-05
 
-205
+206
 
 https://chat.mossaigpt.com/c/new  
 
@@ -1745,7 +1753,7 @@ https://chat.mossaigpt.com/c/new
 
 2024-05-11
 
-206
+207
 
 https://www.chaindesk.ai/  
 
@@ -1753,7 +1761,7 @@ https://www.chaindesk.ai/
 
 2024-01-19
 
-207
+208
 
 https://chat001.7x24h.online/  
 
@@ -1761,7 +1769,7 @@ https://chat001.7x24h.online/
 
 2024-01-18
 
-208
+209
 
 https://yewu.bcwhkj.cn  
 
@@ -1769,7 +1777,7 @@ https://yewu.bcwhkj.cn
 
 2024-01-04
 
-209
+210
 
 https://aibusx.com/  
 
@@ -1777,7 +1785,7 @@ https://aibusx.com/
 
 2024-01-04
 
-210
+211
 
 https://www.gnomic.cn/agentCenter/index  
 
@@ -1785,7 +1793,7 @@ https://www.gnomic.cn/agentCenter/index
 
 2023-12-30
 
-211
+212
 
 https://feel-gpt.fun  
 
@@ -1793,7 +1801,7 @@ https://feel-gpt.fun
 
 2023-12-07
 
-212
+213
 
 https://llm.huashuyz.com/  
 
@@ -1801,7 +1809,7 @@ https://llm.huashuyz.com/
 
 2023-12-06
 
-213
+214
 
 https://dacongming.cc  
 
@@ -1809,7 +1817,7 @@ https://dacongming.cc
 
 2023-11-26
 
-214
+215
 
 https://imyai.top/  
 
@@ -1817,7 +1825,7 @@ https://imyai.top/
 
 2023-11-19
 
-215
+216
 
 https://ai.haydenstudio.hk  
 
@@ -1825,7 +1833,7 @@ https://ai.haydenstudio.hk
 
 2023-10-31
 
-216
+217
 
 http://www.znzs.me/  
 
@@ -1833,7 +1841,7 @@ http://www.znzs.me/
 
 2023-09-23
 
-217
+218
 
 https://chat8.com/  
 
@@ -1841,7 +1849,7 @@ https://chat8.com/
 
 2023-08-28
 
-218
+219
 
 https://feel-gpt.top  
 
@@ -1849,7 +1857,7 @@ https://feel-gpt.top
 
 2023-08-25
 
-219
+220
 
 https://aassdd.opao.xyz  
 
@@ -1857,7 +1865,7 @@ https://aassdd.opao.xyz
 
 2023-07-09
 
-220
+221
 
 https://zhuo.mkzero.top:17777/  
 
@@ -1865,7 +1873,7 @@ https://zhuo.mkzero.top:17777/
 
 2023-06-27
 
-221
+222
 
 https://ai.mkzero.top:44444/  
 
@@ -1873,7 +1881,7 @@ https://ai.mkzero.top:44444/
 
 2023-06-27
 
-222
+223
 
 https://firstai.opao.xyz/  
 
@@ -1881,7 +1889,7 @@ https://firstai.opao.xyz/
 
 2023-06-20
 
-223
+224
 
 https://www.ai2dog.com/bavarder  
 
@@ -1889,7 +1897,7 @@ https://www.ai2dog.com/bavarder
 
 2023-06-16
 
-224
+225
 
 https://candy666.top/  
 
@@ -1897,7 +1905,7 @@ https://candy666.top/
 
 2023-06-15
 
-225
+226
 
 https://ai.fanyi.im  
 
@@ -1905,7 +1913,7 @@ https://ai.fanyi.im
 
 2023-06-09
 
-226
+227
 
 https://chat.gpt4plus.fun  
 
@@ -1913,7 +1921,7 @@ https://chat.gpt4plus.fun
 
 2023-06-09
 
-227
+228
 
 https://chat.immuseai.com/  
 
@@ -1921,7 +1929,7 @@ https://chat.immuseai.com/
 
 2023-06-04
 
-228
+229
 
 https://chat.bumo.tech/  
 
@@ -1929,7 +1937,7 @@ https://chat.bumo.tech/
 
 2023-05-29
 
-229
+230
 
 https://chat.zhenbs.com/  
 
@@ -1939,7 +1947,7 @@ https://chat.zhenbs.com/
 
 GPT4 的兑换码：TRYGPT4
 
-230
+231
 
 https://gpt4.gravityengine.cc/  
 
@@ -1947,7 +1955,7 @@ https://gpt4.gravityengine.cc/
 
 2023-05-16
 
-231
+232
 
 https://chat.iwoso.co/  
 
@@ -1955,7 +1963,7 @@ https://chat.iwoso.co/
 
 2023-04-21
 
-232
+233
 
 https://chatbot.theb.ai/  
 
@@ -1963,7 +1971,7 @@ https://chatbot.theb.ai/
 
 2023-04-20
 
-233
+234
 
 https://nat.dev/  
 
@@ -1971,7 +1979,7 @@ https://nat.dev/
 
 2023-04-07
 
-234
+235
 
 https://fastgpt.app/  
 
@@ -1979,7 +1987,7 @@ https://fastgpt.app/
 
 2023-04-04
 
-235
+236
 
 https://freechatgpt.chat/  
 
@@ -1987,7 +1995,7 @@ https://freechatgpt.chat/
 
 2023-04-04
 
-236
+237
 
 https://www.chatbotui.com/  
 
@@ -1995,7 +2003,7 @@ https://www.chatbotui.com/
 
 2023-04-04
 
-237
+238
 
 https://chat.gpt.bz/  
 
@@ -2003,7 +2011,7 @@ https://chat.gpt.bz/
 
 2023-04-03
 
-238
+239
 
 https://94gpt.com/  
 
@@ -2011,7 +2019,7 @@ https://94gpt.com/
 
 2023-03-22
 
-239
+240
 
 https://wang.gptnb.xyz/  
 
@@ -2019,7 +2027,7 @@ https://wang.gptnb.xyz/
 
 2024-06-10
 
-240
+241
 
 https://chat.0oai.com  
 
@@ -2027,7 +2035,7 @@ https://chat.0oai.com
 
 2024-02-16
 
-241
+242
 
 https://wielded.com/  
 
@@ -2035,7 +2043,7 @@ https://wielded.com/
 
 2024-01-25
 
-242
+243
 
 https://smallai.sellhigh.asia  
 
@@ -2043,7 +2051,7 @@ https://smallai.sellhigh.asia
 
 2023-12-10
 
-243
+244
 
 https://www.ealxc.com/  
 
@@ -2051,7 +2059,7 @@ https://www.ealxc.com/
 
 2023-12-09
 
-244
+245
 
 https://ai.imiphp.com/  
 
@@ -2059,7 +2067,7 @@ https://ai.imiphp.com/
 
 2023-09-01
 
-245
+246
 
 https://dzyai.com/chat  
 
@@ -2067,7 +2075,7 @@ https://dzyai.com/chat
 
 2023-07-26
 
-246
+247
 
 https://gptplus.io/  
 
@@ -2075,7 +2083,7 @@ https://gptplus.io/
 
 2023-07-13
 
-247
+248
 
 https://ai-connect.cn/chat  
 
@@ -2083,7 +2091,7 @@ https://ai-connect.cn/chat
 
 2023-07-06
 
-248
+249
 
 https://zhiziera.com/  
 
@@ -2091,7 +2099,7 @@ https://zhiziera.com/
 
 2023-06-28
 
-249
+250
 
 http://zhiziera.com/  
 
@@ -2099,7 +2107,7 @@ http://zhiziera.com/
 
 2023-06-23
 
-250
+251
 
 https://xdu.cn/  
 
@@ -2107,7 +2115,7 @@ https://xdu.cn/
 
 2023-06-17
 
-251
+252
 
 https://c1ns.cn/wlyzs  
 
@@ -2115,7 +2123,7 @@ https://c1ns.cn/wlyzs
 
 2023-06-16
 
-252
+253
 
 https://chat.ijixian.com.cn  
 
@@ -2123,7 +2131,7 @@ https://chat.ijixian.com.cn
 
 2023-06-09
 
-253
+254
 
 https://www.magicaibot.com/talk  
 
@@ -2131,7 +2139,7 @@ https://www.magicaibot.com/talk
 
 2023-06-01
 
-254
+255
 
 https://www.dqzboy.top/  
 
@@ -2139,7 +2147,7 @@ https://www.dqzboy.top/
 
 2023-05-27
 
-255
+256
 
 https://tjtmsoft.com/aigpt  
 
@@ -2147,7 +2155,7 @@ https://tjtmsoft.com/aigpt
 
 2024-09-13
 
-256
+257
 
 https://www.yanbiai.com/?ly=afc  
 
@@ -2155,7 +2163,7 @@ https://www.yanbiai.com/?ly=afc
 
 2024-09-04
 
-257
+258
 
 https://chat.gptdsb.com/  
 
@@ -2163,7 +2171,7 @@ https://chat.gptdsb.com/
 
 2024-04-18
 
-258
+259
 
 https://chatgai.lovepor.cn/  
 
@@ -2171,7 +2179,7 @@ https://chatgai.lovepor.cn/
 
 2024-03-15
 
-259
+260
 
 https://chat.chat826.com/  
 
@@ -2179,7 +2187,7 @@ https://chat.chat826.com/
 
 2024-03-06
 
-260
+261
 
 https://aigc.unipus.cn/  
 
@@ -2187,7 +2195,7 @@ https://aigc.unipus.cn/
 
 2024-03-05
 
-261
+262
 
 https://agi.aiearth.dev/  
 
@@ -2195,7 +2203,7 @@ https://agi.aiearth.dev/
 
 2024-02-21
 
-262
+263
 
 https://chat.weijiajin.com  
 
@@ -2203,7 +2211,7 @@ https://chat.weijiajin.com
 
 2024-02-05
 
-263
+264
 
 https://aibox365.com  
 
@@ -2211,7 +2219,7 @@ https://aibox365.com
 
 2024-02-05
 
-264
+265
 
 https://chat.fengzhengx.cn/  
 
@@ -2219,7 +2227,7 @@ https://chat.fengzhengx.cn/
 
 2024-01-15
 
-265
+266
 
 https://gpt.100ai.fun  
 
@@ -2227,7 +2235,7 @@ https://gpt.100ai.fun
 
 2023-12-30
 
-266
+267
 
 https://ct10.xiami.monster/  
 
@@ -2237,7 +2245,7 @@ https://ct10.xiami.monster/
 
 发布页 https://fby.xiamis.xyz/
 
-267
+268
 
 https://ai.aichat.vin  
 
@@ -2245,7 +2253,7 @@ https://ai.aichat.vin
 
 2023-11-15
 
-268
+269
 
 https://aivesa.cn/  
 
@@ -2253,7 +2261,7 @@ https://aivesa.cn/
 
 2023-11-02
 
-269
+270
 
 https://api.xn--7gqr4f.com/  
 
@@ -2261,7 +2269,7 @@ https://api.xn--7gqr4f.com/
 
 2023-10-22
 
-270
+271
 
 https://chat.xiaomingyan.com  
 
@@ -2269,7 +2277,7 @@ https://chat.xiaomingyan.com
 
 2023-09-21
 
-271
+272
 
 http://chat.tensorbytes.com  
 
@@ -2277,7 +2285,7 @@ http://chat.tensorbytes.com
 
 2023-08-22
 
-272
+273
 
 https://freechat.xiaopao.link  
 
@@ -2285,7 +2293,7 @@ https://freechat.xiaopao.link
 
 2023-08-04
 
-273
+274
 
 https://chat.gpt.bz/  
 
@@ -2293,7 +2301,7 @@ https://chat.gpt.bz/
 
 2023-08-01
 
-274
+275
 
 https://dashuye.top  
 
@@ -2301,7 +2309,7 @@ https://dashuye.top
 
 2023-06-29
 
-275
+276
 
 https://jqk.ai  
 
@@ -2309,7 +2317,7 @@ https://jqk.ai
 
 2023-06-27
 
-276
+277
 
 http://ai.mkzero.top:44444/  
 
@@ -2317,7 +2325,7 @@ http://ai.mkzero.top:44444/
 
 2023-06-18
 
-277
+278
 
 https://zyzyai.cn  
 
@@ -2325,7 +2333,7 @@ https://zyzyai.cn
 
 2023-06-16
 
-278
+279
 
 http://chat.moyifeng.top/  
 
@@ -2333,7 +2341,7 @@ http://chat.moyifeng.top/
 
 2023-06-14
 
-279
+280
 
 https://www.confman.com/chat  
 
@@ -2341,7 +2349,7 @@ https://www.confman.com/chat
 
 2023-06-11
 
-280
+281
 
 https://emkok.com  
 
@@ -2351,7 +2359,7 @@ https://emkok.com
 
 内容过长，点击展开 以提示词创建的指令应用 GPT 平台，目前已经有 200+ 应用
 
-281
+282
 
 https://varmsg.com/  
 
@@ -2359,7 +2367,7 @@ https://varmsg.com/
 
 2023-06-05
 
-282
+283
 
 https://home.xiamis.xyz/  
 
@@ -2367,7 +2375,7 @@ https://home.xiamis.xyz/
 
 2023-06-02
 
-283
+284
 
 https://chatgptmirror.com/  
 
@@ -2375,7 +2383,7 @@ https://chatgptmirror.com/
 
 2023-06-01
 
-284
+285
 
 https://ai.douresources.com  
 
@@ -2383,7 +2391,7 @@ https://ai.douresources.com
 
 2023-05-31
 
-285
+286
 
 http://a1ya.cn/9df35d55c75a5a90  
 
@@ -2391,7 +2399,7 @@ http://a1ya.cn/9df35d55c75a5a90
 
 2023-05-29
 
-286
+287
 
 http://chatgpt.bamboochat.cn/  
 
@@ -2399,7 +2407,7 @@ http://chatgpt.bamboochat.cn/
 
 2023-05-29
 
-287
+288
 
 https://aihalo.chat/  
 
@@ -2407,7 +2415,7 @@ https://aihalo.chat/
 
 2023-05-28
 
-288
+289
 
 https://chat1.wobcw.com/  
 
@@ -2415,7 +2423,7 @@ https://chat1.wobcw.com/
 
 2023-05-26
 
-289
+290
 
 https://ai.iiter.cn/  
 
@@ -2423,7 +2431,7 @@ https://ai.iiter.cn/
 
 2023-05-25
 
-290
+291
 
 https://www.openaicloud.cloud/  
 
@@ -2431,7 +2439,7 @@ https://www.openaicloud.cloud/
 
 2023-05-22
 
-291
+292
 
 https://gpts.dawu.world/  
 
@@ -2439,7 +2447,7 @@ https://gpts.dawu.world/
 
 2023-05-22
 
-292
+293
 
 https://aiget.cc/  
 
@@ -2447,7 +2455,7 @@ https://aiget.cc/
 
 2023-05-17
 
-293
+294
 
 http://bamboochat.kebakeba.com/  
 
@@ -2455,7 +2463,7 @@ http://bamboochat.kebakeba.com/
 
 2023-05-12
 
-294
+295
 
 https://gpt.uziai.com/  
 
@@ -2463,7 +2471,7 @@ https://gpt.uziai.com/
 
 2023-05-11
 
-295
+296
 
 https://chat.bumo.ai/  
 
@@ -2471,7 +2479,7 @@ https://chat.bumo.ai/
 
 2023-05-07
 
-296
+297
 
 https://ai.hxkj.vip/  
 
@@ -2479,7 +2487,7 @@ https://ai.hxkj.vip/
 
 2023-05-06
 
-297
+298
 
 https://qxme.com/  
 
@@ -2487,7 +2495,7 @@ https://qxme.com/
 
 2023-05-04
 
-298
+299
 
 https://chat.douresources.com/  
 
@@ -2495,7 +2503,7 @@ https://chat.douresources.com/
 
 2023-04-28
 
-299
+300
 
 https://www.vivi-chat.com/#/chat  
 
@@ -2503,7 +2511,7 @@ https://www.vivi-chat.com/#/chat
 
 2023-04-22
 
-300
+301
 
 https://openmao.panchuang.net/  
 
@@ -2511,7 +2519,7 @@ https://openmao.panchuang.net/
 
 2023-04-18
 
-301
+302
 
 https://www.weijiwangluo.com/talk  
 
@@ -2519,7 +2527,7 @@ https://www.weijiwangluo.com/talk
 
 2023-04-18
 
-302
+303
 
 https://www.chatgptunli.com/chatgpt/  
 
@@ -2527,7 +2535,7 @@ https://www.chatgptunli.com/chatgpt/
 
 2023-04-11
 
-303
+304
 
 https://chat.alpaca-bi.com/  
 
@@ -2535,7 +2543,7 @@ https://chat.alpaca-bi.com/
 
 2023-03-22
 
-304
+305
 
 https://beta.bushiai.com/  
 
@@ -2543,7 +2551,7 @@ https://beta.bushiai.com/
 
 2023-09-07
 
-305
+306
 
 https://www.sweetsai.com/  
 
@@ -2551,7 +2559,7 @@ https://www.sweetsai.com/
 
 2023-05-24
 
-306
+307
 
 https://open-gpt.app/  
 
@@ -2559,7 +2567,7 @@ https://open-gpt.app/
 
 2023-03-29
 
-307
+308
 
 https://chat4.leapgpt.top/  
 
@@ -2567,7 +2575,7 @@ https://chat4.leapgpt.top/
 
 2023-11-09
 
-308
+309
 
 https://gpt.ltopx.com  
 
@@ -2575,7 +2583,7 @@ https://gpt.ltopx.com
 
 2023-06-20
 
-309
+310
 
 https://caffcat.co/  
 
@@ -2583,7 +2591,7 @@ https://caffcat.co/
 
 2023-08-24
 
-310
+311
 
 https://ai.01rj.cn/  
 

@@ -1,6 +1,6 @@
 ---
 project: vue-virt-list
-stars: 335
+stars: 340
 description: 【持续更新中】⚡️ 一个支持vue2&vue3的高性能虚拟(滚动)列表组件 👉🏻 轻量5KB 百万数据渲染 满帧率滚动 丰富场景支持  📑 [vue虚拟列表] [vue虚拟滚动列表][vue虚拟树] [vue-virtual-list] [vue-virtual-scroll-list] [vue-virtual-scroller] [vue-virt-tree] 
 url: https://github.com/kolarorz/vue-virt-list
 ---
@@ -65,12 +65,23 @@ npm install vue-virt-list -S
   // const list = shallowRef(\[{ id: 0, text: 'text' }\])
 </script\>
 
+WeChat
+------
+
+有问题可扫码加好友进入技术交流群（备注github账号名&vue-virt-list）
+
 Sponsor
 -------
 
 开源不易，如果帮助到你，请作者喝杯咖啡吧~
 
-WeChat
-------
+### 感谢您的慷慨
 
-有问题可扫码加好友进入技术交流群（备注github账号名）
+-   AliPay
+    
+    -   \*\*丹
+    -   \*\*平
+    -   \*\*理
+-   WechatPay
+    
+    -   甜言蜜语说给左耳听

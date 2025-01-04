@@ -1,6 +1,6 @@
 ---
 project: panel-magic
-stars: 526
+stars: 525
 description: 🐴🐂Visual prototyping platform for Angular 🐶🐷
 url: https://github.com/Ricbet/panel-magic
 ---

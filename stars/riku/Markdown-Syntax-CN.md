@@ -1,6 +1,6 @@
 ---
 project: Markdown-Syntax-CN
-stars: 1775
+stars: 1774
 description: Markdown 语法简体中文版（https://markdown.kuapp.com/）
 url: https://github.com/riku/Markdown-Syntax-CN
 ---

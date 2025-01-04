@@ -1,6 +1,6 @@
 ---
 project: mediago
-stars: 5395
+stars: 5462
 description: 跨平台视频提取工具：支持流媒体下载、视频下载、m3u8 下载及 B站视频下载，提供 Windows 和 Mac 桌面客户端。Cross-platform video extraction tool: Supports streaming download, video download, m3u8 download, and Bilibili video download, with desktop clients for Windows and Mac.
 url: https://github.com/caorushizi/mediago
 ---
@@ -58,15 +58,6 @@ Releases
 ### v3.0.0 (2024.10.7 发布)
 
 #### 软件下载
-
--   【mediago】 windows(安装版) v3.0.0
--   【mediago】 windows(便携版) v3.0.0
--   【mediago】 macos arm64（apple 芯片） v3.0.0
--   【mediago】 macos x64（intel 芯片） v3.0.0
--   【mediago】 linux v3.0.0
--   【mediago】 docker v3.0 `docker run -d --name mediago -p 8899:8899 -v /root/mediago:/root/mediago registry.cn-beijing.aliyuncs.com/caorushizi/mediago:v3.0.0`
-
-#### 国内下载
 
 -   【mediago】 windows(安装版) v3.0.0
 -   【mediago】 windows(便携版) v3.0.0

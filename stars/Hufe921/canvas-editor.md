@@ -1,6 +1,6 @@
 ---
 project: canvas-editor
-stars: 3832
+stars: 3845
 description: rich text editor by canvas/svg
 url: https://github.com/Hufe921/canvas-editor
 ---

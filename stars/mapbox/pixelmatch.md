@@ -1,6 +1,6 @@
 ---
 project: pixelmatch
-stars: 6230
+stars: 6234
 description: The smallest, simplest and fastest JavaScript pixel-level image comparison library
 url: https://github.com/mapbox/pixelmatch
 ---

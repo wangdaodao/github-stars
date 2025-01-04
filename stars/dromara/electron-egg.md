@@ -1,6 +1,6 @@
 ---
 project: electron-egg
-stars: 1923
+stars: 1927
 description: A simple, cross platform, enterprise desktop software development framework
 url: https://github.com/dromara/electron-egg
 ---

@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2024-12-29 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-05 06:18.
 
 📝 Hitokoto
 -----------
 
-> 宇宙很大，生活更大，也许以后还有缘相见。—— 刘慈欣
+> 信心这个东西，什么时候都像个高楼大厦，但是里面会长白蚁。—— 王小波
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_A green sea turtle swims in the Pacific Ocean near the French special collectivity of New Caledonia (© Damsea/Shutterstock)_
+_Bản Giốc–Detian Falls on the Quây Sơn River, Vietnam (© Shane P. White/Minden Pictures)_
 
 📚 My Blog posts ...
 --------------------
