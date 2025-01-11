@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 13599
+stars: 14721
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -216,6 +216,12 @@ Custom Prompt
 \[Use Custom WebUI port\]
 
 `pdf2zh --serverport 7860`
+
+`--dir`
+
+\[batch translate\]
+
+`pdf2zh --dir /path/to/translate/`
 
 For detailed explanations, please refer to our document about Advanced Usage for a full list of each option.
 

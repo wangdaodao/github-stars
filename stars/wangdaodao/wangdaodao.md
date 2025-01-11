@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-05 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-12 06:18.
 
 📝 Hitokoto
 -----------
 
-> 信心这个东西，什么时候都像个高楼大厦，但是里面会长白蚁。—— 王小波
+> 最了解一个人的，往往是他的敌人。—— 温迪
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Bản Giốc–Detian Falls on the Quây Sơn River, Vietnam (© Shane P. White/Minden Pictures)_
+_Heri es-Swani in Meknes, Morocco (© Calin Stan/Shutterstock)_
 
 📚 My Blog posts ...
 --------------------

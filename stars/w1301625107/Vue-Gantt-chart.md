@@ -1,6 +1,6 @@
 ---
 project: Vue-Gantt-chart
-stars: 652
+stars: 654
 description: 使用Vue做数据控制的Gantt图表
 url: https://github.com/w1301625107/Vue-Gantt-chart
 ---

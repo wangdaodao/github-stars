@@ -1,14 +1,14 @@
 ---
 project: javascript-risingstars
-stars: 1027
-description: :stars: An overview of the JavaScript landscape in 2023: trends about frontend, Node.js, fullstack frameworks, build tools, testing, Vue.js, React, state management...
+stars: 1039
+description: :stars: An overview of the JavaScript landscape in 2024: trends about frontend, Node.js, fullstack frameworks, build tools, testing, Vue.js, React, state management...
 url: https://github.com/bestofjs/javascript-risingstars
 ---
 
 JavaScript Rising Stars
 =======================
 
-An overview of the JavaScript landscape in 2023: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, testing, state management, GraphQL...
+An overview of the JavaScript landscape in 2024: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, AI tools, testing, state management...
 
 Team members
 ------------
@@ -17,6 +17,7 @@ Team members
 -   Benjamin Blackwood
 -   Frank Xu
 -   Evan Trujillo
+-   Jack Huan
 -   Javier Valencia
 -   Jusang Kim
 -   L1lith
@@ -49,7 +50,7 @@ Stack
 How to contribute?
 ------------------
 
-Requirements: PNPM, Node.js 18+
+Requirements: PNPM, Node.js 20+
 
 -   Clone the repo
 -   Install the dependencies: `pnpm install`
@@ -71,7 +72,7 @@ File system overview:
 ./src/content
 ├── categories
 ├── comments
-│   └── 2023
+│   └── 2024
 │       ├── en
 │       │   ├── categories
 │       │   └── guests
@@ -83,6 +84,6 @@ File system overview:
 │           └── guests
 ├── contributors
 └── messages
-    ├── 2023
+    ├── 2024
     └── common
 ```

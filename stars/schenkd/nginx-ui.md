@@ -1,6 +1,6 @@
 ---
 project: nginx-ui
-stars: 4438
+stars: 4439
 description: Nginx UI allows you to access and modify the nginx configurations files without cli. 
 url: https://github.com/schenkd/nginx-ui
 ---

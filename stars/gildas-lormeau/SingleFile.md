@@ -1,6 +1,6 @@
 ---
 project: SingleFile
-stars: 16404
+stars: 16470
 description: Web Extension for saving a faithful copy of a complete web page in a single HTML file
 url: https://github.com/gildas-lormeau/SingleFile
 ---
@@ -8,7 +8,7 @@ url: https://github.com/gildas-lormeau/SingleFile
 SingleFile
 ==========
 
-SingleFile is a Web Extension (and a CLI tool) compatible with Chrome, Firefox (Desktop and Mobile), Microsoft Edge, Safari, Vivaldi, Brave, Waterfox, Yandex browser, and Opera. It helps you to save a complete web page into a single HTML file.
+SingleFile helps you to save a complete web page into a single HTML file. SingleFile is a Web Extension (and a CLI tool) compatible with Chrome, Firefox (Desktop and Mobile), Microsoft Edge, Safari, Vivaldi, Brave, Waterfox, Yandex browser, and Opera.
 
 Table of Contents
 -----------------

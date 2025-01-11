@@ -1,6 +1,6 @@
 ---
 project: HIWIFI
-stars: 124
+stars: 125
 description: Official firmware of Hiwifi Routers.
 url: https://github.com/xjtuecho/HIWIFI
 ---

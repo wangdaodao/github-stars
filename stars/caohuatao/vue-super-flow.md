@@ -1,6 +1,6 @@
 ---
 project: vue-super-flow
-stars: 772
+stars: 773
 description: Flow chart component based on Vue。vue flowchart
 url: https://github.com/caohuatao/vue-super-flow
 ---

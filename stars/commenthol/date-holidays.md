@@ -1,6 +1,6 @@
 ---
 project: date-holidays
-stars: 942
+stars: 943
 description: worldwide holidays
 url: https://github.com/commenthol/date-holidays
 ---
@@ -415,6 +415,13 @@ Countries: 197
 ├── NG: Nigeria
 ├── NI: Nicaragua
 ├── NL: Nederland
+│   ├── GR: Groningen
+│   │   └── GRN: Groningen
+│   ├── NH: Noord-Holland
+│   │   └── ALK: Alkmaar
+│   └── ZH: Zuid-Holland
+│       ├── BRL: Brielle
+│       └── LDN: Leiden
 ├── NO: Norge
 ├── NZ: New Zealand
 │   ├── AUK: Auckland Province

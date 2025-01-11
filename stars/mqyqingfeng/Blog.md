@@ -1,6 +1,6 @@
 ---
 project: Blog
-stars: 30828
+stars: 30837
 description: 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。
 url: https://github.com/mqyqingfeng/Blog
 ---
@@ -15,19 +15,21 @@ url: https://github.com/mqyqingfeng/Blog
 -   社群：“低调务实优秀中国好青年”前端社群
 -   成长：茶话会、微信读书
 -   小册：《Next.js 开发指南》、《Svelte 开发指南》
--   翻译：TypeScript 中文文档、Solid 中文文档、Svelte 中文文档
+-   翻译：TypeScript 中文文档、Solid.js 中文文档、Svelte 中文文档
 -   专栏：掘金、思否、语雀、公众号：冴羽（#yayujs）
 -   微信：mqyqingfeng
 
 Svelte 官方文档翻译
 -------------
 
-目前正在翻译中，查看 Svelte 官方中文文档
+1.  主要内容已翻译完毕，查看站点： Svelte 中文文档
+2.  关于 Svelte 的介绍，查看 《Svelte 开发指南》
 
 Solid.js 官方文档翻译
 ---------------
 
-主要内容已翻译完毕，查看 Solid.js 官方中文文档
+1.  主要内容已翻译完毕，查看站点： Solid.js 中文文档
+2.  关于 Solid.js 的介绍，查看《这个比 React 更 react 的框架 —— Solid.js 最新中文文档来了！》
 
 Next.js 系列
 ----------

@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 1242
+stars: 1307
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -10,7 +10,7 @@ IPV4/IPV6 TVBOX 电视直播点播源收集
 
 -   直播源
 -   点播源
--   电子节目单（EPG）接口
+-   电视节目单（EPG）接口
     -   112114
     -   ERW
     -   BurningC4
@@ -49,21 +49,21 @@ IPV6
 
 vbskycn
 
-https://live.zhoujie218.top/tv/iptv6.m3u
+https://live.zbds.top/tv/iptv6.m3u
 
 IPV6
 
-❌
+✔️
 
 ✔️
 
 vbskycn
 
-https://live.zhoujie218.top/tv/iptv4.m3u
+https://live.zbds.top/tv/iptv4.m3u
 
 IPV4
 
-❌
+✔️
 
 ✔️
 
@@ -73,7 +73,7 @@ http://aktv.top/live.m3u
 
 IPV4
 
-❌
+✔️
 
 ❌
 
@@ -176,7 +176,7 @@ IPV6
 -   iptv共享系统（TG获取密钥，稳定服务收费）
 -   epg.pw免费电视节目表
 -   Pixman（普通人别折腾）
--   stream link(不支持中國大陸、臺灣省以及cloudflare使用)
+-   stream link（資源不支持中國大陸使用）
 
 * * *
 
@@ -266,7 +266,7 @@ http://6080.eu.org/
 
 * * *
 
-电子节目单（EPG）接口
+电视节目单（EPG）接口
 ============
 
 112114
@@ -357,6 +357,12 @@ Android电视/手机
 TiviMate
 
 https://tivimate.com/
+
+Android电视
+
+M3U IPTV
+
+https://m3u-ip.tv/
 
 Android电视
 
@@ -503,9 +509,10 @@ GitHub镜像
 -   https://ghproxy.org/
 -   https://ghp.ci/
 -   https://ghgo.xyz/
+-   https://ghfast.top/
 -   https://gh-proxy.com/
 
-在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。举例：https://ghp.ci/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。举例：https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 
 解决无法打开GitHub还有一种方法是更换DNS。DNS合集：https://dns.iui.im/ DNS测速：https://ping.sx/ping
 
@@ -524,7 +531,7 @@ GitHub镜像
 -   官方APP等等
 -   谷歌搜索：地方+电视直播
 -   官方直播地址搜索：https://iptv-org.github.io/
--   IPTV源搜索：http://tonkiang.us/ http://www.foodieguide.com/iptvsearch/
+-   IPTV源搜索：https://tonkiang.us/ http://www.foodieguide.com/iptvsearch/
 
 * * *
 

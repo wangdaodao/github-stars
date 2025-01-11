@@ -1,6 +1,6 @@
 ---
 project: shengshixian.com
-stars: 525
+stars: 526
 description: null
 url: https://github.com/ruiduobao/shengshixian.com
 ---

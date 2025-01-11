@@ -1,6 +1,6 @@
 ---
 project: javascript-guidebook
-stars: 1107
+stars: 1109
 description: :books:JavaScript 前端知识图谱 A guidebook for the convenience of the front-end developers
 url: https://github.com/tsejx/javascript-guidebook
 ---

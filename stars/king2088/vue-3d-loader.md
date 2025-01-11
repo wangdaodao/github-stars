@@ -1,6 +1,6 @@
 ---
 project: vue-3d-loader
-stars: 250
+stars: 251
 description: VueJS and threeJS 3d viewer plugin
 url: https://github.com/king2088/vue-3d-loader
 ---

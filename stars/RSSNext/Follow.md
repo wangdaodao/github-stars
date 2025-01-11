@@ -1,6 +1,6 @@
 ---
 project: Follow
-stars: 21493
+stars: 21710
 description: 🧡 Follow your favorites in one inbox
 url: https://github.com/RSSNext/Follow
 ---
@@ -75,7 +75,7 @@ pnpm install
 
 ### Develop in the browser
 
-pnpm run dev:web
+pnpm run dev
 
 Then the browser opens `https://app.follow.is/__debug_proxy`，you can access the online API environment to development and debugging.
 
@@ -87,7 +87,7 @@ cp .env.example .env
 
 Then set `VITE_API_URL` to `https://api.follow.is` and run:
 
-pnpm run dev
+pnpm run dev:electron
 
 Since it is not very convenient to develop in Electron, the first way to develop and contribute is recommended at this stage.
 

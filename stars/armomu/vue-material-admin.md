@@ -1,6 +1,6 @@
 ---
 project: vue-material-admin
-stars: 619
+stars: 618
 description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM轻量化设计中后台管理模板 
 url: https://github.com/armomu/vue-material-admin
 ---
@@ -46,6 +46,8 @@ Vue Material Admin 是一个基于 `Vuetify.js` 组件库的开源中后台模�
     -   ✅ Table
     -   ✅ Calendar
     -   ✅ DictSelect(自动注册可枚举字典下拉框)
+    -   ❌ 日期选择器
+    -   ❌ 全局加载效果Api
 2.  🏡 智能家居控制组件
     -   ✅ 环形控制器(支持鼠标拖动进度)
     -   ✅ 360度全景图预览(其实是Babylon.js的一个API而已)

@@ -1,6 +1,6 @@
 ---
 project: ant-design-charts
-stars: 1984
+stars: 1987
 description: A React Chart Library
 url: https://github.com/ant-design/ant-design-charts
 ---

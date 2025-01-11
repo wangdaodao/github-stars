@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2151
+stars: 2166
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Bản Giốc–Detian Falls on the Quây Sơn River, Vietnam (© Shane P. White/Minden Pictures)
+Today: Heri es-Swani in Meknes, Morocco (© Calin Stan/Shutterstock)
+
+2025-01-12 download 4k
+
+2025-01-11 download 4k
+
+2025-01-10 download 4k
+
+2025-01-09 download 4k
+
+2025-01-08 download 4k
+
+2025-01-07 download 4k
+
+2025-01-06 download 4k
 
 2025-01-05 download 4k
 
@@ -55,20 +69,6 @@ Today: Bản Giốc–Detian Falls on the Quây Sơn River, Vietnam (© Shane P.
 2024-12-15 download 4k
 
 2024-12-14 download 4k
-
-2024-12-13 download 4k
-
-2024-12-12 download 4k
-
-2024-12-11 download 4k
-
-2024-12-10 download 4k
-
-2024-12-09 download 4k
-
-2024-12-08 download 4k
-
-2024-12-07 download 4k
 
 ### 历史归档：
 

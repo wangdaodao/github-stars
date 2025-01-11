@@ -1,6 +1,6 @@
 ---
 project: leek-fund
-stars: 3087
+stars: 3092
 description: :chart_with_upwards_trend:  韭菜盒子——VSCode 里也可以看股票 & 基金实时数据，做最好用的投资插件 🐥
 url: https://github.com/LeekHub/leek-fund
 ---

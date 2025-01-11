@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 41189
+stars: 41256
 description: 🔥「企业级低代码平台」前后端分离架构SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领新的开发模式，引入AI模型能力 OnlineCoding->代码生成->手工MERGE，帮助Java项目解决70%重复工作，让开发更关注业务，既能快速提高效率，帮助公司节省成本，同时又不失灵活性。
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -106,9 +106,10 @@ JeecgBoot开源版本，底层完全开源可以自主开发，遵循Apache2.0�
 #### 前端环境要求
 
 -   本地环境安装 `Node.js 、npm 、pnpm`
+-   pnpm 要求`9+` 版本以上
 -   Node.js 版本建议`v20.15.0`，要求`Node 20+` 版本以上
 
-`( 因为Vite5 不再支持已 EOL 的 Node.js 14 / 16 / 17 / 19，现在需要 Node.js 18 / 20+ )`
+`( 因为Vite6 需要 Node.js 18 / 20+ )`
 
 #### 支持库
 

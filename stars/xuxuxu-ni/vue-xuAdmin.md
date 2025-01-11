@@ -1,6 +1,6 @@
 ---
 project: vue-xuAdmin
-stars: 1010
+stars: 1011
 description: vue+element-ui-admin 后台权限管理模板 演示地址:
 url: https://github.com/xuxuxu-ni/vue-xuAdmin
 ---
