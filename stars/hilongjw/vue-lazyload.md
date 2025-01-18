@@ -1,6 +1,6 @@
 ---
 project: vue-lazyload
-stars: 8023
+stars: 8024
 description: A Vue.js plugin for lazyload your Image or Component in your application.
 url: https://github.com/hilongjw/vue-lazyload
 ---
@@ -397,25 +397,25 @@ There are three states while img loading
 <img src\="imgUrl" lazy\="error"\>
 
 <style\>
-  img\[lazy=loading\] {
+  img\[lazy\=loading\] {
     /\*your style here\*/
   }
-  img\[lazy=error\] {
+  img\[lazy\=error\] {
     /\*your style here\*/
   }
-  img\[lazy=loaded\] {
+  img\[lazy\=loaded\] {
     /\*your style here\*/
   }
   /\*
   or background-image
   \*/
-  .yourclass\[lazy=loading\] {
+  .yourclass\[lazy\=loading\] {
     /\*your style here\*/
   }
-  .yourclass\[lazy=error\] {
+  .yourclass\[lazy\=error\] {
     /\*your style here\*/
   }
-  .yourclass\[lazy=loaded\] {
+  .yourclass\[lazy\=loaded\] {
     /\*your style here\*/
   }
 </style\>

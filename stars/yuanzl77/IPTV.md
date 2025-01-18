@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 1573
+stars: 1652
 description: 每天自动更新IPTV直播源，支持IPV4/IPV6双栈访问！自定义频道，高质量直播源，❌不含有广告。Automatically update IPTV live streaming sources every day, supporting IPV4/IPV6 dual stack access! Custom channels, high-quality live streaming sources, ❌ Does not contain advertisements.
 url: https://github.com/yuanzl77/IPTV
 ---

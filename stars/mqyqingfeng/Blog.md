@@ -1,6 +1,6 @@
 ---
 project: Blog
-stars: 30837
+stars: 30840
 description: 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。
 url: https://github.com/mqyqingfeng/Blog
 ---
@@ -66,8 +66,12 @@ React 系列
 20.  过程比结果重要吗？
 21.  冴羽，你为什么写起了鸡汤？
 
-TypeScript4 官方文档翻译，收录在 ts.yayujs.com
-------------------------------------
+TypeScript 官方文档翻译
+-----------------
+
+1.  主要内容已翻译完毕，查看站点： TypeScript 中文文档
+
+系列目录：
 
 1.  TypeScript之基础入门
 2.  TypeScript之常见类型（上）

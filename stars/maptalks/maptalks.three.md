@@ -1,6 +1,6 @@
 ---
 project: maptalks.three
-stars: 584
+stars: 585
 description: A maptalks layer to render with three.js.
 url: https://github.com/maptalks/maptalks.three
 ---
@@ -91,11 +91,6 @@ Supported Browsers
 ------------------
 
 IE 11, Chrome, Firefox, other modern and mobile browsers that support WebGL;
-
-API Reference
--------------
-
-### API
 
 Contributing
 ------------

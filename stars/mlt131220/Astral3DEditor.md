@@ -1,12 +1,12 @@
 ---
 project: Astral3DEditor
-stars: 281
+stars: 328
 description: 面相浏览器端免费开源的三维可视化编辑器，包含BIM轻量化，CAD解析预览等特色功能。                              A free and open source 3D visualization editor for browsers, including BIM lightweight, CAD parsing preview and other features.
 url: https://github.com/mlt131220/Astral3DEditor
 ---
 
-ES 3DEditor
-===========
+Astral 3D Editor
+================
 
 🌍 _English_ 🌍 _简体中文_
 
@@ -15,18 +15,6 @@ ES 3DEditor
   
 
 * * *
-
-WeChat Group
-------------
-
-Click here view the latest group invitation pictures。
-
-* * *
-
-Back-end code
--------------
-
--   Golang's implementation: ES3DEditorGoBack
 
 Peculiarity：
 ------------
@@ -39,6 +27,7 @@ Peculiarity：
 -   Upyun USS store;
 -   Golang + MySQL backend support;
 -   Run script;
+-   Plug-in system;
 -   Animation editor;
 -   Physical engine support;
 -   Particle system support;
@@ -47,15 +36,20 @@ Peculiarity：
 -   VUE / React components support;
 -   Low code data large screen;
 
+Back-end code
+-------------
+
+-   Golang's implementation: Astral3DEditorGoBack
+
 Quick start
 -----------
 
-   git clone https://github.com/mlt131220/ES-3DEditor.git
+   git clone https://github.com/mlt131220/Astral3DEditor.git
 
 Run
 ---
 
-    cd ES-3DEditor
+    cd Astral3DEditor
     yarn install
     yarn run dev
 
@@ -67,6 +61,13 @@ Build
 -----
 
     yarn run build
+
+WeChat Group
+------------
+
+Click here view the latest group invitation pictures。
+
+* * *
 
 Thanks for sponsoring🌹🌹🌹
 ---------------------------

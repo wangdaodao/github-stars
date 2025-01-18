@@ -1,6 +1,6 @@
 ---
 project: docxjs
-stars: 1367
+stars: 1377
 description: Docx rendering library
 url: https://github.com/VolodymyrBaydalka/docxjs
 ---
@@ -53,6 +53,7 @@ renderAsync(
     options: {
         className: string \= "docx", //class name/prefix for default and document style classes
         inWrapper: boolean \= true, //enables rendering of wrapper around document content
+        hideWrapperOnPrint: boolean \= false, //disable wrapper styles on print
         ignoreWidth: boolean \= false, //disables rendering width of page
         ignoreHeight: boolean \= false, //disables rendering height of page
         ignoreFonts: boolean \= false, //disables fonts rendering
@@ -67,6 +68,7 @@ renderAsync(
         renderFootnotes: true, //enables footnotes rendering
         renderEndnotes: true, //enables endnotes rendering
         renderComments: false, //enables experimental comments rendering
+        renderAltChunks: true, //enables altChunks (html parts) rendering
         debug: boolean \= false, //enables additional logging
     }): Promise<WordDocument\>
 

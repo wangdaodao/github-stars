@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 1307
+stars: 1432
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -39,7 +39,7 @@ EPG
 
 fanmingming
 
-https://live.fanmingming.com/tv/m3u/ipv6.m3u
+https://live.fanmingming.cn/tv/m3u/ipv6.m3u
 
 IPV6
 
@@ -167,11 +167,11 @@ IPV6
 
 ✔️
 
-推荐fanmingming源，.com打不开换.cn。ipv6源比较稳定，大部分是中国移动源，建议移动宽带用户使用。iptv-sources镜像了其他人的源，打开他的主页还有其他镜像，国内可打开，短链接。直播源有人卡有人不卡都是正常的，请测试后选择适合自己地区的直播源。ipv6源基本可用，不能用检查有没有ipv6或者换个软件，ipv4源不能用试试换个软件。AKTV只有香港台湾电视台。
+ipv6源比较稳定，大部分是中国移动源，建议移动宽带用户使用。iptv-sources镜像了其他人的源，打开他的主页还有其他镜像，国内可打开，短链接。直播源有人卡有人不卡都是正常的，请测试后选择适合自己地区的直播源。ipv6源基本可用，不能用检查有没有ipv6或者换个软件，ipv4源不能用试试换个软件。AKTV只有香港台湾电视台。20250115突然大部分IPV6直播源只能省内看。
 
 * * *
 
-杂乱直播源：
+其他直播源
 
 -   iptv共享系统（TG获取密钥，稳定服务收费）
 -   epg.pw免费电视节目表
@@ -180,14 +180,18 @@ IPV6
 
 * * *
 
-IPV6是否开启查询：
+IPV6是否开启查询
 
 -   https://testipv6.cn/
 -   https://ipw.cn/
 -   https://ping0.cc/
 -   https://v6.ipinfo.io/
 
-直播源检测有效性：https://github.com/zhimin-dev/iptv-checker
+* * *
+
+直播源检测有效性
+
+-   https://github.com/zhimin-dev/iptv-checker
 
 * * *
 
@@ -215,6 +219,12 @@ https://raw.liucn.cc/box/m.json
 OK猫开发
 
 http://ok321.top/ok
+
+源
+
+讴歌
+
+https://tv.nxog.top/m/?&jPi
 
 源
 
@@ -338,13 +348,19 @@ Android电视/手机
 
 影视(OK)
 
-https://github.com/FongMi/Release/tree/main/apk/release
+https://github.com/FongMi/Release/tree/okjack/apk/release
 
 Android电视/手机
 
 ZyPlayer
 
 https://github.com/Hiram-Wong/ZyPlayer/releases
+
+MacOS Windows Linux
+
+TV-Multiplatform
+
+https://github.com/Greatwallcorner/TV-Multiplatform/releases
 
 MacOS Windows Linux
 
@@ -418,10 +434,10 @@ Android/iOS
 
 TVBOX、影视和影视仓关系图：
 
-TVBOX直播没有台标没有节目单。TiviMate不能扫码输入源，另外自动更新源和节目单需要付费解锁高级版。Kodi需要安装后设置中文，IPTV插件安装需要科学上网。TiviMate、Kodi和iOS的软件只能看直播。
+TVBOX直播没有台标没有节目单，影视APP有。TiviMate不能扫码输入源，另外自动更新源和节目单需要付费解锁高级版。Kodi需要安装后设置中文，IPTV插件安装需要科学上网。TiviMate、Kodi和iOS的软件只能看直播。
 
-自带源软件（直播）
----------
+自带源软件
+-----
 
 名称
 

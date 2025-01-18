@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-12 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-19 06:17.
 
 📝 Hitokoto
 -----------
 
-> 最了解一个人的，往往是他的敌人。—— 温迪
+> 既见君子，云胡不喜。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Heri es-Swani in Meknes, Morocco (© Calin Stan/Shutterstock)_
+_Sunset at White Sands National Park, New Mexico (© Image Professionals GmbH/Alamy)_
 
 📚 My Blog posts ...
 --------------------

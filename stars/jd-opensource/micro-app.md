@@ -1,6 +1,6 @@
 ---
 project: micro-app
-stars: 5727
+stars: 5742
 description: A simple, efficient and powerful micro front-end framework. 一款简约、高效、功能强大的微前端框架
 url: https://github.com/jd-opensource/micro-app
 ---

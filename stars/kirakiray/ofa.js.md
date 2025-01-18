@@ -1,6 +1,6 @@
 ---
 project: ofa.js
-stars: 708
+stars: 714
 description: No-build MVVM front-end framework, Progressive micro front-end framework.
 url: https://github.com/kirakiray/ofa.js
 ---

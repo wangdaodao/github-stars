@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 63019
+stars: 63111
 description: The official gpt4free repository | various collection of powerful language models
 url: https://github.com/xtekky/gpt4free
 ---

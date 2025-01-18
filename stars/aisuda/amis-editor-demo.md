@@ -1,6 +1,6 @@
 ---
 project: amis-editor-demo
-stars: 2355
+stars: 2362
 description: amis 可视化编辑器示例 https://aisuda.github.io/amis-editor-demo
 url: https://github.com/aisuda/amis-editor-demo
 ---
@@ -73,7 +73,7 @@ render() {
 如本仓库中示例，name 值为 `my-renderer`。
 
 @Renderer({
-    test: /\\bmy-renderer$/,
+    test: /\\bmy\-renderer$/,
     name: 'my-renderer'
 })
 export default class MyRenderer extends React.Component<MyRendererProps\> {

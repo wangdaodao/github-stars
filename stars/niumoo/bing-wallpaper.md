@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2166
+stars: 2185
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,23 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Heri es-Swani in Meknes, Morocco (© Calin Stan/Shutterstock)
+Today: Sunset at White Sands National Park, New Mexico (© Image Professionals GmbH/Alamy)
+
+2025-01-19 download 4k
+
+2025-01-18 download 4k
+
+2025-01-17 download 4k
+
+2025-01-17 download 4k
+
+2025-01-16 download 4k
+
+2025-01-15 download 4k
+
+2025-01-14 download 4k
+
+2025-01-13 download 4k
 
 2025-01-12 download 4k
 
@@ -53,22 +69,6 @@ Today: Heri es-Swani in Meknes, Morocco (© Calin Stan/Shutterstock)
 2024-12-23 download 4k
 
 2024-12-22 download 4k
-
-2024-12-21 download 4k
-
-2024-12-20 download 4k
-
-2024-12-19 download 4k
-
-2024-12-18 download 4k
-
-2024-12-17 download 4k
-
-2024-12-16 download 4k
-
-2024-12-15 download 4k
-
-2024-12-14 download 4k
 
 ### 历史归档：
 

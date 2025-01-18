@@ -1,6 +1,6 @@
 ---
 project: learnVue
-stars: 12674
+stars: 12676
 description: :octocat:Vue.js 源码解析
 url: https://github.com/answershuto/learnVue
 ---

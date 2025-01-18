@@ -1,6 +1,6 @@
 ---
 project: vue-plugin-hiprint
-stars: 1114
+stars: 1144
 description: hiprint for Vue2/Vue3 ⚡打印、打印设计、可视化设计器、报表设计、元素编辑、可视化打印编辑
 url: https://github.com/CcSimple/vue-plugin-hiprint
 ---
@@ -14,22 +14,66 @@ vue-plugin-hiprint (基于 hiprint 2.5.4) 当时只是为了方便 我（并非h
 
 由于hiprint官网最后一次更新时间为2019年【hiprint 2.5.4 是 LGPL 协议】，后在诸多使用者及反馈下进行了许多优化调整。
 
-更新日志（感谢各位群友支持和参与）
-
 vue-plugin-hiprint 更新日志
 -----------------------
 
-> hiprint for Vue2.x / Vue3.x (基于jQuery, 理论上应该也是支持其他框架的)
+（感谢各位群友支持和参与）
 
-> **jQuery/uniapp** 项目 见下方 \[jQuery/uniapp 项目使用\](#jQuery/uniapp 项目使用)
-
-注意事项!!
+关联项目矩阵
 ------
 
--   NodeJs 需要 16.x 版本 (开发使用的 16.18.1)
+项目名称
+
+项目地址
+
+下载地址
+
+描述
+
+vue-plugin-hiprint
+
+github、gitee
+
+npm
+
+打印设计器
+
+electron-hiprint
+
+github、gitee
+
+releases
+
+直接打印客户端
+
+node-hiprint-transit
+
+github、gitee
+
+\-
+
+web与客户端中转服务
+
+uni-app-hiprint
+
+github
+
+\-
+
+uni-app webview demo
+
+> hiprint for Vue2.x / Vue3.x (基于jQuery, 也支持其他框架)
+
+> **jQuery/uniapp** 项目 见下方 jQuery/uniapp 项目使用
+
+Important
+
+**注意事项**
+
+-   NodeJs 需要 16.x 版本 (开发使用 16.18.1)
 -   【vue-plugin-hiprint】与【hiprint.io官网】差异甚多,请忽混用!请忽混用!请忽混用!
     
--   请使用我提供的打印客户端,或者自行修改打印客户端的源码,以适配本项目的模板!
+-   请使用项目关联的打印客户端,或者自行修改打印客户端的源码,以适配本项目的模板!
     
 -   主分支是融合版本的最新代码,如果你不需要修改 hiprint 相关代码. 请使用 npm 包的方式安装.
 -   使用直接客户端时,本地开发连接没问题,部署到线上出现跨域无法连接打印客户端问题:
@@ -254,6 +298,10 @@ jQuery/uniapp 项目使用
     <script src\="https://unpkg.com/jquery@3.6.1/dist/jquery.js"\></script\>
     <!-- 条形码 -->
     <script src\="https://unpkg.com/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"\></script\>
+    <!-- 二维码、条形码 bwip-js -->
+    <script src\="https://unpkg.com/bwip-js@4.5.1/dist/bwip-js.js"\></script\>
+    <!-- 数字转大写 -->
+    <script src\="https://unpkg.com/nzh@1.0.14/dist/nzh.min.js"\></script\>
     <!-- 颜色选择器 -->
     <script src\="https://unpkg.com/@claviska/jquery-minicolors@2.3.6/jquery.minicolors.min.js"\></script\>
     <!-- 直接打印(print2)需要 -->

@@ -1,6 +1,6 @@
 ---
 project: github-contributions-canvas
-stars: 184
+stars: 185
 description: A tool for drawing a heat-map of Github contributions on HTML Canvas
 url: https://github.com/sallar/github-contributions-canvas
 ---

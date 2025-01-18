@@ -1,6 +1,6 @@
 ---
 project: lerna
-stars: 35789
+stars: 35792
 description: Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository.
 url: https://github.com/lerna/lerna
 ---

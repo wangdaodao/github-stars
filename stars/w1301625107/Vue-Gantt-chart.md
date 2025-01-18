@@ -639,7 +639,7 @@ Caution
      	<!-- 你的容器块组件 -->
      	<Test :data\="data" :item\="item"\></Test\>
            </template\>
-     </template>
+     </template\>
     
      // 2.6之前的语法
      <template\>
@@ -650,7 +650,7 @@ Caution
      	<!\-- 你的容器块组件 \--\>
      	<Test :data\="data" :item\="item"\></Test\>
            </template\>
-     </template>
+     </template\>
     
 
 Update

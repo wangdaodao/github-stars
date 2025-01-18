@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 12964
+stars: 13194
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---

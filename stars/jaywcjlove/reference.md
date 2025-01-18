@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 12647
+stars: 12674
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -278,6 +278,11 @@ Resolutions
 请参阅 Quick Reference 了解如何开始。一如既往，感谢我们出色的贡献者！
 
 贡献者列表，由 contributors 根据提交次数的先后顺序自动生成
+
+赞助支持
+----
+
+非常感谢那些一直支持我开源工作的朋友们。如果您对我的工作感到满意，可以选择在这里进行赞助。如果目前经济上不宽裕，也可以通过下载并使用我开发的 macOS 应用来支持我。以下是我个人开发的 macOS 应用：
 
 国内镜像网站
 ------

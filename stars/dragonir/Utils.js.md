@@ -775,7 +775,7 @@ y: (el.pageYOffset !== undefined) ? el.pageYOffset : el.scrollTop});
 使用`match()`与适当的正则表达式来获取所有键值对,`Array.reduce()`可将它们映射并合并到单个对象中。将`location.search`作为要应用于当前`url`的参数传递.
 
 const getURLParameters \= url \=>
-url.match(/(\[^?=&\]+)(=(\[^&\]\*))/g).reduce(
+url.match(/(\[^?\=&\]+)(\=(\[^&\]\*))/g).reduce(
 (a, v) \=> (a\[v.slice(0, v.indexOf('='))\] \= v.slice(v.indexOf('=') + 1), a), {}
 );
 // getURLParameters('http://url.com/page?name=Adam&surname=Smith') -> {name: 'Adam', surname: 'Smith'}
@@ -1386,7 +1386,7 @@ first.toUpperCase() + (lowerRest ? rest.join('').toLowerCase() : rest.join(''));
 
 使用`replace()`匹配每个单词和`toUpperCase()`的第一个字符以将其大写。
 
-const capitalizeEveryWord \= str \=> str.replace(/\\b\[a-z\]/g, char \=> char.toUpperCase());
+const capitalizeEveryWord \= str \=> str.replace(/\\b\[a\-z\]/g, char \=> char.toUpperCase());
 // capitalizeEveryWord('hello world!') -> 'Hello World!'
 
 ☝ 返回目录
@@ -1409,8 +1409,8 @@ const escapeRegExp \= str \=> str.replace(/\[.\*+?^${}()|\[\\\]\\\\\]/g, '\\\\$&
 使用`replace()`可删除下划线、连字符和空格, 并将单词转换为匹配。省略第二个参数以使用默认分隔符`_`.
 
 const fromCamelCase \= (str, separator \= '\_') \=>
-str.replace(/(\[a-z\\d\])(\[A-Z\])/g, '$1' + separator + '$2')
-.replace(/(\[A-Z\]+)(\[A-Z\]\[a-z\\d\]+)/g, '$1' + separator + '$2').toLowerCase();
+str.replace(/(\[a\-z\\d\])(\[A\-Z\])/g, '$1' + separator + '$2')
+.replace(/(\[A\-Z\]+)(\[A\-Z\]\[a\-z\\d\]+)/g, '$1' + separator + '$2').toLowerCase();
 // fromCamelCase('someDatabaseFieldName', ' ') -> 'some database field name'
 // fromCamelCase('someLabelThatNeedsToBeCamelized', '-') -> 'some-label-that-needs-to-be-camelized'
 // fromCamelCase('someJavascriptProperty', '\_') -> 'some\_javascript\_property'
@@ -1447,7 +1447,7 @@ str.split('').sort((a, b) \=> a.localeCompare(b)).join('');
 使用`replace()`可删除下划线、连字符和空格, 并将单词转换为匹配。
 
 const toCamelCase \= str \=>
-str.replace(/^(\[A-Z\])|\[\\s-\_\]+(\\w)/g, (match, p1, p2, offset) \=>  p2 ? p2.toUpperCase() : p1.toLowerCase());
+str.replace(/^(\[A\-Z\])|\[\\s\-\_\]+(\\w)/g, (match, p1, p2, offset) \=>  p2 ? p2.toUpperCase() : p1.toLowerCase());
 // toCamelCase("some\_database\_field\_name") -> 'someDatabaseFieldName'
 // toCamelCase("Some label that needs to be camelized") -> 'someLabelThatNeedsToBeCamelized'
 // toCamelCase("some-javascript-property") -> 'someJavascriptProperty'
@@ -1670,7 +1670,7 @@ const UUIDGenerator \= () \=>
 使用正则表达式检查电子邮件是否有效。如果电子邮件有效, 则返回 true, 如果没有, 则返回`false`。
 
 const validateEmail \= str \=>
-  /^((\[^<>()\\\[\\\]\\\\.,;:\\s@"\]+(\\.\[^<>()\\\[\\\]\\\\.,;:\\s@"\]+)\*)|(".+"))@((\\\[\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}\\.\[0-9\]{1,3}\\\])|((\[a-zA-Z\\-0-9\]+\\.)+\[a-zA-Z\]{2,}))$/.test(str);
+  /^((\[^<\>()\\\[\\\]\\\\.,;:\\s@"\]+(\\.\[^<\>()\\\[\\\]\\\\.,;:\\s@"\]+)\*)|(".+"))@((\\\[\[0\-9\]{1,3}\\.\[0\-9\]{1,3}\\.\[0\-9\]{1,3}\\.\[0\-9\]{1,3}\\\])|((\[a\-zA\-Z\\-0\-9\]+\\.)+\[a\-zA\-Z\]{2,}))$/.test(str);
 // validateEmail(mymail@gmail.com) -> true
 
 ☝ 返回目录

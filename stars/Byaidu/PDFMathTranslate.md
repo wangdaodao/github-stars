@@ -1,11 +1,11 @@
 ---
 project: PDFMathTranslate
-stars: 14721
+stars: 15505
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
 
-English | 简体中文 | 日本語
+English | 简体中文 | 繁體中文 | 日本語
 
 PDFMathTranslate
 ----------------
@@ -106,12 +106,16 @@ The present program needs an AI model(`wybxc/DocLayout-YOLO-DocStructBench-onnx`
 
 set HF\_ENDPOINT=https://hf-mirror.com
 
+For PowerShell user:
+
+$env:HF\_ENDPOINT = https://hf-mirror.com
+
 If the solution does not work to you / you encountered other issues, please refer to frequently asked questions.
 
 Advanced Options
 ----------------
 
-Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service.
+Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find HERE.
 
 In the following table, we list all advanced options for reference:
 
@@ -222,6 +226,18 @@ Custom Prompt
 \[batch translate\]
 
 `pdf2zh --dir /path/to/translate/`
+
+`--config`
+
+configuration file
+
+`pdf2zh --config /path/to/config/config.json`
+
+`--serverport`
+
+\[custom gradio server port\]
+
+`pdf2zh --serverport 7860`
 
 For detailed explanations, please refer to our document about Advanced Usage for a full list of each option.
 

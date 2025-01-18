@@ -1,6 +1,6 @@
 ---
 project: mdBook
-stars: 18751
+stars: 18797
 description: Create book from markdown files. Like Gitbook but implemented in Rust
 url: https://github.com/rust-lang/mdBook
 ---

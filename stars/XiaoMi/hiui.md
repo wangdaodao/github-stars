@@ -1,6 +1,6 @@
 ---
 project: hiui
-stars: 789
+stars: 792
 description: HIUI is a solution that is adequate for the fomulation and implementation of interaction and UI design standard for front, middle and backend.
 url: https://github.com/XiaoMi/hiui
 ---

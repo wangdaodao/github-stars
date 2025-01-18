@@ -1,6 +1,6 @@
 ---
 project: sunshine-track
-stars: 346
+stars: 347
 description: 基于 行为上报，实现了 用户行为、错误监控、页面跳转、页面白屏检测、页面性能检测等上报功能。适用于 Vue、React、Angular 等框架
 url: https://github.com/sanxin-lin/sunshine-track
 ---
@@ -152,8 +152,8 @@ app.use(Track, {
   \] 
 })
 
-<button class\="cla"\>report1</button>  click => report data1
-<button\>report2</button>  click => report data2
+<button class\="cla"\>report1</button\> click \=\> report data1
+<button\>report2</button\> click \=\> report data2
 <button class\="r"\>report3</button\>  click \=> report data3
 
 ### 配置上报阈值
@@ -267,7 +267,7 @@ app.use(Track, {
 import Track from 'sunshine-track'
 
 <button @click\="addTrack"\>add</button\>
-<button @click\="reportTrack"\>report</button>
+<button @click\="reportTrack"\>report</button\>
 
 // 手动添加数据
 const addTrack \= () \=> {

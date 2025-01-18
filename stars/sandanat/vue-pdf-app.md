@@ -1,6 +1,6 @@
 ---
 project: vue-pdf-app
-stars: 227
+stars: 228
 description: VUEjs v2 PDF viewer based on Mozilla's PDFJS
 url: https://github.com/sandanat/vue-pdf-app
 ---
@@ -336,12 +336,12 @@ Colors of the pdf viewer are customized via custom css properties:
 <style\>
   /\* for dark theme \*/
   .pdf-app.dark {
-    --pdf-toolbar-color: black;
+    \--pdf-toolbar-color: black;
   }
 
   /\* for light theme \*/
   .pdf-app.light {
-    --pdf-toolbar-color: white;
+    \--pdf-toolbar-color: white;
   }
 </style\>
 

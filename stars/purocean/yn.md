@@ -1,6 +1,6 @@
 ---
 project: yn
-stars: 5712
+stars: 5713
 description: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
 url: https://github.com/purocean/yn
 ---
@@ -80,7 +80,7 @@ Screenshots
 Changelogs
 ----------
 
-### v3.80.2 2025-01-11
+### v3.80.4 2025-01-13
 
 Windows | macOS arm64 | macOS x64 | Linux AppImage | Linux deb
 

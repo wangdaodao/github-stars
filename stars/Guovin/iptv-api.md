@@ -1,7 +1,7 @@
 ---
 project: iptv-api
-stars: 11045
-description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持IPv4/IPv6；支持自定义频道；支持组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
+stars: 11665
+description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持IPv4/IPv6；支持自定义频道；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
 
@@ -50,7 +50,7 @@ English | 中文
 --
 
 -   ✅ 自定义模板，生成您想要的频道
--   ✅ 支持多种获取源方式：组播源、酒店源、订阅源、关键字搜索
+-   ✅ 支持多种获取源方式：本地源、组播源、酒店源、订阅源、关键字搜索
 -   ✅ 接口测速验效，获取延迟、速率、分辨率，过滤无效接口
 -   ✅ 偏好设置：IPv4、IPv6、接口来源排序优先级与数量配置、接口白名单
 -   ✅ 定时执行，北京时间每日 6:00 与 18:00 执行更新
@@ -62,9 +62,11 @@ English | 中文
 
 -   接口源：
 
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
+https://ghproxy.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+https://ghproxy.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+
+🙏 感谢由ghproxy.cc提供的代理加速服务
 
 或
 
@@ -74,7 +76,7 @@ https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt
 
 -   数据源：
 
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
+https://ghproxy.cc/https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 
 或
 
@@ -136,6 +138,12 @@ open\_keep\_all
 开启保留所有检索结果，会保留非模板频道名称的结果，推荐手动维护时开启
 
 False
+
+open\_local
+
+开启本地源功能，将使用模板文件与本地源文件中的数据
+
+True
 
 open\_m3u\_result
 
@@ -221,7 +229,7 @@ open\_use\_cache
 
 True
 
-open\_use\_old\_result
+open\_history
 
 开启使用历史更新结果（包含模板与结果文件的接口），合并至本次更新中
 
@@ -287,6 +295,18 @@ ipv\_type\_prefer
 
 自动
 
+local\_file
+
+本地源文件路径
+
+config/local.txt
+
+local\_num
+
+结果中偏好的本地源接口数量
+
+10
+
 min\_resolution
 
 接口最小分辨率，需要开启 open\_filter\_resolution 才能生效
@@ -331,7 +351,7 @@ online\_search\_page\_num
 
 origin\_type\_prefer
 
-结果偏好的接口来源，结果优先按该顺序进行排序，逗号分隔，例如：hotel,multicast,subscribe,online\_search；hotel：酒店源，multicast：组播源，subscribe：订阅源，online\_search：关键字搜索；不填写则表示不指定来源，按照接口速率排序
+结果偏好的接口来源，结果优先按该顺序进行排序，逗号分隔，例如：local,hotel,multicast,subscribe,online\_search；local：本地源，hotel：酒店源，multicast：组播源，subscribe：订阅源，online\_search：关键字搜索；不填写则表示不指定来源，按照接口速率排序
 
 recent\_days
 
@@ -422,9 +442,17 @@ pipenv run ui
 
 docker pull guovern/iptv-api:latest
 
+🚀 代理加速（推荐国内用户使用）：
+
+docker pull docker.1ms.run/guovern/iptv-api:latest
+
 -   iptv-api:lite：
 
 docker pull guovern/iptv-api:lite
+
+🚀 代理加速（推荐国内用户使用）：
+
+docker pull docker.1ms.run/guovern/iptv-api:lite
 
 1.  运行容器：
 

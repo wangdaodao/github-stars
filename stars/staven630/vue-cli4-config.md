@@ -1,6 +1,6 @@
 ---
 project: vue-cli4-config
-stars: 2693
+stars: 2691
 description: vue-cli4配置vue.config.js持续更新
 url: https://github.com/staven630/vue-cli4-config
 ---
@@ -475,7 +475,7 @@ export default {
     }
   }
 }
-</script>
+</script\>
 
 <style scoped\>
 .svg-icon {
@@ -558,11 +558,11 @@ if (IS\_PROD) {
           extractor: class Extractor {
             static extract(content) {
               const validSection \= content.replace(
-                /<style(\[\\s\\S\]\*?)<\\/style>+/gim,
+                /<style(\[\\s\\S\]\*?)<\\/style\>+/gim,
                 ""
               );
               return (
-                validSection.match(/\[A-Za-z0-9-\_/:\]\*\[A-Za-z0-9-\_/\]+/g) || \[\]
+                validSection.match(/\[A\-Za\-z0\-9\-\_/:\]\*\[A\-Za\-z0\-9\-\_/\]+/g) || \[\]
               );
             }
           },
@@ -571,10 +571,10 @@ if (IS\_PROD) {
       \],
       whitelist: \["html", "body"\],
       whitelistPatterns: \[
-        /el-.\*/,
-        /\-(leave|enter|appear)(|-(to|from|active))$/,
-        /^(?!cursor-move).+-move$/,
-        /^router-link(|-exact)-active$/
+        /el\-.\*/,
+        /\-(leave|enter|appear)(|\-(to|from|active))$/,
+        /^(?!cursor\-move).+\-move$/,
+        /^router\-link(|\-exact)\-active$/
       \],
       whitelistPatternsChildren: \[/^token/, /^pre/, /^code/\]
     })
@@ -606,11 +606,11 @@ module.exports \= {
               extractor: class Extractor {
                 static extract(content) {
                   const validSection \= content.replace(
-                    /<style(\[\\s\\S\]\*?)<\\/style>+/gim,
+                    /<style(\[\\s\\S\]\*?)<\\/style\>+/gim,
                     ""
                   );
                   return (
-                    validSection.match(/\[A-Za-z0-9-\_/:\]\*\[A-Za-z0-9-\_/\]+/g) || \[\]
+                    validSection.match(/\[A\-Za\-z0\-9\-\_/:\]\*\[A\-Za\-z0\-9\-\_/\]+/g) || \[\]
                   );
                 }
               },
@@ -619,10 +619,10 @@ module.exports \= {
           \],
           whitelist: \["html", "body"\],
           whitelistPatterns: \[
-            /el-.\*/,
-            /\-(leave|enter|appear)(|-(to|from|active))$/,
-            /^(?!cursor-move).+-move$/,
-            /^router-link(|-exact)-active$/
+            /el\-.\*/,
+            /\-(leave|enter|appear)(|\-(to|from|active))$/,
+            /^(?!cursor\-move).+\-move$/,
+            /^router\-link(|\-exact)\-active$/
           \],
           whitelistPatternsChildren: \[/^token/, /^pre/, /^code/\]
         })
@@ -844,7 +844,7 @@ module.exports \= {
     config
       .plugin("ignore")
       .use(
-        new webpack.ContextReplacementPlugin(/moment\[/\\\\\]locale$/, /zh-cn$/)
+        new webpack.ContextReplacementPlugin(/moment\[/\\\\\]locale$/, /zh\-cn$/)
       );
 
     return config;
@@ -937,7 +937,7 @@ module.exports \= {
             },
             elementUI: {
               name: "chunk-elementui",
-              test: /\[\\\\/\]node\_modules\[\\\\/\]element-ui\[\\\\/\]/,
+              test: /\[\\\\/\]node\_modules\[\\\\/\]element\-ui\[\\\\/\]/,
               chunks: "all",
               priority: 3,
               reuseExistingChunk: true,
@@ -945,7 +945,7 @@ module.exports \= {
             },
             echarts: {
               name: "chunk-echarts",
-              test: /\[\\\\/\]node\_modules\[\\\\/\](vue-)?echarts\[\\\\/\]/,
+              test: /\[\\\\/\]node\_modules\[\\\\/\](vue\-)?echarts\[\\\\/\]/,
               chunks: "all",
               priority: 4,
               reuseExistingChunk: true,
@@ -1276,7 +1276,7 @@ module.exports \= {
             ctx.route \= ctx.originalRoute;
             ctx.html \= ctx.html.split(/\>\[\\s\]+</gim).join("><");
             ctx.html \= ctx.html.replace(
-              /<title>(.\*?)<\\/title>/gi,
+              /<title\>(.\*?)<\\/title\>/gi,
               \`<title>${
                 routesConfig\[ctx.route\].title
               }</title><meta name="keywords" content="${
@@ -1514,7 +1514,7 @@ module.exports \= {
     config
       .plugin("ignore")
       .use(
-        new webpack.ContextReplacementPlugin(/moment\[/\\\\\]locale$/, /zh-cn$/)
+        new webpack.ContextReplacementPlugin(/moment\[/\\\\\]locale$/, /zh\-cn$/)
       );
 
     // 添加别名

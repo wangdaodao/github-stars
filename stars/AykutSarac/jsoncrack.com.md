@@ -1,6 +1,6 @@
 ---
 project: jsoncrack.com
-stars: 34541
+stars: 34596
 description: ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
 url: https://github.com/AykutSarac/jsoncrack.com
 ---
@@ -70,7 +70,7 @@ Development
     
     cd jsoncrack.com
     
-3.  Install packages with yarn
+3.  Install packages
     
     pnpm install
     

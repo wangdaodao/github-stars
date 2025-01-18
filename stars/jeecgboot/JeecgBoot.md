@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 41256
+stars: 41306
 description: 🔥「企业级低代码平台」前后端分离架构SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领新的开发模式，引入AI模型能力 OnlineCoding->代码生成->手工MERGE，帮助Java项目解决70%重复工作，让开发更关注业务，既能快速提高效率，帮助公司节省成本，同时又不失灵活性。
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -46,25 +46,13 @@ Jeecg-Boot低代码开发平台，可以应用在任何J2EE项目的开发中，
 
 配套APP框架 适配多个终端，支持APP、小程序、H5
 
-开源协议说明
-------
-
-JeecgBoot开源版本，底层完全开源可以自主开发，遵循Apache2.0协议，详细见 https://github.com/jeecgboot/JeecgBoot#Apache-2.0-1-ov-file
-
-开源协议中文释意如下：
-
--   1.JeecgBoot开源版本无任何限制，在遵循本开源协议条款下，允许商用使用，不会造成侵权行为。
--   2.允许基于本平台软件开展业务系统开发。
--   3.在任何情况下，您不得使用本软件开发可能被认为与本软件竞争的软件。
--   4.针对企业用户我们也提供“企业级版本”，详细见 https://jeecg.com/vip
-
 技术文档
 ----
 
 -   官方网站： http://www.jeecg.com
 -   在线演示 ： 在线演示 | APP演示
 -   快速体验： 一分钟体验低代码 | 在线体验零代码
--   开发文档： https://help.jeecg.com
+-   开发文档： 文档中心 | AI集成配置(支持DeepSeek)
 -   反馈问题： 在Github上提Issues
 -   新手指南： 快速入门 | 入门视频
 -   QQ交流群 ： ⑩716488839、⑨808791225(满)、其他(满)
@@ -152,6 +140,22 @@ MariaDB
 TiDB
 
 √
+
+#### 支持AI
+
+AI模型
+
+支持
+
+DeepSeek
+
+√
+
+ChatGTP
+
+√
+
+AI集成文档： https://help.jeecg.com/java/ai/aichat.html
 
 微服务解决方案
 -------

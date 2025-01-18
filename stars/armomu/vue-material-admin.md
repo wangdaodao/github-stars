@@ -1,7 +1,7 @@
 ---
 project: vue-material-admin
-stars: 618
-description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM轻量化设计中后台管理模板 
+stars: 623
+description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM简洁、轻量的中后台管理模板 
 url: https://github.com/armomu/vue-material-admin
 ---
 
@@ -10,7 +10,7 @@ Vue Material Admin
 
 ====================
 
-Vue Material Admin 是一个基于 `Vuetify.js` 组件库的开源中后台模板，采用了服务器端 + 前端全栈TypeScript技术开发，该项目遵循 Material Design 的设计规范，并在 Vuetify.js 基础组件继续向上构建开发，对其进行了扩展和优化，旨在实现一个轻量化、高性能的中后台解决方案，Vue Material Admin 目前阶段主要用于学习、功能展示和开发用例测试，同时也适合作为新项目的启动模板，项目将持续更新，增加更多的功能和优化现有的模块 🔥🔥🔥
+Vue Material Admin 是一个基于 `Vuetify.js` 组件库的开源中后台模板，采用了服务器端 + 前端全栈TypeScript技术开发，该项目遵循 Material Design 的设计规范，并在 Vuetify.js 基础组件继续向上构建开发，对其进行了扩展和优化，旨在实现一个简洁、轻量化的中后台解决方案，Vue Material Admin 目前阶段主要用于学习、功能展示和开发用例测试，同时也适合作为新项目的启动模板，项目将持续更新，增加更多的功能和优化现有的模块，有问题没问题都可以提 Issue 聊天交流 💭💭💭
 
 ⛲ 技术栈
 -----
@@ -25,8 +25,7 @@ Vue Material Admin 是一个基于 `Vuetify.js` 组件库的开源中后台模�
 ### Nodejs 服务端
 
 -   框架: Nest.js
--   数据库: MySQL
--   映射工具: TypeORM
+-   数据库: MySQL（对象映射工具 TypeORM ）
 -   缓存: Redis
 
 🌻 页面截图
@@ -61,10 +60,10 @@ Vue Material Admin 是一个基于 `Vuetify.js` 组件库的开源中后台模�
     -   ✅ 夜间模式
     -   ✅ 适配移动设备(大部分适配)
     -   ✅ 主题颜色修改
-5.  💻 后端 Nest.js
-    -   ✅ TypeORM
-    -   ✅ JWT 认证
-    -   ✅ RBAC 权限控制
+5.  💻 后端 Node.js
+    -   ✅ Nest.js
+    -   ✅ MySQL + TypeORM
+    -   ✅ JWT + RBAC 权限控制
 
 📑 本地开发
 -------
@@ -84,10 +83,10 @@ pnpm run dev
 
 ```
 
-### 后端
+### Nodejs 服务端
 
 接口文档 https://nliq7vrniv.apifox.cn
 
 > 非常感谢 zclzone大佬提供的Nestjs服务项目，让我快速搭建了这个模版的后台服务，也从vue-naive-admin项目中学习到了一些新的封装思路
 
-后端服务启动请切换到 Serve 分支查看教程，注意MySQL要导入Serve分支下的sql脚本的数据
+后端服务启动请切换到 Serve 分支查看教程

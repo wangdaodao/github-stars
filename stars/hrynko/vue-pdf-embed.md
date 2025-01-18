@@ -1,6 +1,6 @@
 ---
 project: vue-pdf-embed
-stars: 770
+stars: 780
 description: PDF embed component for Vue 2 and Vue 3
 url: https://github.com/hrynko/vue-pdf-embed
 ---
@@ -66,8 +66,6 @@ annotationLayer
 
 `boolean`
 
-`true` or `false`
-
 whether the annotation layer should be enabled
 
 height
@@ -85,6 +83,12 @@ imageResourcesPath
 URL or path with trailing slash
 
 path for icons used in the annotation layer
+
+linkService
+
+`PDFLinkService`
+
+document navigation service to override the default one (emitting `internal-link-clicked`)
 
 page
 
@@ -113,7 +117,8 @@ desired page viewport scale
 source
 
 `string`  
-`object`
+`object`  
+`PDFDocumentProxy`
 
 document URL or Base64 or typed array or document proxy
 
@@ -122,8 +127,6 @@ source of the document to display
 textLayer
 
 `boolean`
-
-`true` or `false`
 
 whether the text layer should be enabled
 
@@ -282,6 +285,8 @@ Examples
 Basic Usage Demo (JSFiddle)
 
 Advanced Usage Demo (JSFiddle)
+
+Lazy Loading Demo (JSFiddle)
 
 License
 -------

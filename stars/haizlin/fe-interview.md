@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25628
+stars: 25637
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.01.12) —— 第2098天
+🕟 今天的知识点 (2025.01.19) —— 第2105天
 --------------------------------
 
-        :one: \[软技能\] 请说说你对万物互联的理解
+        :one: \[js\] 在WebRTC，为什么需要媒体协商？
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2097天 (2025.01.11)  
-    1️⃣ \[软技能\] 请问TS流解析流程是怎样的？
+-   第2104天 (2025.01.18)  
+    1️⃣ \[js\] 请描述下WebRTC的信令控制
     
 -   **查看全部**
     

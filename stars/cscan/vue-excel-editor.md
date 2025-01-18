@@ -1,6 +1,6 @@
 ---
 project: vue-excel-editor
-stars: 561
+stars: 562
 description: Vue2 plugin for displaying and editing the array-of-object in Excel style
 url: https://github.com/cscan/vue-excel-editor
 ---
@@ -1512,7 +1512,7 @@ The following is for column validation.
 methods: {
     validPhoneNum (content, oldContent, record, field) {
         if (content \=== '') return 'Mandatory field'
-        if (!/^\[0-9\]{1}-\[0-9\]{3}-\[0-9\]{7}$/.test(content)) return 'Invalid Phone Number'
+        if (!/^\[0\-9\]{1}\-\[0\-9\]{3}\-\[0\-9\]{7}$/.test(content)) return 'Invalid Phone Number'
         return '' // return empty string if there is no error
     }
 }

@@ -1,6 +1,6 @@
 ---
 project: octokit.js
-stars: 7126
+stars: 7145
 description: The all-batteries-included GitHub SDK for Browsers, Node.js, and Deno.
 url: https://github.com/octokit/octokit.js
 ---
@@ -808,7 +808,7 @@ if (code) {
   // remove ?code=... from URL
   const path \=
     location.pathname +
-    location.search.replace(/\\b(code|state)=\\w+/g, "").replace(/\[?&\]+$/, "");
+    location.search.replace(/\\b(code|state)\=\\w+/g, "").replace(/\[?&\]+$/, "");
   history.replaceState({}, "", path);
 
   // exchange the code for a token with your backend.

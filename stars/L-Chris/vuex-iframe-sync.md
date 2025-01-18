@@ -1,6 +1,6 @@
 ---
 project: vuex-iframe-sync
-stars: 104
+stars: 105
 description: Vuex state synchronization between iframe/window
 url: https://github.com/L-Chris/vuex-iframe-sync
 ---

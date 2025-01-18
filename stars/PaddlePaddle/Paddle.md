@@ -1,6 +1,6 @@
 ---
 project: Paddle
-stars: 22396
+stars: 22412
 description: PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）
 url: https://github.com/PaddlePaddle/Paddle
 ---
@@ -16,7 +16,7 @@ PaddlePaddle, as the first independent R&D deep learning platform in China, has 
 Installation
 ------------
 
-### Latest PaddlePaddle Release: v2.6
+### Latest PaddlePaddle Release: 3.0-rc
 
 Our vision is to enable deep learning for everyone via PaddlePaddle. Please refer to our release announcement to track the latest features of PaddlePaddle.
 

@@ -1,6 +1,6 @@
 ---
 project: gopeed
-stars: 17549
+stars: 17745
 description: A modern download manager that supports all platforms.  Built with Golang and Flutter.
 url: https://github.com/GopeedLab/gopeed
 ---
@@ -17,69 +17,127 @@ Visit ✈ Official Website | 📖 Official Docs
 Download
 --------
 
-Platform
-
-Package Type
-
-Download Link
-
 Windows
-
-`EXE Installer`
-
-Link
-
-`Portable ZIP`
-
-Link
 
 MacOS
 
-`DMG Installer`
-
-Link
-
 Linux
-
-`Flathub`
-
-Link
-
-`SNAP`
-
-Link
-
-`DEB`
-
-Link
-
-`AppImage`
-
-Link
 
 Android
 
-`APK`
-
-Link
-
 iOS
 
-`IPA`
-
-Link
+Docker
 
 Qnap
 
-`QPKG`
-
-Link
-
 Web
 
+`EXE`
+
+`Portable`
+
+`DMG`
+
+`Flathub`
+
+`SNAP`
+
+`DEB`
+
+`AppImage`
+
+`APK`
+
+`IPA`
+
+\-
+
+`QPKG`
+
+`Windows`
+
+`MacOS`
+
+`Linux`
+
+amd64
+
+amd64
+
+\-
+
+amd64
+
+amd64
+
+amd64
+
+amd64
+
+\-
+
+\-
+
+\-
+
+amd64
+
+arm64
+
+amd64
+
+amd64
+
+386
+
+amd64
+
+amd64
+
+amd64
+
+amd64
+
+386
+
 Link
 
-Docker
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
+
+Link
 
 Link
 

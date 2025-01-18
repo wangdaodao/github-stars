@@ -1,6 +1,6 @@
 ---
 project: core
-stars: 3061
+stars: 3066
 description: 🚀  A framework helps you quickly build AI Native IDE products.
 url: https://github.com/opensumi/core
 ---
@@ -19,6 +19,7 @@ Here you can find some of our example projects and templates:
 
 -   Cloud IDE
 -   Desktop IDE - based on the Electron
+-   CodeFuse IDE - AI IDE based on OpenSumi
 -   CodeBlitz - A pure web IDE Framework
 -   Lite Web IDE - A pure web IDE on the Browser
 -   The Mini-App liked IDE
