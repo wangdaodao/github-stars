@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-19 06:17.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-26 06:19.
 
 📝 Hitokoto
 -----------
 
-> 既见君子，云胡不喜。—— 佚名
+> 有型的东西终究会消逝，不过……终于，这份回忆还是永远不朽的…—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Sunset at White Sands National Park, New Mexico (© Image Professionals GmbH/Alamy)_
+_Porto, Portugal (© Starcevic/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

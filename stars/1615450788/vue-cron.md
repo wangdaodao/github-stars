@@ -1,6 +1,6 @@
 ---
 project: vue-cron
-stars: 264
+stars: 265
 description: 这是一个cron表达式ui组件
 url: https://github.com/1615450788/vue-cron
 ---

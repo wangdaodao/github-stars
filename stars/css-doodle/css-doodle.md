@@ -1,6 +1,6 @@
 ---
 project: css-doodle
-stars: 5706
+stars: 5709
 description: 🎨  A web component for drawing patterns with CSS.
 url: https://github.com/css-doodle/css-doodle
 ---
@@ -34,8 +34,9 @@ Design tools
 Resources
 ---------
 
--   How to Draw Patterns with CSS Using CSS Doodle, by Adi Purdila
+-   An Introduction to css-doodle, by Yuan Chuan
 -   Arte generativo con CSS, by Sonia Ruiz
+-   How to Draw Patterns with CSS Using CSS Doodle, by Adi Purdila
 
 Build
 -----

@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24740
+stars: 24762
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -2499,16 +2499,17 @@ core-js/proposals/set-methods-v2
 
 _CommonJS entry points:_
 
-````
+```
 core-js(-pure)/stage/3
+```
 
-##### [`Array.fromAsync`](https://github.com/tc39/proposal-array-from-async)[⬆](#index)
-Modules [`esnext.array.from-async`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.array.from-async.js).
-```ts
+##### `Array.fromAsync`⬆
+
+Modules `esnext.array.from-async`.
+
 class Array {
-  static fromAsync(asyncItems: AsyncIterable | Iterable | ArrayLike, mapfn?: (value: any, index: number) => any, thisArg?: any): Array;
+  static fromAsync(asyncItems: AsyncIterable | Iterable | ArrayLike, mapfn?: (value: any, index: number) \=> any, thisArg?: any): Array;
 }
-````
 
 _CommonJS entry points:_
 

@@ -1,6 +1,6 @@
 ---
 project: my-tv-0
-stars: 3004
+stars: 3161
 description: 我的電視·〇 電視視頻播放軟件，可以自定義視頻源
 url: https://github.com/lizongying/my-tv-0
 ---
@@ -95,7 +95,6 @@ TODO
 -   無效的頻道？
 -   如果上次播放頻道不在收藏？
 -   當list為空，顯示group/空group不顯示？
--   默認頻道菜單顯示
 -   遠程配置使用webView
 
 讚賞

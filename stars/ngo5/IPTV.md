@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 1432
+stars: 1565
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -81,7 +81,7 @@ YanG-1989
 
 https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
 
-IPV6
+IPV4
 
 ✔️
 
@@ -91,7 +91,7 @@ YanG-1989
 
 https://tv.iill.top/m3u/Gather
 
-IPV4/6
+IPV4
 
 ✔️
 
@@ -101,7 +101,7 @@ YueChan
 
 https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u
 
-IPV6
+IPV4
 
 ✔️
 
@@ -111,7 +111,7 @@ Kimentanm
 
 https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u
 
-IPV4/6
+IPV4
 
 ✔️
 
@@ -151,7 +151,7 @@ Ftindy
 
 https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
 
-IPV6
+IPV4
 
 ✔️
 
@@ -161,13 +161,13 @@ iptv-sources
 
 https://m3u.ibert.me/fmml\_ipv6.m3u
 
-IPV6
+IPV4
 
 ✔️
 
 ✔️
 
-ipv6源比较稳定，大部分是中国移动源，建议移动宽带用户使用。iptv-sources镜像了其他人的源，打开他的主页还有其他镜像，国内可打开，短链接。直播源有人卡有人不卡都是正常的，请测试后选择适合自己地区的直播源。ipv6源基本可用，不能用检查有没有ipv6或者换个软件，ipv4源不能用试试换个软件。AKTV只有香港台湾电视台。20250115突然大部分IPV6直播源只能省内看。
+ipv6源比较稳定，大部分是中国移动源，建议移动宽带用户使用。iptv-sources镜像了其他人的源，打开他的主页还有其他镜像，国内可打开，短链接。直播源有人卡有人不卡都是正常的，请测试后选择适合自己地区的直播源。ipv6源基本可用，不能用检查有没有ipv6或者换个软件，ipv4源不能用试试换个软件。AKTV只有香港台湾电视台。20250115突然大部分IPV6直播源只能本省看，好多项目IPV6源也替换成IPV4源，现在看直播可试试“自带源软件”下几个软件。
 
 * * *
 
@@ -449,7 +449,7 @@ TVBOX直播没有台标没有节目单，影视APP有。TiviMate不能扫码输�
 
 https://github.com/lizongying/my-tv-0/releases
 
-可配置源
+空壳+源
 
 电视浏览器
 

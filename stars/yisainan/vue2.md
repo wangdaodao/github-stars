@@ -1,6 +1,6 @@
 ---
 project: vue2
-stars: 718
+stars: 717
 description: 💯 比较好的vue2项目,值得借鉴与学习
 url: https://github.com/yisainan/vue2
 ---

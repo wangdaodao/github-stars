@@ -1,6 +1,6 @@
 ---
 project: javascript-risingstars
-stars: 1059
+stars: 1070
 description: :stars: An overview of the JavaScript landscape in 2024: trends about frontend, Node.js, fullstack frameworks, build tools, testing, Vue.js, React, state management...
 url: https://github.com/bestofjs/javascript-risingstars
 ---
@@ -10,7 +10,7 @@ JavaScript Rising Stars
 
 An overview of the JavaScript landscape in 2024: trends about frontend, backend and fullstack frameworks, React and Vue.js ecosystems, build tools, AI tools, testing, state management...
 
-Team members
+Contributors
 ------------
 
 -   Alexey Pyltsyn
@@ -20,6 +20,7 @@ Team members
 -   Jack Huan
 -   Javier Valencia
 -   Jusang Kim
+-   Hamid Dinar
 -   L1lith
 -   Michael Rambeau
 -   Mihai Badescu

@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 3037
+stars: 3130
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---
@@ -14,31 +14,60 @@ VSCode Version: https://github.com/unit-mesh/auto-dev-vscode
 
 Quick Start →
 
-DevIns — AI Agent language for AutoDevelopment → which you can use follow syntax as bridges for Human-AI-IDE:
-
-````
-/write:src/main/java/cc/unitmesh/Controller.java#L1-L12
-
-```java
-public class Controller {
-    public void method() {
-        System.out.println("Hello, World!");
-    }
-}
-```
-````
-
-With built-in syntax highlighting and auto-completion, you can use DevIns as next-generation AI Agent language.
-
 🆕🆕🆕: New AI agent language: https://github.com/phodal/shire
+
+AutoDev 2.0 Sketch - the Cursor Composer in Intellij IDEA
+---------------------------------------------------------
+
+Video demo (YouTube) — English
+
+**AutoDev Sketch** is an IDE canvas feature provided by Shire, designed to simplify interactions and enhance the developer experience within the IDE.
+
+Sketch Name
+
+Description
+
+Screenshots
+
+**Code Sketch**
+
+Real-time code editor with syntax highlighting
+
+**Diff Sketch**
+
+Diff content comparison tool with patch handling
+
+**Terminal Sketch**
+
+Editable pop-up terminal interface
+
+**Mermaid Sketch`*`**
+
+Real-time flowchart preview/edit with bidirectional binding
+
+**PlantUML Sketch`*`**
+
+UML diagram editor with bidirectional code-diagram synchronization
+
+**WebView Sketch**
+
+HTML/React/Ionic mockup generator with WebView display
+
+`*` means requires additional plugin installation.
+
+### Unite Your Dev Ecosystem, Create Your AI Copilot
+
+### Demos
+
+Video demo (Bilibili) - 中文/Chinese
 
 AutoDev Architecture
 --------------------
 
 Here is the AutoDev architecture:
 
-AutoDev Feature Overview
-------------------------
+AutoDev 1.0~ Feature Overview
+-----------------------------
 
 Features:
 

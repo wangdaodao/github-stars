@@ -1,6 +1,6 @@
 ---
 project: vue-monoplasty-slide-verify
-stars: 747
+stars: 748
 description: vue slide verify online preview
 url: https://github.com/monoplasty/vue-monoplasty-slide-verify
 ---
@@ -185,6 +185,10 @@ Document
 --------
 
 ### 国内镜像地址 gitee镜像地址
+
+### 学习交流
+
+最近发现有的朋友给我发私信，但我没来的及回复，有兴趣的朋友可以加入社群交流学习：669653069
 
 ### 更新记录
 

@@ -1,6 +1,6 @@
 ---
 project: mind-map
-stars: 7387
+stars: 7490
 description: 一个还算强大的Web思维导图。A relatively powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---
@@ -202,6 +202,9 @@ star
 
   
 **御风**
+
+  
+**兔子快跑**
 
 青铜赞助
 ----
@@ -442,3 +445,15 @@ star
 
   
 **:)**
+
+  
+**可米阳光**
+
+  
+**MrFujing**
+
+  
+**Sword**
+
+  
+**好好先生Ervin**

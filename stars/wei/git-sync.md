@@ -1,6 +1,6 @@
 ---
 project: git-sync
-stars: 255
+stars: 256
 description: 🔃 A GitHub Action for syncing between two independent repositories using force push
 url: https://github.com/wei/git-sync
 ---

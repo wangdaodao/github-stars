@@ -1,6 +1,6 @@
 ---
 project: vue-tree-table
-stars: 261
+stars: 260
 description: 基于vuejs的树表格
 url: https://github.com/sijinglei/vue-tree-table
 ---

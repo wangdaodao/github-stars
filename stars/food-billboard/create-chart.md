@@ -1,6 +1,6 @@
 ---
 project: create-chart
-stars: 632
+stars: 633
 description: 基于Echarts的可视化数据大屏设计器（包含设计、预览、分享等全部流程）
 url: https://github.com/food-billboard/create-chart
 ---

@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 11665
+stars: 12230
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持IPv4/IPv6；支持自定义频道；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -205,6 +205,12 @@ open\_subscribe
 
 False
 
+open\_supply
+
+开启补偿机制模式，用于控制当频道接口数量不足时，自动将不满足条件（例如低于最小速率）但可能可用的接口添加至结果中，从而避免结果为空的情况
+
+True
+
 open\_update
 
 开启更新，用于控制是否更新接口，若关闭则所有工作模式（获取接口和测速）均停止
@@ -371,6 +377,12 @@ sort\_timeout
 
 10
 
+sort\_duplicate\_limit
+
+相同域名接口允许重复执行次数，用于控制执行测速、获取分辨率时的重复次数，数值越大结果越准确，但耗时会增加
+
+3
+
 source\_file
 
 模板文件路径
@@ -436,9 +448,9 @@ pipenv run ui
 -   iptv-api（完整版本）：性能要求较高，更新速度较慢，稳定性、成功率高；修改配置 open\_driver = False 可切换到 Lite 版本运行模式（推荐酒店源、组播源、关键字搜索使用此版本）
 -   iptv-api:lite（精简版本）：轻量级，性能要求低，更新速度快，稳定性不确定（推荐订阅源使用此版本）
 
-1.  拉取镜像：
+#### 1\. 拉取镜像
 
--   iptv-api：
+-   iptv-api
 
 docker pull guovern/iptv-api:latest
 
@@ -446,7 +458,7 @@ docker pull guovern/iptv-api:latest
 
 docker pull docker.1ms.run/guovern/iptv-api:latest
 
--   iptv-api:lite：
+-   iptv-api:lite
 
 docker pull guovern/iptv-api:lite
 
@@ -454,33 +466,44 @@ docker pull guovern/iptv-api:lite
 
 docker pull docker.1ms.run/guovern/iptv-api:lite
 
-1.  运行容器：
+#### 2\. 运行容器
 
--   iptv-api：
+-   iptv-api
 
 docker run -d -p 8000:8000 guovern/iptv-api
 
--   iptv-api:lite：
+-   iptv-api:lite
 
 docker run -d -p 8000:8000 guovern/iptv-api:lite
 
-卷挂载参数（可选）： 实现宿主机文件与容器文件同步，修改模板、配置、获取更新结果文件可直接在宿主机文件夹下操作
+##### 挂载（推荐）：
+
+实现宿主机文件与容器文件同步，修改模板、配置、获取更新结果文件可直接在宿主机文件夹下操作
 
 以宿主机路径/etc/docker 为例：
 
--   iptv-api：
+-   iptv-api
 
-docker run -v /etc/docker/config:/iptv-api/config -v /etc/docker/output:/iptv-api/output -d -p 8000:8000 guovern/iptv-api
+\-v /etc/docker/config:/iptv-api/config
+-v /etc/docker/output:/iptv-api/output
 
--   iptv-api:lite：
+-   iptv-api:lite
 
-docker run -v /etc/docker/config:/iptv-api-lite/config -v /etc/docker/output:/iptv-api-lite/output -d -p 8000:8000 guovern/iptv-api:lite
+\-v /etc/docker/config:/iptv-api-lite/config
+-v /etc/docker/output:/iptv-api-lite/output
 
-端口环境变量：
+##### 环境变量：
+
+-   端口
 
 \-e APP\_PORT=8000
 
-1.  更新结果：
+-   定时执行时间
+
+\-e UPDATE\_CRON1="0 22 \* \* \*"
+-e UPDATE\_CRON2="0 10 \* \* \*"
+
+#### 3\. 更新结果
 
 -   接口地址：`ip:8000`
 -   m3u 接口：`ip:8000/m3u`

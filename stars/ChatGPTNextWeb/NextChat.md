@@ -1,6 +1,6 @@
 ---
 project: NextChat
-stars: 78701
+stars: 78950
 description: ✨ Local and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
 url: https://github.com/ChatGPTNextWeb/NextChat
 ---
@@ -13,6 +13,11 @@ English / 简体中文
 One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT4 & Gemini Pro support.
 
 NextChatAI / Web App Demo / Desktop App / Discord / Enterprise Edition / Twitter
+
+🫣 NextChat Support MCP !
+-------------------------
+
+> Before build, please set env ENABLE\_MCP=true
 
 Enterprise Edition
 ------------------
@@ -306,6 +311,10 @@ Stability API key.
 
 Customize Stability API url.
 
+### `ENABLE_MCP` (optional)
+
+Enable MCP（Model Context Protocol）Feature
+
 Requirements
 ------------
 
@@ -354,6 +363,16 @@ docker run -d -p 3000:3000 \\
 If your proxy needs password, use:
 
 \-e PROXY\_URL="http://127.0.0.1:7890 user pass"
+
+If enable MCP, use：
+
+```
+docker run -d -p 3000:3000 \
+   -e OPENAI_API_KEY=sk-xxxx \
+   -e CODE=your-password \
+   -e ENABLE_MCP=true \
+   yidadaa/chatgpt-next-web
+```
 
 ### Shell
 

@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2185
+stars: 2188
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Sunset at White Sands National Park, New Mexico (© Image Professionals GmbH/Alamy)
+Today: Porto, Portugal (© Starcevic/Getty Images)
+
+2025-01-26 download 4k
+
+2025-01-25 download 4k
+
+2025-01-24 download 4k
+
+2025-01-23 download 4k
+
+2025-01-22 download 4k
+
+2025-01-21 download 4k
+
+2025-01-20 download 4k
 
 2025-01-19 download 4k
 
@@ -55,20 +69,6 @@ Today: Sunset at White Sands National Park, New Mexico (© Image Professionals G
 2024-12-30 download 4k
 
 2024-12-29 download 4k
-
-2024-12-28 download 4k
-
-2024-12-27 download 4k
-
-2024-12-26 download 4k
-
-2024-12-25 download 4k
-
-2024-12-24 download 4k
-
-2024-12-23 download 4k
-
-2024-12-22 download 4k
 
 ### 历史归档：
 
