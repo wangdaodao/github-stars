@@ -1,6 +1,6 @@
 ---
 project: yn
-stars: 5718
+stars: 5722
 description: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
 url: https://github.com/purocean/yn
 ---
@@ -80,17 +80,12 @@ Screenshots
 Changelogs
 ----------
 
-### v3.81.0 2025-01-23
+### v3.81.2 2025-01-27
 
 Windows | macOS arm64 | macOS x64 | Linux AppImage | Linux deb
 
-1.  feat: Support for opening SMB path files on Windows
-2.  feat: Optimization of presentation mode directory display, with fixed directories now shown in a sidebar format
-3.  feat: Optimization of audio element rendering logic to reduce document opening block time
-4.  fix: Resolution of inline Wiki-style image rendering exceptions
-5.  fix: Resolution of potential orphan process issues when exiting the application
-6.  fix: Resolution of the inability to save empty files
-7.  fix: Resolution of the issue where shared preview files do not display
+1.  fix: Resolve the issue of not being able to load images when opening files outside the repository.
+2.  fix: Resolve the issue of abnormal reports appearing when exiting the terminal on the macOS platform.
 
 More release notes
 

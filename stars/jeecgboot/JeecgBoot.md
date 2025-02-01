@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 41350
+stars: 41364
 description: 🔥「AI 低代码平台」前后端分离架构SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro，JWT。强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领新的开发模式，引入AI模型能力 OnlineCoding->代码生成->手工MERGE，帮助Java项目解决70%重复工作，让开发更关注业务，既能快速提高效率，帮助公司节省成本，同时又不失灵活性。
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -144,9 +144,9 @@ TiDB
 
 √
 
-#### 支持AI
+#### 支持AI大模型
 
-AI模型
+AI大模型
 
 支持
 
@@ -155,6 +155,10 @@ DeepSeek
 √
 
 ChatGTP
+
+√
+
+Ollama本地搭建大模型
 
 √
 

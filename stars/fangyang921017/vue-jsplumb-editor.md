@@ -1,6 +1,6 @@
 ---
 project: vue-jsplumb-editor
-stars: 241
+stars: 240
 description: 基于vue、jsPlumb参照阿里pai平台
 url: https://github.com/fangyang921017/vue-jsplumb-editor
 ---

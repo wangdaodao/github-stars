@@ -1,6 +1,6 @@
 ---
 project: folio-2019
-stars: 4375
+stars: 4377
 description: null
 url: https://github.com/brunosimon/folio-2019
 ---

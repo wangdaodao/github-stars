@@ -1,6 +1,6 @@
 ---
 project: browser-logos
-stars: 5952
+stars: 5955
 description: 🗂 High resolution web browser logos
 url: https://github.com/alrra/browser-logos
 ---

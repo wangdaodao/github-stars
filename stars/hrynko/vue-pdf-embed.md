@@ -1,6 +1,6 @@
 ---
 project: vue-pdf-embed
-stars: 788
+stars: 791
 description: PDF embed component for Vue 2 and Vue 3
 url: https://github.com/hrynko/vue-pdf-embed
 ---

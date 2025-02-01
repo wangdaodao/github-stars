@@ -1,6 +1,6 @@
 ---
 project: huajianji
-stars: 317
+stars: 319
 description: 🌟🎸🌟UI很简洁的中文诗歌主页, 包含唐诗宋词三百首，花间集，南唐二主词，古诗十九首，教科书选诗等文集 
 url: https://github.com/chinese-poetry/huajianji
 ---

@@ -1,6 +1,6 @@
 ---
 project: leek-fund
-stars: 3098
+stars: 3099
 description: :chart_with_upwards_trend:  Leek box - Monitor the real-time data of stock & fund & future in VSCode, Be the most excellent investment extension. 韭菜盒子——VSCode 里也可以看股票 & 基金 & 期货实时数据，做最好用的投资插件。
 url: https://github.com/LeekHub/leek-fund
 ---
@@ -31,8 +31,8 @@ Table of contents
 
 > 投资其实就是一次心态修炼，稳住心态长期投资都会有收益的！！
 
-功能特性
-----
+Features
+--------
 
 本插件具有以下特点：
 
@@ -65,26 +65,23 @@ Table of contents
 -   外汇牌价
 -   欢迎 PR Github 源码
 
-安装使用
-----
+Installation
+------------
 
 安装插件：VisualStudio - Marketplace，VSCode 最低版本要求：`^1.44.0`
 
-插件介绍
-----
+Introduction
+------------
 
 -   韭菜盒子使用文档
 -   VSCode 插件开发——韭菜盒子（图片如果展示不了可以看知乎的文章界面功能截图）
-
-插件设置
-----
 
 **添加/删除股票或基金时，建议使用新增按钮模糊搜索添加（支持名称和编码搜索）**，详细可查看 韭菜盒子使用文档
 
 自定义配置在 **Settings** 视图下：
 
-社区交流
-----
+Community
+---------
 
 > 因恶意举报，不再提供微信官方群聊，可加电报群：https://t.me/+P1p3nJoqKR45MzQ1
 
@@ -94,77 +91,13 @@ Table of contents
 
 > PR 贡献开发者可以联系我邀请直接加入
 
-Core Contributors
------------------
+All Thanks To Our Contributors
+------------------------------
 
--   giscafer
--   zqjimlove
+Contributing
+------------
 
-### 感谢 PR
-
--   iporer
--   zomixi
--   httpcheck
--   JayHuangTnT
--   yiliang114
--   SubinY
--   gordongxm
--   chen86860
--   wujunchuan
--   laampui
--   xiaohai
--   zxj5470
--   sungongwei
--   gittig11
--   James-chok
--   ChouBaoDxs
-
-更多贡献者 contributors，欢迎来贡献 PR~
-
-Changelog
----------
-
-CHANGELOG
-
-代码目录说明
-------
-
-> 历史原因，仓库中类文件并没有以`PascalCase`规范，导致有些文件不好区分是函数方式书写还是面向对象类的写法。
-
-src
-├── data                        # 静态数据
-│   └── fundSuggestData.ts      # 基金数据，执行 \`node ./demo/fundSuggestList.js\` 更新生成
-├── explorer                    # 侧边栏核心代码
-│   ├── binanceProvider.ts      # 数字货币
-│   ├── binanceService.ts
-│   ├── forexProvider.ts        # 外汇
-│   ├── forexService.ts
-│   ├── fundProvider.ts         # 基金
-│   ├── fundService.ts
-│   ├── leekService.ts
-│   ├── newsProvider.ts         # 雪球新闻
-│   ├── newsService.ts
-│   ├── stockProvider.ts        # 股票
-│   └── stockService.ts
-├── extension.ts                # 插件初始化入口
-├── globalState.ts              # 全局缓存，插件激活到销毁周期内的变量缓存
-├── output                      # Terminal 视图下的OUTPUT栏输出新闻
-│   └── flash-news
-├── registerCommand.ts          # 注册命令
-├── shared                      # 工具函数或者类
-│   ├── WVMessageUtils.ts
-│   ├── constant.ts
-│   ├── holidayHelper.ts
-│   ├── leekConfig.ts
-│   ├── leekTreeItem.ts
-│   ├── remindNotification.ts
-│   ├── telemetry.ts
-│   ├── typed.ts
-│   └── utils.ts
-├── statusbar                   # 状态栏
-│   ├── Profit.ts
-│   └── statusBar.ts
-└── webview   # webview 页面
+Please follow our contributing guidelines.
 
 赞助支持一下 ↓↓
 ---------

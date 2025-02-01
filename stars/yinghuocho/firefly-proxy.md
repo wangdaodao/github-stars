@@ -1,6 +1,6 @@
 ---
 project: firefly-proxy
-stars: 4868
+stars: 4866
 description: A proxy software to help circumventing the Great Firewall.
 url: https://github.com/yinghuocho/firefly-proxy
 ---

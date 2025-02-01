@@ -1,6 +1,6 @@
 ---
 project: ua-parser-js
-stars: 9421
+stars: 9426
 description: "Unmask Your Traffic" - UAParser.js: The Essential Web Development Tool for User-Agent Detection
 url: https://github.com/faisalman/ua-parser-js
 ---

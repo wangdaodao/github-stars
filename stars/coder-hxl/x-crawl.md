@@ -1,6 +1,6 @@
 ---
 project: x-crawl
-stars: 1620
+stars: 1625
 description: Flexible Node.js AI-assisted crawler library
 url: https://github.com/coder-hxl/x-crawl
 ---

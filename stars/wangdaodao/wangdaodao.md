@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-01-26 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-02 06:19.
 
 📝 Hitokoto
 -----------
 
-> 有型的东西终究会消逝，不过……终于，这份回忆还是永远不朽的…—— 佚名
+> 绵延万万里的脊梁，撑起家国傲骨！—— 苏烈
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Porto, Portugal (© Starcevic/Getty Images)_
+_National Museum of African American History & Culture, Washington, DC (© BrianPIrwin/Shutterstock)_
 
 📚 My Blog posts ...
 --------------------

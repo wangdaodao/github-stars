@@ -1,6 +1,6 @@
 ---
 project: javascript-questions
-stars: 63268
+stars: 63304
 description: A long list of (advanced) JavaScript questions, and their explanations :sparkles:  
 url: https://github.com/lydiahallie/javascript-questions
 ---

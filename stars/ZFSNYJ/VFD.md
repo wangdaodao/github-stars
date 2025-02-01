@@ -1,6 +1,6 @@
 ---
 project: VFD
-stars: 536
+stars: 537
 description: 一款基于VUE的在线绘制流程图工具
 url: https://github.com/ZFSNYJ/VFD
 ---

@@ -1,7 +1,7 @@
 ---
 project: gpt4free
-stars: 63202
-description: The official gpt4free repository | various collection of powerful language models
+stars: 63279
+description: The official gpt4free repository | various collection of powerful language models | gpt-4o and deepseek v3 & r1
 url: https://github.com/xtekky/gpt4free
 ---
 
@@ -35,11 +35,11 @@ docker pull hlohaus789/g4f
 -   **Stay updated with our Telegram Channel** 📨  
     Join us at telegram.me/g4f\_channel.
     
--   **Get support in our Discord Community** 🤝💻  
-    Reach out for help in our Support Group: discord.gg/qXA4Wf4Fsm.
-    
 -   **Subscribe to our Discord News Channel** 💬🆕️  
     Stay informed about updates via our News Channel: discord.gg/5E39JUWUFa.
+    
+-   **Get support in our Discord Community** 🤝💻  
+    Reach out for help in our Support Group: discord.gg/qXA4Wf4Fsm.
     
 
 🔻 Site Takedown
@@ -126,29 +126,40 @@ Is your site on this repository and you want to take it down? Send an email to t
 	  rm -r -f /app/g4f/ \\
 	  && pip install -U g4f\[slim\] \\
 	  && python -m g4f --debug
-	\`\`\`
- 
-5\. \*\*Access the Client Interface:\*\*
-   - \*\*To use the included client, navigate to:\*\* \[http://localhost:8080/chat/\](http://localhost:8080/chat/)
-   - \*\*Or set the API base for your client to:\*\* \[http://localhost:8080/v1\](http://localhost:8080/v1)
-6\. \*\*(Optional) Provider Login:\*\*
-   If required, you can access the container's desktop here: http://localhost:7900/?autoconnect=1&resize=scale&password=secret for provider login purposes.
-\---
-\### 🪟 Windows Guide (.exe)
+
+1.  **Access the Client Interface:**
+    
+    -   **To use the included client, navigate to:** http://localhost:8080/chat/
+    -   **Or set the API base for your client to:** http://localhost:8080/v1
+2.  **(Optional) Provider Login:** If required, you can access the container's desktop here: http://localhost:7900/?autoconnect=1&resize=scale&password=secret for provider login purposes.
+    
+
+* * *
+
+### 🪟 Windows Guide (.exe)
+
 To ensure the seamless operation of our application, please follow the instructions below. These steps are designed to guide you through the installation process on Windows operating systems.
-\*\*Installation Steps:\*\*
-1\. \*\*Download the Application\*\*: Visit our \[releases page\](https://github.com/xtekky/gpt4free/releases/tag/0.4.2.0) and download the most recent version of the application, named \`g4f.exe.zip\`.
-2\. \*\*File Placement\*\*: After downloading, locate the \`.zip\` file in your Downloads folder. Unpack it to a directory of your choice on your system, then execute the \`g4f.exe\` file to run the app.
-3\. \*\*Open GUI\*\*: The app starts a web server with the GUI. Open your favorite browser and navigate to \[http://localhost:8080/chat/\](http://localhost:8080/chat/) to access the application interface.
-4\. \*\*Firewall Configuration (Hotfix)\*\*: Upon installation, it may be necessary to adjust your Windows Firewall settings to allow the application to operate correctly. To do this, access your Windows Firewall settings and allow the application.
+
+**Installation Steps:**
+
+1.  **Download the Application**: Visit our releases page and download the most recent version of the application, named `g4f.exe.zip`.
+2.  **File Placement**: After downloading, locate the `.zip` file in your Downloads folder. Unpack it to a directory of your choice on your system, then execute the `g4f.exe` file to run the app.
+3.  **Open GUI**: The app starts a web server with the GUI. Open your favorite browser and navigate to http://localhost:8080/chat/ to access the application interface.
+4.  **Firewall Configuration (Hotfix)**: Upon installation, it may be necessary to adjust your Windows Firewall settings to allow the application to operate correctly. To do this, access your Windows Firewall settings and allow the application.
+
 By following these steps, you should be able to successfully install and run the application on your Windows system. If you encounter any issues during the installation process, please refer to our Issue Tracker or try to get contact over Discord for assistance.
-\---
-\### 🐍 Python Installation
-\#### Prerequisites:
-1\. Install Python 3.10+ from \[python.org\](https://www.python.org/downloads/).
-2\. Install Google Chrome for certain providers.
-\#### Install with PyPI:
-\`\`\`bash
+
+* * *
+
+### 🐍 Python Installation
+
+#### Prerequisites:
+
+1.  Install Python 3.10+ from python.org.
+2.  Install Google Chrome for certain providers.
+
+#### Install with PyPI:
+
 pip install -U g4f\[all\]
 
 > How do I install only parts or do disable parts? **Use partial requirements:** /docs/requirements
@@ -203,9 +214,13 @@ from g4f.gui import run\_gui
 
 run\_gui()
 
-**Or, run via CLI:**
+\*\* Run via CLI (To start the Flask Server):\*\*
 
-python -m g4f.cli gui -port 8080 -debug
+python -m g4f.cli gui --port 8080 --debug
+
+**Or, start the FastAPI Server:**
+
+python -m g4f --port 8080 --debug
 
 > **Learn More About the GUI:** For detailed instructions on how to set up, configure, and use the GPT4Free GUI, refer to the GUI Documentation . This guide includes step-by-step details on provider selection, managing conversations, using advanced features like speech recognition, and more.
 

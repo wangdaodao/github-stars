@@ -1,6 +1,6 @@
 ---
 project: minimalist-web-notepad
-stars: 1214
+stars: 1216
 description: Minimalist Web Notepad
 url: https://github.com/pereorga/minimalist-web-notepad
 ---

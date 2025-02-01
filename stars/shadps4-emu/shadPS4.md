@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 16439
+stars: 17290
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -39,6 +39,10 @@ This project began as a fun project. Given our limited free time, it may take so
 Building
 ========
 
+Important
+
+If you want to use shadPS4 to play your games, you don't have to follow the build instructions, you can simply download the emulator from either the **release tab** or the **action tab**.
+
 Windows
 -------
 
@@ -63,8 +67,12 @@ Debugging and reporting issues
 
 For more information on how to test, debug and report issues with the emulator or games, read the **Debugging documentation**.
 
-Keyboard mapping
-================
+Keyboard and Mouse Mappings
+===========================
+
+Note
+
+Some keyboards may also require you to hold the Fn key to use the F\* keys. Mac users should use the Command key instead of Control, and need to use Command+F11 for full screen to avoid conflicting with system key bindings.
 
 Button
 
@@ -92,9 +100,7 @@ Xbox and DualShock controllers work out of the box.
 
 Controller button
 
-Keyboard equivelant
-
-Mac alternative
+Keyboard equivalent
 
 LEFT AXIS UP
 
@@ -130,27 +136,19 @@ L
 
 TRIANGLE
 
-Numpad 8
-
-C
+Numpad 8 or C
 
 CIRCLE
 
-Numpad 6
-
-B
+Numpad 6 or B
 
 CROSS
 
-Numpad 2
-
-N
+Numpad 2 or N
 
 SQUARE
 
-Numpad 4
-
-V
+Numpad 4 or V
 
 PAD UP
 
@@ -199,6 +197,8 @@ X
 R3
 
 M
+
+Keyboard and mouse inputs can be customized in the settings menu by clicking the Controller button, and further details and help on controls are also found there. Custom bindings are saved per-game. Inputs support up to three keys per binding, mouse buttons, mouse movement mapped to joystick input, and more.
 
 Main team
 =========

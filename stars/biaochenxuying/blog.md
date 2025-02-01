@@ -1,6 +1,6 @@
 ---
 project: blog
-stars: 4676
+stars: 4677
 description: 大前端技术为主，读书笔记、随笔、理财为辅，做个终身学习者。
 url: https://github.com/biaochenxuying/blog
 ---

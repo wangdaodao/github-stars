@@ -1,6 +1,6 @@
 ---
 project: fabric-photo
-stars: 254
+stars: 253
 description: 基于canvas的前端图片编辑器
 url: https://github.com/ximing/fabric-photo
 ---
