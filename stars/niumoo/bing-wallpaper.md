@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2191
+stars: 2196
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: National Museum of African American History & Culture, Washington, DC (© BrianPIrwin/Shutterstock)
+Today: Medieval towers in Mestia, Upper Svaneti, Georgia (© photoaliona/Getty Images)
+
+2025-02-09 download 4k
+
+2025-02-08 download 4k
+
+2025-02-07 download 4k
+
+2025-02-06 download 4k
+
+2025-02-05 download 4k
+
+2025-02-04 download 4k
+
+2025-02-03 download 4k
 
 2025-02-02 download 4k
 
@@ -55,20 +69,6 @@ Today: National Museum of African American History & Culture, Washington, DC (©
 2025-01-13 download 4k
 
 2025-01-12 download 4k
-
-2025-01-11 download 4k
-
-2025-01-10 download 4k
-
-2025-01-09 download 4k
-
-2025-01-08 download 4k
-
-2025-01-07 download 4k
-
-2025-01-06 download 4k
-
-2025-01-05 download 4k
 
 ### 历史归档：
 

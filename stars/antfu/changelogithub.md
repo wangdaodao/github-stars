@@ -1,6 +1,6 @@
 ---
 project: changelogithub
-stars: 767
+stars: 772
 description: Generate changelog for GitHub
 url: https://github.com/antfu/changelogithub
 ---

@@ -1,6 +1,6 @@
 ---
 project: xe-utils
-stars: 623
+stars: 624
 description: javascript 函数库、工具类
 url: https://github.com/x-extends/xe-utils
 ---
@@ -47,7 +47,7 @@ Get on unpkg and cdnjs
 
 ### Import all methods
 
-import \_XEUtils\_ from 'xe-utils'
+import XEUtils from 'xe-utils'
 
 XEUtils.toDateString(Date.now())
 // 2018-01-01 10:30:28

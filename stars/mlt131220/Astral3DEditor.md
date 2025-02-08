@@ -1,6 +1,6 @@
 ---
 project: Astral3DEditor
-stars: 336
+stars: 346
 description: 面相浏览器端免费开源的三维可视化编辑器，包含BIM轻量化，CAD解析预览等特色功能。                              A free and open source 3D visualization editor for browsers, including BIM lightweight, CAD parsing preview and other features.
 url: https://github.com/mlt131220/Astral3DEditor
 ---
@@ -13,6 +13,13 @@ Astral 3D Editor
 ### Based on vue3 and ThreeJs, see Doc for details
 
   
+
+* * *
+
+WeChat Group
+------------
+
+Click here view the latest group invitation pictures。
 
 * * *
 
@@ -61,13 +68,6 @@ Build
 -----
 
     yarn run build
-
-WeChat Group
-------------
-
-Click here view the latest group invitation pictures。
-
-* * *
 
 Thanks for sponsoring🌹🌹🌹
 ---------------------------

@@ -1,7 +1,7 @@
 ---
 project: NextChat
-stars: 79189
-description: ✨ Local and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
+stars: 80105
+description: ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
 url: https://github.com/ChatGPTNextWeb/NextChat
 ---
 
@@ -10,9 +10,9 @@ NextChat (ChatGPT Next Web)
 
 English / 简体中文
 
-One-Click to get a well-designed cross-platform ChatGPT web UI, with Claude, GPT4 & Gemini Pro support.
+✨ Light and Fast AI Assistant,with Claude, DeepSeek, GPT4 & Gemini Pro support.
 
-NextChatAI / Web App Demo / Desktop App / Discord / Enterprise Edition / Twitter
+NextChatAI / Web App Demo / Desktop App
 
 🥳 Cheer for DeepSeek, China's AI star!
 ---------------------------------------
@@ -319,6 +319,14 @@ Customize Stability API url.
 ### `ENABLE_MCP` (optional)
 
 Enable MCP（Model Context Protocol）Feature
+
+### `SILICONFLOW_API_KEY` (optional)
+
+SiliconFlow API Key.
+
+### `SILICONFLOW_URL` (optional)
+
+SiliconFlow API URL.
 
 Requirements
 ------------

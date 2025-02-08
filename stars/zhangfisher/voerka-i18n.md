@@ -1,6 +1,6 @@
 ---
 project: voerka-i18n
-stars: 168
+stars: 170
 description: Nodejs/Vue/React International solutions
 url: https://github.com/zhangfisher/voerka-i18n
 ---

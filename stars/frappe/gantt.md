@@ -1,6 +1,6 @@
 ---
 project: gantt
-stars: 4935
+stars: 4952
 description: Open Source Javascript Gantt
 url: https://github.com/frappe/gantt
 ---

@@ -1,6 +1,6 @@
 ---
 project: suika
-stars: 700
+stars: 702
 description: A Web Graphics Editor Built with Canvas. 基于 Canvas 实现的图形编辑器
 url: https://github.com/F-star/suika
 ---
@@ -59,7 +59,7 @@ Build
 
 pnpm build
 
-The target output folder is `packages/suika/build`.
+The target output folder is `apps/suika/build`.
 
 Icon
 ----

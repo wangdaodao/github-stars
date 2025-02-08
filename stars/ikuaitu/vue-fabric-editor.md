@@ -1,6 +1,6 @@
 ---
 project: vue-fabric-editor
-stars: 6289
+stars: 6329
 description: 快图设计-基于fabric.js和Vue的开源图片编辑器，可自定义字体、素材、设计模板。fabric.js and Vue based image editor, can customize fonts, materials, design templates.
 url: https://github.com/ikuaitu/vue-fabric-editor
 ---
@@ -11,7 +11,7 @@ English| 中文
 
 基于 fabric.js 和 Vue 开发的插件化图片编辑器，可自定义字体、素材、设计模板、右键菜单、快捷键
 
-演示 · 文档 · 付费版演示 · 付费版介绍
+演示 · 文档 · 商业版演示 · 商业版介绍
 
   
 

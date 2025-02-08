@@ -1,188 +1,188 @@
 ---
 project: gopeed
-stars: 17947
+stars: 18024
 description: A modern download manager that supports all platforms.  Built with Golang and Flutter.
 url: https://github.com/GopeedLab/gopeed
 ---
 
 English | 中文 | 日本語 | 正體中文 | Tiếng Việt
 
-Introduction
-------------
+🚀 Introduction
+---------------
 
 Gopeed (full name Go Speed), a high-speed downloader developed by `Golang` + `Flutter`, supports (HTTP, BitTorrent, Magnet) protocol, and supports all platforms. In addition to basic download functions, Gopeed is also a highly customizable downloader that supports implementing more features through integration with APIs or installation and development of extensions.
 
 Visit ✈ Official Website | 📖 Official Docs
 
-Download
---------
+⬇️ Download
+-----------
 
-Windows
-
-MacOS
-
-Linux
-
-Android
-
-iOS
-
-Docker
-
-Qnap
-
-Web
+🪟 Windows
 
 `EXE`
 
+amd64
+
+📥
+
 `Portable`
+
+amd64
+
+📥
+
+🍎 MacOS
 
 `DMG`
 
+universal
+
+📥
+
+🐧 Linux
+
 `Flathub`
+
+amd64
+
+📥
 
 `SNAP`
 
+amd64
+
+📥
+
 `DEB`
+
+amd64
+
+📥
 
 `AppImage`
 
+amd64
+
+📥
+
+🤖 Android
+
 `APK`
+
+universal
+
+📥
+
+📱 iOS
 
 `IPA`
 
+universal
+
+📥
+
+🐳 Docker
+
 \-
+
+universal
+
+📥
+
+💾 Qnap
 
 `QPKG`
 
+amd64
+
+📥
+
+arm64
+
+📥
+
+🌐 Web
+
 `Windows`
 
+amd64
+
+📥
+
+arm64
+
+📥
+
+386
+
+📥
+
 `MacOS`
+
+amd64
+
+📥
+
+arm64
+
+📥
 
 `Linux`
 
 amd64
 
-amd64
-
-\-
-
-amd64
-
-amd64
-
-amd64
-
-amd64
-
-\-
-
-\-
-
-\-
-
-amd64
+📥
 
 arm64
 
-amd64
-
-amd64
+📥
 
 386
 
-amd64
-
-amd64
-
-amd64
-
-amd64
-
-386
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
-
-Link
+📥
 
 More about installation, please refer to Installation
 
-### Command tool
+### 🛠️ Command tool
 
 use `go install`:
 
 go install github.com/GopeedLab/gopeed/cmd/gopeed@latest
 
-Browser Extension
------------------
+🔌 Browser Extension
+--------------------
 
 Gopeed also provides a browser extension to take over browser downloads, supporting browsers such as Chrome, Edge, Firefox, etc., please refer to: https://github.com/GopeedLab/browser-extension
 
-Donate
-------
+💝 Donate
+---------
 
 If you like this project, please consider donating to support the development of this project, thank you!
 
-Showcase
---------
+🖼️ Showcase
+------------
 
-Development
------------
+👨‍💻 Development
+-----------------
 
 This project is divided into two parts, the front end uses `flutter`, the back end uses `Golang`, and the two sides communicate through the `http` protocol. On the unix system, `unix socket` is used, and on the windows system, `tcp` protocol is used.
 
 > The front code is located in the `ui/flutter` directory.
 
-### Environment
+### 🌍 Environment
 
 1.  Golang 1.23+
 2.  Flutter 3.24+
 
-### Clone
+### 📋 Clone
 
 git clone git@github.com:GopeedLab/gopeed.git
 
-### Contributing
+### 🤝 Contributing
 
 Please refer to CONTRIBUTING.md
 
-### Build
+### 🏗️ Build
 
 #### Desktop
 
@@ -241,14 +241,14 @@ rm -rf cmd/web/dist
 cp -r ui/flutter/build/web cmd/web/dist
 go build -tags nosqlite,web -ldflags="\-s -w" -o bin/ github.com/GopeedLab/gopeed/cmd/web
 
-Credits
--------
+❤️ Credits
+----------
 
-### Contributors
+### 👥 Contributors
 
-### JetBrains
+### 🏢 JetBrains
 
-License
--------
+📄 License
+----------
 
 GPLv3

@@ -1,6 +1,6 @@
 ---
 project: CCTV_Viewer
-stars: 2055
+stars: 2093
 description: 电视浏览器，一款简易电视视频收看软件，用于方便的在机顶盒上收看网页视频
 url: https://github.com/Eanya-Tonic/CCTV_Viewer
 ---
@@ -16,15 +16,6 @@ url: https://github.com/Eanya-Tonic/CCTV_Viewer
 从Github Release下载：https://github.com/Eanya-Tonic/CCTV\_Viewer/releases/latest  
 从百度网盘下载：https://pan.baidu.com/s/1e5wMCorJIp9oi5yN8mJ1KA?pwd=qozp 提取码：qozp  
 从 VoidTech 实验室下载（X5 内核 1.7.4 测试版）：https://void-tech.cn/wp-content/uploads/2024/10/CCTV\_Viewer\_1.7.4-X5Beta.zip
-
-演示视频
-----
-
-**B站：**
-
-央视浏览器v1.2更新——支持遥控器的电视直播观看软件
-
-央视浏览器——一款支持遥控器的便捷电视直播观看软件
 
 使用方法
 ----
@@ -130,6 +121,18 @@ url: https://github.com/Eanya-Tonic/CCTV_Viewer
 
 更新日志
 ----
+
+**v1.8.0 更新日志（2025.02.03）**
+
+1.增加一个可以在换台抽屉打开设置的选项
+
+2.增加一个调试模式（仅用于测试）
+
+3.在设置中显示安卓系统版本信息
+
+4.增加一个下载界面和一个可选择从何处获取x5内核的选项
+
+5.针对64位设备和未集成x5的设备可以从线上下载并安装x5内核。请注意，安卓4设备由于无法获取abi信息将默认为32位设备，如您确认您的设备为64位，可以手动强制指定使用线上的64位内核；如x5内核版本选择错误导致应用崩溃，清除数据或卸载重装即可。请优先使用本地集成X5内核安装包，线上服务器带宽较小，速度较慢。
 
 **v1.7.3 更新日志（2024.10.09）**
 

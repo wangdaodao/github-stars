@@ -1,6 +1,6 @@
 ---
 project: layui-vue
-stars: 495
+stars: 494
 description: An enterprise-class UI components based on Layui and Vue.
 url: https://github.com/layui-vue/layui-vue
 ---

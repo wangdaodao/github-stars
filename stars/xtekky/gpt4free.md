@@ -1,7 +1,7 @@
 ---
 project: gpt4free
-stars: 63279
-description: The official gpt4free repository | various collection of powerful language models | gpt-4o and deepseek v3 & r1
+stars: 63379
+description: The official gpt4free repository | various collection of powerful language models | o3 mini and deepseek r1
 url: https://github.com/xtekky/gpt4free
 ---
 
@@ -20,7 +20,8 @@ _"gpt4free"_ serves as a **PoC** (proof of concept), demonstrating the developme
 Note
 
 **Latest version:**  
-**Stats:**
+  
+**Stats:**  
 
 pip install -U g4f\[all\]
 
@@ -100,12 +101,12 @@ Is your site on this repository and you want to take it down? Send an email to t
 ### 🐳 Using Docker
 
 1.  **Install Docker:** Download and install Docker.
-2.  **Set Up Directories:** Before running the container, make sure the necessary data directories exist or can be created. For example, you can create and set ownership on these directories by running: (Only x64)
+2.  **Set Up Directories:** Before running the container, make sure the necessary data directories exist or can be created. For example, you can create and set ownership on these directories by running:
 
    mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_images
    sudo chown -R 1200:1201 ${PWD}/har\_and\_cookies ${PWD}/generated\_images
 
-1.  **Run the Docker Container:** Use the following commands to pull the latest image and start the container:
+1.  **Run the Docker Container:** Use the following commands to pull the latest image and start the container (Only x64):
 
    docker pull hlohaus789/g4f
    docker run -p 8080:8080 -p 7900:7900 \\
@@ -214,7 +215,7 @@ from g4f.gui import run\_gui
 
 run\_gui()
 
-\*\* Run via CLI (To start the Flask Server):\*\*
+**Run via CLI (To start the Flask Server):**
 
 python -m g4f.cli gui --port 8080 --debug
 

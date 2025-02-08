@@ -1,6 +1,6 @@
 ---
 project: PandaOCR
-stars: 5213
+stars: 5212
 description: PandaOCR - 多功能OCR图文识别+翻译+朗读+弹窗+公式+表格+图床+搜图+二维码
 url: https://github.com/miaomiaosoft/PandaOCR
 ---

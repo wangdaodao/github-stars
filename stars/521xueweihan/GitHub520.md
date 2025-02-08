@@ -1,6 +1,6 @@
 ---
 project: GitHub520
-stars: 24486
+stars: 24573
 description: :kissing_heart: 让你“爱”上 GitHub，解决访问时图裂、加载慢的问题。（无需安装）
 url: https://github.com/521xueweihan/GitHub520
 ---
@@ -42,7 +42,7 @@ _注：_ 本项目还处于测试阶段，仅在本机测试通过，如有问�
 #### 2.1.1 复制下面的内容
 
 # GitHub520 Host Start
-140.82.112.26                 alive.github.com
+140.82.114.25                 alive.github.com
 140.82.114.5                  api.github.com
 185.199.109.153               assets-cdn.github.com
 185.199.111.133               avatars.githubusercontent.com
@@ -53,28 +53,28 @@ _注：_ 本项目还处于测试阶段，仅在本机测试通过，如有问�
 185.199.111.133               avatars4.githubusercontent.com
 185.199.111.133               avatars5.githubusercontent.com
 185.199.111.133               camo.githubusercontent.com
-140.82.113.22                 central.github.com
+140.82.112.21                 central.github.com
 185.199.111.133               cloud.githubusercontent.com
-140.82.114.10                 codeload.github.com
-140.82.114.22                 collector.github.com
+140.82.112.9                  codeload.github.com
+140.82.114.21                 collector.github.com
 185.199.111.133               desktop.githubusercontent.com
 185.199.111.133               favicons.githubusercontent.com
 140.82.114.4                  gist.github.com
-54.231.226.25                 github-cloud.s3.amazonaws.com
-3.5.28.208                    github-com.s3.amazonaws.com
-52.216.134.227                github-production-release-asset-2e65be.s3.amazonaws.com
-52.216.215.9                  github-production-repository-file-5c1aeb.s3.amazonaws.com
-52.217.192.249                github-production-user-asset-6210df.s3.amazonaws.com
+52.216.58.113                 github-cloud.s3.amazonaws.com
+16.182.64.73                  github-com.s3.amazonaws.com
+3.5.24.44                     github-production-release-asset-2e65be.s3.amazonaws.com
+3.5.31.106                    github-production-repository-file-5c1aeb.s3.amazonaws.com
+16.182.39.81                  github-production-user-asset-6210df.s3.amazonaws.com
 192.0.66.2                    github.blog
-140.82.114.3                  github.com
+140.82.112.3                  github.com
 140.82.114.17                 github.community
-185.199.109.154               github.githubassets.com
+185.199.108.154               github.githubassets.com
 151.101.193.194               github.global.ssl.fastly.net
 185.199.109.153               github.io
 185.199.111.133               github.map.fastly.net
 185.199.109.153               githubstatus.com
 140.82.112.25                 live.github.com
-185.199.111.133               media.githubusercontent.com
+127.0.0.253                   media.githubusercontent.com
 185.199.111.133               objects.githubusercontent.com
 13.107.42.16                  pipelines.actions.githubusercontent.com
 185.199.111.133               raw.githubusercontent.com
@@ -82,12 +82,12 @@ _注：_ 本项目还处于测试阶段，仅在本机测试通过，如有问�
 140.82.113.21                 education.github.com
 185.199.111.133               private-user-images.githubusercontent.com
 
-# Update time: 2025-02-02T06:05:06+08:00
+# Update time: 2025-02-09T06:05:11+08:00
 # Update url: https://raw.hellogithub.com/hosts
 # Star me: https://github.com/521xueweihan/GitHub520
 # GitHub520 Host End
 
-该内容会自动定时更新， 数据更新时间：2025-02-02T06:05:06+08:00
+该内容会自动定时更新， 数据更新时间：2025-02-09T06:05:11+08:00
 
 #### 2.1.2 修改 hosts 文件
 

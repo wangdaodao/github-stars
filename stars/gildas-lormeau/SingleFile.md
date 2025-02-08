@@ -1,6 +1,6 @@
 ---
 project: SingleFile
-stars: 16636
+stars: 16710
 description: Web Extension for saving a faithful copy of a complete web page in a single HTML file
 url: https://github.com/gildas-lormeau/SingleFile
 ---
@@ -108,7 +108,7 @@ Known Issues
     -   The following characters are replaced by their full-width equivalent symbols in file names: ~, +, ?, %, \*, :, |, ", <, >, . The replacement characters are respectively: ～, ＋, ？, ％, ＊, ：, ｜, ＂, ＜, ＞, ＼. Other invalid charcaters are replaced by \_. This is done to maintain compatibility with various OSs and file systems. If you don't need that level of compatibility and know what you are doing, you can change the list of forbidden characters and the replacement characters in the Hidden options(https://github.com/gildas-lormeau/SingleFile/wiki/Hidden-options).
 -   Chromium-based browsers:
     -   You must enable the option "Allow access to file URLs" in the extension page to display the infobar when viewing a saved page, and to save or to annotate a page stored on the filesystem.
-    -   If the file name of a saved page looks like "56833935-156b-4d8c-a00f-19599c6513d3.html", disable the option "Misc > save pages in background". Reinstalling the browser may also fix this issue. You can find more info about this bug here.
+    -   If the file name of a saved page looks like "56833935-156b-4d8c-a00f-19599c6513d3.html", disable the option "Misc > save pages in background". Reinstalling the browser may also fix this issue. This issue might also be due to a conflict with another "downloader" extension. You can find more info about this bug here.
     -   Disabling the option "File name > open the "Save as" dialog to confirm the file name" will work if and only if the option "Ask where to save each file before downloading" is disabled in chrome://settings/downloads.
 -   Firefox:
     -   The "File name > file name conflict resolution" option does not work if set to "prompt for a name"
@@ -241,6 +241,7 @@ Projects using/compatible with SingleFile
 -----------------------------------------
 
 -   ArchiveBox - Open-source self-hosted web archiving: https://github.com/ArchiveBox/ArchiveBox
+-   hoarder - Self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search: https://github.com/hoarder-app/hoarder
 -   htmls-to-datasette - Tool to index HTML files into a Sqlite database: https://github.com/pjamar/htmls-to-datasette
 -   linkding - Bookmark manager that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker: https://github.com/sissbruecker/linkding
 -   obsidian-html-plugin - Plugin for reading HTML pages in Obsidian: https://github.com/nuthrash/obsidian-html-plugin

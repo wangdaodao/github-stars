@@ -1,6 +1,6 @@
 ---
 project: Senior-FrontEnd
-stars: 1797
+stars: 1800
 description: 🔥 🔥🔥 🔥🔥 高级开发工程师必备，打通全栈任督二脉，文档地址gitee版（Senior development engineers must understand the web body of knowledge, document addresses）：https://js.youliaowu.com
 url: https://github.com/hejialianghe/Senior-FrontEnd
 ---

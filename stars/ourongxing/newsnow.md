@@ -1,6 +1,6 @@
 ---
 project: newsnow
-stars: 3011
+stars: 3093
 description: Elegant reading of real-time and hottest news
 url: https://github.com/ourongxing/newsnow
 ---

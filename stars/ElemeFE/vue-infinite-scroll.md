@@ -1,6 +1,6 @@
 ---
 project: vue-infinite-scroll
-stars: 2859
+stars: 2860
 description: An infinite scroll directive for vue.js.
 url: https://github.com/ElemeFE/vue-infinite-scroll
 ---

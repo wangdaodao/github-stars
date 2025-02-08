@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25655
+stars: 25665
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.02.02) —— 第2119天
+🕟 今天的知识点 (2025.02.09) —— 第2126天
 --------------------------------
 
-        :one: \[jQuery\] jQuery的ready()方法是什么？它有什么作用？
+        :one: \[jQuery\] jQuery中的append()和appendTo()方法有什么区别？
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2118天 (2025.02.01)  
-    1️⃣ \[jQuery\] 如何在jQuery中检查一个元素是否存在？
+-   第2125天 (2025.02.08)  
+    1️⃣ \[jQuery\] 如何使用jQuery设置或获取元素的属性值？
     
 -   **查看全部**
     

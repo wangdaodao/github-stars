@@ -1,6 +1,6 @@
 ---
 project: Meta3D
-stars: 161
+stars: 162
 description: 开源Web3D低代码平台，一条龙可视化搭建Web3D应用、编辑器、引擎，共建开放互助的Web3D生态
 url: https://github.com/Meta3D-Technology/Meta3D
 ---

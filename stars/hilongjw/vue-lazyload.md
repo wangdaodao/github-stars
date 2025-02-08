@@ -1,6 +1,6 @@
 ---
 project: vue-lazyload
-stars: 8025
+stars: 8024
 description: A Vue.js plugin for lazyload your Image or Component in your application.
 url: https://github.com/hilongjw/vue-lazyload
 ---

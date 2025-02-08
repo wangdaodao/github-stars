@@ -1,6 +1,6 @@
 ---
 project: npm-stat.com
-stars: 1183
+stars: 1186
 description: download statistics for npm packages
 url: https://github.com/pvorb/npm-stat.com
 ---

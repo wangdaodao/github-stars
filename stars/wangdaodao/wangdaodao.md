@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-02 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-09 06:17.
 
 📝 Hitokoto
 -----------
 
-> 绵延万万里的脊梁，撑起家国傲骨！—— 苏烈
+> 此身为剑所天成，身如钢铁，心似琉璃。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_National Museum of African American History & Culture, Washington, DC (© BrianPIrwin/Shutterstock)_
+_Medieval towers in Mestia, Upper Svaneti, Georgia (© photoaliona/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

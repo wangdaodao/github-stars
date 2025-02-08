@@ -1,6 +1,6 @@
 ---
 project: editor
-stars: 443
+stars: 472
 description: Umo Editor is an open-source document editor, based on Vue3 and Tiptap.
 url: https://github.com/umodoc/editor
 ---
@@ -130,10 +130,12 @@ Contributing Code
 The development of Umo Editor could not have been possible without the support of the community. Below is the list of contributors who have contributed code to Umo Editor. We extend our thanks to them:
 
 -   Umo Team: 👨‍💻 Core developers
--   Cassielxd: 💪 Implemented pagination and many important features for Umo Editor
--   Na'aman Hirschfeld：💪🏻 Enhanced TypeScript support, added test cases, and provided a better foundation for the development of Umo Editor
--   ChenErik：🛠️ Contributed code to Umo Editor
--   Sherman Xu: 🛠 Contributed code to Umo Editor
+-   Cassielxd: 💪🏻 Implemented pagination and many important features for Umo Editor
+-   Na'aman Hirschfeld: 💪🏻 Enhanced TypeScript support, added tests, and provided a stronger foundation for Umo Editor's development
+-   SerRashin: 🛠️ Added Russian language support for Umo Editor
+-   ChenErik: 🛠️ Contributed code to Umo Editor
+-   china-wangxu: 🛠️ Contributed code to Umo Editor
+-   Sherman Xu: 🛠️ Contributed code to Umo Editor
 
 We welcome all forms of contributions, including but not limited to submitting bug reports, feature requests, and code contributions.
 
