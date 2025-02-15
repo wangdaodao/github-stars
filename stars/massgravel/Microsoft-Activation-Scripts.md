@@ -1,14 +1,14 @@
 ---
 project: Microsoft-Activation-Scripts
-stars: 115651
-description: Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
+stars: 117736
+description: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 url: https://github.com/massgravel/Microsoft-Activation-Scripts
 ---
 
 Microsoft Activation Scripts (MAS)
 ==================================
 
-Open-source Windows and Office activator featuring HWID, Ohook, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
+Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 
 * * *
 
@@ -24,18 +24,14 @@ Download / How to use it?
 irm https://get.activated.win | iex
 ```
 
-1.  You will see the activation options. Choose (1) HWID for Windows activation. Choose (2) Ohook for Office activation.
-2.  That's all.
-
-More options
-
--   Alternatively, you can use the following (It will be deprecated in the future.)
+Alternatively, you can use the following (It will be deprecated in the future.)
 
 ```
 irm https://massgrave.dev/get | iex
 ```
 
--   The URL `get.activated.win` might be blocked by some DNS services because it is a new domain.
+1.  You will see the activation options. Choose (1) HWID for Windows activation. Choose (2) Ohook for Office activation.
+2.  That's all.
 
 * * *
 
@@ -55,6 +51,14 @@ Click here for info
 
 * * *
 
+### Not working ❓
+
+-   If you are **unable to launch MAS** using the PowerShell method, please refer to **Method 2** listed above.
+-   If MAS is launched and the script shows any errors, check for any troubleshooting steps mentioned in blue color and try to follow those.
+-   If you have any issues, please feel free to reach out to us here.
+
+* * *
+
 Note
 
 -   The IRM command in PowerShell downloads a script from a specified URL, and the IEX command executes it.
@@ -66,8 +70,8 @@ Note
 To run the scripts in unattended mode, check here.
 
 ```
-Latest Version: 2.9
-Release date: 20-Dec-2024
+Latest Version: 3.0
+Release date: 14-Feb-2025
 ```
 
 ### Troubleshooting / Help

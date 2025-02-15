@@ -1,6 +1,6 @@
 ---
 project: qiankun
-stars: 15975
+stars: 15987
 description: 📦 🚀 Blazing fast, simple and complete solution for micro frontends.
 url: https://github.com/umijs/qiankun
 ---

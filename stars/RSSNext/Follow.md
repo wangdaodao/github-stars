@@ -1,6 +1,6 @@
 ---
 project: Follow
-stars: 22412
+stars: 22591
 description: 🧡 Follow your favorites in one inbox
 url: https://github.com/RSSNext/Follow
 ---

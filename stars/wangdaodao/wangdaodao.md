@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-09 06:17.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-16 06:19.
 
 📝 Hitokoto
 -----------
 
-> 此身为剑所天成，身如钢铁，心似琉璃。—— 佚名
+> 如果你能在浪费时间中获得乐趣，就不算浪费时间。—— 罗素
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Medieval towers in Mestia, Upper Svaneti, Georgia (© photoaliona/Getty Images)_
+_Icicles of Misotsuchi, Chichibu, Japan (© watayu0821/Shutterstock)_
 
 📚 My Blog posts ...
 --------------------

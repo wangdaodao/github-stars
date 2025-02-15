@@ -1,6 +1,6 @@
 ---
 project: Dexie.js
-stars: 12412
+stars: 12486
 description: A Minimalistic Wrapper for IndexedDB
 url: https://github.com/dexie/Dexie.js
 ---
@@ -9,6 +9,28 @@ Dexie.js
 ========
 
 Dexie.js is a wrapper library for indexedDB - the standard database in the browser. https://dexie.org.
+
+```
+ /$$   /$$                     /$$                   /$$     /$$                          
+| $$  | $$                    | $$                  | $$    | $$                          
+| $$  | $$  /$$$$$$   /$$$$$$$| $$   /$$  /$$$$$$  /$$$$$$  | $$$$$$$   /$$$$$$  /$$$$$$$ 
+| $$$$$$$$ |____  $$ /$$_____/| $$  /$$/ |____  $$|_  $$_/  | $$__  $$ /$$__  $$| $$__  $$
+| $$__  $$  /$$$$$$$| $$      | $$$$$$/   /$$$$$$$  | $$    | $$  \ $$| $$  \ $$| $$  \ $$
+| $$  | $$ /$$__  $$| $$      | $$_  $$  /$$__  $$  | $$ /$$| $$  | $$| $$  | $$| $$  | $$
+| $$  | $$|  $$$$$$$|  $$$$$$$| $$ \  $$|  $$$$$$$  |  $$$$/| $$  | $$|  $$$$$$/| $$  | $$
+|__/  |__/ \_______/ \_______/|__/  \__/ \_______/   \___/  |__/  |__/ \______/ |__/  |__/
+                                                    
+🌟 Welcome to Dexie Global Hackathon 25! 🌟
+📅 Date: February 14 --> April 13, 2025
+🕒 Start coding with Dexie Cloud and win prices!
+
+For more information: dexie.org/hackathon 
+
+Good luck! 🚀
+
+```
+
+dexie.org/hackathon
 
 #### Why Dexie.js?
 

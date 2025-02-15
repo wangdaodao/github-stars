@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 3297
+stars: 3377
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---

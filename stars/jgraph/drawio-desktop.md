@@ -1,6 +1,6 @@
 ---
 project: drawio-desktop
-stars: 52313
+stars: 52454
 description: Official electron build of draw.io
 url: https://github.com/jgraph/drawio-desktop
 ---
@@ -8,7 +8,7 @@ url: https://github.com/jgraph/drawio-desktop
 About
 -----
 
-**drawio-desktop** is a diagramming and whiteboarding desktop app based on Electron that wraps the core draw.io editor.
+**drawio-desktop** is a diagramming desktop app based on Electron that wraps the core draw.io editor.
 
 Download built binaries from the releases section.
 

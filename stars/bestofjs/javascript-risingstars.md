@@ -1,6 +1,6 @@
 ---
 project: javascript-risingstars
-stars: 1079
+stars: 1083
 description: :stars: An overview of the JavaScript landscape in 2024: trends about frontend, Node.js, fullstack frameworks, build tools, testing, Vue.js, React, state management...
 url: https://github.com/bestofjs/javascript-risingstars
 ---

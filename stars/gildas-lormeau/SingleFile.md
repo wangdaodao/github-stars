@@ -1,6 +1,6 @@
 ---
 project: SingleFile
-stars: 16710
+stars: 16840
 description: Web Extension for saving a faithful copy of a complete web page in a single HTML file
 url: https://github.com/gildas-lormeau/SingleFile
 ---
@@ -261,6 +261,7 @@ See https://github.com/gildas-lormeau/SingleFile/blob/master/privacy.md
 Contributors
 ------------
 
+-   Azerbaijani translation done by Haciagha\_Sadikhov (https://github.com/Hajiagha-Sadikhov)
 -   Chinese translation done by yfdyh000 (https://github.com/yfdyh000), Liu8Can (https://github.com/Liu8Can), KrasnayaPloshchad (https://github.com/KrasnayaPloshchad), frostblazergit (https://github.com/frostblazergit), dnknn (https://github.com/dnknn), lqzhgood (https://github.com/lqzhgood)
 -   Traditional Chinese translation done by frostblazergit (https://github.com/frostblazergit), lqzhgood (https://github.com/lqzhgood)
 -   Dutch translation done by jooleer (https://github.com/jooleer)

@@ -1,6 +1,6 @@
 ---
 project: Blog
-stars: 30864
+stars: 30878
 description: 冴羽写博客的地方，预计写四个系列：JavaScript深入系列、JavaScript专题系列、ES6系列、React系列。
 url: https://github.com/mqyqingfeng/Blog
 ---
@@ -17,7 +17,6 @@ url: https://github.com/mqyqingfeng/Blog
 -   小册：《Next.js 开发指南》、《Svelte 开发指南》
 -   翻译：TypeScript 中文文档、Solid.js 中文文档、Svelte 中文文档
 -   专栏：掘金、思否、语雀、公众号：冴羽（#yayujs）
--   微信：mqyqingfeng
 
 Svelte 官方文档翻译
 -------------

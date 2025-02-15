@@ -1,6 +1,6 @@
 ---
 project: sys-shim
-stars: 265
+stars: 269
 description: You can quickly develop desktop applications using simple front-end languages, with a program size of less than 1M.
 url: https://github.com/wll8/sys-shim
 ---

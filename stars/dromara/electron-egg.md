@@ -1,104 +1,105 @@
 ---
 project: electron-egg
-stars: 1968
+stars: 1974
 description: A simple, cross platform, enterprise desktop software development framework
 url: https://github.com/dromara/electron-egg
 ---
 
-### 🎉🎉🎉 ElectronEgg v4.0.0 已发布! 🎉🎉🎉
+### 🎉🎉🎉 ElectronEgg v4.0.0 has been released! 🎉🎉🎉
 
   
 
-### **一个入门简单、跨平台、企业级桌面软件开发框架**
+### **An easy to get started, cross platform, enterprise level desktop software development framework**
 
   
 
-📋 介绍
------
+📋 Introduction
+---------------
 
-> 框架已经广泛应用于记账、政务、企业、医疗、学校、股票交易、ERP、娱乐、视频等领域客户端，请放心使用！
+> The framework has been widely applied to the clients in various fields such as bookkeeping, government affairs, enterprises, healthcare, schools, stock trading, ERP, entertainment, and video. Please feel free to use it!
 
-👦 谁可以使用
---------
+👦 Who can use it?
+------------------
 
-项目已经有 5 个交流群，覆盖`前端`、`java`、`go`、`python`、`php` 等开发者。
+The project already has 5 communication groups, covering developers proficient in `frontend`, `Java`, `Go`, `Python`, `PHP`, etc.
 
-无论你是前端、服务端、运维、游戏、客户端等，都可以很快入门，
+Whether you're a frontend developer, backend developer, operations engineer, game developer, or focused on clientside development, you can get started quickly.
 
-🐶 精彩案例
--------
+🐶 showcase
+-----------
 
--   **点击查看**
+-   **Click to view**
 
-📺 特点
------
+📺 feature
+----------
 
--   🍩 **为什么使用？** 桌面软件（办公方向、 个人工具），仍然是未来十几年PC端需求之一，提高工作效率
--   🍉 **简单：** 支持 js、ts
--   🍑 **愿景：** 所有开发者都能学会桌面软件研发
--   🍰 **gitee：** https://gitee.com/dromara/electron-egg **5200+**
--   🍨 **github：** https://github.com/dromara/electron-egg **1900+**
--   🏆 码云最有价值开源项目
+-   🍩 **Why use...？** Desktop software (in the areas of office work and personal tools) will remain one of the demands on the PC side in the next decade or so, and it can improve work efficiency.
+-   🍉 **simple：** support js、ts
+-   🍑 **vision：** All developers can learn to develop desktop software.
+-   🍰 **gitee：** https://gitee.com/dromara/electron-egg **5300+**
+-   🍨 **github：** https://github.com/dromara/electron-egg **2000+**
+-   🍰 **gitcode：** https://gitcode.com/dromara/electron-egg
+-   🏆 The Most Valuable Open - source Projects on Gitee
 
-📚 文档
------
+📚 document
+-----------
 
--   快速体验：教程文档
+-   Quick experience：Tutorial
 
-📦 特性
------
+📦 characteristic
+-----------------
 
-1.  🍄 跨平台：一套代码，可以打包成windows版、Mac版、Linux版、国产UOS、Deepin、麒麟等
-2.  🌹 架构：单业务进程/模块化/多任务(进程，线程，渲染进程)，让开发大型项目变的简单。
-3.  🌱 简单高效：支持 js、ts
-4.  🌴 前端独立：理论上支持任何前端技术，如：vue、react、html等等
-5.  🍁 工程化：可以用前端、服务端的开发思维，来编写桌面软件
-6.  🌷 高性能：事件驱动、非阻塞式IO
-7.  🌰 功能丰富：配置、通信、插件、数据库、升级、打包、工具... 应有尽有
-8.  💐 安全：支持字节码加密、压缩混淆加密
-9.  🌻 功能demo：桌面软件常见功能，框架集成或提供demo
+1.  🍄 Cross - platform: One set of code can be packaged into Windows, Mac, Linux versions, as well as domestic versions like UOS, Deepin, and Kylin.
+2.  🌹 Architecture: Single - business process / modular / multi - task (process, thread, rendering process), which simplifies the development of large - scale projects.
+3.  🌱 Simple and efficient: Supports JavaScript (js) and TypeScript (ts).
+4.  🌴 Independent front - end: Theoretically supports any front - end technology, such as Vue, React, HTML, etc.
+5.  🍁 Engineering - oriented: Desktop software can be developed using the development concepts of front - end and back - end.
+6.  🌷 High - performance: Event - driven, non - blocking I/O.
+7.  🌰 Rich in functions: Configuration, communication, plugins, database, upgrade, packaging, tools... everything is available.
+8.  💐 Secure: Supports bytecode encryption, compression, and obfuscation encryption.
+9.  🌻 Function demos: Common functions of desktop software, with the framework integrating or providing demos.
 
-✈️ 使用场景
--------
+✈️ use case
+-----------
 
-### 1\. 🚀 常规桌面软件
+### 1\. 🚀 conventional desktop software
 
--   🚖 windows平台
+-   🚖 windows
     
--   🚍 macOS平台  
+-   🚍 macOS  
     
--   🚔 linux平台 - 国产UOS、Deepin
+-   🚔 linux - UOS、Deepin
     
--   🚔 linux平台 - ubuntu
-    
-
-### 🚐 2. vue、react、angular、web 转换成桌面软件
-
--   🚙 vue-ant-design（本地）
-    
--   🚙 禅道项目管理（web项目地址）
+-   🚔 linux - ubuntu
     
 
-### 🚂 3. 游戏（h5相关技术开发）
+### 🚐 2. vue、react、angular、web, convert into desktop software
 
--   🚊 忍者100层
+-   🚙 vue-ant-design（local）
+    
+-   🚙 zendao（web url）
     
 
-📒 开始使用
--------
+### 🚂 3. game（development related to H5 technologies）
 
--   ✒️ 安装文档
+-   🚊 Ninja 100 Floors
+    
 
-项目案例
-----
+📒 start using
+--------------
 
--   🐟 框架已经应用于医疗、学校、政务、股票交易、ERP、娱乐、视频、企业等领域客户端
+-   ✒️ Installation document
 
-### 🐸 远控
+project-case
+------------
+
+-   🐟 The framework has been applied to the clients in various fields, including healthcare, education, government affairs, stock trading, ERP, entertainment, video, and enterprises.
+
+### 🐸 remote control
 
 -   RQ Center
 
-### 🐸 云盘
+### 🐸 cloud drive
 
 -   FM Cloud
 
@@ -106,34 +107,34 @@ url: https://github.com/dromara/electron-egg
 
 -   Cede IM
 
-### 🐸 壁纸
+### 🐸 wallpaper
 
 -   warpar
 
-### 🐸 英雄联盟助手
+### 🐸 League of Legends Helper
 
 -   Serendlplty
 
-### 🐸 更多
+### 🐸 more
 
--   更多案例
+-   More cases
 
-💬 交流
------
-
-1.  讨论
-
-📌 关于pr
--------
-
-请前往GitHub项目提pr（避免代码同步后，pr被覆盖掉），感谢！
-
-地址：https://github.com/dromara/electron-egg
-
-📔 框架核心包 ee-core
+💬 communication
 ----------------
+
+1.  discuss
+
+📌 about pr
+-----------
+
+Please go to theGitHub projectto submit a PR（to avoid the PR being overwritten after the code is synchronized). Thank you!
+
+Website address: https://github.com/dromara/electron-egg
+
+📔 Framework core package: ee-core
+----------------------------------
 
 ee-core：https://github.com/wallace5303/ee-core
 
-📚 Dromara 成员项目
----------------
+📚 Dromara member projects
+--------------------------

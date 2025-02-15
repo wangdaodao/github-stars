@@ -1,6 +1,6 @@
 ---
 project: vue-material-admin
-stars: 623
+stars: 626
 description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM简洁、轻量的中后台管理模板 
 url: https://github.com/armomu/vue-material-admin
 ---
@@ -34,7 +34,7 @@ Vue Material Admin 是一个基于 `Vuetify.js` 组件库的开源中后台模�
 🍭 PreView
 ----------
 
-🧱Vercel需要墙！打不开的同学自行下载项目在本地开发环境预览
+Vercel需要🪜子！打不开的同学自行下载项目在本地开发环境预览
 
 -   🌍 Vercel https://vue-material-admin.vercel.app/
 
@@ -70,7 +70,9 @@ Vue Material Admin 是一个基于 `Vuetify.js` 组件库的开源中后台模�
 
 ### 前端
 
-> ⚠️ 本地开发需要 `nodejs 18/20` vite5不支持更低的nodejs版本
+由于已经是配套了 `Nodejs` 服务端，本地开发环境接口使用了 `apifoxmock`模拟了服务器全部都接口，所以 `.env.development` 文件需要配置接口服务器地址 `VITE_API = https://apifoxmock.com/m1/5061937-4723200-default`
+
+如果想和服务端一起开发预览，请切换到 Serve 分支查看启动服务端教程，然后把 `.env.development` 文件服务器地址改为 `VITE_API = http://localhost:8085`
 
 ```
 git clone https://github.com/armomu/vue-material-admin.git
@@ -82,6 +84,8 @@ pnpm install
 pnpm run dev
 
 ```
+
+> ⚠️ 本地开发需要 `nodejs 18/20` vite5不支持更低的nodejs版本
 
 ### Nodejs 服务端
 

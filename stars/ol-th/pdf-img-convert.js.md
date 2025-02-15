@@ -1,6 +1,6 @@
 ---
 project: pdf-img-convert.js
-stars: 186
+stars: 187
 description: Simple node package to convert a PDF into images.
 url: https://github.com/ol-th/pdf-img-convert.js
 ---

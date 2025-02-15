@@ -1,6 +1,6 @@
 ---
 project: ant-design-vue
-stars: 20509
+stars: 20528
 description: 🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜
 url: https://github.com/vueComponent/ant-design-vue
 ---
@@ -110,6 +110,10 @@ The Library with Formily and ant-design-vue
 @ant-design-vue/nuxt
 
 A nuxt module for ant-design-vue
+
+ant-design-x-vue
+
+A Vue AI interface solutions base on the Ant Design X design specification
 
 Donation
 --------

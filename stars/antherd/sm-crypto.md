@@ -1,6 +1,6 @@
 ---
 project: sm-crypto
-stars: 254
+stars: 255
 description: 国密算法sm2、sm3和sm4的java版。基于js版本进行封装，无缝兼容js版公私钥加解密。
 url: https://github.com/antherd/sm-crypto
 ---

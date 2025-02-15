@@ -1,6 +1,6 @@
 ---
 project: vueuse
-stars: 20561
+stars: 20601
 description: Collection of essential Vue Composition Utilities for Vue 2 and 3
 url: https://github.com/vueuse/vueuse
 ---
@@ -26,26 +26,19 @@ Collection of essential Vue Composition Utilities
 
 import { useLocalStorage, useMouse, usePreferredDark } from '@vueuse/core'
 
-export default {
-  setup() {
-    // tracks mouse position
-    const { x, y } \= useMouse()
+const { x, y } \= useMouse()
 
-    // if user prefers dark theme
-    const isDark \= usePreferredDark()
+// if user prefers dark theme
+const isDark \= usePreferredDark()
 
-    // persist state in localStorage
-    const store \= useLocalStorage(
-      'my-storage',
-      {
-        name: 'Apple',
-        color: 'red',
-      },
-    )
-
-    return { x, y, isDark, store }
+// persist state in localStorage
+const store \= useLocalStorage(
+  'my-storage',
+  {
+    name: 'Apple',
+    color: 'red',
   },
-}
+)
 
 Refer to functions list or documentations for more details.
 

@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2196
+stars: 2211
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Medieval towers in Mestia, Upper Svaneti, Georgia (© photoaliona/Getty Images)
+Today: Icicles of Misotsuchi, Chichibu, Japan (© watayu0821/Shutterstock)
+
+2025-02-16 download 4k
+
+2025-02-15 download 4k
+
+2025-02-14 download 4k
+
+2025-02-13 download 4k
+
+2025-02-12 download 4k
+
+2025-02-11 download 4k
+
+2025-02-10 download 4k
 
 2025-02-09 download 4k
 
@@ -55,20 +69,6 @@ Today: Medieval towers in Mestia, Upper Svaneti, Georgia (© photoaliona/Getty I
 2025-01-19 download 4k
 
 2025-01-18 download 4k
-
-2025-01-17 download 4k
-
-2025-01-17 download 4k
-
-2025-01-16 download 4k
-
-2025-01-15 download 4k
-
-2025-01-14 download 4k
-
-2025-01-13 download 4k
-
-2025-01-12 download 4k
 
 ### 历史归档：
 

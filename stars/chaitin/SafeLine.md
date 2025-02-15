@@ -1,6 +1,6 @@
 ---
 project: SafeLine
-stars: 15375
+stars: 15435
 description: SafeLine is a self-hosted WAF(Web Application Firewall) / reverse proxy to protect your web apps from attacks and exploits.
 url: https://github.com/chaitin/SafeLine
 ---

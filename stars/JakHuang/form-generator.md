@@ -1,6 +1,6 @@
 ---
 project: form-generator
-stars: 9140
+stars: 9144
 description: :sparkles:Element UI表单设计及代码生成器
 url: https://github.com/JakHuang/form-generator
 ---

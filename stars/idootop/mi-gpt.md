@@ -1,6 +1,6 @@
 ---
 project: mi-gpt
-stars: 9270
+stars: 9500
 description: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。
 url: https://github.com/idootop/mi-gpt
 ---
@@ -161,6 +161,12 @@ MiGPT 接入豆包等大模型教程
 豆包、Moonshot（Kimi）等常见大模型的详细接入教程
 
 @lmk123
+
+通过 Docker 快速安装 MiGPT，手把手教你绕开异地登录风控
+
+适合小白的使用教程，全程几乎都是图形化页界面
+
+@Jasonzhu1207
 
 小爱音箱 PRO 的 AI 模式使用说明
 

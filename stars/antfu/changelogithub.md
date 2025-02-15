@@ -1,6 +1,6 @@
 ---
 project: changelogithub
-stars: 772
+stars: 773
 description: Generate changelog for GitHub
 url: https://github.com/antfu/changelogithub
 ---
@@ -51,7 +51,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
           node-version: lts/\*
 
-      - run: npx changelogithub # or changelogithub@0.12 if ensure the stable result
+      - run: npx changelogithub # or changelogithub@0.12 to ensure a stable result
         env:
           GITHUB\_TOKEN: ${{secrets.GITHUB\_TOKEN}}
 

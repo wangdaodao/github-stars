@@ -1,6 +1,6 @@
 ---
 project: AriaNg
-stars: 12057
+stars: 12068
 description: AriaNg, a modern web frontend making aria2 easier to use.
 url: https://github.com/mayswind/AriaNg
 ---
@@ -37,6 +37,7 @@ Features
     -   Spanish
     -   French
     -   Italian
+    -   Polish
     -   Russian
     -   Chinese (Simplified Chinese / Traditional Chinese)
 8.  Multi aria2 RPC host support

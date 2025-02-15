@@ -1,6 +1,6 @@
 ---
 project: tinymce-plugins
-stars: 261
+stars: 262
 description: This is tinymce plugins
 url: https://github.com/Five-great/tinymce-plugins
 ---

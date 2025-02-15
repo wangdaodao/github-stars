@@ -1,6 +1,6 @@
 ---
 project: ChinaIPTV
-stars: 1074
+stars: 1095
 description: 中国电视直播源 cnTV m3u（实时更新,长期有效）
 url: https://github.com/hujingguang/ChinaIPTV
 ---
