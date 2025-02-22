@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 3377
+stars: 3434
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---
@@ -39,7 +39,23 @@ Diff content comparison tool with patch handling
 
 **Terminal Sketch**
 
-Editable pop-up terminal interface
+Editable pop-up terminal interface and integration with other sketch, like frontend dev localhost in WebView
+
+**WebView Sketch**
+
+HTML/React/Ionic mockup generator with WebView display
+
+**OpenAPI Sketch`*`**
+
+OpenAPI editor with bidirectional code-OpenAPI synchronization
+
+**Dependency Sketch`*`**
+
+Security-builtin vulnerable dependency checker
+
+**Go Playground Sketch`*`**
+
+Go Playground with bidirectional code preview/edit
 
 **Mermaid Sketch`*`**
 
@@ -48,10 +64,6 @@ Real-time flowchart preview/edit with bidirectional binding
 **PlantUML Sketch`*`**
 
 UML diagram editor with bidirectional code-diagram synchronization
-
-**WebView Sketch**
-
-HTML/React/Ionic mockup generator with WebView display
 
 `*` means requires additional plugin installation.
 
@@ -263,6 +275,8 @@ Additionally, we extend a warm invitation to participate in the development of t
 -   Multiple target inspired by: https://github.com/intellij-rust/intellij-rust
 -   SimilarFile inspired by: JetBrains and GitHub Copilot
 -   DevIn Language refs on JetBrains' Markdown Util, which is licensed under the Apache 2.0 license.
+-   Stream Diff based on Continue Dev under the Apache 2.0 license.
+-   Ripgrep inspired by Cline under the Apache 2.0 license.
 
 **Known License issues**: JetBrain plugin development is no walk in the park! Oops, we cheekily borrowed some code from the JetBrains Community version and the super cool JetBrains AI Assistant plugin in our codebase. But fret not, we are working our magic to clean it up diligently! 🧙‍♂️✨.
 

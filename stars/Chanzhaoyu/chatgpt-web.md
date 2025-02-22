@@ -1,6 +1,6 @@
 ---
 project: chatgpt-web
-stars: 31819
+stars: 31838
 description: 用 Express 和  Vue3 搭建的 ChatGPT 演示网页
 url: https://github.com/Chanzhaoyu/chatgpt-web
 ---

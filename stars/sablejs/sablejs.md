@@ -1,6 +1,6 @@
 ---
 project: sablejs
-stars: 1104
+stars: 1107
 description: 🏖️ The safer and faster ECMA5.1 interpreter written by JavaScript
 url: https://github.com/sablejs/sablejs
 ---

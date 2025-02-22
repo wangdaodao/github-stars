@@ -1,6 +1,6 @@
 ---
 project: libpag
-stars: 5156
+stars: 5169
 description: The official rendering library for PAG (Portable Animated Graphics) files that renders After Effects animations natively across multiple platforms.
 url: https://github.com/Tencent/libpag
 ---
@@ -41,7 +41,7 @@ System Requirements
 -------------------
 
 -   iOS 9.0 or later
--   Android 4.4 or later
+-   Android 5.0 or later
 -   HarmonyOS Next 5.0.0(12) or later
 -   macOS 10.15 or later
 -   Windows 7.0 or later
@@ -186,7 +186,7 @@ We recommend using the CLion IDE on macOS for development.
 -   Ninja 1.9.0+
 -   CMake 3.13.0+
 -   QT 5.13.0+
--   NDK 19.2+ (**19.2.5345600 recommended**)
+-   NDK 28+ (**28.0.13004108 recommended**)
 -   Emscripten 3.1.58+
 
 ### Dependency Management

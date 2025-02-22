@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24824
+stars: 24840
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -132,6 +132,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   Change `Array` by copy
             -   `Array` grouping
             -   `ArrayBuffer.prototype.transfer` and friends
+            -   `Float16` methods
             -   `Iterator` helpers
             -   `Object.values` / `Object.entries`
             -   `Object.fromEntries`
@@ -143,6 +144,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `String.prototype.trimStart` / `String.prototype.trimEnd`
             -   `RegExp` `s` (`dotAll`) flag
             -   `RegExp` named capture groups
+            -   `RegExp` escaping
             -   `Promise.allSettled`
             -   `Promise.any`
             -   `Promise.prototype.finally`
@@ -156,10 +158,8 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
         -   Stage 3 proposals
             -   `Array.fromAsync`
             -   `JSON.parse` source text access
-            -   `Float16` methods
             -   `Uint8Array` to / from base64 and hex
             -   Explicit resource management
-            -   `RegExp` escaping
             -   `Math.sumPrecise`
             -   `Symbol.metadata` for decorators metadata proposal
             -   `Error.isError`
@@ -181,6 +181,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `Array` filtering
             -   `Array` deduplication
             -   `DataView` get / set `Uint8Clamped` methods
+            -   `Math.clamp`
             -   `Number.fromString`
             -   `String.cooked`
             -   `String.prototype.codePoints`
@@ -901,7 +902,7 @@ Adding support of well-known symbols `@@match`, `@@replace`, `@@search` and `@@s
 
 Annex B methods. Modules `es.string.anchor`, `es.string.big`, `es.string.blink`, `es.string.bold`, `es.string.fixed`, `es.string.fontcolor`, `es.string.fontsize`, `es.string.italics`, `es.string.link`, `es.string.small`, `es.string.strike`, `es.string.sub`, `es.string.sup`, `es.string.substr`, `es.escape` and `es.unescape`.
 
-`RegExp` features: modules `es.regexp.constructor`, `es.regexp.dot-all`, `es.regexp.flags`, `es.regexp.sticky` and `es.regexp.test`.
+`RegExp` features: modules `es.regexp.constructor`, `es.regexp.escape`, `es.regexp.dot-all`, `es.regexp.flags`, `es.regexp.sticky` and `es.regexp.test`.
 
 class String {
   static fromCodePoint(...codePoints: Array<number\>): string;
@@ -947,6 +948,7 @@ class String {
 class RegExp {
   // support of sticky (\`y\`) flag, dotAll (\`s\`) flag, named capture groups, can alter flags
   constructor(pattern: RegExp | string, flags?: string): RegExp;
+  static escape(value: string): string
   exec(): Array<string | undefined\> | null; // IE8 fixes
   test(string: string): boolean; // delegation to \`.exec\`
   toString(): string; // ES2015+ fix - generic
@@ -1007,6 +1009,7 @@ core-js(-pure)/es|stable|actual|full/string(/virtual)/sup
 core-js(-pure)/es|stable|actual|full/string(/virtual)/iterator
 core-js/es|stable|actual|full/regexp
 core-js/es|stable|actual|full/regexp/constructor
+core-js(-pure)/es|stable|actual|full/regexp/escape
 core-js/es|stable|actual|full/regexp/dot-all
 core-js(-pure)/es|stable|actual|full/regexp/flags
 core-js/es|stable|actual|full/regexp/sticky
@@ -1096,6 +1099,18 @@ for (let { groups: { number, letter } } of '1111a2b3cccc'.matchAll(RegExp('(?<nu
 'a💩b'.toWellFormed();      // => 'a💩b'
 'a\\uD83Db'.toWellFormed();  // => 'a�b'
 
+_Example_:
+
+console.log(RegExp.escape('10$')); // => '\\\\x310\\\\$'
+console.log(RegExp.escape('abcdefg\_123456')); // => '\\\\x61bcdefg\_123456'
+console.log(RegExp.escape('Привет')); // => 'Привет'
+console.log(RegExp.escape('(){}\[\]|,.?\*+-^$=<>\\\\/#&!%:;@~\\'"\`'));
+// => '\\\\(\\\\)\\\\{\\\\}\\\\\[\\\\\]\\\\|\\\\x2c\\\\.\\\\?\\\\\*\\\\+\\\\x2d\\\\^\\\\$\\\\x3d\\\\x3c\\\\x3e\\\\\\\\\\\\/\\\\x23\\\\x26\\\\x21\\\\x25\\\\x3a\\\\x3b\\\\x40\\\\x7e\\\\x27\\\\x22\\\\x60'
+console.log(RegExp.escape('\\u0009\\u000A\\u000B\\u000C\\u000D\\u0020\\u00A0\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\\u2028\\u2029\\uFEFF'));
+// => '\\\\\\t\\\\\\n\\\\\\v\\\\\\f\\\\\\r\\\\x20\\\\xa0\\\\u1680\\\\u2000\\\\u2001\\\\u2002\\\\u2003\\\\u2004\\\\u2005\\\\u2006\\\\u2007\\\\u2008\\\\u2009\\\\u200a\\\\u202f\\\\u205f\\\\u3000\\\\u2028\\\\u2029\\\\ufeff'
+console.log(RegExp.escape('💩')); // => '💩'
+console.log(RegExp.escape('\\uD83D')); // => '\\\\ud83d'
+
 #### ECMAScript: Number⬆
 
 Module `es.number.constructor`. `Number` constructor support binary and octal literals, _example_:
@@ -1147,7 +1162,7 @@ core-js(-pure)/es|stable|actual|full/parse-int
 
 #### ECMAScript: Math⬆
 
-Modules `es.math.acosh`, `es.math.asinh`, `es.math.atanh`, `es.math.cbrt`, `es.math.clz32`, `es.math.cosh`, `es.math.expm1`, `es.math.fround`, `es.math.hypot`, `es.math.imul`, `es.math.log10`, `es.math.log1p`, `es.math.log2`, `es.math.sign`, `es.math.sinh`, `es.math.tanh`, `es.math.trunc`.
+Modules `es.math.acosh`, `es.math.asinh`, `es.math.atanh`, `es.math.cbrt`, `es.math.clz32`, `es.math.cosh`, `es.math.expm1`, `es.math.fround`, `es.math.f16round`, `es.math.hypot`, `es.math.imul`, `es.math.log10`, `es.math.log1p`, `es.math.log2`, `es.math.sign`, `es.math.sinh`, `es.math.tanh`, `es.math.trunc`.
 
 namespace Math {
   acosh(number: number): number;
@@ -1158,6 +1173,7 @@ namespace Math {
   cosh(number: number): number;
   expm1(number: number): number;
   fround(number: number): number;
+  f16round(number: any): number;
   hypot(...args: Array<number\>): number;
   imul(number1: number, number2: number): number;
   log1p(number: number): number;
@@ -1181,6 +1197,7 @@ core-js(-pure)/es|stable|actual|full/math/clz32
 core-js(-pure)/es|stable|actual|full/math/cosh
 core-js(-pure)/es|stable|actual|full/math/expm1
 core-js(-pure)/es|stable|actual|full/math/fround
+core-js(-pure)/es|stable|actual|full/math/f16round
 core-js(-pure)/es|stable|actual|full/math/hypot
 core-js(-pure)/es|stable|actual|full/math/imul
 core-js(-pure)/es|stable|actual|full/math/log1p
@@ -1769,7 +1786,7 @@ Warning
 
 Implementations and fixes for `ArrayBuffer`, `DataView`, Typed Arrays constructors, static and prototype methods. Typed arrays work only in environments with support descriptors (IE9+), `ArrayBuffer` and `DataView` should work anywhere.
 
-Modules `es.array-buffer.constructor`, `es.array-buffer.is-view`, `esnext.array-buffer.detached`, `es.array-buffer.slice`, `esnext.array-buffer.transfer`, `esnext.array-buffer.transfer-to-fixed-length` `es.data-view`, `es.typed-array.int8-array`, `es.typed-array.uint8-array`, `es.typed-array.uint8-clamped-array`, `es.typed-array.int16-array`, `es.typed-array.uint16-array`, `es.typed-array.int32-array`, `es.typed-array.uint32-array`, `es.typed-array.float32-array`, `es.typed-array.float64-array`, `es.typed-array.copy-within`, `es.typed-array.every`, `es.typed-array.fill`, `es.typed-array.filter`, `es.typed-array.find`, `es.typed-array.find-index`, `es.typed-array.find-last`, `es.typed-array.find-last-index`, `es.typed-array.for-each`, `es.typed-array.from`, `es.typed-array.includes`, `es.typed-array.index-of`, `es.typed-array.iterator`, `es.typed-array.last-index-of`, `es.typed-array.map`, `es.typed-array.of`, `es.typed-array.reduce`, `es.typed-array.reduce-right`, `es.typed-array.reverse`, `es.typed-array.set`, `es.typed-array.slice`, `es.typed-array.some`, `es.typed-array.sort`, `es.typed-array.subarray`, `es.typed-array.to-locale-string`, `es.typed-array.to-string`, `es.typed-array.at`, `es.typed-array.to-reversed`, `es.typed-array.to-sorted`, `es.typed-array.with`.
+Modules `es.array-buffer.constructor`, `es.array-buffer.is-view`, `esnext.array-buffer.detached`, `es.array-buffer.slice`, `esnext.array-buffer.transfer`, `esnext.array-buffer.transfer-to-fixed-length` `es.data-view`, `es.data-view.get-float16`, `es.data-view.set-float16`, `es.typed-array.int8-array`, `es.typed-array.uint8-array`, `es.typed-array.uint8-clamped-array`, `es.typed-array.int16-array`, `es.typed-array.uint16-array`, `es.typed-array.int32-array`, `es.typed-array.uint32-array`, `es.typed-array.float32-array`, `es.typed-array.float64-array`, `es.typed-array.copy-within`, `es.typed-array.every`, `es.typed-array.fill`, `es.typed-array.filter`, `es.typed-array.find`, `es.typed-array.find-index`, `es.typed-array.find-last`, `es.typed-array.find-last-index`, `es.typed-array.for-each`, `es.typed-array.from`, `es.typed-array.includes`, `es.typed-array.index-of`, `es.typed-array.iterator`, `es.typed-array.last-index-of`, `es.typed-array.map`, `es.typed-array.of`, `es.typed-array.reduce`, `es.typed-array.reduce-right`, `es.typed-array.reverse`, `es.typed-array.set`, `es.typed-array.slice`, `es.typed-array.some`, `es.typed-array.sort`, `es.typed-array.subarray`, `es.typed-array.to-locale-string`, `es.typed-array.to-string`, `es.typed-array.at`, `es.typed-array.to-reversed`, `es.typed-array.to-sorted`, `es.typed-array.with`.
 
 class ArrayBuffer {
   constructor(length: any): ArrayBuffer;
@@ -1789,6 +1806,7 @@ class DataView {
   getUint16(offset: any, littleEndian?: boolean \= false): uint16;
   getInt32(offset: any, littleEndian?: boolean \= false): int32;
   getUint32(offset: any, littleEndian?: boolean \= false): uint32;
+  getFloat16(offset: any, littleEndian?: boolean \= false): float16
   getFloat32(offset: any, littleEndian?: boolean \= false): float32;
   getFloat64(offset: any, littleEndian?: boolean \= false): float64;
   setInt8(offset: any, value: any): void;
@@ -1797,6 +1815,7 @@ class DataView {
   setUint16(offset: any, value: any, littleEndian?: boolean \= false): void;
   setInt32(offset: any, value: any, littleEndian?: boolean \= false): void;
   setUint32(offset: any, value: any, littleEndian?: boolean \= false): void;
+  setFloat16(offset: any, value: any, littleEndian?: boolean \= false): void;
   setFloat32(offset: any, value: any, littleEndian?: boolean \= false): void;
   setFloat64(offset: any, value: any, littleEndian?: boolean \= false): void;
   readonly attribute buffer: ArrayBuffer;
@@ -1874,6 +1893,8 @@ core-js/es|stable|actual|full/array-buffer/slice
 core-js/es|stable|actual|full/array-buffer/transfer
 core-js/es|stable|actual|full/array-buffer/transfer-to-fixed-length
 core-js/es|stable|actual|full/data-view
+core-js/es|stable|actual|full/dataview/get-float16
+core-js/es|stable|actual|full/dataview/set-float16
 core-js/es|stable|actual|full/typed-array
 core-js/es|stable|actual|full/typed-array/int8-array
 core-js/es|stable|actual|full/typed-array/uint8-array
@@ -2206,6 +2227,23 @@ _CommonJS entry points:_
 core-js/proposals/array-buffer-transfer
 ```
 
+##### `Float16` methods⬆
+
+class DataView {
+  getFloat16(offset: any, littleEndian?: boolean \= false): float16
+  setFloat16(offset: any, value: any, littleEndian?: boolean \= false): void;
+}
+
+namespace Math {
+  fround(number: any): number;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/float16
+```
+
 ##### `Iterator` helpers⬆
 
 class Iterator {
@@ -2360,6 +2398,18 @@ _CommonJS entry points:_
 
 ```
 core-js/proposals/regexp-named-groups
+```
+
+##### `RegExp` escaping⬆
+
+class RegExp {
+  static escape(value: string): string
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/regexp-escaping
 ```
 
 ##### `Promise.allSettled`⬆
@@ -2564,36 +2614,6 @@ JSON.parse(String(wayTooBig), digitsToBigInt) \=== wayTooBig; // true
 const embedded \= JSON.stringify({ tooBigForNumber }, bigIntToRawJSON);
 embedded \=== '{"tooBigForNumber":9007199254740993}'; // true
 
-##### `Float16` methods⬆
-
-Modules `esnext.data-view.get-float16`, `esnext.data-view.set-float16` and `esnext.math.f16round`
-
-class DataView {
-  getFloat16(offset: any): number
-  setFloat16(offset: any, value: any): void;
-}
-
-namespace Math {
-  fround(number: any): number;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/float16
-core-js/actual|full/dataview/get-float16
-core-js/actual|full/dataview/set-float16
-core-js/actual|full/math/f16round
-```
-
-Examples:
-
-console.log(Math.f16round(1.337)); // => 1.3369140625
-
-const view \= new DataView(new ArrayBuffer(2));
-view.setFloat16(0, 1.337);
-console.log(view.getFloat16(0)); // => 1.3369140625
-
 ##### `Uint8Array` to / from base64 and hex⬆
 
 Modules `esnext.uint8-array.from-base64`, `esnext.uint8-array.from-hex`, `esnext.uint8-array.set-from-hex`, `esnext.uint8-array.to-base64`, `esnext.uint8-array.to-hex`.
@@ -2689,33 +2709,6 @@ core-js(-pure)/actual|full/suppressed-error
 core-js(-pure)/actual|full/iterator/dispose
 core-js(-pure)/actual|full/async-iterator/async-dispose
 ```
-
-##### `RegExp` escaping⬆
-
-Module `esnext.regexp.escape`
-
-class RegExp {
-  static escape(value: string): string
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/regexp-escaping
-core-js(-pure)/actual|full/regexp/escape
-```
-
-_Example_:
-
-console.log(RegExp.escape('10$')); // => '\\\\x310\\\\$'
-console.log(RegExp.escape('abcdefg\_123456')); // => '\\\\x61bcdefg\_123456'
-console.log(RegExp.escape('Привет')); // => 'Привет'
-console.log(RegExp.escape('(){}\[\]|,.?\*+-^$=<>\\\\/#&!%:;@~\\'"\`'));
-// => '\\\\(\\\\)\\\\{\\\\}\\\\\[\\\\\]\\\\|\\\\x2c\\\\.\\\\?\\\\\*\\\\+\\\\x2d\\\\^\\\\$\\\\x3d\\\\x3c\\\\x3e\\\\\\\\\\\\/\\\\x23\\\\x26\\\\x21\\\\x25\\\\x3a\\\\x3b\\\\x40\\\\x7e\\\\x27\\\\x22\\\\x60'
-console.log(RegExp.escape('\\u0009\\u000A\\u000B\\u000C\\u000D\\u0020\\u00A0\\u1680\\u2000\\u2001\\u2002\\u2003\\u2004\\u2005\\u2006\\u2007\\u2008\\u2009\\u200A\\u202F\\u205F\\u3000\\u2028\\u2029\\uFEFF'));
-// => '\\\\\\t\\\\\\n\\\\\\v\\\\\\f\\\\\\r\\\\x20\\\\xa0\\\\u1680\\\\u2000\\\\u2001\\\\u2002\\\\u2003\\\\u2004\\\\u2005\\\\u2006\\\\u2007\\\\u2008\\\\u2009\\\\u200a\\\\u202f\\\\u205f\\\\u3000\\\\u2028\\\\u2029\\\\ufeff'
-console.log(RegExp.escape('💩')); // => '💩'
-console.log(RegExp.escape('\\uD83D')); // => '\\\\ud83d'
 
 ##### `Math.sumPrecise`
 
@@ -3319,6 +3312,27 @@ Examples:
 const view \= new DataView(new ArrayBuffer(1));
 view.setUint8Clamped(0, 100500);
 console.log(view.getUint8Clamped(0)); // => 255
+
+##### `Math.clamp`⬆
+
+Module `esnext.math.clamp`
+
+class Math {
+  clamp(value: number, min: number, max: number): number;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/math-clamp
+core-js(-pure)/full/math/clamp
+```
+
+_Example_:
+
+Math.clamp(5, 0, 10); // => 5
+Math.clamp(\-5, 0, 10); // => 0
+Math.clamp(15, 0, 10); // => 10
 
 ##### `Number.fromString`⬆
 

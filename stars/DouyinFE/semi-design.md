@@ -1,6 +1,6 @@
 ---
 project: semi-design
-stars: 8850
+stars: 8874
 description: 🚀A modern, comprehensive, flexible design system and React UI library. 🎨 Provide more than 3000+ Design Tokens, easy to build your design system. Make Semi Design to Any Design.  🧑🏻‍💻 Design to Code in one click 
 url: https://github.com/DouyinFE/semi-design
 ---
@@ -15,13 +15,13 @@ English | 简体中文
 🎉 Features
 ===========
 
--   💪 Up to 70+ high-quality Components. Stable update since 2019
--   🚀 Official Design to Code (D2C) support, convert figma draft to real code in a few seconds
--   💅 Code to Design (C2D), automatically generate Figma UI Kit according to different themes, keep same between design and code
+-   💪 Up to 70+ high-quality Components. Stable updates since 2019
+-   🚀 Official Design to Code (D2C) support, convert Figma draft to real code in a few seconds
+-   💅 Code to Design (C2D), automatically generate Figma UI Kit according to different themes, keep consistency between design and code
 -   💕 Complete A11y support, follows W3C standards to provide keyboard interaction, focus management and ARIA for all components
 -   💅 Design system management Semi DSM, up to 3000+ Design Tokens, make Semi Design to Any Design quickly.
--   🌍 Internationalization Support for Dozens of Languages, timezone, RTL support
--   ⚙️ Strict quality assurance, covering unit testing, E2E testing, visual testing.
+-   🌍 Internationalization Support for Dozens of Languages, timezone, and RTL support
+-   ⚙️ Strict quality assurance, covering unit testing, E2E testing, and visual testing.
 -   👏 Written in Typescript, friendly Static Type Support. Based on Foundation/Adapter architecture, easy to read and contribute
 -   🥳 SSR (Server Side Rendering) Compatible.
 -   📦 Easily compatible with web components, providing a complete adaptation solution, more suitable for building SDKs, browser plugins and other scenarios that require DOM isolation.
@@ -58,14 +58,14 @@ Semi UI Doc Site has hundreds of editable examples and live preview, welcome to 
 
 Install Semi Figma Plugin. Translate Figma to real code in seconds. Support multiple output formats: JSX + SCSS / Emotion/Tailwind, or JSON Schema DSL
 
--   Support figma devmode, selecting a layer, directly get corresponding code on the right
+-   Support Figma devmode, selecting a layer, directly get corresponding code on the right
 
 -   Or jump to codesandbox to continue editing
 
 🎨 DSM Usage
 ============
 
-Define your own design system base on Semi UI with DSM in one click, Provide more than 3000 tokens for you to configure every detail. Sync between Figma and Code at all times.
+Define your own design system based on Semi UI with DSM in one click, Provide more than 3000 tokens for you to configure every detail. Sync between Figma and Code always.
 
 📰 News about Semi UI
 =====================
@@ -149,7 +149,7 @@ Thanks to VisActor for providing the data visualization solution.
 
 Thanks to all the people who already contributed!
 
-Read the contributing guide to learn about our development process, how to propose bugfixes and improvements, and how to build and test your changes to Semi UI.
+Read the contributing guide to learn about our development process, how to propose bug fixes and improvements, and how to build and test your changes to Semi UI.
 
 See CONTRIBUTING documentation.
 

@@ -1,6 +1,6 @@
 ---
 project: wechat-bot
-stars: 6512
+stars: 7195
 description: 🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 url: https://github.com/wangrongding/wechat-bot
 ---
@@ -22,6 +22,11 @@ WeChat Bot
 使用前需要配置的 AI 服务（目前支持 9 种，可任选其一）
 ------------------------------
 
+-   deepseek
+    
+    获取自己的 `api key`，地址戳这里 👉🏻 ：deepseek 开放平台  
+    将获取到的`api key`填入 `.evn` 文件中的 `DEEPSEEK_FREE_TOKEN` 中。
+    
 -   ChatGPT
     
     先获取自己的 `api key`，地址戳这里 👉🏻 ：创建你的 api key
@@ -46,9 +51,6 @@ WeChat Bot
     TONGYI\_API\_KEY = ''
     # 通义千问使用的模型
     TONGYI\_MODEL='qwen-plus'
-    
--   deepseek 获取自己的 `api key`，地址戳这里 👉🏻 ：deepseek 开放平台  
-    将获取到的`api key`填入 `.evn` 文件中的 `DEEPSEEK_FREE_TOKEN` 中。
     
 -   科大讯飞
     
@@ -191,6 +193,15 @@ ROOM\_WHITELIST=XX群1,群2
 AUTO\_REPLY\_PREFIX=''
 
 可以看到，自动回复都是基于 `chatgpt` 的，记得要开代理，或者填写代理地址。
+
+注意项
+---
+
+近期微信审查很严格，大量用户反映弹出外挂警告，由于项目内默认使用的是免费版的 web 协议，所以目前来说很容易会被微信检测到，建议使用 pad 协议，或者自行购买企业版协议，避免被封号。
+
+修改可参考： https://github.com/wangrongding/wechat-bot/pull/263/files  
+自行购买 pad 协议渠道（wechaty 出的，购买仍需谨慎）：http://pad-local.com  
+由于底层依赖的 wechaty 本身不怎么维护了，听说是被腾讯告了，所以大家购买也要谨慎，群友分享目前 pad 协议可正常使用(但频繁登录登出也会收到警告)，最好别一次性买太久的。
 
 常见问题
 ----

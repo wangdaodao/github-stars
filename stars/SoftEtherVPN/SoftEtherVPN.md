@@ -1,6 +1,6 @@
 ---
 project: SoftEtherVPN
-stars: 11992
+stars: 12014
 description: Cross-platform multi-protocol VPN software. Pull requests are welcome. The stable version is available at https://github.com/SoftEtherVPN/SoftEtherVPN_Stable.
 url: https://github.com/SoftEtherVPN/SoftEtherVPN
 ---
@@ -319,6 +319,11 @@ From binary installers (stable channel)
 ---------------------------------------
 
 Those can be found under https://www.softether-download.com/ There you can also find SoftEtherVPN source code in zip and tar formats.
+
+Docker Container Image
+----------------------
+
+Please look at the ContainerREADME.md
 
 Build from Source code
 ----------------------

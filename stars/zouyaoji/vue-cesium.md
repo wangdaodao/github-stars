@@ -1,6 +1,6 @@
 ---
 project: vue-cesium
-stars: 1610
+stars: 1614
 description: 🎉 Vue 3.x components for CesiumJS.
 url: https://github.com/zouyaoji/vue-cesium
 ---

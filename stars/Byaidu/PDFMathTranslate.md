@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 17002
+stars: 17554
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -23,6 +23,7 @@ For details on how to contribute, please consult the Contribution Guide.
 Updates
 -------
 
+-   \[Feb. 22 2025\] Better release CI and well-packaged windows-amd64 exe (by @awwaawwa)
 -   \[Dec. 24 2024\] The translator now supports local models on Xinference _(by @imClumsyPanda)_
 -   \[Dec. 19 2024\] Non-PDF/A documents are now supported using `-cp` _(by @reycn)_
 -   \[Dec. 13 2024\] Additional support for backend by _(by @YadominJinta)_
@@ -51,7 +52,7 @@ For different use cases, we provide distinct methods to use our program:
 
 1\. Commandline
 
-1.  Python installed (3.8 <= version <= 3.12)
+1.  Python installed (3.10 <= version <= 3.12)
     
 2.  Install our package:
     
@@ -62,14 +63,14 @@ For different use cases, we provide distinct methods to use our program:
     pdf2zh document.pdf
     
 
-2\. Portable (w/o Python installed)
+2\. Windows exe
 
-1.  Download setup.bat
+1.  Download pdf2zh-version-win64.zip from release page
     
-2.  Double-click to run.
+2.  Unzip and double-click `pdf2zh.exe` to run.
     
 
-3\. Graphic user interface 1. Python installed (3.8 <= version <= 3.12) 2. Install our package:
+3\. Graphic user interface 1. Python installed (3.10 <= version <= 3.12) 2. Install our package:
 
 pip install pdf2zh
 
@@ -103,6 +104,16 @@ For docker deployment on cloud service:
 5\. Zotero Plugin
 
 See Zotero PDF2zh for more details.
+
+Tip
+
+-   If you're using Windows and cannot open the file after downloading, please install vc\_redist.x64.exe and try again.
+    
+-   If you cannot access Docker Hub, please try the image on GitHub Container Registry.
+    
+
+docker pull ghcr.io/byaidu/pdfmathtranslate
+docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate
 
 ### Unable to install?
 

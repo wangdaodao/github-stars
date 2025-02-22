@@ -1,6 +1,6 @@
 ---
 project: canvas-editor
-stars: 3940
+stars: 3960
 description: rich text editor by canvas/svg
 url: https://github.com/Hufe921/canvas-editor
 ---
@@ -20,6 +20,7 @@ Tips
 1.  Official plugin: canvas-editor-plugin
 2.  The render layer by svg is under development, see feature/svg
 3.  The export pdf feature is available now, see feature/pdf
+4.  The AI-powered text processing demo, see feature/ai
 
 Basic usage
 -----------

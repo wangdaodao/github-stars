@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 17970
+stars: 18227
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -242,7 +242,7 @@ A few noteworthy teams/projects who've helped us along the way are:
     
 -   **yuzu**: Our shader compiler has been designed with yuzu's Hades compiler as a blueprint. This allowed us to focus on the challenges of emulating a modern AMD GPU while having a high-quality optimizing shader compiler implementation as a base.
     
--   **hydra**: A multisystem, multiplatform emulator (chip-8, GB, NES, N64) from Paris.
+-   **felix86**: A new x86-64 → RISC-V Linux userspace emulator
     
 
 License

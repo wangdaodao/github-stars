@@ -1,6 +1,6 @@
 ---
 project: github-push-action
-stars: 1215
+stars: 1218
 description: GitHub actions to push back to repository eg. updated code
 url: https://github.com/ad-m/github-push-action
 ---

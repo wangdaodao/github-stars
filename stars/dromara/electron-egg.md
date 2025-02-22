@@ -1,6 +1,6 @@
 ---
 project: electron-egg
-stars: 1974
+stars: 1976
 description: A simple, cross platform, enterprise desktop software development framework
 url: https://github.com/dromara/electron-egg
 ---
@@ -94,6 +94,10 @@ project-case
 ------------
 
 -   🐟 The framework has been applied to the clients in various fields, including healthcare, education, government affairs, stock trading, ERP, entertainment, video, and enterprises.
+
+### 🐸 knowledge note
+
+-   gaiyan
 
 ### 🐸 remote control
 

@@ -1,6 +1,6 @@
 ---
 project: maptalks.js
-stars: 4376
+stars: 4378
 description: A light and plugable JavaScript library for integrated 2D/3D maps.
 url: https://github.com/maptalks/maptalks.js
 ---
@@ -11,9 +11,9 @@ maptalks-gl
 NOTICE
 ------
 
-maptalks is upgrading to maptalks-gl, a webgl (and webgpu in near future) driven 2D/3D map engine.
+maptalks is upgrading to maptalks-gl, a webgl and webgpu driven 2D/3D map engine.
 
-The legacy maptalks library will be still maintained.
+If you are looking for the old maptalks source codes, it has moved to packages/maptalks as a submodule.
 
 About
 -----
@@ -131,7 +131,7 @@ Packages introductions
 
 ### Map
 
--   `map` home for Map class and other infrustructures.
+-   `maptalks` maptalks library source codes.
 
 ### Layers
 
@@ -142,7 +142,6 @@ Packages introductions
 
 ### Vector tiles
 
--   `vector-packer` Parsing of vector tile formats and organization of data structures.
 -   `vt-plugin` Interface definition for the vector tile rendering plugin.
 -   `vt` Vector tile layer (VectorTileLayer/GeoJSONVectorTileLayer) implementation.
 

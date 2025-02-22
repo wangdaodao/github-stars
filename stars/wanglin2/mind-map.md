@@ -1,6 +1,6 @@
 ---
 project: mind-map
-stars: 7642
+stars: 7710
 description: 一个还算强大的Web思维导图。A relatively powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---
@@ -12,23 +12,25 @@ Simple mind map
 
 本项目主要包含以下内容：
 
-1.一个 js 思维导图库，不依赖任何框架，可以使用它来快速完成 Web 思维导图产品的开发。
+-   一个 `js` 思维导图库，不依赖任何框架，可以用来快速完成 Web 思维导图产品的开发。
 
-开发文档：https://wanglin2.github.io/mind-map-docs/。
+> 开发文档：https://wanglin2.github.io/mind-map-docs/
 
-2.一个 Web 思维导图，基于思维导图库、Vue2.x、ElementUI 开发，可以操作电脑本地文件，可以当做一个在线版思维导图应用使用，也可以自部署和二次开发。
+-   一个 Web 思维导图，基于思维导图库、`Vue2.x`、`ElementUI` 开发，支持操作电脑本地文件，可以当做一个在线版思维导图应用使用，也可以自部署和二次开发。
 
-在线地址：https://wanglin2.github.io/mind-map/。
+> 在线地址：https://wanglin2.github.io/mind-map/
 
-3.此外也支持以客户端的方式使用，现已上架uTools插件应用市场，强烈建议通过`uTools`来体验。
+-   客户端和插件
 
-可直接在`uTools`插件应用市场中搜索`思绪`进行安装，也可以直接访问该地址：主页，点击右侧的【启动】按钮进行安装。
-
-> 独立客户端下载：Github：releases。百度云盘：地址。
+> 1.独立客户端，支持Windows、Mac及Linux系统。
 > 
-> 后续不会投入太多精力在独立客户端上，建议通过`uTools`来使用，功能更强，体验更好。
+> 下载地址：Github、百度云盘
 
-4.【云存储版本】如果你需要带后端的云存储版本，可以尝试我们开发的另一个项目理想文档。
+> 2.`uTools`插件，现已上架uTools插件应用市场。
+> 
+> 可直接在`uTools`插件应用市场中搜索`思绪`进行安装，也可以直接访问该地址：主页，点击右侧的【启动】按钮进行安装。
+
+-   云存储版本，如果你需要带后端的云存储版本，可以尝试我们开发的另一个项目理想文档。
 
 特性
 ==
@@ -48,7 +50,7 @@ Simple mind map
 
 官方提供了如下插件，可根据需求按需引入（某个功能不生效大概率是因为你没有引入对应的插件），具体使用方式请查看文档：
 
-> RichText（节点富文本插件）、Select（鼠标多选节点插件）、Drag（节点拖拽插件）、AssociativeLine（关联线插件）、Export（导出插件）、KeyboardNavigation（键盘导航插件）、MiniMap（小地图插件）、Watermark（水印插件）、TouchEvent（移动端触摸事件支持插件）、NodeImgAdjust（拖拽调整节点图片大小插件）、Search（搜索插件）、Painter（节点格式刷插件）、Scrollbar（滚动条插件）、Formula（数学公式插件）、Cooperate（协同编辑插件）、RainbowLines（彩虹线条插件）、Demonstrate（演示模式插件）、OuterFrame（外框插件）、MindMapLayoutPro（思维导图布局插件）、HandDrawnLikeStyle（手绘风格插件）\[收费\]、Notation（节点标记插件）\[收费\]、Numbers（节点编号插件）\[收费\]、Freemind（Freemind格式导入导出插件）\[收费\]、Excel（Excel格式导入导出插件）\[收费\]、Checkbox（待办插件）\[收费\]、Lineflow（节点连线流动插件）\[收费\]
+> RichText（节点富文本插件）、Select（鼠标多选节点插件）、Drag（节点拖拽插件）、AssociativeLine（关联线插件）、Export（导出插件）、KeyboardNavigation（键盘导航插件）、MiniMap（小地图插件）、Watermark（水印插件）、TouchEvent（移动端触摸事件支持插件）、NodeImgAdjust（拖拽调整节点图片大小插件）、Search（搜索插件）、Painter（节点格式刷插件）、Scrollbar（滚动条插件）、Formula（数学公式插件）、Cooperate（协同编辑插件）、RainbowLines（彩虹线条插件）、Demonstrate（演示模式插件）、OuterFrame（外框插件）、MindMapLayoutPro（思维导图布局插件）、HandDrawnLikeStyle（手绘风格插件）\[收费\]、Notation（节点标记插件）\[收费\]、Numbers（节点编号插件）\[收费\]、Freemind（Freemind格式导入导出插件）\[收费\]、Excel（Excel格式导入导出插件）\[收费\]、Checkbox（待办插件）\[收费\]、Lineflow（节点连线流动插件）\[收费\]、Momentum（动量效果插件）\[收费\]
 
 本项目不会实现的特性：
 
@@ -467,3 +469,6 @@ star
 
   
 **胡永刚**
+
+  
+**旋风**

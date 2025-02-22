@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 12872
+stars: 12929
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -297,7 +297,7 @@ dev.bi docflow.cn quickref.cn aibk.cn ecdata.cn quickref.hestudio.net qiubit.cc 
 赞助支持
 ----
 
-非常感谢那些一直支持我开源工作的朋友们。如果您对我的工作感到满意，可以选择在这里进行赞助。如果目前经济上不宽裕，也可以通过下载并使用我开发的 macOS 应用来支持我。以下是我个人开发的 macOS 应用：
+非常感谢那些一直支持我开源工作的朋友们。如果您对我的工作感到满意，可以选择在这里进行赞助。也可以通过下载并使用我开发的 macOS 应用来支持我。以下是我个人开发的 macOS 应用：
 
 开发
 --

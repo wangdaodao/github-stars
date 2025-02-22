@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2211
+stars: 2219
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Icicles of Misotsuchi, Chichibu, Japan (© watayu0821/Shutterstock)
+Today: The Gateway Arch in St. Louis, Missouri (© f11photo/Getty Images)
+
+2025-02-23 download 4k
+
+2025-02-22 download 4k
+
+2025-02-21 download 4k
+
+2025-02-20 download 4k
+
+2025-02-19 download 4k
+
+2025-02-18 download 4k
+
+2025-02-17 download 4k
 
 2025-02-16 download 4k
 
@@ -55,20 +69,6 @@ Today: Icicles of Misotsuchi, Chichibu, Japan (© watayu0821/Shutterstock)
 2025-01-26 download 4k
 
 2025-01-25 download 4k
-
-2025-01-24 download 4k
-
-2025-01-23 download 4k
-
-2025-01-22 download 4k
-
-2025-01-21 download 4k
-
-2025-01-20 download 4k
-
-2025-01-19 download 4k
-
-2025-01-18 download 4k
 
 ### 历史归档：
 

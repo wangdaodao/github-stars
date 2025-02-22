@@ -1,6 +1,6 @@
 ---
 project: vue-cli-gui
-stars: 164
+stars: 163
 description: GUI for vue-cli UI.
 url: https://github.com/egoist/vue-cli-gui
 ---

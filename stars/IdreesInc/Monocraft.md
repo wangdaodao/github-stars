@@ -1,6 +1,6 @@
 ---
 project: Monocraft
-stars: 8617
+stars: 8641
 description: A monospaced programming font inspired by the Minecraft typeface
 url: https://github.com/IdreesInc/Monocraft
 ---

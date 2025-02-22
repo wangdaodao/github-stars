@@ -1,6 +1,6 @@
 ---
 project: editable
-stars: 1818
+stars: 1819
 description: 🌱 A collaborative rich-text editor framework that focuses on stability, controllability, extensibility, and performance. 一款强到离谱的富文本编辑器框架，专注于稳定性、可控性、扩展性和性能。
 url: https://github.com/editablejs/editable
 ---

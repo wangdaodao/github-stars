@@ -1,6 +1,6 @@
 ---
 project: boomb
-stars: 327
+stars: 328
 description: 💣 Manage your pictures easily for Github/Gitee. 基于 Github/Gitee 轻松管理您的存储图库
 url: https://github.com/xjh22222228/boomb
 ---
@@ -25,7 +25,7 @@ url: https://github.com/xjh22222228/boomb
 ---------------
 
 1.  创建一个仓库 （或者已有仓库）
-2.  打开 https://boomb.cn
+2.  打开 https://boomb2.netlify.app
 
 内置
 --

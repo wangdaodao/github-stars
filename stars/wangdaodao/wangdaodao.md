@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-16 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-23 06:18.
 
 📝 Hitokoto
 -----------
 
-> 如果你能在浪费时间中获得乐趣，就不算浪费时间。—— 罗素
+> Everyting Goes On.—— 星之守护者
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Icicles of Misotsuchi, Chichibu, Japan (© watayu0821/Shutterstock)_
+_The Gateway Arch in St. Louis, Missouri (© f11photo/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

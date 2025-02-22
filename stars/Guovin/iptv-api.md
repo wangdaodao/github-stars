@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 13342
+stars: 13661
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持IPv4/IPv6；支持自定义频道；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -14,7 +14,7 @@ IPTV-API
 
 English | 中文
 
-✨💻IPTV-Web：IPTV电视直播源管理平台，支持在线播放等功能，开发中...
+🎉💻IPTV-Web：IPTV电视直播源管理平台，支持在线播放等功能，开发中...
 
 -   ✅ 特点
 -   🔗 最新结果
@@ -131,7 +131,7 @@ open\_hotel\_fofa
 
 开启 FOFA、ZoomEye 酒店源工作模式
 
-True
+False
 
 open\_keep\_all
 
@@ -167,7 +167,7 @@ open\_multicast\_fofa
 
 开启 FOFA 组播源工作模式
 
-True
+False
 
 open\_online\_search
 
@@ -500,8 +500,7 @@ docker run -d -p 8000:8000 guovern/iptv-api:lite
 
 -   定时执行时间
 
-\-e UPDATE\_CRON1="0 22 \* \* \*"
--e UPDATE\_CRON2="0 10 \* \* \*"
+\-e UPDATE\_CRON="0 22,10 \* \* \*"
 
 #### 3\. 更新结果
 
