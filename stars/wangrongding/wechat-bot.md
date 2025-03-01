@@ -1,6 +1,6 @@
 ---
 project: wechat-bot
-stars: 7195
+stars: 7595
 description: 🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 url: https://github.com/wangrongding/wechat-bot
 ---
@@ -165,7 +165,7 @@ npm run start
 
 安装完依赖后，运行 `npm run dev` 前，可以先测试下 openai 的接口是否可用，运行 `npm run test` 即可。
 
-遇到 timeout 问题需要自行解决。（一般就是代理未成功，或者你的梯子限制了调 openai api 的服务）
+遇到 timeout 问题需要自行用魔法解决。（一般就是代理未成功，或者你的魔法服务限制了 openai api 的服务）
 
 你要修改的
 -----
@@ -226,7 +226,7 @@ AUTO\_REPLY\_PREFIX=''
     SET PUPPETEER_SKIP_DOWNLOAD='true'
     ```
     
--   确保你们的终端走了代理 (开全局梯子，或者手动设置终端走代理)
+-   确保你们的终端走了代理 (开全局代理，或者手动设置终端走代理)
     
     # 设置代理
     export https\_proxy=http://127.0.0.1:你的代理服务端口号;export http\_proxy=http://127.0.0.1:你的代理服务端口号;export all\_proxy=socks5://127.0.0.1:你的代理服务端口号

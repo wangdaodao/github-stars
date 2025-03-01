@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 34973
+stars: 35400
 description: 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 url: https://github.com/tw93/Pake
 ---
@@ -29,13 +29,13 @@ WeRead Mac Windows Linux
 
 Twitter Mac Windows Linux
 
+Grok Mac Windows Linux
+
+DeepSeek Mac Windows Linux
+
 ChatGPT Mac Windows Linux
 
 Gemini Mac Windows Linux
-
-Excalidraw Mac Windows Linux
-
-DeepSeek Mac Windows Linux
 
 YouTube Music Mac Windows Linux
 
@@ -45,7 +45,7 @@ LiZhi Mac Windows Linux
 
 ProgramMusic Mac Windows Linux
 
-Flomo Mac Windows Linux
+Excalidraw Mac Windows Linux
 
 XiaoHongShu Mac Windows Linux
 

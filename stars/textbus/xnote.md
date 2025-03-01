@@ -1,6 +1,6 @@
 ---
 project: xnote
-stars: 67
+stars: 69
 description: xnote 是一个无头、高性能的富文本编辑器，支持多人在线协作。
 url: https://github.com/textbus/xnote
 ---

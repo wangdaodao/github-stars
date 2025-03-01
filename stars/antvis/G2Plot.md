@@ -1,6 +1,6 @@
 ---
 project: G2Plot
-stars: 2582
+stars: 2584
 description: :dango:  An interactive and responsive charting library based on G2.
 url: https://github.com/antvis/G2Plot
 ---

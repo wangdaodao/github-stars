@@ -1,6 +1,6 @@
 ---
 project: Remembering-Haoel
-stars: 2872
+stars: 2876
 description: 记录您对左耳朵耗子（陈皓）的点滴回忆
 url: https://github.com/megaease/Remembering-Haoel
 ---

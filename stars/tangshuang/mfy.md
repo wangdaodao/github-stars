@@ -1,6 +1,6 @@
 ---
 project: mfy
-stars: 31
+stars: 32
 description: 超酷的无侵入式微前端框架。
 url: https://github.com/tangshuang/mfy
 ---

@@ -1,78 +1,47 @@
 ---
 project: logto
-stars: 9518
-description: 🧑‍🚀 An identity and access management (IAM) system with authentication, authorization, MFA, SSO, user management, and multi-tenancy features. Supports OAuth 2.0, OIDC, and SAML. No framework restrictions.
+stars: 9572
+description: 🧑‍🚀 An identity and access management (IAM) infrastructure with authentication, authorization, MFA, SSO, user management, and multi-tenancy features. Supports OAuth 2.0, OIDC, and SAML. No framework restrictions.
 url: https://github.com/logto-io/logto
 ---
 
 Logto
 =====
 
-Logto1 is an open-source Identity and Access Management (IAM) platform designed to streamline Customer Identity and Access Management (CIAM) and Workforce Identity Management. With Single Sign-On (SSO), OIDC-based authentication, and Multi-Tenant SaaS capabilities, Logto offers a scalable, secure, and developer-friendly way to manage authentication for modern web and mobile application
-
-Getting started
----------------
-
--   Join now the 💬 Logto Discord server and connect with developers! Get real-time support, share ideas, and stay updated on all things identity management.
--   Deploy today by registering now for a free, full featured development tenant
--   Follow the quick start guide to begin managing authentication efficiently.
--   Check out our 📖 integrations to start integrating Logto with your application today.
--   A step-by-step getting started is available on 📖 Logto docs.
--   Visit 🎨 Logto website for a brief introduction if you are new to Logto.
-
-Important
-
-Subscribe now to stay updated with the latest information about the Logto and receive feature updates in real-time.
+Logto1 is an open-source identity and access management infrastructure for modern apps and SaaS products, supporting OIDC, OAuth 2.0 and SAML open standards for authentication and authorization.
 
 Key features
 ------------
 
-### 🧑‍💻 Comprehensive frontend-to-backend identity solution
+### 🧑‍💻 Comprehensive frontend-to-backend identity solutions
 
--   Enables OpenID Connect (OIDC) based authentication with Logto SDKs.
+-   Enables OpenID Connect (OIDC) based authentication and authorization with Logto SDKs.
 -   Supports passwordless sign-in, along with various options like email, phone number, username, Google, Facebook, and other social sign-in methods.
--   Offers beautiful UI components with customizable CSS to suit your business needs.
+-   Offers beautiful prebuilt UI with customizable options to suit your business needs.
 
 ### 📦 Out-of-the-box infrastructure
 
--   Includes a ready-to-use Management API, serving as your authentication provider, thus eliminating the need for extra implementation.
--   Provides SDKs that seamlessly integrate your apps with Logto across multiple platforms and languages, tailored to your development environment.
--   Offers flexible connectors that can be scaled with community contributions and customized with SAML, OAuth, and OIDC protocols.
+-   Includes a ready-to-use Management API that allows you to build customized functionality on top of Logto.
+-   Provides various official SDKs and guides that help you integrate your apps with Logto across multiple platforms and languages.
+-   Offers flexible social and message connectors that can be used for one-click social sign-ins and customized with SAML, OAuth, and OIDC protocols.
 
 ### 💻 Enterprise-ready solutions
 
 -   Implements role-based access control (RBAC) for scalable authorization.
+-   Organizations is the way to build multi-tenancy apps with ease.
 -   Enables user management with audit logs to track identity-related activities and maintain security.
--   Enables single sign-on (SSO) and multi-factor authentication (MFA) without minimal coding.
--   Leverage Logto organizations to build multi-tenancy apps with ease.
+-   Provides single sign-on (SSO) and multi-factor authentication (MFA) without coding.
 
-Customer Identity Access Management (CIAM) introductory courses
----------------------------------------------------------------
+Get started
+-----------
 
-For a more approachable introduction, check out Logto’s _**Customer Identity Access Management (CIAM) introductory courses**_:
+### Logto Cloud
 
--   CIAM 101: Authentication, Identity, Single sign-on (SSO)
--   CIAM 102: Authorization & Role-based Access Control
+Try Logto Cloud to start the Logto journey with zero deployment overhead.
 
-Deep dives
-----------
+### GitPod
 
-For a _**deeper understanding**_ of key identity management topics, explore our blog:
-
--   Understanding token exchange in OAuth/OIDC– Learn about token-based authentication systems.
--   Opaque token vs JWT – Discover the differences between token types for authentication.
--   When should I use JWTs? – A guide on when to use JSON Web Token (JWT) for secure authentication.
--   Bring your own sign-in UI– Customize your user interface (UI) with Logto Cloud for flexible authentication.
-
-Launch Logto today
-------------------
-
-### Interactive demo
-
--   Try Logto Cloud to have the same dev experience and zero deployment overhead.
-    
--   If you're launching Logto via GitPod, please wait for the message `App is running at https://3002-...gitpod.io` to appear in the terminal, press Command (**CMD**) on macOS or Ctrl on Windows, then click the URL starting with `https://3002-` to continue your Logto journey.
-    
+You can launch Logto via GitPod. Please wait for the message `App is running at https://3002-...gitpod.io` to appear in the terminal, press Command on macOS or Ctrl on Windows, then click the URL starting with `https://3002-` to continue your Logto journey.
 
 ### Docker Compose
 
@@ -106,8 +75,9 @@ Bug report, feature request, feedback
 
 -   Our team takes security seriously, especially when it relates to identity. If you find any existing or potential security issues, please do not hesitate to email 🔒 security@logto.io.
 -   About other bug reports, feature requests, and feedback, you can:
-    -   Directly 🙋 open an issue on GitHub;
+    -   Directly 🙋 open an issue on GitHub if you find a bug.
     -   💬 Join our Discord server to have a live chat.
+    -   📧 Subscribe to our newsletter to stay tuned on our latest articles and updates.
 
 Licensing
 ---------
@@ -117,18 +87,13 @@ MPL-2.0.
 Contributing
 ------------
 
-We have a contributing guideline available. Feel free to contact us before coding.
-
-Contact us
-----------
-
-**Have questions or need support?** We’re here to help! Reach out to our team anytime. If you need assistance or have inquiries about Logto, Contact Us, and we’ll make sure you have everything you need to succeed.
+We have a contributing guideline available. Feel free to reach out to us before coding.
 
 Resources
 ---------
 
--   📚 Logto docs
--   📝 Logto blog
+-   📚 Logto docs for
+-   📝 Logto blog for in-depth articles, tutorials, and updates.
 -   🔗 Logto API
 -   Check out our awesome list of community-contributed resources.
 

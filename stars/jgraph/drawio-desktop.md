@@ -1,6 +1,6 @@
 ---
 project: drawio-desktop
-stars: 52621
+stars: 52799
 description: Official electron build of draw.io
 url: https://github.com/jgraph/drawio-desktop
 ---
@@ -65,7 +65,7 @@ Local Storage and Session Storage is stored in the AppData folder:
 Not open-contribution
 ---------------------
 
-draw.io is closed to contributions.
+draw.io is closed to contributions (unless a maintainer permits it, which is extremely rare).
 
 The level of complexity of this project means that even simple changes can break a _lot_ of other moving parts. The amount of testing required is far more than it first seems. If we were to receive a PR, we'd have to basically throw it away and write it how we want it to be implemented.
 

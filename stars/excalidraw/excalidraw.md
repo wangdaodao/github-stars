@@ -1,6 +1,6 @@
 ---
 project: excalidraw
-stars: 92884
+stars: 93478
 description: Virtual whiteboard for sketching hand-drawn like diagrams
 url: https://github.com/excalidraw/excalidraw
 ---
@@ -55,15 +55,11 @@ Quick start
 
 **Note:** following instructions are for installing the Excalidraw npm package when integrating Excalidraw into your own app. To run the repository locally for development, please refer to our Development Guide.
 
-```
+Use `npm` or `yarn` to install the package.
+
 npm install react react-dom @excalidraw/excalidraw
-```
-
-or via yarn
-
-```
+# or
 yarn add react react-dom @excalidraw/excalidraw
-```
 
 Check out our documentation for more details!
 

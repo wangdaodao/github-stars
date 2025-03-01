@@ -1,6 +1,6 @@
 ---
 project: bk-lesscode
-stars: 58
+stars: 60
 description: 蓝鲸运维开发平台提供了前端页面在线可视化拖拽组装、配置编辑、源码生成、二次开发等能力。旨在帮助用户快速设计和开发 SaaS。
 url: https://github.com/TencentBlueKing/bk-lesscode
 ---

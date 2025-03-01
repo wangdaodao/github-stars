@@ -1,6 +1,6 @@
 ---
 project: vitepress-demo-plugin
-stars: 142
+stars: 144
 description: 🎨 A vitepress plugin to display and render code, support React/Vue/Html. 一个可以在 vitepress 中展示和渲染代码的插件，支持 Vue/React/Html.
 url: https://github.com/zh-lx/vitepress-demo-plugin
 ---
@@ -19,9 +19,9 @@ vitepress-demo-plugin
 
 在线查看效果
 
--   展示 Antd 组件库：
+-   展示 React 组件：
     
--   展示 Element Plus 组件库：
+-   展示 Vue 组件：
     
 
 🚀 安装

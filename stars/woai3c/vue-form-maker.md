@@ -1,6 +1,6 @@
 ---
 project: vue-form-maker
-stars: 262
+stars: 263
 description: Vue 表单生成器——动态生成表单组件
 url: https://github.com/woai3c/vue-form-maker
 ---

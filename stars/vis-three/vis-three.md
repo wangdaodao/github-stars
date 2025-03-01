@@ -1,6 +1,6 @@
 ---
 project: vis-three
-stars: 342
+stars: 343
 description: A web 3D development framework for assembled based on three.js
 url: https://github.com/vis-three/vis-three
 ---
@@ -25,11 +25,24 @@ VIS-THREE
 
 github 入口：https://vis-three.github.io
 
-gitee 入口：https://vis-three.gitee.io
-
-> gitee 的 pages 服务目前已暂停服务，gitee 的视频类静态资源访问会失效，如有需要请移步 github。
-
 > 文档内容不一定是最新版本内容，持续更新。当前的文档版为：`0.7.x`
+
+核心版本速览
+------
+
+包名
+
+最新版本
+
+@vis-three/core
+
+@vis-three/tdcm
+
+@vis-three/widget
+
+@vis-three/utils
+
+@vis-three/convenient
 
 贡献者
 ---

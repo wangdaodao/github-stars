@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-02-23 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-02 06:18.
 
 📝 Hitokoto
 -----------
 
-> Everyting Goes On.—— 星之守护者
+> 每个人的心里，都有一个忘不记，却无法拥抱珍惜的人。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_The Gateway Arch in St. Louis, Missouri (© f11photo/Getty Images)_
+_Dr. Anna Howard Shaw leading a suffrage parade in 1910s New York City (© Bettmann/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

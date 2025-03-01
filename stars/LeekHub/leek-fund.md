@@ -1,7 +1,7 @@
 ---
 project: leek-fund
-stars: 3120
-description: :chart_with_upwards_trend:  Leek box - Monitor the real-time data of stock & fund & future in VSCode, Be the most excellent investment extension. 韭菜盒子——VSCode 里也可以看股票 & 基金 & 期货实时数据，做最好用的投资插件。
+stars: 3126
+description: :chart_with_upwards_trend:  Leek box - Monitor the real-time data of stock & fund & future in VSCode, Be the most excellent investment extension. 韭菜盒子VSCode插件，可以看股票、基金、期货等实时数据。
 url: https://github.com/LeekHub/leek-fund
 ---
 

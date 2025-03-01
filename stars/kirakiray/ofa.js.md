@@ -1,6 +1,6 @@
 ---
 project: ofa.js
-stars: 733
+stars: 734
 description: No-build MVVM front-end framework, Progressive micro front-end framework.
 url: https://github.com/kirakiray/ofa.js
 ---
@@ -22,7 +22,7 @@ How to Use
 
 To start using ofa.js, simply add a reference to ofa.js in your HTML file.
 
-<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.30/dist/ofa.min.js"\></script\>
+<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.31/dist/ofa.min.js"\></script\>
 
 User Experience
 ---------------
@@ -40,7 +40,7 @@ With ofa.js, however, you can quickly create a component by just creating an HTM
 </template\>
 
 <!-- Using the encapsulated component -->
-<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.30/dist/ofa.min.js"\></script\>
+<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.31/dist/ofa.min.js"\></script\>
 <l-m src\="./my-component.html"\></l-m\>
 <my-component\>
     ...

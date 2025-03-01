@@ -1,6 +1,6 @@
 ---
 project: hitokoto-api
-stars: 499
+stars: 501
 description: 版本：1，现行的 API 运行框架。
 url: https://github.com/hitokoto-osc/hitokoto-api
 ---

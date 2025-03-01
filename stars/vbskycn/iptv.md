@@ -1,6 +1,6 @@
 ---
 project: iptv
-stars: 3019
+stars: 3075
 description: iptv最新可用直播源iptv4/iptv6。直播电视系统，这里有折腾好了的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
@@ -34,7 +34,7 @@ IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直�
 
 > 如不愿折腾，可以直接下载 直播电视app 使用，手机电视都兼容，没有任何广告，完全免费。
 > 
-> 直播电视app 下载地址：https://zbds.top （包含港澳台频道）
+> 直播电视app 下载地址：https://zbds.top （包含港澳台频道），推荐野草助手安装码：0024
 > 
 > 软件内包含本仓库所有直播源，还有很多其他直播源，并且每日更新。
 
@@ -42,7 +42,7 @@ IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直�
 
 ### 📡 自动扫描直播源 IPTV6
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-02-23 00:24:03
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-03-02 00:34:42
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 
@@ -78,7 +78,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 📡 自动扫描直播源 IPTV4
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-02-23 00:24:03
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-03-02 00:34:42
 
 名称
 
@@ -120,10 +120,18 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 **支持diyp、百川、Xml、直接写下面的url即可**
 
--   服务器抗不住了，计划关闭！之前用了的请改别的epg吧！
-    
-    （如果可以请使用112114或51zmt的。因112114很多地方不能访问，所以新增镜像站，请轻量使用）
-    
+```
+xmltv 接口： https://epg.zbds.top/index.php
+DIYP&百川 接口： https://epg.zbds.top/index.php?ch=CCTV1
+超级直播 接口： https://epg.zbds.top/index.php?channel=CCTV1
+
+
+https://epg.zbds.top/
+https://epg.zbds.top/t.xml
+https://epg.zbds.top/t.xml.gz
+```
+
+（如果可以请使用112114或51zmt的。因112114很多地方不能访问，所以新增镜像站，请轻量使用）
 
 ### 🎨 增加台标
 
@@ -154,6 +162,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 📅 更新
 
+-   2025.2.28 重新部署epg服务
 -   2025.1.11 优化页面
 -   2025.1.7 增加台标接口
 -   2024.12.13 跟着节奏继续优化

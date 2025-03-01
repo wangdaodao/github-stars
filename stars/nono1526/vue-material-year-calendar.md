@@ -1,6 +1,6 @@
 ---
 project: vue-material-year-calendar
-stars: 125
+stars: 124
 description: A full 12-Month view calendar made by vue.js.
 url: https://github.com/nono1526/vue-material-year-calendar
 ---

@@ -1,7 +1,7 @@
 ---
 project: gpt4free
-stars: 63639
-description: The official gpt4free repository | various collection of powerful language models | o3 mini and deepseek r1
+stars: 63730
+description: The official gpt4free repository | various collection of powerful language models | o3 and deepseek r1, gpt-4.5
 url: https://github.com/xtekky/gpt4free
 ---
 
@@ -325,6 +325,7 @@ A list of all contributors is available here
 -   The `Gemini.py` has input from dsdanielpark/Gemini-API
 -   The `MetaAI.py` file contains code from meta-ai-api by @Strvm
 -   The `proofofwork.py` has input from missuo/FreeGPT35
+-   The `Gemini.py` has input from HanaokaYuzu/Gemini-API
 
 _Having input implies that the AI's code generation utilized it as one of many sources._
 

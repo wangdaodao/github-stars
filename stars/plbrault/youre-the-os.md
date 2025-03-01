@@ -17,7 +17,7 @@ Also available on itch.io.
 Prerequisites
 -------------
 
--   Python 3.12
+-   Python 3.13
 -   pipenv
 -   An empty `.venv` directory at the root of the project
 

@@ -1,6 +1,6 @@
 ---
 project: osmosfeed
-stars: 953
+stars: 955
 description: Turn GitHub into an RSS reader
 url: https://github.com/osmoscraft/osmosfeed
 ---

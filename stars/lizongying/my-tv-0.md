@@ -1,6 +1,6 @@
 ---
 project: my-tv-0
-stars: 3731
+stars: 3772
 description: 我的電視·〇 電視視頻播放軟件，可以自定義視頻源
 url: https://github.com/lizongying/my-tv-0
 ---
@@ -42,7 +42,7 @@ my-tv-0
     
     ```
     #EXTM3U x-tvg-url=""
-    #EXTINF:-1 tvg-id="" tvg-name="標準標題" tvg-logo="图标" group-title="組名",標題
+    #EXTINF:-1 tvg-id="" tvg-chno="" tvg-name="標準標題" tvg-logo="图标" group-title="組名",標題
     #EXTVLCOPT:http-user-agent=
     #EXTVLCOPT:http-referrer=
     視頻地址
@@ -56,6 +56,7 @@ my-tv-0
         "name": "標準標題",
         "title": "標題",
         "logo": "图标",
+        "number": "頻道號",
         "uris": \[
           "視頻地址"
         \],
@@ -94,6 +95,14 @@ TODO
 -   詳細EPG
 -   支持回看
 -   淺色菜單
+
+常見問題
+----
+
+-   為什麼遠程配置視頻源文本後，再次打開應用後又恢復到原來的配置？
+    
+    如果“應用啟動后更新視頻源”開啟後，且存在視頻源地址，則會自動更新，可能會覆蓋已保存的視頻源文本。
+    
 
 讚賞
 --

@@ -1,6 +1,6 @@
 ---
 project: pdf-annotate.js
-stars: 275
+stars: 277
 description: Annotation layer for pdf.js
 url: https://github.com/Submitty/pdf-annotate.js
 ---

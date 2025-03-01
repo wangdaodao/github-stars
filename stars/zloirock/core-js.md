@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24840
+stars: 24860
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -213,11 +213,11 @@ Usage⬆
 ### Installation:⬆
 
 // global version
-npm install --save core-js@3.40.0
+npm install --save core-js@3.41.0
 // version without global namespace pollution
-npm install --save core-js-pure@3.40.0
+npm install --save core-js-pure@3.41.0
 // bundled global version
-npm install --save core-js-bundle@3.40.0
+npm install --save core-js-bundle@3.41.0
 
 Or you can use `core-js` from CDN.
 
@@ -315,11 +315,11 @@ import 'regenerator-runtime/runtime';
 
 #### `@babel/preset-env`⬆
 
-`@babel/preset-env` has `useBuiltIns` option, which optimizes the use of the global version of `core-js`. With `useBuiltIns` option, you should also set `corejs` option to the used version of `core-js`, like `corejs: '3.40'`.
+`@babel/preset-env` has `useBuiltIns` option, which optimizes the use of the global version of `core-js`. With `useBuiltIns` option, you should also set `corejs` option to the used version of `core-js`, like `corejs: '3.41'`.
 
 Important
 
-It is recommended to specify the used minor `core-js` version, like `corejs: '3.40'`, instead of `corejs: 3`, since with `corejs: 3` will not be injected modules which were added in minor `core-js` releases.
+It is recommended to specify the used minor `core-js` version, like `corejs: '3.41'`, instead of `corejs: 3`, since with `corejs: 3` will not be injected modules which were added in minor `core-js` releases.
 
 * * *
 
@@ -376,7 +376,7 @@ import 'core-js/modules/es.array.of';
 
 var array \= Array.of(1, 2, 3);
 
-By default, `@babel/preset-env` with `useBuiltIns: 'usage'` option only polyfills stable features, but you can enable polyfilling of proposals by the `proposals` option, as `corejs: { version: '3.40', proposals: true }`.
+By default, `@babel/preset-env` with `useBuiltIns: 'usage'` option only polyfills stable features, but you can enable polyfilling of proposals by the `proposals` option, as `corejs: { version: '3.41', proposals: true }`.
 
 Important
 
@@ -415,7 +415,7 @@ Fast JavaScript transpiler `swc` contains integration with `core-js`, that optim
   "env": {
     "targets": "\> 0.25%, not dead",
     "mode": "entry",
-    "coreJs": "3.40"
+    "coreJs": "3.41"
   }
 }
 

@@ -1,6 +1,6 @@
 ---
 project: screenshot-to-code
-stars: 68494
+stars: 68752
 description: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
 url: https://github.com/abi/screenshot-to-code
 ---
@@ -8,7 +8,7 @@ url: https://github.com/abi/screenshot-to-code
 screenshot-to-code
 ==================
 
-A simple tool to convert screenshots, mockups and Figma designs into clean, functional code using AI. **Now supporting Claude Sonnet 3.5 and Gemini 2.0 Flash!**
+A simple tool to convert screenshots, mockups and Figma designs into clean, functional code using AI. **Now supporting Claude Sonnet 3.7!**
 
 Youtube.Clone.mp4
 
@@ -24,7 +24,7 @@ Supported stacks:
 
 Supported AI models:
 
--   Claude Sonnet 3.5 - Best model!
+-   Claude Sonnet 3.7 - Best model!
 -   GPT-4o - also recommended!
 -   DALL-E 3 or Flux Schnell (using Replicate) for image generation
 

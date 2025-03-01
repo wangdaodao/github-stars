@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 17554
+stars: 17926
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -38,6 +38,7 @@ Online Service 🌟
 You can try our application out using either of the following demos:
 
 -   Public free service online without installation _(recommended)_.
+-   Immersive Translate - BabelDOC 1000 free pages per month. _(recommended)_
 -   Demo hosted on HuggingFace
 -   Demo hosted on ModelScope without installation.
 
@@ -50,13 +51,14 @@ Installation and Usage
 
 For different use cases, we provide distinct methods to use our program:
 
-1\. Commandline
+1\. UV install
 
 1.  Python installed (3.10 <= version <= 3.12)
     
 2.  Install our package:
     
-    pip install pdf2zh
+    pip install uv
+    uv tool install --python 3.12 pdf2zh
     
 3.  Execute translation, files generated in current working directory:
     
@@ -101,9 +103,18 @@ See documentation for GUI for more details.
 
 For docker deployment on cloud service:
 
-5\. Zotero Plugin
+5\. Zotero Plugin See \[Zotero PDF2zh\](https://github.com/guaguastandup/zotero-pdf2zh) for more details. 6\. Commandline
 
-See Zotero PDF2zh for more details.
+1.  Python installed (3.10 <= version <= 3.12)
+    
+2.  Install our package:
+    
+    pip install pdf2zh
+    
+3.  Execute translation, files generated in current working directory:
+    
+    pdf2zh document.pdf
+    
 
 Tip
 
@@ -205,6 +216,12 @@ Exceptions
 Compatibility Mode
 
 `pdf2zh example.pdf --compatible`
+
+`--skip-subset-fonts`
+
+Skip font subset
+
+`pdf2zh example.pdf --skip-subset-fonts`
 
 `--share`
 

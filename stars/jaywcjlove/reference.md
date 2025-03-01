@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 12929
+stars: 13034
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -264,6 +264,7 @@ ISO-639 语言代码
 Emoji  
 MIME types  
 Resolutions  
+时区列表  
 常见端口对照
 
 看到缺少什么了吗？
