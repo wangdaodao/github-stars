@@ -1,6 +1,6 @@
 ---
 project: core
-stars: 3110
+stars: 3124
 description: 🚀  A framework helps you quickly build AI Native IDE products.
 url: https://github.com/opensumi/core
 ---

@@ -1,6 +1,6 @@
 ---
 project: vue-splide
-stars: 331
+stars: 332
 description: The Splide component for Vue.
 url: https://github.com/Splidejs/vue-splide
 ---

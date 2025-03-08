@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 63730
+stars: 63774
 description: The official gpt4free repository | various collection of powerful language models | o3 and deepseek r1, gpt-4.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -252,6 +252,7 @@ Run the Web UI on your smartphone for easy access on the go. Check out the dedic
 -   **AsyncClient API from G4F:** /docs/async\_client
 -   **Requests API from G4F:** /docs/requests
 -   **File API from G4F:** /docs/file
+-   **PydanticAI and LangChain Integration for G4F:** /docs/pydantic\_ai
 -   **Legacy API with python modules:** /docs/legacy
 
 * * *

@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-02 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-09 06:16.
 
 📝 Hitokoto
 -----------
 
-> 每个人的心里，都有一个忘不记，却无法拥抱珍惜的人。—— 佚名
+> 你受伤的时候，我永远都在。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Dr. Anna Howard Shaw leading a suffrage parade in 1910s New York City (© Bettmann/Getty Images)_
+_Fearless Girl statue facing the New York Stock Exchange, New York City (© JOHANNES EISELE/AFP via Getty Images)_
 
 📚 My Blog posts ...
 --------------------

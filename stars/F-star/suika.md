@@ -1,6 +1,6 @@
 ---
 project: suika
-stars: 718
+stars: 722
 description: A Web Graphics Editor Built with Canvas. 基于 Canvas 实现的图形编辑器
 url: https://github.com/F-star/suika
 ---

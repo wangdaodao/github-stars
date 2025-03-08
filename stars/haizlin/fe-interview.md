@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25713
+stars: 25742
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.03.02) —— 第2147天
+🕟 今天的知识点 (2025.03.09) —— 第2154天
 --------------------------------
 
-        :one: \[jQuery\] 如何处理AJAX请求的回调函数？
+        :one: \[jQuery\] 如何使用jQuery插件（如jQuery UI）？
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2146天 (2025.03.01)  
-    1️⃣ \[jQuery\] jQuery中的$.getJSON()方法用于什么？
+-   第2153天 (2025.03.08)  
+    1️⃣ \[jQuery\] 解释jQuery UI是什么，它提供了哪些功能？
     
 -   **查看全部**
     

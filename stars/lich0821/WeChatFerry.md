@@ -1,6 +1,6 @@
 ---
 project: WeChatFerry
-stars: 5387
+stars: 5485
 description: 微信机器人，可接入DeepSeek、Gemini、ChatGPT、ChatGLM、讯飞星火、Tigerbot等大模型。微信 hook WeChat Robot Hook.
 url: https://github.com/lich0821/WeChatFerry
 ---
@@ -40,7 +40,6 @@ WeChatFerry
 -   发送图片消息
 -   发送文件消息
 -   发送卡片消息
--   发送 XML 消息
 -   发送 GIF 消息
 -   拍一拍群友
 -   转发消息
@@ -169,7 +168,7 @@ sdk.WxDestroySDK()
 
 ### 调试日志
 
-    DbgMsg("ListenMessage"); // 封装的 OutputDebugString
+    util::dbg\_msg("ListenMessage"); // 封装的 OutputDebugString
     OutputDebugString(L"ListenMessage\\n");
     MessageBox(NULL, L"ListenMessage", L"ListenMessage", 0);
 
@@ -204,9 +203,9 @@ WeChatFerry
 版本更新
 ----
 
-### v39.3.5
+### v39.4.1
 
--   代码优化
+-   修复乱码问题。
 
 点击查看更多
 
@@ -218,6 +217,14 @@ WeChatFerry
 -   `x` 是适配的微信的小版本号，从 0 开始
 -   `y` 是 `WeChatFerry` 的版本，从 0 开始
 -   `z` 是各客户端的版本，从 0 开始
+
+### v39.4.0
+
+-   重构代码，适配 `3.9.12.17`。
+
+### v39.3.5
+
+-   代码优化
 
 ### v39.3.4
 

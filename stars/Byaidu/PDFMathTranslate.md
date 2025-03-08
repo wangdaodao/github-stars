@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 17926
+stars: 18292
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -23,6 +23,7 @@ For details on how to contribute, please consult the Contribution Guide.
 Updates
 -------
 
+-   \[Mar. 3, 2025\] Experimental support for the new backend BabelDOC WebUI added as an experimental option (by @awwaawwa)
 -   \[Feb. 22 2025\] Better release CI and well-packaged windows-amd64 exe (by @awwaawwa)
 -   \[Dec. 24 2024\] The translator now supports local models on Xinference _(by @imClumsyPanda)_
 -   \[Dec. 19 2024\] Non-PDF/A documents are now supported using `-cp` _(by @reycn)_
@@ -103,7 +104,11 @@ See documentation for GUI for more details.
 
 For docker deployment on cloud service:
 
-5\. Zotero Plugin See \[Zotero PDF2zh\](https://github.com/guaguastandup/zotero-pdf2zh) for more details. 6\. Commandline
+5\. Zotero Plugin
+
+See Zotero PDF2zh for more details.
+
+6\. Commandline
 
 1.  Python installed (3.10 <= version <= 3.12)
     
@@ -271,6 +276,12 @@ configuration file
 
 `pdf2zh --serverport 7860`
 
+`--babeldoc`
+
+Use Experimental backend BabelDOC to translate
+
+`pdf2zh --babeldoc` -s openai example.pdf
+
 For detailed explanations, please refer to our document about Advanced Usage for a full list of each option.
 
 Secondary Development (APIs)
@@ -303,6 +314,8 @@ Acknowledgements
 ----------------
 
 -   Immersive Translation sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: CONTRIBUTOR\_REWARD.md
+    
+-   New backend: BabelDOC
     
 -   Document merging: PyMuPDF
     

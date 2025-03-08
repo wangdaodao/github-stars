@@ -1,6 +1,6 @@
 ---
 project: freeCodeCamp
-stars: 410597
+stars: 410952
 description: freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.
 url: https://github.com/freeCodeCamp/freeCodeCamp
 ---
@@ -242,10 +242,6 @@ The freeCodeCamp.org community is possible thanks to thousands of kind volunteer
 > #### Please follow these steps to contribute.
 
 Recent Contributions:
-
-### Platform, Build, and Deployment Status
-
-The general platform status for all our applications is available at `status.freecodecamp.org`. The build and deployment status for the code is available in our DevOps Guide.
 
 ### License
 

@@ -1,6 +1,6 @@
 ---
 project: musicn
-stars: 1691
+stars: 1694
 description: 🎵 一个可播放及下载音乐的 Node.js 命令行工具
 url: https://github.com/zonemeen/musicn
 ---

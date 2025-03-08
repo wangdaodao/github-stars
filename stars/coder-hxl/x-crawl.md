@@ -1,6 +1,6 @@
 ---
 project: x-crawl
-stars: 1654
+stars: 1660
 description: Flexible Node.js AI-assisted crawler library
 url: https://github.com/coder-hxl/x-crawl
 ---
@@ -66,7 +66,7 @@ const crawlOpenAIApp \= createCrawlOpenAI({
 })
 
 // crawlPage is used to crawl pages
-crawlApp.crawlPage('https://www.airbnb.cn/s/select\_homes').then(async (res) \=> {
+crawlApp.crawlPage('https://www.example.cn/s/select\_homes').then(async (res) \=> {
   const { page, browser } \= res.data
 
   // Wait for the element to appear on the page and get the HTML

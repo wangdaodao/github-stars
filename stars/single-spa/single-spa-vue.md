@@ -1,6 +1,6 @@
 ---
 project: single-spa-vue
-stars: 183
+stars: 185
 description: a single-spa plugin for vue.js applications
 url: https://github.com/single-spa/single-spa-vue
 ---

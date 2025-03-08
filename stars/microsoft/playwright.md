@@ -1,6 +1,6 @@
 ---
 project: playwright
-stars: 69737
+stars: 69963
 description: Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. 
 url: https://github.com/microsoft/playwright
 ---
@@ -35,7 +35,7 @@ WebKit 18.4
 
 ✅
 
-Firefox 135.0
+Firefox 136.0
 
 ✅
 

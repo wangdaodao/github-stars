@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2231
+stars: 2239
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Dr. Anna Howard Shaw leading a suffrage parade in 1910s New York City (© Bettmann/Getty Images)
+Today: Fearless Girl statue facing the New York Stock Exchange, New York City (© JOHANNES EISELE/AFP via Getty Images)
+
+2025-03-09 download 4k
+
+2025-03-08 download 4k
+
+2025-03-07 download 4k
+
+2025-03-06 download 4k
+
+2025-03-05 download 4k
+
+2025-03-04 download 4k
+
+2025-03-03 download 4k
 
 2025-03-02 download 4k
 
@@ -55,20 +69,6 @@ Today: Dr. Anna Howard Shaw leading a suffrage parade in 1910s New York City (©
 2025-02-09 download 4k
 
 2025-02-08 download 4k
-
-2025-02-07 download 4k
-
-2025-02-06 download 4k
-
-2025-02-05 download 4k
-
-2025-02-04 download 4k
-
-2025-02-03 download 4k
-
-2025-02-02 download 4k
-
-2025-02-01 download 4k
 
 ### 历史归档：
 

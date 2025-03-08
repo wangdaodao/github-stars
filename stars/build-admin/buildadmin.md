@@ -1,6 +1,6 @@
 ---
 project: buildadmin
-stars: 1514
+stars: 1524
 description: 可视化生成CRUD代码、内置WEB终端、workerman常驻内存运行支持，技术栈为Vue3.x(setup)+ThinkPHP8+TypeScript+Vite+Pinia+Element Plus，自适应多端，同时提供Web和Server端、自动注册路由、无限级菜单权限节点、全局数据回收站、字段级修改保护等等，是集颜值、实用、敏捷于一身的管理系统。
 url: https://github.com/build-admin/buildadmin
 ---
@@ -23,6 +23,8 @@ BuildAdmin
 ### 介绍
 
 🌈 基于 Vue3.x + ThinkPHP8 + TypeScript + Vite + Pinia + Element Plus 等流行技术栈的后台管理系统，支持常驻内存运行、可视化CRUD代码生成、自带WEB终端、自适应多端、同时提供Web、WebNuxt、Server端、内置全局数据回收站和字段级数据修改保护、自动注册路由、无限子级权限管理等，无需授权即可免费商用，希望能帮助大家实现快速开发。
+
+不同于分版本（pro、plus）进行收费的项目，也不同于文档基础部分需要 star，进阶部分可能又需要付费的项目；本项目强调无套路开源，强调免费共享、高质量工具和促进社会进步本身。对一个开源项目来说，代码质量和清晰的文档是毫无疑问的第一责任，本项目承诺永不对这两样做文章。为了在 star 竞赛中赢得一些不讲武德的同行，我们很需要您的 star，这将是对我们极大的鼓励与支持，但哪怕您未点亮 star 也不会影响您深度使用本项目。
 
 ### 主要特性
 

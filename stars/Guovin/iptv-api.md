@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 13854
+stars: 14048
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持IPv4/IPv6；支持自定义频道；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -33,6 +33,7 @@ English | 中文
 
 📍订阅源来自：
 
+-   Guovin/iptv-database
 -   iptv-org/iptv
 -   suxuang/myIPTV
 -   kimwang1978/collect-tv-txt
@@ -119,7 +120,7 @@ open\_hotel
 
 开启酒店源功能，关闭后所有酒店源工作模式都将关闭
 
-True
+False
 
 open\_hotel\_foodie
 
@@ -155,7 +156,7 @@ open\_multicast
 
 开启组播源功能，关闭后所有组播源工作模式都将关闭
 
-True
+False
 
 open\_multicast\_foodie
 
@@ -246,6 +247,10 @@ app\_port
 页面服务端口，用于控制页面服务的端口号
 
 8000
+
+cdn\_url
+
+CDN代理加速地址，用于订阅源、频道图标等资源的加速访问
 
 final\_file
 

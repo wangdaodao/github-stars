@@ -1,6 +1,6 @@
 ---
 project: logto
-stars: 9572
+stars: 9605
 description: 🧑‍🚀 An identity and access management (IAM) infrastructure with authentication, authorization, MFA, SSO, user management, and multi-tenancy features. Supports OAuth 2.0, OIDC, and SAML. No framework restrictions.
 url: https://github.com/logto-io/logto
 ---
@@ -8,96 +8,135 @@ url: https://github.com/logto-io/logto
 Logto
 =====
 
-Logto1 is an open-source identity and access management infrastructure for modern apps and SaaS products, supporting OIDC, OAuth 2.0 and SAML open standards for authentication and authorization.
+Logto is the open-source auth alternative to Auth0, Cognito, and Firebase Auth. It offers a complete identity solution with pre-built UI, modern protocols for authentication and authorization (OIDC/OAuth 2.0/SAML), and enterprise-grade security. Perfect for multi-device apps, SaaS products, and API services.
+
+Website | Live demo | Documentation | API | Blog | Auth Wiki | Newsletter
+
+Why Logto?
+----------
+
+Logto provides frontend-to-backend identity solutions for developers and enterprise with:
+
+-   **Logto Console**: A web-based interface for configuring and manage resources, offering a quick setup for sign-in experience and easy identity-management.
+-   **End-user experience**: Beautiful, out-of-the-box, complete authentication flows with full customization.
+-   **Logto APIs**: Logto’s backend offers a suit of APIs to facilitate various AuthN and AuthZ functionalities.
+-   **SDKs**: SDKs for 30+ frameworks, Machine-to-machine and CLI tools.
+-   **Enterprise-grade security**: MFA, SSO, RBAC, multi-tenancy isolation, and audit logs.
 
 Key features
 ------------
 
-### 🧑‍💻 Comprehensive frontend-to-backend identity solutions
+**Authentication**
 
--   Enables OpenID Connect (OIDC) based authentication and authorization with Logto SDKs.
--   Supports passwordless sign-in, along with various options like email, phone number, username, Google, Facebook, and other social sign-in methods.
--   Offers beautiful prebuilt UI with customizable options to suit your business needs.
+**Authorization**
 
-### 📦 Out-of-the-box infrastructure
+**Identity management**
 
--   Includes a ready-to-use Management API that allows you to build customized functionality on top of Logto.
--   Provides various official SDKs and guides that help you integrate your apps with Logto across multiple platforms and languages.
--   Offers flexible social and message connectors that can be used for one-click social sign-ins and customized with SAML, OAuth, and OIDC protocols.
+Email/SMS passwordless
 
-### 💻 Enterprise-ready solutions
+API protection
 
--   Implements role-based access control (RBAC) for scalable authorization.
--   Organizations is the way to build multi-tenancy apps with ease.
--   Enables user management with audit logs to track identity-related activities and maintain security.
--   Provides single sign-on (SSO) and multi-factor authentication (MFA) without coding.
+Identity federation (Omni sign-in for multiple apps)
 
-Get started
------------
+Social sign-in (OIDC/OAuth 2.0)
 
-### Logto Cloud
+User role-based access control
 
-Try Logto Cloud to start the Logto journey with zero deployment overhead.
+Multi-tenancy management (Invitation/JIT/Org-level MFA)
 
-### GitPod
+Enterprise SSO (SAML/OIDC)
 
-You can launch Logto via GitPod. Please wait for the message `App is running at https://3002-...gitpod.io` to appear in the terminal, press Command on macOS or Ctrl on Windows, then click the URL starting with `https://3002-` to continue your Logto journey.
+M2M role-based access control
 
-### Docker Compose
+User management (Profile/Invitation/Migration)
 
-Docker Compose CLI usually comes with Docker Desktop.
+MFA (TOTP/Passkey/Backup)
 
-curl -fsSL https://raw.githubusercontent.com/logto-io/logto/HEAD/docker-compose.yml | \\
-docker compose -p logto -f - up
+Organization templates
 
-### npm-init
+User Impersonation
 
-Requires Node.js `^20.9.0` + PostgreSQL `^14.0`.
+Personal access token
 
-npm init @logto
+JWT / Opaque toke validation
 
-Language support
-----------------
+Audit Logs
 
-const languages \= \['Deutsch', 'English', 'Español', 'Français', 'Italiano', '日本語', '한국어', 'Polski', 'Português', 'Русский', 'Türkçe', '简体中文', '繁體中文'\];
+OAuth consent screen
 
-Web compatibility
------------------
+Custom token claims
 
-Logto uses the default browserslist config to compile frontend projects, which is:
+Webhooks
 
-```
-> 0.5%, last 2 versions, Firefox ESR, not dead
-```
+**UI toolkit:** Prebuilt auth flows • Custom UI • Dark mode • i18n • Custom domain
 
-Bug report, feature request, feedback
--------------------------------------
+🗺️ View all features→
 
--   Our team takes security seriously, especially when it relates to identity. If you find any existing or potential security issues, please do not hesitate to email 🔒 security@logto.io.
--   About other bug reports, feature requests, and feedback, you can:
-    -   Directly 🙋 open an issue on GitHub if you find a bug.
-    -   💬 Join our Discord server to have a live chat.
-    -   📧 Subscribe to our newsletter to stay tuned on our latest articles and updates.
+Get started in 60s
+------------------
+
+Start building with Logto in minutes:
+
+-   **GitPod:** Launch Logto on GitPod. Wait for the message `App is running at https://3002-...gitpod.io` , then click the URL starting with `https://3002-` to continue.
+    
+-   **Local development:**
+    
+    # Using Docker Compose(requires Docker Desktop)
+    curl -fsSL https://raw.githubusercontent.com/logto-io/logto/HEAD/docker-compose.yml | \\
+    docker compose -p logto -f - up
+    
+    # Using Node.js (requires PostgreSQL)
+    npm init @logto
+    
+-   **Logto Cloud:** No deployment required! Get started with Logto Cloud.
+    
+
+📚 Full installation guide →
+
+Integration ecosystem
+---------------------
+
+Powered by industry-standard protocols (OIDC, OAuth, SAML), Logto empowers secure integration across your services, third-party platforms, and identity providers.
+
+**Unlimited application integration:**
+
+-   **SDKs and guides**: Android, Angular, React, Next.js, Flutter, Go, Python, Vue, and 30+ more.
+-   **Custom integration**: Traditional web, SPAs, Native apps, M2M apps, OAuth third-party apps, and SAML apps.
+
+📚 Explore quick starts →
+
+**Universal identity provider (IdP) connection:**
+
+-   **Social sign-in**: Google, Facebook, Apple, Microsoft, GitHub, Line, and more. Fully customizable via OIDC/OAuth 2.0.
+-   **Enterprise Single Sign-On**: Azure AD, Google Workspace, Okta, and more. Fully customizable via OIDC/SAML.
+
+📚 Explore all connectors →
+
+Showcase
+--------
+
+**Developer-friendly SDKs**: Install in minutes with step-by-step guides.
+
+**User-friendly auth flows**: Sign-up, sign-in, Social sign-in, Google one-tap, SSO, MFA, etc.
+
+**Multi-tenancy architecture**: organization RBAC, member invitations, just-in-time provision, etc.
+
+Support Logto
+-------------
+
+If you find Logto helpful, here's how you can support us:
+
+-   ⭐ **Star this repo** to show your support!
+-   💬 Join our Discord for live discussions.
+-   📢 Share Logto on Twitter, LinkedIn, Reddit, Telegram, WhatsApp.
+-   🏆 Write a review or tutorial on Dev.to, Medium, G2 or your blog.
+-   💬 Share your use case with us and get featured on the Logto website.
+-   🙋 Open an issue to report bugs or suggest features.
+-   💻 Contribute to Logto - we'd love your help! Check out Logto awesome of community-contributed resources.
 
 Licensing
 ---------
 
 MPL-2.0.
 
-Contributing
-------------
-
-We have a contributing guideline available. Feel free to reach out to us before coding.
-
-Resources
----------
-
--   📚 Logto docs for
--   📝 Logto blog for in-depth articles, tutorials, and updates.
--   🔗 Logto API
--   Check out our awesome list of community-contributed resources.
-
-Footnotes
----------
-
-1.  Designed by Silverhand Inc. ↩
+⬆️ Back to top

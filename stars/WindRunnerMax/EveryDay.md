@@ -1,6 +1,6 @@
 ---
 project: EveryDay
-stars: 1940
+stars: 1947
 description: 前端基础 个人博客 学习笔记
 url: https://github.com/WindRunnerMax/EveryDay
 ---
@@ -15,7 +15,7 @@ GitHub ｜ Timeline ｜ Blog ｜ Blog-SSG
 
 如果觉得还不错，点个`star`吧 😁
 
-版本库中共有`493`篇文章，总计`93507`行，`1110548`字，`3074216`字符。
+版本库中共有`493`篇文章，总计`93555`行，`1111545`字，`3076693`字符。
 
 这是一个前端小白的学习历程，如果只学习而不记录点什么那基本就等于白学了。这个版本库的名字`EveryDay`就是希望激励我能够每天学习，下面的文章就是从`2020.02.25`开始积累的文章，都是参考众多文章归纳整理学习而写的。文章包括了`HTML`基础、`CSS`基础、`JavaScript`基础与拓展、`Browser`浏览器相关、`Vue`使用与分析、`React`使用与分析、`Plugin`插件相关、`RichText`富文本、`Patterns`设计模式、`Linux`命令、`LeetCode`题解等类别，内容都是比较基础的，毕竟我也还是个小白。此外基本上每个示例都是本着能够即时运行为目标的，新建一个`HTML`文件复制之后即可在浏览器运行或者直接可以在`console`中运行。
 
@@ -296,6 +296,7 @@ Plugin
 -   从零实现的浏览器Web脚本 (_en-us_)
 -   基于Chrome扩展的浏览器事件 (_en-us_)
 -   从脚本管理器的角度审视Chrome扩展 (_en-us_)
+-   浏览器扩展开发的相关问题与解决方案 (_en-us_)
 -   基于WebRTC的局域网文件传输 (_en-us_)
 -   基于ServiceWorker的文件传输方案 (_en-us_)
 -   基于Canvas构建简历编辑器 (_en-us_)
@@ -324,8 +325,8 @@ RichText
 -   基于slate构建文档编辑器 (_en-us_)
 -   WrapNode数据结构与操作变换 (_en-us_)
 -   TS类型扩展与节点类型检查 (_en-us_)
--   Node节点与Path路径映射 (_en-us_)
 -   Decorator装饰器渲染调度 (_en-us_)
+-   Node节点与Path路径映射 (_en-us_)
 
 Patterns
 --------

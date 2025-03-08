@@ -1,6 +1,6 @@
 ---
 project: lew-ui
-stars: 1445
+stars: 1446
 description: A beautiful component library based on vue3
 url: https://github.com/lewkamtao/lew-ui
 ---
@@ -42,6 +42,7 @@ Lew UI uses the following open source libraries:
 -   VueUse: Collection of Vue Composition API utilities
 -   Day.js: Lightweight library for date manipulation
 -   Yup: Object schema validation library
+-   vue-virt-list: Virtual list
 
 We are grateful for the support these excellent open source projects provide to Lew UI.
 

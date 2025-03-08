@@ -1,11 +1,11 @@
 ---
 project: electron-egg
-stars: 1986
+stars: 2027
 description: A simple, cross platform, enterprise desktop software development framework
 url: https://github.com/dromara/electron-egg
 ---
 
-### 🎉🎉🎉 ElectronEgg v4.0.0 has been released! 🎉🎉🎉
+### 🎉🎉🎉 ElectronEgg v4 has been released! 🎉🎉🎉
 
   
 

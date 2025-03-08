@@ -1,6 +1,6 @@
 ---
 project: Paddle
-stars: 22518
+stars: 22542
 description: PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）
 url: https://github.com/PaddlePaddle/Paddle
 ---

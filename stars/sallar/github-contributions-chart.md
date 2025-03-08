@@ -1,6 +1,6 @@
 ---
 project: github-contributions-chart
-stars: 5338
+stars: 5344
 description: :octocat: Generate an image of all your Github contributions
 url: https://github.com/sallar/github-contributions-chart
 ---

@@ -1,6 +1,6 @@
 ---
 project: nw.js
-stars: 40496
+stars: 40509
 description: Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.
 url: https://github.com/nwjs/nw.js
 ---

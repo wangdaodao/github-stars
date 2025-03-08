@@ -1,6 +1,6 @@
 ---
 project: vue-waterfall
-stars: 2197
+stars: 2198
 description: A waterfall layout component for Vue.js
 url: https://github.com/MopTym/vue-waterfall
 ---
