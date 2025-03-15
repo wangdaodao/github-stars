@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 2009
+stars: 2055
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -67,26 +67,6 @@ IPV4
 
 ✔️
 
-AKTV
-
-http://aktv.top/live.m3u
-
-IPV4
-
-✔️
-
-❌
-
-YanG-1989
-
-https://raw.githubusercontent.com/YanG-1989/m3u/main/Gather.m3u
-
-IPV4
-
-✔️
-
-✔️
-
 YanG-1989
 
 https://tv.iill.top/m3u/Gather
@@ -105,7 +85,7 @@ IPV4
 
 ✔️
 
-✔️
+❌
 
 Kimentanm
 
@@ -115,7 +95,7 @@ IPV4
 
 ✔️
 
-✔️
+❌
 
 BurningC4
 
@@ -124,6 +104,16 @@ https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
 IPV4
 
 ❌
+
+❌
+
+AKTV
+
+http://aktv.space/live.m3u
+
+IPV4
+
+✔️
 
 ❌
 
@@ -222,9 +212,15 @@ http://ok321.top/ok
 
 源
 
+qist
+
+https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json
+
+源
+
 讴歌
 
-https://tv.nxog.top/m/?&jPi
+https://xn--xkkx-rp5imh.v.nxog.top/api.php?id=1
 
 源
 
@@ -270,7 +266,7 @@ http://6080.eu.org/
 
 源导航
 
-点播源容易失效和遭人举报，建议关注原发布地址。付费源不可信，毕竟不是版权方。推荐饭太硬以及他主页推荐的源。
+点播源容易失效和遭人举报，建议关注原发布地址。付费源不可信，毕竟不是版权方。推荐饭太硬以及他主页推荐的源。这些点播源一般影视（OK/FM版）都能用。
 
 饭太硬微信公众号：神秘的哥哥们 肥猫微信公众号：肥猫宝贝 OK猫开发TG 影视APP发布TG
 

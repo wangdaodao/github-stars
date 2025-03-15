@@ -1,6 +1,6 @@
 ---
 project: SingleFile
-stars: 17011
+stars: 17056
 description: Web Extension for saving a faithful copy of a complete web page in a single HTML file
 url: https://github.com/gildas-lormeau/SingleFile
 ---
@@ -218,6 +218,7 @@ Projects using/compatible with SingleFile
 -   linkding - Bookmark manager that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker: https://github.com/sissbruecker/linkding
 -   obsidian-html-plugin - Plugin for reading HTML pages in Obsidian: https://github.com/nuthrash/obsidian-html-plugin
 -   Petal Cite Web Importer - Browser extension to save PDFs and capture web pages in Petal Cite: https://github.com/ks-collab/cite-extension
+-   Pocket Search Engine - Semantic search app for Android that works entirely offline: https://play.google.com/store/apps/details?id=com.pocketsearchengine.app
 -   singlefile2trilium - Tool to save faithful copy of a web page as a Trilium note with SingleFile: https://github.com/nil0x42/singlefile2trilium
 -   SingleFileMac - Integration of SingleFile in a swift application using webkit: https://github.com/david-littlefield/SingleFileMac
 -   Trilium-SingleFile - An addon for Trilium Notes to easily import SingleFile html pages: https://github.com/rauenzi/Trilium-SingleFile

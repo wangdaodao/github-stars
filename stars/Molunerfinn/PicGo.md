@@ -1,6 +1,6 @@
 ---
 project: PicGo
-stars: 24818
+stars: 24855
 description: :rocket:A simple & beautiful tool for pictures uploading built by vue-cli-electron-builder
 url: https://github.com/Molunerfinn/PicGo
 ---

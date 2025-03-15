@@ -1,6 +1,6 @@
 ---
 project: calendar.js
-stars: 1005
+stars: 1006
 description: 中国农历（阴阳历）和西元阳历即公历互转JavaScript库
 url: https://github.com/jjonline/calendar.js
 ---

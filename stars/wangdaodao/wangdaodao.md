@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-09 06:16.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-16 06:19.
 
 📝 Hitokoto
 -----------
 
-> 你受伤的时候，我永远都在。—— 佚名
+> 如此生活30年，直到大厦崩塌。—— 万能青年旅店
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Fearless Girl statue facing the New York Stock Exchange, New York City (© JOHANNES EISELE/AFP via Getty Images)_
+_The Temple of Saturn in the Roman Forum, Rome, Italy (© Nico De Pasquale Photography/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

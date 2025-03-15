@@ -1,6 +1,6 @@
 ---
 project: Front-End-Interview-Notebook
-stars: 7517
+stars: 7521
 description: :ant:前端面试复习笔记
 url: https://github.com/CavsZhouyou/Front-End-Interview-Notebook
 ---

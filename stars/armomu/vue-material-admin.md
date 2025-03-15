@@ -1,6 +1,6 @@
 ---
 project: vue-material-admin
-stars: 632
+stars: 637
 description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM简洁、轻量的中后台管理模板 
 url: https://github.com/armomu/vue-material-admin
 ---

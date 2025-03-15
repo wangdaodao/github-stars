@@ -1,6 +1,6 @@
 ---
 project: PDFObject
-stars: 2435
+stars: 2437
 description: A lightweight JavaScript utility for dynamically embedding PDFs in HTML documents.
 url: https://github.com/pipwerks/PDFObject
 ---

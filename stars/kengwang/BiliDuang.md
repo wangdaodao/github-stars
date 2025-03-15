@@ -1,6 +1,6 @@
 ---
 project: BiliDuang
-stars: 909
+stars: 910
 description: (暂停维护) Bilibili 哔哩哔哩视频下载 C# GUI版 - 支持BV 支持4K 支持地区限制下载 支持互动视频 支持无水印 支持弹幕/字幕下载转换 支持课程下载
 url: https://github.com/kengwang/BiliDuang
 ---

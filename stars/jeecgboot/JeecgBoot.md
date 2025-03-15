@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 41765
+stars: 41849
 description: 🔥「AI 低代码平台」前后端分离 SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式 AI生成->OnlineCoding->代码生成->手工MERGE，帮助Java项目解决80%重复工作，让开发更关注业务，提高开发效率、节省成本，同时又不失灵活性
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -101,6 +101,8 @@ AIGC应用平台+知识库（研发中，即将发布）
 ----------------------
 
 > JeecgBoot 研发的AIGC应用平台+知识库大模块，是一款基于LLM大语言模型AI应用平台和 RAG 的知识库问答系统。 其直观的界面结合了 AI 流程编排、RAG 管道、知识库管理、模型管理、实时运行可观察等，让您可以快速从原型到生产，拥有AI服务能力。
+
+-   AI大模型文档： https://help.jeecg.com/aigc
 
 #### 功能特点
 

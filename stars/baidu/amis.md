@@ -1,6 +1,6 @@
 ---
 project: amis
-stars: 17849
+stars: 17907
 description: 前端低代码框架，通过 JSON 配置就能生成各种页面。
 url: https://github.com/baidu/amis
 ---

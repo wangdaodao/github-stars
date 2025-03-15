@@ -1,6 +1,6 @@
 ---
 project: web-highlighter
-stars: 913
+stars: 915
 description: ✨ A no-runtime dependency lib for text highlighting & persistence on any website ✨🖍️
 url: https://github.com/alienzhou/web-highlighter
 ---

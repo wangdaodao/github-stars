@@ -1,6 +1,6 @@
 ---
 project: myIPTV
-stars: 2134
+stars: 2235
 description: 【典藏版】高清直播源涵盖几乎所有卫视节目，内置完美台标加节目预告
 url: https://github.com/suxuang/myIPTV
 ---
@@ -42,6 +42,10 @@ url: https://github.com/suxuang/myIPTV
 🆕更新日志
 ------
 
+-   2025/03/12：港澳台AKTV回归
+    
+-   2025/03/11：新增北京IPTV
+    
 -   2025/02/24：日常更新维护
     
 -   2025/02/10：修复了央视等部分直播频道

@@ -1,6 +1,6 @@
 ---
 project: wechat-bot
-stars: 7781
+stars: 7903
 description: 🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 url: https://github.com/wangrongding/wechat-bot
 ---
@@ -254,6 +254,8 @@ AUTO\_REPLY\_PREFIX=''
 $ docker build . -t wechat-bot
 
 $ docker run -d --rm --name wechat-bot -v $(pwd)/.env:/app/.env wechat-bot
+
+-   如果docker build过程中node反复下载超时，可先下载nodejs镜像到本地镜像库，并将DockerFile中的'node:19'修改为本地nodejs镜像版本
 
 Star History Chart
 ------------------

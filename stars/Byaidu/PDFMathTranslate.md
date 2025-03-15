@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 18292
+stars: 18735
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -228,6 +228,12 @@ Skip font subset
 
 `pdf2zh example.pdf --skip-subset-fonts`
 
+`--ignore-cache`
+
+Ignore translate cache
+
+`pdf2zh example.pdf --ignore-cache`
+
 `--share`
 
 Public link
@@ -287,10 +293,9 @@ For detailed explanations, please refer to our document about Advanced Usage for
 Secondary Development (APIs)
 ----------------------------
 
-For downstream applications, please refer to our document about API Details for futher information about:
+The current pdf2zh API is temporarily deprecated. The API will be provided again after pdf2zh 2.0 is released. For users who need programmatic access, please use the `babeldoc.high_level.async_translate` function of BabelDOC.
 
--   Python API, how to use the program in other Python programs
--   HTTP API, how to communicate with a server with the program installed
+This API being temporarily deprecated means: the relevant code will not be removed for now, but no technical support will be provided, and no bug fixes will be made.
 
 TODOs
 -----
