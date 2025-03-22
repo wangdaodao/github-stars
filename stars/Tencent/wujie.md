@@ -1,6 +1,6 @@
 ---
 project: wujie
-stars: 4380
+stars: 4400
 description: 极致的微前端框架
 url: https://github.com/Tencent/wujie
 ---

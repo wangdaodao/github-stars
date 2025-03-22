@@ -1,6 +1,6 @@
 ---
 project: lsky-pro
-stars: 4302
+stars: 4312
 description: ☁️兰空图床(Lsky Pro) - Your photo album on the cloud.
 url: https://github.com/lsky-org/lsky-pro
 ---

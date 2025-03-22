@@ -1,6 +1,6 @@
 ---
 project: verdaccio
-stars: 16753
+stars: 16769
 description: A lightweight Node.js private proxy registry
 url: https://github.com/verdaccio/verdaccio
 ---
@@ -635,7 +635,8 @@ Contributors
 
 This project exists thanks to all the people who contribute. \[Contribute\].
 
-### FAQ / Contact / Troubleshoot
+FAQ / Contact / Troubleshoot
+----------------------------
 
 If you have any issue you can try the following options. Do no hesitate to ask or check our issues database. Perhaps someone has asked already what you are looking for.
 
@@ -648,8 +649,9 @@ If you have any issue you can try the following options. Do no hesitate to ask o
 -   Docker Examples
 -   FAQ
 
-### License
+License
+-------
 
 Verdaccio is MIT licensed
 
-The Verdaccio documentation and logos (excluding /thanks, e.g., .md, .png, .sketch) files within the /assets folder) is Creative Commons licensed.
+The Verdaccio documentation and logos (excluding /thanks, e.g., .md, .png, .sketch files within the /assets folder) are Creative Commons licensed.

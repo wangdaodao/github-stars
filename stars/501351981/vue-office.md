@@ -1,6 +1,6 @@
 ---
 project: vue-office
-stars: 4453
+stars: 4492
 description: 支持word(.docx)、excel(.xlsx,.xls)、pdf、pptx等各类型office文件预览的vue组件集合，提供一站式office文件预览方案，支持vue2和3，也支持React等非Vue框架。Web-based pdf, excel, word, pptx preview library
 url: https://github.com/501351981/vue-office
 ---

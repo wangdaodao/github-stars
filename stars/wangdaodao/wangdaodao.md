@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-16 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-23 06:19.
 
 📝 Hitokoto
 -----------
 
-> 如此生活30年，直到大厦崩塌。—— 万能青年旅店
+> 这就是好奇的代价！—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_The Temple of Saturn in the Roman Forum, Rome, Italy (© Nico De Pasquale Photography/Getty Images)_
+_Water lilies at the surface of Cenote Nicte-Ha, Tulum, Mexico (© Franco Banfi/NPL/Minden Pictures)_
 
 📚 My Blog posts ...
 --------------------

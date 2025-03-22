@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 41849
+stars: 41968
 description: 🔥「AI 低代码平台」前后端分离 SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式 AI生成->OnlineCoding->代码生成->手工MERGE，帮助Java项目解决80%重复工作，让开发更关注业务，提高开发效率、节省成本，同时又不失灵活性
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -29,6 +29,8 @@ JeecgBoot 提供了一系列 `AI能力` `低代码模块`，实现在线开发`�
 ----
 
 JeecgBoot AI低代码平台，可以应用在任何J2EE项目的开发中，支持信创国产化（默认适配达梦和人大金仓）。尤其适合SAAS项目、企业信息管理系统（MIS）、内部办公系统（OA）、企业资源计划系统（ERP）、客户关系管理系统（CRM）等，其半智能手工Merge的开发方式，可以显著提高开发效率70%以上，极大降低开发成本。
+
+### 视频介绍
 
 #### 项目说明
 

@@ -1,6 +1,6 @@
 ---
 project: action-dynamic-readme
-stars: 43
+stars: 44
 description: ~ Dynamic ReadME Generator ~
 url: https://github.com/varunsridharan/action-dynamic-readme
 ---

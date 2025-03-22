@@ -1,6 +1,6 @@
 ---
 project: date-holidays
-stars: 954
+stars: 955
 description: worldwide holidays
 url: https://github.com/commenthol/date-holidays
 ---
@@ -370,7 +370,7 @@ Countries: 198
 ├── KR: 대한민국
 ├── KY: Cayman Islands
 ├── LC: St. Lucia
-├── LI: Lichtenstein
+├── LI: Liechtenstein
 ├── LR: Liberia
 ├── LS: \'Muso oa Lesotho
 ├── LT: Lietuva

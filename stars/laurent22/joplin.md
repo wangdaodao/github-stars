@@ -1,6 +1,6 @@
 ---
 project: joplin
-stars: 48178
+stars: 48293
 description: Joplin - the privacy-focused note taking app with sync capabilities for Windows, macOS, Linux, Android and iOS.
 url: https://github.com/laurent22/joplin
 ---
@@ -81,6 +81,10 @@ Support Forum
 
 This is the main place for general discussion about Joplin, user support, software development questions, and to discuss new features. Also where the latest beta versions are released and discussed.
 
+Patreon page
+
+The latest news are often posted there
+
 Bluesky feed
 
 Follow us on Bluesky
@@ -89,9 +93,9 @@ Mastodon feed
 
 Follow us on Mastodon
 
-Patreon page
+YouTube
 
-The latest news are often posted there
+Discover information and tutorials on how to use the apps
 
 Discord server
 

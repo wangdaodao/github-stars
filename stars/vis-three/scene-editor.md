@@ -1,6 +1,6 @@
 ---
 project: scene-editor
-stars: 395
+stars: 398
 description: vis-three框架衍生出的全自定义web3D场景编辑器
 url: https://github.com/vis-three/scene-editor
 ---

@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 3571
+stars: 3626
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---
@@ -9,12 +9,6 @@ AutoDev for Intellij
 ====================
 
 > 🧙‍AutoDev: The AI-powered coding wizard with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent feature 🧪 included! 🚀
-
-VSCode Version: https://github.com/unit-mesh/auto-dev-vscode
-
-Quick Start →
-
-🆕🆕🆕: New AI agent language: https://github.com/phodal/shire
 
 AutoDev 2.0 Sketch - the Cursor Composer in Intellij IDEA
 ---------------------------------------------------------
@@ -65,9 +59,19 @@ Real-time flowchart preview/edit with bidirectional binding
 
 UML diagram editor with bidirectional code-diagram synchronization
 
+**PlanSketch**
+
+Display AutoDev Planner planning for resolving code issues
+
 `*` means requires additional plugin installation.
 
 ### Unite Your Dev Ecosystem, Create Your AI Copilot
+
+VSCode Version: https://github.com/unit-mesh/auto-dev-vscode
+
+Quick Start →
+
+🆕🆕🆕: New AI agent language: https://github.com/phodal/shire
 
 ### Demos
 
@@ -132,7 +136,7 @@ DeepSeek 6.7B
 
 AutoDev Coder
 
-AutoDev Coder\](https://openbayes.com/console/phodal/models/rCmer1KQSgp/9/overview)
+AutoDev Coder
 
 Language Features
 -----------------
@@ -224,12 +228,6 @@ Precision Test Generation
 ✅
 
 Precision Code Generation
-
-✅
-
-✅
-
-AutoCRUD
 
 ✅
 

@@ -1,6 +1,6 @@
 ---
 project: github-stars
-stars: 18
+stars: 19
 description: 获取你所有的星标仓库，并将它们的 README 文件保存为 Markdown 格式。
 url: https://github.com/ccbikai/github-stars
 ---

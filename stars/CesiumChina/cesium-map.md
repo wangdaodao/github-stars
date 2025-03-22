@@ -1,6 +1,6 @@
 ---
 project: cesium-map
-stars: 588
+stars: 591
 description: Cesium 地图插件，用于添加国内各大地图厂商的栅格地图🌎
 url: https://github.com/CesiumChina/cesium-map
 ---

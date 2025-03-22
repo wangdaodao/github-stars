@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2258
+stars: 2276
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: The Temple of Saturn in the Roman Forum, Rome, Italy (© Nico De Pasquale Photography/Getty Images)
+Today: Water lilies at the surface of Cenote Nicte-Ha, Tulum, Mexico (© Franco Banfi/NPL/Minden Pictures)
+
+2025-03-23 download 4k
+
+2025-03-22 download 4k
+
+2025-03-21 download 4k
+
+2025-03-20 download 4k
+
+2025-03-19 download 4k
+
+2025-03-18 download 4k
+
+2025-03-17 download 4k
 
 2025-03-16 download 4k
 
@@ -55,20 +69,6 @@ Today: The Temple of Saturn in the Roman Forum, Rome, Italy (© Nico De Pasquale
 2025-02-23 download 4k
 
 2025-02-22 download 4k
-
-2025-02-21 download 4k
-
-2025-02-20 download 4k
-
-2025-02-19 download 4k
-
-2025-02-18 download 4k
-
-2025-02-17 download 4k
-
-2025-02-16 download 4k
-
-2025-02-15 download 4k
 
 ### 历史归档：
 

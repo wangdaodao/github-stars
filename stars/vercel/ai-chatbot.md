@@ -1,6 +1,6 @@
 ---
 project: ai-chatbot
-stars: 13999
+stars: 14222
 description: A full-featured, hackable Next.js AI chatbot built by Vercel
 url: https://github.com/vercel/ai-chatbot
 ---
@@ -23,7 +23,7 @@ Features
 -   AI SDK
     -   Unified API for generating text, structured objects, and tool calls with LLMs
     -   Hooks for building dynamic chat and generative user interfaces
-    -   Supports OpenAI (default), Anthropic, Cohere, and other model providers
+    -   Supports xAI (default), OpenAI, Fireworks, and other model providers
 -   shadcn/ui
     -   Styling with Tailwind CSS
     -   Component primitives from Radix UI for accessibility and flexibility
@@ -36,7 +36,7 @@ Features
 Model Providers
 ---------------
 
-This template ships with OpenAI `gpt-4o` as the default. However, with the AI SDK, you can switch LLM providers to OpenAI, Anthropic, Cohere, and many more with just a few lines of code.
+This template ships with xAI `grok-2-1212` as the default chat model. However, with the AI SDK, you can switch LLM providers to OpenAI, Anthropic, Cohere, and many more with just a few lines of code.
 
 Deploy Your Own
 ---------------
@@ -48,7 +48,7 @@ Running locally
 
 You will need to use the environment variables defined in `.env.example` to run Next.js AI Chatbot. It's recommended you use Vercel Environment Variables for this, but a `.env` file is all that is necessary.
 
-> Note: You should not commit your `.env` file or it will expose secrets that will allow others to control access to your various OpenAI and authentication provider accounts.
+> Note: You should not commit your `.env` file or it will expose secrets that will allow others to control access to your various AI and authentication provider accounts.
 
 1.  Install Vercel CLI: `npm i -g vercel`
 2.  Link local instance with Vercel and GitHub accounts (creates `.vercel` directory): `vercel link`

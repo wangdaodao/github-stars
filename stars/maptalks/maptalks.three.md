@@ -1,6 +1,6 @@
 ---
 project: maptalks.three
-stars: 595
+stars: 599
 description: A maptalks layer to render with three.js.
 url: https://github.com/maptalks/maptalks.three
 ---

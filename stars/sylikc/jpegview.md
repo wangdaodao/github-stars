@@ -1,6 +1,6 @@
 ---
 project: jpegview
-stars: 2408
+stars: 2425
 description: Fork of JPEGView by David Kleiner - fast and highly configurable viewer/editor for JPEG, BMP, PNG, WEBP, TGA, GIF and TIFF images with a minimal GUI.  Basic on-the-fly image processing is provided - allowing adjusting typical parameters as sharpness, color balance, rotation, perspective, contrast and local under-/overexposure.
 url: https://github.com/sylikc/jpegview
 ---

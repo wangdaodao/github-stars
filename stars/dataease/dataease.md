@@ -1,6 +1,6 @@
 ---
 project: dataease
-stars: 19566
+stars: 19673
 description: 🔥 人人可用的开源 BI 工具，数据可视化神器。
 url: https://github.com/dataease/dataease
 ---

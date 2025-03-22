@@ -1,6 +1,6 @@
 ---
 project: Cloud189Checkin
-stars: 409
+stars: 418
 description: 天翼网盘自动签到
 url: https://github.com/wes-lin/Cloud189Checkin
 ---
@@ -16,10 +16,12 @@ Cloud189Checkin
 请勿直接修改 .env，然后提交到 github，源码仓库是公开的，别人可以直接看到你的账号密码。因为错误使用本仓库导致账号密码泄漏，并且在使用这个脚本出现账户异常情况，本人概不负责！！！
 
 **目录**
-------
+======
 
 -   GitHub Action 运行
 -   本地运行
+-   设置推送
+-   玄武-青龙面板
 -   其他环境集成
 -   交流群
 -   更新内容
@@ -51,33 +53,49 @@ GitHub Action 运行
 
 -   `TY_FAMILIES` 需要签到的主账号家庭名称,可以添加多个主账号如\["18xxxxx","17xxxx"\] 例如目前我的家庭组是18xxxxx,目前有三个账号,那么这个三个账号签到奖励都会汇集到主账号上, TY\_FAMILIES 需要配置成\["189xxxxx"\],注意是你的家庭组的全名,我这里这是一个例子,因为客户端会将你名称打星号处理了,所以你要点app上的编辑家庭名称,来获取完整名称然后填到该变量上.
 
-### 设置推送
+设置推送
+----
 
-#### Server 酱
+### Server 酱
 
 为了考虑到不同客户端兼容性,采用了 Server 酱,只需多配置下 SENDKEY 就行,Server 酱的配置和 sendkey 的获取可参看Server 酱官网
 
-#### TelegramBot 推送
+### TelegramBot 推送
 
 -   `TELEGRAM_BOT_TOKEN` _Telegram Bot Token_
 -   `TELEGRAM_CHAT_ID` _Telegram 接收推送消息的会话 ID_
 
-#### 微信群机器人推送
+### 微信群机器人推送
 
 -   `WECOM_BOT_KEY` _微信群机器人 webhook_
 -   `WECOM_BOT_TELPHONE` _接收推送手机号_ 群机器人配置说明
 
-#### WxPusher 推送
+### WxPusher 推送
 
 -   `WX_PUSHER_APP_TOKEN` _WxPuser 推送 AppToken_
 -   `WX_PUSHER_UID` _接收推送 UID_ 默认使用是我的 WxPusher,你也可以改成你自己 wxPusher 开发者账户,修改 WX\_PUSHER\_APP\_TOKEN. 如果想直接使用我的 wxPush 应用,请扫描底下二维码进行关联. https://wxpusher.zjiecode.com/api/qrcode/4Ix7noqD3L7DMBoSlvig3t4hqjFWzPkdHqAYsg8IzkPreW7d8uGUHi9LJO4EcyJg.jpg 然后拿到 UID 后,把 WX\_PUSHER\_UID 配成你拿到的 UID.
 
-#### pushPlus 推送
+### PushPlus 推送
 
 -   `PUSH_PLUS_TOKEN` _pushPlus 推送 token_
 -   注册和获取 token：https://www.pushplus.plus/uc.html
 -   拿到 token 后，把 PUSH\_PLUS\_TOKEN 配成你拿到的 token.
 -   免费用户每天有 200 条推送额度
+
+### ShowDoc 推送
+
+-   `SHOWDOC_KEY` _ShowDoc 推送 key_
+-   ShowDoc 官网：https://push.showdoc.com.cn
+-   打开官网，关注公众号，拿到 key 后，把 SHOWDOC\_KEY 配成你拿到的 key
+-   使用简单、开箱可用、长期维护、持续免费、编程可玩、不限制消息数量、不限制请求数
+
+### Bark 推送 (仅支持 iPhone、iPad、M芯片Mac)
+
+-   `BARK_KEY` _Bark 推送 key_
+-   Bark 官网：https://bark.day.app/
+-   安装Bark app，开启通知权限，拿到 key 后，把 BARK\_KEY 配成你拿到的 key
+-   `可选` 支持自定义server, 配置成 BARK\_SERVER ，默认为官方通道 https://api.day.app
+-   免费、开源、轻量；使用苹果APNS服务，及时、稳定、可靠；不会消耗设备的电量，基于系统推送服务与推送扩展，app本体并不需要运行；隐私安全，可以通过一些方式确保包含作者本人在内的所有人都无法窃取你的隐私
 
 ### 执行任务
 
@@ -117,6 +135,11 @@ npm install
 执行命令
 
 npm start
+
+玄武-青龙面板
+-------
+
+### 教程
 
 其他环境集成
 ------

@@ -1,6 +1,6 @@
 ---
 project: yicon
-stars: 370
+stars: 371
 description: 可部署的矢量字体图标（IconFont）管理平台
 url: https://github.com/YMFE/yicon
 ---

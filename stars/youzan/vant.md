@@ -1,6 +1,6 @@
 ---
 project: vant
-stars: 23691
+stars: 23711
 description: A lightweight, customizable Vue UI library for mobile web apps.
 url: https://github.com/youzan/vant
 ---

@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25755
+stars: 25771
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.03.16) —— 第2161天
+🕟 今天的知识点 (2025.03.23) —— 第2168天
 --------------------------------
 
-        :one: \[jQuery\] 如何在jQuery插件中封装私有变量和方法？
+        :one: \[jQuery\] 解释jQuery中的noConflict()方法
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2160天 (2025.03.15)  
-    1️⃣ \[jQuery\] 解释jQuery插件的链式调用
+-   第2167天 (2025.03.22)  
+    1️⃣ \[jQuery\] 如何在jQuery中避免内存泄漏？
     
 -   **查看全部**
     

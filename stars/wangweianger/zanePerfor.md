@@ -1,6 +1,6 @@
 ---
 project: zanePerfor
-stars: 1770
+stars: 1769
 description: 前端性能监控系统,消息队列,高可用,集群等相关架构
 url: https://github.com/wangweianger/zanePerfor
 ---
