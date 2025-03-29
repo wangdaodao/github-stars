@@ -1,7 +1,7 @@
 ---
 project: core
-stars: 3172
-description: 🚀  A framework helps you quickly build AI Native IDE products.
+stars: 3220
+description: A framework helps you quickly build AI Native IDE products. MCP Client, supports Model Context Protocol (MCP) tools via MCP server.
 url: https://github.com/opensumi/core
 ---
 

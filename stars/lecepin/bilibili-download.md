@@ -1,6 +1,6 @@
 ---
 project: bilibili-download
-stars: 271
+stars: 273
 description: 超简单B站视频下载工具。安装即可使用，无需任何环境配置，无需登录，默认画质 1080P，mp4 格式。
 url: https://github.com/lecepin/bilibili-download
 ---

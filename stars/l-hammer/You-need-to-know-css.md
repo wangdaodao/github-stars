@@ -1,6 +1,6 @@
 ---
 project: You-need-to-know-css
-stars: 5395
+stars: 5400
 description: 💄CSS tricks for web developers~
 url: https://github.com/l-hammer/You-need-to-know-css
 ---

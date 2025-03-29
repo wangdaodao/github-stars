@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2276
+stars: 2289
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Water lilies at the surface of Cenote Nicte-Ha, Tulum, Mexico (© Franco Banfi/NPL/Minden Pictures)
+Today: Superbloom in Carrizo Plain National Monument, California (© Robb Hirsch/TANDEM Stills + Motion)
+
+2025-03-30 download 4k
+
+2025-03-29 download 4k
+
+2025-03-28 download 4k
+
+2025-03-27 download 4k
+
+2025-03-26 download 4k
+
+2025-03-25 download 4k
+
+2025-03-24 download 4k
 
 2025-03-23 download 4k
 
@@ -55,20 +69,6 @@ Today: Water lilies at the surface of Cenote Nicte-Ha, Tulum, Mexico (© Franco 
 2025-03-02 download 4k
 
 2025-03-01 download 4k
-
-2025-02-28 download 4k
-
-2025-02-27 download 4k
-
-2025-02-26 download 4k
-
-2025-02-25 download 4k
-
-2025-02-24 download 4k
-
-2025-02-23 download 4k
-
-2025-02-22 download 4k
 
 ### 历史归档：
 

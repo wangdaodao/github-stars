@@ -1,6 +1,6 @@
 ---
 project: alova
-stars: 3184
+stars: 3247
 description: Workflow-Streamlined next-generation request tools. Extremely streamline API integration workflow, just one step
 url: https://github.com/alovajs/alova
 ---

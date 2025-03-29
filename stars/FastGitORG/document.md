@@ -1,6 +1,6 @@
 ---
 project: document
-stars: 288
+stars: 287
 description: 📄 FastGit Document
 url: https://github.com/FastGitORG/document
 ---

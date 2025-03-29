@@ -1,6 +1,6 @@
 ---
 project: Utils.js
-stars: 196
+stars: 197
 description: Useful JavaScript Functions Collection 一些很实用的JavaScript函数封装集合
 url: https://github.com/dragonir/Utils.js
 ---

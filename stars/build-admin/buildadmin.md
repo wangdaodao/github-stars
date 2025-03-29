@@ -1,6 +1,6 @@
 ---
 project: buildadmin
-stars: 1549
+stars: 1553
 description: 可视化生成CRUD代码、内置WEB终端、workerman常驻内存运行支持，技术栈为Vue3.x(setup)+ThinkPHP8+TypeScript+Vite+Pinia+Element Plus，自适应多端，同时提供Web和Server端、自动注册路由、无限级菜单权限节点、全局数据回收站、字段级修改保护等等，是集颜值、实用、敏捷于一身的管理系统。
 url: https://github.com/build-admin/buildadmin
 ---
@@ -64,7 +64,7 @@ BuildAdmin
 -   问答社区：ask.buildadmin.com
 -   官方网站：uni.buildadmin.com
 -   文档：doc.buildadmin.com
--   加群：687903819（已满）、751852082
+-   加群：687903819（>960/1000）、751852082（>1990/2000）、1039646575
 -   Gitee仓库、GitHub仓库
 -   官方邮箱 hi@buildadmin.com
 

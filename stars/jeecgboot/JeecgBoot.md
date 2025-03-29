@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 41968
+stars: 42068
 description: 🔥「AI 低代码平台」前后端分离 SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式 AI生成->OnlineCoding->代码生成->手工MERGE，帮助Java项目解决80%重复工作，让开发更关注业务，提高开发效率、节省成本，同时又不失灵活性
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -8,7 +8,7 @@ url: https://github.com/jeecgboot/JeecgBoot
 JeecgBoot AI低代码平台
 =================
 
-当前最新版本： 3.7.3（发布日期：2025-02-10）
+当前最新版本： 3.7.4（预计发布日期：2025-04-10，代码逐步提交）
 
 项目介绍
 ----
@@ -29,8 +29,6 @@ JeecgBoot 提供了一系列 `AI能力` `低代码模块`，实现在线开发`�
 ----
 
 JeecgBoot AI低代码平台，可以应用在任何J2EE项目的开发中，支持信创国产化（默认适配达梦和人大金仓）。尤其适合SAAS项目、企业信息管理系统（MIS）、内部办公系统（OA）、企业资源计划系统（ERP）、客户关系管理系统（CRM）等，其半智能手工Merge的开发方式，可以显著提高开发效率70%以上，极大降低开发成本。
-
-### 视频介绍
 
 #### 项目说明
 
@@ -61,6 +59,8 @@ JeecgBoot AI低代码平台，可以应用在任何J2EE项目的开发中，支�
 -   新手指南： 快速入门 | 入门视频
 -   QQ交流群 ： ⑩716488839、⑨808791225(满)、其他(满)
 -   **关注微信公众号，获取最新动态**
+
+### 视频介绍
 
 启动项目
 ----
@@ -131,13 +131,13 @@ AIGC应用平台+知识库（研发中，即将发布）
 #### 后端
 
 -   IDE建议： IDEA (必须安装lombok插件 )
--   语言：Java (支持jdk8、jdk17)
+-   语言：Java 默认jdk17(支持jdk8、jdk21)
 -   依赖管理：Maven
 -   基础框架：Spring Boot 2.7.18
--   微服务框架： Spring Cloud Alibaba 2021.0.1.0
+-   微服务框架： Spring Cloud Alibaba 2021.0.6.2
 -   持久层框架：MybatisPlus 3.5.3.2
--   报表工具： JimuReport 1.9.4
--   安全框架：Apache Shiro 1.12.0，Jwt 3.11.0
+-   报表工具： JimuReport 1.9.5
+-   安全框架：Apache Shiro 1.13.0，Jwt 3.11.0
 -   微服务技术栈：Spring Cloud Alibaba、Nacos、Gateway、Sentinel、Skywalking
 -   数据库连接池：阿里巴巴Druid 1.1.24
 -   AI大模型：支持 `ChatGPT` `DeepSeek`切换
@@ -162,7 +162,9 @@ AIGC应用平台+知识库（研发中，即将发布）
 
 `( 因为Vite6 需要 Node.js 18 / 20+ )`
 
-#### 支持库
+#### 平台支持数据库
+
+> jeecgboot平台支持以下数据库，默认我们只提供mysql脚本，其他数据库可以参考转库文档自己转。
 
 数据库
 
@@ -188,10 +190,6 @@ MariaDB
 
 √
 
-MariaDB
-
-√
-
 达梦
 
 √
@@ -201,6 +199,10 @@ MariaDB
 √
 
 TiDB
+
+√
+
+kingbase8
 
 √
 

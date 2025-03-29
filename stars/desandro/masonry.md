@@ -1,6 +1,6 @@
 ---
 project: masonry
-stars: 16547
+stars: 16552
 description: :love_hotel: Cascading grid layout plugin
 url: https://github.com/desandro/masonry
 ---

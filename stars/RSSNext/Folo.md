@@ -1,12 +1,14 @@
 ---
 project: Folo
-stars: 23591
+stars: 24595
 description: 🧡 Follow everything in one place
 url: https://github.com/RSSNext/Folo
 ---
 
 ### Folo
 
+     
+  
   
   
   
@@ -77,6 +79,15 @@ This isn’t just another app. Folo is a community — introducing a new era of 
 ---------------
 
 You are welcome to join the open source community to build together, please check our Contributing Guide for more details.
+
+🔏 Code signing policy
+----------------------
+
+Folo for Windows uses free code signing provided by SignPath.io, certificate by SignPath Foundation.
+
+Folo for macOS and iOS are signed and notarized by Apple Developer Program.
+
+All released files are verified with GitHub artifact attestations to ensure their provenance and integrity.
 
 📝 License
 ----------

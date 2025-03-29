@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-23 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-30 06:19.
 
 📝 Hitokoto
 -----------
 
-> 这就是好奇的代价！—— 佚名
+> 就算天塌下来变成一片废墟，他的脸色也不会有丝毫变化。—— 叔本华
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Water lilies at the surface of Cenote Nicte-Ha, Tulum, Mexico (© Franco Banfi/NPL/Minden Pictures)_
+_Superbloom in Carrizo Plain National Monument, California (© Robb Hirsch/TANDEM Stills + Motion)_
 
 📚 My Blog posts ...
 --------------------

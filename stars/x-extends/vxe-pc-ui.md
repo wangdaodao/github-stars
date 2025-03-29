@@ -1,6 +1,6 @@
 ---
 project: vxe-pc-ui
-stars: 121
+stars: 123
 description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
@@ -121,6 +121,8 @@ QQ 交流群
 -   result 结果
 -   row 行
 -   select 下拉框
+-   spilt 分割面板
+-   spilt-pane 分割面板-面板
 -   slider 滑块
 -   steps 步骤条
 -   switch 开关

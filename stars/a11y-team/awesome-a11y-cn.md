@@ -1,6 +1,6 @@
 ---
 project: awesome-a11y-cn
-stars: 175
+stars: 176
 description: 无障碍知识库，来自公众号「无障碍设计小组」讨论群，知乎专栏「无障碍，是每个人都被世界善待」https://www.zhihu.com/column/a11y-ux
 url: https://github.com/a11y-team/awesome-a11y-cn
 ---

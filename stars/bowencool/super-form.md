@@ -1,6 +1,6 @@
 ---
 project: super-form
-stars: 387
+stars: 388
 description: 【Vue】超级表单&动态渲染
 url: https://github.com/bowencool/super-form
 ---

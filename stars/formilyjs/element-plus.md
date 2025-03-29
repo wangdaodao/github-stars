@@ -1,6 +1,6 @@
 ---
 project: element-plus
-stars: 96
+stars: 97
 description: Formily Element Plus Adaptor
 url: https://github.com/formilyjs/element-plus
 ---

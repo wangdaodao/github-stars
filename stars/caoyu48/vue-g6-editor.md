@@ -1,6 +1,6 @@
 ---
 project: vue-g6-editor
-stars: 813
+stars: 812
 description: vue+g6 3.0实现的editor 由于g6-editor不开源 自己撸了一个
 url: https://github.com/caoyu48/vue-g6-editor
 ---

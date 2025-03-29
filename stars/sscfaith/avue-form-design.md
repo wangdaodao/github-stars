@@ -1,6 +1,6 @@
 ---
 project: avue-form-design
-stars: 1265
+stars: 1268
 description: 本项目是一款基于 Avue 的表单设计器，拖拽式操作让你快速构建一个表单。
 url: https://github.com/sscfaith/avue-form-design
 ---

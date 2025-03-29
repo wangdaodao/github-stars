@@ -1,6 +1,6 @@
 ---
 project: TVBoxOSC
-stars: 12876
+stars: 12941
 description: null
 url: https://github.com/o0HalfLife0o/TVBoxOSC
 ---
@@ -14,5 +14,5 @@ Credits
 This repo relies on the following third-party projects:
 
 -   CatVodTVOfficial/TVBoxOSC
--   q215613905/TVBoxOS (Updated: 3f6d787c0080160cdd4ec241e0700493421b5c68)
--   takagen99/Box (Updated: 29a26a1450be2aa3cee9e3926a8acb970c70156f)
+-   q215613905/TVBoxOS (Updated: d80c5102c390b31dcc8d156e9dc9432184046c4e)
+-   takagen99/Box (Updated: 570c10d36b9f146963b4a1bb0f76b4b0d88409b5)

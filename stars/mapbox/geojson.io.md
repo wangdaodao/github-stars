@@ -1,6 +1,6 @@
 ---
 project: geojson.io
-stars: 1977
+stars: 1982
 description: A quick, simple tool for creating, viewing, and sharing spatial data
 url: https://github.com/mapbox/geojson.io
 ---

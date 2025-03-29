@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25771
+stars: 25787
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.03.23) —— 第2168天
+🕟 今天的知识点 (2025.03.26) —— 第2171天
 --------------------------------
 
-        :one: \[jQuery\] 解释jQuery中的noConflict()方法
+        :one: \[jQuery\] 解释jQuery中的$.proxy()方法
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2167天 (2025.03.22)  
-    1️⃣ \[jQuery\] 如何在jQuery中避免内存泄漏？
+-   第2170天 (2025.03.25)  
+    1️⃣ \[jQuery\] 如何使用jQuery实现延迟执行和定时执行？
     
 -   **查看全部**
     

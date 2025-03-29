@@ -1,6 +1,6 @@
 ---
 project: iptv
-stars: 3241
+stars: 3298
 description: iptv最新可用直播源iptv4/iptv6。直播电视系统，这里有折腾好了的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
@@ -19,14 +19,14 @@ default
 
 最新IPTV直播源|每日更新|免费电视直播源|Github开源项目
 
-最新免费开源的IPTV电视直播源，支持IPv4/IPv6双栈访问，每6小时自动更新，永久免费。收录国内、海外、港澳台等上千个iptv电视直播源频道。
+最新免费开源的IPTV电视直播源,支持IPv4/IPv6双栈访问,每6小时自动更新。收录国内外数千个高清直播频道,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持EPG节目单及台标,可用于电视盒子、手机、电脑等设备。
 
 IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.izbds.top
 
 /
 
 ✯ 这是一个国内可直连的iptv直播源分享项目 ✯
-=========================
+-------------------------
 
 ### 🔄永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
 
@@ -40,9 +40,41 @@ IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直�
 
 * * *
 
+### 📡 自动扫描直播源 IPTV4
+
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-03-30 00:40:10
+
+名称
+
+网址
+
+快速复制
+
+TXT 格式直播源
+
+https://live.izbds.com/tv/iptv4.txt
+
+快速复制
+
+M3U 格式直播源（已带台标和EPG）
+
+https://live.izbds.com/tv/iptv4.m3u
+
+快速复制
+
+\*有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问\*
+
+```
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
+```
+
+```
+https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
+```
+
 ### 📡 自动扫描直播源 IPTV6
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-03-23 00:45:42
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-03-30 00:40:10
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 
@@ -74,38 +106,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ```
 https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u
-```
-
-### 📡 自动扫描直播源 IPTV4
-
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-03-23 00:45:42
-
-名称
-
-网址
-
-快速复制
-
-TXT 格式直播源
-
-https://live.izbds.com/tv/iptv4.txt
-
-快速复制
-
-M3U 格式直播源（已带台标和EPG）
-
-https://live.izbds.com/tv/iptv4.m3u
-
-快速复制
-
-\*有地方的宽带运营商已经污染本站域名了，如果你打开失败，请使用加速地址访问\*
-
-```
-https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.txt
-```
-
-```
-https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
 ```
 
 ### 💽DEMO
