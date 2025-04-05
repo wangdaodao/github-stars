@@ -1,6 +1,6 @@
 ---
 project: fe-algorithm
-stars: 15
+stars: 16
 description: null
 url: https://github.com/ReadyPlayer67/fe-algorithm
 ---

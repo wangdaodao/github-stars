@@ -1,6 +1,6 @@
 ---
 project: editor
-stars: 668
+stars: 688
 description: Umo Editor is an open-source document editor, based on Vue3 and Tiptap.
 url: https://github.com/umodoc/editor
 ---
@@ -8,66 +8,61 @@ url: https://github.com/umodoc/editor
 中文介绍
 ====
 
-Umo Editor 是一个基于 Vue3 和 Tiptap 的适合于国人使用的本土化开源文档编辑器。Umo Editor 提供完善的文档编辑能力和 AI 创作能力，支持分页，支持 Markdown 语法，支持基础的富文本编辑功能，支持多种插入多种格式的节点类型、提供了多种类型的实用工具，并支持设置页面的样式，支持导出多种类型的格式，支持打印和打印预览，支持文档块编辑，支持添加自定义扩展，支持多语言设置，支持暗色主题。
-
-详细介绍见： README.zh-CN.md
+Umo Editor 是一个基于 Vue3 和 Tiptap 的本土化开源文档编辑器，专为国人用户设计。它提供了强大的文档编辑能力和 AI 创作功能，支持分页模式、Markdown 语法、富文本编辑、多种格式的节点插入、页面样式设置、文档导出与打印等功能。此外，Umo Editor 还支持自定义扩展、多语言设置和暗色主题。
 
 Introduction
-============
+------------
 
-Umo Editor is open-source document editor based on Vue3 and Tiptap. Umo Editor provides comprehensive document editing capabilities and AI creation features, supports pagination, supports Markdown syntax, offers basic rich text editing functions, allows for the insertion of various node types in multiple formats, provides a variety of practical tools, and supports setting page styles. It also supports exporting in various formats, printing and print preview, block-level document editing, adding custom extensions, multi-language settings, and a dark theme.
+Umo Editor is an open-source document editor based on Vue3 and Tiptap. It provides powerful document editing capabilities and AI-assisted creation features. Umo Editor supports pagination, Markdown syntax, rich text editing, insertion of various node types, page style settings, document export, and printing. Additionally, it supports custom extensions, multi-language settings, and a dark theme.
 
-As a standalone Vue3 plugin, Umo Editor can be easily integrated into any Vue3 project with zero configuration. For non-Vue3 projects, you can embed Umo Editor using an Iframe.
+As an independent Vue3 plugin, Umo Editor can be easily integrated into various Vue3 projects with zero configuration. For non-Vue3 projects, you can embed Umo Editor into your project via an iframe.
 
-Documentation | 中文文档 | Live Demo | GitHub | NPM
+Documentation | 中文文档 | Playground | GitHub | NPM
 
 Online Experience
 -----------------
 
-Visit Playground for a fast experience.
+Visit Playground to try Umo Editor.
 
 Documentation
 -------------
 
-Please visit Documentation.
+Please visit Documentation for detailed instructions.
 
 Design Philosophy
 -----------------
 
-The birth of Umo Editor aims to address the complexity of document editing in web applications, providing open-source and free powerful editing capabilities and pagination modes similar to Microsoft Word for web projects, while maintaining the convenience of web applications. Whether it's government and enterprise information management systems, academic research writing, team document collaboration, knowledge base management, or personal note organization, Umo Editor can be your capable assistant.
+Umo Editor aims to simplify document editing in web applications by providing Microsoft Word-like powerful editing capabilities and pagination mode while maintaining the convenience of web applications. Whether for government and enterprise information management systems, academic research writing, team document collaboration, knowledge base management, or personal note organization, Umo Editor is your reliable assistant.
 
 Open Source Advantages
 ----------------------
 
--   **Free to Use**: As an open-source project, Umo Editor is freely available to all developers under the MIT License, with no copyright concerns.
-    
--   **Continuous Updates**: Umo Editor will continue to iterate, constantly optimizing features and enhancing user experience.
-    
--   **Customizable Development**: Open source means greater flexibility. Developers can customize the development according to project needs to create a unique document editor.
-    
+-   **Free to Use**: Umo Editor is free for all developers under the MIT License, with no copyright concerns.
+-   **Continuous Updates**: Umo Editor is continuously iterated to optimize features and enhance user experience.
+-   **Custom Development**: Open source allows developers to customize Umo Editor to meet project-specific needs.
 
-Core Features
--------------
+Key Features
+------------
 
--   Zero-config out-of-the-box usability
--   Pagination mode similar to that in Microsoft Word
+-   Zero configuration, ready to use
+-   Pagination mode similar to Microsoft Word
 -   Lightweight
--   WYSIWYG (What You See Is What You Get) throughout the process
--   Rich-text editing capabilities
+-   Full WYSIWYG editing
+-   Rich text editing
 -   Markdown syntax support
 -   Integrated practical tools
 -   Presentation mode
 -   Document export and sharing
 -   Page settings
--   AI assistant
--   Support for printing and print preview
--   Support for custom plugins
+-   AI document assistant
+-   Print and print preview support
+-   Custom extensions support
 -   Shortcut key support
 -   Theme customization
--   Multi-language settings
--   Dark mode support
+-   Multilingual settings
+-   Dark mode
 
-For more detailed introductions, see Core Features.
+For more details, see Features.
 
 Browser Support
 ---------------
@@ -111,39 +106,40 @@ All
 Node.js Version Support
 -----------------------
 
-Node.js 18.0.0 or above.
+Node.js 18.0.0 and above.
 
 Join the Community
 ------------------
 
-We encourage users to join the Umo Editor open-source community and participate in the development and improvement of the product. Whether submitting bug reports, feature requests, or code contributions, all are valuable parts of our community.
+We encourage users to join the Umo Editor open-source community and participate in the development and improvement of the product. Whether it's submitting bug reports, feature requests, or code contributions, your involvement is invaluable to our community.
 
-You can submit issues or suggestions via https://github.com/umodoc/editor/discussions.
+Submit issues or suggestions via GitHub Discussions.
 
-Or submit bug reports via https://github.com/umodoc/editor/issues.
+Report bugs via GitHub Issues.
 
-Contributing Code
------------------
+Contribute Code
+---------------
 
-The development of Umo Editor could not have been possible without the support of the community. Below is the list of contributors who have contributed code to Umo Editor. We extend our thanks to them:
+The development of Umo Editor relies on community support. Below is a list of contributors who have contributed code to Umo Editor. We thank them for their efforts:
 
 -   Umo Team: 👨‍💻 Core developers
--   Cassielxd: 💪🏻 Implemented pagination and many important features for Umo Editor
--   Na'aman Hirschfeld: 💪🏻 Enhanced TypeScript support, added tests, and provided a stronger foundation for Umo Editor's development
--   SerRashin: 🛠️ Added Russian language support for Umo Editor
--   ChenErik: 🛠️ Contributed code to Umo Editor
--   china-wangxu: 🛠️ Contributed code to Umo Editor
--   Sherman Xu: 🛠️ Contributed code to Umo Editor
+-   Cassielxd: 💪🏻 Implemented pagination and many important features
+-   china-wangxu: 💪🏻 Added many important features
+-   Na'aman Hirschfeld: 💪🏻 Enhanced TypeScript support and added tests
+-   ChenErik: 🛠️ Contributed code
+-   SerRashin: 🛠️ Added Russian language support
+-   Sunny Wisozk: 🛠️ Contributed code
+-   Sherman Xu: 🛠️ Contributed code
 
 We welcome all forms of contributions, including but not limited to submitting bug reports, feature requests, and code contributions.
 
 Contact Us
 ----------
 
-If you have any questions or suggestions, please contact us through the following methods. Before that, it is recommended to read this document carefully to understand how to use Umo Editor.
+If you have any questions or suggestions, please contact us through the following channels. Before doing so, we recommend reading this documentation thoroughly to understand how to use Umo Editor.
 
--   Feedback: https://github.com/umodoc/editor/issues
--   Community: https://github.com/umodoc/editor/discussions
+-   Feedback: GitHub Issues
+-   Community: GitHub Discussions
 -   Email: contact@umodoc.com
 
 Support Us
@@ -151,10 +147,10 @@ Support Us
 
 If you find Umo Editor useful, please consider supporting us in the following ways:
 
--   ⭐ Star the Umo Editor Repository to show your support for the project.
--   🔗 If you use Umo Editor in your project, please add a link to https://github.com/umodoc/editor.
+-   ⭐ Star the Umo Editor repository to show your support.
+-   🔗 If you use Umo Editor in your project, add a link to https://github.com/umodoc/editor.
 
-License
--------
+Open Source License
+-------------------
 
-Umo Editor is licensed under the MIT License, allowing you to use, modify, and distribute the software freely.
+Umo Editor is licensed under the MIT License, allowing you to use, modify, and distribute the software for free.

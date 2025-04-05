@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 20846
+stars: 21380
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -60,7 +60,7 @@ Check the build instructions for **macOS**.
 
 Important
 
-macOS users need at least macOS 15 on Apple Silicon-based Mac devices and at least macOS 14 on Intel-based Mac devices.
+macOS users need at least macOS 15.4 to run shadPS4. Due to GPU issues there are currently heavy bugs on Intel Macs.
 
 Debugging and reporting issues
 ==============================

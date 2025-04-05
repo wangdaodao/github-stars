@@ -1,6 +1,6 @@
 ---
 project: element-pro-components
-stars: 293
+stars: 296
 description: A component library for Vue 3 base on element-plus
 url: https://github.com/tolking/element-pro-components
 ---

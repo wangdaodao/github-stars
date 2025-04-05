@@ -1,6 +1,6 @@
 ---
 project: FileSaver.js
-stars: 21827
+stars: 21829
 description: An HTML5 saveAs() FileSaver implementation
 url: https://github.com/eligrey/FileSaver.js
 ---

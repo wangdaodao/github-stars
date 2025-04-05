@@ -1,6 +1,6 @@
 ---
 project: live
-stars: 25123
+stars: 25187
 description: ✯ 可直连访问的电视/广播图标库与相关工具项目 ✯ 🔕 永久免费 直连访问 完整开源 不断完善的台标 支持IPv4/IPv6双栈访问 🔕
 url: https://github.com/fanmingming/live
 ---
@@ -27,7 +27,7 @@ url: https://github.com/fanmingming/live
 
 https://live.fanmingming.cn/tv/{name}.png
 
-2024.12.01
+2025.04.01
 
 📻广播
 
@@ -95,5 +95,5 @@ https://live.fanmingming.cn/radio/{name}.png
 📔更新
 ----
 
--   2024.12.20
-    -   由于.com域名在中国大陆无法访问，已启用镜像域名。
+-   2025.04.01
+    -   新增北京卫视4K台标。

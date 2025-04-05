@@ -1,6 +1,6 @@
 ---
 project: EveryDay
-stars: 1960
+stars: 1965
 description: 前端基础 个人博客 学习笔记
 url: https://github.com/WindRunnerMax/EveryDay
 ---

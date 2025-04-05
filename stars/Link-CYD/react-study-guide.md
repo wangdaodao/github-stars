@@ -1,6 +1,6 @@
 ---
 project: react-study-guide
-stars: 57
+stars: 58
 description: React全家桶学习指南， 用脑图加最精简的Demo，让你快速理解从JSX语法到令人痛疼的redux的所有常用的语法和API， 让react学习更加简单， 高效💪 欢迎star⭐
 url: https://github.com/Link-CYD/react-study-guide
 ---

@@ -1,6 +1,6 @@
 ---
 project: alist
-stars: 47360
+stars: 47541
 description: 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 url: https://github.com/AlistGo/alist
 ---
@@ -48,6 +48,7 @@ Features
     -   Dropbox
     -   FeijiPan
     -   dogecloud
+    -   Azure Blob Storage
 -   Easy to deploy and out-of-the-box
 -   File preview (PDF, markdown, code, plain text, ...)
 -   Image preview in gallery mode

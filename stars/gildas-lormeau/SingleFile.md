@@ -1,6 +1,6 @@
 ---
 project: SingleFile
-stars: 17202
+stars: 17250
 description: Web Extension for saving a faithful copy of a complete web page in a single HTML file
 url: https://github.com/gildas-lormeau/SingleFile
 ---
@@ -213,8 +213,9 @@ Projects using/compatible with SingleFile
 -----------------------------------------
 
 -   ArchiveBox - Open-source self-hosted web archiving: https://github.com/ArchiveBox/ArchiveBox
--   hoarder - Self-hostable bookmark-everything app (links, notes and images) with AI-based automatic tagging and full text search: https://github.com/hoarder-app/hoarder
 -   htmls-to-datasette - Tool to index HTML files into a Sqlite database: https://github.com/pjamar/htmls-to-datasette
+-   Karakeep - Self-hostable bookmark-everything app with a touch of AI: https://karakeep.app
+-   KOReader - Document viewer primarily aimed at e-ink readers: https://github.com/koreader/koreader
 -   linkding - Bookmark manager that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker: https://github.com/sissbruecker/linkding
 -   obsidian-html-plugin - Plugin for reading HTML pages in Obsidian: https://github.com/nuthrash/obsidian-html-plugin
 -   Org-Dex.el - Emacs package designed to enhance Org-mode by integrating SingleFile CLI: https://github.com/nitincodery/org-dex.el

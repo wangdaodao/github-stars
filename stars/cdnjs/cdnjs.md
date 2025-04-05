@@ -1,6 +1,6 @@
 ---
 project: cdnjs
-stars: 10463
+stars: 10473
 description: 🤖 CDN assets - The #1 free and open source CDN built to make life easier for developers.
 url: https://github.com/cdnjs/cdnjs
 ---

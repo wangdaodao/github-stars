@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 42068
+stars: 42143
 description: 🔥「AI 低代码平台」前后端分离 SpringBoot 2.x/3.x，SpringCloud，Ant Design&Vue3，Mybatis，Shiro！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式 AI生成->OnlineCoding->代码生成->手工MERGE，帮助Java项目解决80%重复工作，让开发更关注业务，提高开发效率、节省成本，同时又不失灵活性
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -8,7 +8,7 @@ url: https://github.com/jeecgboot/JeecgBoot
 JeecgBoot AI低代码平台
 =================
 
-当前最新版本： 3.7.4（预计发布日期：2025-04-10，代码逐步提交）
+当前最新版本： 3.7.4（发布日期：2025-04-07）
 
 项目介绍
 ----
@@ -24,6 +24,8 @@ JeecgBoot 提供了一系列 `AI能力` `低代码模块`，实现在线开发`�
 `JEECG业务流程:` 采用工作流来实现、扩展出任务接口，供开发编写业务逻辑，表单提供多种解决方案： 表单设计器、online配置表单、编码表单。同时实现了流程与表单的分离设计（松耦合）、并支持任务节点灵活配置，既保证了公司流程的保密性，又减少了开发人员的工作量。
 
 `AI赋能低代码:` 目前JeecgBoot支持AI大模型`ChatGPT`和`DeepSeek`，现在最新版默认使用`DeepSeek`，速度更快质量更高。目前提供了AI对话助手、AI建表、AI报表、AI写文章、AI流程编排、AI知识库问答等功能。
+
+### 视频介绍
 
 适用项目
 ----
@@ -44,7 +46,7 @@ JeecgBoot AI低代码平台，可以应用在任何J2EE项目的开发中，支�
 
 前端源码VUE3（vue3+vite6+ts最新技术栈）
 
-`jeecg-uniapp`
+`JeecgUniapp`
 
 配套APP框架 适配多个终端，支持APP、小程序、H5
 
@@ -60,26 +62,30 @@ JeecgBoot AI低代码平台，可以应用在任何J2EE项目的开发中，支�
 -   QQ交流群 ： ⑩716488839、⑨808791225(满)、其他(满)
 -   **关注微信公众号，获取最新动态**
 
-### 视频介绍
-
 启动项目
 ----
 
 -   IDEA启动前后端项目
 -   Docker一键启动前后端
 
-AI 平台支持
--------
+AIGC应用平台介绍
+----------
+
+> JeecgBoot 平台的AIGC功能模块，是一套类似`Dify`的`AIGC应用开发平台`+`知识库问答`，是一款基于LLM大语言模型AI应用平台和 RAG 的知识库问答系统。 其直观的界面结合了 AI 流程编排、RAG 管道、知识库管理、模型管理、对接向量库、实时运行可观察等，让您可以快速从原型到生产，拥有AI服务能力。
+
+-   详细点击AI专题介绍页
+-   AIGC文档： https://help.jeecg.com/aigc
 
 #### 已集成能力
 
+-   AI应用开发平台
+-   AI知识库系统
 -   AI聊天助手(智能问答)
 -   AI建表（Online表单）
 -   AI写文章（CMS）
 -   AI表单字段建议（表单设计器）
--   AI大模型支持（DeepSeek、ChatGTP、Ollama本地私有大模型等等）
 
-#### 支持AI大模型
+#### AI大模型支持
 
 AI大模型
 
@@ -93,37 +99,21 @@ ChatGTP
 
 √
 
+Qwq
+
+√
+
+智库
+
+√
+
 Ollama本地搭建大模型
 
 √
 
-AI集成文档： https://help.jeecg.com/java/ai/aichat
+等等。。
 
-AIGC应用平台+知识库（研发中，即将发布）
-----------------------
-
-> JeecgBoot 研发的AIGC应用平台+知识库大模块，是一款基于LLM大语言模型AI应用平台和 RAG 的知识库问答系统。 其直观的界面结合了 AI 流程编排、RAG 管道、知识库管理、模型管理、实时运行可观察等，让您可以快速从原型到生产，拥有AI服务能力。
-
--   AI大模型文档： https://help.jeecg.com/aigc
-
-#### 功能特点
-
--   AI流程: 提供强大的AI流程设计器引擎，支持编排 AI 工作过程，满足复杂业务场景，支持画布上构建和实时运行查看 AI流程运行情况。
--   AI流程即服务: 通过AI流程编排你需要的智能体，结合AI+自定义开发节点 实现功能性 API，让你瞬间拥有各种智能体API。
--   AI助手对话功能: 集成 ChatGPT、Deepseek、智普、私有大模型 等 AI 模型，提供智能对话和生成式 AI 功能，深度与知识库结合提供更精准的知识。
--   RAG 功能: 涵盖从文档摄入到检索的所有内容，支持从 PDF、PPT 和其他常见文档格式中提取文本，支持检索增强生成（RAG），将未训练数据与 AI 模型集成，提升智能交互能力。
--   AI 知识库: 通过导入文档或已有问答对进行训练，让 AI 模型能根据文档以交互式对话方式回答问题。
--   模型管理：支持对接各种大模型，包括本地私有大模型（Deepseek/ Llama 3 / Qwen 2 等）、国内公共大模型（通义千问 / 腾讯混元 / 字节豆包 / 百度千帆 / 智谱 AI / Kimi 等）和国外公共大模型（OpenAI / Claude / Gemini 等）；
--   无缝嵌入：Iframe一键嵌入,支持将AI聊天助手快速嵌入到第三方系统，让系统快速拥有智能问答能力，提高用户满意度。
-
-#### 功能列表（研发中）
-
--   AI模型管理
--   AI知识库
--   AI应用平台(普通、对接AI流程)
--   AI流程编排
--   AI聊天支持嵌入第三方
--   AI向量库对接
+√
 
 技术架构：
 -----
@@ -137,7 +127,7 @@ AIGC应用平台+知识库（研发中，即将发布）
 -   微服务框架： Spring Cloud Alibaba 2021.0.6.2
 -   持久层框架：MybatisPlus 3.5.3.2
 -   报表工具： JimuReport 1.9.5
--   安全框架：Apache Shiro 1.13.0，Jwt 3.11.0
+-   安全框架：Apache Shiro 1.13.0，Jwt 4.5.0
 -   微服务技术栈：Spring Cloud Alibaba、Nacos、Gateway、Sentinel、Skywalking
 -   数据库连接池：阿里巴巴Druid 1.1.24
 -   AI大模型：支持 `ChatGPT` `DeepSeek`切换

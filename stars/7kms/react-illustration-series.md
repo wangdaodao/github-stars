@@ -1,6 +1,6 @@
 ---
 project: react-illustration-series
-stars: 7704
+stars: 7711
 description: 图解react源码, 用大量配图的方式, 致力于将react原理表述清楚.
 url: https://github.com/7kms/react-illustration-series
 ---

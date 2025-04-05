@@ -1,6 +1,6 @@
 ---
 project: Cloud189Checkin
-stars: 427
+stars: 436
 description: 天翼网盘自动签到
 url: https://github.com/wes-lin/Cloud189Checkin
 ---
@@ -37,7 +37,7 @@ GitHub Action 运行
 
 ### 设置账号密码
 
-新版本的 git Action 需要创建 environment 来配合使用，创建一个名为 user 的环境,添加变量TY\_ACCOUNTS userName 和 password 为你的天翼账号和密码,可以添加多个账号如\[{"userName":"账号 1","password":"账号 1 的密码"},{"userName":"账号 2","password":"账号 2 的密码"}\] 创建好后编辑 user 环境，添加变量 TY\_ACCOUNTS
+新版本的 git Action 需要创建 environment 来配合使用，创建一个名为 user 的环境 创建好后编辑 user 环境，添加变量 TY\_ACCOUNTS userName 和 password 为你的天翼账号和密码,可以添加多个账号如\[{"userName":"账号 1","password":"账号 1 的密码"},{"userName":"账号 2","password":"账号 2 的密码"}\]
 
 如果你遇到你账号密码中有特殊字符如#$等无法解析的SyntaxError,请在你的配置中将TY\_ACCOUNTS用单引号包起来 例如'\[{"userName":"1234567890","password":"123334#$#$"}\]'
 

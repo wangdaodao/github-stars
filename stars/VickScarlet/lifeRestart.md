@@ -1,6 +1,6 @@
 ---
 project: lifeRestart
-stars: 10211
+stars: 10216
 description: やり直すんだ。そして、次はうまくやる。
 url: https://github.com/VickScarlet/lifeRestart
 ---
@@ -20,28 +20,20 @@ Usage
 
 **Web Version**  
 
-1.  Clone project code.
-
+# 1. Clone project code.
 git clone git@github.com:VickScarlet/lifeRestart.git my-project
 cd my-project
 
-1.  Installation dependence.
+# 2. Installation dependence.
+pnpm install
 
-yarn install
+# 3. Transform XLSX
+pnpm xlsx2json
 
-Or
+# 4. Start local dev server.
+pnpm dev
 
-npm install
-
-1.  Start local server.
-
-yarn dev
-
-Or
-
-npm run dev
-
-1.  After the startup is complete, will automatically open a browser and visit http://localhost:8081/view/index.html.
+After the startup is complete, open a browser and visit http://localhost:5173.
 
 **Command Line Version**  
 

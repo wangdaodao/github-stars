@@ -1,6 +1,6 @@
 ---
 project: sentry
-stars: 40417
+stars: 40490
 description: Developer-first error tracking and performance monitoring
 url: https://github.com/getsentry/sentry
 ---

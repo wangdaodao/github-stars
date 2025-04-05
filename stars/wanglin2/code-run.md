@@ -1,6 +1,6 @@
 ---
 project: code-run
-stars: 562
+stars: 563
 description: 一个代码在线编辑预览工具，类似codepen、jsbin、jsfiddle等。
 url: https://github.com/wanglin2/code-run
 ---

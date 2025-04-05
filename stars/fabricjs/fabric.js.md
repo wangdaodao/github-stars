@@ -1,6 +1,6 @@
 ---
 project: fabric.js
-stars: 29838
+stars: 29857
 description: Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 url: https://github.com/fabricjs/fabric.js
 ---
@@ -100,6 +100,10 @@ $ pnpm install fabric
 See browser modules for using es6 imports in the browser or use a dedicated bundler.
 
 #### Node.js
+
+We strongly recommend to run your applications only LTS versions of node.
+
+Said so the minimum supported version of node is 18. We bump up the minimum version of node with a Major release only when the dependencies force us to do so.
 
 Fabric.js depends on node-canvas for a canvas implementation (`HTMLCanvasElement` replacement) and jsdom for a `window` implementation on node. This means that you may encounter `node-canvas` limitations and bugs.
 

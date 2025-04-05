@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 63942
+stars: 63960
 description: The official gpt4free repository | various collection of powerful language models | o3 and deepseek r1, gpt-4.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -103,30 +103,28 @@ Is your site on this repository and you want to take it down? Send an email to t
 1.  **Install Docker:** Download and install Docker.
 2.  **Set Up Directories:** Before running the container, make sure the necessary data directories exist or can be created. For example, you can create and set ownership on these directories by running:
 
-   mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_images
-   sudo chown -R 1200:1201 ${PWD}/har\_and\_cookies ${PWD}/generated\_images
+mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_images
+sudo chown -R 1200:1201 ${PWD}/har\_and\_cookies ${PWD}/generated\_images
 
 1.  **Run the Docker Container:** Use the following commands to pull the latest image and start the container (Only x64):
 
-   docker pull hlohaus789/g4f
-   docker run -p 8080:8080 -p 7900:7900 \\
-     --shm-size="2g" \\
-     -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
-     -v ${PWD}/generated\_images:/app/generated\_images \\
-     hlohaus789/g4f:latest
+docker pull hlohaus789/g4f
+docker run -p 8080:8080 -p 7900:7900 \\
+  --shm-size="2g" \\
+  -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
+  -v ${PWD}/generated\_images:/app/generated\_images \\
+  hlohaus789/g4f:latest
 
 1.  **Running the Slim Docker Image:** And use the following commands to run the Slim Docker image. This command also updates the `g4f` package at startup and installs any additional dependencies: (x64 and arm64)
 
-  mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_images
-  chown -R 1000:1000 ${PWD}/har\_and\_cookies ${PWD}/generated\_images
-	docker run \\
-	  -p 1337:1337 \\
-	  -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
-	  -v ${PWD}/generated\_images:/app/generated\_images \\
-	  hlohaus789/g4f:latest-slim \\
-	  rm -r -f /app/g4f/ \\
-	  && pip install -U g4f\[slim\] \\
-	  && python -m g4f --debug
+mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_images
+chown -R 1000:1000 ${PWD}/har\_and\_cookies ${PWD}/generated\_images
+docker run \\
+  -p 1337:1337 \\
+  -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
+  -v ${PWD}/generated\_images:/app/generated\_images \\
+  hlohaus789/g4f:latest-slim \\
+  /bin/sh -c 'rm -rf /app/g4f && pip install -U g4f\[slim\] && python -m g4f --debug'
 
 1.  **Access the Client Interface:**
     
@@ -254,6 +252,7 @@ Run the Web UI on your smartphone for easy access on the go. Check out the dedic
 -   **File API from G4F:** /docs/file
 -   **PydanticAI and LangChain Integration for G4F:** /docs/pydantic\_ai
 -   **Legacy API with python modules:** /docs/legacy
+-   **G4F - Media Documentation** /docs/media _(New)_
 
 * * *
 

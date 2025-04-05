@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-03-30 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-06 06:20.
 
 📝 Hitokoto
 -----------
 
-> 就算天塌下来变成一片废墟，他的脸色也不会有丝毫变化。—— 叔本华
+> 云外有天，年月有歌。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Superbloom in Carrizo Plain National Monument, California (© Robb Hirsch/TANDEM Stills + Motion)_
+_Gaztelugatxe at sunset, Basque Country, Spain (© Eloi\_Omella/Getty Images)_
 
 📚 My Blog posts ...
 --------------------
