@@ -1,16 +1,16 @@
 ---
 project: ai-chatbot
-stars: 14458
+stars: 14847
 description: A full-featured, hackable Next.js AI chatbot built by Vercel
 url: https://github.com/vercel/ai-chatbot
 ---
 
-Next.js AI Chatbot
-==================
+Chat SDK
+========
 
-An Open-Source AI Chatbot Template Built With Next.js and the AI SDK by Vercel.
+Chat SDK is a free, open-source template built with Next.js and the AI SDK that helps you quickly build powerful chatbot applications.
 
-**Features** · **Model Providers** · **Deploy Your Own** · **Running locally**
+**Read Docs** · **Features** · **Model Providers** · **Deploy Your Own** · **Running locally**
 
   
 
@@ -28,9 +28,9 @@ Features
     -   Styling with Tailwind CSS
     -   Component primitives from Radix UI for accessibility and flexibility
 -   Data Persistence
-    -   Vercel Postgres powered by Neon for saving chat history and user data
+    -   Neon Serverless Postgres for saving chat history and user data
     -   Vercel Blob for efficient file storage
--   NextAuth.js
+-   Auth.js
     -   Simple and secure authentication
 
 Model Providers

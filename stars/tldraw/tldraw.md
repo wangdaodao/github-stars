@@ -1,6 +1,6 @@
 ---
 project: tldraw
-stars: 39449
+stars: 39538
 description: whiteboard SDK / infinite canvas SDK
 url: https://github.com/tldraw/tldraw
 ---
@@ -45,7 +45,7 @@ To run the local development server, first clone this repo.
 
 Enable corepack to make sure you have the right version of `yarn`:
 
-corepack enable
+npm i -g corepack
 
 Install dependencies:
 

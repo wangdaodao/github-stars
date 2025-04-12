@@ -1,6 +1,6 @@
 ---
 project: easy-flow
-stars: 818
+stars: 819
 description: 基于VUE+JsPlumb的流程设计器
 url: https://github.com/lettersporter/easy-flow
 ---

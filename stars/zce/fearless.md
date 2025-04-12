@@ -1,6 +1,6 @@
 ---
 project: fearless
-stars: 1311
+stars: 1312
 description: A dashboard scaffolding based on Vue.js 3.x & TypeScript created by Vite.
 url: https://github.com/zce/fearless
 ---

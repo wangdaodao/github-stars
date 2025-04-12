@@ -1,6 +1,6 @@
 ---
 project: vue-native-websocket
-stars: 941
+stars: 942
 description: native websocket with vuex integration
 url: https://github.com/nathantsoi/vue-native-websocket
 ---

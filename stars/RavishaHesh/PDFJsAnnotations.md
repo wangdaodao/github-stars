@@ -1,6 +1,6 @@
 ---
 project: PDFJsAnnotations
-stars: 359
+stars: 361
 description: Wrapper for PDF JS to add annotations
 url: https://github.com/RavishaHesh/PDFJsAnnotations
 ---

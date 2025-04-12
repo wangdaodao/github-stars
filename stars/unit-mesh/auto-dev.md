@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 3816
+stars: 3836
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---
@@ -87,14 +87,15 @@ AutoDev 1.0~ Feature Overview
 
 Features:
 
--   Languages support: Java, Kotlin, JavaScript/TypeScript, Rust, Python, Golang, C/C++/OC (TBC), or others...
+-   Sketch coding Agent
+    -   Agentic drive coding workflow with Sketch viewer.
 -   Auto development mode
     -   AutoCRUD (Spring framework）. With DevTi Protocol (like `devti://story/github/1102`) will auto generate Model-Controller-Service-Repository code.
     -   AutoSQL (required Database plugin). Context-aware SQL generation.
     -   AutoPage (React). Context-aware Web Page generation.
     -   AutoArkUI (HarmonyOS). Auto generate HarmonyOS ArkUI code.
-    -   AutoTesting. create unit test intention, auto run unit test and try to fix test.
-    -   AutoDocument. Auto generate document.
+    -   Auto Testing. create unit test intention, auto run unit test and try to fix test.
+    -   Auto Document. Auto generate document.
 -   Copilot mode
     -   AutoDev will help you find bug, explain code, trace exception, generate commits, and more.
     -   Pattern specific. Based on your code context like (Controller, Service `import`), AutoDev will suggest the best code to you.
@@ -165,11 +166,7 @@ Scala
 
 Rust
 
-ArkTS
-
 Chat Language Context
-
-✅
 
 ✅
 
@@ -198,8 +195,6 @@ Structure AST
 ✅
 
 Doc Generation
-
-✅
 
 ✅
 

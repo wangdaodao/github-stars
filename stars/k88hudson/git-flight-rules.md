@@ -1,6 +1,6 @@
 ---
 project: git-flight-rules
-stars: 42034
+stars: 42032
 description: Flight rules for git
 url: https://github.com/k88hudson/git-flight-rules
 ---
@@ -1691,7 +1691,7 @@ Scripts and Tools
 GUI Clients
 -----------
 
--   GitKraken - The downright luxurious Git client,for Windows, Mac & Linux
+-   GitKraken - The downright luxurious Git client, for Windows, Mac & Linux
 -   git-cola - another Git client for Windows and OS X
 -   GitUp - A newish GUI that has some very opinionated ways of dealing with Git's complications
 -   gitx-dev - another graphical Git client for OS X

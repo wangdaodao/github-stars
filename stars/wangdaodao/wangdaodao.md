@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-06 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-13 06:20.
 
 📝 Hitokoto
 -----------
 
-> 云外有天，年月有歌。—— 佚名
+> 你驻足于春色中，于那独一无二的春色之中。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Gaztelugatxe at sunset, Basque Country, Spain (© Eloi\_Omella/Getty Images)_
+_View from the cupola of the International Space Station above the South Pacific Ocean (© NASA)_
 
 📚 My Blog posts ...
 --------------------

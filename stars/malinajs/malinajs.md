@@ -1,6 +1,6 @@
 ---
 project: malinajs
-stars: 1142
+stars: 1144
 description: Frontend compiler, inspired by Svelte
 url: https://github.com/malinajs/malinajs
 ---

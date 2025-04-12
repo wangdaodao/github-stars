@@ -1,6 +1,6 @@
 ---
 project: wujie
-stars: 4413
+stars: 4439
 description: 极致的微前端框架
 url: https://github.com/Tencent/wujie
 ---
@@ -135,6 +135,7 @@ import WujieReact from "wujie-react";
 
 运行以下脚本，可以本地开发无界微前端框架，支持实时编译调试开发。
 
+nvm use v14.20.0         // 切换node版本到14版本，因为有些demo的node版本比较低
 pnpm i                  // 安装包依赖，务必使用pnpm
 npm run start           // 启动所有应用
 

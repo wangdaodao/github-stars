@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 21380
+stars: 21604
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -199,6 +199,45 @@ R3
 M
 
 Keyboard and mouse inputs can be customized in the settings menu by clicking the Controller button, and further details and help on controls are also found there. Custom bindings are saved per-game. Inputs support up to three keys per binding, mouse buttons, mouse movement mapped to joystick input, and more.
+
+Firmware files
+==============
+
+shadPS4 can load some PlayStation 4 firmware files, these must be dumped from your legally owned PlayStation 4 console.  
+The following firmware modules are supported and must be placed in shadPS4's `user/sys_modules` folder.
+
+Modules
+
+Modules
+
+Modules
+
+Modules
+
+libSceCesCs.sprx
+
+libSceFont.sprx
+
+libSceFontFt.sprx
+
+libSceFreeTypeOt.sprx
+
+libSceJson.sprx
+
+libSceJson2.sprx
+
+libSceLibcInternal.sprx
+
+libSceNgs2.sprx
+
+libSceRtc.sprx
+
+libSceUlt.sprx
+
+Caution
+
+The above modules are required to run the games properly and must be extracted from your PlayStation 4.  
+**We do not provide any information or support on how to do this**.
 
 Main team
 =========

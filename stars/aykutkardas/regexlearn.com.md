@@ -1,6 +1,6 @@
 ---
 project: regexlearn.com
-stars: 3698
+stars: 3701
 description: Learn RegEx step by step, from zero to advanced.
 url: https://github.com/aykutkardas/regexlearn.com
 ---
@@ -44,10 +44,10 @@ Embark on an exciting journey to learn and master regular expressions with **reg
 -   🇬🇪 Georgian
 -   🇮🇷 Persian
 -   🇮🇹 Italian
+-   🇸🇦 Arabic
 
 ### Requested Translations
 
--   🇦🇪 Arabic (Issue)
 -   🇧🇩 Bengali (Issue)
 -   🇻🇳 Vietnamese (Issue)
 -   🇮🇩 Indonesian (Issue)

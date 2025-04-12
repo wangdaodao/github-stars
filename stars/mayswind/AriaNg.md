@@ -1,6 +1,6 @@
 ---
 project: AriaNg
-stars: 12190
+stars: 12199
 description: AriaNg, a modern web frontend making aria2 easier to use.
 url: https://github.com/mayswind/AriaNg
 ---

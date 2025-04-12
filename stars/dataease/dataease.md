@@ -1,6 +1,6 @@
 ---
 project: dataease
-stars: 19815
+stars: 19868
 description: 🔥 人人可用的开源 BI 工具，数据可视化神器。
 url: https://github.com/dataease/dataease
 ---
@@ -53,6 +53,7 @@ curl -sSL https://dataease.oss-cn-hangzhou.aliyuncs.com/quick_start_v2.sh | bash
 
 如你有更多问题，可以查看在线文档，或者通过论坛与我们交流。
 
+-   视频介绍
 -   在线文档
 -   社区论坛
 -   案例研究

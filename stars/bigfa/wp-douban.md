@@ -1,6 +1,6 @@
 ---
 project: wp-douban
-stars: 118
+stars: 119
 description: 🎬 📖 🎵 🎮 manage your movie / book / music / game records
 url: https://github.com/bigfa/wp-douban
 ---

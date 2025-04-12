@@ -1,6 +1,6 @@
 ---
 project: chili3d
-stars: 427
+stars: 448
 description: A 3D CAD application on your browser
 url: https://github.com/xiangechen/chili3d
 ---

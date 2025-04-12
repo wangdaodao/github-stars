@@ -1,6 +1,6 @@
 ---
 project: XX-Net
-stars: 33205
+stars: 33216
 description: A proxy tool to bypass GFW.
 url: https://github.com/XX-net/XX-Net
 ---

@@ -1,6 +1,6 @@
 ---
 project: vant
-stars: 23752
+stars: 23763
 description: A lightweight, customizable Vue UI library for mobile web apps.
 url: https://github.com/youzan/vant
 ---
@@ -176,6 +176,10 @@ Nuxt _⁴_ project template based on Vant, out of the box
 mobvue
 
 A well-crafted mobile web app template
+
+novlan1/press-ui
+
+Uni APP mobile UI Components based on Vant
 
 Links
 -----

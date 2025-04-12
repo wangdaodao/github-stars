@@ -1,6 +1,6 @@
 ---
 project: ofdrw
-stars: 1500
+stars: 1507
 description: OFD Reader & Writer 开源的OFD处理库，支持文档生成、数字签名、文档保护、文档合并、转换、导出等功能，文档格式遵循《GB/T 33190-2016 电子文件存储与交换格式版式文档》。
 url: https://github.com/ofdrw/ofdrw
 ---
@@ -49,7 +49,7 @@ Maven项目引入依赖
 <dependency\>
   <groupId\>org.ofdrw</groupId\>
   <artifactId\>ofdrw-full</artifactId\>
-  <version\>2.3.5</version\>
+  <version\>2.3.6</version\>
 </dependency\>
 
 **OFDRW 将持续保证API的向下兼容，您可以放心的升级OFDRW库至最新版本。**

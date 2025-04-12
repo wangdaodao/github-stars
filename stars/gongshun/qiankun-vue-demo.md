@@ -1,6 +1,6 @@
 ---
 project: qiankun-vue-demo
-stars: 448
+stars: 449
 description: null
 url: https://github.com/gongshun/qiankun-vue-demo
 ---

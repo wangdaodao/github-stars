@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 14663
+stars: 14804
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -27,9 +27,17 @@ English | 中文
 -   📖 详细教程
 -   🗓️ 更新日志
 -   ❤️ 赞赏
--   👀 关注(更新订阅+答疑交流)
+-   👀 关注公众号
 -   📣 免责声明
 -   ⚖️ 许可证
+
+Important
+
+1.  默认数据源，如订阅源，来源于Github开源项目，仅供示例作用，可能出现稳定性问题
+2.  本项目不提供对接口结果稳定性的保证与解释
+3.  若要实现最佳的稳定性，建议自行维护数据源
+
+默认数据源
 
 📍订阅源来自：
 
@@ -64,25 +72,27 @@ English | 中文
 最新结果
 ----
 
--   接口源：
+Important
+
+以下地址国内访问可能会失败，建议在前拼接代理地址使用，公众号可回复`CDN`获取
+
+### 直播源
+
+-   默认
 
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
 
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.txt
+-   IPv6
 
-或
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
 
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u
+-   IPv4
 
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.txt
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
 
--   数据源：
+### 点播源
 
 https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
-
-或
-
-https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/source.json
 
 配置
 --
@@ -248,6 +258,12 @@ open\_history
 开启使用历史更新结果（包含模板与结果文件的接口），合并至本次更新中
 
 True
+
+open\_headers
+
+开启使用M3U内含的请求头验证信息，用于测速等操作，注意：只有个别播放器支持播放这类含验证信息的接口，默认为关闭
+
+False
 
 app\_port
 
@@ -488,7 +504,7 @@ docker run -d -p 8000:8000 guovern/iptv-api
 
 APP\_HOST
 
-服务host地址
+服务host地址，可修改使用公网域名
 
 "http://localhost"
 
@@ -555,6 +571,13 @@ ipv6 m3u接口
 测速日志
 
 -   RTMP 推流：
+
+Note
+
+1.  如果需要对本地视频源进行推流，可在`config`目录下新建`live`或`hls`（推荐）文件夹
+2.  live文件夹用于推流live接口，hls文件夹用于推流hls接口
+3.  将以`频道名称命名`的视频文件放入其中，程序会自动推流到对应的频道中
+4.  可访问 http://localhost:8080/stat 查看实时推流状态统计数据
 
 推流接口
 

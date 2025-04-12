@@ -1,6 +1,6 @@
 ---
 project: newsnow
-stars: 8007
+stars: 8515
 description: Elegant reading of real-time and hottest news
 url: https://github.com/ourongxing/newsnow
 ---
@@ -14,7 +14,7 @@ Note
 
 This is a demo version currently supporting Chinese only. A full-featured version with better customization and English content support will be released later.
 
-_**Elegant reading of real-time and hottest news**_
+**_Elegant reading of real-time and hottest news_**
 
 Features
 --------
@@ -92,7 +92,9 @@ pnpm dev
 
 ### Adding Data Sources
 
-Refer to `shared/sources` and `server/source`s directories. The project provides complete type definitions and a clean architecture.
+Refer to `shared/sources` and `server/sources` directories. The project provides complete type definitions and a clean architecture.
+
+For detailed instructions on how to add new sources, see CONTRIBUTING.md.
 
 Roadmap
 -------
@@ -101,12 +103,14 @@ Roadmap
 -   Improve **personalization options** (category-based news, saved preferences).
 -   Expand **data sources** to cover global news in multiple languages.
 
-_**release when ready**_
+**_release when ready_**
 
 Contributing
 ------------
 
 Contributions are welcome! Feel free to submit pull requests or create issues for feature requests and bug reports.
+
+See CONTRIBUTING.md for detailed guidelines on how to contribute, especially for adding new data sources.
 
 License
 -------

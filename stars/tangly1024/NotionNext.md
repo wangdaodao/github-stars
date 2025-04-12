@@ -1,6 +1,6 @@
 ---
 project: NotionNext
-stars: 9035
+stars: 9100
 description: 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.)
 url: https://github.com/tangly1024/NotionNext
 ---
@@ -10,7 +10,7 @@ url: https://github.com/tangly1024/NotionNext
 
 访问帮助：NotionNext帮助手册
 
-> 本项目教程为免费、公开资源，仅限个人学习使用。严禁任何个人或组织将本教程用于商业用途，包括但不限于直接售卖、间接收费、或其他变相盈利行为。转载、复制或介绍本教程内容时，须保留作者信息并明确注明来源。 本项目仅提供由作者团队授权的付费咨询服务，请注意辨别，谨防诈骗行为。任何未经授权的收费服务均可能存在法律风险。
+> 本项目教程为免费、公开资源，仅限个人学习使用，禁止利用本教程建立的博客发布非法内容、进行违法犯罪活动。严禁任何个人或组织将本教程用于商业用途，包括但不限于直接售卖、间接收费、或其他变相盈利行为。转载、复制或介绍本教程内容时，须保留作者信息并明确注明来源。 本项目仅提供由作者团队授权的付费咨询服务，请注意辨别，谨防诈骗行为。任何未经授权的收费服务均可能存在法律风险。
 
 Notion是一个能让效率暴涨的生产力引擎，可以帮你书写文档、管理笔记，搭建知识库，甚至可以为你规划项目、时间管理、组织团队、提高生产力、还有当前最强大的AI技术加持。
 
@@ -59,137 +59,7 @@ Craig Hart
 贡献者
 ---
 
-  
-**tangly1024**  
-🎫 🔧 🐛
-
-  
-**uWayLu**  
-🔧 🐛
-
-  
-**txs**  
-🔧 🐛
-
-  
-**yuzhanglong**  
-🔧 🐛
-
-  
-**Hscpro**  
-🔧 🐛
-
-  
-**JensonMiao**  
-🔧 🐛
-
-  
-**haixin1225**  
-🔧 🐛
-
-  
-**mouyase**  
-🔧 🐛
-
-  
-**qfdk**  
-🔧 🐛
-
-  
-**ifyz**  
-🔧 🐛
-
-  
-**Liqun Zhao**  
-🔧 🐛
-
-  
-**Ylarod**  
-🔧 🐛
-
-  
-**Etherrreal.**  
-🔧 🐛
-
-  
-**Joshua Astray**  
-🔧 🐛
-
-  
-**Vixcity**  
-🔧 🐛
-
-  
-**ipatpat**  
-🔧 🐛
-
-  
-**xloong**  
-🔧 🐛
-
-  
-**expoli**  
-🔧 🐛
-
-  
-**bUBBLE**  
-🔧 🐛
-
-  
-**派了个萌**  
-🔧 🐛
-
-  
-**Simon Shi**  
-🔧 🐛
-
-  
-**S.Y. Lee**  
-🔧 🐛
-
-  
-**fighting-buf**  
-🔧 🐛
-
-  
-**cliouo**  
-🔧 🐛
-
-  
-**Sude Akgün**  
-🔧 🐛
-
-  
-**Ray**  
-🔧 🐛
-
-  
-**Hongzzz**  
-🔧 🐛
-
-  
-**RedhairHambagu**  
-🔧 🐛
-
-  
-**Allen**  
-🔧 🐛
-
-  
-**zdf**  
-🔧 🐛
-
-  
-**emengweb**  
-🔧 🐛
-
-  
-**kitety**  
-🔧 🐛
-
-  
-**Jiaxin Peng**  
-🔧 🐛
+感谢所有为 NotionNext 做出贡献的人！
 
 引用技术
 ----

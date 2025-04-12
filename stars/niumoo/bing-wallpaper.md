@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2301
+stars: 2314
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,23 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Gaztelugatxe at sunset, Basque Country, Spain (© Eloi\_Omella/Getty Images)
+Today: View from the cupola of the International Space Station above the South Pacific Ocean (© NASA)
+
+2025-04-13 download 4k
+
+2025-04-12 download 4k
+
+2025-04-11 download 4k
+
+2025-04-10 download 4k
+
+2025-04-10 download 4k
+
+2025-04-09 download 4k
+
+2025-04-08 download 4k
+
+2025-04-07 download 4k
 
 2025-04-06 download 4k
 
@@ -53,22 +69,6 @@ Today: Gaztelugatxe at sunset, Basque Country, Spain (© Eloi\_Omella/Getty Imag
 2025-03-17 download 4k
 
 2025-03-16 download 4k
-
-2025-03-15 download 4k
-
-2025-03-14 download 4k
-
-2025-03-13 download 4k
-
-2025-03-12 download 4k
-
-2025-03-11 download 4k
-
-2025-03-10 download 4k
-
-2025-03-09 download 4k
-
-2025-03-08 download 4k
 
 ### 历史归档：
 

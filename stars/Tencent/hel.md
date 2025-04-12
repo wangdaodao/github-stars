@@ -1,6 +1,6 @@
 ---
 project: hel
-stars: 1037
+stars: 1041
 description: A module federation SDK which is unrelated to tool chain for module consumer. 工具链无关的运行时模块联邦sdk.
 url: https://github.com/Tencent/hel
 ---

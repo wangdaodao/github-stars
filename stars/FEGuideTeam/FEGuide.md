@@ -1,6 +1,6 @@
 ---
 project: FEGuide
-stars: 1187
+stars: 1186
 description: 【前端面试题+前端学习+面试指南】 一份涵盖大部分前端工程师所需要掌握的核心知识。这个项目就是为了帮助那些找工作的前端开发工程师去回顾前端的基础知识，如果你不想找工作，也可以通过查看这些面试问题去巩固你的前端技能。
 url: https://github.com/FEGuideTeam/FEGuide
 ---

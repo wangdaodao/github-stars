@@ -1,6 +1,6 @@
 ---
 project: algorithm-base
-stars: 10650
+stars: 10649
 description: 一位酷爱做饭的程序员，立志用动画将算法说的通俗易懂。我的面试网站 www.chengxuchu.com
 url: https://github.com/chefyuan/algorithm-base
 ---
