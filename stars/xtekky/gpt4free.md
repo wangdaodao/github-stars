@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 64018
+stars: 64077
 description: The official gpt4free repository | various collection of powerful language models | o3 and deepseek r1, gpt-4.5
 url: https://github.com/xtekky/gpt4free
 ---

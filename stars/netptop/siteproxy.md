@@ -1,6 +1,6 @@
 ---
 project: siteproxy
-stars: 2456
+stars: 2504
 description: reverse proxy, online proxy, 反向代理,免翻墙访问Youtube/twitter/Google, 支持github和telegram web登录(请注意不要通过不信任的代理进行登录)。支持DuckDuckGo AI Chat(可免费访问chatGPT3.5和Claude3)
 url: https://github.com/netptop/siteproxy
 ---

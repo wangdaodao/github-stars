@@ -1,6 +1,6 @@
 ---
 project: frontend-interview
-stars: 1289
+stars: 1290
 description: 前端笔试面试题题库
 url: https://github.com/jirengu/frontend-interview
 ---

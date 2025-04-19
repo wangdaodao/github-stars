@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 21604
+stars: 21817
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -243,16 +243,13 @@ Main team
 =========
 
 -   **georgemoralis**
--   **raphaelthegreat**
 -   **psucien**
--   **skmp**
--   **wheremyfoodat**
--   **raziel1000**
 -   **viniciuslrangel**
 -   **roamic**
--   **poly**
 -   **squidbus**
 -   **frodo**
+-   **Stephen Miller**
+-   **kalaposfos13**
 
 Logo is done by **Xphalnos**
 
@@ -265,7 +262,7 @@ Open a PR and we'll check it :)
 Translations
 ============
 
-If you want to translate shadPS4 to your language we use **crowdin**.
+If you want to translate shadPS4 to your language we use **Crowdin**.
 
 Contributors
 ============

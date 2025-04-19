@@ -1,6 +1,6 @@
 ---
 project: textbus
-stars: 1302
+stars: 1304
 description: Textbus 是一个组件化的、数据驱动的富文本框架，支持在线协同编辑，拥有非常好的扩展性和可定制性，可使用 Viewfly、Vue 或 React 直接渲染富文本，是构建复杂富文本的不二之选！
 url: https://github.com/textbus/textbus
 ---

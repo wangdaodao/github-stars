@@ -1,6 +1,6 @@
 ---
 project: lowcode-engine-vue
-stars: 372
+stars: 373
 description: Lowcode engine renderer and simulator for vue
 url: https://github.com/KNXCloud/lowcode-engine-vue
 ---

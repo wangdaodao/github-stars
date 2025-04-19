@@ -1,6 +1,6 @@
 ---
 project: freeCodeCamp
-stars: 416301
+stars: 416791
 description: freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.
 url: https://github.com/freeCodeCamp/freeCodeCamp
 ---

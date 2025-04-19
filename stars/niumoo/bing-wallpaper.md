@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2314
+stars: 2324
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: View from the cupola of the International Space Station above the South Pacific Ocean (© NASA)
+Today: Zion National Park, Utah (© Simon Dannhauer/Getty Images)
+
+2025-04-20 download 4k
+
+2025-04-19 download 4k
+
+2025-04-18 download 4k
+
+2025-04-17 download 4k
+
+2025-04-16 download 4k
+
+2025-04-15 download 4k
+
+2025-04-14 download 4k
 
 2025-04-13 download 4k
 
@@ -55,20 +69,6 @@ Today: View from the cupola of the International Space Station above the South P
 2025-03-24 download 4k
 
 2025-03-23 download 4k
-
-2025-03-22 download 4k
-
-2025-03-21 download 4k
-
-2025-03-20 download 4k
-
-2025-03-19 download 4k
-
-2025-03-18 download 4k
-
-2025-03-17 download 4k
-
-2025-03-16 download 4k
 
 ### 历史归档：
 

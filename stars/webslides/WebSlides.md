@@ -1,6 +1,6 @@
 ---
 project: WebSlides
-stars: 6241
+stars: 6248
 description: Create HTML presentations in seconds —
 url: https://github.com/webslides/WebSlides
 ---

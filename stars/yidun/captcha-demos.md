@@ -1,6 +1,6 @@
 ---
 project: captcha-demos
-stars: 8
+stars: 9
 description: A collection of captcha sample codes in mainstream languages and frameworks
 url: https://github.com/yidun/captcha-demos
 ---

@@ -1,12 +1,14 @@
 ---
 project: screenshot-to-code
-stars: 69509
+stars: 69598
 description: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
 url: https://github.com/abi/screenshot-to-code
 ---
 
 screenshot-to-code
 ==================
+
+**NEW! 🚀 Interested in building full-stack apps with backends and databases using AI?** Beta test our new tool for FREE.
 
 A simple tool to convert screenshots, mockups and Figma designs into clean, functional code using AI. Now supporting Claude Sonnet 3.7!
 

@@ -1,6 +1,6 @@
 ---
 project: vue2-flip-countdown
-stars: 231
+stars: 230
 description: A countdown timer with flip effect for Vue 2.x
 url: https://github.com/philipjkim/vue2-flip-countdown
 ---

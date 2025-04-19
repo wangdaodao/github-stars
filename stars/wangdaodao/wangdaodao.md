@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-13 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-20 06:20.
 
 📝 Hitokoto
 -----------
 
-> 你驻足于春色中，于那独一无二的春色之中。—— 佚名
+> 吾尝终日不食，终夜不寝，以思无益，不如学也。—— 孔子
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_View from the cupola of the International Space Station above the South Pacific Ocean (© NASA)_
+_Zion National Park, Utah (© Simon Dannhauer/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

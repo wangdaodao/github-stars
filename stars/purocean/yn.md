@@ -1,6 +1,6 @@
 ---
 project: yn
-stars: 5819
+stars: 5829
 description: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
 url: https://github.com/purocean/yn
 ---
@@ -20,7 +20,7 @@ Highlights
 ----------
 
 -   **Easy to use:** Use _Monaco_ kernel, optimize for Markdown editing, and have the same editing experience as VSCode.
--   **Powerful:** Support version control; Applets, runnable code blocks, tables, PlantUML, Drawio, macro replacements, etc., can be embedded in the document; support for OpenAI auto completion.
+-   **Powerful:** Support version control; Applets, runnable code blocks, tables, PlantUML, Drawio, macro replacements, etc., can be embedded in the document; support for AI Copilot.
 -   **High compatibility:** Data is saved as local Markdown files, and the extension functions are implemented in the original syntax of Markdown as far as possible.
 -   **Plug-in extension:** Support users to write their own plug-ins to expand the functionality of the editor.
 -   **Encryption supported:** Use encryption to save private files such as account number, and the password can be set separately for each file.

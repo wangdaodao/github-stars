@@ -1,6 +1,6 @@
 ---
 project: vue-fabric-editor
-stars: 6618
+stars: 6643
 description: 快图设计-基于fabric.js和Vue的开源图片编辑器，可自定义字体、素材、设计模板。fabric.js and Vue based image editor, can customize fonts, materials, design templates.
 url: https://github.com/ikuaitu/vue-fabric-editor
 ---
@@ -58,12 +58,17 @@ English| 中文
 使用
 --
 
-请先安装 node.js v18-v20，及 pnpm， 然后执行以下命令：
+请先安装 node.js v18-v20，及 pnpm 8.4.0， 然后执行以下命令：
 
-```
+// 安装pnpm
+npm install -g pnpm@8.4.0
+
+// 中国使用淘宝代理
+// npm install -g pnpm@8.4.0 --registry=https://registry.npmmirror.com
 pnpm i
 pnpm dev
-```
+
+重要：必须使用pnpm 8.x，高版本pnpm会导致依赖不一致出现页面运行报错。
 
 开发者服务
 -----

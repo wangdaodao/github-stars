@@ -1,14 +1,14 @@
 ---
 project: Luckysheet
-stars: 16220
+stars: 16234
 description: Luckysheet is an online spreadsheet like excel that is powerful, simple to configure, and completely open source.
 url: https://github.com/dream-num/Luckysheet
 ---
 
 English| 简体中文
 
-Luckysheet is no longer maintained, please use Univer instead!
-==============================================================
+Luckysheet is no longer maintained. It is recommended to use the upgraded version of Univer for production environment deployment. The new version solves problems such as large data loading, chart styles, pivot tables, formula calculations, etc., and has made many optimization designs, added import, export, printing, collaboration and other functions, improved table performance, and has a professional technical team to provide technical support.
+=================================================================================================================================================================================================================================================================================================================================================================================================================================================================
 
 Follow the #1454 issue for more details.
 

@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24937
+stars: 24943
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -165,10 +165,10 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `Error.isError`
         -   Stage 2.7 proposals
             -   `Iterator` sequencing
+            -   `Map` upsert
         -   Stage 2 proposals
             -   `AsyncIterator` helpers
             -   `Iterator.range`
-            -   `Map` upsert
             -   `Array.isTemplateObject`
             -   `String.dedent`
             -   `Symbol` predicates
@@ -2750,15 +2750,13 @@ core-js(-pure)/actual|full/symbol/metadata
 core-js(-pure)/actual|full/function/metadata
 ```
 
-````
+##### `Error.isError`⬆
 
-##### [`Error.isError`](https://github.com/tc39/proposal-is-error)[⬆](#index)
-Module [`esnext.error.is-error`](https://github.com/zloirock/core-js/blob/master/packages/core-js/modules/esnext.error.is-error.js)
-```ts
+Module `esnext.error.is-error`
+
 class Error {
   static isError(value: any): boolean;
 }
-````
 
 _CommonJS entry points:_
 
@@ -2810,6 +2808,44 @@ Iterator.concat(\[0, 1\].values(), \[2, 3\], function \* () {
   yield 4;
   yield 5;
 }()).toArray(); // => \[0, 1, 2, 3, 4, 5\]
+
+##### `Map` upsert⬆
+
+Modules `esnext.map.get-or-insert`, `esnext.map.get-or-insert-computed`, `esnext.weak-map.get-or-insert` and `esnext.weak-map.get-or-insert-computed`
+
+class Map {
+  getOrInsert(key: any, value: any): any;
+  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
+}
+
+class WeakMap {
+  getOrInsert(key: any, value: any): any;
+  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/map-upsert-v4
+core-js(-pure)/full/map/get-or-insert
+core-js(-pure)/full/map/get-or-insert-computed
+core-js(-pure)/full/weak-map/get-or-insert
+core-js(-pure)/full/weak-map/get-or-insert-computed
+```
+
+_Examples_:
+
+const map \= new Map(\[\['a', 1\]\]);
+
+map.getOrInsert('a', 2); // => 1
+
+map.getOrInsert('b', 3); // => 3
+
+map.getOrInsertComputed('a', key \=> key); // => 1
+
+map.getOrInsertComputed('c', key \=> key); // => 'c'
+
+console.log(map); // => Map { 'a': 1, 'b': 3, 'c': 'c' }
 
 #### Stage 2 proposals⬆
 
@@ -2924,44 +2960,6 @@ for (const i of Iterator.range(1, 10)) {
 for (const i of Iterator.range(1, 10, { step: 3, inclusive: true })) {
   console.log(i); // => 1, 4, 7, 10
 }
-
-##### `Map` upsert⬆
-
-Modules `esnext.map.get-or-insert`, `esnext.map.get-or-insert-computed`, `esnext.weak-map.get-or-insert` and `esnext.weak-map.get-or-insert-computed`
-
-class Map {
-  getOrInsert(key: any, value: any): any;
-  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
-}
-
-class WeakMap {
-  getOrInsert(key: any, value: any): any;
-  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/map-upsert-v4
-core-js(-pure)/full/map/get-or-insert
-core-js(-pure)/full/map/get-or-insert-computed
-core-js(-pure)/full/weak-map/get-or-insert
-core-js(-pure)/full/weak-map/get-or-insert-computed
-```
-
-_Examples_:
-
-const map \= new Map(\[\['a', 1\]\]);
-
-map.getOrInsert('a', 2); // => 1
-
-map.getOrInsert('b', 3); // => 3
-
-map.getOrInsertComputed('a', key \=> key); // => 1
-
-map.getOrInsertComputed('c', key \=> key); // => 'c'
-
-console.log(map); // => Map { 'a': 1, 'b': 3, 'c': 'c' }
 
 ##### `Array.isTemplateObject`⬆
 

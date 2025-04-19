@@ -5,8 +5,8 @@ description: 🍭gwm.js Generate Watermark  用于生成网页水印，警示信
 url: https://github.com/loadchange/gwm
 ---
 
-TypeScript library starter
-==========================
+gwm.js
+======
 
 > Generate Watermark
 
@@ -178,25 +178,57 @@ gwm.cancel
 
 Cancel the observer, the watermark can be hidden or deleted.
 
-The development environment using the method
---------------------------------------------
+Development Guide
+-----------------
 
-**1、Install**
+### Requirements
 
-```
+-   Node.js >= 20.0.0
+-   npm >= 9.0.0
+
+### Installation
+
+# Clone the repository
+git clone https://github.com/loadchange/gwm.git
+cd gwm
+
+# Install dependencies
 npm install
-```
 
-**2、Running projects locally**
+### Development
 
-```
+# Start development server with hot reload
 npm run dev
-```
 
-Open index.html preview effect
+### Testing
 
-**3、build command**
+# Run tests
+npm test
 
-```
+# Run tests with coverage
+npm run test:coverage
+
+# Run tests in watch mode
+npm run test:watch
+
+### Building
+
+# Build for production (includes type declarations)
 npm run build
-```
+
+构建将使用 Vite 完成，产物和类型声明均输出到 dist 目录。
+
+### Documentation
+
+# Generate documentation
+npm run deploy-docs
+
+Contributing
+------------
+
+Please read CONTRIBUTING.md for details on our code of conduct, and the process for submitting pull requests to us.
+
+License
+-------
+
+This project is licensed under the MIT License - see the LICENSE file for details.

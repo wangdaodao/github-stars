@@ -1,6 +1,6 @@
 ---
 project: editor
-stars: 708
+stars: 730
 description: Umo Editor is an open-source document editor, based on Vue3 and Tiptap.
 url: https://github.com/umodoc/editor
 ---
@@ -10,10 +10,14 @@ url: https://github.com/umodoc/editor
 
 Umo Editor 是一个基于 Vue3 和 Tiptap 的本土化开源文档编辑器，专为国人用户设计。它提供了强大的文档编辑能力和 AI 创作功能，支持分页模式、Markdown 语法、富文本编辑、多种格式的节点插入、页面样式设置、文档导出与打印等功能。此外，Umo Editor 还支持自定义扩展、多语言设置和暗色主题。
 
+Umo Editor 最大的特点是代码完全开源且自主可控，支持私有部署。您可以内网环境中使用，而无需担心数据安全问题。
+
 Introduction
 ------------
 
 Umo Editor is an open-source document editor based on Vue3 and Tiptap. It provides powerful document editing capabilities and AI-assisted creation features. Umo Editor supports pagination, Markdown syntax, rich text editing, insertion of various node types, page style settings, document export, and printing. Additionally, it supports custom extensions, multi-language settings, and a dark theme.
+
+Umo Editor's largest feature is that its code is completely open source and controllable. It supports private deployment, allowing you to use it in an intranet environment without worrying about data security issues.
 
 As an independent Vue3 plugin, Umo Editor can be easily integrated into various Vue3 projects with zero configuration. For non-Vue3 projects, you can embed Umo Editor into your project via an iframe.
 
@@ -103,10 +107,14 @@ All
 
 ❌
 
-Node.js Version Support
------------------------
+Environment Support
+-------------------
 
-Node.js 18.0.0 and above.
+-   **Node.js** (>=v18.0.0)
+-   **Vue** (>=v3.x)
+-   **Vite** (>=v4.x)
+-   **Tiptap** (>=v2.6)
+-   **TypeScript** (>=v5.5)
 
 Join the Community
 ------------------
@@ -153,4 +161,6 @@ If you find Umo Editor useful, please consider supporting us in the following wa
 Open Source License
 -------------------
 
-Umo Editor is licensed under the MIT License, allowing you to use, modify, and distribute the software for free.
+Umo Editor is licensed under the MIT License. You are free to use, modify, and distribute this software, but this does **not** mean you are allowed to remove the copyright information at will. Please retain the Umo Editor copyright notice and the link displayed in the interface. Removal of these will be considered an infringement. We encourage you to support open-source projects.
+
+If you do not wish to retain the copyright information, please contact us or consider purchasing the commercial version: Umo Editor Next.

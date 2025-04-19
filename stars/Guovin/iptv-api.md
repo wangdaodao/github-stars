@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 14804
+stars: 14942
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -201,7 +201,7 @@ False
 
 open\_rtmp
 
-开启RTMP推流功能，需要安装FFmpeg，利用本地带宽提升接口播放体验，推荐多人使用时开启，个人使用不建议开启，工作流不支持该功能
+开启RTMP推流功能，需要安装FFmpeg，利用本地带宽提升接口播放体验
 
 False
 
@@ -347,6 +347,12 @@ min\_resolution
 
 1920x1080
 
+max\_resolution
+
+接口最大分辨率，需要开启 open\_filter\_resolution 才能生效
+
+1920x1080
+
 min\_speed
 
 接口最小速率（单位M/s），需要开启 open\_filter\_speed 才能生效
@@ -409,7 +415,7 @@ sort\_duplicate\_limit
 
 相同域名接口允许重复执行次数，用于控制执行测速、获取分辨率时的重复次数，数值越大结果越准确，但耗时会增加
 
-3
+1
 
 source\_file
 

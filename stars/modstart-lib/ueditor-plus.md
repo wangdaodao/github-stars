@@ -1,6 +1,6 @@
 ---
 project: ueditor-plus
-stars: 382
+stars: 394
 description: 基于 UEditor 二次开发的富文本编辑器
 url: https://github.com/modstart-lib/ueditor-plus
 ---
@@ -190,11 +190,14 @@ export default App;
 -   众所周知 UEditor 使用的人数多，目前已经累积了N个Bug，开源不易需要大家共同维护
 -   对于在实际使用中遇到的问题，如果急需解决推荐使用 悬赏Issue，这样让更多有能力的开发者有共同维护的动力
 
-使用交流
-----
+✉️ 使用交流
+-------
 
--   QQ群：539492162
--   使用问题或者改进建议，欢迎进群交流
+> 添加好友请备注 UEditorPlus
+
+微信交流群
+
+QQ交流群
 
 二次开发
 ----
@@ -228,6 +231,9 @@ UEditor相关链接
 好项目推荐
 -----
 
+-   开源数字人系统 AigcPanel
+-   智能桌面助理 FocusAny
+-   安卓连接助手 LinkAndroid
 -   快速开发框架 ModStart
 -   企业内容建站系统 ModStartCMS
 -   现代化个人博客系统 ModStartBlog

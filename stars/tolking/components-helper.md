@@ -1,6 +1,6 @@
 ---
 project: components-helper
-stars: 36
+stars: 35
 description: Based on the docs to provide code prompt files for vue component library
 url: https://github.com/tolking/components-helper
 ---
