@@ -1,6 +1,6 @@
 ---
 project: freeCodeCamp
-stars: 416791
+stars: 417147
 description: freeCodeCamp.org's open-source codebase and curriculum. Learn to code for free.
 url: https://github.com/freeCodeCamp/freeCodeCamp
 ---
@@ -48,7 +48,7 @@ Here are our twelve core certifications:
 -   Learn Typography by Building a Nutrition Label
 -   Learn Accessibility by Building a Quiz
 -   Learn More About CSS Pseudo Selectors by Building A Balance Sheet
--   Learn Intermediate CSS by Building a Picasso Painting
+-   Learn Intermediate CSS by Building a Cat Painting
 -   Learn Responsive Web Design by Building a Piano
 -   Learn CSS Variables by Building a City Skyline
 -   Learn CSS Grid by Building a Magazine
@@ -77,7 +77,7 @@ Here are our twelve core certifications:
 -   Learn Fetch and Promises By Building an fCC Authors Page
 -   Learn Asynchronous Programming by Building an fCC Forum Leaderboard  
       
-    **Projects**: Palindrome Checker, Roman Numeral Converter, Telephone Number Validator, Cash Register, Pokémon Search App
+    **Projects**: Palindrome Checker, Roman Numeral Converter, Telephone Number Validator, Cash Register, RPG Creature Search App
 
 #### 3\. Front End Libraries Certification
 
@@ -100,7 +100,7 @@ Here are our twelve core certifications:
 #### 5\. Relational Database
 
 -   Learn Bash by Building a Boilerplate
--   Learn Relational Databases by Building a Mario Database
+-   Learn Relational Databases by Building a Database of Video Game Characters
 -   Learn Bash Scripting by Building Five Programs
 -   Learn SQL by Building a Student Database: Part 1
 -   Learn SQL by Building a Student Database: Part 2

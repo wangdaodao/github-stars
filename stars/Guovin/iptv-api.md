@@ -1,7 +1,7 @@
 ---
 project: iptv-api
-stars: 14942
-description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
+stars: 15080
+description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道与EPG；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
 
@@ -63,6 +63,7 @@ Important
 -   ✅ 自定义模板，生成您想要的频道
 -   ✅ 支持RTMP推流(live/hls)，提升播放体验
 -   ✅ 支持多种获取源方式：本地源、组播源、酒店源、订阅源、关键字搜索
+-   ✅ 支持EPG功能，显示频道预告内容
 -   ✅ 接口测速验效，获取延迟、速率、分辨率，过滤无效接口
 -   ✅ 偏好设置：IPv4、IPv6、接口来源排序优先级与数量配置、接口白名单
 -   ✅ 定时执行，北京时间每日 6:00 与 18:00 执行更新
@@ -109,6 +110,12 @@ open\_driver
 
 False
 
+open\_epg
+
+开启EPG功能，支持频道显示预告内容
+
+True
+
 open\_empty\_category
 
 开启无结果频道分类，自动归类至底部
@@ -145,12 +152,6 @@ open\_hotel\_fofa
 
 False
 
-open\_keep\_all
-
-开启保留所有检索结果，会保留非模板频道名称的结果，推荐手动维护时开启
-
-False
-
 open\_local
 
 开启本地源功能，将使用模板文件与本地源文件中的数据
@@ -184,12 +185,6 @@ False
 open\_online\_search
 
 开启关键字搜索源功能
-
-False
-
-open\_proxy
-
-开启代理，自动获取免费可用代理，若更新无数据可开启此模式
 
 False
 

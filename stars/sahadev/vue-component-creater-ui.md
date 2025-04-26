@@ -1,6 +1,6 @@
 ---
 project: vue-component-creater-ui
-stars: 792
+stars: 793
 description: 拖拽式Vue组件代码生成编辑器（VCC）
 url: https://github.com/sahadev/vue-component-creater-ui
 ---

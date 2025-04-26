@@ -1,6 +1,6 @@
 ---
 project: jekyll-theme-persephone
-stars: 210
+stars: 212
 description: A minimal jekyll theme for building books and blog.
 url: https://github.com/erlzhang/jekyll-theme-persephone
 ---

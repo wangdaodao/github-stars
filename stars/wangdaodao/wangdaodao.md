@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-20 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-27 06:20.
 
 📝 Hitokoto
 -----------
 
-> 吾尝终日不食，终夜不寝，以思无益，不如学也。—— 孔子
+> 采菊东篱下，悠然见南山。—— 陶渊明
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Zion National Park, Utah (© Simon Dannhauer/Getty Images)_
+_Grove of redwoods in Redwood National and State Parks, California (© Bob Pool/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: doubanapi
-stars: 166
+stars: 167
 description: 豆瓣API文档备份
 url: https://github.com/kxy000/doubanapi
 ---

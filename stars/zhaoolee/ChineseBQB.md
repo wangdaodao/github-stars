@@ -1,6 +1,6 @@
 ---
 project: ChineseBQB
-stars: 12428
+stars: 12438
 description: 🇨🇳 Chinese sticker pack,More joy / 表情包的博物馆, Github最有毒的仓库, 中国表情包大集合, 聚欢乐~
 url: https://github.com/zhaoolee/ChineseBQB
 ---
@@ -55,7 +55,7 @@ QQ群号
 Chinese stickers / 中国的表情包
 -------------------------
 
-表情包目录(共收录5749张表情包)Emoticon package directory (commonly included 5749 emoticon pack)
+表情包目录(共收录5767张表情包)Emoticon package directory (commonly included 5767 emoticon pack)
 -----------------------------------------------------------------------------------
 
 Example(示例)
@@ -69,6 +69,10 @@ Example(示例)
 直链下载
 
 微信网友贡献表情包\_暂存\_有时间慢慢整理BQB(已收录36张)
+
+直链下载
+
+106\_Frieren\_芙莉莲🪄\_BQB(已收录18张)
 
 直链下载
 
@@ -496,7 +500,7 @@ Example(示例)
 
 直链下载
 
-> 数据生成时间: 2024-09-29
+> 数据生成时间: 2025-04-20
 
 BQBEND
 

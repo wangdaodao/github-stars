@@ -1,6 +1,6 @@
 ---
 project: chrome_password.js
-stars: 78
+stars: 79
 description: Get username & password from Chrome.
 url: https://github.com/justjavac/chrome_password.js
 ---

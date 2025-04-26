@@ -1,6 +1,6 @@
 ---
 project: rss_everyday
-stars: 203
+stars: 204
 description: 每天向你推送你喜欢的文章
 url: https://github.com/dianbanjiu/rss_everyday
 ---

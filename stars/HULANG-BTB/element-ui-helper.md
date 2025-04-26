@@ -1,6 +1,6 @@
 ---
 project: element-ui-helper
-stars: 26
+stars: 27
 description: A VSCode extension for Element UI.
 url: https://github.com/HULANG-BTB/element-ui-helper
 ---

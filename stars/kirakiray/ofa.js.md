@@ -22,7 +22,7 @@ How to Use
 
 To start using ofa.js, simply add a reference to ofa.js in your HTML file.
 
-<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.32/dist/ofa.min.js"\></script\>
+<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.33/dist/ofa.min.js"\></script\>
 
 User Experience
 ---------------
@@ -40,7 +40,7 @@ With ofa.js, however, you can quickly create a component by just creating an HTM
 </template\>
 
 <!-- Using the encapsulated component -->
-<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.32/dist/ofa.min.js"\></script\>
+<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.5.33/dist/ofa.min.js"\></script\>
 <l-m src\="./my-component.html"\></l-m\>
 <my-component\>
     ...

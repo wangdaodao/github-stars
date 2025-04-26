@@ -1,6 +1,6 @@
 ---
 project: github-host
-stars: 385
+stars: 386
 description: auto get github host ip
 url: https://github.com/jianboy/github-host
 ---

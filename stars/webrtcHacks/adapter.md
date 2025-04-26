@@ -1,6 +1,6 @@
 ---
 project: adapter
-stars: 3685
+stars: 3687
 description: Shim to insulate apps from spec changes and prefix differences. Latest adapter.js release:
 url: https://github.com/webrtcHacks/adapter
 ---
@@ -101,3 +101,4 @@ In some cases it may be necessary to do a patch version while there are signific
 -   run `npm version patch`. This will create a new patch version and publish it on github.
 -   check out `origin/bumpVersion` branch and publish the new version using `npm publish`.
 -   the branch can now safely be deleted. It is not necessary to merge it into the main branch since it only contains cherry-picked commits.
+-   after publishing a hotﬁix use `npm dist-tag` to ensure latest still points to the highest version.

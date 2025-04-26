@@ -1,6 +1,6 @@
 ---
 project: pl-table
-stars: 1154
+stars: 1153
 description: A table based on element, 完美解决万级数据渲染卡顿问题
 url: https://github.com/parlay96/pl-table
 ---

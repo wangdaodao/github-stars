@@ -1,6 +1,6 @@
 ---
 project: chinese-gushiwen
-stars: 479
+stars: 478
 description: 中华古诗文数据库和API。包含10000首古文(诗、词、歌、赋以及其它形式的文言文)，近4000名作者，10000名句
 url: https://github.com/caoxingyu/chinese-gushiwen
 ---

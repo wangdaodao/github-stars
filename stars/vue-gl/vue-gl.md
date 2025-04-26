@@ -1,6 +1,6 @@
 ---
 project: vue-gl
-stars: 682
+stars: 683
 description: Vue.js components rendering 3D WebGL graphics reactively with three.js
 url: https://github.com/vue-gl/vue-gl
 ---

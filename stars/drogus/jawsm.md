@@ -1,6 +1,6 @@
 ---
 project: jawsm
-stars: 960
+stars: 967
 description: JavaScript to WASM compiler
 url: https://github.com/drogus/jawsm
 ---

@@ -1,7 +1,7 @@
 ---
 project: chili3d
-stars: 458
-description: A 3D CAD application on your browser
+stars: 466
+description: Web-based 3D CAD tool to design and edit models directly in your browser
 url: https://github.com/xiangechen/chili3d
 ---
 

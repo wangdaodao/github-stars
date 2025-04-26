@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2324
+stars: 2336
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Zion National Park, Utah (© Simon Dannhauer/Getty Images)
+Today: Grove of redwoods in Redwood National and State Parks, California (© Bob Pool/Getty Images)
+
+2025-04-27 download 4k
+
+2025-04-26 download 4k
+
+2025-04-25 download 4k
+
+2025-04-24 download 4k
+
+2025-04-23 download 4k
+
+2025-04-22 download 4k
+
+2025-04-21 download 4k
 
 2025-04-20 download 4k
 
@@ -55,20 +69,6 @@ Today: Zion National Park, Utah (© Simon Dannhauer/Getty Images)
 2025-03-31 download 4k
 
 2025-03-30 download 4k
-
-2025-03-29 download 4k
-
-2025-03-28 download 4k
-
-2025-03-27 download 4k
-
-2025-03-26 download 4k
-
-2025-03-25 download 4k
-
-2025-03-24 download 4k
-
-2025-03-23 download 4k
 
 ### 历史归档：
 
