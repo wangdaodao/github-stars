@@ -1,6 +1,6 @@
 ---
 project: newsnow
-stars: 9357
+stars: 9552
 description: Elegant reading of real-time and hottest news
 url: https://github.com/ourongxing/newsnow
 ---
@@ -24,6 +24,24 @@ Features
 -   GitHub OAuth login with data synchronization
 -   30-minute default cache duration (logged-in users can force refresh)
 -   Adaptive scraping interval (minimum 2 minutes) based on source update frequency to optimize resource usage and prevent IP bans
+-   support MCP server
+
+{
+  "mcpServers": {
+    "newsnow": {
+      "command": "npx",
+      "args": \[
+        "\-y",
+        "newsnow-mcp-server"
+      \],
+      "env": {
+        "BASE\_URL": "https://newsnow.busiyi.world"
+      }
+    }
+  }
+}
+
+You can change the `BASE_URL` to your own domain.
 
 Deployment
 ----------

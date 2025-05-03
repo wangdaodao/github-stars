@@ -1,6 +1,6 @@
 ---
 project: BBLL
-stars: 15732
+stars: 15874
 description: 一个第三方哔哩哔哩客户端，A third-party bilibili client。
 url: https://github.com/xiaye13579/BBLL
 ---

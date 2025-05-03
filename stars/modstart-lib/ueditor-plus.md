@@ -1,6 +1,6 @@
 ---
 project: ueditor-plus
-stars: 397
+stars: 404
 description: 基于 UEditor 二次开发的富文本编辑器
 url: https://github.com/modstart-lib/ueditor-plus
 ---

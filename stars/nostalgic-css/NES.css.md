@@ -1,6 +1,6 @@
 ---
 project: NES.css
-stars: 21058
+stars: 21060
 description: NES-style CSS Framework | ファミコン風CSSフレームワーク
 url: https://github.com/nostalgic-css/NES.css
 ---

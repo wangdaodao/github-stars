@@ -1,7 +1,7 @@
 ---
 project: boomb
-stars: 336
-description: 💣 Manage your pictures easily for Github/Gitee. 基于 Github/Gitee 轻松管理您的存储图库
+stars: 337
+description: 💣 Manage your pictures easily for Github. 基于 Github 轻松管理您的存储图库
 url: https://github.com/xjh22222228/boomb
 ---
 
@@ -10,7 +10,6 @@ url: https://github.com/xjh22222228/boomb
 特性
 --
 
--   支持 Github / Gitee
 -   无需部署，开箱即用，用完即走
 -   支持拖拽、粘贴上传
 -   多个 CDN 加速

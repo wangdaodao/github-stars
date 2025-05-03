@@ -1,6 +1,6 @@
 ---
 project: CCTV_Viewer
-stars: 2323
+stars: 2340
 description: 电视浏览器，一款简易电视视频收看软件，用于方便的在机顶盒上收看网页视频
 url: https://github.com/Eanya-Tonic/CCTV_Viewer
 ---

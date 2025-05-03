@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-04-27 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-04 06:21.
 
 📝 Hitokoto
 -----------
 
-> 采菊东篱下，悠然见南山。—— 陶渊明
+> 秋阴不散霜飞晚，留得枯荷听雨声。—— 李商隐
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Grove of redwoods in Redwood National and State Parks, California (© Bob Pool/Getty Images)_
+_The Milky Way framed by Double Arch in Arches National Park, Utah (© Adventure\_Photo/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: vue-word-highlighter
-stars: 319
+stars: 320
 description: The word highlighter library for Vue 2 and Vue 3.
 url: https://github.com/kawamataryo/vue-word-highlighter
 ---

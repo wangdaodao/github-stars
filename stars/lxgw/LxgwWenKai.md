@@ -1,6 +1,6 @@
 ---
 project: LxgwWenKai
-stars: 19901
+stars: 19956
 description: An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  
 url: https://github.com/lxgw/LxgwWenKai
 ---
@@ -55,6 +55,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 
 -   补完 CJK 统一汉字基本区 20992 个汉字、扩展 A 区 6592 个汉字 _（目前完整版有 1 万多个字形由 zi2zi 深度学习生成，字形较粗糙。）_ ；
 -   补全常用谚文（韩语/朝鲜语）音节 2376 个。 _（做得比较拙劣。轻便版不包含。）_
+-   补全 Unicode 迄今为止收录的所有谚文音节，共 11172 个。
 
 获取字体
 ----
@@ -128,7 +129,8 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 -   zi2zi\_pytorch 以及深度学习生成字形的源头字体 思源宋体；
 -   制表符、表意文字结构描述符（Ideographic Description Character, IDC）等字符借自 思源黑体；
 -   吉祥图案、CC 许可图标等字符衍生自 煮豆黑体；
--   缺字标记 `.notdef` 的「🤔」外部轮廓取自 Noto Emoji (Monochrome)。
+-   缺字标记 `.notdef` 的「🤔」外部轮廓取自 Noto Emoji (Monochrome)；
+-   @派对大魔王 的 快去写作业 字体提供全谚文拼字模板。
 
 由本字体衍生的字体
 ---------

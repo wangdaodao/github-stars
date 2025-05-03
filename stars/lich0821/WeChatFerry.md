@@ -1,6 +1,6 @@
 ---
 project: WeChatFerry
-stars: 6136
+stars: 6180
 description: 微信机器人，可接入DeepSeek、Gemini、ChatGPT、ChatGLM、讯飞星火、Tigerbot等大模型。微信 hook WeChat Robot Hook.
 url: https://github.com/lich0821/WeChatFerry
 ---
@@ -206,10 +206,9 @@ WeChatFerry
 版本更新
 ----
 
-### v39.5.1
+### v39.5.2
 
--   修复邀请进群偶发失败
--   修复获取 wxid 失败
+-   没有新功能
 
 点击查看更多
 
@@ -221,6 +220,11 @@ WeChatFerry
 -   `x` 是适配的微信的小版本号，从 0 开始
 -   `y` 是 `WeChatFerry` 的版本，从 0 开始
 -   `z` 是各客户端的版本，从 0 开始
+
+### v39.5.1
+
+-   修复邀请进群偶发失败
+-   修复获取 wxid 失败
 
 ### v39.5.0
 

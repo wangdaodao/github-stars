@@ -2,7 +2,7 @@
 project: Spring
 stars: 142
 description: 响应式TYPECHO主题
-url: https://github.com/JaydenForYou/Spring
+url: https://github.com/unsafe-ptr/Spring
 ---
 
 TYPECHO Theme - Spring

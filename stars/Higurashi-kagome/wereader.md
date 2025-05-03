@@ -1,6 +1,6 @@
 ---
 project: wereader
-stars: 741
+stars: 742
 description: 一个浏览器扩展：主要用于微信读书做笔记，对常使用 Markdown 做笔记的读者比较有帮助。
 url: https://github.com/Higurashi-kagome/wereader
 ---

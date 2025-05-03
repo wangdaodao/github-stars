@@ -1,6 +1,6 @@
 ---
 project: easy-monitor
-stars: 3113
+stars: 3115
 description: 企业级 Node.js 应用性能监控与线上故障定位解决方案
 url: https://github.com/hyj1991/easy-monitor
 ---

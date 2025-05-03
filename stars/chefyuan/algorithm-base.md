@@ -1,6 +1,6 @@
 ---
 project: algorithm-base
-stars: 10653
+stars: 10654
 description: 一位酷爱做饭的程序员，立志用动画将算法说的通俗易懂。我的面试网站 www.chengxuchu.com
 url: https://github.com/chefyuan/algorithm-base
 ---
@@ -24,7 +24,8 @@ url: https://github.com/chefyuan/algorithm-base
 
 如果你需要加入**刷题/秋招小队**的话，可以扫描下方二维码，点击与我联系/交流小队，该小队永不收费，也不会有人发广告，仅仅用作交流，但是希望大家进入时，可以备注自身情况，并做一个简短的自我介绍。
 
-* * *
+另外如果你需要 C++ 项目的话，可以看下这些项目介绍 www.chengxuchu.com/cppcamp.html
+-----------------------------------------------------------
 
 ### 📢 数据结构（前置知识）
 

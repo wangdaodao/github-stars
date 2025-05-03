@@ -1,6 +1,6 @@
 ---
 project: pdfvuer
-stars: 929
+stars: 930
 description: A PDF viewer for Vue using Mozilla's PDF.js that supports both Vue2 and Vue3
 url: https://github.com/arkokoley/pdfvuer
 ---

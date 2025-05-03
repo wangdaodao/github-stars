@@ -1,6 +1,6 @@
 ---
 project: EveryDay
-stars: 1996
+stars: 2000
 description: 前端基础 个人博客 学习笔记
 url: https://github.com/WindRunnerMax/EveryDay
 ---
@@ -286,6 +286,7 @@ Plugin
 -   Jest中Mock网络请求 (_en-us_)
 -   TS内置类型与拓展 (_en-us_)
 -   竞态问题与RxJs (_en-us_)
+-   BGF处理Git历史Blob文件 (_en-us_)
 -   基于NoCode构建简历编辑器 (_en-us_)
 -   基于drawio构建流程图编辑器 (_en-us_)
 -   初探webpack之编写plugin (_en-us_)

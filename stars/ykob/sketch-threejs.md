@@ -1,19 +1,26 @@
 ---
 project: sketch-threejs
-stars: 2404
+stars: 2407
 description: Interactive sketches made with three.js.
 url: https://github.com/ykob/sketch-threejs
 ---
+
+⚠️ Notice: This repository is no longer actively maintained or updated.
+-----------------------------------------------------------------------
+
+I have moved my development efforts and newer projects to a different location.  
+For the latest updates and new experiments, please visit my new site here:  
+✨➡️ https://ykob.github.io/threejs-experiments/ ⬅️✨
+
+Thank you for your understanding!
+
+* * *
 
 Interactive sketches made with three.js.  
 https://ykob.github.io/sketch-threejs/
 
 This code is released under the MIT license.  
 If you want to use some code, you can use these freely by adding license notation.
-
-Also, I'm accepting donations through Paypal.  
-If you can support my project, please consider that.  
-https://www.paypal.me/ykob
 
 Requirements
 ------------

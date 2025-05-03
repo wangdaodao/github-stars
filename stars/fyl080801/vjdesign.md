@@ -1,6 +1,6 @@
 ---
 project: vjdesign
-stars: 592
+stars: 593
 description: Vue 界面可视化设计器，支持任何 html 标签以及项目中引用的组件，可实现仅通过配置文件就能增加支持的组件和组件属性
 url: https://github.com/fyl080801/vjdesign
 ---

@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 15080
+stars: 15197
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道与EPG；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -45,13 +45,10 @@ Important
 -   iptv-org/iptv
 -   suxuang/myIPTV
 -   kimwang1978/collect-tv-txt
--   xzw832/cmys
 -   asdjkl6/tv
 -   yuanzl77/IPTV
 -   fanmingming/live
 -   vbskycn/iptv
--   YueChan/Live
--   YanG-1989/m3u
 
 📍频道图标来自：
 
@@ -63,6 +60,7 @@ Important
 -   ✅ 自定义模板，生成您想要的频道
 -   ✅ 支持RTMP推流(live/hls)，提升播放体验
 -   ✅ 支持多种获取源方式：本地源、组播源、酒店源、订阅源、关键字搜索
+-   ✅ 支持回放类接口获取与生成
 -   ✅ 支持EPG功能，显示频道预告内容
 -   ✅ 接口测速验效，获取延迟、速率、分辨率，过滤无效接口
 -   ✅ 偏好设置：IPv4、IPv6、接口来源排序优先级与数量配置、接口白名单
@@ -206,9 +204,9 @@ open\_service
 
 True
 
-open\_sort
+open\_speed\_test
 
-开启排序功能（响应速度、日期、分辨率）
+开启测速排序功能（响应速度、日期、分辨率）
 
 True
 
@@ -222,7 +220,7 @@ open\_supply
 
 开启补偿机制模式，用于控制当频道接口数量不足时，自动将不满足条件（例如低于最小速率）但可能可用的接口添加至结果中，从而避免结果为空的情况
 
-True
+False
 
 open\_update
 
@@ -352,7 +350,7 @@ min\_speed
 
 接口最小速率（单位M/s），需要开启 open\_filter\_speed 才能生效
 
-0.2
+0.5
 
 multicast\_num
 
@@ -400,17 +398,23 @@ request\_timeout
 
 10
 
-sort\_timeout
+speed\_test\_limit
 
-单个接口测速超时时长，单位秒(s)；数值越大测速所属时间越长，能提高获取接口数量，但质量会有所下降；数值越小测速所需时间越短，能获取低延时的接口，质量较好；调整此值能优化更新时间
+同时执行测速的接口数量，用于控制测速阶段的并发数量，数值越大测速所需时间越短，负载较高，结果可能不准确；数值越小测速所需时间越长，低负载，结果较准确；调整此值能优化更新时间
 
 10
 
-sort\_duplicate\_limit
+speed\_test\_timeout
 
-相同域名接口允许重复执行次数，用于控制执行测速、获取分辨率时的重复次数，数值越大结果越准确，但耗时会增加
+单个接口测速超时时长，单位秒(s)；数值越大测速所需时间越长，能提高获取接口数量，但质量会有所下降；数值越小测速所需时间越短，能获取低延时的接口，质量较好；调整此值能优化更新时间
 
-1
+10
+
+speed\_test\_filter\_host
+
+测速阶段使用Host地址进行过滤，相同Host地址的频道将共用测速数据，开启后可大幅减少测速所需时间，但可能会导致测速结果不准确
+
+False
 
 source\_file
 

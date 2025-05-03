@@ -1,6 +1,6 @@
 ---
 project: vxe-table
-stars: 8053
+stars: 8061
 description: Vxe Table 支持 vue2, vue3 的表格解决方案
 url: https://github.com/x-extends/vxe-table
 ---
@@ -28,11 +28,13 @@ vxe-table
         -   v3.9 基于 vue2.6+，内部重构，拆分 Table 库和 UI 库，只支持现代浏览器，不支持 IE
         -   v3.13 重构展开行功能，同时支持展开行与虚拟渲染和冻结列
         -   v3.14 重构虚拟渲染，支持百万级数据渲染、渲染性能及流畅度大幅提升
+        -   v3.15 优化虚拟渲染，提升 Chrome、Safari、Firefox 流畅度极兼容性
     -   **V4**
         -   v4.0 基于 vue3.2+，只支持现代浏览器，不支持 IE
         -   v4.7 基于 vue3.2+，内部重构，拆分 Table 库和 UI 库，只支持现代浏览器，不支持 IE
         -   v4.11 重构展开行功能，同时支持展开行与虚拟渲染和冻结列
         -   v4.12 重构虚拟渲染，支持百万级数据渲染、渲染性能及流畅度大幅提升
+        -   v4.13 优化虚拟渲染，提升 Chrome、Safari、Firefox 流畅度极兼容性
 -   版本计划
     
     -   优化展开行与冻结列

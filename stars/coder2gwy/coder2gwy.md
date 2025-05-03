@@ -1,6 +1,6 @@
 ---
 project: coder2gwy
-stars: 27021
+stars: 27030
 description: 互联网首份程序员考公指南，由3位已经进入体制内的前大厂程序员联合献上。
 url: https://github.com/coder2gwy/coder2gwy
 ---

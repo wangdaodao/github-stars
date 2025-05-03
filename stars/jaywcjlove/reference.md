@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 13610
+stars: 13663
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -247,7 +247,8 @@ Sublime Text
 Vimium VSCode  
 Twitter(X)  
 WebStorm  
-Xcode
+Xcode  
+Zed
 
 其它
 --

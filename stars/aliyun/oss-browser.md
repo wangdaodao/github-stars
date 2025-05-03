@@ -1,6 +1,6 @@
 ---
 project: oss-browser
-stars: 3379
+stars: 3385
 description: OSS Browser 提供类似windows资源管理器功能。用户可以很方便的浏览文件，上传下载文件，支持断点续传等。
 url: https://github.com/aliyun/oss-browser
 ---
