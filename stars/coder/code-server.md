@@ -1,6 +1,6 @@
 ---
 project: code-server
-stars: 71505
+stars: 71617
 description: VS Code in the browser
 url: https://github.com/coder/code-server
 ---
@@ -27,12 +27,13 @@ See requirements for minimum specs, as well as instructions on how to set up a G
 Getting started
 ---------------
 
-There are four ways to get started:
+There are five ways to get started:
 
 1.  Using the install script, which automates most of the process. The script uses the system package manager if possible.
 2.  Manually installing code-server
 3.  Deploy code-server to your team with coder/coder
 4.  Using our one-click buttons and guides to deploy code-server to a cloud provider ⚡
+5.  Using the code-server feature for devcontainers, if you already use devcontainers in your project.
 
 If you use the install script, you can preview what occurs during the install process:
 

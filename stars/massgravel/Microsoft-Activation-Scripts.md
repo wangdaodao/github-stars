@@ -1,6 +1,6 @@
 ---
 project: Microsoft-Activation-Scripts
-stars: 133240
+stars: 134276
 description: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 url: https://github.com/massgravel/Microsoft-Activation-Scripts
 ---
@@ -80,8 +80,8 @@ Note
 * * *
 
 ```
-Latest Version: 3.1
-Release date: 29-Apr-2025
+Latest Version: 3.2
+Release date: 6-May-2025
 ```
 
 ### Troubleshooting / Help

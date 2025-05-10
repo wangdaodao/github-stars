@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 13663
+stars: 13728
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -9,6 +9,11 @@ Quick Reference
 ===============
 
 为了方便开发人员查阅技术栈，分享这份快速参考备忘清单【速查表】。这是英文版 Reference 的中文翻译，旨在帮助自己更好地使用相关技术。如果您有自己的清单，也欢迎提供，我会抽时间搬运并立刻实现 :)。如果您发现这份备忘单中的内容不合适，可以通过提交 PR 来修复或提供更好的备忘清单，主要面向【中文】用户。以下是一些开源天使提供的备忘清单和快速参考 :)。
+
+赞助支持
+----
+
+非常感谢一直以来支持我开源项目的朋友们！如果您认可我的工作，欢迎通过 赞助 我或下载并使用我开发的 macOS 应用 来支持我。以下是我个人独立开发的 macOS 应用列表：
 
 正在建设中...
 --------
@@ -287,7 +292,7 @@ Resolutions
 
 由于中国国内访问，时常打不开，你可以访问下面镜像网站(国内打不开的不再收录)。推荐自己的镜像网站
 
-dev.bi docflow.cn quickref.cn aibk.cn ecdata.cn quickref.hestudio.net qiubit.cc guoxudong.io moeyuuko.com terryyoung.cn quickref.binscor.top srebro.cn haah.net xiechengqi.top ownit.top 666666.dev mmoke.com laoleng.vip dbyun.net if010.com isteed.cc xushanxiang.com surcode.cn cms.im eryajf.net kjchmc.cn quickreference.pages.dev btaw.cn lzw.me itcent.cn coolxy.top notes-bin.top lzzzt.cn kclouder.cn longdada.me xalaok.top chenze.cloud ref.v-ta.com hao.kim tool.sakura.vin chenchen.site jgeek.cn itzcy.com fifo.site gaojs.com.cn 15926.tech jeffjade.com okhk.net wdft.com xiaopa.cc zsccodelnc.cn chanlun.pro likui.info ruiange.work denganliang.com ivanz.cc dev6.site mingming.dev zishu.me sucan2233.cn pages.dev hrzweb.xyz bobh.cool tangwudi.com alomerry.com osz.icu ylmty.cc kfele.asia 9up.dev cizai.io docs.willxup.top wangchunfei.com object.cool luckyits.com jeremyjone.com gistudy.net maoo.me deyout.com xod.cc const.team jhao.me 7yueee.cn liamng.top maisblog.cn ruochen.net zcsk18.cn doraemon.press foreverlink.love 94vessel.com hhxyrk.icu vhcffh.com magese.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net lideshan.top yunshangmanyou.com xiaokaixuan.com opzz.top pusukeji.com songbaixin.xin 78888889.xyz
+zone.id docflow.cn quickref.cn aibk.cn quickref.hestudio.net qiubit.cc guoxudong.io moeyuuko.com terryyoung.cn quickref.binscor.top srebro.cn haah.net xiechengqi.top ownit.top 666666.dev mmoke.com laoleng.vip dbyun.net if010.com isteed.cc xushanxiang.com surcode.cn cms.im eryajf.net kjchmc.cn quickreference.pages.dev btaw.cn lzw.me itcent.cn coolxy.top notes-bin.top lzzzt.cn kclouder.cn longdada.me xalaok.top chenze.cloud ref.v-ta.com hao.kim tool.sakura.vin chenchen.site jgeek.cn itzcy.com fifo.site gaojs.com.cn 15926.tech jeffjade.com okhk.net wdft.com xiaopa.cc zsccodelnc.cn chanlun.pro likui.info ruiange.work denganliang.com ivanz.cc dev6.site mingming.dev zishu.me sucan2233.cn pages.dev hrzweb.xyz bobh.cool tangwudi.com alomerry.com osz.icu ylmty.cc kfele.asia 9up.dev cizai.io docs.willxup.top wangchunfei.com object.cool luckyits.com jeremyjone.com gistudy.net maoo.me deyout.com xod.cc const.team jhao.me 7yueee.cn liamng.top maisblog.cn ruochen.net zcsk18.cn doraemon.press foreverlink.love 94vessel.com hhxyrk.icu vhcffh.com magese.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net lideshan.top yunshangmanyou.com xiaokaixuan.com opzz.top pusukeji.com songbaixin.xin 78888889.xyz dev.bi ecdata.cn
 
 如果你有资源，可以很方便部署 web 版，这非常简单，只需要克隆 gh-pages 分支代码到你的静态服务就可以了，还可以使用 docker 快捷部署 web 版。
 
@@ -295,11 +300,6 @@ dev.bi docflow.cn quickref.cn aibk.cn ecdata.cn quickref.hestudio.net qiubit.cc 
 ----
 
 -   Quick Reference for VSCode 由 jackiotyu 提供
-
-赞助支持
-----
-
-非常感谢那些一直支持我开源工作的朋友们。如果您对我的工作感到满意，可以选择在这里进行赞助。也可以通过下载并使用我开发的 macOS 应用来支持我。以下是我个人开发的 macOS 应用：
 
 开发
 --

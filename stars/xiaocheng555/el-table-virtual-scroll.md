@@ -1,6 +1,6 @@
 ---
 project: el-table-virtual-scroll
-stars: 276
+stars: 277
 description: 基于Element-UI的Table 组件开发的虚拟滚动组件，支持动态高度，解决数据量大时滚动卡顿的问题。
 url: https://github.com/xiaocheng555/el-table-virtual-scroll
 ---

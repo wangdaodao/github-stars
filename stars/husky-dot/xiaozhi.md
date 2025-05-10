@@ -1,6 +1,6 @@
 ---
 project: xiaozhi
-stars: 5159
+stars: 5163
 description: null
 url: https://github.com/husky-dot/xiaozhi
 ---
@@ -11,15 +11,10 @@ url: https://github.com/husky-dot/xiaozhi
 
 【B站】首发视频，比博客早一到两篇
 
-### 新产品
+我的知识星球
+======
 
-**Alien GPT**，它是基于 ChatGPT 技术，集对话、翻译、场景和图片四大功能于一身，只需一个助手，轻松解决你生活中的种种难题！ 另外这个工具是采用 plus 的key，加上多路切换，响应速度快的一匹。
-
-体验地址：https://chat.waixingyun.cn/#/home
-
-AICube涵盖了问答、图片、音频、视频4大AIGC模块，欢迎大家注册试用体验。
-
-体验地址：https://cube.waixingyun.cn/
+前端AI·探索：涵盖动效、React Hooks、Vue 技巧、LLM 应用、Python 脚本等专栏，案例驱动实战学习。
 
 个人开源项目
 ------

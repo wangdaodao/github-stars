@@ -1,6 +1,6 @@
 ---
 project: smartedu-download
-stars: 750
+stars: 752
 description: 国家中小学智慧教育平台
 url: https://github.com/52beijixing/smartedu-download
 ---

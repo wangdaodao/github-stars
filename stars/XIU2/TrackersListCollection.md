@@ -1,6 +1,6 @@
 ---
 project: TrackersListCollection
-stars: 27981
+stars: 28067
 description: 🎈 Updated daily! A list of popular BitTorrent Trackers! / 每天更新！全网热门 BT Tracker 列表！
 url: https://github.com/XIU2/TrackersListCollection
 ---
@@ -28,15 +28,15 @@ _You can judge whether there is a problem with the BT configuration and network 
 
 * * *
 
-### Updated: 2025-05-04
+### Updated: 2025-05-11
 
--   **BEST Tracker list:** (82 trackers)  
+-   **BEST Tracker list:** (84 trackers)  
     _**https://cf.trackerslist.com/best.txt**_
--   **ALL Tracker list:** (151 trackers)  
+-   **ALL Tracker list:** (164 trackers)  
     _**https://cf.trackerslist.com/all.txt**_
--   **HTTP(S) Tracker list:** (78 trackers)  
+-   **HTTP(S) Tracker list:** (82 trackers)  
     _**https://cf.trackerslist.com/http.txt**_
--   **No HTTP Tracker list:** (96 trackers)  
+-   **No HTTP Tracker list:** (105 trackers)  
     _**https://cf.trackerslist.com/nohttp.txt**_
 
 **`[Click to expand] - View alternate address`**

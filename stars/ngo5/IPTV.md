@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 2293
+stars: 2344
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -47,9 +47,49 @@ IPV6
 
 ✔️
 
-vbskycn
+ChinaIPTV
 
-https://live.zbds.top/tv/iptv6.m3u
+https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV\_AutoUpdate.m3u8
+
+IPV4
+
+❌
+
+✔️
+
+iptv-api
+
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
+
+IPV4
+
+✔️
+
+✔️
+
+iptv-api
+
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
+
+IPV6
+
+✔️
+
+✔️
+
+myIPTV
+
+https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
+
+IPV4
+
+✔️
+
+✔️
+
+myIPTV
+
+https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u
 
 IPV6
 
@@ -59,7 +99,17 @@ IPV6
 
 vbskycn
 
-https://live.zbds.top/tv/iptv4.m3u
+https://live.izbds.com/tv/iptv6.m3u
+
+IPV6
+
+✔️
+
+✔️
+
+vbskycn
+
+https://live.izbds.com/tv/iptv4.m3u
 
 IPV4
 

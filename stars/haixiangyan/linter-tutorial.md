@@ -1,6 +1,6 @@
 ---
 project: linter-tutorial
-stars: 210
+stars: 211
 description: 👮‍♀️ 《Linter 上手完全指南》
 url: https://github.com/haixiangyan/linter-tutorial
 ---

@@ -1,6 +1,6 @@
 ---
 project: heyui
-stars: 2560
+stars: 2559
 description: 🎉UI Toolkit for Web, Vue3.0
 url: https://github.com/heyui/heyui
 ---

@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 22401
+stars: 23150
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -22,6 +22,14 @@ For details on how to contribute, please consult the Contribution Guide.
 
 Updates
 -------
+
+-   \[May 9, 2025\] pdf2zh 2.0 Preview Version #586: The Windows ZIP file and Docker image are now available.
+
+Caution
+
+The current maintainer of this project is developing pdf2zh v2.0-rc at aw/pdf2zh v2-rc.
+
+v2.0-rc can now accept some small PRs. Please discuss with the maintainer @awwaawwa in the main repository issue before submitting a PR to aw/pdf2zh v2-rc~
 
 -   \[Mar. 3, 2025\] Experimental support for the new backend BabelDOC WebUI added as an experimental option (by @awwaawwa)
 -   \[Feb. 22 2025\] Better release CI and well-packaged windows-amd64 exe (by @awwaawwa)
@@ -73,7 +81,12 @@ For different use cases, we provide distinct methods to use our program:
 2.  Unzip and double-click `pdf2zh.exe` to run.
     
 
-3\. Graphic user interface 1. Python installed (3.10 <= version <= 3.12) 2. Install our package:
+3\. Graphic user interface
+
+1.  Python installed (3.10 <= version <= 3.12)
+    
+2.  Install our package:
+    
 
 pip install pdf2zh
 

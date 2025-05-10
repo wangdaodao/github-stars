@@ -1,6 +1,6 @@
 ---
 project: luckysheet-vue
-stars: 159
+stars: 160
 description: luckysheet vue demo
 url: https://github.com/dream-num/luckysheet-vue
 ---

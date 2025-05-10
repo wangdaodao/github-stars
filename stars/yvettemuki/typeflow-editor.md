@@ -1,6 +1,6 @@
 ---
 project: typeflow-editor
-stars: 103
+stars: 101
 description: vue + mxGraph to build the draw tool for Typeflow
 url: https://github.com/yvettemuki/typeflow-editor
 ---

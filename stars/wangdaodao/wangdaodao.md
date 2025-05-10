@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-04 06:21.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-11 06:20.
 
 📝 Hitokoto
 -----------
 
-> 秋阴不散霜飞晚，留得枯荷听雨声。—— 李商隐
+> 有情芍药含春泪，无力蔷薇卧晓枝。—— 秦观
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_The Milky Way framed by Double Arch in Arches National Park, Utah (© Adventure\_Photo/Getty Images)_
+_Minnesota State Capitol, St. Paul, Minnesota (© lavin photography/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

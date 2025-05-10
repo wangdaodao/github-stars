@@ -1,6 +1,6 @@
 ---
 project: virgo
-stars: 1453
+stars: 1455
 description: :virgo::computer::computer::computer::computer: Virtual desktops for Windows
 url: https://github.com/henkman/virgo
 ---

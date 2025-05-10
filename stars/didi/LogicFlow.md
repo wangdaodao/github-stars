@@ -1,6 +1,6 @@
 ---
 project: LogicFlow
-stars: 9749
+stars: 9773
 description: A flow chart editing framework focus on business customization.  专注于业务自定义的流程图编辑框架，支持实现脑图、ER图、UML、工作流等各种图编辑场景。
 url: https://github.com/didi/LogicFlow
 ---

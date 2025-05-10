@@ -1,6 +1,6 @@
 ---
 project: X-Flowchart-Vue
-stars: 1480
+stars: 1481
 description: 基于G6和Vue的可视化图形编辑器。A visual graph editor based on G6 and Vue.
 url: https://github.com/OXOYO/X-Flowchart-Vue
 ---
@@ -1142,10 +1142,13 @@ MIT
 
 Copyright (c) 2019-present, OXOYO
 
+GitAds Sponsored
+----------------
+
 Contact
 -------
 
-点击链接加入群【Web全栈QQ群 333765077】：https://jq.qq.com/?\_wv=1027&k=53iWbrr
+加我进群，备注【项目名称】
 
 Star History
 ------------

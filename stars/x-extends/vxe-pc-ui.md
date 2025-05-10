@@ -1,6 +1,6 @@
 ---
 project: vxe-pc-ui
-stars: 135
+stars: 137
 description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
@@ -79,6 +79,7 @@ QQ 交流群
 -   color-picker 颜色选择器
 -   countdown 倒计时
 -   date-picker 日期选择器
+-   date-range-picker 日期范围选择器
 -   drawer 抽屉
 -   empty 空数据
 -   flow-design 流程设计器

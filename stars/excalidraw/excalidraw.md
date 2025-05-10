@@ -1,6 +1,6 @@
 ---
 project: excalidraw
-stars: 98906
+stars: 99377
 description: Virtual whiteboard for sketching hand-drawn like diagrams
 url: https://github.com/excalidraw/excalidraw
 ---
@@ -29,7 +29,7 @@ The Excalidraw editor (npm package) supports:
 -   🏗️ Customizable.
 -   📷 Image support.
 -   😀 Shape libraries support.
--   👅 Localization (i18n) support.
+-   🌐 Localization (i18n) support.
 -   🖼️ Export to PNG, SVG & clipboard.
 -   💾 Open format - export drawings as an `.excalidraw` json file.
 -   ⚒️ Wide range of tools - rectangle, circle, diamond, arrow, line, free-draw, eraser...

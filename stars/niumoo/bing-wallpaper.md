@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2348
+stars: 2358
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: The Milky Way framed by Double Arch in Arches National Park, Utah (© Adventure\_Photo/Getty Images)
+Today: Minnesota State Capitol, St. Paul, Minnesota (© lavin photography/Getty Images)
+
+2025-05-11 download 4k
+
+2025-05-10 download 4k
+
+2025-05-09 download 4k
+
+2025-05-08 download 4k
+
+2025-05-07 download 4k
+
+2025-05-06 download 4k
+
+2025-05-05 download 4k
 
 2025-05-04 download 4k
 
@@ -55,20 +69,6 @@ Today: The Milky Way framed by Double Arch in Arches National Park, Utah (© Adv
 2025-04-13 download 4k
 
 2025-04-12 download 4k
-
-2025-04-11 download 4k
-
-2025-04-10 download 4k
-
-2025-04-10 download 4k
-
-2025-04-09 download 4k
-
-2025-04-08 download 4k
-
-2025-04-07 download 4k
-
-2025-04-06 download 4k
 
 ### 历史归档：
 

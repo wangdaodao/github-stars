@@ -1,6 +1,6 @@
 ---
 project: FE-Interview
-stars: 7002
+stars: 7004
 description: 🔥🔥🔥 前端面试，独有前端面试题详解，前端面试刷题必备，1000+前端面试真题，Html、Css、JavaScript、Vue、React、Node、TypeScript、Webpack、算法、网络与安全、浏览器
 url: https://github.com/lgwebdream/FE-Interview
 ---

@@ -1,7 +1,7 @@
 ---
 project: iptv-api
-stars: 15197
-description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道与EPG；支持本地源、组播源、酒店源、订阅源、关键字搜索；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
+stars: 15377
+description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道与EPG；支持多种源获取方式；支持获取归属地与运营商；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
 
@@ -46,7 +46,6 @@ Important
 -   suxuang/myIPTV
 -   kimwang1978/collect-tv-txt
 -   asdjkl6/tv
--   yuanzl77/IPTV
 -   fanmingming/live
 -   vbskycn/iptv
 
@@ -57,13 +56,13 @@ Important
 特点
 --
 
--   ✅ 自定义模板，生成您想要的频道
+-   ✅ 自定义模板，支持别名，生成您想要的频道
 -   ✅ 支持RTMP推流(live/hls)，提升播放体验
 -   ✅ 支持多种获取源方式：本地源、组播源、酒店源、订阅源、关键字搜索
 -   ✅ 支持回放类接口获取与生成
 -   ✅ 支持EPG功能，显示频道预告内容
 -   ✅ 接口测速验效，获取延迟、速率、分辨率，过滤无效接口
--   ✅ 偏好设置：IPv4、IPv6、接口来源排序优先级与数量配置、接口白名单
+-   ✅ 偏好设置：IPv4、IPv6、接口来源排序优先级与数量配置、白名单、黑名单、归属地与运营商过滤
 -   ✅ 定时执行，北京时间每日 6:00 与 18:00 执行更新
 -   ✅ 支持多种运行方式：工作流、命令行、GUI 软件、Docker(amd64/arm64/arm v7)
 -   ✨ 更多功能请见配置参数
@@ -73,7 +72,7 @@ Important
 
 Important
 
-以下地址国内访问可能会失败，建议在前拼接代理地址使用，公众号可回复`CDN`获取
+以下地址国内可能无法稳定访问，推荐在前拼接代理地址使用，公众号可回复`cdn`获取
 
 ### 直播源
 
@@ -206,7 +205,7 @@ True
 
 open\_speed\_test
 
-开启测速排序功能（响应速度、日期、分辨率）
+开启测速功能，获取响应时间、速率、分辨率
 
 True
 
@@ -220,7 +219,7 @@ open\_supply
 
 开启补偿机制模式，用于控制当频道接口数量不足时，自动将不满足条件（例如低于最小速率）但可能可用的接口添加至结果中，从而避免结果为空的情况
 
-False
+True
 
 open\_update
 
@@ -292,6 +291,10 @@ hotel\_region\_list
 
 全部
 
+isp
+
+接口运营商，用于控制结果中只包含填写的运营商类型，支持关键字过滤，英文逗号分隔，不填写表示不指定运营商
+
 ipv4\_num
 
 结果中偏好的 IPv4 接口数量
@@ -321,6 +324,10 @@ ipv\_type\_prefer
 接口协议类型偏好，优先将该类型的接口排在结果前面，可选值：ipv4、ipv6、自动、auto
 
 ipv6,ipv4
+
+location
+
+接口归属地，用于控制结果只包含填写的归属地类型，支持关键字过滤，英文逗号分隔，不填写表示不指定归属地，建议使用靠近使用者的归属地，能提升播放体验
 
 local\_file
 
