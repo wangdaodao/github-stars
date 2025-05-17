@@ -1,6 +1,6 @@
 ---
 project: ribbon.js
-stars: 232
+stars: 233
 description: :ribbon: Only 1kb javascript gist to generate a ribbon in your website with HTML5 canvas.
 url: https://github.com/hustcc/ribbon.js
 ---

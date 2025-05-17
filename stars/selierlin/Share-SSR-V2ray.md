@@ -1,6 +1,6 @@
 ---
 project: Share-SSR-V2ray
-stars: 10412
+stars: 10424
 description: 机场推荐/SSR V2ray节点订阅机场/镜像直连/工具推荐
 url: https://github.com/selierlin/Share-SSR-V2ray
 ---

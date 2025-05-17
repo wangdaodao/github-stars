@@ -1,12 +1,15 @@
 ---
 project: IPTV
-stars: 2344
+stars: 2373
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
 
 IPV4/IPV6 TVBOX 电视直播点播源收集
 =========================
+
+目录
+==
 
 -   直播源
 -   点播源
@@ -218,20 +221,9 @@ ipv6源比较稳定，大部分是中国移动源，建议移动宽带用户使�
 -   Pixman（普通人别折腾）
 -   stream link（資源不支持中國大陸使用）
 
-* * *
+IPV6是否开启查询：https://testipv6.cn/
 
-IPV6是否开启查询
-
--   https://testipv6.cn/
--   https://ipw.cn/
--   https://ping0.cc/
--   https://v6.ipinfo.io/
-
-* * *
-
-直播源检测有效性
-
--   https://github.com/zhimin-dev/iptv-checker
+直播源检测有效性：https://github.com/zhimin-dev/iptv-checker
 
 * * *
 
@@ -246,7 +238,7 @@ IPV6是否开启查询
 
 饭太硬
 
-http://www.饭太硬.com/tv/
+http://www.饭太硬.net/tv
 
 源
 
@@ -316,9 +308,9 @@ http://6080.eu.org/
 
 源导航
 
-点播源容易失效和遭人举报，建议关注原发布地址。付费源不可信，毕竟不是版权方。推荐饭太硬以及他主页推荐的源。这些点播源一般影视（OK/FM版）都能用。
+点播源容易失效和遭人举报，建议关注原发布地址。付费源不可信，毕竟不是版权方。推荐饭太硬以及他主页推荐的源。这些点播源一般影视APP（OK/FM版）都能用。
 
-饭太硬微信公众号：神秘的哥哥们 肥猫微信公众号：肥猫宝贝 OK猫开发TG 影视APP发布TG
+饭太硬微信公众号：神秘的哥哥们 肥猫微信公众号：肥猫宝贝 影视APP发布TG
 
 * * *
 
@@ -398,12 +390,6 @@ https://github.com/FongMi/Release/tree/okjack/apk/release
 
 Android电视/手机
 
-ZyPlayer
-
-https://github.com/Hiram-Wong/ZyPlayer/releases
-
-MacOS Windows Linux
-
 TV-Multiplatform
 
 https://github.com/Greatwallcorner/TV-Multiplatform/releases
@@ -421,6 +407,12 @@ TiviMate
 https://tivimate.com/
 
 Android电视
+
+ZyPlayer
+
+https://github.com/Hiram-Wong/ZyPlayer/releases
+
+MacOS Windows Linux
 
 M3U IPTV
 

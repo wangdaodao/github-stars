@@ -1,6 +1,6 @@
 ---
 project: fast-uploader
-stars: 35
+stars: 36
 description: Some things about files upload quickly.
 url: https://github.com/lrfbeyond/fast-uploader
 ---

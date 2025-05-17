@@ -1,6 +1,6 @@
 ---
 project: web-tracing
-stars: 2648
+stars: 2663
 description: 为前端项目提供【 埋点、行为、性能、异常、请求、资源、路由、曝光、录屏 】监控手段
 url: https://github.com/M-cheng-web/web-tracing
 ---
@@ -14,6 +14,11 @@ web-tracing 监控插件
 ----
 
 官方文档 https://m-cheng-web.github.io/web-tracing/
+
+DeepWiki文档
+----------
+
+DeepWiki文档 https://deepwiki.com/M-cheng-web/web-tracing
 
 示例项目(本地)
 --------
@@ -90,20 +95,15 @@ vue3版本 https://github.com/M-cheng-web/web-tracing-examples-vue3
   
   
 
--   **如果你此项目能帮助到你、亦或者是你需要向我咨询一些事项，可否请我吃一块糖果，谢谢你的支持！**
-
-> **`注好你的微信号!`** **`微信看不到赞赏人信息`** **`所以你必须在备注里写上`**
-
-  
-  
-  
-  
-  
-
 🙏🙏🙏 点个Star
 -------------
 
 **如果您觉得这个项目还不错, 可以在 Github 上面帮我点个`star`, 支持一下作者ヾ(◍°∇°◍)ﾉﾞ**
+
+  
+
+贡献者
+---
 
   
 

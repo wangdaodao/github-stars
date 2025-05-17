@@ -1,6 +1,6 @@
 ---
 project: vue-webrtc
-stars: 380
+stars: 381
 description: WebRTC video component for Vue.js
 url: https://github.com/westonsoftware/vue-webrtc
 ---

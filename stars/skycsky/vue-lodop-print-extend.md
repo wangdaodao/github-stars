@@ -1,6 +1,6 @@
 ---
 project: vue-lodop-print-extend
-stars: 5
+stars: 6
 description: null
 url: https://github.com/skycsky/vue-lodop-print-extend
 ---

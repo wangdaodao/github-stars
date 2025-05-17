@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24981
+stars: 24991
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -2667,6 +2667,7 @@ class DisposableStack {
   use(value: Disposable): value;
   adopt(value: object, onDispose: Function): value;
   defer(onDispose: Function): undefined;
+  move(): DisposableStack;
   @@dispose(): undefined;
   @@toStringTag: 'DisposableStack';
 }
@@ -2677,6 +2678,7 @@ class AsyncDisposableStack {
   use(value: AsyncDisposable | Disposable): value;
   adopt(value: object, onDispose: Function): value;
   defer(onDispose: Function): undefined;
+  move(): AsyncDisposableStack;
   @@asyncDispose(): Promise<undefined\>;
   @@toStringTag: 'AsyncDisposableStack';
 }

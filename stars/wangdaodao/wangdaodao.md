@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-11 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-18 06:20.
 
 📝 Hitokoto
 -----------
 
-> 有情芍药含春泪，无力蔷薇卧晓枝。—— 秦观
+> 总有一天，我要撕碎这片虚伪的星空。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Minnesota State Capitol, St. Paul, Minnesota (© lavin photography/Getty Images)_
+_A delta in the Venetian Lagoon, Italy (© Dimitri Weber/Amazing Aerial Agency)_
 
 📚 My Blog posts ...
 --------------------

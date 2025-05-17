@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 37678
+stars: 38365
 description: 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 url: https://github.com/tw93/Pake
 ---

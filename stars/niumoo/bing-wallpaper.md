@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2358
+stars: 2372
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Minnesota State Capitol, St. Paul, Minnesota (© lavin photography/Getty Images)
+Today: A delta in the Venetian Lagoon, Italy (© Dimitri Weber/Amazing Aerial Agency)
+
+2025-05-18 download 4k
+
+2025-05-17 download 4k
+
+2025-05-16 download 4k
+
+2025-05-15 download 4k
+
+2025-05-14 download 4k
+
+2025-05-13 download 4k
+
+2025-05-12 download 4k
 
 2025-05-11 download 4k
 
@@ -55,20 +69,6 @@ Today: Minnesota State Capitol, St. Paul, Minnesota (© lavin photography/Getty 
 2025-04-20 download 4k
 
 2025-04-19 download 4k
-
-2025-04-18 download 4k
-
-2025-04-17 download 4k
-
-2025-04-16 download 4k
-
-2025-04-15 download 4k
-
-2025-04-14 download 4k
-
-2025-04-13 download 4k
-
-2025-04-12 download 4k
 
 ### 历史归档：
 

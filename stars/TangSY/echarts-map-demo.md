@@ -1,6 +1,6 @@
 ---
 project: echarts-map-demo
-stars: 1944
+stars: 1954
 description: 适用于echarts、QGIS等地图geoJson行政区划边界数据的实时获取与应用，json格式数据，全国省市区县多级联动下钻，真正意义的下钻至县级【附最新全国省市区县乡镇三级或四级城市geoJson文件下载，另可下载四级联动或五级（村级）行政编码对应关系】
 url: https://github.com/TangSY/echarts-map-demo
 ---

@@ -1,6 +1,6 @@
 ---
 project: blogs
-stars: 756
+stars: 754
 description: 个人博客: Web, JavaScript, NodeJs, Webpack ...
 url: https://github.com/deepraining/blogs
 ---

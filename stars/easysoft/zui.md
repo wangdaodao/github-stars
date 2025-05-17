@@ -1,6 +1,6 @@
 ---
 project: zui
-stars: 2749
+stars: 2753
 description: ZUI is an HTML5 front UI framework.
 url: https://github.com/easysoft/zui
 ---

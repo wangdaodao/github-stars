@@ -1,6 +1,6 @@
 ---
 project: resume
-stars: 379
+stars: 380
 description: Writing Resume with Markdown, Supports deploy to Vercel, Netlify, Cloudflare. 使用 Markdown 编写简历，支持部署到 Vercel、Netlify 和 Cloudflare。
 url: https://github.com/Dunqing/resume
 ---

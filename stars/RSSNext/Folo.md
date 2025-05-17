@@ -1,6 +1,6 @@
 ---
 project: Folo
-stars: 25733
+stars: 25875
 description: 🧡 Follow everything in one place
 url: https://github.com/RSSNext/Folo
 ---
@@ -40,7 +40,7 @@ Linux
 
 You can also install using the following methods maintained by our community:
 
--   If you are using Arch Linux, you can install package follow-appimage that maintained by timochan.
+-   If you are using Arch Linux, you can install package folo-appimage that maintained by timochan and grtsinry43.
 -   If you are using Nix, you can install package follow that maintained by iosmanthus.
 -   If you are using macOS with Homebrew, you can install cask folo that maintained by realSunyz.
 -   If you are using Windows with Scoop, you can install manifest folo that maintained by cscnk52.

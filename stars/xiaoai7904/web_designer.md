@@ -1,6 +1,6 @@
 ---
 project: web_designer
-stars: 634
+stars: 635
 description: 网页设计器图形化工具,通过拖拽组件进行页面排版和生成页面代码
 url: https://github.com/xiaoai7904/web_designer
 ---

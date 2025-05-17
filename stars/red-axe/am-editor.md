@@ -1,6 +1,6 @@
 ---
 project: am-editor
-stars: 972
+stars: 973
 description: A rich text editor that supports collaborative editing and allows for the free use of front-end common libraries such as React and Vue to extend and define plugins.
 url: https://github.com/red-axe/am-editor
 ---

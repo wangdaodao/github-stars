@@ -1,6 +1,6 @@
 ---
 project: use-scrollbar
-stars: 13
+stars: 14
 description: Use-Scrollbar enables a component relies on a native scrollbar to replace its native scrollbar with a virtual scrollbar instead, NOT virtual scroll.
 url: https://github.com/Lionad-Morotar/use-scrollbar
 ---

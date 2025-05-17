@@ -1,6 +1,6 @@
 ---
 project: xe-utils
-stars: 642
+stars: 643
 description: javascript 函数库、工具类
 url: https://github.com/x-extends/xe-utils
 ---

@@ -1,6 +1,6 @@
 ---
 project: vue-admin
-stars: 464
+stars: 465
 description: vue-cli3.0后台管理模板
 url: https://github.com/MrZHLF/vue-admin
 ---

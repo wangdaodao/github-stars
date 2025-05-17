@@ -1,6 +1,6 @@
 ---
 project: vue-plugin-hiprint
-stars: 1275
+stars: 1278
 description: hiprint for Vue2/Vue3 ⚡打印、打印设计、可视化设计器、报表设计、元素编辑、可视化打印编辑
 url: https://github.com/CcSimple/vue-plugin-hiprint
 ---
@@ -17,17 +17,17 @@ vue-plugin-hiprint (基于 hiprint 2.5.4) 当时只是为了方便 我（并非 
 vue-plugin-hiprint
 ------------------
 
-> ✨立即体验  
+> ✨ 立即体验  
 >   
-> 🌈更新日志  
+> 🌈 更新日志  
 >   
-> 🐛常见问题(入门必看!) ⚠️⚠️ 📕系列教程文章(入门必看!)  
+> 🐛 常见问题(入门必看!) ⚠️⚠️ 📕 系列教程文章(入门必看!)  
 >   
-> 🚀项目生态(打印客户端、node服务端、uniapp)
+> 🚀 项目生态(打印客户端、node 服务端、uniapp)
 
-> 🔥1.征集模板、2.admin模板集成示例、3.插件集成; ==> 点我🔥
+> 🔥1.征集模板、2.admin 模板集成示例、3.插件集成; ==> 点我 🔥
 
-> ❤️‍🔥付费技术支持、项目合作 ==> 点我❤️‍🔥❤️‍
+> ❤️‍🔥 付费技术支持、项目合作 ==> 点我 ❤️‍🔥❤️‍
 
 > hiprint for Vue2.x / Vue3.x (基于 jQuery, 理论上其他框架可用。react demo 分支)
 
@@ -51,7 +51,7 @@ Important
 文章链接
 ----
 
-快速入门: 一文彻底入门可视化打印vue-plugin-hiprint
+快速入门: 一文彻底入门可视化打印 vue-plugin-hiprint
 
 入门篇: 【vue-plugin-hiprint】使用-入门篇
 
@@ -73,7 +73,7 @@ provider: 【vue-plugin-hiprint】如何自定义可拖拽元素 provider
 
 常见问题汇总 ③: 【vue-plugin-hiprint】常见问题汇总 ③
 
-hiprint官方文档(看基础,与本项目有较多差异)：http://hiprint.io/docs/start
+hiprint 官方文档(看基础,与本项目有较多差异)：http://hiprint.io/docs/start
 
 本人写的部分文档: https://ccsimple.github.io/sv-print-docs/config/hiprint.html
 
@@ -239,7 +239,7 @@ vue/vue3 全局引入
 
 // main.js中 引入安装
 import { hiPrintPlugin } from "vue-plugin-hiprint";
-Vue.use(hiPrintPlugin, "$pluginName");// $pluginName 为自定义名称
+Vue.use(hiPrintPlugin, "$pluginName"); // $pluginName 为自定义名称
 hiPrintPlugin.disAutoConnect();
 
 /// 提供的全局方法：
@@ -453,9 +453,9 @@ $("#hiwprint\_iframe").css("visibility", "hidden");
 
 支持 win、mac、linux 系统
 
-> 国内Gitee下载  
+> 国内 Gitee 下载  
 >   
-> Github下载
+> Github 下载
 
 ### URLScheme `hiprint://`
 
@@ -486,8 +486,7 @@ this.$error({
         target\="\_blank"
       \>
         下载
-      </a\>并
-      <a href\="hiprint://" target\="\_blank"\>
+      </a\>并<a href\="hiprint://" target\="\_blank"\>
         运行
       </a\>
       打印服务！
@@ -569,7 +568,7 @@ releases
 
 直接打印客户端
 
-node-hiprint-transit
+\*node-hiprint-transit
 
 github、gitee
 
@@ -577,7 +576,7 @@ github、gitee
 
 web 与客户端中转服务 Node 实现
 
-hiprint-transit-java
+\*hiprint-transit-java
 
 github
 
@@ -585,7 +584,7 @@ github
 
 web 与客户端中转服务 Java 实现
 
-uni-app-hiprint
+\*uni-app-hiprint
 
 github
 
@@ -593,13 +592,23 @@ github
 
 uni-app 项目通过 webview 使用 vue-plugin-hiprint demo
 
-node-hiprint-pdf
+\*node-hiprint-pdf
 
 github
 
 \-
 
 提供通过 node 对 vue-plugin-hiprint 模板生成 矢量 pdf、image、html
+
+\*iboot-print
+
+github
+
+\-
+
+提供通过 java HtmlUnit 对 vue-plugin-hiprint 模板生成 html（image、pdf待实现）
+
+> 带 \* 项目为周边社区维护项目，更新迭代、兼容性、稳定性无法得到保证。
 
 交流群
 ---

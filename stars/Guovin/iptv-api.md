@@ -1,7 +1,7 @@
 ---
 project: iptv-api
-stars: 15377
-description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持RTMP推流；支持IPv4/IPv6；支持自定义频道与EPG；支持多种源获取方式；支持获取归属地与运营商；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
+stars: 15534
+description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持自定义频道与EPG；支持多种源获取方式；支持RTMP推流；支持IPv4/IPv6；支持获取归属地与运营商；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
 
@@ -14,7 +14,9 @@ IPTV-API
 
 English | 中文
 
-🎉💻IPTV-Web：IPTV电视直播源管理平台，支持在线播放等功能，开发中...
+🎉💻 IPTV-Web：IPTV电视直播源管理平台，支持在线播放等功能，开发中...
+
+💖 频道别名收集计划
 
 -   ✅ 特点
 -   🔗 最新结果

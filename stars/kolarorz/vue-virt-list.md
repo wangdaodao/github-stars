@@ -1,6 +1,6 @@
 ---
 project: vue-virt-list
-stars: 346
+stars: 351
 description: 【持续更新中】⚡️ 一个支持vue2&vue3的高性能虚拟(滚动)列表组件 👉🏻 轻量5KB 百万数据渲染 满帧率滚动 丰富场景支持  📑 [vue虚拟列表] [vue虚拟滚动列表][vue虚拟树] [vue-virtual-list] [vue-virtual-scroll-list] [vue-virtual-scroller] [vue-virt-tree] 
 url: https://github.com/kolarorz/vue-virt-list
 ---

@@ -1,6 +1,6 @@
 ---
 project: tangram
-stars: 5
+stars: 6
 description: 🍔 七巧板 - 基于vue的可视化布局方案.
 url: https://github.com/Marinerer/tangram
 ---

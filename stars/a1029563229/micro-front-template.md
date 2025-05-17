@@ -1,6 +1,6 @@
 ---
 project: micro-front-template
-stars: 936
+stars: 937
 description: 微前端架构模板
 url: https://github.com/a1029563229/micro-front-template
 ---
