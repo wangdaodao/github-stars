@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2372
+stars: 2383
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: A delta in the Venetian Lagoon, Italy (© Dimitri Weber/Amazing Aerial Agency)
+Today: Jotunheimen National Park in Norway (© Marisa Estivill/Shutterstock)
+
+2025-05-25 download 4k
+
+2025-05-24 download 4k
+
+2025-05-23 download 4k
+
+2025-05-22 download 4k
+
+2025-05-21 download 4k
+
+2025-05-20 download 4k
+
+2025-05-19 download 4k
 
 2025-05-18 download 4k
 
@@ -55,20 +69,6 @@ Today: A delta in the Venetian Lagoon, Italy (© Dimitri Weber/Amazing Aerial Ag
 2025-04-27 download 4k
 
 2025-04-26 download 4k
-
-2025-04-25 download 4k
-
-2025-04-24 download 4k
-
-2025-04-23 download 4k
-
-2025-04-22 download 4k
-
-2025-04-21 download 4k
-
-2025-04-20 download 4k
-
-2025-04-19 download 4k
 
 ### 历史归档：
 

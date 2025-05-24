@@ -1,6 +1,6 @@
 ---
 project: learning-vue3
-stars: 1346
+stars: 1354
 description: 超过 230w+ 阅读人次的《Vue3 入门指南与实战案例》，关于前端工程化开发的基础知识点，以及 TypeScript 、 Vue 3 、 Pinia 的入门学习指南。
 url: https://github.com/chengpeiquan/learning-vue3
 ---

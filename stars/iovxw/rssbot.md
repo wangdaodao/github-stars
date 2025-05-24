@@ -1,6 +1,6 @@
 ---
 project: rssbot
-stars: 1640
+stars: 1639
 description: Lightweight Telegram RSS notification bot. 用于消息通知的轻量级 Telegram RSS 机器人
 url: https://github.com/iovxw/rssbot
 ---

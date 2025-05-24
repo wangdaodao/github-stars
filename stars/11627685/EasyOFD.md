@@ -1,11 +1,11 @@
 ---
 project: EasyOFD
-stars: 24
+stars: 25
 description: an ofd files show in web 
 url: https://github.com/11627685/EasyOFD
 ---
 
-目前最新版本1.0.9
+目前最新版本1.1.0
 
 网站主页
 ====
@@ -203,3 +203,8 @@ onMounted(() \=> {
 ---------
 
 1、展示绘制参数 2、展示遗留问题 3、配合java版本easyofd部分调整
+
+7.2、1.1.0
+---------
+
+1、修复多图元字体展示异常

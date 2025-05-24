@@ -1,6 +1,6 @@
 ---
 project: vue-plugin-hiprint
-stars: 1278
+stars: 1283
 description: hiprint for Vue2/Vue3 ⚡打印、打印设计、可视化设计器、报表设计、元素编辑、可视化打印编辑
 url: https://github.com/CcSimple/vue-plugin-hiprint
 ---
@@ -25,10 +25,6 @@ vue-plugin-hiprint
 >   
 > 🚀 项目生态(打印客户端、node 服务端、uniapp)
 
-> 🔥1.征集模板、2.admin 模板集成示例、3.插件集成; ==> 点我 🔥
-
-> ❤️‍🔥 付费技术支持、项目合作 ==> 点我 ❤️‍🔥❤️‍
-
 > hiprint for Vue2.x / Vue3.x (基于 jQuery, 理论上其他框架可用。react demo 分支)
 
 > **jQuery/uniapp (html/h5)** 项目 见下方 jQuery/uniapp 项目使用
@@ -51,31 +47,9 @@ Important
 文章链接
 ----
 
-快速入门: 一文彻底入门可视化打印 vue-plugin-hiprint
+2元快速入门: 一文彻底入门可视化打印 vue-plugin-hiprint
 
-入门篇: 【vue-plugin-hiprint】使用-入门篇
-
-进阶篇: 【vue-plugin-hiprint】使用-进阶篇
-
-provider: 【vue-plugin-hiprint】如何自定义可拖拽元素 provider
-
-打印篇: 【vue-plugin-hiprint】使用-打印篇
-
-参数篇: 【vue-plugin-hiprint】使用-参数篇
-
-实战动态 provider: 【vue-plugin-hiprint】实战-动态 provider
-
-实战动态模板: 【vue-plugin-hiprint】实战-动态模板
-
-常见问题汇总 ①: 【vue-plugin-hiprint】常见问题汇总 ①
-
-常见问题汇总 ②: 【vue-plugin-hiprint】常见问题汇总 ②
-
-常见问题汇总 ③: 【vue-plugin-hiprint】常见问题汇总 ③
-
-hiprint 官方文档(看基础,与本项目有较多差异)：http://hiprint.io/docs/start
-
-本人写的部分文档: https://ccsimple.github.io/sv-print-docs/config/hiprint.html
+> 更多文章见公众号、小程序(文章,服务端预览,云打印)
 
 安装使用
 ----

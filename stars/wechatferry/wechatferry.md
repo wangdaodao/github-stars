@@ -1,6 +1,6 @@
 ---
 project: wechatferry
-stars: 1581
+stars: 1592
 description: 基于 WechatFerry 的微信机器人底层框架
 url: https://github.com/wechatferry/wechatferry
 ---

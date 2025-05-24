@@ -1,6 +1,6 @@
 ---
 project: element3
-stars: 3280
+stars: 3283
 description: A Vue.js 3.0 UI Toolkit for IT Education. Build with JS&TS
 url: https://github.com/hug-sun/element3
 ---

@@ -1,6 +1,6 @@
 ---
 project: ha_xiaomi_home
-stars: 19725
+stars: 19825
 description: Xiaomi Home Integration for Home Assistant
 url: https://github.com/XiaoMi/ha_xiaomi_home
 ---
@@ -38,9 +38,9 @@ git checkout v1.0.0
 
 ### Method 2: HACS
 
-HACS > Overflow Menu > Custom repositories > Repository: https://github.com/XiaoMi/ha\_xiaomi\_home.git & Category or Type: Integration > ADD > Xiaomi Home in New or Available for download section of HACS > DOWNLOAD
+One-click installation from HACS:
 
-> Xiaomi Home has not been added to the HACS store as a default yet. It's coming soon.
+Or, HACS > In the search box, type **Xiaomi Home** > Click **Xiaomi Home**, getting into the detail page > DOWNLOAD
 
 ### Method 3: Manually installation via Samba / FTPS
 

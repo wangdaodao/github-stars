@@ -1,6 +1,6 @@
 ---
 project: Share-SSR-V2ray
-stars: 10424
+stars: 10438
 description: 机场推荐/SSR V2ray节点订阅机场/镜像直连/工具推荐
 url: https://github.com/selierlin/Share-SSR-V2ray
 ---
@@ -25,7 +25,7 @@ Clash/SS/SSR/V2ray使用教程/机场推荐/直连网站/镜像网站/科学上�
 -   上网方式
     -   1\. 镜像网站
     -   2\. 浏览器插件
-    -   3\. SS/SSR/V2ray分享账号
+    -   3\. SS/SSR/V2ray分享账号【推荐】
     -   4\. 直连网站
 -   工具下载
 -   使用教程
@@ -43,8 +43,6 @@ Clash/SS/SSR/V2ray使用教程/机场推荐/直连网站/镜像网站/科学上�
 
 https://g.luciaz.me：需要验证答案，答案分别为【心灵之约】【水朝夕】【csxy@123】，完成后会跳转google,然后收藏地址即可。
 
-Google (power365.ml)
-
 note.cm
 
 Google (qinai.blog)
@@ -56,10 +54,6 @@ Google (ecnu.cf)
 http://ac.scmor.com/：学术镜像【推荐】
 
 http://scholar.hedasudi.com/：学术镜像【推荐】
-
-其它镜像：
-
-ins：建议手机观看
 
 * * *
 
@@ -81,7 +75,9 @@ Google Helper
 
 * * *
 
-#### 3\. 🍄SS/SSR/V2ray分享账号
+#### 3\. 🍄SS/SSR/V2ray分享账号【推荐】
+
+这种方案长久有效，第一次使用建议先找一个有效的“**注册站点**”，然后跟着下面👇“使用教程” 使用。如果文档中有讲解不到的地方欢迎提建议
 
 SS-SSR-V2ray 分享账号
 
@@ -91,11 +87,7 @@ SS-SSR-V2ray 分享账号
 
 > 以下工具可在临时网盘中获取
 
-老王猥屁恩：自称永久免费，目前确实好用，支持安卓
-
 UPX浏览器：APKPure一款自带科学上网的安卓浏览器
-
-龙卷风浏览器：Windows端解决科学上网的浏览器
 
 Chromium浏览器：解决科学上网的浏览器（支持Windows和macOS），与上面的区别就是此浏览器的版本较高，现安装包名为：JJQQKK-2.6.7 ，安装的时候可能需要.net 4.6的环境，可以在网盘中下载安装
 

@@ -1,6 +1,6 @@
 ---
 project: document-library
-stars: 3904
+stars: 3905
 description: jsliang 的文档库. 里面包含了个人撰写的所有前端文章，例如 Vue、React,、ECharts、微信小程序、算法、数据结构等……
 url: https://github.com/LiangJunrong/document-library
 ---

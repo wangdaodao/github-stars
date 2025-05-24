@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-18 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-25 06:21.
 
 📝 Hitokoto
 -----------
 
-> 总有一天，我要撕碎这片虚伪的星空。—— 佚名
+> 熬得住无人问津的日子，方可配得起诗和远方。—— 杨绛
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_A delta in the Venetian Lagoon, Italy (© Dimitri Weber/Amazing Aerial Agency)_
+_Jotunheimen National Park in Norway (© Marisa Estivill/Shutterstock)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: fanqiang
-stars: 39703
+stars: 39754
 description: 翻墙-科学上网
 url: https://github.com/bannedbook/fanqiang
 ---

@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 15534
+stars: 15694
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持自定义频道与EPG；支持多种源获取方式；支持RTMP推流；支持IPv4/IPv6；支持获取归属地与运营商；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -30,6 +30,7 @@ English | 中文
 -   🗓️ 更新日志
 -   ❤️ 赞赏
 -   👀 关注公众号
+-   ⭐️ Star统计
 -   📣 免责声明
 -   ⚖️ 许可证
 
@@ -449,6 +450,12 @@ urls\_limit
 
 10
 
+update\_interval
+
+定时执行更新时间间隔，单位小时，设置0或空则只运行一次，不作用于工作流
+
+12
+
 update\_time\_position
 
 更新时间显示位置，需要开启 open\_update\_time 才能生效，可选值：top、bottom，top: 显示于结果顶部，bottom: 显示于结果底部
@@ -478,7 +485,7 @@ pipenv run service
 
 ### GUI 软件
 
-1.  下载IPTV-API 更新软件，打开软件，点击更新，即可完成更新
+1.  下载IPTV-API 更新软件，打开软件，点击启动，即可进行更新
     
 2.  或者在项目目录下运行以下命令，即可打开 GUI 软件：
     
@@ -527,12 +534,6 @@ APP\_PORT
 服务端口
 
 8000
-
-UPDATE\_CRON
-
-定时任务执行时间
-
-"0 22,10 \* \* \*"
 
 #### 3\. 更新结果
 
@@ -671,6 +672,9 @@ Note
 --
 
 微信公众号搜索 Govin，或扫码，接收更新推送、学习更多使用技巧：
+
+Star统计
+------
 
 免责声明
 ----

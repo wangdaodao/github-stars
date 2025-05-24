@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 2373
+stars: 2401
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -567,14 +567,11 @@ https://github.com/truefedex/tv-bro/releases
 GitHub镜像
 ========
 
--   https://mirror.ghproxy.com/
--   https://ghproxy.org/
--   https://ghp.ci/
--   https://ghgo.xyz/
+-   https://github.do/
 -   https://ghfast.top/
 -   https://gh-proxy.com/
 
-在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。举例：https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。举例：https://github.do/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 
 解决无法打开GitHub还有一种方法是更换DNS。DNS合集：https://dns.iui.im/ DNS测速：https://ping.sx/ping
 

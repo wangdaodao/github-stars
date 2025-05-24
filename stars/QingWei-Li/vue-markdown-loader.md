@@ -1,6 +1,6 @@
 ---
 project: vue-markdown-loader
-stars: 704
+stars: 705
 description: 📇 Convert Markdown file to Vue2.0 component.
 url: https://github.com/QingWei-Li/vue-markdown-loader
 ---

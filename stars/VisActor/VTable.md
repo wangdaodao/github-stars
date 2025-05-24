@@ -1,6 +1,6 @@
 ---
 project: VTable
-stars: 2540
+stars: 2586
 description: VTable is not just a high-performance multidimensional data analysis table, but also a grid artist that creates art between rows and columns.
 url: https://github.com/VisActor/VTable
 ---
@@ -138,7 +138,15 @@ $ rush change-all
 After installation & clone & update, run docs to preview VTable documents locally.
 
 # start vtable document server. execute in file path: ./
+$ rush update
+$ rush build
 $ rush docs
+
+If you meet dependency problems
+===============================
+
+$ rush purge
+$ rush update
 
 🔗 Related Links
 ----------------

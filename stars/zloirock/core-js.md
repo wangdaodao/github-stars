@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 24991
+stars: 25015
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -778,7 +778,7 @@ _Examples_:
 Array.from(new Set(\[1, 2, 3, 2, 1\]));        // => \[1, 2, 3\]
 Array.from({ 0: 1, 1: 2, 2: 3, length: 3 }); // => \[1, 2, 3\]
 Array.from('123', Number);                   // => \[1, 2, 3\]
-Array.from('123', it \=> it \* it);            // => \[1, 4, 9\]
+Array.from('123', it \=> it \*\* 2);            // => \[1, 4, 9\]
 
 Array.of(1);       // => \[1\]
 Array.of(1, 2, 3); // => \[1, 2, 3\]
@@ -2570,7 +2570,7 @@ core-js(-pure)/actual|full/array/from-async
 
 _Example_:
 
-await Array.fromAsync((async function \* () { yield \* \[1, 2, 3\]; })(), i \=> i \* i); // => \[1, 4, 9\]
+await Array.fromAsync((async function \* () { yield \* \[1, 2, 3\]; })(), it \=> it \*\* 2); // => \[1, 4, 9\]
 
 ##### `JSON.parse` source text access⬆
 
@@ -3082,7 +3082,7 @@ core-js(-pure)/full/observable
 core-js(-pure)/full/symbol/observable
 ```
 
-_Examples_:
+_Example_:
 
 new Observable(observer \=> {
   observer.next('hello');

@@ -1,6 +1,6 @@
 ---
 project: astral
-stars: 3332
+stars: 3339
 description: Organize Your GitHub Stars With Ease
 url: https://github.com/astralapp/astral
 ---

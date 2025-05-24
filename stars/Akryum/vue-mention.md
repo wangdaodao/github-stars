@@ -1,6 +1,6 @@
 ---
 project: vue-mention
-stars: 552
+stars: 553
 description: Mention component for Vue.js
 url: https://github.com/Akryum/vue-mention
 ---

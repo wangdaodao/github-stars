@@ -1,6 +1,6 @@
 ---
 project: Astral3DEditor
-stars: 1324
+stars: 1371
 description: 基于Vue3 + THREE.JS 免费开源的三维可视化孪生场景编辑器，包含BIM轻量化、CAD解析预览、粒子系统、插件系统等特色功能。               Based on vue3 + three.js free open source 3D visual twin scene editor, including BIM lightweight, CAD analysis preview, particle system, plug-in system and other features.
 url: https://github.com/mlt131220/Astral3DEditor
 ---
@@ -8,7 +8,7 @@ url: https://github.com/mlt131220/Astral3DEditor
 Astral 3D Editor
 ================
 
-🌍 English | 简体中文
+🌍 简体中文 | English
 
 > 基于 Vue3 + Three.js 的现代 Web 3D 编辑器
 
@@ -26,7 +26,7 @@ Astral 3D Editor
 -   ✅ BIM模型轻量化展示（RVT/IFC）
 -   ✅ CAD图纸解析（DWG/DXF）
 -   ✅ 场景分包存储与加载
--   ✅ WebSocket 多人协作
+-   ✅ 动画编辑器
 
 ### 扩展能力
 
@@ -35,7 +35,7 @@ Astral 3D Editor
 -   💫 粒子系统
 -   ❄️ 天气系统
 -   ☁️ 云存储集成（又拍云 USS）
--   🎠 动画编辑器
+-   🎠 资源中心
 
 ### 即将到来
 
@@ -43,6 +43,7 @@ Astral 3D Editor
 -   🚧 WebGPU 支持
 -   🚧 数据组件（API/WebSocket）
 -   🚧 低代码数据大屏
+-   🚧 WebSocket 多人协作
 
 🛠️ 技术栈
 -------
@@ -61,8 +62,6 @@ git clone https://github.com/mlt131220/Astral3DEditor.git
 cd Astral3DEditor
 yarn install
 yarn run dev
-
-> 📢 提示：默认使用测试后端 `http://43.140.200.138:8080`（数据不定期清空）
 
 ### 生产构建
 
@@ -90,10 +89,10 @@ yarn run build
 ⚖️ 许可协议
 -------
 
-本项目采用 **Apache-2.0 License** 开源协议，使用时请遵守以下条款：
+本项目采用 开源协议，使用时请遵守以下条款：
 
--   ✅ 允许：个人学习、二次开发、非商业用途
--   ⚠️ 需要授权：商业用途
+-   ✅ 允许：个人学习、二次开发、商业用途
+-   ⚠️ 需要版权声明
 -   ❌ 禁止：将本项目用于非法用途
 
 **完整法律声明** | **贡献指南**

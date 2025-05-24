@@ -1,6 +1,6 @@
 ---
 project: modern.js
-stars: 4722
+stars: 4725
 description: A progressive web framework based on React and Rsbuild.
 url: https://github.com/web-infra-dev/modern.js
 ---
@@ -66,6 +66,11 @@ This repo has adopted the Bytedance Open Source Code of Conduct. Please check Co
 ### All Contributors
 
 Thanks to the following friends for their contributions to Modern.js:
+
+Community
+---------
+
+Come and chat with us on Discord! The Modern.js team and users are active there, and we're always looking for contributions.
 
 Credits
 -------

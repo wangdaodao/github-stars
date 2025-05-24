@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 64249
+stars: 64304
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -253,50 +253,25 @@ Run the Web UI on your smartphone for easy access on the go. Check out the dedic
 
 * * *
 
-🔗 Powered by gpt4free
-----------------------
+### Powered by Pollinations AI
 
-**🎁 Projects**
+**🌟 Pollinations AI**
 
-**⭐ Stars**
+A creative AI content platform that generates images, audios, and other media using advanced generative models. Pollinations AI empowers users and developers to turn text into visuals and multimedia experiences.
 
-**📚 Forks**
+> pollinations/pollinations on GitHub
 
-**🛎 Issues**
+* * *
 
-**📬 Pull requests**
+### Powered by GPT4Free
 
-**gpt4free**
+**💸 MoneyPrinter**
 
-**gpt4free-ts**
+MoneyPrinter V2 cranks up the automation for making money online. It’s a complete overhaul of the original MoneyPrinter, rebuilt from the ground up for more features and a plug-and-play, modular design. MPV2 takes the grind and guesswork out of online income: just set it up, let it run, and watch your earnings stack.
 
-**Free AI API's & Potential Providers List**
+> FujiwaraChoki/MoneyPrinterV2 on GitHub
 
-**ChatGPT-Clone**
-
-**Ai agent**
-
-**ChatGpt Discord Bot**
-
-**chatGPT-discord-bot**
-
-**Nyx-Bot (Discord)**
-
-**LangChain gpt4free**
-
-**ChatGpt Telegram Bot**
-
-**ChatGpt Line Bot**
-
-**Action Translate Readme**
-
-**Langchain Document GPT**
-
-**python-tgpt**
-
-**GPT4js**
-
-**VividNode (pyqt-openai)**
+> Full list of GPT4Free powered sites and tools
 
 🤝 Contribute
 -------------

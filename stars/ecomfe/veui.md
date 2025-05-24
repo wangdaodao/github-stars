@@ -1,6 +1,6 @@
 ---
 project: veui
-stars: 1073
+stars: 1072
 description: Enterprise UI for Vue.js.
 url: https://github.com/ecomfe/veui
 ---

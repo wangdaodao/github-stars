@@ -1,6 +1,6 @@
 ---
 project: mpx
-stars: 3733
+stars: 3741
 description: Mpx，一款具有优秀开发体验和深度性能优化的增强型跨端小程序框架
 url: https://github.com/didi/mpx
 ---

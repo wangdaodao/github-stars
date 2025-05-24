@@ -1,6 +1,6 @@
 ---
 project: nw.js
-stars: 40753
+stars: 40771
 description: Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.
 url: https://github.com/nwjs/nw.js
 ---
@@ -35,7 +35,7 @@ Features
 Downloads
 ---------
 
--   **v0.99.1:** (May 8, 2025, based off of Node.js v23.11.0, Chromium 136) : release notes  
+-   **v0.100.0:** (May 23, 2025, based off of Node.js v23.11.0, Chromium 137) : release notes  
     **NOTE** You might want the **SDK build**. Please read the release notes.
     
 -   Linux: 32bit / 64bit

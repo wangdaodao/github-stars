@@ -1,6 +1,6 @@
 ---
 project: mind-map
-stars: 9362
+stars: 9453
 description: 一个还算强大的Web思维导图。A relatively powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---
@@ -90,26 +90,6 @@ Demonstrate（演示模式插件）
 OuterFrame（外框插件）
 
 MindMapLayoutPro（思维导图布局插件）
-
-HandDrawnLikeStyle（手绘风格插件）
-
-Notation（节点标记插件）
-
-Numbers（节点编号插件）
-
-Freemind（Freemind格式导入导出插件）
-
-Excel（Excel格式导入导出插件）
-
-Checkbox（待办插件）
-
-Lineflow（节点连线流动插件）
-
-Momentum（动量效果插件）
-
-RightFishbone（向右鱼骨图插件）
-
-NodeLink（节点链接插件）
 
 本项目不会实现的特性：
 
