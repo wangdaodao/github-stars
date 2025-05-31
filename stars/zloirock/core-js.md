@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 25015
+stars: 25021
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -118,6 +118,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
         -   ECMAScript: Promise
         -   ECMAScript: Symbol
         -   ECMAScript: Collections
+        -   ECMAScript: Explicit Resource Management
         -   ECMAScript: Typed Arrays
         -   ECMAScript: Reflect
         -   ECMAScript: JSON
@@ -131,7 +132,10 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `Array` find from last
             -   Change `Array` by copy
             -   `Array` grouping
+            -   `Array.fromAsync`
             -   `ArrayBuffer.prototype.transfer` and friends
+            -   `Error.isError`
+            -   Explicit Resource Management
             -   `Float16` methods
             -   `Iterator` helpers
             -   `Object.values` / `Object.entries`
@@ -156,20 +160,19 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   Well-formed unicode strings
             -   New `Set` methods
         -   Stage 3 proposals
-            -   `Array.fromAsync`
             -   `JSON.parse` source text access
             -   `Uint8Array` to / from base64 and hex
-            -   Explicit resource management
             -   `Math.sumPrecise`
             -   `Symbol.metadata` for decorators metadata proposal
-            -   `Error.isError`
         -   Stage 2.7 proposals
             -   `Iterator` sequencing
+            -   Joint iteration
             -   `Map` upsert
         -   Stage 2 proposals
             -   `AsyncIterator` helpers
             -   `Iterator.range`
             -   `Array.isTemplateObject`
+            -   `Number.prototype.clamp`
             -   `String.dedent`
             -   `Symbol` predicates
             -   `Symbol.customMatcher` for extractors
@@ -181,7 +184,6 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `Array` filtering
             -   `Array` deduplication
             -   `DataView` get / set `Uint8Clamped` methods
-            -   `Math.clamp`
             -   `Number.fromString`
             -   `String.cooked`
             -   `String.prototype.codePoints`
@@ -628,10 +630,15 @@ console.log.bind(console, 42)(43); // => 42 43
 
 #### ECMAScript: Error⬆
 
-Modules `es.aggregate-error`, `es.aggregate-error.cause`, `es.error.cause`, `es.error.to-string`.
+Modules `es.aggregate-error`, `es.aggregate-error.cause`, `es.error.cause`, `es.error.is-error`, `es.suppressed-error.constructor`, `es.error.to-string`.
+
+class Error {
+  static isError(value: any): boolean;
+  constructor(message: string, { cause: any }): %Error%;
+  toString(): string; // different fixes
+}
 
 class \[
-  Error,
   EvalError,
   RangeError,
   ReferenceError,
@@ -641,7 +648,7 @@ class \[
   WebAssembly.CompileError,
   WebAssembly.LinkError,
   WebAssembly.RuntimeError,
-\] {
+\] extends Error {
   constructor(message: string, { cause: any }): %Error%;
 }
 
@@ -652,17 +659,23 @@ class AggregateError extends Error {
   cause: any;
 }
 
-class Error {
-  toString(): string; // different fixes
+class SuppressedError extends Error {
+  constructor(error: any, suppressed: any, message?: string): SuppressedError;
+  error: any;
+  suppressed: any;
+  message: string;
+  cause: any;
 }
 
 _CommonJS entry points:_
 
 ```
-core-js(-pure)/es|stable|actual|full/aggregate-error
 core-js/es|stable|actual|full/error
 core-js/es|stable|actual|full/error/constructor
+core-js(-pure)/es|stable|actual|full/error/is-error
 core-js/es|stable|actual|full/error/to-string
+core-js(-pure)/es|stable|actual|full/aggregate-error
+core-js(-pure)/es|stable|actual|full/suppressed-error
 ```
 
 _Example_:
@@ -679,9 +692,23 @@ error.cause \=== cause; // => true
 
 Error.prototype.toString.call({ message: 1, name: 2 }) \=== '2: 1'; // => true
 
+_Example_:
+
+Error.isError(new Error('error')); // => true
+Error.isError(new TypeError('error')); // => true
+Error.isError(new DOMException('error')); // => true
+
+Error.isError(null); // => false
+Error.isError({}); // => false
+Error.isError(Object.create(Error.prototype)); // => false
+
+Warning
+
+We have no bulletproof way to polyfill this `Error.isError` / check if the object is an error, so it's an enough naive implementation.
+
 #### ECMAScript: Array⬆
 
-Modules `es.array.from`, `es.array.is-array`, `es.array.of`, `es.array.copy-within`, `es.array.fill`, `es.array.find`, `es.array.find-index`, `es.array.find-last`, `es.array.find-last-index`, `es.array.iterator`, `es.array.includes`, `es.array.push`, `es.array.slice`, `es.array.join`, `es.array.unshift`, `es.array.index-of`, `es.array.last-index-of`, `es.array.every`, `es.array.some`, `es.array.for-each`, `es.array.map`, `es.array.filter`, `es.array.reduce`, `es.array.reduce-right`, `es.array.reverse`, `es.array.sort`, `es.array.flat`, `es.array.flat-map`, `es.array.unscopables.flat`, `es.array.unscopables.flat-map`, `es.array.at`, `es.array.to-reversed`, `es.array.to-sorted`, `es.array.to-spliced`, `es.array.with`.
+Modules `es.array.from`, `es.array.from-async`, `es.array.is-array`, `es.array.of`, `es.array.copy-within`, `es.array.fill`, `es.array.find`, `es.array.find-index`, `es.array.find-last`, `es.array.find-last-index`, `es.array.iterator`, `es.array.includes`, `es.array.push`, `es.array.slice`, `es.array.join`, `es.array.unshift`, `es.array.index-of`, `es.array.last-index-of`, `es.array.every`, `es.array.some`, `es.array.for-each`, `es.array.map`, `es.array.filter`, `es.array.reduce`, `es.array.reduce-right`, `es.array.reverse`, `es.array.sort`, `es.array.flat`, `es.array.flat-map`, `es.array.unscopables.flat`, `es.array.unscopables.flat-map`, `es.array.at`, `es.array.to-reversed`, `es.array.to-sorted`, `es.array.to-spliced`, `es.array.with`.
 
 class Array {
   at(index: int): any;
@@ -721,6 +748,7 @@ class Array {
   @@iterator(): Iterator<value\>;
   @@unscopables: { \[newMethodNames: string\]: true };
   static from(items: Iterable | ArrayLike, mapFn?: (value: any, index: number) \=> any, thisArg?: any): Array<mixed\>;
+  static fromAsync(asyncItems: AsyncIterable | Iterable | ArrayLike, mapfn?: (value: any, index: number) \=> any, thisArg?: any): Array;
   static isArray(value: any): boolean;
   static of(...args: Array<mixed\>): Array<mixed\>;
 }
@@ -734,6 +762,7 @@ _CommonJS entry points:_
 ```
 core-js(-pure)/es|stable|actual|full/array
 core-js(-pure)/es|stable|actual|full/array/from
+core-js(-pure)/es|stable|actual|full/array/from-async
 core-js(-pure)/es|stable|actual|full/array/of
 core-js(-pure)/es|stable|actual|full/array/is-array
 core-js(-pure)/es|stable|actual|full/array(/virtual)/at
@@ -839,9 +868,13 @@ const correctionNeeded \= \[1, 1, 3\];
 correctionNeeded.with(1, 2); // => \[1, 2, 3\]
 correctionNeeded; // => \[1, 1, 3\]
 
+_`Array.fromAsync` example_:
+
+await Array.fromAsync((async function \* () { yield \* \[1, 2, 3\]; })(), i \=> i \*\* 2); // => \[1, 4, 9\]
+
 #### ECMAScript: Iterator⬆
 
-Modules `es.iterator.constructor`, `es.iterator.drop`, `es.iterator.every`, `es.iterator.filter`, `es.iterator.find`, `es.iterator.flat-map`, `es.iterator.for-each`, `es.iterator.from`, `es.iterator.map`, `es.iterator.reduce`, `es.iterator.some`, `es.iterator.take`, `es.iterator.to-array`
+Modules `es.iterator.constructor`, `es.iterator.dispose`, `es.iterator.drop`, `es.iterator.every`, `es.iterator.filter`, `es.iterator.find`, `es.iterator.flat-map`, `es.iterator.for-each`, `es.iterator.from`, `es.iterator.map`, `es.iterator.reduce`, `es.iterator.some`, `es.iterator.take`, `es.iterator.to-array`
 
 class Iterator {
   static from(iterable: Iterable<any\> | Iterator<any\>): Iterator<any\>;
@@ -856,6 +889,7 @@ class Iterator {
   some(callbackfn: (value: any, counter: uint) \=> boolean): boolean;
   take(limit: uint): Iterator<any\>;
   toArray(): Array<any\>;
+  @@dispose(): undefined;
   @@toStringTag: 'Iterator'
 }
 
@@ -863,6 +897,7 @@ _CommonJS entry points:_
 
 ```
 core-js(-pure)/es|stable|actual|full/iterator
+core-js(-pure)/es|stable|actual|full/iterator/dispose
 core-js(-pure)/es|stable|actual|full/iterator/drop
 core-js(-pure)/es|stable|actual|full/iterator/every
 core-js(-pure)/es|stable|actual|full/iterator/filter
@@ -1434,12 +1469,14 @@ setTimeout(() \=> promise.catch(() \=> { /\* empty \*/ }), 1e3);
 
 #### ECMAScript: Symbol⬆
 
-Modules `es.symbol`, `es.symbol.async-iterator`, `es.symbol.description`, `es.symbol.has-instance`, `es.symbol.is-concat-spreadable`, `es.symbol.iterator`, `es.symbol.match`, `es.symbol.replace`, `es.symbol.search`, `es.symbol.species`, `es.symbol.split`, `es.symbol.to-primitive`, `es.symbol.to-string-tag`, `es.symbol.unscopables`, `es.math.to-string-tag`.
+Modules `es.symbol`, `es.symbol.async-dispose`, `es.symbol.async-iterator`, `es.symbol.description`, `es.symbol.dispose`, `es.symbol.has-instance`, `es.symbol.is-concat-spreadable`, `es.symbol.iterator`, `es.symbol.match`, `es.symbol.replace`, `es.symbol.search`, `es.symbol.species`, `es.symbol.split`, `es.symbol.to-primitive`, `es.symbol.to-string-tag`, `es.symbol.unscopables`, `es.math.to-string-tag`.
 
 class Symbol {
   constructor(description?): symbol;
   readonly attribute description: string | void;
+  static asyncDispose: @@asyncDispose;
   static asyncIterator: @@asyncIterator;
+  static dispose: @@dispose;
   static hasInstance: @@hasInstance;
   static isConcatSpreadable: @@isConcatSpreadable;
   static iterator: @@iterator;
@@ -1476,8 +1513,10 @@ _CommonJS entry points:_
 
 ```
 core-js(-pure)/es|stable|actual|full/symbol
+core-js(-pure)/es|stable|actual|full/symbol/async-dispose
 core-js(-pure)/es|stable|actual|full/symbol/async-iterator
 core-js/es|stable|actual|full/symbol/description
+core-js(-pure)/es|stable|actual|full/symbol/dispose
 core-js(-pure)/es|stable|actual|full/symbol/has-instance
 core-js(-pure)/es|stable|actual|full/symbol/is-concat-spreadable
 core-js(-pure)/es|stable|actual|full/symbol/iterator
@@ -1781,6 +1820,66 @@ Warning
 
 -   Weak-collections polyfill stores values as hidden properties of keys. It works correctly and does not leak in most cases. However, it is desirable to store a collection longer than its keys.
 -   Native symbols as `WeakMap` keys can't be properly polyfilled without memory leaks.
+
+#### ECMAScript: Explicit Resource Management⬆
+
+Note
+
+This is only built-ins for this Explicit Resource Management, `using` syntax support requires transpiler support.
+
+Modules `es.disposable-stack.constructor`, `es.iterator.dispose`, `es.async-disposable-stack.constructor`, `es.async-iterator.async-dispose`.
+
+class Symbol {
+  static asyncDispose: @@asyncDispose;
+  static dispose: @@dispose;
+}
+
+class DisposableStack {
+  constructor(): DisposableStack;
+  dispose(): undefined;
+  use(value: Disposable): value;
+  adopt(value: object, onDispose: Function): value;
+  defer(onDispose: Function): undefined;
+  move(): DisposableStack;
+  @@dispose(): undefined;
+  @@toStringTag: 'DisposableStack';
+}
+
+class AsyncDisposableStack {
+  constructor(): AsyncDisposableStack;
+  disposeAsync(): Promise<undefined\>;
+  use(value: AsyncDisposable | Disposable): value;
+  adopt(value: object, onDispose: Function): value;
+  defer(onDispose: Function): undefined;
+  move(): AsyncDisposableStack;
+  @@asyncDispose(): Promise<undefined\>;
+  @@toStringTag: 'AsyncDisposableStack';
+}
+
+class SuppressedError extends Error {
+  constructor(error: any, suppressed: any, message?: string): SuppressedError;
+  error: any;
+  suppressed: any;
+  message: string;
+  cause: any;
+}
+
+class Iterator {
+  @@dispose(): undefined;
+}
+
+class AsyncIterator {
+  @@asyncDispose(): Promise<undefined\>;
+}
+
+_CommonJS entry points:_
+
+```
+core-js(-pure)/es|stable|actual|full/disposable-stack
+core-js(-pure)/es|stable|actual|full/async-disposable-stack
+core-js(-pure)/es|stable|actual|full/iterator/dispose
+core-js(-pure)/es|stable|actual|full/async-iterator/async-dispose
+```
 
 #### ECMAScript: Typed Arrays⬆
 
@@ -2213,6 +2312,18 @@ _CommonJS entry points:_
 core-js/proposals/array-grouping-v2
 ```
 
+##### `Array.fromAsync`⬆
+
+class Array {
+  static fromAsync(asyncItems: AsyncIterable | Iterable | ArrayLike, mapfn?: (value: any, index: number) \=> any, thisArg?: any): Array;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/array-from-async-stage-2
+```
+
 ##### `ArrayBuffer.prototype.transfer` and friends⬆
 
 class ArrayBuffer {
@@ -2225,6 +2336,77 @@ _CommonJS entry points:_
 
 ```
 core-js/proposals/array-buffer-transfer
+```
+
+##### `Error.isError`⬆
+
+class Error {
+  static isError(value: any): boolean;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/is-error
+```
+
+Warning
+
+We have no bulletproof way to polyfill this `Error.isError` / check if the object is an error, so it's an enough naive implementation.
+
+##### Explicit Resource Management⬆
+
+Note
+
+This is only built-ins for this Explicit Resource Management, `using` syntax support requires transpiler support.
+
+class Symbol {
+  static asyncDispose: @@asyncDispose;
+  static dispose: @@dispose;
+}
+
+class DisposableStack {
+  constructor(): DisposableStack;
+  dispose(): undefined;
+  use(value: Disposable): value;
+  adopt(value: object, onDispose: Function): value;
+  defer(onDispose: Function): undefined;
+  move(): DisposableStack;
+  @@dispose(): undefined;
+  @@toStringTag: 'DisposableStack';
+}
+
+class AsyncDisposableStack {
+  constructor(): AsyncDisposableStack;
+  disposeAsync(): Promise<undefined\>;
+  use(value: AsyncDisposable | Disposable): value;
+  adopt(value: object, onDispose: Function): value;
+  defer(onDispose: Function): undefined;
+  move(): AsyncDisposableStack;
+  @@asyncDispose(): Promise<undefined\>;
+  @@toStringTag: 'AsyncDisposableStack';
+}
+
+class SuppressedError extends Error {
+  constructor(error: any, suppressed: any, message?: string): SuppressedError;
+  error: any;
+  suppressed: any;
+  message: string;
+  cause: any;
+}
+
+class Iterator {
+  @@dispose(): undefined;
+}
+
+class AsyncIterator {
+  @@asyncDispose(): Promise<undefined\>;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/explicit-resource-management
 ```
 
 ##### `Float16` methods⬆
@@ -2553,25 +2735,6 @@ _CommonJS entry points:_
 core-js(-pure)/stage/3
 ```
 
-##### `Array.fromAsync`⬆
-
-Modules `esnext.array.from-async`.
-
-class Array {
-  static fromAsync(asyncItems: AsyncIterable | Iterable | ArrayLike, mapfn?: (value: any, index: number) \=> any, thisArg?: any): Array;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/array-from-async-stage-2
-core-js(-pure)/actual|full/array/from-async
-```
-
-_Example_:
-
-await Array.fromAsync((async function \* () { yield \* \[1, 2, 3\]; })(), it \=> it \*\* 2); // => \[1, 4, 9\]
-
 ##### `JSON.parse` source text access⬆
 
 Modules `esnext.json.is-raw-json`, `esnext.json.parse`, `esnext.json.raw-json`.
@@ -2648,70 +2811,6 @@ console.log(arr.toHex()); // => '48656c6c6f20576f726c64'
 console.log(Uint8Array.fromBase64('SGVsbG8gV29ybGQ=')); // => Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\])
 console.log(Uint8Array.fromHex('48656c6c6f20576f726c64')); // => Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\])
 
-##### Explicit Resource Management⬆
-
-Note
-
-This is only built-ins for this proposal, `using` syntax support requires transpiler support.
-
-Modules `esnext.symbol.dispose`, `esnext.disposable-stack.constructor`, `esnext.suppressed-error.constructor`, `esnext.iterator.dispose`, `esnext.symbol.async-dispose`, `esnext.async-disposable-stack.constructor`, `esnext.async-iterator.async-dispose`.
-
-class Symbol {
-  static asyncDispose: @@asyncDispose;
-  static dispose: @@dispose;
-}
-
-class DisposableStack {
-  constructor(): DisposableStack;
-  dispose(): undefined;
-  use(value: Disposable): value;
-  adopt(value: object, onDispose: Function): value;
-  defer(onDispose: Function): undefined;
-  move(): DisposableStack;
-  @@dispose(): undefined;
-  @@toStringTag: 'DisposableStack';
-}
-
-class AsyncDisposableStack {
-  constructor(): AsyncDisposableStack;
-  disposeAsync(): Promise<undefined\>;
-  use(value: AsyncDisposable | Disposable): value;
-  adopt(value: object, onDispose: Function): value;
-  defer(onDispose: Function): undefined;
-  move(): AsyncDisposableStack;
-  @@asyncDispose(): Promise<undefined\>;
-  @@toStringTag: 'AsyncDisposableStack';
-}
-
-class SuppressedError extends Error {
-  constructor(error: any, suppressed: any, message?: string): SuppressedError;
-  error: any;
-  suppressed: any;
-  message: string;
-  cause: any;
-}
-
-class Iterator {
-  @@dispose(): undefined;
-}
-
-class AsyncIterator {
-  @@asyncDispose(): Promise<undefined\>;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/explicit-resource-management
-core-js(-pure)/actual|full/symbol/async-dispose
-core-js(-pure)/actual|full/symbol/dispose
-core-js(-pure)/actual|full/disposable-stack
-core-js(-pure)/actual|full/async-disposable-stack
-core-js(-pure)/actual|full/suppressed-error
-core-js(-pure)/actual|full/iterator/dispose
-core-js(-pure)/actual|full/async-iterator/async-dispose
-```
-
 ##### `Math.sumPrecise`
 
 Module `esnext.math.sum-precise`
@@ -2752,35 +2851,6 @@ core-js(-pure)/actual|full/symbol/metadata
 core-js(-pure)/actual|full/function/metadata
 ```
 
-##### `Error.isError`⬆
-
-Module `esnext.error.is-error`
-
-class Error {
-  static isError(value: any): boolean;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/is-error
-core-js(-pure)/actual|full/error/is-error
-```
-
-_Example_:
-
-Error.isError(new Error('error')); // => true
-Error.isError(new TypeError('error')); // => true
-Error.isError(new DOMException('error')); // => true
-
-Error.isError(null); // => false
-Error.isError({}); // => false
-Error.isError(Object.create(Error.prototype)); // => false
-
-Warning
-
-We have no bulletproof way to polyfill this method / check if the object is an error, so it's an enough naive implementation.
-
 #### Stage 2.7 proposals⬆
 
 _CommonJS entry points:_
@@ -2810,6 +2880,59 @@ Iterator.concat(\[0, 1\].values(), \[2, 3\], function \* () {
   yield 4;
   yield 5;
 }()).toArray(); // => \[0, 1, 2, 3, 4, 5\]
+
+##### Joint iteration⬆
+
+Modules esnext.iterator.zip, esnext.iterator.zip-keyed
+
+class Iterator {
+  zip<T extends readonly Iterable<unknown\>\[\]\>(
+    iterables: T,
+    options?: {
+      mode?: 'shortest' | 'longest' | 'strict';
+      padding?: { \[K in keyof T\]?: T\[K\] extends Iterable<infer U\> ? U : never };
+    }
+  ): IterableIterator<{ \[K in keyof T\]: T\[K\] extends Iterable<infer U\> ? U : never }\>;
+  zipKeyed<K extends PropertyKey, V extends Record<K, Iterable<unknown\>\>\>(
+    iterables: V,
+    options?: {
+      mode?: 'shortest' | 'longest' | 'strict';
+      padding?: { \[P in keyof V\]?: V\[P\] extends Iterable<infer U\> ? U : never };
+    }
+  ): IterableIterator<{ \[P in keyof V\]: V\[P\] extends Iterable<infer U\> ? U : never }\>;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/joint-iteration
+core-js(-pure)/full/iterator/zip
+core-js(-pure)/full/iterator/zip-keyed
+```
+
+_Example_:
+
+Iterator.zip(\[
+  \[0, 1, 2\],
+  \[3, 4, 5\],
+\]).toArray();  // => \[\[0, 3\], \[1, 4\], \[2, 5\]\]
+
+Iterator.zipKeyed({
+  a: \[0, 1, 2\],
+  b: \[3, 4, 5, 6\],
+  c: \[7, 8, 9\],
+}, {
+  mode: 'longest',
+  padding: { c: 10 },
+}).toArray();
+/\*
+\[
+  { a: 0,         b: 3, c: 7  },
+  { a: 1,         b: 4, c: 8  },
+  { a: 2,         b: 5, c: 9  },
+  { a: undefined, b: 6, c: 10 },
+\];
+ \*/
 
 ##### `Map` upsert⬆
 
@@ -2981,6 +3104,27 @@ core-js(-pure)/full/array/is-template-object
 _Example_:
 
 console.log(Array.isTemplateObject((it \=> it)\`qwe${ 123 }asd\`)); // => true
+
+##### `Number.prototype.clamp`⬆
+
+Module `esnext.number.clamp`
+
+class Number {
+  clamp(min: number, max: number): number;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/math-clamp-v2
+core-js(-pure)/full/number/clamp
+```
+
+_Example_:
+
+5.0.clamp(0, 10); // => 5
+\-5.0.clamp(0, 10); // => 0
+15.0.clamp(0, 10); // => 10
 
 ##### `String.dedent`⬆
 
@@ -3312,27 +3456,6 @@ Examples:
 const view \= new DataView(new ArrayBuffer(1));
 view.setUint8Clamped(0, 100500);
 console.log(view.getUint8Clamped(0)); // => 255
-
-##### `Math.clamp`⬆
-
-Module `esnext.math.clamp`
-
-class Math {
-  clamp(value: number, min: number, max: number): number;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/math-clamp
-core-js(-pure)/full/math/clamp
-```
-
-_Example_:
-
-Math.clamp(5, 0, 10); // => 5
-Math.clamp(\-5, 0, 10); // => 0
-Math.clamp(15, 0, 10); // => 10
 
 ##### `Number.fromString`⬆
 

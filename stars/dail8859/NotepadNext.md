@@ -1,6 +1,6 @@
 ---
 project: NotepadNext
-stars: 10179
+stars: 10284
 description: A cross-platform, reimplementation of Notepad++
 url: https://github.com/dail8859/NotepadNext
 ---

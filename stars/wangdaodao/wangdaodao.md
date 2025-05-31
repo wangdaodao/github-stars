@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-05-25 06:21.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-01 06:21.
 
 📝 Hitokoto
 -----------
 
-> 熬得住无人问津的日子，方可配得起诗和远方。—— 杨绛
+> 追求得到之日即其终止之日，寻觅的过程亦即失去的过程。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Jotunheimen National Park in Norway (© Marisa Estivill/Shutterstock)_
+_Knuthöjdsmossen, a nature reserve in Sweden (© Sven Halling/DEEPOL/plainpicture)_
 
 📚 My Blog posts ...
 --------------------

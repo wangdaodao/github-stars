@@ -1,6 +1,6 @@
 ---
 project: openDataV
-stars: 1193
+stars: 1198
 description: OpenDataV 是一个纯前端的拖拽式、可视化、低代码数据可视化🌈开发平台，你可以用它自由的拼接成各种✨炫酷的大屏，同时支持用户方便的开发自己的组件并接入平台。
 url: https://github.com/AnsGoo/openDataV
 ---

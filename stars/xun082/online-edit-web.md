@@ -1,6 +1,6 @@
 ---
 project: online-edit-web
-stars: 650
+stars: 654
 description: ✍️✍️✍️ An online code editor based on Next.js and NestJS, using Monaco Editor and Yjs for real-time collaborative editing and synchronization.
 url: https://github.com/xun082/online-edit-web
 ---

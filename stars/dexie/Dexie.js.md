@@ -1,6 +1,6 @@
 ---
 project: Dexie.js
-stars: 13100
+stars: 13130
 description: A Minimalistic Wrapper for IndexedDB
 url: https://github.com/dexie/Dexie.js
 ---
@@ -80,7 +80,7 @@ Yes, it's that simple. Read the docs to get into the details.
 
 #### Hello World (for modern browsers)
 
-All modern browsers support ES modules and top-level awaits. No transipler needed. Here's the previous example in a modern flavour:
+All modern browsers support ES modules and top-level awaits. No transpiler needed. Here's the previous example in a modern flavour:
 
 <!DOCTYPE html\>
 <html\>

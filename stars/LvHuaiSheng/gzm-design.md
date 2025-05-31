@@ -1,6 +1,6 @@
 ---
 project: gzm-design
-stars: 640
+stars: 647
 description: 🚀🚀🚀一款漂亮易用的在线设计器，支持PSD导入、PSD解析，可用于海报设计器、广告设计器、logo设计器、AI创作图片合成器等。常用于生成二维码海报，图片海报，二维码推广海报，图片处理，名片设计，电商产品图，节假日海报等。http://gzm-design-doc.guozimi.cn/
 url: https://github.com/LvHuaiSheng/gzm-design
 ---

@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 13809
+stars: 13988
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -155,6 +155,7 @@ Chmod
 Chown Cron  
 CMake  
 CMD  
+.NET CLI  
 Find  
 FFmpeg  
 Gdb  
@@ -293,7 +294,11 @@ Resolutions
 
 由于中国国内访问，时常打不开，你可以访问下面镜像网站(国内打不开的不再收录)。推荐自己的镜像网站
 
-zone.id docflow.cn quickref.cn aibk.cn quickref.hestudio.net qiubit.cc guoxudong.io moeyuuko.com terryyoung.cn quickref.binscor.top srebro.cn haah.net xiechengqi.top ownit.top 666666.dev mmoke.com laoleng.vip dbyun.net if010.com isteed.cc xushanxiang.com surcode.cn cms.im eryajf.net kjchmc.cn quickreference.pages.dev btaw.cn lzw.me itcent.cn coolxy.top notes-bin.top lzzzt.cn kclouder.cn longdada.me xalaok.top chenze.cloud ref.v-ta.com hao.kim tool.sakura.vin chenchen.site jgeek.cn itzcy.com fifo.site gaojs.com.cn 15926.tech jeffjade.com okhk.net wdft.com xiaopa.cc zsccodelnc.cn chanlun.pro likui.info ruiange.work denganliang.com ivanz.cc dev6.site mingming.dev zishu.me sucan2233.cn pages.dev hrzweb.xyz bobh.cool tangwudi.com alomerry.com osz.icu ylmty.cc kfele.asia 9up.dev cizai.io docs.willxup.top wangchunfei.com object.cool luckyits.com jeremyjone.com gistudy.net maoo.me deyout.com xod.cc const.team jhao.me 7yueee.cn liamng.top maisblog.cn ruochen.net zcsk18.cn doraemon.press foreverlink.love 94vessel.com hhxyrk.icu vhcffh.com magese.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net lideshan.top yunshangmanyou.com xiaokaixuan.com opzz.top pusukeji.com songbaixin.xin 78888889.xyz dev.bi ecdata.cn
+quickref.cn 78888889.xyz pusukeji.com magese.com doraemon.press foreverlink.love xod.cc jhao.me maoo.me luckyits.com 9up.dev ylmty.cc mingming.dev itzcy.com ref.v-ta.com eryajf.net isteed.cc 666666.dev srebro.cn guoxudong.io terryyoung.cn quickref.binscor.top zone.id aibk.cn docflow.cn quickref.hestudio.net qiubit.cc moeyuuko.com haah.net ownit.top laoleng.vip if010.com cms.im itcent.cn coolxy.top kclouder.cn xalaok.top hao.kim tool.sakura.vin chenchen.site jgeek.cn gaojs.com.cn 15926.tech okhk.net wdft.com likui.info ruiange.work denganliang.com ivanz.cc dev6.site zishu.me sucan2233.cn bobh.cool tangwudi.com osz.icu docs.willxup.top wangchunfei.com object.cool jeremyjone.com gistudy.net deyout.com const.team liamng.top zcsk18.cn hhxyrk.icu vhcffh.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net yunshangmanyou.com xiaokaixuan.com opzz.top songbaixin.xin dev.bi ecdata.cn
+
+下面网站暂时失联了
+
+lideshan.top 94vessel.com 7yueee.cn maisblog.cn ruochen.net cizai.io alomerry.com kfele.asia pages.dev hrzweb.xyz zsccodelnc.cn jeffjade.com chanlun.pro dotcube.cc fifo.site longdada.me chenze.cloud lzzzt.cn notes-bin.top fifo.site longdada.me btaw.cn lzw.me kjchmc.cn quickreference.pages.dev surcode.cn xushanxiang.com mmoke.com dbyun.net xiechengqi.top
 
 如果你有资源，可以很方便部署 web 版，这非常简单，只需要克隆 gh-pages 分支代码到你的静态服务就可以了，还可以使用 docker 快捷部署 web 版。
 

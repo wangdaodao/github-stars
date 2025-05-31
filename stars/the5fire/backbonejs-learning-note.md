@@ -1,6 +1,6 @@
 ---
 project: backbonejs-learning-note
-stars: 946
+stars: 945
 description: backbonejs学习笔记更新版，使用backbone1.1.0
 url: https://github.com/the5fire/backbonejs-learning-note
 ---

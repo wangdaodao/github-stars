@@ -1,6 +1,6 @@
 ---
 project: vue-masonry
-stars: 689
+stars: 690
 description: 💠 Vue.js directive for masonry blocks layouting ✅
 url: https://github.com/shershen08/vue-masonry
 ---

@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 10161
+stars: 10158
 description: IPTV直播源抓取 自动整合hao趣网直播源+TVBox直播源+其他网上直播源 择取分辨率、速度最佳视频流 定期更新
 url: https://github.com/joevess/IPTV
 ---

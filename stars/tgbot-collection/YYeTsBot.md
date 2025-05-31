@@ -1,6 +1,6 @@
 ---
 project: YYeTsBot
-stars: 15265
+stars: 15292
 description: 🎬 人人影视 机器人和网站，包含人人影视全部资源以及众多网友的网盘分享
 url: https://github.com/tgbot-collection/YYeTsBot
 ---

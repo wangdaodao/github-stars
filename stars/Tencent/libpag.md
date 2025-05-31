@@ -1,6 +1,6 @@
 ---
 project: libpag
-stars: 5294
+stars: 5304
 description: The official rendering library for PAG (Portable Animated Graphics) files that renders After Effects animations natively across multiple platforms.
 url: https://github.com/Tencent/libpag
 ---

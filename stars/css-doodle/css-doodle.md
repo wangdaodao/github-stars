@@ -1,6 +1,6 @@
 ---
 project: css-doodle
-stars: 5798
+stars: 5804
 description: 🎨  A web component for drawing patterns with CSS.
 url: https://github.com/css-doodle/css-doodle
 ---
@@ -30,6 +30,11 @@ Design tools
 -   Tabbied -- Doodle with generated patterns
 -   Shapes -- Discover new CSS polygon shapes
 -   SVG playground -- Generate SVG code with new syntax
+
+CLI Tools
+---------
+
+-   cssd -- Preview and generate images/videos
 
 Resources
 ---------

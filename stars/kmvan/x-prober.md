@@ -1,6 +1,6 @@
 ---
 project: x-prober
-stars: 1374
+stars: 1375
 description: 🐘 A probe program for PHP environment (一款精美的 PHP 探針, 又名X探針、劉海探針)
 url: https://github.com/kmvan/x-prober
 ---

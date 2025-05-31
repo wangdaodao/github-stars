@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 23988
+stars: 24285
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -94,7 +94,7 @@ pip install pdf2zh
     
     pdf2zh -i
     
-2.  If your browswer has not been started automatically, goto
+2.  If your browser has not been started automatically, goto
     
     http://localhost:7860/
     
@@ -318,7 +318,7 @@ For detailed explanations, please refer to our document about Advanced Usage for
 Secondary Development (APIs)
 ----------------------------
 
-For downstream applications, please refer to our document about API Details for futher information about:
+For downstream applications, please refer to our document about API Details for further information about:
 
 -   Python API, how to use the program in other Python programs
 -   HTTP API, how to communicate with a server with the program installed

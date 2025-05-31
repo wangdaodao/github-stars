@@ -1,6 +1,6 @@
 ---
 project: designable
-stars: 3394
+stars: 3395
 description: 🧩 Make everything designable 🧩 
 url: https://github.com/alibaba/designable
 ---

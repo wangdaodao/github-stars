@@ -1,6 +1,6 @@
 ---
 project: nacos
-stars: 31439
+stars: 31489
 description: an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
 url: https://github.com/alibaba/nacos
 ---

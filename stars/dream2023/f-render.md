@@ -1,6 +1,6 @@
 ---
 project: f-render
-stars: 1588
+stars: 1587
 description: f-render | 基于 ElementUI 的表单设计器
 url: https://github.com/dream2023/f-render
 ---
