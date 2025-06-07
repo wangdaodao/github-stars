@@ -1,6 +1,6 @@
 ---
 project: vue-plugin-hiprint
-stars: 1292
+stars: 1306
 description: hiprint for Vue2/Vue3 ⚡打印、打印设计、可视化设计器、报表设计、元素编辑、可视化打印编辑
 url: https://github.com/CcSimple/vue-plugin-hiprint
 ---
@@ -17,9 +17,11 @@ vue-plugin-hiprint (基于 hiprint 2.5.4) 当时只是为了方便 我（并非 
 vue-plugin-hiprint
 ------------------
 
-> ✨ 立即体验  
+> ✨ 立即体验(Github 访问慢)  
 >   
-> 🌈 更新日志  
+> ✨ 国内访问(www.ibujian.cn)  
+>   
+> 🌈 更新日志 (页面支持 Ctrl + F 搜索)  
 >   
 > 🐛 常见问题(入门必看!) ⚠️⚠️ 📕 系列教程文章(入门必看!)  
 >   
@@ -48,6 +50,8 @@ Important
 ----
 
 2元快速入门: 一文彻底入门可视化打印 vue-plugin-hiprint
+
+6元解锁云打印: 三端通用的云打印方案: uniapp + nodejs中转服务！(附源码)
 
 > 更多文章见公众号、小程序(文章,服务端预览,云打印)
 

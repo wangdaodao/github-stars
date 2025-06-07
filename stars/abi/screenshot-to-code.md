@@ -1,6 +1,6 @@
 ---
 project: screenshot-to-code
-stars: 70045
+stars: 70100
 description: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
 url: https://github.com/abi/screenshot-to-code
 ---
@@ -53,7 +53,7 @@ Keys needed:
 
 If you'd like to run the app with Ollama open source models (not recommended due to poor quality results), follow this comment.
 
-Run the backend (I use Poetry for package management - `pip install poetry` if you don't have it):
+Run the backend (I use Poetry for package management - `pip install --upgrade poetry` if you don't have it):
 
 cd backend
 echo "OPENAI\_API\_KEY=sk-your-key" \> .env

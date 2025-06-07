@@ -1,6 +1,6 @@
 ---
 project: lifeRestart
-stars: 10256
+stars: 10265
 description: やり直すんだ。そして、次はうまくやる。
 url: https://github.com/VickScarlet/lifeRestart
 ---

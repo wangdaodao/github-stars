@@ -1,6 +1,6 @@
 ---
 project: it-tools
-stars: 30318
+stars: 30489
 description: Collection of handy online tools for developers, with great UX. 
 url: https://github.com/CorentinTh/it-tools
 ---

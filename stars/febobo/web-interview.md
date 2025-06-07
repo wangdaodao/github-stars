@@ -1,6 +1,6 @@
 ---
 project: web-interview
-stars: 11041
+stars: 11063
 description: 语音打卡社群维护的前端面试题库，包含不限于Vue面试题，React面试题，JS面试题，HTTP面试题，工程化面试题，CSS面试题，算法面试题，大厂面试题，高频面试题
 url: https://github.com/febobo/web-interview
 ---

@@ -1,6 +1,6 @@
 ---
 project: smarthosts
-stars: 1158
+stars: 1157
 description: Smarthosts
 url: https://github.com/smarthosts/smarthosts
 ---

@@ -1,6 +1,6 @@
 ---
 project: vue-easycm
-stars: 52
+stars: 53
 description: :cookie:  Simplify Vue context menu component
 url: https://github.com/boenfu/vue-easycm
 ---

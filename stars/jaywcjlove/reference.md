@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 13988
+stars: 14035
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -20,260 +20,67 @@ Quick Reference
 
 坑已挖，需要您的参与完善和贡献！🙏
 
-Ansible  
-CMake  
-C#  
-Django  
-FFmpeg  
-Flask  
-FastAPI  
-Flutter  
-Gitlab CI/CD  
-LaTeX  
-Lua  
-NestJS  
-MATLAB  
-Oracle  
-Pytorch  
-Vue 3  
-Github Copilot  
-Chown  
-R 语言  
-Elixir  
-Tauri Docker Compose
+Ansible CMake C# Django FFmpeg Flask FastAPI Flutter Gitlab CI/CD LaTeX Lua NestJS MATLAB Oracle Pytorch Vue 3 Github Copilot Chown R 语言 Elixir Tauri Docker Compose
 
 编程
 --
 
-Bash  
-Powershell  
-C 语言  
-C#  
-C++  
-Dart  
-Docker  
-Docker Compose  
-Dockerfile  
-Django  
-Elixir  
-Erlang  
-Flask  
-FastAPI  
-Flutter  
-Golang  
-GraphQL  
-Hook  
-Java  
-Julia  
-Kotlin  
-Kubernetes  
-LaTeX  
-Laravel 8  
-Markdown  
-MATLAB  
-PHP  
-Python  
-R 语言  
-Ruby  
-Rust  
-Scala  
-Swift  
-SwiftUI  
-Spring Boot  
-Lua  
-Pytorch  
-Jupyter  
-Minio
+Bash Powershell C 语言 C# C++ Dart Docker Docker Compose Dockerfile Django Elixir Erlang Flask FastAPI Flutter Golang GraphQL Hook Java Julia Kotlin Kubernetes LaTeX Laravel 8 Markdown MATLAB PHP Python R 语言 Ruby Rust Scala Swift SwiftUI Spring Boot Lua Pytorch Jupyter Minio
 
 配置
 --
 
-INI  
-JSON  
-TOML  
-YAML
+INI JSON TOML YAML
 
 前端
 --
 
-前端导航  
-Electron  
-Emmet  
-ES 6  
-HTML  
-HTML Canvas  
-JavaScript  
-jQuery  
-Next.js  
-RxJS  
-React  
-React Router  
-React Native  
-TypeScript  
-Tauri  
-Vue 2  
-Vue 3  
-</> htmx  
-Pinia
+前端导航 Electron Emmet ES 6 HTML HTML Canvas JavaScript jQuery Next.js RxJS React React Router React Native TypeScript Tauri Vue 2 Vue 3 </> htmx Pinia
 
 CSS
 ---
 
-CSS 3  
-Styled Components  
-Stylus  
-Sass  
-Less.js  
-Tailwind CSS  
-StyleX
+CSS 3 Styled Components Stylus Sass Less.js Tailwind CSS StyleX
 
 Nodejs
 ------
 
-Express.js  
-Ejs  
-Jest  
-Koa.js  
-Lerna  
-npm  
-NestJS  
-PM2  
-package.json  
-Yarn  
-nvm  
-pnpm  
-Bun
+Express.js Ejs Jest Koa.js Lerna npm NestJS PM2 package.json Yarn nvm pnpm Bun
 
 命令
 --
 
-ADB, Android Debug Bridge  
-Ansible  
-Awk  
-Curl  
-Chmod  
-Chown Cron  
-CMake  
-CMD  
-.NET CLI  
-Find  
-FFmpeg  
-Gdb  
-Glances  
-Grep  
-Htop  
-iptables  
-jq  
-Justfile  
-Lsof  
-Make  
-Netstat  
-Netcat  
-OpenSSL  
-ps  
-Pandoc  
-Sed  
-Systemd  
-SSH  
-Screen  
-Sysdig  
-Tmux  
-Taskset  
-tar  
-Yazi  
-Zip  
-FTP
+ADB, Android Debug Bridge Ansible Awk Curl Chmod Chown Cron CMake CMD .NET CLI Find FFmpeg FTP Gdb Glances Grep Htop iptables jq Justfile Lsof Make Netstat Netcat OpenSSL ps Pandoc Sed Systemd SSH Screen Sysdig Tmux Taskset tar Yazi Zip uv
 
 工具
 --
 
-ChatGPT Emacs  
-Linux Command  
-Mitmproxy  
-nginx  
-RegEx 正则表达式  
-Semver 语义化版本  
-Vim  
-XPath
+ChatGPT Emacs Linux Command Mitmproxy nginx RegEx 正则表达式 Semver 语义化版本 Vim XPath
 
 软件包管理器
 ------
 
-APT  
-Conan  
-Conda  
-CocoaPods  
-Cargo  
-Homebrew  
-Pacman  
-pip  
-YUM  
-SDKMAN
+APT Conan Conda CocoaPods Cargo Homebrew Pacman pip YUM SDKMAN uv
 
 Git 版本控制
 --------
 
-Git  
-Github  
-Github Copilot  
-Github CLI  
-Github Actions  
-Gitlab CI/CD  
-Subversion (SVN)
+Git Github Github Copilot Github CLI Github Actions Gitlab CI/CD Subversion (SVN)
 
 数据库
 ---
 
-MySQL  
-MongoDB  
-Oracle  
-PostgreSQL  
-Redis  
-Elasticsearch  
-Neo4j SQLite
+MySQL MongoDB Oracle PostgreSQL Redis Elasticsearch Neo4j SQLite
 
 快捷键
 ---
 
-Adobe Lightroom  
-Adobe Photoshop  
-Adobe XD  
-Android Studio  
-Blender  
-Firefox  
-Finder  
-Figma  
-Gmail  
-Gitlab  
-Google Chrome  
-IntelliJ IDEA  
-PyCharm  
-PhpStorm  
-Sketch  
-Sublime Text  
-Vimium VSCode  
-Twitter(X)  
-WebStorm  
-Xcode  
-Zed
+Adobe Lightroom Adobe Photoshop Adobe XD Android Studio Blender Firefox Finder Figma Gmail Gitlab Google Chrome IntelliJ IDEA PyCharm PhpStorm Sketch Sublime Text Vimium VSCode Twitter(X) WebStorm Xcode Zed
 
 其它
 --
 
-Quick Reference  
-Aspect Ratio  
-ASCII Code  
-Symbol Code  
-Colors Named  
-HTTP 状态码  
-HTML 字符实体  
-ISO-3166 国家代码  
-ISO-639 语言代码  
-Emoji  
-MIME types  
-Resolutions  
-时区列表  
-常见端口对照
+Quick Reference Aspect Ratio ASCII Code Symbol Code Colors Named HTTP 状态码 HTML 字符实体 ISO-3166 国家代码 ISO-639 语言代码 Emoji MIME types Resolutions 时区列表 常见端口对照
 
 看到缺少什么了吗？
 ---------
@@ -294,9 +101,9 @@ Resolutions
 
 由于中国国内访问，时常打不开，你可以访问下面镜像网站(国内打不开的不再收录)。推荐自己的镜像网站
 
-quickref.cn 78888889.xyz pusukeji.com magese.com doraemon.press foreverlink.love xod.cc jhao.me maoo.me luckyits.com 9up.dev ylmty.cc mingming.dev itzcy.com ref.v-ta.com eryajf.net isteed.cc 666666.dev srebro.cn guoxudong.io terryyoung.cn quickref.binscor.top zone.id aibk.cn docflow.cn quickref.hestudio.net qiubit.cc moeyuuko.com haah.net ownit.top laoleng.vip if010.com cms.im itcent.cn coolxy.top kclouder.cn xalaok.top hao.kim tool.sakura.vin chenchen.site jgeek.cn gaojs.com.cn 15926.tech okhk.net wdft.com likui.info ruiange.work denganliang.com ivanz.cc dev6.site zishu.me sucan2233.cn bobh.cool tangwudi.com osz.icu docs.willxup.top wangchunfei.com object.cool jeremyjone.com gistudy.net deyout.com const.team liamng.top zcsk18.cn hhxyrk.icu vhcffh.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net yunshangmanyou.com xiaokaixuan.com opzz.top songbaixin.xin dev.bi ecdata.cn
+quickref.cn 78888889.xyz pusukeji.com magese.com doraemon.press foreverlink.love xod.cc jhao.me maoo.me luckyits.com 9up.dev ylmty.cc mingming.dev itzcy.com ref.v-ta.com eryajf.net isteed.cc 666666.dev srebro.cn guoxudong.io terryyoung.cn quickref.binscor.top zone.id aibk.cn docflow.cn quickref.hestudio.net qiubit.cc moeyuuko.com haah.net ownit.top laoleng.vip if010.com cms.im itcent.cn coolxy.top kclouder.cn xalaok.top hao.kim tool.sakura.vin chenchen.site jgeek.cn gaojs.com.cn 15926.tech okhk.net wdft.com likui.info ruiange.work denganliang.com ivanz.cc dev6.site zishu.me sucan2233.cn bobh.cool tangwudi.com osz.icu docs.willxup.top wangchunfei.com object.cool jeremyjone.com gistudy.net deyout.com const.team liamng.top zcsk18.cn hhxyrk.icu vhcffh.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net yunshangmanyou.com xiaokaixuan.com opzz.top songbaixin.xin dev.bi ecdata.cn cnxiaobai.com web.app
 
-下面网站暂时失联了
+下面网站暂时飞走了
 
 lideshan.top 94vessel.com 7yueee.cn maisblog.cn ruochen.net cizai.io alomerry.com kfele.asia pages.dev hrzweb.xyz zsccodelnc.cn jeffjade.com chanlun.pro dotcube.cc fifo.site longdada.me chenze.cloud lzzzt.cn notes-bin.top fifo.site longdada.me btaw.cn lzw.me kjchmc.cn quickreference.pages.dev surcode.cn xushanxiang.com mmoke.com dbyun.net xiechengqi.top
 

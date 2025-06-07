@@ -1,6 +1,6 @@
 ---
 project: vuepress-theme-hope
-stars: 2338
+stars: 2337
 description: A vuepress theme with tons of features✨
 url: https://github.com/vuepress-theme-hope/vuepress-theme-hope
 ---
@@ -25,25 +25,25 @@ Online Demo
 Contact
 -------
 
-We recommend you to contact using issues and discussions, but you are welcome to join our telegram group!.
+We recommend contacting us through issues and discussions, but you are also welcome to join our Telegram group!
 
 Details
 -------
 
-V2 is based on **VuePress2**, with the power of **Vite6** / **Webpack5** using **Vue3** to provide powerful features.
+V2 is based on **VuePress2**, with the power of **Vite6** / **Webpack5** and **Vue3** to provide powerful features.
 
-V2 is a full rewrite including:
+V2 is a complete rewrite including:
 
--   All the components are rewritten with **Composition API in Vue3**
--   All the styles are migrated to **Sass**
+-   All components are rewritten with **Composition API in Vue3**
+-   All styles are migrated to **Sass**
 
-Also V2 has a better performance:🚀
+V2 also has better performance 🚀:
 
 -   DevServer cold start time reduced by **70%**
 -   Build memory usage reduced by **65%**
 -   Build time reduced by **75%**
--   Output Size reduced by **45%**
--   Webpage performance up to **60%**
+-   Output size reduced by **45%**
+-   Webpage performance improved by **60%**
 
 Project Status
 --------------

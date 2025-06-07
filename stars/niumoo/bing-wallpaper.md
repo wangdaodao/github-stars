@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2393
+stars: 2407
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Knuthöjdsmossen, a nature reserve in Sweden (© Sven Halling/DEEPOL/plainpicture)
+Today: Summit of Pine Mountain, Angeles National Forest, California (© Matthew Kuhns/TANDEM Stills + Motion)
+
+2025-06-08 download 4k
+
+2025-06-07 download 4k
+
+2025-06-06 download 4k
+
+2025-06-05 download 4k
+
+2025-06-04 download 4k
+
+2025-06-03 download 4k
+
+2025-06-02 download 4k
 
 2025-06-01 download 4k
 
@@ -55,20 +69,6 @@ Today: Knuthöjdsmossen, a nature reserve in Sweden (© Sven Halling/DEEPOL/plai
 2025-05-11 download 4k
 
 2025-05-10 download 4k
-
-2025-05-09 download 4k
-
-2025-05-08 download 4k
-
-2025-05-07 download 4k
-
-2025-05-06 download 4k
-
-2025-05-05 download 4k
-
-2025-05-04 download 4k
-
-2025-05-03 download 4k
 
 ### 历史归档：
 

@@ -1,6 +1,6 @@
 ---
 project: Microsoft-Activation-Scripts
-stars: 136768
+stars: 137561
 description: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 url: https://github.com/massgravel/Microsoft-Activation-Scripts
 ---
@@ -33,9 +33,7 @@ Alternatively, you can use the following (this will be deprecated in the future)
 irm https://massgrave.dev/get | iex
 ```
 
-1.  You will see the activation options.  
-    Press 1 HWID for Windows activation.  
-    Press 2 Ohook for Office activation.
+1.  You will see the activation options. Choose the activation options highlighted in green.
     
 2.  That's all
     
@@ -58,7 +56,7 @@ Click here to view
 
 * * *
 
--   **Office for macOS**
+-   To activate additional products such as **Office for macOS, Visual Studio, RDS CALs, and Windows XP**, check here.
 -   To run the scripts in unattended mode, check here.
 
 * * *
@@ -80,8 +78,8 @@ Note
 * * *
 
 ```
-Latest Version: 3.2
-Release date: 6-May-2025
+Latest Version: 3.4
+Release date: 3-June-2025
 ```
 
 ### Troubleshooting / Help

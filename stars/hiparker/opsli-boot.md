@@ -1,11 +1,11 @@
 ---
 project: opsli-boot
-stars: 1072
+stars: 1073
 description: OPSLI 快速开发平台基于springboot、vue、element-ui ，项目采用前后端分离架构，热插拔式业务模块与插件扩展性高 ,代码简洁，功能丰富，开箱即用
 url: https://github.com/hiparker/opsli-boot
 ---
 
-OPSLI 快速开发平台 (v2.0)
+OPSLI 快速开发平台 (v2.2)
 ===================
 
   
@@ -49,27 +49,27 @@ OPSLI 快速开发平台 (v2.0)
 
 jdk版本
 
-1.8
+22
 
 springboot版本
 
-2.7.10
+3.4.6
 
 mybatis-plus版本
 
-3.5.2
+3.5.12
 
 pagehelper版本
 
-1.4.6
+2.1.0
 
 druid版本
 
-1.1.17
+1.2.25
 
 dynamic版本
 
-2.5.4
+4.3.1
 
 fastjson版本
 
@@ -77,15 +77,15 @@ fastjson版本
 
 transmittable版本
 
-2.12.5
+2.14.5
 
-ehcache版本
+hutool版本
 
-3.9.0
+5.8.38
 
 easyexcel版本
 
-2.2.6
+4.0.3
 
 captcha版本
 
@@ -93,15 +93,15 @@ captcha版本
 
 guava版本
 
-30.0-android
+33.4.8-jre
 
 enjoy版本
 
-4.9.06
+5.2.2
 
-hutool版本
+caffeine版本
 
-5.7.14
+3.1.8
 
 在线演示
 ----
@@ -135,7 +135,7 @@ hutool版本
 
 **身份安全**：修改邮箱、手机号或忘记密码时，有独立的身份认证鉴权
 
-**在线文档**：通过接入Knife4j，实现在线API文档的查看与调试;
+**在线文档**：通过接入SpringDoc，实现在线API文档的查看与调试;
 
 **业务分离**：采用前后端分离的框架设计，前端采用vue-admin-beautiful（开源版本 基于element-ui）
 
@@ -283,18 +283,6 @@ hutool版本
 │   │   │   │   │                   ├── msg                   加解密插件包 - 异常消息
 │   │   │   │   │                   ├── spring                加解密插件包 - Spring集成相关内容
 │   │   │   │   │                   └── strategy              加解密插件包 - 加解密策略 包含 对称、非对称等等
-│   │   │   │   │
-│   ├── opsli-plugins-ehcache                             Ehcache缓存插件 (二级缓存)
-│   │   ├── src
-│   │   │   ├── main
-│   │   │   │   ├── java
-│   │   │   │   │   └── org
-│   │   │   │   │       └── opsli
-│   │   │   │   │           └── plugins
-│   │   │   │   │               └── cache
-│   │   │   │   │                   ├── conf                  Ehcache缓存插件 - 自动装配
-│   │   │   │   │                   ├── msg                   Ehcache缓存插件 - 信息
-│   │   │   │   │                   └── service               Ehcache缓存插件 - 服务
 │   │   │   │   │
 │   ├── opsli-plugins-email                               邮件插件包
 │   │   ├── src

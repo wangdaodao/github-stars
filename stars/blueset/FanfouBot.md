@@ -1,6 +1,6 @@
 ---
 project: FanfouBot
-stars: 31
+stars: 32
 description: Fanfou Bot @ Telegram
 url: https://github.com/blueset/FanfouBot
 ---

@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 25896
+stars: 25916
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.06.01) —— 第2238天
+🕟 今天的知识点 (2025.06.08) —— 第2245天
 --------------------------------
 
-        :one: \[TypeScript\] TypeScript中的混入（Mixins）是什么？如何实现？
+        :one: \[TypeScript\] TypeScript中的typeof操作符是什么？
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2237天 (2025.05.31)  
-    1️⃣ \[TypeScript\] TypeScript中的装饰器（Decorators）是什么？如何使用？
+-   第2244天 (2025.06.07)  
+    1️⃣ \[TypeScript\] TypeScript中的类型推断（Type Inference）机制是怎样的？
     
 -   **查看全部**
     

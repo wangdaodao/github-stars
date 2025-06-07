@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-01 06:21.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-08 06:21.
 
 📝 Hitokoto
 -----------
 
-> 追求得到之日即其终止之日，寻觅的过程亦即失去的过程。—— 佚名
+> 唯有门前镜湖水，春风不改旧时波。—— 贺知章
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Knuthöjdsmossen, a nature reserve in Sweden (© Sven Halling/DEEPOL/plainpicture)_
+_Summit of Pine Mountain, Angeles National Forest, California (© Matthew Kuhns/TANDEM Stills + Motion)_
 
 📚 My Blog posts ...
 --------------------

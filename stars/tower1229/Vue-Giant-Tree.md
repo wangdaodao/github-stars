@@ -1,6 +1,6 @@
 ---
 project: Vue-Giant-Tree
-stars: 673
+stars: 674
 description: 🌳 巨树：基于ztree封装的Vue树形组件，轻松实现海量数据的高性能渲染。
 url: https://github.com/tower1229/Vue-Giant-Tree
 ---

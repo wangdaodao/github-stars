@@ -1,6 +1,6 @@
 ---
 project: SoftEtherVPN
-stars: 12272
+stars: 12286
 description: Cross-platform multi-protocol VPN software. Pull requests are welcome. The stable version is available at https://github.com/SoftEtherVPN/SoftEtherVPN_Stable.
 url: https://github.com/SoftEtherVPN/SoftEtherVPN
 ---

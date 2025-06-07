@@ -14,12 +14,12 @@ vue-component-devtool
 
 **use**
 
-git clone https://github.com/mengdu/vue-component-devtool my-component
+git clone https://github.com/mengdu/vue\-component\-devtool my\-component
 
 **安装依赖**
 
 yarn
-# or
+\# or
 npm install
 
 **功能**

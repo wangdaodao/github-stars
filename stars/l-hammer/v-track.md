@@ -1,6 +1,6 @@
 ---
 project: v-track
-stars: 343
+stars: 342
 description: 🕹 A manual tracking decoupling plugin based on Vue directive / 一个基于Vue指令实现的埋点解耦插件~
 url: https://github.com/l-hammer/v-track
 ---
