@@ -1,6 +1,6 @@
 ---
 project: vercel-action
-stars: 684
+stars: 687
 description: This action make a deployment with github actions instead of Vercel builder.
 url: https://github.com/amondnet/vercel-action
 ---

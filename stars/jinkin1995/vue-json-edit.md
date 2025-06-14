@@ -1,6 +1,6 @@
 ---
 project: vue-json-edit
-stars: 288
+stars: 287
 description: Visual JSON editor built as an vue component. Provides a basic GUI
 url: https://github.com/jinkin1995/vue-json-edit
 ---

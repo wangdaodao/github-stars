@@ -1,6 +1,6 @@
 ---
 project: wechat-bot
-stars: 8351
+stars: 8362
 description: 🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 url: https://github.com/wangrongding/wechat-bot
 ---
@@ -42,6 +42,17 @@ WeChat Bot
     cp .env.example .env
     # 填写完善 .env 文件中的内容
     OPENAI\_API\_KEY='你的key'
+    
+-   豆包
+    
+    豆包最新的Doubao-Seed-1.6模型，支持输入图片和深度思考，而且每个模型都有 50 万的免费tokens。在火山引擎注册登录账号，可以选择最新的Doubao-Seed-1.6-thinking模型，选择“API接入” -> “获取 API Key”。
+    
+    # 拷贝 .env.example 文件为 .env
+    cp .env.example .env
+    # 修改 .env 文件中的内容
+    DOUBAO\_API\_KEY='你的key'
+    # 简单测试API是否可用
+    node src/doubao/\_\_test\_\_.js
     
 -   通义千问
     

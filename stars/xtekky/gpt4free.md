@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 64407
+stars: 64456
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -43,7 +43,7 @@ docker pull hlohaus789/g4f
     Reach out for help in our Support Group: discord.gg/qXA4Wf4Fsm.
     
 -   **Read our Documentation** 📖  
-    Find detailed guidance and resources at gpt4free.github.io/docs.
+    Find detailed guidance and resources at g4f.dev/docs.
     
 
 🔻 Site Takedown
@@ -51,10 +51,14 @@ docker pull hlohaus789/g4f
 
 Is your site on this repository and you want to take it down? Send an email to takedown@g4f.ai with proof it is yours and it will be removed as fast as possible. To prevent reproduction please secure your API. 😉
 
-🚀 G4F on GitHub Pages
-----------------------
+🚀 **Experience Live G4F**
+--------------------------
 
-> Explore the G4F on GitHub Pages.
+Want to see G4F in action? Explore a live demo now!
+
+tablet2.webm
+
+Curious to see what G4F can do? Dive into a live demonstration and visit the official g4f.dev homepage for more.
 
 * * *
 
@@ -117,11 +121,10 @@ docker run -p 8080:8080 -p 7900:7900 \\
 mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_media
 chown -R 1000:1000 ${PWD}/har\_and\_cookies ${PWD}/generated\_media
 docker run \\
-  -p 1337:1337 \\
+  -p 1337:8080 -p 8080:8080 \\
   -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
   -v ${PWD}/generated\_media:/app/generated\_media \\
-  hlohaus789/g4f:latest-slim \\
-  /bin/sh -c 'rm -rf /app/g4f && pip install -U g4f\[slim\] && python -m g4f --debug'
+  hlohaus789/g4f:latest-slim
 
 1.  **Access the Client Interface:**
     

@@ -1,6 +1,6 @@
 ---
 project: web-uploader
-stars: 466
+stars: 467
 description: 轻量级 web (html5 + html4) 文件上传组件，纯js，支持上传进度显示，支持秒传+分片上传+断点续传，支持图片预览及缩放，支持文件夹上传，支持 IE6+、Firefox、Chrome等
 url: https://github.com/devin87/web-uploader
 ---

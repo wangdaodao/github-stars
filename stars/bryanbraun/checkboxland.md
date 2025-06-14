@@ -1,6 +1,6 @@
 ---
 project: checkboxland
-stars: 946
+stars: 945
 description: Render anything as HTML checkboxes
 url: https://github.com/bryanbraun/checkboxland
 ---

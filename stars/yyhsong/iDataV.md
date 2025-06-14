@@ -1,6 +1,6 @@
 ---
 project: iDataV
-stars: 5525
+stars: 5528
 description: 大屏数据可视化 Big screen data visualization demo
 url: https://github.com/yyhsong/iDataV
 ---

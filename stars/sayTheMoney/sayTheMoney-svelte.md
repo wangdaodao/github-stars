@@ -1,6 +1,6 @@
 ---
 project: sayTheMoney-svelte
-stars: 48
+stars: 49
 description: null
 url: https://github.com/sayTheMoney/sayTheMoney-svelte
 ---

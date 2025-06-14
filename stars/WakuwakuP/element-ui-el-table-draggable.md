@@ -1,6 +1,6 @@
 ---
 project: element-ui-el-table-draggable
-stars: 112
+stars: 111
 description: Make 'el-table' of 'element UI' sortable.
 url: https://github.com/WakuwakuP/element-ui-el-table-draggable
 ---

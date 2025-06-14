@@ -1,6 +1,6 @@
 ---
 project: vscode
-stars: 173228
+stars: 173530
 description: Visual Studio Code
 url: https://github.com/microsoft/vscode
 ---

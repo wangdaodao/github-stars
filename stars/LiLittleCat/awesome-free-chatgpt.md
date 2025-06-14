@@ -1,6 +1,6 @@
 ---
 project: awesome-free-chatgpt
-stars: 19992
+stars: 20027
 description: 🆓免费的 ChatGPT 镜像网站列表，持续更新。List of free ChatGPT mirror sites, continuously updated. 
 url: https://github.com/LiLittleCat/awesome-free-chatgpt
 ---

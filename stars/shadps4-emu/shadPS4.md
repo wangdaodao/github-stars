@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 22692
+stars: 22737
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -203,8 +203,7 @@ Keyboard and mouse inputs can be customized in the settings menu by clicking the
 Firmware files
 ==============
 
-shadPS4 can load some PlayStation 4 firmware files, these must be dumped from your legally owned PlayStation 4 console.  
-The following firmware modules are supported and must be placed in shadPS4's `user/sys_modules` folder.
+shadPS4 can load some PlayStation 4 firmware files, these must be dumped from your legally owned PlayStation 4 console. The following firmware modules are supported and must be placed in shadPS4's `sys_modules` folder.
 
 Modules
 
@@ -236,8 +235,7 @@ libSceUlt.sprx
 
 Caution
 
-The above modules are required to run the games properly and must be extracted from your PlayStation 4.  
-**We do not provide any information or support on how to do this**.
+The above modules are required to run the games properly and must be extracted from your PlayStation 4.
 
 Main team
 =========
@@ -256,7 +254,7 @@ Logo is done by **Xphalnos**
 Contributing
 ============
 
-If you want to contribute, please look the **CONTRIBUTING.md** file.  
+If you want to contribute, please read the **CONTRIBUTING.md** file.  
 Open a PR and we'll check it :)
 
 Translations

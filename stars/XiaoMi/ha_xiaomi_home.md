@@ -1,6 +1,6 @@
 ---
 project: ha_xiaomi_home
-stars: 19963
+stars: 20023
 description: Xiaomi Home Integration for Home Assistant
 url: https://github.com/XiaoMi/ha_xiaomi_home
 ---
@@ -431,7 +431,7 @@ Example:
 }
 ```
 
-> If you edit `specv2entity.py`, `spec_filter.json` or `multi_lang.json` in the `custom_components/xiaomi_home/miot/specs` directory in your Home Assistant, you need to update the entity conversion rule in the integration's CONFIGURE page to take effect. Method: Settings > Devices & services > Configured > Xiaomi Home > CONFIGURE > Update Entity Conversion Rule
+> If you edit any files in the `custom_components/xiaomi_home/miot/specs` directory (`spec_filter.py`, `spec_modify.json`, `multi_lang.json`, etc.) in your Home Assistant, you need to update the entity conversion rule in the integration's CONFIGURE page to take effect. Method: Settings > Devices & services > Configured > Xiaomi Home > CONFIGURE > Update entity conversion rules
 
 Documents
 ---------

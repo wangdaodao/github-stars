@@ -1,6 +1,6 @@
 ---
 project: iCSS
-stars: 20296
+stars: 20309
 description: 不止于 CSS
 url: https://github.com/chokcoco/iCSS
 ---

@@ -1,6 +1,6 @@
 ---
 project: sketch-threejs
-stars: 2437
+stars: 2439
 description: Interactive sketches made with three.js.
 url: https://github.com/ykob/sketch-threejs
 ---

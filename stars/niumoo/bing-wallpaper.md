@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2407
+stars: 2421
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Summit of Pine Mountain, Angeles National Forest, California (© Matthew Kuhns/TANDEM Stills + Motion)
+Today: Flag display at the US Capitol, Washington, DC (© kmiragaya/Adobe Stock)
+
+2025-06-15 download 4k
+
+2025-06-14 download 4k
+
+2025-06-13 download 4k
+
+2025-06-12 download 4k
+
+2025-06-11 download 4k
+
+2025-06-10 download 4k
+
+2025-06-09 download 4k
 
 2025-06-08 download 4k
 
@@ -55,20 +69,6 @@ Today: Summit of Pine Mountain, Angeles National Forest, California (© Matthew 
 2025-05-18 download 4k
 
 2025-05-17 download 4k
-
-2025-05-16 download 4k
-
-2025-05-15 download 4k
-
-2025-05-14 download 4k
-
-2025-05-13 download 4k
-
-2025-05-12 download 4k
-
-2025-05-11 download 4k
-
-2025-05-10 download 4k
 
 ### 历史归档：
 

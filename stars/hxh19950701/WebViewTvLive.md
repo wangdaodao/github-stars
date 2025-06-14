@@ -1,6 +1,6 @@
 ---
 project: WebViewTvLive
-stars: 1907
+stars: 1930
 description: 使用 腾讯X5 WebView 开发的电视直播App
 url: https://github.com/hxh19950701/WebViewTvLive
 ---
@@ -60,6 +60,7 @@ WebView 电视
 -   对低版本 Android 设备兼容性比较差，建议 Android 9 或以上的设备
 -   无法选择视频清晰度，大部分为 720P，少部分为 1080P
 -   官网直播，大部分为 24FPS，基本没有 50FPS
+-   官网无法播放某些时段的节目
 
 FAQ
 ---

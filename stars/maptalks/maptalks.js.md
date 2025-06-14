@@ -1,6 +1,6 @@
 ---
 project: maptalks.js
-stars: 4432
+stars: 4433
 description: A light and plugable JavaScript library for integrated 2D/3D maps.
 url: https://github.com/maptalks/maptalks.js
 ---

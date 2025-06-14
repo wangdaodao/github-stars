@@ -622,6 +622,8 @@ yarn serve
 Caution
 -------
 
+-   自定义数据渲染时，最好对dataKey和itemKey做设置，避免出现渲染上的跳行数据错乱等问题
+    
 -   IE 需要自己处理一些ployfill,应该是promise
     
 -   IE 浏览器内无法使用yyyy-MM-dd hh:mm:ss的字符串形式初始化,需要注意时间的格式

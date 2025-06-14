@@ -1,6 +1,6 @@
 ---
 project: vue-pdf-app
-stars: 233
+stars: 236
 description: VUEjs v2 PDF viewer based on Mozilla's PDFJS
 url: https://github.com/sandanat/vue-pdf-app
 ---

@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-08 06:21.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-15 06:22.
 
 📝 Hitokoto
 -----------
 
-> 唯有门前镜湖水，春风不改旧时波。—— 贺知章
+> 如果我真的存在，也是因为你需要我。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Summit of Pine Mountain, Angeles National Forest, California (© Matthew Kuhns/TANDEM Stills + Motion)_
+_Flag display at the US Capitol, Washington, DC (© kmiragaya/Adobe Stock)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: wl-gantt
-stars: 537
+stars: 538
 description: wl-gantt：一个简单易用且高度可配置的甘特图进度计划项目管理插件。An easy-to-use gantt plug-in for the vue framework. 
 url: https://github.com/hql7/wl-gantt
 ---

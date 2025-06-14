@@ -1,6 +1,6 @@
 ---
 project: wechatferry
-stars: 1612
+stars: 1624
 description: -
 url: https://github.com/wechatferry/wechatferry
 ---
@@ -93,6 +93,9 @@ wechatferry 之所以成为可能，得益于以下项目的灵感:
 -   wcf-client-rust
 -   node-wcferry
 -   wechaty
+
+赞助
+--
 
 License
 -------
