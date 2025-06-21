@@ -1,6 +1,6 @@
 ---
 project: awesome-lowcode
-stars: 14370
+stars: 14382
 description: 国内低代码平台从业者交流
 url: https://github.com/taowen/awesome-lowcode
 ---

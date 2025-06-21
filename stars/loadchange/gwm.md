@@ -1,6 +1,6 @@
 ---
 project: gwm
-stars: 210
+stars: 209
 description: 🍭gwm.js Generate Watermark  用于生成网页水印，警示信息安全与责任追踪。
 url: https://github.com/loadchange/gwm
 ---

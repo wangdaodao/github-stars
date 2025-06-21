@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 2523
+stars: 2566
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -455,6 +455,12 @@ Potplayer
 https://potplayer.tv/
 
 Windows
+
+IPTV Player
+
+https://iptvplayer.stream
+
+Web
 
 ZY Player
 

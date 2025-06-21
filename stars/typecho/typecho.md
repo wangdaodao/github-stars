@@ -1,6 +1,6 @@
 ---
 project: typecho
-stars: 11847
+stars: 11862
 description: A PHP Blogging Platform. Simple and Powerful.
 url: https://github.com/typecho/typecho
 ---

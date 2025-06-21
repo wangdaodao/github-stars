@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2421
+stars: 2433
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Flag display at the US Capitol, Washington, DC (© kmiragaya/Adobe Stock)
+Today: Masai giraffe mother grooming her calf in the Serengeti, Tanzania (© Alberto Cassani/Getty Images)
+
+2025-06-22 download 4k
+
+2025-06-21 download 4k
+
+2025-06-20 download 4k
+
+2025-06-19 download 4k
+
+2025-06-18 download 4k
+
+2025-06-17 download 4k
+
+2025-06-16 download 4k
 
 2025-06-15 download 4k
 
@@ -55,20 +69,6 @@ Today: Flag display at the US Capitol, Washington, DC (© kmiragaya/Adobe Stock)
 2025-05-25 download 4k
 
 2025-05-24 download 4k
-
-2025-05-23 download 4k
-
-2025-05-22 download 4k
-
-2025-05-21 download 4k
-
-2025-05-20 download 4k
-
-2025-05-19 download 4k
-
-2025-05-18 download 4k
-
-2025-05-17 download 4k
 
 ### 历史归档：
 

@@ -1,6 +1,6 @@
 ---
 project: nacos
-stars: 31586
+stars: 31636
 description: an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
 url: https://github.com/alibaba/nacos
 ---
@@ -128,6 +128,12 @@ Contact
     -   dev-nacos@googlegroups.com: Nacos developer discussion (APIs, feature design, etc).
     -   commits-nacos@googlegroups.com: Commits notice, very high frequency.
 -   Join us from DingDing(Group 1: 21708933(full), Group 2: 30438813(full), Group 3: 31222241(full), Group 4: 12810027056).
+
+### DingDing Group QR Code
+
+### DingDing MCP Group QR Code
+
+### WeChat Group QR Code
 
 Enterprise Service
 ------------------

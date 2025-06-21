@@ -1,6 +1,6 @@
 ---
 project: gptcommit
-stars: 2380
+stars: 2381
 description: A git prepare-commit-msg hook for authoring commit messages with LLMs.
 url: https://github.com/zurawiki/gptcommit
 ---

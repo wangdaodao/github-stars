@@ -1,7 +1,7 @@
 ---
 project: vue-material-admin
-stars: 648
-description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM简洁、轻量的中后台管理模板 
+stars: 650
+description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM实现的简洁、轻量的中后台管理模板 
 url: https://github.com/armomu/vue-material-admin
 ---
 
@@ -10,22 +10,22 @@ Vue Material Admin
 
 ====================
 
-Vue Material Admin 是一个基于 `Vuetify` 组件的开源中后台系统模板，采用了 `Nesjs + Vue3 + TypeScript` 全栈开发，项目遵循 Material Design 的设计规范，并在 Vuetify 基础组件继续向上构建开发，对其进行了扩展和优化，旨在实现一个简洁、轻量化的中后台解决方案，项目目前阶段主要用于学习、功能展示和开发用例测试，同时也适合作为生产环境项目的启动模板，项目会持续更新，增加更多的功能和优化，欢迎大家来Issue 💭💭💭 聊天交流 ➡️ ➡️ ➡️
+Vue Material Admin 是一个基于 `Vuetify` 组件的开源中后台系统模板，采用了 `Nesjs + Vue3 + TypeScript` 全栈开发，项目前端UI视觉遵循 Material Design 的设计规范，并在 Vuetify 基础组件继续向上构建开发，对其进行了扩展和优化，旨在实现一个简洁、轻量化的中后台解决方案，项目目前阶段主要用于学习、功能展示和开发用例测试，同时也适合作为生产环境项目的启动模板，项目会保持更新、增加更多的功能和优化，欢迎大家来Issue 💭💭💭 聊天交流 ➡️ ➡️ ➡️
 
 ⛲ 技术栈
 -----
 
 前端
 
--   框架: Vue3
--   状态管理: Pinia
+-   🧺 框架: Vue3
+-   🌲 状态管理: Pinia
 -   🌈 UI: Vuetify
 
 服务器
 
--   框架: Nest.js
--   数据库: MySQL+TypeORM
--   缓存: Redis
+-   💻 框架: Nest.js
+-   🫙 数据库: MySQL+TypeORM
+-   🍪 缓存: Redis
 
 🌻 页面截图
 -------
@@ -33,7 +33,7 @@ Vue Material Admin 是一个基于 `Vuetify` 组件的开源中后台系统模�
 🍭 PreView
 ----------
 
-Vercel需要🪜子！打不开的同学自行下载项目在本地开发环境预览
+Vercel需要科学上网！打不开的同学自行下载项目在本地开发环境预览
 
 -   🌍 Vercel https://vue-material-admin.vercel.app/
 
@@ -67,9 +67,9 @@ Vercel需要🪜子！打不开的同学自行下载项目在本地开发环境�
 📑 本地开发
 -------
 
-前端
+### Vue 前端
 
-由于已经是配套了 `Nodejs` 服务端，本地开发环境接口使用了 `apifoxmock`模拟了服务器全部都接口，所以 `.env.development` 文件需要配置接口服务器地址 `VITE_API = https://apifoxmock.com/m1/5061937-4723200-default`
+由于已经是配套了 `Nest.js` 服务端，本地开发环境接口使用了 `apifoxmock`模拟了服务器全部都接口，所以 `.env.development` 文件需要配置接口服务器地址 `VITE_API = https://apifoxmock.com/m1/5061937-4723200-default`
 
 如果想和服务端一起开发预览，请切换到 Serve 分支查看启动服务端教程，然后把 `.env.development` 文件服务器地址改为 `VITE_API = http://localhost:8085`
 
@@ -84,12 +84,8 @@ pnpm run dev
 
 ```
 
-> ⚠️ 本地开发需要 `nodejs 18/20` vite5不支持更低的nodejs版本
+### Nest.js 服务端
 
-Nodejs 服务端
-
-接口文档 https://nliq7vrniv.apifox.cn
+切换 Serve 分支查看教程，接口文档 https://nliq7vrniv.apifox.cn
 
 > 非常感谢 zclzone大佬提供的Nestjs服务项目，让我快速搭建了这个模版的后台服务，也从vue-naive-admin项目中学习到了一些新的封装思路
-
-后端服务启动请切换到 Serve 分支查看教程

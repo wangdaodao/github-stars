@@ -1,6 +1,6 @@
 ---
 project: LxgwWenKai
-stars: 20330
+stars: 20502
 description: An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  
 url: https://github.com/lxgw/LxgwWenKai
 ---
@@ -53,9 +53,8 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 
 ### 其他部分
 
--   补完 CJK 统一汉字基本区 20992 个汉字、扩展 A 区 6592 个汉字 _（目前完整版有 1 万多个字形由 zi2zi 深度学习生成，字形较粗糙。）_ ；
--   补全常用谚文（韩语/朝鲜语）音节 2376 个。 _（做得比较拙劣。轻便版不包含。）_
--   补全 Unicode 迄今为止收录的所有谚文音节，共 11172 个。
+-   补完 CJK 统一汉字基本区 20992 个汉字、扩展 A 区 6592 个汉字 _（目前完整版有 4 千多个字形由 zi2zi 深度学习生成，字形较粗糙）_ ；
+-   补全 Unicode 迄今为止收录的所有谚文音节，共 11172 个 _（做得比较拙劣。轻便版不包含）_。
 
 获取字体
 ----
@@ -94,7 +93,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 
 -   **Telegram：** @lxgwtg | 频道
 -   **微信公众号：** 霞鹜 _（ID: lxgwshare）_
--   **即刻、少数派、小红书、站酷、酷安：** @落霞孤鹜lxgw
+-   **小红书、即刻、少数派、站酷、酷安：** @落霞孤鹜lxgw
 -   **微博：** @孤鹜先森
 -   **哔哩哔哩：** @霞鹜lxgw
 -   **Email：** calxgw2018@gmail.com srtong2006@126.com lxgw1999@qq.com

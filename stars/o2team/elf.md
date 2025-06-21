@@ -1,6 +1,6 @@
 ---
 project: elf
-stars: 495
+stars: 496
 description: 灵活可扩展的 HTML5 构建工具
 url: https://github.com/o2team/elf
 ---
