@@ -1,6 +1,6 @@
 ---
 project: Fuse
-stars: 19239
+stars: 19253
 description: Lightweight fuzzy-search, in JavaScript
 url: https://github.com/krisk/Fuse
 ---

@@ -1,6 +1,6 @@
 ---
 project: adapter
-stars: 3702
+stars: 3705
 description: Shim to insulate apps from spec changes and prefix differences. Latest adapter.js release:
 url: https://github.com/webrtcHacks/adapter
 ---

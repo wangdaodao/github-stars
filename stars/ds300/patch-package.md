@@ -1,6 +1,6 @@
 ---
 project: patch-package
-stars: 10873
+stars: 10878
 description: Fix broken node modules instantly  🏃🏽‍♀️💨
 url: https://github.com/ds300/patch-package
 ---

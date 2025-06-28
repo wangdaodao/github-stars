@@ -1,6 +1,6 @@
 ---
 project: feflow
-stars: 1365
+stars: 1364
 description: 🚀 A command line tool aims to improve front-end engineer workflow and standard, powered by TypeScript.
 url: https://github.com/Tencent/feflow
 ---

@@ -1,6 +1,6 @@
 ---
 project: snk
-stars: 4994
+stars: 5007
 description: 🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif
 url: https://github.com/Platane/snk
 ---
@@ -12,14 +12,14 @@ Generates a snake game from a github user contributions graph
 
 Pull a github user's contribution graph. Make it a snake Game, generate a snake path where the cells get eaten in an orderly fashion.
 
-Generate a gif or svg image.
+Generate a gif or svg image. Colors can be customized.
 
 Available as github action. It can automatically generate a new image each day. Which makes for great github profile readme
 
 Usage
 -----
 
-**github action**
+### **github action**
 
 \- uses: Platane/snk@v3
   with:
@@ -43,9 +43,11 @@ Usage
 
 example with cron job
 
-If you are only interested in generating a svg, consider using this faster action: `uses: Platane/snk/svg-only@v3`
+### **svg**
 
-**dark mode**
+If you are only interested in generating a svg (not a gif), consider using this faster action: `uses: Platane/snk/svg-only@v3`
+
+### **dark mode**
 
 For **dark mode** support on github, use this special syntax in your readme.
 
@@ -55,11 +57,11 @@ For **dark mode** support on github, use this special syntax in your readme.
   <img alt\="github-snake" src\="github-snake.svg" />
 </picture\>
 
-**interactive demo**
+### **interactive demo**
 
 platane.github.io/snk
 
-**local**
+### **local**
 
 ```
 npm install
@@ -71,3 +73,10 @@ Implementation
 --------------
 
 solver algorithm
+
+Contribution Policy
+-------------------
+
+This project does not accept pull request.
+
+Reporting or fixing issues is appreciated, but change in the API or implementation should be discussed in issue first and is likely not going be greenlighted.

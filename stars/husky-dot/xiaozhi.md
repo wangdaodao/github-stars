@@ -1,6 +1,6 @@
 ---
 project: xiaozhi
-stars: 5175
+stars: 5176
 description: null
 url: https://github.com/husky-dot/xiaozhi
 ---

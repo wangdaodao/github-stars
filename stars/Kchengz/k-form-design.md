@@ -1,6 +1,6 @@
 ---
 project: k-form-design
-stars: 1238
+stars: 1239
 description: 基于vue Ant-Design 的表单设计器，快速开发
 url: https://github.com/Kchengz/k-form-design
 ---

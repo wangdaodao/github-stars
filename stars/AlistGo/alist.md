@@ -1,6 +1,6 @@
 ---
 project: alist
-stars: 48929
+stars: 48728
 description: 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 url: https://github.com/AlistGo/alist
 ---
@@ -59,7 +59,7 @@ Features
 -   Dark mode
 -   I18n
 -   Protected routes (password protection and authentication)
--   WebDav (see https://alist.nn.ci/guide/webdav.html for details)
+-   WebDav (see https://alistgo.com/guide/webdav.html for details)
 -   Docker Deploy
 -   Cloudflare Workers proxy
 -   File/Folder package download
@@ -86,7 +86,7 @@ Please go to our discussion forum for general questions, **issues are for bug re
 Sponsor
 -------
 
-AList is an open-source software, if you happen to like this project and want me to keep going, please consider sponsoring me or providing a single donation! Thanks for all the love and support: https://alist.nn.ci/guide/sponsor.html
+AList is an open-source software, if you happen to like this project and want me to keep going, please consider sponsoring me or providing a single donation! Thanks for all the love and support: https://alistgo.com/guide/sponsor.html
 
 ### Special sponsors
 

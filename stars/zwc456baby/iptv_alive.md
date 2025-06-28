@@ -1,6 +1,6 @@
 ---
 project: iptv_alive
-stars: 542
+stars: 546
 description: iptv直播源、4k点播源地址
 url: https://github.com/zwc456baby/iptv_alive
 ---

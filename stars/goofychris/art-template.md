@@ -1,6 +1,6 @@
 ---
 project: art-template
-stars: 9877
+stars: 9874
 description: High performance JavaScript templating engine
 url: https://github.com/goofychris/art-template
 ---

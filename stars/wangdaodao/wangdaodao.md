@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-22 06:21.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-29 06:22.
 
 📝 Hitokoto
 -----------
 
-> 菩提本无树，明镜亦非台。—— 惠能
+> 你可以祈祷，但神不会倾听。—— 神父
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Masai giraffe mother grooming her calf in the Serengeti, Tanzania (© Alberto Cassani/Getty Images)_
+_Rainbow flags at New York Pride (© Alan Schein/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

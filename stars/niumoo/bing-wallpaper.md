@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2433
+stars: 2562
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Masai giraffe mother grooming her calf in the Serengeti, Tanzania (© Alberto Cassani/Getty Images)
+Today: Rainbow flags at New York Pride (© Alan Schein/Getty Images)
+
+2025-06-29 download 4k
+
+2025-06-28 download 4k
+
+2025-06-27 download 4k
+
+2025-06-26 download 4k
+
+2025-06-25 download 4k
+
+2025-06-24 download 4k
+
+2025-06-23 download 4k
 
 2025-06-22 download 4k
 
@@ -55,20 +69,6 @@ Today: Masai giraffe mother grooming her calf in the Serengeti, Tanzania (© Alb
 2025-06-01 download 4k
 
 2025-05-31 download 4k
-
-2025-05-30 download 4k
-
-2025-05-29 download 4k
-
-2025-05-28 download 4k
-
-2025-05-27 download 4k
-
-2025-05-26 download 4k
-
-2025-05-25 download 4k
-
-2025-05-24 download 4k
 
 ### 历史归档：
 

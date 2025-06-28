@@ -1,12 +1,16 @@
 ---
 project: qiankun
-stars: 16226
+stars: 16243
 description: 📦 🚀 Blazing fast, simple and complete solution for micro frontends.
 url: https://github.com/umijs/qiankun
 ---
 
 qiankun（乾坤）
 ===========
+
+Warning
+
+🚧 qiankun 3.0 is currently under active development. Check out the Roadmap for more details.
 
 > In Chinese, `qian(乾)` means heaven and `kun(坤)` earth. `qiankun` is the universe.
 
@@ -51,10 +55,35 @@ And on top of these, it offers:
 -   ⚡ **Prefetch Assets**
 -   🔌 **Umi Plugin Integration**
 
+Packages
+--------
+
+Package
+
+Version (click for changelogs)
+
+qiankun
+
+@qiankunjs/loader
+
+@qiankunjs/sandbox
+
+@qiankunjs/shared
+
+@qiankunjs/react
+
+@qiankunjs/vue
+
+@qiankunjs/ui-shared
+
+@qiankunjs/webpack-plugin
+
+create-qiankun
+
 📦 Installation
 ---------------
 
-$ yarn add qiankun  # or npm i qiankun
+$ yarn add qiankun  # or npm i qiankun -S
 
 📖 Documentation
 ----------------
@@ -80,9 +109,9 @@ $ cd qiankun
 
 Now install and run the example:
 
-$ yarn install
-$ yarn examples:install
-$ yarn examples:start
+$ pnpm install
+$ pnpm run examples:install
+$ pnpm run examples:start
 
 Visit `http://localhost:7099`.
 
@@ -90,6 +119,11 @@ Visit `http://localhost:7099`.
 ----------
 
 See Qiankun 3.0 Roadmap
+
+🤝 Contributing
+---------------
+
+See contributing guide.
 
 👥 Contributors
 ---------------
@@ -100,7 +134,7 @@ Thanks to all the contributors!
 -------------------
 
 -   single-spa What an awesome meta-framework for micro-frontends!
--   import-html-entry An assets loader that supports html entry.
+-   writable-dom Utility to stream HTML content into a live document.
 
 📄 License
 ----------

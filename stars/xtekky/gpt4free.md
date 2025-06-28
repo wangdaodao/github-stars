@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 64476
+stars: 64522
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -77,7 +77,7 @@ Curious to see what G4F can do? Dive into a live demonstration and visit the off
     -   🎨 Image Generation
     -   🌐 Web Interface
     -   🖥️ Local Inference
-    -   🤖 Interference API
+    -   🤖 Inference API
     -   🛠️ Configuration
     -   📱 Run on Smartphone
     -   📘 Full Documentation for Python API
@@ -225,11 +225,11 @@ python -m g4f --port 8080 --debug
 
 * * *
 
-### 🤖 Interference API
+### 🤖 Inference API
 
-The **Interference API** enables seamless integration with OpenAI's services through G4F, allowing you to deploy efficient AI solutions.
+The **Inference API** enables seamless integration with OpenAI's services through G4F, allowing you to deploy efficient AI solutions.
 
--   **Documentation**: Interference API Docs
+-   **Documentation**: Inference API Docs
 -   **Endpoint**: `http://localhost:1337/v1`
 -   **Swagger UI**: Explore the OpenAPI documentation via Swagger UI at `http://localhost:1337/docs`
 -   **Provider Selection**: How to Specify a Provider?
