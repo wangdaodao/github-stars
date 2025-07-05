@@ -1,6 +1,6 @@
 ---
 project: nrm
-stars: 2943
+stars: 2950
 description: NPM registry manager, fast switch between different registries: npm, cnpm, nj, taobao
 url: https://github.com/Pana/nrm
 ---

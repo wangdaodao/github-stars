@@ -1,6 +1,6 @@
 ---
 project: free
-stars: 37743
+stars: 37787
 description: 翻墙、免费翻墙、免费科学上网、免费节点、免费梯子、免费ss/v2ray/trojan节点、蓝灯、谷歌商店、翻墙梯子
 url: https://github.com/freefq/free
 ---

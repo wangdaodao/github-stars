@@ -1,6 +1,6 @@
 ---
 project: Paddle
-stars: 22911
+stars: 22994
 description: PArallel Distributed Deep LEarning: Machine Learning Framework from Industrial Practice （『飞桨』核心框架，深度学习&机器学习高性能单机、分布式训练和跨平台部署）
 url: https://github.com/PaddlePaddle/Paddle
 ---
@@ -11,12 +11,12 @@ English | 简体中文 | 日本語
 
 Welcome to the PaddlePaddle GitHub.
 
-PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle originates from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 18.08 million developers, 430,000 companies and generating 1,010,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
+PaddlePaddle, as the first independent R&D deep learning platform in China, has been officially open-sourced to professional communities since 2016. It is an industrial platform with advanced technologies and rich features that cover core deep learning frameworks, basic model libraries, end-to-end development kits, tools & components as well as service platforms. PaddlePaddle originates from industrial practices with dedication and commitments to industrialization. It has been widely adopted by a wide range of sectors including manufacturing, agriculture, enterprise service, and so on while serving more than 21.85 million developers, 670,000 companies and generating 1,100,000 models. With such advantages, PaddlePaddle has helped an increasing number of partners commercialize AI.
 
 Installation
 ------------
 
-### Latest PaddlePaddle Release: 3.0
+### Latest PaddlePaddle Release: 3.1
 
 Our vision is to enable deep learning for everyone via PaddlePaddle. Please refer to our release announcement to track the latest features of PaddlePaddle.
 
@@ -29,7 +29,7 @@ pip install paddlepaddle-gpu
 
 For more information about installation, please view Quick Install
 
-**PaddlePaddle New Generation Framework 3.0**
+**PaddlePaddle New Generation Framework 3.1**
 ---------------------------------------------
 
 -   **Unified Dynamic/Static Graphs and Automatic Parallelism**

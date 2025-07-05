@@ -1,6 +1,6 @@
 ---
 project: plugins
-stars: 1825
+stars: 1826
 description: Typecho Fans插件作品目录
 url: https://github.com/typecho-fans/plugins
 ---
@@ -308,6 +308,16 @@ HighlightJs高亮插件(MD带行号)
 0.8.0
 
 hongweipeng
+
+Download
+
+Cloudflare R2
+
+上传附件到 Cloudflare R2
+
+0.0.1
+
+fengqi
 
 Download
 

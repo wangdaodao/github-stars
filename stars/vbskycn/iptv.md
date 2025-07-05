@@ -1,6 +1,6 @@
 ---
 project: iptv
-stars: 3947
+stars: 3990
 description: iptv最新可用直播源iptv4/iptv6。直播电视系统，这里有折腾好了的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
@@ -15,6 +15,8 @@ keywords
 
 permalink
 
+hide\_edgeone
+
 default
 
 最新IPTV直播源|每日更新|免费电视直播源|Github开源项目
@@ -24,6 +26,8 @@ default
 IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.izbds.top
 
 /
+
+true
 
 ✯ 这是一个国内可直连的iptv直播源分享项目 ✯
 -------------------------
@@ -42,7 +46,7 @@ IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直�
 
 ### 📡 自动扫描直播源 IPTV4
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-06-29 00:30:20
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-06 06:35:45
 
 名称
 
@@ -74,7 +78,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 📡 自动扫描直播源 IPTV6
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-06-29 00:30:20
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-06 06:35:45
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 
@@ -157,5 +161,3 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 ### 🎁 欢迎请我喝杯饮料
 
 ### 📊 Star History
-
-本项目的CDN加速和安全防护由腾讯EdgeOne赞助

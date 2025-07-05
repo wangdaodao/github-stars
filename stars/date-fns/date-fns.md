@@ -1,6 +1,6 @@
 ---
 project: date-fns
-stars: 35906
+stars: 35919
 description: ⏳ Modern JavaScript date utility library ⌛️
 url: https://github.com/date-fns/date-fns
 ---

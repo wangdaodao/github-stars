@@ -1,6 +1,6 @@
 ---
 project: VSCode-Zhihu
-stars: 911
+stars: 912
 description: Zhihu extension built on vscode.
 url: https://github.com/niudai/VSCode-Zhihu
 ---

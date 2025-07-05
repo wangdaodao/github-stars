@@ -1,6 +1,6 @@
 ---
 project: seq2seq-couplet
-stars: 5507
+stars: 5509
 description: Play couplet with seq2seq model. 用深度学习对对联。
 url: https://github.com/wb14123/seq2seq-couplet
 ---

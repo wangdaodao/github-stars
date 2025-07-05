@@ -1,6 +1,6 @@
 ---
 project: unpkg-white-list
-stars: 41
+stars: 43
 description: npmmirror.com 允许开启 unpkg 功能的白名单列表，避免被当作网盘滥用
 url: https://github.com/cnpm/unpkg-white-list
 ---

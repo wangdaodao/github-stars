@@ -1,6 +1,6 @@
 ---
 project: javascript-notes
-stars: 2254
+stars: 2256
 description:  JavaScript 学习笔记；JavaScript学习总结；前端变化太快，只有把JS基础打扎实了，才能游刃有余；为了让我的JavaScript基础异常牢固，思路更加清晰，我会把以前总结过的知识和平时看到的资料放在这里，把以前零零散散的知识点全部串起来！这个项目也许写到最后会是一个非常不错的JavaScript教程，希望可以帮到更多的人；收藏请点star；如果发现我有写错误的，欢迎随时帮我改正，或者增加新的观点，谢谢！
 url: https://github.com/anbang/javascript-notes
 ---

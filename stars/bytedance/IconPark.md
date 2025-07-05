@@ -1,6 +1,6 @@
 ---
 project: IconPark
-stars: 8732
+stars: 8740
 description: 🍎Transform an SVG icon into multiple themes, and generate React icons，Vue icons，svg icons
 url: https://github.com/bytedance/IconPark
 ---

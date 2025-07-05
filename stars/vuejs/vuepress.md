@@ -1,6 +1,6 @@
 ---
 project: vuepress
-stars: 22777
+stars: 22782
 description: 📝 Minimalistic Vue-powered static site generator
 url: https://github.com/vuejs/vuepress
 ---

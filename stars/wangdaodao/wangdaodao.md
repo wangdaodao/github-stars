@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-06-29 06:22.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-06 06:21.
 
 📝 Hitokoto
 -----------
 
-> 你可以祈祷，但神不会倾听。—— 神父
+> 来人间一趟 你要看看太阳。—— 薯味博饼
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Rainbow flags at New York Pride (© Alan Schein/Getty Images)_
+_Descending the Col du Tourmalet in the French Pyrenees during the 2021 Tour de France (© THOMAS SAMSON/AFP via Getty Images)_
 
 📚 My Blog posts ...
 --------------------

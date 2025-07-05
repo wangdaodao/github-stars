@@ -1,9 +1,14 @@
 ---
 project: vue-json-schema-form
-stars: 2167
+stars: 2171
 description: 基于Vue/Vue3，Json Schema 和 ElementUi/antd/iview3/naiveUi 等生成 HTML Form 表单，用于活动编辑器、h5编辑器、cms等数据配置；支持可视化生成表单Schema 。 Generate a form using Vue/Vue3, Json Schema and ElementUi/antdv/iview3/naiveUi
 url: https://github.com/lljj-x/vue-json-schema-form
 ---
+
+赞助
+--
+
+本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助
 
 vue-json-schema-form
 --------------------

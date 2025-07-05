@@ -1,6 +1,6 @@
 ---
 project: vue-pdf
-stars: 2282
+stars: 2284
 description: vue.js pdf viewer
 url: https://github.com/FranckFreiburger/vue-pdf
 ---

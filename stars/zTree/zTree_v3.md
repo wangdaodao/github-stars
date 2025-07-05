@@ -1,6 +1,6 @@
 ---
 project: zTree_v3
-stars: 4121
+stars: 4125
 description: jQuery Tree Plugin
 url: https://github.com/zTree/zTree_v3
 ---

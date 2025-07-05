@@ -1,6 +1,6 @@
 ---
 project: NextChat
-stars: 83947
+stars: 84045
 description: ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
 url: https://github.com/ChatGPTNextWeb/NextChat
 ---
@@ -13,6 +13,11 @@ English / 简体中文
 ✨ Light and Fast AI Assistant,with Claude, DeepSeek, GPT4 & Gemini Pro support.
 
 NextChatAI / iOS APP / Web App Demo / Desktop App / Enterprise Edition
+
+❤️ Sponsor AI API
+-----------------
+
+302.AI is a pay-as-you-go AI application platform that offers the most comprehensive AI APIs and online applications available.
 
 🥳 Cheer for NextChat iOS Version Online!
 -----------------------------------------

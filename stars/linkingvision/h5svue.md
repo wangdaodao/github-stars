@@ -1,6 +1,6 @@
 ---
 project: h5svue
-stars: 57
+stars: 58
 description: Play RTSP in VUE with low latency 
 url: https://github.com/linkingvision/h5svue
 ---

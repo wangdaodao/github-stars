@@ -1,6 +1,6 @@
 ---
 project: LxgwWenKai
-stars: 20592
+stars: 20720
 description: An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  
 url: https://github.com/lxgw/LxgwWenKai
 ---
@@ -19,6 +19,7 @@ Important
     -   霞鹜文楷 轻便版 / LXGW WenKai Lite：与完整版相比剔除一些较不常用的字符，便于开发者将字体嵌入软件中。
     -   霞鹜文楷 GB / LXGW WenKai GB：进一步调整字形和笔形，符合 G 源字形规范。轻便版
     -   霞鹜文楷 TC / LXGW WenKai TC：旧字形版参考「一点字坊」的「传承字形标准化文件」对部件进行修改，适用于繁体中文用户及旧字形爱好者。
+    -   한글판: LXGW WenKai KR.
     -   与其他西文字体合并的字体：LXGW Bright（与 Ysabeau Office 搭配）、LXGW Bright Code（与 Monaspace Argon 搭配）。
 
 LXGW WenKai / 霞鹜文楷
@@ -84,6 +85,8 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
     2.  霞鹜文楷 轻便版 / LXGW WenKai Lite：剔除谚文及较不常用的汉字，便于开发者将字体嵌入软件中。若完整版有字形优化或特性更新，精简版也将会跟进。
     3.  霞鹜文楷 GB / LXGW WenKai GB：在文楷基础上进一步调整字形和笔形，符合 G 源字形规范。包含 GB 18030-2022 实现级别 2 范围内所有汉字。另有文楷 GB 轻便版。
     4.  霞鹜文楷 TC / LXGW WenKai TC：供繁体中文用户和旧字形爱好者使用，基于轻便版制作，采用旧字形写法，主要采用 Klee One 的隐藏字形，部分部件手动修改 （大部分部件参考一点字坊「传承字形标准化文件」，借助「汉文博士」「国学迷」「字统网」 等工具按部件查字，对字形进行修改）。此外已有基于 Klee One 改造的繁体中文字体 芫荽 / Iansui，采用台湾地区的教育标准字形；另有采用香港地区字形标准的 芫茜雅楷 / JyunsaiKaai。
+    5.  이 글꼴의 한글 버전을 사용할 수 있습니다: LXGW WenKai KR.
+    6.  日本語版が必要な場合は、オリジナルフォント「クレー One」を直接使用してください。
 6.  **本项目为字体项目，有关 Magisk 字体模块等手机字体替换有关的问题，请移步模块模板的 Issues 里反馈，不要在本项目开议题。**
 
 协助完善

@@ -1,6 +1,6 @@
 ---
 project: fnm
-stars: 21282
+stars: 21356
 description: 🚀 Fast and simple Node.js version manager, built in Rust
 url: https://github.com/Schniz/fnm
 ---
@@ -28,7 +28,7 @@ Installation
 
 For `bash`, `zsh` and `fish` shells, there's an automatic installation script.
 
-First ensure that `curl` and `unzip` are already installed on you operating system. Then execute:
+First ensure that `curl` and `unzip` are already installed on your operating system. Then execute:
 
 curl -fsSL https://fnm.vercel.app/install | bash
 

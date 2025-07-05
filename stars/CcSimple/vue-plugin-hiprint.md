@@ -1,6 +1,6 @@
 ---
 project: vue-plugin-hiprint
-stars: 1342
+stars: 1349
 description: hiprint for Vue2/Vue3 ⚡打印、打印设计、可视化设计器、报表设计、元素编辑、可视化打印编辑
 url: https://github.com/CcSimple/vue-plugin-hiprint
 ---
@@ -222,12 +222,20 @@ hiPrintPlugin.disAutoConnect();
 
 /// 提供的全局方法：
 
-/// provider 可为null  args: 同模板对应调用 print 方法
+// this.$pluginName == hiprint 全局对象
+let hiprintTemplate \= this.$pluginName.PrintTemplate({
+  template: {}, // 模板json \[对象\]
+});
+hiprintTemplate.print({name:'i不简'});
+
+/// provider 不能为null, 可以为 undefined  args: 同模板对应调用 print 方法
 
 // 1. 打印
-this.$pluginName.print(provider, templateJson, ...args);
+this.$print(undefined, templateJson, ...args);
+this.$print(provider, templateJson, ...args);
 // 2. 直接打印
-this.$pluginName.print2(provider, templateJson, ...args);
+this.print2(undefined, templateJson, ...args);
+this.print2(provider, templateJson, ...args);
 
 jQuery/uniapp 项目使用
 ------------------

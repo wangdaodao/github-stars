@@ -1,12 +1,14 @@
 ---
 project: lucky
-stars: 5907
+stars: 5944
 description: 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,阿里云盘,ftp,webdav,filebrowser
 url: https://github.com/gdy666/lucky
 ---
 
 Lucky(万吉)
 =========
+
+本项目 CDN 加速及安全防护由 Tencent EdgeOne 赞助 亚洲最佳CDN、边缘和安全解决方案 - Tencent EdgeOne
 
 注意：源码公布到1.4.10版本，后续暂无继续开源计划。
 ----------------------------

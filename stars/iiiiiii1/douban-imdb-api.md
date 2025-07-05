@@ -118,6 +118,11 @@ type为必填，可选Douban或Imdb，skip和limit为分页使用，lang调用�
 
 该api为测试阶段，如果全文搜索没有数据的，可使用/movie/api接口，根据豆瓣id查询数据。
 
+赞助支持
+----
+
+本项目 `CDN` 加速及安全防护由 `Tencent EdgeOne` 赞助，官网链接：https://edgeone.ai/。
+
 相关项目
 ----
 

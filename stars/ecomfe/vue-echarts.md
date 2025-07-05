@@ -1,6 +1,6 @@
 ---
 project: vue-echarts
-stars: 10175
+stars: 10185
 description: Vue.js component for Apache ECharts™.
 url: https://github.com/ecomfe/vue-echarts
 ---
@@ -393,12 +393,14 @@ import { THEME\_KEY } from 'vue-echarts'
 -   `convertToPixel` →
 -   `convertFromPixel` →
 -   `containPixel` →
--   `showLoading` →
--   `hideLoading` →
 -   `getDataURL` →
 -   `getConnectedDataURL` →
 -   `clear` →
 -   `dispose` →
+
+Note
+
+`showLoading` and `hideLoading` are not exposed. Use the **`loading`** and **`loading-options`** props.
 
 ### Static Methods
 

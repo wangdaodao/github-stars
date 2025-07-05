@@ -1,6 +1,6 @@
 ---
 project: vuepress-deploy
-stars: 145
+stars: 144
 description: A GitHub Action to build and deploy Vuepress sites to GitHub Pages
 url: https://github.com/jenkey2011/vuepress-deploy
 ---
