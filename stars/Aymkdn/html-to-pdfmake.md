@@ -1,6 +1,6 @@
 ---
 project: html-to-pdfmake
-stars: 608
+stars: 611
 description: This module permits to convert HTML to the PDFMake format
 url: https://github.com/Aymkdn/html-to-pdfmake
 ---

@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2778
+stars: 2826
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Descending the Col du Tourmalet in the French Pyrenees during the 2021 Tour de France (© THOMAS SAMSON/AFP via Getty Images)
+Today: Thomson's gazelle mother and fawn, Maasai Mara, Kenya (© Gallo Images/DanitaDelimont.com)
+
+2025-07-13 download 4k
+
+2025-07-12 download 4k
+
+2025-07-11 download 4k
+
+2025-07-10 download 4k
+
+2025-07-09 download 4k
+
+2025-07-08 download 4k
+
+2025-07-07 download 4k
 
 2025-07-06 download 4k
 
@@ -55,20 +69,6 @@ Today: Descending the Col du Tourmalet in the French Pyrenees during the 2021 To
 2025-06-15 download 4k
 
 2025-06-14 download 4k
-
-2025-06-13 download 4k
-
-2025-06-12 download 4k
-
-2025-06-11 download 4k
-
-2025-06-10 download 4k
-
-2025-06-09 download 4k
-
-2025-06-08 download 4k
-
-2025-06-07 download 4k
 
 ### 历史归档：
 

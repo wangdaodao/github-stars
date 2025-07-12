@@ -1,6 +1,6 @@
 ---
 project: aliyunpan
-stars: 12174
+stars: 12168
 description: 阿里云盘小白羊版  阿里云盘PC版 aliyundriver
 url: https://github.com/liupan1890/aliyunpan
 ---

@@ -1,6 +1,6 @@
 ---
 project: iptv
-stars: 3990
+stars: 4023
 description: iptv最新可用直播源iptv4/iptv6。直播电视系统，这里有折腾好了的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
@@ -23,7 +23,7 @@ default
 
 最新免费开源的IPTV电视直播源,支持IPv4/IPv6双栈访问,每6小时自动更新。收录国内外数千个高清直播频道,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持EPG节目单及台标,可用于电视盒子、手机、电脑等设备。
 
-IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.izbds.top
+IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
 
 /
 
@@ -44,9 +44,11 @@ true
 
 * * *
 
+**域名 live.izbds.com 喜提GFW免费套餐,请用新域名或加速域名**
+
 ### 📡 自动扫描直播源 IPTV4
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-06 06:35:45
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-13 06:35:01
 
 名称
 
@@ -56,13 +58,13 @@ true
 
 TXT 格式直播源
 
-https://live.izbds.com/tv/iptv4.txt
+https://live.zbds.org/tv/iptv4.txt
 
 快速复制
 
 M3U 格式直播源（已带台标和EPG）
 
-https://live.izbds.com/tv/iptv4.m3u
+https://live.zbds.org/tv/iptv4.m3u
 
 快速复制
 
@@ -78,7 +80,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 📡 自动扫描直播源 IPTV6
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-06 06:35:45
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-13 06:35:01
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 
@@ -92,13 +94,13 @@ _有ipv6环境的强烈推荐这个列表，高速稳定_
 
 TXT 格式直播源
 
-https://live.izbds.com/tv/iptv6.txt
+https://live.zbds.org/tv/iptv6.txt
 
 快速复制
 
 M3U 格式直播源（已带台标和EPG）
 
-https://live.izbds.com/tv/iptv6.m3u
+https://live.zbds.org/tv/iptv6.m3u
 
 快速复制
 

@@ -1,6 +1,6 @@
 ---
 project: vxe-table
-stars: 8193
+stars: 8206
 description: vxe table 支持 vue2, vue3 的表格解决方案
 url: https://github.com/x-extends/vxe-table
 ---
@@ -10,7 +10,7 @@ vxe-table
 
 简体中文 | 繁體中文 | English | 日本語
 
-一个基于 vue 的 PC 端表单/表格组件，支持增删改查、虚拟树、拖拽排序、懒加载、快捷菜单、数据校验、导入/导出/打印、表单渲染、自定义模板、渲染器、JSON 配置式...
+一个基于 Vxe UI 的 PC 端表格组件，支持复制粘贴、数据透视表、虚拟列表高性能的表格解决方案
 
 -   设计理念
     
@@ -19,24 +19,24 @@ vxe-table
     -   按需加载、自定义主题样式
 -   版本说明
     
-    -   **V1**
-        -   v1.0 基于 vue2.6，支持所有主流的浏览器，实现表格的一切实用的功能（2018-02-01 ~ 2020-04-01 已停止维护）
+    -   **V4**
+        -   v4.14 重构虚拟渲染，提高渲染与拖拽效果流畅度
+        -   v4.13 优化虚拟渲染，提升 Chrome、Safari、Firefox 流畅度极兼容性
+        -   v4.12 重构虚拟渲染，支持百万级数据渲染、渲染性能及流畅度大幅提升
+        -   v4.11 重构展开行功能，同时支持展开行与虚拟渲染和冻结列
+        -   v4.7 基于 vue3.2+，内部重构，拆分 Table 库和 UI 库，只支持现代浏览器，不支持 IE
+        -   v4.0 基于 vue3.2+，只支持现代浏览器，不支持 IE（2020-03-01 ~ 2024-12-01 已停止维护）
+    -   **V3**
+        -   v3.16 重构虚拟渲染，提高渲染与拖拽效果流畅度
+        -   v3.15 优化虚拟渲染，提升 Chrome、Safari、Firefox 流畅度极兼容性
+        -   v3.14 重构虚拟渲染，支持百万级数据渲染、渲染性能及流畅度大幅提升
+        -   v3.13 重构展开行功能，同时支持展开行与虚拟渲染和冻结列
+        -   v3.9 基于 vue2.6+，内部重构，拆分 Table 库和 UI 库，只支持现代浏览器，不支持 IE
+        -   v3.0 基于 vue2.6+，支持现代浏览器并保留兼容 IE11（2020-03-01 ~ 2024-12-01 已停止维护）
     -   **V2**
         -   v2.0 基于 vue2.6，支持所有主流的浏览器，同时兼具功能与性能（2019-03-01 ~ 2021-12-01 已停止维护）
-    -   **V3**
-        -   v3.0 基于 vue2.6+，支持现代浏览器并保留兼容 IE11（2020-03-01 ~ 2024-12-01 已停止维护）
-        -   v3.9 基于 vue2.6+，内部重构，拆分 Table 库和 UI 库，只支持现代浏览器，不支持 IE
-        -   v3.13 重构展开行功能，同时支持展开行与虚拟渲染和冻结列
-        -   v3.14 重构虚拟渲染，支持百万级数据渲染、渲染性能及流畅度大幅提升
-        -   v3.15 优化虚拟渲染，提升 Chrome、Safari、Firefox 流畅度极兼容性
-        -   v3.16 重构虚拟渲染，提高渲染与拖拽效果流畅度
-    -   **V4**
-        -   v4.0 基于 vue3.2+，只支持现代浏览器，不支持 IE（2020-03-01 ~ 2024-12-01 已停止维护）
-        -   v4.7 基于 vue3.2+，内部重构，拆分 Table 库和 UI 库，只支持现代浏览器，不支持 IE
-        -   v4.11 重构展开行功能，同时支持展开行与虚拟渲染和冻结列
-        -   v4.12 重构虚拟渲染，支持百万级数据渲染、渲染性能及流畅度大幅提升
-        -   v4.13 优化虚拟渲染，提升 Chrome、Safari、Firefox 流畅度极兼容性
-        -   v4.14 重构虚拟渲染，提高渲染与拖拽效果流畅度
+    -   **V1**
+        -   v1.0 基于 vue2.6，支持所有主流的浏览器，实现表格的一切实用的功能（2018-02-01 ~ 2020-04-01 已停止维护）
 -   版本计划
     
     -   优化展开行与冻结列
@@ -60,7 +60,8 @@ vxe-table
 ----
 
 👉 组件文档  
-👉 表格文档
+👉 表格文档  
+👉 可视化文档
 
 QQ 交流群
 ------
@@ -124,33 +125,22 @@ QQ 交流群
 
 版本：vue 3.x
 
-npm install vxe-table@next
+npm install vxe-table
 
 Get on unpkg and cdnjs
 
 ### NPM
 
-### 只使用表格
-
 // ...
 import VxeTable from 'vxe-table'
 import 'vxe-table/lib/style.css'
 // ...
 
-createApp(App).use(VxeTable).mount('#app')
-
-### 使用表格与 UI 库
-
-// ...
-import VxeTable from 'vxe-table'
-import 'vxe-table/lib/style.css'
-// ...
-
-import VxeUI from 'vxe-pc-ui'
+import VxeUIAll from 'vxe-pc-ui'
 import 'vxe-pc-ui/lib/style.css'
 // ...
 
-createApp(App).use(VxeUI).use(VxeTable).mount('#app')
+createApp(App).use(VxeUIAll).use(VxeTable).mount('#app')
 
 ### CDN
 

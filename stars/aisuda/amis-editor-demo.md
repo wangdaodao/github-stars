@@ -1,6 +1,6 @@
 ---
 project: amis-editor-demo
-stars: 2461
+stars: 2463
 description: amis 可视化编辑器示例 https://aisuda.github.io/amis-editor-demo
 url: https://github.com/aisuda/amis-editor-demo
 ---

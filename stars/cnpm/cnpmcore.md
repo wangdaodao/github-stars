@@ -1,6 +1,6 @@
 ---
 project: cnpmcore
-stars: 661
+stars: 662
 description: Private NPM Registry for self-host. Example, npm registry Mirror on China https://registry.npmmirror.com
 url: https://github.com/cnpm/cnpmcore
 ---

@@ -1,11 +1,11 @@
 ---
 project: ant-design-pro
-stars: 37265
+stars: 37294
 description: 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!
 url: https://github.com/ant-design/ant-design-pro
 ---
 
-Language : 🇺🇸 | 🇨🇳 | 🇷🇺 | 🇹🇷 | 🇯🇵 | 🇫🇷 | 🇵🇹 | 🇸🇦 | 🇪🇸
+Language: 🇺🇸 | 🇨🇳 | 🇷🇺 | 🇹🇷 | 🇯🇵 | 🇫🇷 | 🇵🇹 | 🇸🇦 | 🇪🇸
 
 Ant Design Pro
 ==============
@@ -17,16 +17,6 @@ An out-of-box UI solution for enterprise applications as a React boilerplate.
 -   Documentation: http://pro.ant.design/docs/getting-started
 -   ChangeLog: http://pro.ant.design/docs/changelog
 -   FAQ: http://pro.ant.design/docs/faq
-
-5.0 is out! 🎉🎉🎉
-------------------
-
-Ant Design Pro 5.0.0
-
-Translation Recruitment 📢
---------------------------
-
-We need your help: #120
 
 Features
 --------

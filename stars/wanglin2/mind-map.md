@@ -1,7 +1,7 @@
 ---
 project: mind-map
-stars: 9886
-description: 一个还算强大的Web思维导图。A relatively powerful web mind map.
+stars: 9932
+description: SimpleMindMap（思绪思维导图）：一个强大的Web思维导图。A powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---
 
@@ -30,7 +30,9 @@ Simple mind map
 > 
 > 可直接在`uTools`插件应用市场中搜索`思绪`进行安装，也可以直接访问该地址：主页，点击右侧的【启动】按钮进行安装。
 
-> 3.`obsidian`插件，正在开发中，敬请期待~
+> 3.`obsidian`插件，首个版本现已发布：
+> 
+> 下载地址：https://github.com/wanglin2/obsidian-simplemindmap/releases
 
 -   云存储版本，如果你需要带后端的云存储版本，可以尝试我们开发的另一个项目理想文档。
 

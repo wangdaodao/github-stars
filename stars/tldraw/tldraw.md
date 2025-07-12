@@ -1,6 +1,6 @@
 ---
 project: tldraw
-stars: 40640
+stars: 40701
 description: very good whiteboard SDK / infinite canvas SDK
 url: https://github.com/tldraw/tldraw
 ---

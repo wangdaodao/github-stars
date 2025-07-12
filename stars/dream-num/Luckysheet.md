@@ -1,6 +1,6 @@
 ---
 project: Luckysheet
-stars: 16340
+stars: 16351
 description: Luckysheet is an online spreadsheet like excel that is powerful, simple to configure, and completely open source.
 url: https://github.com/dream-num/Luckysheet
 ---

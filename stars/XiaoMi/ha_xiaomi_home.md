@@ -1,6 +1,6 @@
 ---
 project: ha_xiaomi_home
-stars: 20224
+stars: 20282
 description: Xiaomi Home Integration for Home Assistant
 url: https://github.com/XiaoMi/ha_xiaomi_home
 ---
@@ -202,6 +202,8 @@ Sensor
 
 MIoT-Spec-V2 event is transformed to Event entity in Home Assistant. The event's parameters are also passed to entity's `_trigger_event`.
 
+MIoT-Spec-V2 event's arguments field is the list of parameters of the event. The list elements represent the piid of the property in the same service. For example, the MIoT-Spec-V2 of the Xiaomi Wireless Double-key Switch contains the siid=2 Switch Sensor service. The eiid=1014 Long Press event of the service is triggered when a button is long pressed. The debug level log will print `Press and hold, attributes: {'Button Type': 1}`. This is an example log that the button type is 1, which means the right button is long pressed.
+
 -   Action
 
 in
@@ -343,40 +345,34 @@ The value of the event instance name indicates `_attr_device_class` of the Home 
 
 ### MIoT-Spec-V2 Filter
 
-`spec_filter.json` is used to filter out the MIoT-Spec-V2 instance that will not be converted to Home Assistant entity.
+`spec_filter.yaml` is used to filter out the MIoT-Spec-V2 instance that will not be converted to Home Assistant entity.
 
 The format of `spec_filter.json` is as follows.
 
-```
-{
-    "<MIoT-Spec-V2 device instance>":{
-        "services": list<service_iid: str>,
-        "properties": list<service_iid.property_iid: str>,
-        "events": list<service_iid.event_iid: str>,
-        "actions": list<service_iid.action_iid: str>,
-    }
-}
-```
+<MIoT-Spec-V2 device instance urn without the version field>:
+    services: list<service\_iid: str>
+    properties: list<service\_iid.property\_iid: str>
+    events: list<service\_iid.event\_iid: str>
+    actions: list<service\_iid.action\_iid: str>
 
-The key of `spec_filter.json` dictionary is the urn excluding the "version" field of the MIoT-Spec-V2 device instance. The firmware of different versions of the same product may be associated with the MIoT-Spec-V2 device instances of different versions. It is required that the MIoT-Spec-V2 instance of a higher version must contain all MIoT-Spec-V2 instances of the lower versions when a vendor defines the MIoT-Spec-V2 of its product on MIoT platform. Thus, the key of `spec_filter.json` does not need to specify the version number of MIoT-Spec-V2 device instance.
+The key of `spec_filter.yaml` dictionary is the urn excluding the "version" field of the MIoT-Spec-V2 device instance. The firmware of different versions of the same product may be associated with the MIoT-Spec-V2 device instances of different versions. It is required that the MIoT-Spec-V2 instance of a higher version must contain all MIoT-Spec-V2 instances of the lower versions when a vendor defines the MIoT-Spec-V2 of its product on MIoT platform. Thus, the key of `spec_filter.yaml` does not need to specify the version number of MIoT-Spec-V2 device instance.
 
 The value of "services", "properties", "events" or "actions" fields under "device instance" is the instance id (iid) of the service, property, event or action that will be ignored in the conversion process. Wildcard matching is supported.
 
 Example:
 
-```
-{
-    "urn:miot-spec-v2:device:television:0000A010:xiaomi-rmi1":{
-        "services": ["*"]   # Filter out all services. It is equivalent to completely ignoring the device with such MIoT-Spec-V2 device instance.
-    },
-    "urn:miot-spec-v2:device:gateway:0000A019:xiaomi-hub1": {
-        "services": ["3"],  # Filter out the service whose iid=3.
-        "properties": ["4.*"]   # Filter out all properties in the service whose iid=4.
-        "events": ["4.1"],  # Filter out the iid=1 event in the iid=4 service.
-        "actions": ["4.1"]  # Filter out the iid=1 action in the iid=4 service.
-    }
-}
-```
+urn:miot-spec-v2:device:television:0000A010:xiaomi-rmi1:
+    services:
+    - '\*'   # Filter out all services. It is equivalent to completely ignoring the device with such MIoT-Spec-V2.
+urn:miot-spec-v2:device:gateway:0000A019:xiaomi-hub1:
+    services:
+    - '3'   # Filter out the siid=3 service.
+    properties:
+    - '4.\*' # Filter out all properties in the siid=4 service.
+    events:
+    - '4.1' # Filter out the eiid=1 event in the siid=4 service.
+    actions:
+    - '4.1' # Filter out the aiid=1 action in the siid=4 service.
 
 Device information service (urn:miot-spec-v2:service:device-information:00007801) of all devices will never be converted to Home Assistant entity.
 
@@ -431,7 +427,7 @@ Example:
 }
 ```
 
-> If you edit any files in the `custom_components/xiaomi_home/miot/specs` directory (`spec_filter.py`, `spec_modify.json`, `multi_lang.json`, etc.) in your Home Assistant, you need to update the entity conversion rule in the integration's CONFIGURE page to take effect. Method: Settings > Devices & services > Configured > Xiaomi Home > CONFIGURE > Update entity conversion rules
+> If you edit any files in the `custom_components/xiaomi_home/miot/specs` directory (`spec_filter.yaml`, `spec_modify.yaml`, `multi_lang.json`, etc.) in your Home Assistant, you need to update the entity conversion rule in the integration's CONFIGURE page to take effect. Method: Settings > Devices & services > Configured > Xiaomi Home > CONFIGURE > Update entity conversion rules
 
 Documents
 ---------

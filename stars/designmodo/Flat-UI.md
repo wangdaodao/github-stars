@@ -1,6 +1,6 @@
 ---
 project: Flat-UI
-stars: 15124
+stars: 15126
 description: Flat UI Free - Design Framework (html/css3/less/js). Flat UI is based on Bootstrap, a comfortable, responsive, and functional framework that simplifies the development of websites.
 url: https://github.com/designmodo/Flat-UI
 ---
@@ -16,8 +16,7 @@ Links:
 ------
 
 -   Demo Page
--   Download PSD (for designers)
--   Flat UI Pro 1.4.0 (from $39)
+-   Download PSD
 
 Quick start
 -----------
@@ -118,7 +117,6 @@ Designmodo Projects
 
 -   Pulsetic.com - Website Monitoring Tool - Check if website is down https://pulsetic.com/is-website-down/
 -   Static.app - Static Website Hosting
--   Mailpost.io - Email Marketing Tool
 -   Siter.io - No Code Website Builder
 
 **Social Media:**

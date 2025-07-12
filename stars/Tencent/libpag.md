@@ -1,6 +1,6 @@
 ---
 project: libpag
-stars: 5345
+stars: 5355
 description: The official rendering library for PAG (Portable Animated Graphics) files that renders After Effects animations natively across multiple platforms.
 url: https://github.com/Tencent/libpag
 ---
@@ -245,6 +245,8 @@ License
 -------
 
 libpag is licensed under the Apache Version 2.0 License
+
+The copyright notice pertaining to the Tencent code in this repo was previously in the name of "THL A29 Limited". That entity has now been de-registered. You should treat all previously distributed copies of the code as if the copyright notice was in the name of "Tencent".
 
 Privacy Policy
 --------------

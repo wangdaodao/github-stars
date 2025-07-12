@@ -1,6 +1,6 @@
 ---
 project: el-table-infinite-scroll
-stars: 201
+stars: 202
 description: Infinite scroll for el-table.
 url: https://github.com/yujinpan/el-table-infinite-scroll
 ---

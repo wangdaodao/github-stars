@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-06 06:21.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-13 06:23.
 
 📝 Hitokoto
 -----------
 
-> 来人间一趟 你要看看太阳。—— 薯味博饼
+> 人到情多情转薄，而今真个不多情。—— 纳兰性德
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Descending the Col du Tourmalet in the French Pyrenees during the 2021 Tour de France (© THOMAS SAMSON/AFP via Getty Images)_
+_Thomson's gazelle mother and fawn, Maasai Mara, Kenya (© Gallo Images/DanitaDelimont.com)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: NextChat
-stars: 84045
+stars: 84124
 description: ✨ Light and Fast AI Assistant. Support: Web | iOS | MacOS | Android |  Linux | Windows
 url: https://github.com/ChatGPTNextWeb/NextChat
 ---
@@ -306,9 +306,9 @@ Add additional models to have vision capabilities, beyond the default pattern ma
 You can use this option if you want to increase the number of webdav service addresses you are allowed to access, as required by the format：
 
 -   Each address must be a complete endpoint
-
-> `https://xxxx/yyy`
-
+    
+    > `https://xxxx/yyy`
+    
 -   Multiple addresses are connected by ', '
 
 ### `DEFAULT_INPUT_TEMPLATE` (optional)
@@ -334,6 +334,14 @@ SiliconFlow API Key.
 ### `SILICONFLOW_URL` (optional)
 
 SiliconFlow API URL.
+
+### `AI302_API_KEY` (optional)
+
+302.AI API Key.
+
+### `AI302_URL` (optional)
+
+302.AI API URL.
 
 Requirements
 ------------

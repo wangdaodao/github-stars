@@ -1,6 +1,6 @@
 ---
 project: actionsflow-trigger-rsshub
-stars: 26
+stars: 25
 description: Actionsflow trigger for rsshub
 url: https://github.com/theowenyoung/actionsflow-trigger-rsshub
 ---

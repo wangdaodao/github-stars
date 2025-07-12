@@ -1,6 +1,6 @@
 ---
 project: vxe-pc-ui
-stars: 149
+stars: 151
 description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
@@ -16,12 +16,20 @@ vxe-pc-ui
     
     -   面向现代浏览器，高效的简洁 API 设计
     -   按需加载
--   计划
+-   版本说明
     
-    -   ~~v1.0 基于 vue2.6+，停止维护 ~~
-    -   ~~v2.0 基于 vue2.6+，停止维护 ~~
-    -   v3.0 基于 vue2.6+，只支持现代浏览器，不支持 IE
-    -   v4.0 基于 vue3.2+，只支持现代浏览器，不支持 IE
+    -   **V4**
+        -   v4.7 拆分 vxe-design 可视化组件和基础组件库
+        -   v4.0 基于 vue3.2+，只支持现代浏览器，不支持 IE
+    -   **V3**
+        -   v3.7 拆分 vxe-design 可视化组件和基础组件库
+        -   v3.0 基于 vue2.6+，只支持现代浏览器，不支持 IE
+    -   **V2**
+        -   v2.0 基于 vue2.6+，停止维护
+    -   **V1**
+        -   v1.0 基于 vue2.6+，停止维护
+-   版本计划
+    
     -   计划功能：虚拟列表，支持百万级数据渲染
     -   计划功能：虚拟表单，支持万级表单项渲染
     -   计划功能：全功能表单可视化设计器
@@ -46,7 +54,8 @@ vxe-pc-ui
 ----
 
 👉 组件文档  
-👉 表格文档
+👉 表格文档  
+👉 可视化文档
 
 QQ 交流群
 ------
@@ -82,13 +91,9 @@ QQ 交流群
 -   date-range-picker 日期范围选择器
 -   drawer 抽屉
 -   empty 空数据
--   flow-design 流程设计器
--   flow-view 流程设计器-视图渲染
 -   form 表单
--   form-design 表单设计器
 -   form-group 表单-分组
 -   form-item 表单-项
--   form-view 表单设计器-视图渲染
 -   icon 图标
 -   icon-picker 图标选择
 -   image 图片
@@ -101,8 +106,6 @@ QQ 交流群
 -   layout-footer 页面布局-页尾
 -   layout-header 页面布局-页头
 -   link 链接
--   list-design 列表设计器
--   list-view 列表设计器-视图渲染
 -   list 虚拟列表
 -   loading 加载中
 -   menu 菜单
@@ -141,27 +144,43 @@ QQ 交流群
 
 👀 Vxe Table
 
--   table 表格-基础表格
--   column 表格-列
--   colgroup 表格-分组列
--   toolbar 表格-工具栏
--   grid 表格-配置式
+-   grid 全功能表格-配置式
+-   table 基础表格-标签式
+    -   column 基础表格-标签式-常规列
+    -   colgroup 基础表格-标签式-分组列
+    -   toolbar 基础表格-标签式-工具栏
+
+👀 Vxe Design
+
+-   flow-design 工作流设计器
+-   flow-view 工作流设计器-视图渲染
+-   form-design 表单设计器
+-   form-view 表单设计器-视图渲染
+-   list-design 列表设计器
+-   list-view 列表设计器-视图渲染
 
 安装
 --
 
 npm install vxe-pc-ui
+# npm install vxe-pc-ui vxe-table vxe-design
 
 // ...
-import VxeUI from 'vxe-pc-ui'
+import VxeUIAll from 'vxe-pc-ui'
 import 'vxe-pc-ui/lib/style.css'
-// ...
-// ...
-import VxeTable from 'vxe-table'
-import 'vxe-table/lib/style.css'
+
+// import VxeUITable from 'vxe-table'
+// import 'vxe-table/lib/style.css'
+
+// import VxeUIDesign from 'vxe-design'
+// import 'vxe-design/lib/style.css'
 // ...
 
-createApp(App).use(VxeUI).use(VxeTable).mount('#app')
+createApp(App)
+  .use(VxeUIAll)
+  // .use(VxeUITable)
+  // .use(VxeUIDesign)
+  .mount('#app')
 
 ### CDN
 
@@ -176,13 +195,15 @@ _**不建议将第三方的 CDN 地址用于正式环境，因为该连接随时
   <meta http-equiv\="X-UA-Compatible" content\="IE=edge,chrome=1"\>
   <!-- style -->
   <link rel\="stylesheet" href\="https://cdn.jsdelivr.net/npm/vxe-pc-ui@4/lib/style.css"\>
-  <link rel\="stylesheet" href\="https://cdn.jsdelivr.net/npm/vxe-table@4/lib/style.css"\>
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vxe-table@4/lib/style.css"> -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vxe-design@4/lib/style.css"> -->
   <!-- vue -->
   <script src\="https://cdn.jsdelivr.net/npm/vue@3"\></script\>
-  <!-- table -->
+  <!-- vxe -->
   <script src\="https://cdn.jsdelivr.net/npm/xe-utils"\></script\>
   <script src\="https://cdn.jsdelivr.net/npm/vxe-pc-ui@4"\></script\>
-  <script src\="https://cdn.jsdelivr.net/npm/vxe-table@4"\></script\>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vxe-table@4"></script> -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vxe-design@4"></script> -->
 </head\>
 <body\>
   <div id\="app"\>
@@ -233,7 +254,7 @@ _**不建议将第三方的 CDN 地址用于正式环境，因为该连接随时
           }
         }
       }
-      Vue.createApp(App).use(VxeUI).use(VXETable).mount('#app')
+      Vue.createApp(App).use(VxeUIAll).use(VxeUITable).mount('#app')
     })()
   </script\>
 </body\>

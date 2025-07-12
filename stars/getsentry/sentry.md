@@ -1,6 +1,6 @@
 ---
 project: sentry
-stars: 41256
+stars: 41415
 description: Developer-first error tracking and performance monitoring
 url: https://github.com/getsentry/sentry
 ---
@@ -10,7 +10,7 @@ Users and logs provide clues. Sentry provides answers.
 What's Sentry?
 ==============
 
-Sentry is a developer-first error tracking and performance monitoring platform that helps developers see what actually matters, solve quicker, and learn continuously about their applications.
+Sentry is the debugging platform that helps every developer detect, trace, and fix issues. Code breaks, fix it faster.
 
 Official Sentry SDKs
 --------------------
@@ -28,12 +28,13 @@ Official Sentry SDKs
 -   Objective-C/Swift
 -   C#/F#
 -   C/C++
--   Dart
+-   Dart/Flutter
 -   Perl
 -   Clojure
 -   Elixir
 -   Unity
 -   Unreal Engine
+-   Godot Engine
 -   PowerShell
 
 Resources

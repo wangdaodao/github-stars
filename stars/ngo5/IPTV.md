@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 2624
+stars: 2646
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -39,86 +39,6 @@ IPV4/IPV6 TVBOX 电视直播点播源收集
 EPG
 
 台标
-
-fanmingming
-
-https://live.fanmingming.cn/tv/m3u/ipv6.m3u
-
-IPV6
-
-✔️
-
-✔️
-
-ChinaIPTV
-
-https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV\_AutoUpdate.m3u8
-
-IPV4
-
-❌
-
-✔️
-
-iptv-api
-
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
-
-IPV4
-
-✔️
-
-✔️
-
-iptv-api
-
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
-
-IPV6
-
-✔️
-
-✔️
-
-myIPTV
-
-https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
-
-IPV4
-
-✔️
-
-✔️
-
-myIPTV
-
-https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u
-
-IPV6
-
-✔️
-
-✔️
-
-vbskycn
-
-https://live.izbds.com/tv/iptv6.m3u
-
-IPV6
-
-✔️
-
-✔️
-
-vbskycn
-
-https://live.izbds.com/tv/iptv4.m3u
-
-IPV4
-
-✔️
-
-✔️
 
 YanG-1989
 
@@ -160,9 +80,19 @@ IPV4
 
 ❌
 
+Ftindy
+
+https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
+
+IPV4
+
+✔️
+
+✔️
+
 AKTV
 
-http://aktv.space/live.m3u
+https://aktv.space/live.m3u
 
 IPV4
 
@@ -170,13 +100,83 @@ IPV4
 
 ❌
 
-joevess
+fanmingming
 
-https://raw.githubusercontent.com/joevess/IPTV/main/m3u/iptv.m3u
+https://live.fanmingming.cn/tv/m3u/ipv6.m3u
+
+IPV6
+
+✔️
+
+✔️
+
+ChinaIPTV
+
+https://raw.githubusercontent.com/hujingguang/ChinaIPTV/main/cnTV\_AutoUpdate.m3u8
 
 IPV4
 
 ❌
+
+✔️
+
+myIPTV
+
+https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv4.m3u
+
+IPV4
+
+✔️
+
+✔️
+
+myIPTV
+
+https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u
+
+IPV6
+
+✔️
+
+✔️
+
+vbskycn
+
+https://live.zbds.org/tv/iptv6.m3u
+
+IPV6
+
+✔️
+
+✔️
+
+vbskycn
+
+https://live.zbds.org/tv/iptv4.m3u
+
+IPV4
+
+✔️
+
+✔️
+
+iptv-api
+
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
+
+IPV4
+
+✔️
+
+✔️
+
+iptv-api
+
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
+
+IPV6
+
+✔️
 
 ✔️
 
@@ -190,16 +190,6 @@ IPV4
 
 ❌
 
-Ftindy
-
-https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
-
-IPV4
-
-✔️
-
-✔️
-
 iptv-sources
 
 https://m3u.ibert.me/fmml\_ipv6.m3u
@@ -210,7 +200,17 @@ IPV4
 
 ✔️
 
-ipv6源比较稳定，大部分是中国移动源，建议移动宽带用户使用。iptv-sources镜像了其他人的源，打开他的主页还有其他镜像，国内可打开，短链接。直播源有人卡有人不卡都是正常的，请测试后选择适合自己地区的直播源。ipv6源基本可用，不能用检查有没有ipv6或者换个软件，ipv4源不能用试试换个软件。AKTV只有香港台湾电视台。20250115突然大部分IPV6直播源只能本省看，好多项目IPV6源也替换成IPV4源，现在看直播可试试“自带源软件”下几个软件。
+joevess
+
+https://raw.githubusercontent.com/joevess/IPTV/main/m3u/iptv.m3u
+
+IPV4
+
+❌
+
+✔️
+
+直播源有人卡有人不卡都是正常的，请测试后选择适合自己地区的直播源。20250115突然大部分IPV6直播源只能本省看，好多项目IPV6源也替换成IPV4源，现在看直播可试试“自带源软件”下几个软件。也可以先输入点播源，这样会自动填写点播源自带的直播源。
 
 * * *
 
@@ -236,6 +236,12 @@ IPV6是否开启查询：https://testipv6.cn/
 
 类型
 
+OK猫开发
+
+http://ok321.top/ok
+
+源
+
 饭太硬
 
 http://www.饭太硬.net/tv
@@ -245,12 +251,6 @@ http://www.饭太硬.net/tv
 liucn
 
 https://raw.liucn.cc/box/m.json
-
-源
-
-OK猫开发
-
-http://ok321.top/ok
 
 源
 
@@ -390,6 +390,18 @@ https://github.com/FongMi/Release/tree/okjack/apk/release
 
 Android电视/手机
 
+OrionTV
+
+https://github.com/zimplexing/OrionTV/releases
+
+Android电视
+
+MoonTV
+
+https://github.com/senshinya/MoonTV
+
+需自己构建
+
 TV-Multiplatform
 
 https://github.com/Greatwallcorner/TV-Multiplatform/releases
@@ -491,11 +503,11 @@ TVBOX直播没有台标没有节目单，影视APP有。TiviMate不能扫码输�
 
 备注
 
-我们的电视
+油桃TV
 
-https://github.com/andandroidor/ourtv/releases
+https://www.utao.tv/
 
-有广告但不影响观看
+影视和直播
 
 电视浏览器
 
@@ -527,6 +539,12 @@ https://wmdz.com/
 
 电视APP合集
 
+OurTV
+
+https://github.com/andandroidor/ourtv/releases
+
+有广告但不影响观看
+
 我的电视
 
 https://github.com/yaoxieyoulei/mytv-android/releases
@@ -545,7 +563,7 @@ https://github.com/lizongying/my-tv-1/releases
 
 可配置源
 
-也可以用影视APP只设置直播源再设置打开软件启动直播。原版“我的电视”是lizongying开发，已经停更。202412021左右，接手版“我的电视”已删库，范明明.com域名被墙。
+也可以用影视APP只设置直播源再设置打开软件启动直播。原版“我的电视”是lizongying开发，已经停更。202412021左右，接手版“我的电视”已删库，范明明.com域名被墙。OurTV（目前还能用）蓝奏云 备份
 
 电视浏览器
 -----

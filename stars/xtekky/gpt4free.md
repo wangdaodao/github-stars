@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 64557
+stars: 64624
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -77,7 +77,7 @@ Curious to see what G4F can do? Dive into a live demonstration and visit the off
     -   🎨 Image Generation
     -   🌐 Web Interface
     -   🖥️ Local Inference
-    -   🤖 Inference API
+    -   🤖 Interference API
     -   🛠️ Configuration
     -   📱 Run on Smartphone
     -   📘 Full Documentation for Python API
