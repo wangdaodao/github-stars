@@ -1,6 +1,6 @@
 ---
 project: vue2-waterfall
-stars: 95
+stars: 96
 description: 😁 An AutoHeight Waterfall Component For Vue2
 url: https://github.com/PLDaily/vue2-waterfall
 ---

@@ -1,6 +1,6 @@
 ---
 project: ha_xiaomi_home
-stars: 20282
+stars: 20326
 description: Xiaomi Home Integration for Home Assistant
 url: https://github.com/XiaoMi/ha_xiaomi_home
 ---
@@ -347,7 +347,7 @@ The value of the event instance name indicates `_attr_device_class` of the Home 
 
 `spec_filter.yaml` is used to filter out the MIoT-Spec-V2 instance that will not be converted to Home Assistant entity.
 
-The format of `spec_filter.json` is as follows.
+The format of `spec_filter.yaml` is as follows.
 
 <MIoT-Spec-V2 device instance urn without the version field>:
     services: list<service\_iid: str>

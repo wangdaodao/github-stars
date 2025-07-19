@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2826
+stars: 2855
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Thomson's gazelle mother and fawn, Maasai Mara, Kenya (© Gallo Images/DanitaDelimont.com)
+Today: Luna moth resting on cedar elm, New Braunfels, Texas, USA (© Rolf Nussbaumer/Nature Picture Library)
+
+2025-07-20 download 4k
+
+2025-07-19 download 4k
+
+2025-07-18 download 4k
+
+2025-07-17 download 4k
+
+2025-07-16 download 4k
+
+2025-07-15 download 4k
+
+2025-07-14 download 4k
 
 2025-07-13 download 4k
 
@@ -55,20 +69,6 @@ Today: Thomson's gazelle mother and fawn, Maasai Mara, Kenya (© Gallo Images/Da
 2025-06-22 download 4k
 
 2025-06-21 download 4k
-
-2025-06-20 download 4k
-
-2025-06-19 download 4k
-
-2025-06-18 download 4k
-
-2025-06-17 download 4k
-
-2025-06-16 download 4k
-
-2025-06-15 download 4k
-
-2025-06-14 download 4k
 
 ### 历史归档：
 

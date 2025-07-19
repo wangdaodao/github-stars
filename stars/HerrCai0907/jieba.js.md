@@ -1,6 +1,6 @@
 ---
 project: jieba.js
-stars: 10
+stars: 11
 description: "结巴"中文分词的js版本
 url: https://github.com/HerrCai0907/jieba.js
 ---

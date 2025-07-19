@@ -1,6 +1,6 @@
 ---
 project: vue-pdf-embed
-stars: 883
+stars: 889
 description: PDF embed component for Vue 2 and Vue 3
 url: https://github.com/hrynko/vue-pdf-embed
 ---
@@ -92,11 +92,12 @@ document navigation service to override the default one (emitting `internal-link
 
 page
 
-`number`
+`number`  
+`number[]`
 
 `1` to the last page number
 
-number of the page to display (displaying all pages if not specified)
+page number(s) to display (displaying all pages if not specified)
 
 rotation
 

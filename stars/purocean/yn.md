@@ -1,6 +1,6 @@
 ---
 project: yn
-stars: 5939
+stars: 5950
 description: A highly extensible Markdown editor. Version control, AI Copilot, mind map, documents encryption, code snippet running, integrated terminal, chart embedding, HTML applets, Reveal.js, plug-in, and macro replacement.
 url: https://github.com/purocean/yn
 ---
@@ -80,14 +80,17 @@ Screenshots
 Changelogs
 ----------
 
-### v3.82.1 2025-03-30
+### v3.83.2 2025-07-15
 
 Windows | macOS arm64 | macOS x64 | Linux AppImage | Linux deb
 
-1.  feat: Added font configuration for the preview area
-2.  feat: Restrict Markdown syntax suggestions in the editor from displaying within code fences
-3.  fix: Fixed the issue where exported HTML headings were not highlighted correctly in some cases
-4.  feat(plugin): Added the `ctx.editor.getLineLanguageId` method to retrieve the language ID of a specific line
+1.  feat: Added configuration for editor scroll wheel sensitivity
+2.  feat: Added configuration for editor ruler settings
+3.  feat: Added support for custom CSS styling during rendering
+4.  feat: Double-clicking the editor highlights the current line in preview
+5.  fix: Resolved potential freeze when saving encrypted documents
+6.  fix: Fixed extension details display failure issue
+7.  feat(plugin): Added `editor` callback parameter to `SETTING_PANEL_AFTER_SHOW` Hook to access configuration editor instances
 
 More release notes
 

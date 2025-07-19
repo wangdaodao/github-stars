@@ -1,13 +1,15 @@
 ---
 project: LxgwWenKai
-stars: 20791
+stars: 20868
 description: An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  
 url: https://github.com/lxgw/LxgwWenKai
 ---
 
 Caution
 
-近来发现，包括本字体在内的众多开源字体、免费商用字体被淘宝等电商平台的某些商家倒卖，这种行为严重违反了 OFL 1.1 中对字体售卖行为的限制条款。如您遇到此类店铺贩售本字体，**请不要购买！** 否则，您所支付的钱财将**不会**流入字体作者手中，您也**不会**获得本字体的版本更新或其他支持。
+-   近来发现，包括本字体在内的众多开源字体、免费商用字体被淘宝、小红书等电商平台的某些商家倒卖，这种行为严重违反了 OFL 1.1 中对字体售卖行为的限制条款。如您遇到此类店铺贩售本字体，**请不要购买！** 否则，您所支付的钱财将**不会**流入字体作者手中，您也**不会**获得本字体的版本更新或其他支持。
+-   如果您发现了这个字体，想要推荐给您所在的单位使用，但该单位的法务认为必须要有「授权证明」，且不信任 OFL 1.1 开源协议条款，那么强烈建议放弃使用本字体，选用免费商用且可开具「授权证明」的非开源字体，或者购买商业版权字体。
+-   鉴于国内各大手机厂商的主题商店仅对企业开放字体上传权限，少数对个人开放字体权限的也需要版权登记证明，如果您希望在手机主题商店上使用本字体，那么强烈建议您放下这个执念，选用默认字体或主题商店的其他字体。
 
 Important
 
@@ -54,8 +56,8 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 
 ### 其他部分
 
--   补完 CJK 统一汉字基本区 20992 个汉字、扩展 A 区 6592 个汉字 _（目前完整版有 4 千多个字形由 zi2zi 深度学习生成，字形较粗糙）_ ；
--   补全 Unicode 迄今为止收录的所有谚文音节，共 11172 个 _（做得比较拙劣。轻便版不包含）_。
+-   补完 CJK 统一汉字基本区 20992 个汉字、扩展 A 区 6592 个汉字 _（目前完整版有四千多个字形由 zi2zi 深度学习生成，字形较粗糙）_ ；
+-   补全 Unicode 迄今为止收录的所有谚文音节，共 11172 个 _（轻便版不包含）_。
 
 获取字体
 ----
@@ -71,7 +73,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 
 ### ⅱ. 从源代码生成
 
-请运行 `./sources/build.bat` 或 `./sources/build.sh`。需要安装 `fontmake`：`pip3 install fontmake` 和 `fontTools`：`pip3 install fonttools`。
+可通过 `make` 运行完整的构建流程： `make build`。目前的源代码依赖子模块 LxgwWenKai-shared，且只能在类 Unix 系统运行，需要安装 Python 3。
 
 注意事项
 ----
@@ -104,7 +106,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 授权信息
 ----
 
-本字体是基于 SIL Open Font License 1.1 改造的 FONTWORKS 开发并发布的 Klee 开源项目。Klee 是 FONTWORKS 的商标。
+本字体在 Fontworks（今 Monotype KK）开发并发布的 Klee 开源项目基础上改造，采用 SIL Open Font License 1.1 授权许可。Klee 是 Fontworks 的商标。
 
 > 猫啃网提供 SIL Open Font License 1.1 非官方简体中文译本便于理解，仅供参考。
 
@@ -123,7 +125,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 鸣谢
 --
 
--   FONTWORKS 株式会社 提供原始开源字体； 开发者 GitHub 主页
+-   Fontworks Inc.（今 Monotype KK）提供原始开源字体； 开发者 GitHub 主页https://github.com/fontworks-fonts/)
 -   原始字体的设计师周建豪（Francis Chow）先生，以及 @CL-Jeremy、@夜煞之乐 等为字形设计提供指导；
 -   @夜煞之乐 等为本项目的运营提供帮助；
 -   @北辰極致卑微、@Georgome、@Magmeta、@Steve-Yuu 等协助完善字体；

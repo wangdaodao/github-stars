@@ -1,6 +1,6 @@
 ---
 project: vue
-stars: 7149
+stars: 7152
 description: vue源码逐行注释分析+40多m的vue源码程序流程图思维导图(vue source code line by line annotation analysis +40 + m vue source code process flow chart mind map)
 url: https://github.com/ygs-code/vue
 ---

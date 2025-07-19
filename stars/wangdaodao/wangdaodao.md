@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-13 06:23.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-20 06:24.
 
 📝 Hitokoto
 -----------
 
-> 人到情多情转薄，而今真个不多情。—— 纳兰性德
+> 疏影横斜水清浅，暗香浮动月黄昏。—— 林逋
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Thomson's gazelle mother and fawn, Maasai Mara, Kenya (© Gallo Images/DanitaDelimont.com)_
+_Luna moth resting on cedar elm, New Braunfels, Texas, USA (© Rolf Nussbaumer/Nature Picture Library)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: plugins
-stars: 1827
+stars: 1829
 description: Typecho Fans插件作品目录
 url: https://github.com/typecho-fans/plugins
 ---

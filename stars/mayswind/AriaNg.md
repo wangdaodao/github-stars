@@ -1,6 +1,6 @@
 ---
 project: AriaNg
-stars: 12390
+stars: 12417
 description: AriaNg, a modern web frontend making aria2 easier to use.
 url: https://github.com/mayswind/AriaNg
 ---
@@ -32,14 +32,6 @@ Features
 5.  Url command line api support
 6.  Download finished notification
 7.  Multi-languages support
-    -   Czech
-    -   English
-    -   Spanish
-    -   French
-    -   Italian
-    -   Polish
-    -   Russian
-    -   Chinese (Simplified Chinese / Traditional Chinese)
 8.  Multi aria2 RPC host support
 9.  Exporting and Importing settings support
 10.  Less bandwidth usage, only requesting incremental data
@@ -92,6 +84,76 @@ Translating
 Everyone is welcome to contribute translations. All translations files are put in `/src/langs/`. You can just modify and commit a new pull request.
 
 If you want to translate AriaNg to a new language, you can add language configuration to `/src/scripts/config/languages.js`, then copy `/i18n/en.sample.txt` to `/src/langs/` and rename it to the language code to be translated, then you can start the translation work.
+
+Currently available translations:
+
+Tag
+
+Language
+
+Contributors
+
+cz-CZ
+
+Čeština
+
+@vorm04
+
+de-DE
+
+Deutsch
+
+@Malonsow
+
+en
+
+English
+
+/
+
+es
+
+Español
+
+@castillofrancodamian
+
+fr-FR
+
+Français
+
+@Valaraukar86
+
+it-IT
+
+Italiano
+
+@ale-saglia
+
+pl-PL
+
+Polski
+
+@Pirania3680
+
+ru-RU
+
+Русский
+
+@gazizovemil
+
+zh-Hans
+
+简体中文
+
+/
+
+zh-Hant
+
+繁體中文
+
+@zhtw2013 @ChiaYen-Kan
+
+Don't see your language? Help us add it!
 
 Documents
 ---------

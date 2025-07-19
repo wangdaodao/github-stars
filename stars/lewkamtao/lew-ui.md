@@ -1,6 +1,6 @@
 ---
 project: lew-ui
-stars: 1490
+stars: 1500
 description: A beautiful component library based on vue3
 url: https://github.com/lewkamtao/lew-ui
 ---
@@ -9,8 +9,6 @@ Lew UI
 ======
 
 A Component Library for Vue3. Doc address: https://lew.kamtao.com
-
-English | 中文
 
 Install
 -------
@@ -29,7 +27,7 @@ import { LewButton } from 'lew-ui'
 </script\>
 
 <template\>
-  <lew-button text\="Submit" />
+  <LewButton text\="Submit" />
 </template\>
 
 Open Source Libraries

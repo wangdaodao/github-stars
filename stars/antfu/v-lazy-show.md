@@ -1,6 +1,6 @@
 ---
 project: v-lazy-show
-stars: 496
+stars: 497
 description: Compile-time directive to lazy initialize v-show for Vue
 url: https://github.com/antfu/v-lazy-show
 ---

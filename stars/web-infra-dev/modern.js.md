@@ -1,6 +1,6 @@
 ---
 project: modern.js
-stars: 4774
+stars: 4787
 description: A progressive web framework based on React and Rsbuild.
 url: https://github.com/web-infra-dev/modern.js
 ---
@@ -34,8 +34,6 @@ The following solutions and libraries are available within the Modern.js ecosyst
 -   🐹 Rspress: A fast Rspack-based static site generator.
 -   🦄 Rslib: An Rspack-based library development tool.
 -   🐟 Garfish: A powerful micro front-end framework.
--   🦆 Reduck: An redux-based state management library.
--   🐴 SWC Plugins: Built-in SWC plugins for Modern.js.
 
 Benchmark
 ---------
@@ -79,7 +77,6 @@ Some implementations of Modern.js are modified from existing projects, such as c
 
 -   `@modern-js/bundle-require`: is modified from bundle-require.
 -   `@modern-js/plugin`: the hooks API is referenced from farrow-pipeline.
--   `@modern-js/plugin-testing`: the jest runner is referenced from jest-cli.
 -   `@modern-js/plugin-data-loader`: some code is referenced from remix.
 -   `@modern-js/babel-plugin-module-resolver`: is modified from babel-plugin-module-resolver.
 

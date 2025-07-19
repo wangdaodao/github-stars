@@ -1,6 +1,6 @@
 ---
 project: jsoncrack.com
-stars: 39387
+stars: 40291
 description: ✨ Innovative and open-source visualization application that transforms various data formats, such as JSON, YAML, XML, CSV and more, into interactive graphs.
 url: https://github.com/AykutSarac/jsoncrack.com
 ---
@@ -92,6 +92,11 @@ docker compose build
 docker compose up
 
 # Go to http://localhost:8888
+
+Configuration
+-------------
+
+The supported node limit can be changed by editing the `NEXT_PUBLIC_NODE_LIMIT` value in the `.env` file at the project root.
 
 License
 -------

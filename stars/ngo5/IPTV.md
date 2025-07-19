@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 2646
+stars: 2687
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -13,10 +13,9 @@ IPV4/IPV6 TVBOX 电视直播点播源收集
 
 -   直播源
 -   点播源
--   电视节目单（EPG）接口
+-   EPG
     -   112114
     -   ERW
-    -   BurningC4
 -   推荐软件
     -   空壳软件
     -   自带源软件
@@ -99,6 +98,16 @@ IPV4
 ✔️
 
 ❌
+
+zwc456baby
+
+https://raw.githubusercontent.com/zwc456baby/iptv\_alive/refs/heads/master/live.m3u
+
+IPV4
+
+✔️
+
+✔️
 
 fanmingming
 
@@ -221,7 +230,7 @@ IPV4
 -   Pixman（普通人别折腾）
 -   stream link（資源不支持中國大陸使用）
 
-IPV6是否开启查询：https://testipv6.cn/
+IPV6是否开启查询：https://testipv6.com
 
 直播源检测有效性：https://github.com/zhimin-dev/iptv-checker
 
@@ -254,6 +263,12 @@ https://raw.liucn.cc/box/m.json
 
 源
 
+王小二
+
+https://9280.kstore.space/wex.json
+
+源
+
 qist
 
 https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jsm.json
@@ -274,7 +289,7 @@ https://raw.githubusercontent.com/gaotianliuyun/gao/master/js.json
 
 肥猫
 
-http://ceshi.肥猫.com/PandaQ
+http://肥猫.com/
 
 源
 
@@ -310,12 +325,12 @@ http://6080.eu.org/
 
 点播源容易失效和遭人举报，建议关注原发布地址。付费源不可信，毕竟不是版权方。推荐饭太硬以及他主页推荐的源。这些点播源一般影视APP（OK/FM版）都能用。
 
-饭太硬微信公众号：神秘的哥哥们 肥猫微信公众号：肥猫宝贝 影视APP发布TG
+OK猫开发(OK影视)TG 饭太硬TG 王小二TG FM影视TG 高天流云(肥羊)TG
 
 * * *
 
-电视节目单（EPG）接口
-============
+EPG
+===
 
 112114
 ------
@@ -341,21 +356,6 @@ ERW
 
 ```
 https://e.erw.cc/e.xml
-```
-
-BurningC4
----------
-
-### Github
-
-```
-https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/guide.xml
-```
-
-### jsDelivr CDN (optimized for mainland users)
-
-```
-https://cdn.jsdelivr.net/gh/BurningC4/Chinese-IPTV@master/guide.xml
 ```
 
 * * *

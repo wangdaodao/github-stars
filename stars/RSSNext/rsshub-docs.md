@@ -1,6 +1,6 @@
 ---
 project: rsshub-docs
-stars: 51
+stars: 52
 description: 📄 Documentation for RSSHub
 url: https://github.com/RSSNext/rsshub-docs
 ---

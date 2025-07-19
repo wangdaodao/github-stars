@@ -1,6 +1,6 @@
 ---
 project: KStart
-stars: 128
+stars: 129
 description: ☕ 一个简洁轻巧的公共起始页服务
 url: https://github.com/Dreamer-Paul/KStart
 ---

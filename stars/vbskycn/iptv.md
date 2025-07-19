@@ -1,6 +1,6 @@
 ---
 project: iptv
-stars: 4023
+stars: 4093
 description: iptv最新可用直播源iptv4/iptv6。直播电视系统，这里有折腾好了的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
@@ -21,18 +21,19 @@ default
 
 最新IPTV直播源|每日更新|免费电视直播源|Github开源项目
 
-最新免费开源的IPTV电视直播源,支持IPv4/IPv6双栈访问,每6小时自动更新。收录国内外数千个高清直播频道,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持EPG节目单及台标,可用于电视盒子、手机、电脑等设备。
+最新免费开源的IPTV电视直播源,每6小时自动更新。收录国内外数千个高清直播频道,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有运行安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
 
-IPTV,直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
+IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
 
 /
 
 true
 
 ✯ 这是一个国内可直连的iptv直播源分享项目 ✯
--------------------------
+=========================
 
-### 🔄永久免费 直连访问 完整开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
+🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
+-------------------------------------
 
 * * *
 
@@ -46,9 +47,10 @@ true
 
 **域名 live.izbds.com 喜提GFW免费套餐,请用新域名或加速域名**
 
-### 📡 自动扫描直播源 IPTV4
+📡 自动扫描直播源 IPTV4
+----------------
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-13 06:35:01
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-20 00:33:26
 
 名称
 
@@ -78,9 +80,10 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv4.m3u
 ```
 
-### 📡 自动扫描直播源 IPTV6
+📡 自动扫描直播源 IPTV6
+----------------
 
-部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-13 06:35:01
+部署在服务器上的程序自动扫描而来，本次更新时间: 2025-07-20 00:33:26
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 
@@ -114,15 +117,18 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv/iptv6.m3u
 ```
 
-### 💽DEMO
+💽DEMO
+------
 
-### 🛠️ 工具
+🛠️工具
+-----
 
 纯前端直播源格式转换器（开源在本仓库tools目录）
 
 -   https://izbds.com/tools/index.html
 
-### 📱 直播电视APP
+📱 直播电视APP
+----------
 
 如果你不愿意折腾，这里有折腾好的可直接使用的直播电视软件
 
@@ -130,7 +136,8 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 -   下载链接： https://izbds.com （包含港澳台）
 
-### 📅 更新
+📅 更新
+-----
 
 -   2025.5.20 不提供epg服务
 -   2025.1.11 优化页面
@@ -139,9 +146,11 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 -   2024.9.9 直播源失效速度太快，新添加deibian服务器，每日三次更新
 -   2024.6.22 新增 IPTV4/IPTV6 自动更新源
 
-### 💬 联系
+💬 联系
+-----
 
-### 📝 免责声明
+📝 免责声明
+-------
 
 -   本项目仅作为技术研究用途，用于学习和交流。所有内容均收集自互联网公开链接，严禁用于任何商业用途，包括但不限于商业直播、商业推广等。
     
@@ -153,13 +162,13 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
     
 -   本项目由社区维护，所有文件均托管在 GitHub仓库 且自动构建，由项目发起人公益维护，欢迎 Star 本项目或点击 Issues 反馈您的问题。
     
--   本项目部分内容基于fanmingming大佬的项目和网络收集而来。
-    
 -   本项目维护者保留随时修改或终止项目的权利，且最终解释权归项目维护者所有。
     
 -   使用本项目即表示您已阅读并同意本免责声明，如不同意本声明，请立即停止使用本项目，本项目保留随时更新免责声明的权利
     
 
-### 🎁 欢迎请我喝杯饮料
+🎁 欢迎请我喝杯饮料
+-----------
 
-### 📊 Star History
+📊 Star History
+---------------

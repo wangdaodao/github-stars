@@ -1,6 +1,6 @@
 ---
 project: git-flight-rules
-stars: 42383
+stars: 42391
 description: Flight rules for git
 url: https://github.com/k88hudson/git-flight-rules
 ---

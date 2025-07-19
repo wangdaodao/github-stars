@@ -1,6 +1,6 @@
 ---
 project: mammoth.js
-stars: 5530
+stars: 5544
 description: Convert Word documents (.docx files) to HTML
 url: https://github.com/mwilliamson/mammoth.js
 ---
