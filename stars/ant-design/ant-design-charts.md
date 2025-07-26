@@ -1,6 +1,6 @@
 ---
 project: ant-design-charts
-stars: 2078
+stars: 2084
 description: 📈 A React Chart Library based on @antvis, include plot, graph, and map.
 url: https://github.com/ant-design/ant-design-charts
 ---

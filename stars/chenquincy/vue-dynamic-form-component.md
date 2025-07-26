@@ -1,6 +1,6 @@
 ---
 project: vue-dynamic-form-component
-stars: 282
+stars: 281
 description: Vue dynamic nested form component, support nested Object/Hashmap/Array. Vue动态多级表单组件，支持嵌套对象/Hashmap/数组。
 url: https://github.com/chenquincy/vue-dynamic-form-component
 ---

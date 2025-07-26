@@ -1,6 +1,6 @@
 ---
 project: electron-vue-cli3
-stars: 44
+stars: 43
 description: electron和vue cli3的基础开发示例
 url: https://github.com/zjinh/electron-vue-cli3
 ---

@@ -1,6 +1,6 @@
 ---
 project: vue3-compiler
-stars: 564
+stars: 567
 description: 「vue3编译原理揭秘」 一本初中级前端都能看得懂的vue3源码分析书
 url: https://github.com/iamouyang21/vue3-compiler
 ---

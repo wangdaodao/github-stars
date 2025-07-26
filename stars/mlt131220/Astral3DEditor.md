@@ -1,6 +1,6 @@
 ---
 project: Astral3DEditor
-stars: 1607
+stars: 1617
 description: 基于Vue3 + THREE.JS 免费开源的三维可视化孪生场景编辑器，包含BIM轻量化、CAD解析预览、粒子系统、插件系统等特色功能。               Based on vue3 + three.js free open source 3D visual twin scene editor, including BIM lightweight, CAD analysis preview, particle system, plug-in system and other features.
 url: https://github.com/mlt131220/Astral3DEditor
 ---

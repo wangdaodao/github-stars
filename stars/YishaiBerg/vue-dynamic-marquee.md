@@ -1,6 +1,6 @@
 ---
 project: vue-dynamic-marquee
-stars: 121
+stars: 122
 description: Marquee component for Vue - repeatedly translate content across wrapper. Completely responsive to after-render changes with many options to customize.
 url: https://github.com/YishaiBerg/vue-dynamic-marquee
 ---

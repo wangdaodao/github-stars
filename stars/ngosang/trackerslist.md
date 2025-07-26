@@ -1,6 +1,6 @@
 ---
 project: trackerslist
-stars: 50685
+stars: 50761
 description: Updated list of public BitTorrent trackers
 url: https://github.com/ngosang/trackerslist
 ---
@@ -12,20 +12,20 @@ Updated list of public BitTorrent trackers
 
 ### Lists
 
-_These lists are automatically updated every day. Last update 2025/07/20:_
+_These lists are automatically updated every day. Last update 2025/07/27:_
 
 -   trackers\_best (20 trackers) => link / mirror / mirror 2
--   trackers\_all (107 trackers) => link / mirror / mirror 2
--   trackers\_all\_udp (44 trackers) => link / mirror / mirror 2
--   trackers\_all\_http (50 trackers) => link / mirror / mirror 2
--   trackers\_all\_https (13 trackers) => link / mirror / mirror 2
+-   trackers\_all (110 trackers) => link / mirror / mirror 2
+-   trackers\_all\_udp (47 trackers) => link / mirror / mirror 2
+-   trackers\_all\_http (52 trackers) => link / mirror / mirror 2
+-   trackers\_all\_https (11 trackers) => link / mirror / mirror 2
 -   trackers\_all\_ws (4 trackers) => link / mirror / mirror 2
 -   trackers\_all\_i2p (6 trackers) => link / mirror / mirror 2
 
 Are you having DNS problems? These lists contain the same trackers but with IP addresses instead of domains:
 
 -   trackers\_best\_ip (20 trackers) => link / mirror / mirror 2
--   trackers\_all\_ip (65 trackers) => link / mirror / mirror 2
+-   trackers\_all\_ip (72 trackers) => link / mirror / mirror 2
 
 ### Notes
 

@@ -1,6 +1,6 @@
 ---
 project: modern.js
-stars: 4787
+stars: 4790
 description: A progressive web framework based on React and Rsbuild.
 url: https://github.com/web-infra-dev/modern.js
 ---
@@ -33,7 +33,6 @@ The following solutions and libraries are available within the Modern.js ecosyst
 -   🐬 Rsbuild: An Rspack-based build tool for the web, rebranded from Modern.js Builder.
 -   🐹 Rspress: A fast Rspack-based static site generator.
 -   🦄 Rslib: An Rspack-based library development tool.
--   🐟 Garfish: A powerful micro front-end framework.
 
 Benchmark
 ---------

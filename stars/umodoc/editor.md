@@ -1,6 +1,6 @@
 ---
 project: editor
-stars: 990
+stars: 1007
 description: Umo Editor is an open-source document editor, based on Vue3 and Tiptap.
 url: https://github.com/umodoc/editor
 ---
@@ -162,16 +162,6 @@ If you find Umo Editor useful, please consider supporting us in the following wa
 
 -   ⭐ Star the Umo Editor repository to show your support.
 -   🔗 If you use Umo Editor in your project, add a link to https://github.com/umodoc/editor.
-
-Open Source Ecosystem
----------------------
-
-Here are some open source projects that use Umo Editor:
-
--   文章转知识卡片
--   Umo Editor 分页
-
-If you are using Umo Editor and would like to be featured here, please let us know via email at contact@umodoc.com.
 
 Open Source License
 -------------------

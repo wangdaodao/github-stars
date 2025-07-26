@@ -1,6 +1,6 @@
 ---
 project: cloudmusic-vscode
-stars: 687
+stars: 688
 description: Netease Music for VS Code
 url: https://github.com/YXL76/cloudmusic-vscode
 ---

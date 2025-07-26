@@ -1,6 +1,6 @@
 ---
 project: docxjs
-stars: 1630
+stars: 1641
 description: Docx rendering library
 url: https://github.com/VolodymyrBaydalka/docxjs
 ---
@@ -119,3 +119,8 @@ Status and stability
 --------------------
 
 So far I can't come up with final approach of parsing documents and final structure of API. Only **renderAsync** function is stable and definition shouldn't be changed in future. Inner implementation of parsing and rendering may be changed at any point of time.
+
+Contributing
+------------
+
+Please do not include contents of `./dist` folder in your PR's. Otherwise I most likely will reject it due to stability and security concerns.

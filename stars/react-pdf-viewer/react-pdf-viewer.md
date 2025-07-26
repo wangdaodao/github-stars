@@ -1,6 +1,6 @@
 ---
 project: react-pdf-viewer
-stars: 2498
+stars: 2501
 description: A React component to view a PDF document
 url: https://github.com/react-pdf-viewer/react-pdf-viewer
 ---

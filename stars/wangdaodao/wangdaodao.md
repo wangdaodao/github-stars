@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-20 06:24.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-27 06:24.
 
 📝 Hitokoto
 -----------
 
-> 疏影横斜水清浅，暗香浮动月黄昏。—— 林逋
+> 你在我规划的航程上，我在你投射的视线里。—— 周佳顺
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Luna moth resting on cedar elm, New Braunfels, Texas, USA (© Rolf Nussbaumer/Nature Picture Library)_
+_Mangrove trees at twilight, Walakiri Beach, island of Sumba, Indonesia (© Boonchet Ch./Getty Images)_
 
 📚 My Blog posts ...
 --------------------

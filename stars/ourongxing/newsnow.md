@@ -1,6 +1,6 @@
 ---
 project: newsnow
-stars: 12038
+stars: 12155
 description: Elegant reading of real-time and hottest news
 url: https://github.com/ourongxing/newsnow
 ---
@@ -23,13 +23,22 @@ Features
 -   Adaptive scraping interval (minimum 2 minutes) based on source update frequency to optimize resource usage and prevent IP bans
 -   support MCP server
 
-Important
+{
+  "mcpServers": {
+    "newsnow": {
+      "command": "npx",
+      "args": \[
+        "\-y",
+        "newsnow-mcp-server"
+      \],
+      "env": {
+        "BASE\_URL": "https://newsnow.busiyi.world"
+      }
+    }
+  }
+}
 
-Sponsored by Context Space
-
-Context Space is fully open-source and aims to become the ultimate context engineering infrastructure for AI Agent. Currently in development, it already provides numerous tools (Integration/MCP Server) for direct use without API key configuration or local environment setup.
-
-Experience the magic of Newsnow + AI at Context Space, and install it to Cursor with one click for an enhanced experience.
+You can change the `BASE_URL` to your own domain.
 
 Deployment
 ----------

@@ -1,6 +1,6 @@
 ---
 project: theia
-stars: 20874
+stars: 20900
 description: Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.
 url: https://github.com/eclipse-theia/theia
 ---

@@ -1,6 +1,6 @@
 ---
 project: drawio-desktop
-stars: 55884
+stars: 55992
 description: Official electron build of draw.io
 url: https://github.com/jgraph/drawio-desktop
 ---
@@ -40,7 +40,7 @@ Developing
 To run this:
 
 1.  `npm install` (in the root directory of this repo)
-2.  export DRAWIO\_ENV=dev if you want to develop/debug in dev mode.
+2.  \[internal use only\] export DRAWIO\_ENV=dev if you want to develop/debug in dev mode.
 3.  `npm start` _in the root directory of this repo_ runs the app. For debugging, use `npm start --enable-logging`.
 
 Note: If a symlink is used to refer to drawio repo (instead of the submodule), then symlink the `node_modules` directory inside `drawio/src/main/webapp` also.

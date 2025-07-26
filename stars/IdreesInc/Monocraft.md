@@ -1,6 +1,6 @@
 ---
 project: Monocraft
-stars: 8958
+stars: 8976
 description: A monospaced programming font inspired by the Minecraft typeface
 url: https://github.com/IdreesInc/Monocraft
 ---
@@ -45,7 +45,6 @@ Download the most recent `Monocraft.ttc` file from the Releases page. Right clic
 
 #### Using Homebrew
 
-brew tap homebrew/cask-fonts
 brew install --cask font-monocraft
 
 #### Manually

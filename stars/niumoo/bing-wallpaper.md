@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2855
+stars: 2886
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Luna moth resting on cedar elm, New Braunfels, Texas, USA (© Rolf Nussbaumer/Nature Picture Library)
+Today: Mangrove trees at twilight, Walakiri Beach, island of Sumba, Indonesia (© Boonchet Ch./Getty Images)
+
+2025-07-27 download 4k
+
+2025-07-26 download 4k
+
+2025-07-25 download 4k
+
+2025-07-24 download 4k
+
+2025-07-23 download 4k
+
+2025-07-22 download 4k
+
+2025-07-21 download 4k
 
 2025-07-20 download 4k
 
@@ -55,20 +69,6 @@ Today: Luna moth resting on cedar elm, New Braunfels, Texas, USA (© Rolf Nussba
 2025-06-29 download 4k
 
 2025-06-28 download 4k
-
-2025-06-27 download 4k
-
-2025-06-26 download 4k
-
-2025-06-25 download 4k
-
-2025-06-24 download 4k
-
-2025-06-23 download 4k
-
-2025-06-22 download 4k
-
-2025-06-21 download 4k
 
 ### 历史归档：
 

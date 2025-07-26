@@ -1,6 +1,6 @@
 ---
 project: threejs-odessey
-stars: 733
+stars: 736
 description: Three.js 进阶之旅，掘金专栏配套项目。从基础入门开始，全方位了解Three.js的各种特性，并结合和应用对应特性，实现令人眼前一亮的Web创意页面，进而逐步挖掘Three.js和WebGL深层次的知识。 👇
 url: https://github.com/dragonir/threejs-odessey
 ---

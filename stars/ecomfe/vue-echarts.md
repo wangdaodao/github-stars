@@ -1,6 +1,6 @@
 ---
 project: vue-echarts
-stars: 10213
+stars: 10233
 description: Vue.js component for Apache ECharts™.
 url: https://github.com/ecomfe/vue-echarts
 ---

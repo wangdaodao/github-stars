@@ -1,6 +1,6 @@
 ---
 project: ha_xiaomi_home
-stars: 20326
+stars: 20376
 description: Xiaomi Home Integration for Home Assistant
 url: https://github.com/XiaoMi/ha_xiaomi_home
 ---
@@ -85,9 +85,9 @@ Xiaomi Home Integration and the affiliated cloud interface is provided by Xiaomi
 FAQ
 ---
 
--   Does Xiaomi Home Integration support all Xiaomi Home devices?
+-   Does Xiaomi Home Integration support all Xiaomi smart devices?
     
-    Xiaomi Home Integration currently supports most categories of Home device. Only a few categories are not supported. They are Bluetooth device, infrared device and virtual device.
+    Xiaomi Home Integration currently supports most categories of the smart device. Only a few categories are not supported. They are Bluetooth device, infrared device and virtual device.
     
 -   Does Xiaomi Home Integration support multiple Xiaomi accounts?
     
@@ -95,7 +95,7 @@ FAQ
     
 -   Does Xiaomi Home Integration support local control?
     
-    Local control is implemented by Xiaomi Central Hub Gateway (firmware version 3.4.0\_0000 above) or Xiaomi home devices with built-in central hub gateway (software version 0.8.0 above) inside. If you do not have a Xiaomi central hub gateway or other devices having central hub gateway function, all control commands are sent through Xiaomi Cloud. The firmware for Xiaomi central hub gateway including the built-in central hub gateway supporting Home Assistant local control feature has not been released yet. Please refer to MIoT team's notification for upgrade plans.
+    Local control is implemented by Xiaomi Central Hub Gateway (firmware version 3.3.0\_0023 and above) or Xiaomi smart devices with built-in central hub gateway (software version 0.8.9 and above) inside. If you do not have a Xiaomi central hub gateway or other devices having central hub gateway function, all control commands are sent through Xiaomi Cloud. The firmware for Xiaomi central hub gateway including the built-in central hub gateway supporting Home Assistant local control feature has not been released yet. Please refer to MIoT team's notification for upgrade plans.
     
     Xiaomi central hub gateway is only available in mainland China. In other regions, it is not available.
     

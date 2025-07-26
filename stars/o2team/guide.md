@@ -1,6 +1,6 @@
 ---
 project: guide
-stars: 540
+stars: 539
 description: O2前端规范文档
 url: https://github.com/o2team/guide
 ---

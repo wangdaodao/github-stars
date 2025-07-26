@@ -1,6 +1,6 @@
 ---
 project: vxe-pc-ui
-stars: 155
+stars: 156
 description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
@@ -36,6 +36,7 @@ vxe-pc-ui
     -   计划功能：全功能列表可视化设计器
     -   计划功能：全功能流程图可视化设计器
     -   计划功能：虚拟列表，支持千万级数据渲染
+    -   计划功能：虚拟表单，支持百万级表单项渲染
 
 浏览器支持
 -----
@@ -69,22 +70,23 @@ QQ 交流群
 
 -   alert 警告提示
 -   anchor 锚点
--   anchor-link 锚点-链接
+    -   anchor-link 锚点-链接
 -   avatar 头像
 -   badge 徽标
 -   breadcrumb 面包屑
--   breadcrumb-item 面包屑-项
+    -   breadcrumb-item 面包屑-项
 -   button 按钮
--   button-group 按钮组
+    -   button-group 按钮组
 -   calendar 日历
 -   card 卡片
 -   carousel 走马灯
--   carousel-item 走马灯 - 项
+    -   carousel-item 走马灯 - 项
 -   checkbox 复选框
--   checkbox-group 复选框-组
+    -   checkbox-button 复选框-按钮
+    -   checkbox-group 复选框-组
 -   col 列
 -   collapse 展开面板
--   collapse-pane 展开面板-容器
+    -   collapse-pane 展开面板-容器
 -   color-picker 颜色选择器
 -   countdown 倒计时
 -   date-picker 日期选择器
@@ -92,45 +94,45 @@ QQ 交流群
 -   drawer 抽屉
 -   empty 空数据
 -   form 表单
--   form-group 表单-分组
--   form-item 表单-项
+    -   form-group 表单-分组
+    -   form-item 表单-项
 -   icon 图标
 -   icon-picker 图标选择
 -   image 图片
--   image-group 图片组
--   image-preview 图片预览
+    -   image-group 图片组
+    -   image-preview 图片预览
 -   input 输入框
--   layout-aside 页面布局-左侧
--   layout-body 页面布局-内容
 -   layout-container 页面布局-容器
--   layout-footer 页面布局-页尾
--   layout-header 页面布局-页头
+    -   layout-aside 页面布局-左侧
+    -   layout-body 页面布局-内容
+    -   layout-footer 页面布局-页尾
+    -   layout-header 页面布局-页头
 -   link 链接
 -   list 虚拟列表
 -   loading 加载中
 -   menu 菜单
 -   modal 模态窗口
 -   number-input 数值输入框
--   optgroup 下拉框-分组项
--   option 下拉框-项
 -   pager 分页
 -   password-input 密码输入框
 -   print 打印
 -   print-page-break 分页打印
 -   pulldown 下拉容器
 -   radio 单选框
--   radio-button 单选框-按钮
--   radio-group 单选框-组
+    -   radio-button 单选框-按钮
+    -   radio-group 单选框-组
 -   rate 评分
 -   result 结果
 -   row 行
 -   select 下拉框
+    -   optgroup 下拉框-分组项
+    -   option 下拉框-项
 -   spilt 分割面板
--   spilt-pane 分割面板-面板
+    -   spilt-pane 分割面板-面板
 -   slider 滑块
 -   steps 步骤条
 -   switch 开关
--   tab-pane 页签-容器
+    -   tab-pane 页签-容器
 -   tabs 页签
 -   text-ellipsis 多行文本溢出
 -   table-select 表格下拉框
@@ -153,11 +155,11 @@ QQ 交流群
 👀 Vxe Design
 
 -   flow-design 工作流设计器
--   flow-view 工作流设计器-视图渲染
+    -   flow-view 工作流设计器-视图渲染
 -   form-design 表单设计器
--   form-view 表单设计器-视图渲染
+    -   form-view 表单设计器-视图渲染
 -   list-design 列表设计器
--   list-view 列表设计器-视图渲染
+    -   list-view 列表设计器-视图渲染
 
 安装
 --

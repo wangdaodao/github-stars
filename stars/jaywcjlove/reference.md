@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 14240
+stars: 14252
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -8,7 +8,7 @@ url: https://github.com/jaywcjlove/reference
 Quick Reference
 ===============
 
-为了方便开发人员查阅技术栈，分享这份快速参考备忘清单【速查表】。这是英文版 Reference 的中文翻译，旨在帮助自己更好地使用相关技术。如果您有自己的清单，也欢迎提供，我会抽时间搬运并立刻实现 :)。如果您发现这份备忘单中的内容不合适，可以通过提交 PR 来修复或提供更好的备忘清单，主要面向【中文】用户。以下是一些开源天使提供的备忘清单和快速参考 :)。
+这是一份为中文开发者整理的技术栈速查清单，基于英文版 Reference 翻译扩展而来，新增了更多实用内容，旨在提升查阅效率与使用体验。欢迎分享你的清单，我会尽量搬运实现；如发现内容不妥，也可通过提交 PR 进行修复或完善。项目持续更新，欢迎参与贡献！
 
 赞助支持
 ----
@@ -116,11 +116,11 @@ Quick Reference Aspect Ratio ASCII Code Symbol Code Colors Named HTTP 状态码 
 
 由于中国国内访问，时常打不开，你可以访问下面镜像网站(国内打不开的不再收录)。推荐自己的镜像网站
 
-quickref.cn 78888889.xyz pusukeji.com magese.com doraemon.press foreverlink.love xod.cc jhao.me maoo.me luckyits.com 9up.dev ylmty.cc mingming.dev itzcy.com ref.v-ta.com eryajf.net isteed.cc 666666.dev srebro.cn guoxudong.io terryyoung.cn quickref.binscor.top zone.id aibk.cn docflow.cn quickref.hestudio.net qiubit.cc moeyuuko.com haah.net ownit.top laoleng.vip if010.com cms.im itcent.cn coolxy.top kclouder.cn xalaok.top hao.kim tool.sakura.vin chenchen.site jgeek.cn gaojs.com.cn 15926.tech okhk.net wdft.com likui.info ruiange.work denganliang.com ivanz.cc dev6.site zishu.me sucan2233.cn bobh.cool tangwudi.com osz.icu docs.willxup.top wangchunfei.com object.cool jeremyjone.com gistudy.net deyout.com const.team liamng.de zcsk18.cn hhxyrk.icu vhcffh.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net yunshangmanyou.com xiaokaixuan.com opzz.top songbaixin.xin dev.bi ecdata.cn cnxiaobai.com web.app OneNAS.space leonus.cn taotaome.com hurcaguari.top cutterman.cn notes-bin.top
+quickref.cn nyanon.online dotcube.cc 78888889.xyz pusukeji.com magese.com doraemon.press foreverlink.love xod.cc jhao.me maoo.me luckyits.com 9up.dev ylmty.cc mingming.dev itzcy.com ref.v-ta.com eryajf.net isteed.cc 666666.dev srebro.cn guoxudong.io terryyoung.cn quickref.binscor.top zone.id aibk.cn docflow.cn quickref.hestudio.net qiubit.cc moeyuuko.com haah.net ownit.top laoleng.vip if010.com cms.im itcent.cn coolxy.top kclouder.cn xalaok.top hao.kim tool.sakura.vin chenchen.site jgeek.cn gaojs.com.cn 15926.tech okhk.net wdft.com likui.info ruiange.work denganliang.com ivanz.cc dev6.site zishu.me sucan2233.cn bobh.cool tangwudi.com osz.icu docs.willxup.top wangchunfei.com object.cool jeremyjone.com gistudy.net deyout.com const.team liamng.de zcsk18.cn hhxyrk.icu vhcffh.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net yunshangmanyou.com xiaokaixuan.com opzz.top songbaixin.xin dev.bi ecdata.cn cnxiaobai.com web.app OneNAS.space leonus.cn taotaome.com hurcaguari.top cutterman.cn notes-bin.top dongdong741236.cn
 
 下面网站暂时飞走了
 
-lideshan.top 94vessel.com 7yueee.cn maisblog.cn ruochen.net cizai.io alomerry.com kfele.asia pages.dev hrzweb.xyz zsccodelnc.cn jeffjade.com chanlun.pro dotcube.cc fifo.site longdada.me chenze.cloud lzzzt.cn fifo.site longdada.me btaw.cn lzw.me kjchmc.cn quickreference.pages.dev surcode.cn xushanxiang.com mmoke.com dbyun.net xiechengqi.top
+lideshan.top 94vessel.com 7yueee.cn maisblog.cn ruochen.net cizai.io alomerry.com kfele.asia pages.dev hrzweb.xyz zsccodelnc.cn jeffjade.com chanlun.pro fifo.site longdada.me chenze.cloud lzzzt.cn fifo.site longdada.me btaw.cn lzw.me kjchmc.cn quickreference.pages.dev surcode.cn xushanxiang.com mmoke.com dbyun.net xiechengqi.top
 
 如果你有资源，可以很方便部署 web 版，这非常简单，只需要克隆 gh-pages 分支代码到你的静态服务就可以了，还可以使用 docker 快捷部署 web 版。
 
@@ -143,5 +143,3 @@ License
 -------
 
 MIT © Kenny Wong
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-9MWEWXSDQK"></script> <script> window.dataLayer = window.dataLayer || \[\]; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-9MWEWXSDQK'); </script>

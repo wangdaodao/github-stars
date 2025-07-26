@@ -1,6 +1,6 @@
 ---
 project: wechat-bot
-stars: 8481
+stars: 8515
 description: 🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 url: https://github.com/wangrongding/wechat-bot
 ---
@@ -143,7 +143,9 @@ API资源/平台收录
 
 302.AI是一个按需付费的一站式企业级AI应用平台，开放平台，开源生态，让AI为每个需求找到答案。 产品链接
 
-目前该项目流量较大，已经上过 27 次 Github Trending 榜，如果您的公司或者产品需要推广，可以在下方二维码处联系我，我会在项目中加入您的广告，帮助您的产品获得更多的曝光。
+万卡RTX40系GPU+海内外主流模型API服务，秒级响应，按量计费，新客免费用。 产品链接
+
+目前该项目流量较大，已经上过 27 次 \[Github Trending 榜\](https://github.com/trending)，如果您的公司或者产品需要推广，可以在下方二维码处联系我，我会在项目中加入您的广告，帮助您的产品获得更多的曝光。
 
 开发/使用
 -----
