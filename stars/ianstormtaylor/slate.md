@@ -1,6 +1,6 @@
 ---
 project: slate
-stars: 30962
+stars: 30974
 description: A completely customizable framework for building rich text editors. (Currently in beta.)
 url: https://github.com/ianstormtaylor/slate
 ---

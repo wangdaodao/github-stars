@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 25140
+stars: 25146
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -134,6 +134,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `Array` grouping
             -   `Array.fromAsync`
             -   `ArrayBuffer.prototype.transfer` and friends
+            -   `Uint8Array` to / from base64 and hex
             -   `Error.isError`
             -   Explicit Resource Management
             -   `Float16` methods
@@ -159,15 +160,14 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   Well-formed `JSON.stringify`
             -   Well-formed unicode strings
             -   New `Set` methods
-        -   Stage 3 proposals
-            -   `JSON.parse` source text access
-            -   `Uint8Array` to / from base64 and hex
             -   `Math.sumPrecise`
+        -   Stage 3 proposals
+            -   `Iterator` sequencing
+            -   `Map` upsert
+            -   `JSON.parse` source text access
             -   `Symbol.metadata` for decorators metadata proposal
         -   Stage 2.7 proposals
-            -   `Iterator` sequencing
             -   Joint iteration
-            -   `Map` upsert
         -   Stage 2 proposals
             -   `AsyncIterator` helpers
             -   `Iterator.range`
@@ -1197,7 +1197,7 @@ core-js(-pure)/es|stable|actual|full/parse-int
 
 #### ECMAScript: Math⬆
 
-Modules `es.math.acosh`, `es.math.asinh`, `es.math.atanh`, `es.math.cbrt`, `es.math.clz32`, `es.math.cosh`, `es.math.expm1`, `es.math.fround`, `es.math.f16round`, `es.math.hypot`, `es.math.imul`, `es.math.log10`, `es.math.log1p`, `es.math.log2`, `es.math.sign`, `es.math.sinh`, `es.math.tanh`, `es.math.trunc`.
+Modules `es.math.acosh`, `es.math.asinh`, `es.math.atanh`, `es.math.cbrt`, `es.math.clz32`, `es.math.cosh`, `es.math.expm1`, `es.math.fround`, `es.math.f16round`, `es.math.hypot`, `es.math.imul`, `es.math.log10`, `es.math.log1p`, `es.math.log2`, `es.math.sign`, `es.math.sinh`, `esnext.math.sum-precise`, `es.math.tanh`, `es.math.trunc`.
 
 namespace Math {
   acosh(number: number): number;
@@ -1216,6 +1216,7 @@ namespace Math {
   log2(number: number): number;
   sign(number: number): 1 | \-1 | 0 | \-0 | NaN;
   sinh(number: number): number;
+  sumPrecise(items: Iterable<number\>): Number;
   tanh(number: number): number;
   trunc(number: number): number;
 }
@@ -1240,9 +1241,15 @@ core-js(-pure)/es|stable|actual|full/math/log10
 core-js(-pure)/es|stable|actual|full/math/log2
 core-js(-pure)/es|stable|actual|full/math/sign
 core-js(-pure)/es|stable|actual|full/math/sinh
+core-js(-pure)/es|stable|actual|full/math/sum-precise
 core-js(-pure)/es|stable|actual|full/math/tanh
 core-js(-pure)/es|stable|actual|full/math/trunc
 ```
+
+_Examples_:
+
+1e20 + 0.1 + \-1e20; // => 0
+Math.sumPrecise(\[1e20, 0.1, \-1e20\]); // => 0.1
 
 #### ECMAScript: Date⬆
 
@@ -1885,7 +1892,7 @@ core-js(-pure)/es|stable|actual|full/async-iterator/async-dispose
 
 Implementations and fixes for `ArrayBuffer`, `DataView`, Typed Arrays constructors, static and prototype methods. Typed arrays work only in environments with support descriptors (IE9+), `ArrayBuffer` and `DataView` should work anywhere.
 
-Modules `es.array-buffer.constructor`, `es.array-buffer.is-view`, `esnext.array-buffer.detached`, `es.array-buffer.slice`, `esnext.array-buffer.transfer`, `esnext.array-buffer.transfer-to-fixed-length` `es.data-view`, `es.data-view.get-float16`, `es.data-view.set-float16`, `es.typed-array.int8-array`, `es.typed-array.uint8-array`, `es.typed-array.uint8-clamped-array`, `es.typed-array.int16-array`, `es.typed-array.uint16-array`, `es.typed-array.int32-array`, `es.typed-array.uint32-array`, `es.typed-array.float32-array`, `es.typed-array.float64-array`, `es.typed-array.copy-within`, `es.typed-array.every`, `es.typed-array.fill`, `es.typed-array.filter`, `es.typed-array.find`, `es.typed-array.find-index`, `es.typed-array.find-last`, `es.typed-array.find-last-index`, `es.typed-array.for-each`, `es.typed-array.from`, `es.typed-array.includes`, `es.typed-array.index-of`, `es.typed-array.iterator`, `es.typed-array.last-index-of`, `es.typed-array.map`, `es.typed-array.of`, `es.typed-array.reduce`, `es.typed-array.reduce-right`, `es.typed-array.reverse`, `es.typed-array.set`, `es.typed-array.slice`, `es.typed-array.some`, `es.typed-array.sort`, `es.typed-array.subarray`, `es.typed-array.to-locale-string`, `es.typed-array.to-string`, `es.typed-array.at`, `es.typed-array.to-reversed`, `es.typed-array.to-sorted`, `es.typed-array.with`.
+Modules `es.array-buffer.constructor`, `es.array-buffer.is-view`, `esnext.array-buffer.detached`, `es.array-buffer.slice`, `esnext.array-buffer.transfer`, `esnext.array-buffer.transfer-to-fixed-length` `es.data-view`, `es.data-view.get-float16`, `es.data-view.set-float16`, `es.typed-array.int8-array`, `es.typed-array.uint8-array`, `es.typed-array.uint8-clamped-array`, `es.typed-array.int16-array`, `es.typed-array.uint16-array`, `es.typed-array.int32-array`, `es.typed-array.uint32-array`, `es.typed-array.float32-array`, `es.typed-array.float64-array`, `es.typed-array.copy-within`, `es.typed-array.every`, `es.typed-array.fill`, `es.typed-array.filter`, `es.typed-array.find`, `es.typed-array.find-index`, `es.typed-array.find-last`, `es.typed-array.find-last-index`, `es.typed-array.for-each`, `es.typed-array.from`, `es.typed-array.includes`, `es.typed-array.index-of`, `es.typed-array.iterator`, `es.typed-array.last-index-of`, `es.typed-array.map`, `es.typed-array.of`, `es.typed-array.reduce`, `es.typed-array.reduce-right`, `es.typed-array.reverse`, `es.typed-array.set`, `es.typed-array.slice`, `es.typed-array.some`, `es.typed-array.sort`, `es.typed-array.subarray`, `es.typed-array.to-locale-string`, `es.typed-array.to-string`, `es.typed-array.at`, `es.typed-array.to-reversed`, `es.typed-array.to-sorted`, `es.typed-array.with`, `es.uint8-array.from-base64`, `es.uint8-array.from-hex`, `es.uint8-array.set-from-hex`, `es.uint8-array.to-base64`, `es.uint8-array.to-hex`.
 
 class ArrayBuffer {
   constructor(length: any): ArrayBuffer;
@@ -1981,6 +1988,15 @@ class %TypedArray% {
   static BYTES\_PER\_ELEMENT: number;
 }
 
+class Uint8Array {
+  static fromBase64(string: string, options?: { alphabet?: 'base64' | 'base64url', lastChunkHandling?: 'loose' | 'strict' | 'stop-before-partial' }): Uint8Array;
+  static fromHex(string: string): Uint8Array;
+  setFromBase64(string: string, options?: { alphabet?: 'base64' | 'base64url', lastChunkHandling?: 'loose' | 'strict' | 'stop-before-partial' }): { read: uint, written: uint };
+  setFromHex(string: string): { read: uint, written: uint };
+  toBase64(options?: { alphabet?: 'base64' | 'base64url', omitPadding?: boolean }): string;
+  toHex(): string;
+}
+
 _CommonJS entry points:_
 
 ```
@@ -2016,6 +2032,8 @@ core-js/es|stable|actual|full/typed-array/find-last
 core-js/es|stable|actual|full/typed-array/find-last-index
 core-js/es|stable|actual|full/typed-array/for-each
 core-js/es|stable|actual|full/typed-array/from
+core-js/es|stable|actual|full/typed-array/from-base64
+core-js/es|stable|actual|full/typed-array/from-hex
 core-js/es|stable|actual|full/typed-array/includes
 core-js/es|stable|actual|full/typed-array/index-of
 core-js/es|stable|actual|full/typed-array/iterator
@@ -2028,10 +2046,14 @@ core-js/es|stable|actual|full/typed-array/reduce
 core-js/es|stable|actual|full/typed-array/reduce-right
 core-js/es|stable|actual|full/typed-array/reverse
 core-js/es|stable|actual|full/typed-array/set
+core-js/es|stable|actual|full/typed-array/set-from-base64
+core-js/es|stable|actual|full/typed-array/set-from-hex
 core-js/es|stable|actual|full/typed-array/slice
 core-js/es|stable|actual|full/typed-array/some
 core-js/es|stable|actual|full/typed-array/sort
 core-js/es|stable|actual|full/typed-array/subarray
+core-js/es|stable|actual|full/typed-array/to-base64
+core-js/es|stable|actual|full/typed-array/to-hex
 core-js/es|stable|actual|full/typed-array/to-locale-string
 core-js/es|stable|actual|full/typed-array/to-reversed
 core-js/es|stable|actual|full/typed-array/to-sorted
@@ -2084,6 +2106,15 @@ console.log(buffer.detached); // => true
 console.log(newBuffer.byteLength); // => 4
 console.log(newBuffer.detached); // => false
 console.log(\[...new Int8Array(newBuffer)\]); // => \[1, 2, 3, 4\]
+
+_Base64 / Hex examples_:
+
+let arr \= new Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\]);
+console.log(arr.toBase64()); // => 'SGVsbG8gV29ybGQ='
+console.log(arr.toBase64({ omitPadding: true })); // => 'SGVsbG8gV29ybGQ'
+console.log(arr.toHex()); // => '48656c6c6f20576f726c64'
+console.log(Uint8Array.fromBase64('SGVsbG8gV29ybGQ=')); // => Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\])
+console.log(Uint8Array.fromHex('48656c6c6f20576f726c64')); // => Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\])
 
 Warning
 
@@ -2336,6 +2367,23 @@ _CommonJS entry points:_
 
 ```
 core-js/proposals/array-buffer-transfer
+```
+
+##### `Uint8Array` to / from base64 and hex⬆
+
+class Uint8Array {
+  static fromBase64(string: string, options?: { alphabet?: 'base64' | 'base64url', lastChunkHandling?: 'loose' | 'strict' | 'stop-before-partial' }): Uint8Array;
+  static fromHex(string: string): Uint8Array;
+  setFromBase64(string: string, options?: { alphabet?: 'base64' | 'base64url', lastChunkHandling?: 'loose' | 'strict' | 'stop-before-partial' }): { read: uint, written: uint };
+  setFromHex(string: string): { read: uint, written: uint };
+  toBase64(options?: { alphabet?: 'base64' | 'base64url', omitPadding?: boolean }): string;
+  toHex(): string;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/array-buffer-base64
 ```
 
 ##### `Error.isError`⬆
@@ -2727,6 +2775,18 @@ _CommonJS entry points:_
 core-js/proposals/set-methods-v2
 ```
 
+##### `Math.sumPrecise`
+
+namespace Math {
+  sumPrecise(items: Iterable<number\>): Number;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/math-sum
+```
+
 #### Stage 3 proposals⬆
 
 _CommonJS entry points:_
@@ -2734,6 +2794,66 @@ _CommonJS entry points:_
 ```
 core-js(-pure)/stage/3
 ```
+
+##### `Iterator` sequencing⬆
+
+Module `esnext.iterator.concat`
+
+class Iterator {
+  concat(...items: Array<IterableObject\>): Iterator<any\>;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/iterator-sequencing
+core-js(-pure)/actual|full/iterator/concat
+```
+
+_Example_:
+
+Iterator.concat(\[0, 1\].values(), \[2, 3\], function \* () {
+  yield 4;
+  yield 5;
+}()).toArray(); // => \[0, 1, 2, 3, 4, 5\]
+
+##### `Map` upsert⬆
+
+Modules `esnext.map.get-or-insert`, `esnext.map.get-or-insert-computed`, `esnext.weak-map.get-or-insert` and `esnext.weak-map.get-or-insert-computed`
+
+class Map {
+  getOrInsert(key: any, value: any): any;
+  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
+}
+
+class WeakMap {
+  getOrInsert(key: any, value: any): any;
+  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/map-upsert-v4
+core-js(-pure)/actual|full/map/get-or-insert
+core-js(-pure)/actual|full/map/get-or-insert-computed
+core-js(-pure)/actual|full/weak-map/get-or-insert
+core-js(-pure)/actual|full/weak-map/get-or-insert-computed
+```
+
+_Examples_:
+
+const map \= new Map(\[\['a', 1\]\]);
+
+map.getOrInsert('a', 2); // => 1
+
+map.getOrInsert('b', 3); // => 3
+
+map.getOrInsertComputed('a', key \=> key); // => 1
+
+map.getOrInsertComputed('c', key \=> key); // => 'c'
+
+console.log(map); // => Map { 'a': 1, 'b': 3, 'c': 'c' }
 
 ##### `JSON.parse` source text access⬆
 
@@ -2777,60 +2897,6 @@ JSON.parse(String(wayTooBig), digitsToBigInt) \=== wayTooBig; // true
 const embedded \= JSON.stringify({ tooBigForNumber }, bigIntToRawJSON);
 embedded \=== '{"tooBigForNumber":9007199254740993}'; // true
 
-##### `Uint8Array` to / from base64 and hex⬆
-
-Modules `esnext.uint8-array.from-base64`, `esnext.uint8-array.from-hex`, `esnext.uint8-array.set-from-hex`, `esnext.uint8-array.to-base64`, `esnext.uint8-array.to-hex`.
-
-class Uint8Array {
-  static fromBase64(string: string, options?: { alphabet?: 'base64' | 'base64url', lastChunkHandling?: 'loose' | 'strict' | 'stop-before-partial' }): Uint8Array;
-  static fromHex(string: string): Uint8Array;
-  setFromBase64(string: string, options?: { alphabet?: 'base64' | 'base64url', lastChunkHandling?: 'loose' | 'strict' | 'stop-before-partial' }): { read: uint, written: uint };
-  setFromHex(string: string): { read: uint, written: uint };
-  toBase64(options?: { alphabet?: 'base64' | 'base64url', omitPadding?: boolean }): string;
-  toHex(): string;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/array-buffer-base64
-core-js(-pure)/actual|full/typed-array/from-base64
-core-js(-pure)/actual|full/typed-array/from-hex
-core-js(-pure)/actual|full/typed-array/set-from-base64
-core-js(-pure)/actual|full/typed-array/set-from-hex
-core-js(-pure)/actual|full/typed-array/to-base64
-core-js(-pure)/actual|full/typed-array/to-hex
-```
-
-_Example_:
-
-let arr \= new Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\]);
-console.log(arr.toBase64()); // => 'SGVsbG8gV29ybGQ='
-console.log(arr.toBase64({ omitPadding: true })); // => 'SGVsbG8gV29ybGQ'
-console.log(arr.toHex()); // => '48656c6c6f20576f726c64'
-console.log(Uint8Array.fromBase64('SGVsbG8gV29ybGQ=')); // => Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\])
-console.log(Uint8Array.fromHex('48656c6c6f20576f726c64')); // => Uint8Array(\[72, 101, 108, 108, 111, 32, 87, 111, 114, 108, 100\])
-
-##### `Math.sumPrecise`
-
-Module `esnext.math.sum-precise`
-
-class Math {
-  static sumPrecise(items: Iterable<number\>): Number;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/math-sum
-core-js(-pure)/full|actual/math/sum-precise
-```
-
-_Examples_:
-
-1e20 + 0.1 + \-1e20; // => 0
-Math.sumPrecise(\[1e20, 0.1, \-1e20\]); // => 0.1
-
 ##### `Symbol.metadata` for decorators metadata proposal⬆
 
 Modules `esnext.symbol.metadata` and `esnext.function.metadata`.
@@ -2858,28 +2924,6 @@ _CommonJS entry points:_
 ```
 core-js(-pure)/stage/2.7
 ```
-
-##### `Iterator` sequencing⬆
-
-Module `esnext.iterator.concat`
-
-class Iterator {
-  concat(...items: Array<IterableObject\>): Iterator<any\>;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/iterator-sequencing
-core-js(-pure)/full/iterator/concat
-```
-
-_Example_:
-
-Iterator.concat(\[0, 1\].values(), \[2, 3\], function \* () {
-  yield 4;
-  yield 5;
-}()).toArray(); // => \[0, 1, 2, 3, 4, 5\]
 
 ##### Joint iteration⬆
 
@@ -2933,44 +2977,6 @@ Iterator.zipKeyed({
   { a: undefined, b: 6, c: 10 },
 \];
  \*/
-
-##### `Map` upsert⬆
-
-Modules `esnext.map.get-or-insert`, `esnext.map.get-or-insert-computed`, `esnext.weak-map.get-or-insert` and `esnext.weak-map.get-or-insert-computed`
-
-class Map {
-  getOrInsert(key: any, value: any): any;
-  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
-}
-
-class WeakMap {
-  getOrInsert(key: any, value: any): any;
-  getOrInsertComputed(key: any, (key: any) \=> value: any): any;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/map-upsert-v4
-core-js(-pure)/full/map/get-or-insert
-core-js(-pure)/full/map/get-or-insert-computed
-core-js(-pure)/full/weak-map/get-or-insert
-core-js(-pure)/full/weak-map/get-or-insert-computed
-```
-
-_Examples_:
-
-const map \= new Map(\[\['a', 1\]\]);
-
-map.getOrInsert('a', 2); // => 1
-
-map.getOrInsert('b', 3); // => 3
-
-map.getOrInsertComputed('a', key \=> key); // => 1
-
-map.getOrInsertComputed('c', key \=> key); // => 'c'
-
-console.log(map); // => Map { 'a': 1, 'b': 3, 'c': 'c' }
 
 #### Stage 2 proposals⬆
 

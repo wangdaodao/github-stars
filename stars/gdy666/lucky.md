@@ -1,6 +1,6 @@
 ---
 project: lucky
-stars: 6077
+stars: 6115
 description: 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,阿里云盘,ftp,webdav,filebrowser
 url: https://github.com/gdy666/lucky
 ---
@@ -186,6 +186,21 @@ go build -v -tags "adminweb nomsgpack" -ldflags="-s -w"
 ====
 
 ```
+2025-07-12 v2.18.1
+  1.FileBrowser 更新至 v2.37.0
+  2.rclone 更新至 v1.70.2
+  3.修复 Web服务 SNI TCP层拦截未能正确识别和判断泛域名的问题
+  4.Coraza 内置规则 升级至 4.16.0
+  5.Web服务 增加 SNI 分流功能
+  - 注意：SNI分流功能仅供个人合法用途使用，如发现相关违法使用教程，将下线此功能。
+  6.修复 一键安装在 openwrt 环境下失败的问题
+  7.优化 SNI 匹配子规则域名的逻辑
+
+2025-07-09 lucky v2.18.0
+  1.Web服务：在TCP层预先识别HTTPS的SNI信息，当SNI不匹配规则域名并且默认规则为关闭连接时，立即关闭连接，提升安全性，有效防止端口与服务被探测或识别。
+  2.Web服务：增强反向代理功能，提高对华硕AiCloud的兼容性，优化接入体验。
+  由于小爱等平台审核要求变更，不再支持个人DIY设备使用（要求上线产品必须有3C认证）点灯平台已下线现有语音助手相关服务。
+
 2025-06-03 v2.17.8
   优化：网速趋势曲线现支持 Mbps 与 MB/s 双单位同步显示，方便同时查看网络带宽及传输速度。
 

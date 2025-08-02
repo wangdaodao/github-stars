@@ -1,6 +1,6 @@
 ---
 project: vue-material-admin
-stars: 655
+stars: 656
 description:  基于Vue3 、Vuetify、TypeScript、Nest.js、MySql、TypeORM实现的简洁、轻量的全栈中后台管理模板 
 url: https://github.com/armomu/vue-material-admin
 ---
@@ -89,3 +89,5 @@ pnpm run dev
 切换 Serve 分支查看教程，接口文档 https://nliq7vrniv.apifox.cn
 
 > 非常感谢 zclzone大佬提供的Nestjs服务项目，让我快速搭建了这个模版的后台服务，也从vue-naive-admin项目中学习到了一些新的封装思路
+
+### 🎏 开源不易，如果您觉得还不错，请作者喝杯咖啡吧

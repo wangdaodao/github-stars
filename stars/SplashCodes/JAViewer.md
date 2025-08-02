@@ -1,6 +1,6 @@
 ---
 project: JAViewer
-stars: 4607
+stars: 4608
 description: 更优雅的驾车体验
 url: https://github.com/SplashCodes/JAViewer
 ---

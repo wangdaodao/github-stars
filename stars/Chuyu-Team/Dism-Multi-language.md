@@ -1,6 +1,6 @@
 ---
 project: Dism-Multi-language
-stars: 17252
+stars: 17291
 description: Dism++ Multi-language Support & BUG Report
 url: https://github.com/Chuyu-Team/Dism-Multi-language
 ---

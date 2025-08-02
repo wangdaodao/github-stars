@@ -1,6 +1,6 @@
 ---
 project: vue-beauty
-stars: 2111
+stars: 2112
 description: Beautiful  UI components build with vue and ant design
 url: https://github.com/FE-Driver/vue-beauty
 ---

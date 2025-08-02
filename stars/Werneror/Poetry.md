@@ -1,6 +1,6 @@
 ---
 project: Poetry
-stars: 1659
+stars: 1661
 description: 非常全的古诗词数据，收录了从先秦到现代的共计85万余首古诗词。
 url: https://github.com/Werneror/Poetry
 ---

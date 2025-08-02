@@ -1,6 +1,6 @@
 ---
 project: siteproxy
-stars: 2735
+stars: 2743
 description: reverse proxy, online proxy, 反向代理,免翻墙访问Youtube/twitter/Google, 支持github和telegram web登录(请注意不要通过不信任的代理进行登录)。支持DuckDuckGo AI Chat(可免费访问chatGPT3.5和Claude3)
 url: https://github.com/netptop/siteproxy
 ---
@@ -70,7 +70,7 @@ Warning
          "token\_prefix": "/default/" // 替换为你想设置的访问密码。首尾斜杠必须保留，如果密码为空，表示不需要密码也可以访问。
         
 6.  **再次部署page**：
-    -   进入clone的siteproxy目录，执行:`npm run wrangler-login`
+    -   进入clone的siteproxy目录，执行:`npm run wrangler-login`, 如果是非GUI的VPS环境，请参考非GUI环境wrangler login
     -   执行:`npm run deploy-cf-page`
 7.  **访问代理服务**：
     -   现在可以通过 `https://your-proxy-domain.com/your-password/` 访问代理服务（确保最后的斜杠存在）。注意将域名和密码替换为你自己的。
@@ -98,7 +98,7 @@ Warning
          "token\_prefix": "/xxx/" // 替换为你想设置的访问密码。首尾斜杠必须保留，如果密码为空，表示不需要密码也可以访问。
         
 6.  **再次部署worker**：
-    -   进入clone的siteproxy目录，执行:`npm run wrangler-login`
+    -   进入clone的siteproxy目录，执行:`npm run wrangler-login`, 如果是非GUI的VPS环境，请参考非GUI环境wrangler login
     -   执行:`npm run deploy-cf-worker`
 7.  **访问代理服务**：
     -   现在可以通过 `https://your-proxy-domain.com/your-password/` 访问代理服务（确保最后的斜杠存在）。注意将域名和密码替换为你自己的。

@@ -1,6 +1,6 @@
 ---
 project: vexip-ui
-stars: 1893
+stars: 1891
 description: A Vue 3 UI library, highly customizability, full TypeScript, performance pretty good.
 url: https://github.com/vexip-ui/vexip-ui
 ---

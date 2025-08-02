@@ -1,6 +1,6 @@
 ---
 project: vue-virtual-scroll-list
-stars: 4507
+stars: 4508
 description: ⚡️A vue component support big amount data list with high render performance  and efficient.
 url: https://github.com/tangbc/vue-virtual-scroll-list
 ---

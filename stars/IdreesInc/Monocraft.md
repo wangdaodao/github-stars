@@ -1,6 +1,6 @@
 ---
 project: Monocraft
-stars: 8976
+stars: 8983
 description: A monospaced programming font inspired by the Minecraft typeface
 url: https://github.com/IdreesInc/Monocraft
 ---
@@ -16,6 +16,8 @@ Monocraft
 The monospaced font for developers who like Minecraft a bit _too_ much.
 
 If you'd like to see a vectorized version of this font, try Miracode!
+
+For updates and support, visit the Discord
 
 _Notice: This project is not affiliated with Minecraft or Mojang in any way and is exclusively a fan project. This font emulates the typeface of the font used in the Minecraft UI, but it does not include any assets or font files from the original game._
 

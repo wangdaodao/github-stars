@@ -1,6 +1,6 @@
 ---
 project: nacos
-stars: 31823
+stars: 31847
 description: an easy-to-use dynamic service discovery, configuration and service management platform for building AI cloud native applications.
 url: https://github.com/alibaba/nacos
 ---
@@ -151,4 +151,6 @@ Who is using
 
 These are only part of the companies using Nacos, for reference only. If you are using Nacos, please add your company here to tell us your scenario to make Nacos better.
 
-郑州山水, 知氏教育
+郑州山水
+
+知氏教育

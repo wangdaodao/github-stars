@@ -1,6 +1,6 @@
 ---
 project: flowy-vue
-stars: 446
+stars: 447
 description: Vue Flowy makes creating flowchart or hierarchy chart functionality an easy task. Build automation software, mind mapping tools, organisation charts, or simple programming platforms in minutes by implementing the library into your project.
 url: https://github.com/smickelbeard/flowy-vue
 ---

@@ -1,6 +1,6 @@
 ---
 project: right-menu
-stars: 405
+stars: 406
 description: 📜 @right-menu 是一个使用 TypeScript 开发的右键菜单插件, 🏆 可以在 JS / TS / Vue / React 等多端框架使用, 🦄 支持多级菜单 / 异步渲染 / 骨架Loading / 自适应主题 / mac黑夜模式
 url: https://github.com/buuing/right-menu
 ---

@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-07-27 06:24.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-03 06:24.
 
 📝 Hitokoto
 -----------
 
-> 你在我规划的航程上，我在你投射的视线里。—— 周佳顺
+> 眼泪无法洗去痛苦，但岁月可以抹去一切。—— @路人威
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Mangrove trees at twilight, Walakiri Beach, island of Sumba, Indonesia (© Boonchet Ch./Getty Images)_
+_Petroglyphs near Fruita in Capitol Reef National Park, Utah (© Nicolas VINCENT/Adobe Stock)_
 
 📚 My Blog posts ...
 --------------------

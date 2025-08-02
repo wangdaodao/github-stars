@@ -1,6 +1,6 @@
 ---
 project: myIPTV
-stars: 3025
+stars: 3085
 description: 【典藏版】高清直播源涵盖几乎所有卫视节目，内置完美台标加节目预告
 url: https://github.com/suxuang/myIPTV
 ---
@@ -20,11 +20,9 @@ url: https://github.com/suxuang/myIPTV
 📺订阅地址
 ------
 
-🌐订阅链接-IPV4专用（推荐）：_https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u_
+🌐订阅链接-IPV4专用（推荐）：_https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/ipv4.m3u_
 
-🌐订阅链接-小肥羊：_https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/tv.m3u_
-
-🌐订阅链接-移动专用（简洁版）：_https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/移动专享.txt_
+🌐订阅链接-移动专用（简洁版）：_https://gh-proxy.com/raw.githubusercontent.com/suxuang/myIPTV/main/移动专享.txt_
 
 💰打赏支持
 ------
@@ -48,6 +46,10 @@ url: https://github.com/suxuang/myIPTV
 🆕更新日志
 ------
 
+-   2025/07/31：更新部分直播源和台标，直播源地址
+    
+-   2025/07/30：更新直播源
+    
 -   2025/06/13：更新代理直播源，更新若干港澳台直播源
     
 -   2025/06/11：新增小肥羊直播源地址，新增全网通央视卫视秒播

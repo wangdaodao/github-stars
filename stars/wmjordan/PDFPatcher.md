@@ -1,6 +1,6 @@
 ---
 project: PDFPatcher
-stars: 10189
+stars: 10204
 description: PDF补丁丁——PDF工具箱，可以编辑书签、剪裁旋转页面、解除限制、提取或合并文档，探查文档结构，提取图片、转成图片等等
 url: https://github.com/wmjordan/PDFPatcher
 ---
@@ -83,7 +83,7 @@ PDF 文档格式中涉及印刷领域的多项技术，并有其独特的文档�
 -   Windows 7 以上版本的操作系统。
 -   .NET Framework 4.0 到 4.8 版本。
 -   使用文字识别功能需要安装 Microsoft Office 2003（或 2007）的 Document Imaging 组件（MODI）。
--   编译程序源代码，建议使用 Visual Studio 2019 或更新版本，并安装“.NET 桌面开发”（用于编译 PDF 补丁丁源代码）和“C++ 桌面开发”（用于编译 JBIG2 编码组件）两个工作负载。如使用 Visual Studio 2022，可能会遇到项目“面向不再受支持的 .NET Framework”、需要“将目标更新为 .NET Framework 4.8”的问题。简单方法是将目标更新为 .NET Framework 4.8，如不更新目标，请参考这篇文章介绍的方法。
+-   编译程序源代码，建议使用 Visual Studio 2022 或更新版本，并安装“.NET 桌面开发”（用于编译 PDF 补丁丁源代码）和“C++ 桌面开发”（用于编译 JBIG2 编码组件）两个工作负载。可能会遇到项目“面向不再受支持的 .NET Framework”、需要“将目标更新为 .NET Framework 4.8”的问题。简单方法是将目标更新为 .NET Framework 4.8，如不更新目标，请参考这篇文章介绍的方法。
 
 联系作者
 ----

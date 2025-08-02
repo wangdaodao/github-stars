@@ -1,6 +1,6 @@
 ---
 project: vue-cli-plugin-qiankun
-stars: 168
+stars: 167
 description: 🚀 qiankun plugin for vue-cli
 url: https://github.com/F-loat/vue-cli-plugin-qiankun
 ---
