@@ -1,6 +1,6 @@
 ---
 project: iview-cli
-stars: 727
+stars: 726
 description: Create an iView project in visual way
 url: https://github.com/iview/iview-cli
 ---

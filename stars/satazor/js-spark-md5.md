@@ -1,6 +1,6 @@
 ---
 project: js-spark-md5
-stars: 2586
+stars: 2589
 description: Lightning fast normal and incremental md5 for javascript
 url: https://github.com/satazor/js-spark-md5
 ---

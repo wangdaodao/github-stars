@@ -1,6 +1,6 @@
 ---
 project: vxe-table
-stars: 8235
+stars: 8251
 description: vxe table 支持 vue2, vue3 的表格解决方案
 url: https://github.com/x-extends/vxe-table
 ---
@@ -132,15 +132,11 @@ Get on unpkg and cdnjs
 ### NPM
 
 // ...
-import VxeTable from 'vxe-table'
+import VxeUITable from 'vxe-table'
 import 'vxe-table/lib/style.css'
 // ...
 
-import VxeUIAll from 'vxe-pc-ui'
-import 'vxe-pc-ui/lib/style.css'
-// ...
-
-createApp(App).use(VxeUIAll).use(VxeTable).mount('#app')
+createApp(App).use(VxeUITable).mount('#app')
 
 ### CDN
 

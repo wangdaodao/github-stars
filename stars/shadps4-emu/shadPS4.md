@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 25210
+stars: 25361
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -228,8 +228,6 @@ libSceJson2.sprx
 libSceLibcInternal.sprx
 
 libSceNgs2.sprx
-
-libSceRtc.sprx
 
 libSceUlt.sprx
 

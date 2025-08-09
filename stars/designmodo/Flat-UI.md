@@ -1,6 +1,6 @@
 ---
 project: Flat-UI
-stars: 15129
+stars: 15128
 description: Flat UI Free - Design Framework (html/css3/less/js). Flat UI is based on Bootstrap, a comfortable, responsive, and functional framework that simplifies the development of websites.
 url: https://github.com/designmodo/Flat-UI
 ---

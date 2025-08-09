@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 43499
+stars: 43579
 description: 🔥企业级低代码平台集成了AI应用平台，帮助企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot，SpringCloud、Mybatis，Ant Design4、 Vue3.0、TS+vite！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式: AI生成->OnlineCoding-> 代码生成-> 手工MERGE，显著的提高效率，又不失灵活~
 url: https://github.com/jeecgboot/JeecgBoot
 ---

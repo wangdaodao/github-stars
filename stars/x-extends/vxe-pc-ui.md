@@ -1,6 +1,6 @@
 ---
 project: vxe-pc-ui
-stars: 159
+stars: 164
 description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
@@ -96,6 +96,7 @@ QQ 交流群
 -   form 表单
     -   form-group 表单-分组
     -   form-item 表单-项
+-   gantt 甘特图
 -   icon 图标
 -   icon-picker 图标选择
 -   image 图片

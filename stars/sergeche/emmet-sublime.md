@@ -1,6 +1,6 @@
 ---
 project: emmet-sublime
-stars: 5243
+stars: 5242
 description: Emmet for Sublime Text
 url: https://github.com/sergeche/emmet-sublime
 ---

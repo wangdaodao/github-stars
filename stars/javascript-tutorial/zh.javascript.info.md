@@ -1,6 +1,6 @@
 ---
 project: zh.javascript.info
-stars: 10415
+stars: 10425
 description: 现代 JavaScript 教程（The Modern JavaScript Tutorial），以最新的 ECMAScript 规范为基准，通过简单但足够详细的内容，为你讲解从基础到高阶的 JavaScript 相关知识。
 url: https://github.com/javascript-tutorial/zh.javascript.info
 ---
@@ -8,14 +8,11 @@ url: https://github.com/javascript-tutorial/zh.javascript.info
 现代 JavaScript 教程中文版
 ===================
 
-本教程为 React 官方文档 与 MDN 共同推荐的前端教程，持续更新，永久免费，欢迎扫码关注微信公众号，加入读者群。群内自由交流技术，群友帮忙答疑，共同进步！
+本教程为 React 官方文档 与 MDN 共同推荐的前端教程，持续更新，永久免费，欢迎扫码关注微信公众号，加入读者群。
 
-微信扫码关注官方订阅号，订阅更多精彩内容
+微信扫码关注公众号，加微信好友进群
 
-**加入读者交流群：**
-
--   **微信群**：加微信 **`imleviding`** 或 扫二维码，验证信息填写 **`JS 教程`**。
--   **QQ 群**：打开 QQ 搜索群号 **`955916282`** 或 扫二维码，验证信息填写 **`JS 教程`**。
+加好友请备注 `JS`，不备注不通过
 
 本项目托管了现代 JavaScript 教程中文版的内容，此内容发布在 https://zh.javascript.info
 
@@ -232,9 +229,18 @@ importance: 5
 
 本中文版教程的核心维护者 🚀
 
--   LeviDing @leviding
--   Martin @MartinsYong
--   Bemself bemself
--   LycheeEng @lycheeEng
+**Admin:**
+
+-   LeviDing
+
+**当前活跃维护者:**
+
+-   LeviDing
+
+**历史核心维护者:**
+
+-   MartinsYong
+-   bemself
+-   lycheeEng
 
 我们希望与大家合作维护本教程。本教程的详细贡献者列表请见：https://zh.javascript.info/about。

@@ -1,6 +1,6 @@
 ---
 project: vue-masonry-css
-stars: 479
+stars: 480
 description: Vue.js Masonry layout component powered by CSS, dependancy free
 url: https://github.com/paulcollett/vue-masonry-css
 ---

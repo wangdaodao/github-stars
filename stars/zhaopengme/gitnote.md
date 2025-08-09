@@ -1,6 +1,6 @@
 ---
 project: gitnote
-stars: 1698
+stars: 1699
 description: A modern note taking app based on GIT that does not require a local GIT environment.
 url: https://github.com/zhaopengme/gitnote
 ---

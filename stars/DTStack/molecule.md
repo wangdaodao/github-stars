@@ -1,6 +1,6 @@
 ---
 project: molecule
-stars: 934
+stars: 935
 description: :rocket: A lightweight Web IDE UI framework.
 url: https://github.com/DTStack/molecule
 ---

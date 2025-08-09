@@ -1,7 +1,7 @@
 ---
 project: iptv
-stars: 4206
-description: iptv最新可用直播源iptv4/iptv6。直播电视系统，这里有折腾好了的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
+stars: 4268
+description: iptv最新可用直播源,支持iptv4/iptv6双栈访问。直播电视系统，这里有折腾好的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
 
@@ -54,7 +54,7 @@ true
 
 **IPTV4直播源**由部署在服务器上的程序自动扫描验证，确保**直播源**的时效性和稳定性。
 
-本次更新时间: 2025-08-03 06:34:14
+本次更新时间: 2025-08-10 00:48:23
 
 名称
 
@@ -89,7 +89,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 **IPTV6直播源**专为IPv6网络优化，由部署在服务器上的程序自动扫描验证，确保**直播源**的时效和稳定
 
-本次更新时间: 2025-08-03 06:34:14
+本次更新时间: 2025-08-10 00:48:23
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 

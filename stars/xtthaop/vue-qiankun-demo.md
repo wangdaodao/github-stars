@@ -1,6 +1,6 @@
 ---
 project: vue-qiankun-demo
-stars: 16
+stars: 17
 description: frontend microservice
 url: https://github.com/xtthaop/vue-qiankun-demo
 ---

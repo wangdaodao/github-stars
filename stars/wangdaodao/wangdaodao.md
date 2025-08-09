@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-03 06:24.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-10 06:23.
 
 📝 Hitokoto
 -----------
 
-> 眼泪无法洗去痛苦，但岁月可以抹去一切。—— @路人威
+> 执子之手，与子偕老。—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Petroglyphs near Fruita in Capitol Reef National Park, Utah (© Nicolas VINCENT/Adobe Stock)_
+_Ngātoroirangi Mine Bay Māori Rock Carvings on Lake Taupō, New Zealand (© Joppi/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

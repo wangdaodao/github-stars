@@ -1,6 +1,6 @@
 ---
 project: vue-design
-stars: 775
+stars: 776
 description: Be the best website visualization builder with Vue and Electron.
 url: https://github.com/L-Chris/vue-design
 ---

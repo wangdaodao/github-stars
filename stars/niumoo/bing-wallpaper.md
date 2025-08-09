@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2908
+stars: 2933
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Petroglyphs near Fruita in Capitol Reef National Park, Utah (© Nicolas VINCENT/Adobe Stock)
+Today: Ngātoroirangi Mine Bay Māori Rock Carvings on Lake Taupō, New Zealand (© Joppi/Getty Images)
+
+2025-08-10 download 4k
+
+2025-08-09 download 4k
+
+2025-08-08 download 4k
+
+2025-08-07 download 4k
+
+2025-08-06 download 4k
+
+2025-08-05 download 4k
+
+2025-08-04 download 4k
 
 2025-08-03 download 4k
 
@@ -55,20 +69,6 @@ Today: Petroglyphs near Fruita in Capitol Reef National Park, Utah (© Nicolas V
 2025-07-13 download 4k
 
 2025-07-12 download 4k
-
-2025-07-11 download 4k
-
-2025-07-10 download 4k
-
-2025-07-09 download 4k
-
-2025-07-08 download 4k
-
-2025-07-07 download 4k
-
-2025-07-06 download 4k
-
-2025-07-05 download 4k
 
 ### 历史归档：
 
