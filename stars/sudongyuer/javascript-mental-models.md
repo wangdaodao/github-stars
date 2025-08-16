@@ -1,6 +1,6 @@
 ---
 project: javascript-mental-models
-stars: 211
+stars: 210
 description: 💘 帮助你建立良好的JavaScript心智模型
 url: https://github.com/sudongyuer/javascript-mental-models
 ---

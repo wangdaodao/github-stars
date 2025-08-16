@@ -1,6 +1,6 @@
 ---
 project: dayjs
-stars: 48070
+stars: 48136
 description: ⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
 url: https://github.com/iamkun/dayjs
 ---

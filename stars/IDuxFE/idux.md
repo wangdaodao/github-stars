@@ -1,6 +1,6 @@
 ---
 project: idux
-stars: 559
+stars: 560
 description: 🚀 A UI Component Library for Vue3.x
 url: https://github.com/IDuxFE/idux
 ---

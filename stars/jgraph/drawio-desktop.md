@@ -1,6 +1,6 @@
 ---
 project: drawio-desktop
-stars: 56208
+stars: 56315
 description: Official electron build of draw.io
 url: https://github.com/jgraph/drawio-desktop
 ---

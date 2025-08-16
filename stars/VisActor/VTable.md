@@ -1,6 +1,6 @@
 ---
 project: VTable
-stars: 2972
+stars: 2999
 description: VTable is not just a high-performance multidimensional data analysis table, but also a grid artist that creates art between rows and columns.
 url: https://github.com/VisActor/VTable
 ---
@@ -35,11 +35,12 @@ This repository includes the following packages:
 1.  packages/vtable: The core code repository of VTable
 2.  packages/vtable-gantt: Gantt chart component code
 3.  packages/vtable-editors: Table editor component code
-4.  packages/vtable-export: Table export tool code
-5.  packages/vtable-search: Table search tool code
-6.  packages/react-vtable: React version of the table component
-7.  packages/vue-vtable: Vue version of the table component
-8.  docs: Include VTable site tutorials, demos,apis and options, and also contains all Chinese and English documents.
+4.  packages/vtable-plugins: Table plugin code
+5.  packages/vtable-export: Table export tool code
+6.  packages/vtable-search: Table search tool code
+7.  packages/react-vtable: React version of the table component
+8.  packages/vue-vtable: Vue version of the table component
+9.  docs: Include VTable site tutorials, demos,apis and options, and also contains all Chinese and English documents.
 
 Usage
 =====

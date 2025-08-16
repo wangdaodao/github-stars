@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 43579
+stars: 43631
 description: 🔥企业级低代码平台集成了AI应用平台，帮助企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot，SpringCloud、Mybatis，Ant Design4、 Vue3.0、TS+vite！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式: AI生成->OnlineCoding-> 代码生成-> 手工MERGE，显著的提高效率，又不失灵活~
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -69,8 +69,11 @@ Gitee
 启动项目
 ----
 
--   IDEA启动前后端项目
--   Docker一键启动前后端
+-   开发环境搭建
+-   IDEA启动前后端(单体模式)
+-   Docker一键启动(单体模式)
+-   IDEA启动前后端(微服务方式)
+-   Docker一键启动(微服务方式)
 
 技术文档
 ----
@@ -215,11 +218,6 @@ kingbase8
 
 微服务解决方案
 -------
-
-> 微服务方式快速启动
-> 
-> -   单体快速切换微服务
-> -   Docker一键启动微服务前后端
 
 -   1、服务注册和发现 Nacos √
 -   2、统一配置中心 Nacos √

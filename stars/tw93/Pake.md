@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 40962
+stars: 41061
 description: 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 url: https://github.com/tw93/Pake
 ---
@@ -215,6 +215,9 @@ Pake's development can not be without these Hackers. They contributed a lot of c
 
   
 **Matt Bajorek**
+
+  
+**Srinivas Vaddi**
 
   
 **Steam**

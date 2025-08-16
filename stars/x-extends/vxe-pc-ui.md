@@ -1,6 +1,6 @@
 ---
 project: vxe-pc-ui
-stars: 164
+stars: 167
 description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
@@ -20,14 +20,14 @@ vxe-pc-ui
     
     -   **V4**
         -   v4.7 拆分 vxe-design 可视化组件和基础组件库
-        -   v4.0 基于 vue3.2+，只支持现代浏览器，不支持 IE
+        -   v4.0 基于 vue3.2~2.7，只支持现代浏览器，不支持 IE
     -   **V3**
         -   v3.7 拆分 vxe-design 可视化组件和基础组件库
-        -   v3.0 基于 vue2.6+，只支持现代浏览器，不支持 IE
+        -   v3.0 基于 vue2.6~2.7，只支持现代浏览器，不支持 IE
     -   **V2**
-        -   v2.0 基于 vue2.6+，停止维护
+        -   v2.0 基于 vue2.6~2.7，停止维护
     -   **V1**
-        -   v1.0 基于 vue2.6+，停止维护
+        -   v1.0 基于 vue2.6~2.7，停止维护
 -   版本计划
     
     -   计划功能：虚拟列表，支持百万级数据渲染
@@ -54,9 +54,10 @@ vxe-pc-ui
 在线文档
 ----
 
-👉 组件文档  
-👉 表格文档  
-👉 可视化文档
+👉 基础库  
+👉 表格库  
+👉 甘特图  
+👉 可视化
 
 QQ 交流群
 ------
@@ -96,7 +97,6 @@ QQ 交流群
 -   form 表单
     -   form-group 表单-分组
     -   form-item 表单-项
--   gantt 甘特图
 -   icon 图标
 -   icon-picker 图标选择
 -   image 图片
@@ -152,6 +152,10 @@ QQ 交流群
     -   column 基础表格-标签式-常规列
     -   colgroup 基础表格-标签式-分组列
     -   toolbar 基础表格-标签式-工具栏
+
+👀 Vxe Gantt
+
+-   gantt 甘特图
 
 👀 Vxe Design
 

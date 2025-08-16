@@ -1,6 +1,6 @@
 ---
 project: docxjs
-stars: 1678
+stars: 1689
 description: Docx rendering library
 url: https://github.com/VolodymyrBaydalka/docxjs
 ---

@@ -1,6 +1,6 @@
 ---
 project: TrackersListCollection
-stars: 28988
+stars: 29039
 description: 🎈 Updated daily! A list of popular BitTorrent Trackers! / 每天更新！全网热门 BT Tracker 列表！
 url: https://github.com/XIU2/TrackersListCollection
 ---
@@ -28,15 +28,15 @@ _You can judge whether there is a problem with the BT configuration and network 
 
 * * *
 
-### Updated: 2025-08-10
+### Updated: 2025-08-17
 
--   **BEST Tracker list:** (79 trackers)  
+-   **BEST Tracker list:** (77 trackers)  
     _**https://cf.trackerslist.com/best.txt**_
--   **ALL Tracker list:** (170 trackers)  
+-   **ALL Tracker list:** (169 trackers)  
     _**https://cf.trackerslist.com/all.txt**_
--   **HTTP(S) Tracker list:** (88 trackers)  
+-   **HTTP(S) Tracker list:** (84 trackers)  
     _**https://cf.trackerslist.com/http.txt**_
--   **No HTTP Tracker list:** (105 trackers)  
+-   **No HTTP Tracker list:** (108 trackers)  
     _**https://cf.trackerslist.com/nohttp.txt**_
 
 **`[Click to expand] - View alternate address`**
@@ -49,7 +49,7 @@ _You can judge whether there is a problem with the BT configuration and network 
 -   _**https://cdn.jsdelivr.net/gh/XIU2/TrackersListCollection/best.txt**_
 -   _**https://fastly.jsdelivr.net/gh/XIU2/TrackersListCollection/best.txt**_
 -   _**https://gcore.jsdelivr.net/gh/XIU2/TrackersListCollection/best.txt**_
--   _**https://cdn.statically.io/gh/XIU2/TrackersListCollection/best.txt**_
+-   _**https://cdn.statically.io/gh/XIU2/TrackersListCollection/master/best.txt**_
 -   _**https://raw.githubusercontent.com/XIU2/TrackersListCollection/master/best.txt**_
 
 * * *
@@ -81,16 +81,15 @@ bt-tracker\=http://aaa.aa:80/announce,udp://bbb.bb:80/announce
 
 #### qBittorrent Enhanced Edition:
 
-> _**https://github.com/c0re100/qBittorrent-Enhanced-Edition**_  
-> Based on qBittorrent, added many useful features, such as **Subscribing to Tracker URL**, which you can easily use with this project.
-
-After saving the settings, be sure to **restart qBittorrent Enhanced Edition.**
+> _**https://github.com/c0re100/qBittorrent-Enhanced-Edition**_
 
 * * *
 
 #### qBittorrent:
 
 > _**https://www.qbittorrent.org**_
+
+**`[Click to expand] - See how old versions below qBittorrent v5.0 work`**
 
 * * *
 

@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 17075
+stars: 17265
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持自定义频道与EPG；支持多种源获取方式；支持RTMP推流；支持IPv4/IPv6；支持获取归属地与运营商；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -48,8 +48,6 @@ Important
 -   iptv-org/iptv
 -   suxuang/myIPTV
 -   kimwang1978/collect-tv-txt
--   asdjkl6/tv
--   fanmingming/live
 -   vbskycn/iptv
 
 📍频道图标来自：
@@ -581,9 +579,13 @@ ipv6 m3u接口
 
 接口文本内容
 
-/log
+/log/result
 
-测速日志
+有效结果的日志
+
+/log/speed-test
+
+所有参与测速接口的日志
 
 -   RTMP 推流：
 

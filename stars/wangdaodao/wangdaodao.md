@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-10 06:23.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-17 06:22.
 
 📝 Hitokoto
 -----------
 
-> 执子之手，与子偕老。—— 佚名
+> 简单的东西不是最好的，但最好的东西一定是简单的。—— 刘同
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Ngātoroirangi Mine Bay Māori Rock Carvings on Lake Taupō, New Zealand (© Joppi/Getty Images)_
+_Colorful beehives in Italy (© Roberto Caucino/Shutterstock)_
 
 📚 My Blog posts ...
 --------------------

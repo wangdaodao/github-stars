@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2933
+stars: 2951
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Ngātoroirangi Mine Bay Māori Rock Carvings on Lake Taupō, New Zealand (© Joppi/Getty Images)
+Today: Colorful beehives in Italy (© Roberto Caucino/Shutterstock)
+
+2025-08-17 download 4k
+
+2025-08-16 download 4k
+
+2025-08-15 download 4k
+
+2025-08-14 download 4k
+
+2025-08-13 download 4k
+
+2025-08-12 download 4k
+
+2025-08-11 download 4k
 
 2025-08-10 download 4k
 
@@ -55,20 +69,6 @@ Today: Ngātoroirangi Mine Bay Māori Rock Carvings on Lake Taupō, New Zealand 
 2025-07-20 download 4k
 
 2025-07-19 download 4k
-
-2025-07-18 download 4k
-
-2025-07-17 download 4k
-
-2025-07-16 download 4k
-
-2025-07-15 download 4k
-
-2025-07-14 download 4k
-
-2025-07-13 download 4k
-
-2025-07-12 download 4k
 
 ### 历史归档：
 

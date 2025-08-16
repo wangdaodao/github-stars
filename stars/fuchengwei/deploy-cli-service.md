@@ -1,6 +1,6 @@
 ---
 project: deploy-cli-service
-stars: 441
+stars: 440
 description: 前端自动部署脚手架服务
 url: https://github.com/fuchengwei/deploy-cli-service
 ---

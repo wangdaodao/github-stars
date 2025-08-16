@@ -1,6 +1,6 @@
 ---
 project: vue
-stars: 7179
+stars: 7190
 description: vue源码逐行注释分析+40多m的vue源码程序流程图思维导图(vue source code line by line annotation analysis +40 + m vue source code process flow chart mind map)
 url: https://github.com/ygs-code/vue
 ---
@@ -1264,3 +1264,5 @@ diif算法，vue2 的diff 算法是深度优先算法遍历，然后对比算法
 上面的vue.js 就是我基于vue源码中每行加有注释的vue.js, 其他文件就是我看vue.js源码的时候抽出来的vue.js 源码小demo。如果大家觉得不错请动动小手指，帮我点一个satr，你们的支持就是我的动力
 
 作者：姚观寿
+
+最近失业了，想找一份前端开发工作，希望有朋友公司招聘的可以联系下我，谢谢你们，地点 深圳，或者远程都可以，前端构架，前端高级开发，组长职位都行。 我微信：18529531779 ， helloTalk 号@18529531779，邮箱：281113270@qq.com 谢谢了。

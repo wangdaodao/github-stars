@@ -1,6 +1,6 @@
 ---
 project: YApi-X
-stars: 308
+stars: 309
 description: YApi 改。
 url: https://github.com/fjc0k/YApi-X
 ---

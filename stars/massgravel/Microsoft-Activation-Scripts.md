@@ -1,6 +1,6 @@
 ---
 project: Microsoft-Activation-Scripts
-stars: 143899
+stars: 144897
 description: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 url: https://github.com/massgravel/Microsoft-Activation-Scripts
 ---
@@ -12,30 +12,46 @@ Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, 
 
 * * *
 
-How to Activate Windows / Office?
----------------------------------
+How to Activate Windows / Office / Extended Updates (ESU)?
+----------------------------------------------------------
 
-### Method 1 - PowerShell (Windows 8 and later) ❤️
+### Method 1 - PowerShell ❤️
 
 1.  **Open PowerShell**  
-    To do that, press the Windows key + X, then select PowerShell or Terminal.
+    Click the **Start Menu**, type `PowerShell`, then open it.
     
 2.  **Copy and paste the code below, then press enter.**
     
+    -   For **Windows 8, 10, 11**: 📌
+        
+        ```
+        irm https://get.activated.win | iex
+        ```
+        
+    -   For **Windows 7** and later:
+        
+        ```
+        iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+        ```
+        
 
-```
-irm https://get.activated.win | iex
-```
+Script not launching❓Click here for info.
 
-Alternatively, you can use the following (this will be deprecated in the future):
+* * *
 
-```
-irm https://massgrave.dev/get | iex
-```
-
-1.  You will see the activation options. Choose the activation options highlighted in green.
+-   If the above is blocked (by ISP/DNS), try this (needs **updated Windows 10 or 11**):
     
-2.  That's all
+    ```
+    iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+    ```
+    
+-   If that fails or you have an older Windows, use the below-listed Method 2.
+
+* * *
+
+1.  The activation menu will appear. **Choose the green-highlighted options** to activate Windows or Office.
+    
+2.  **Done!**
     
 
 * * *
@@ -56,16 +72,15 @@ Click here to view
 
 * * *
 
--   To activate additional products such as **Office for macOS, Visual Studio, RDS CALs, and Windows XP**, check here.
--   To run the scripts in unattended mode, check here.
+Tip
+
+-   Some ISPs/DNS block access to our domains. You can bypass this by enabling DNS-over-HTTPS (DoH) in your browser.
+-   **Having trouble**❓Visit our troubleshooting page or raise an issue on GitHub.
 
 * * *
 
-### Not working ❓
-
--   If you are **unable to launch MAS** using the PowerShell method, please refer to **Method 2** listed above.
--   If MAS is launched and the script shows any errors, check for any troubleshooting steps mentioned in blue color and try to follow those.
--   If you have any issues, please feel free to reach out to us here.
+-   To activate additional products such as **Office for macOS, Visual Studio, RDS CALs, and Windows XP**, check here.
+-   To run the scripts in unattended mode, check here.
 
 * * *
 
@@ -78,8 +93,8 @@ Note
 * * *
 
 ```
-Latest Version: 3.4
-Release date: 3-June-2025
+Latest Version: 3.5
+Release date: 10-Aug-2025
 ```
 
 ### Troubleshooting / Help

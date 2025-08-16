@@ -1,6 +1,6 @@
 ---
 project: youre-the-os
-stars: 1880
+stars: 1882
 description: A game where you are a computer's OS and you have to manage processes, memory and I/O events.
 url: https://github.com/plbrault/youre-the-os
 ---

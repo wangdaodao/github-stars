@@ -1,6 +1,6 @@
 ---
 project: very-axios
-stars: 90
+stars: 91
 description: 基于axios的更实用封装
 url: https://github.com/verymuch/very-axios
 ---

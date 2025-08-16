@@ -1,6 +1,6 @@
 ---
 project: vue-cli4-config
-stars: 2688
+stars: 2685
 description: vue-cli4配置vue.config.js持续更新
 url: https://github.com/staven630/vue-cli4-config
 ---

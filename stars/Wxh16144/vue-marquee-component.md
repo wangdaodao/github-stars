@@ -1,6 +1,6 @@
 ---
 project: vue-marquee-component
-stars: 70
+stars: 69
 description: Vue跑马灯组件,支持四个方向滚动
 url: https://github.com/Wxh16144/vue-marquee-component
 ---

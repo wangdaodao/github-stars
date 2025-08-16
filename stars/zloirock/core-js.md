@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 25165
+stars: 25182
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -8,7 +8,7 @@ url: https://github.com/zloirock/core-js
 **I highly recommend reading this: So, what's next?**
 -----------------------------------------------------
 
-> Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2024: promises, symbols, collections, iterators, typed arrays, many other features, ECMAScript proposals, some cross-platform WHATWG / W3C features and proposals like `URL`. You can load only required features or use it without global namespace pollution.
+> Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2025: promises, symbols, collections, iterators, typed arrays, many other features, ECMAScript proposals, some cross-platform WHATWG / W3C features and proposals like `URL`. You can load only required features or use it without global namespace pollution.
 
 **If you are looking for documentation for obsolete `core-js@2`, please, check this branch.**
 
@@ -30,13 +30,13 @@ _Example of usage_:
 
 import 'core-js/actual';
 
-Promise.resolve(42).then(it \=> console.log(it)); // => 42
+Promise.try(() \=> 42).then(it \=> console.log(it)); // => 42
 
 Array.from(new Set(\[1, 2, 3\]).union(new Set(\[3, 4, 5\]))); // => \[1, 2, 3, 4, 5\]
 
 \[1, 2\].flatMap(it \=> \[it, it\]); // => \[1, 1, 2, 2\]
 
-(function \* (i) { while (true) yield i++; })(1)
+Iterator.concat(\[1, 2\], function \* (i) { while (true) yield i++; }(3))
   .drop(1).take(5)
   .filter(it \=> it % 2)
   .map(it \=> it \*\* 2)
@@ -53,13 +53,13 @@ import 'core-js/actual/array/from';
 import 'core-js/actual/array/flat-map';
 import 'core-js/actual/structured-clone';
 
-Promise.resolve(42).then(it \=> console.log(it)); // => 42
+Promise.try(() \=> 42).then(it \=> console.log(it)); // => 42
 
 Array.from(new Set(\[1, 2, 3\]).union(new Set(\[3, 4, 5\]))); // => \[1, 2, 3, 4, 5\]
 
 \[1, 2\].flatMap(it \=> \[it, it\]); // => \[1, 1, 2, 2\]
 
-(function \* (i) { while (true) yield i++; })(1)
+Iterator.concat(\[1, 2\], function \* (i) { while (true) yield i++; }(3))
   .drop(1).take(5)
   .filter(it \=> it % 2)
   .map(it \=> it \*\* 2)
@@ -76,13 +76,13 @@ import from from 'core-js-pure/actual/array/from';
 import flatMap from 'core-js-pure/actual/array/flat-map';
 import structuredClone from 'core-js-pure/actual/structured-clone';
 
-Promise.resolve(42).then(it \=> console.log(it)); // => 42
+Promise.try(() \=> 42).then(it \=> console.log(it)); // => 42
 
 from(new Set(\[1, 2, 3\]).union(new Set(\[3, 4, 5\]))); // => \[1, 2, 3, 4, 5\]
 
 flatMap(\[1, 2\], it \=> \[it, it\]); // => \[1, 1, 2, 2\]
 
-Iterator.from(function \* (i) { while (true) yield i++; }(1))
+Iterator.concat(\[1, 2\], function \* (i) { while (true) yield i++; }(3))
   .drop(1).take(5)
   .filter(it \=> it % 2)
   .map(it \=> it \*\* 2)

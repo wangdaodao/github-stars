@@ -1,6 +1,6 @@
 ---
 project: wechatferry
-stars: 1682
+stars: 1688
 description: -
 url: https://github.com/wechatferry/wechatferry
 ---
