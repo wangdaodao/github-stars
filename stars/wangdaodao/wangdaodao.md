@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-17 06:22.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-24 06:20.
 
 📝 Hitokoto
 -----------
 
-> 简单的东西不是最好的，但最好的东西一定是简单的。—— 刘同
+> 凡是过去，皆为序章；凡是未来，皆有可期。—— 莎士比亚
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Colorful beehives in Italy (© Roberto Caucino/Shutterstock)_
+_St. Barbara's Cathedral, Kutná Hora, Czechia (© Castka/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

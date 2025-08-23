@@ -1,6 +1,6 @@
 ---
 project: vueuse
-stars: 21518
+stars: 21547
 description: Collection of essential Vue Composition Utilities for Vue 3
 url: https://github.com/vueuse/vueuse
 ---
@@ -45,7 +45,7 @@ Refer to functions list or documentations for more details.
 📦 Install
 ----------
 
-> From v12.0, VueUse no longer supports Vue 2. Please use v11.x for Vue 2 support.
+> From v12.0, VueUse no longer supports Vue 2. Please use v11.x for Vue 2 support. From v13.0, VueUse requires Vue v3.3+
 
 npm i @vueuse/core
 

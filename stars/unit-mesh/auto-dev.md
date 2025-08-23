@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 4054
+stars: 4058
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---
@@ -10,8 +10,8 @@ AutoDev for Intellij
 
 > 🧙‍AutoDev: The AI-powered coding wizard with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent feature 🧪 included! 🚀
 
-AutoDev 2.0 Sketch - the Cursor Composer in Intellij IDEA
----------------------------------------------------------
+AutoDev 2.0 - the Cursor Composer in Intellij IDEA
+--------------------------------------------------
 
 Video demo (YouTube) — English
 
@@ -62,6 +62,10 @@ UML diagram editor with bidirectional code-diagram synchronization
 **PlanSketch**
 
 Display AutoDev Planner planning for resolving code issues
+
+**CodeTopologySketch**
+
+Display code topology for current file
 
 `*` means requires additional plugin installation.
 
@@ -231,15 +235,6 @@ Precision Code Generation
 ### Extensions
 
 see in exts
-
-Demo
-----
-
-DevIns Language demo (Bilibili) - 中文
-
-Video demo (YouTube) — English
-
-Video demo (Bilibili) - 中文
 
 Useful Links
 ------------

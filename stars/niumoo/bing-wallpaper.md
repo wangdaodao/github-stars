@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2951
+stars: 2975
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Colorful beehives in Italy (© Roberto Caucino/Shutterstock)
+Today: St. Barbara's Cathedral, Kutná Hora, Czechia (© Castka/Getty Images)
+
+2025-08-24 download 4k
+
+2025-08-23 download 4k
+
+2025-08-22 download 4k
+
+2025-08-21 download 4k
+
+2025-08-20 download 4k
+
+2025-08-19 download 4k
+
+2025-08-18 download 4k
 
 2025-08-17 download 4k
 
@@ -55,20 +69,6 @@ Today: Colorful beehives in Italy (© Roberto Caucino/Shutterstock)
 2025-07-27 download 4k
 
 2025-07-26 download 4k
-
-2025-07-25 download 4k
-
-2025-07-24 download 4k
-
-2025-07-23 download 4k
-
-2025-07-22 download 4k
-
-2025-07-21 download 4k
-
-2025-07-20 download 4k
-
-2025-07-19 download 4k
 
 ### 历史归档：
 

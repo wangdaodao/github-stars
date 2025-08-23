@@ -1,6 +1,6 @@
 ---
 project: swiper
-stars: 41316
+stars: 41332
 description: Most modern mobile touch slider with hardware accelerated transitions
 url: https://github.com/nolimits4web/swiper
 ---

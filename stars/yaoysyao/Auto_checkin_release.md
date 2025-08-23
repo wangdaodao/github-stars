@@ -1,6 +1,6 @@
 ---
 project: Auto_checkin_release
-stars: 156
+stars: 155
 description: GLaDOS平台|天翼云盘|bilibili直播|科研通签到|谷粉学术签到|阿里云盘新版本签到|Wps云空间容量|百度贴吧|交易猫|飘云阁|吾爱破解,自动签到项目发行版仓库，支持多种平台签到,已打包为exe文件和安装包文件，直接下载填写配置文件即可，目前只支持Windows
 url: https://github.com/yaoysyao/Auto_checkin_release
 ---

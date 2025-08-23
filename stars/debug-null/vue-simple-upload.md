@@ -1,6 +1,6 @@
 ---
 project: vue-simple-upload
-stars: 239
+stars: 240
 description: vue+elementui:断点续传、分片上传、秒传
 url: https://github.com/debug-null/vue-simple-upload
 ---

@@ -1,6 +1,6 @@
 ---
 project: Cloud189Checkin
-stars: 548
+stars: 552
 description: 天翼网盘自动签到
 url: https://github.com/wes-lin/Cloud189Checkin
 ---

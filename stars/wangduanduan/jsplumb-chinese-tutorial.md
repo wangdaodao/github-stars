@@ -1,6 +1,6 @@
 ---
 project: jsplumb-chinese-tutorial
-stars: 1311
+stars: 1312
 description: jsplumb中文教程,  README中没有的内容，可以查看项目的Wiki。有问题提issue
 url: https://github.com/wangduanduan/jsplumb-chinese-tutorial
 ---

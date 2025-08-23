@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 26019
+stars: 26031
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.06.10) —— 第2247天
+🕟 今天的知识点 (2025.08.19) —— 第2317天
 --------------------------------
 
-        :one: \[TypeScript\] TypeScript中的in关键字是什么？
+        :one: \[TypeScript\] 你是如何确保TypeScript代码与JavaScript代码的兼容性的？
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2246天 (2025.06.09)  
-    1️⃣ \[TypeScript\] TypeScript中的instanceof操作符是什么？
+-   第2316天 (2025.08.18)  
+    1️⃣ \[TypeScript\] 在你的项目中，你是如何使用TypeScript进行代码重构的？
     
 -   **查看全部**
     

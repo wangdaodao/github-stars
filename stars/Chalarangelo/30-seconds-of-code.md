@@ -1,6 +1,6 @@
 ---
 project: 30-seconds-of-code
-stars: 124926
+stars: 125063
 description: Coding articles to level up your development skills
 url: https://github.com/Chalarangelo/30-seconds-of-code
 ---

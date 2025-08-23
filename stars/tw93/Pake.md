@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 41061
+stars: 41149
 description: 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 url: https://github.com/tw93/Pake
 ---
@@ -145,7 +145,7 @@ If you are new to the command line, you can compile packages online with _GitHub
 Development
 -----------
 
-Prepare your environment before starting. Make sure you have Rust `>=1.63` and Node `>=16` (e.g., `16.18.1`) installed on your computer. For installation guidance, see Tauri documentation.
+Prepare your environment before starting. Make sure you have Rust `>=1.89` and Node `>=22` (e.g., `22.11.0`) installed on your computer. _Note: Older versions (Rust ≥1.78, Node ≥16) may also work but latest stable versions are recommended._ For installation guidance, see Tauri documentation.
 
 If you are unfamiliar with these, it is better to try out the above tool to pack with one click.
 
@@ -163,7 +163,7 @@ Advanced Usage
 
 1.  You can refer to the codebase structure before working on Pake, which will help you much in development.
 2.  Modify the `url` and `productName` fields in the `pake.json` file under the src-tauri directory, the "domain" field in the `tauri.config.json` file needs to be modified synchronously, as well as the `icon` and `identifier` fields in the `tauri.xxx.conf.json` file. You can select an `icon` from the `icons` directory or download one from macOSicons to match your product needs.
-3.  For configurations on window properties, you can modify the `pake.json` file to change the value of `width`, `height`, `fullscreen` (or not), `resizable` (or not) of the `windows` property. To adapt to the immersive header on Mac, change `hideTitleBar` to `true`, look for the `Header` element, and add the `padding-top` property.
+3.  For configurations on window properties, you can modify the `pake.json` file to change the value of `width`, `height`, `fullscreen` (or not), `resizable` (or not), `hide_on_close` (hide window on close instead of exiting) of the `windows` property. To adapt to the immersive header on Mac, change `hideTitleBar` to `true`, look for the `Header` element, and add the `padding-top` property.
 4.  For advanced usages such as style rewriting, advertisement removal, JS injection, container message communication, and user-defined shortcut keys, see Advanced Usage of Pake.
 
 Developers
@@ -254,6 +254,9 @@ Pake's development can not be without these Hackers. They contributed a lot of c
 
   
 **Dengju Deng**
+
+  
+**Fabien**
 
   
 **Fechin**

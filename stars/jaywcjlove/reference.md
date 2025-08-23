@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 14361
+stars: 14381
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -141,7 +141,9 @@ quickref.cn axchen.top tamamo.top sakuraovo.site nyanon.online dotcube.cc 788888
 
 lideshan.top 94vessel.com 7yueee.cn maisblog.cn ruochen.net cizai.io alomerry.com pages.dev hrzweb.xyz zsccodelnc.cn jeffjade.com chanlun.pro fifo.site longdada.me chenze.cloud lzzzt.cn fifo.site longdada.me btaw.cn lzw.me kjchmc.cn quickreference.pages.dev surcode.cn xushanxiang.com mmoke.com dbyun.net xiechengqi.top bingchunmoli.com 131414.xyz
 
-如果你有资源，可以很方便部署 web 版，这非常简单，只需要克隆 gh-pages 分支代码到你的静态服务就可以了，还可以使用 docker 快捷部署 web 版。
+如果你有资源，可以很方便地 部署 web 版，这一过程非常简单。只需要克隆 gh-pages 分支的代码到你的静态服务即可。
+
+你还可以使用 docker 快捷部署 web 版，或者直接一键部署到 Netlify。
 
 其它资源
 ----

@@ -1,6 +1,6 @@
 ---
 project: fullcalendar
-stars: 19810
+stars: 19847
 description: Full-sized drag & drop event calendar in JavaScript
 url: https://github.com/fullcalendar/fullcalendar
 ---

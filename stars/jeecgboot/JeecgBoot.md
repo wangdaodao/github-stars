@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 43631
+stars: 43684
 description: 🔥企业级低代码平台集成了AI应用平台，帮助企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot，SpringCloud、Mybatis，Ant Design4、 Vue3.0、TS+vite！强大的代码生成器让前后端代码一键生成，无需写任何代码! 引领AI低代码开发模式: AI生成->OnlineCoding-> 代码生成-> 手工MERGE，显著的提高效率，又不失灵活~
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -69,6 +69,8 @@ Gitee
 启动项目
 ----
 
+> 默认账号密码： admin/123456
+
 -   开发环境搭建
 -   IDEA启动前后端(单体模式)
 -   Docker一键启动(单体模式)
@@ -79,8 +81,9 @@ Gitee
 ----
 
 -   官方网站： http://www.jeecg.com
--   入门指南： 快速入门 | 开发文档 | AI应用使用手册 | 技术博客
--   技术支持： 反馈问题 | 视频教程 | 低代码体验一分钟
+-   在线演示： 平台演示 | APP演示
+-   入门指南： 快速入门 | 代码生成使用 | 开发文档 | AI应用手册 | 视频教程
+-   技术支持： 反馈问题 | 低代码体验一分钟
 -   QQ交流群 ： 964611995、⑩716488839(满)、⑨808791225(满)、其他(满)
 
 AI 应用平台介绍

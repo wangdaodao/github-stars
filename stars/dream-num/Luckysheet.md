@@ -1,7 +1,7 @@
 ---
 project: Luckysheet
-stars: 16400
-description: Luckysheet is an online spreadsheet like excel that is powerful, simple to configure, and completely open source.
+stars: 16425
+description: Luckysheet upgraded to Univer
 url: https://github.com/dream-num/Luckysheet
 ---
 
@@ -26,8 +26,6 @@ Documentation
 
 Demo
 
-Plugins Demo
-
 Forum
 
 Github
@@ -35,8 +33,6 @@ Github
 Online Documentation
 
 Online Demo / Cooperative editing demo
-
-Import Excel Demo
 
 Chinese Forum
 
@@ -46,15 +42,12 @@ Gitee Online Documentation
 
 Gitee Online Demo
 
-Gitee Import Excel Demo
-
 Google Group
 
 Plugins
 -------
 
--   Luckyexcel: Excel import and export library
--   chartMix: Chart plugin
+For advanced features like import, export, and printing, please use Univer
 
 Ecosystem
 ---------

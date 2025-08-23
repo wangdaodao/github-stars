@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 26434
+stars: 26579
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -323,23 +323,8 @@ For downstream applications, please refer to our document about API Details for 
 -   Python API, how to use the program in other Python programs
 -   HTTP API, how to communicate with a server with the program installed
 
-TODOs
------
-
--   Parse layout with DocLayNet based models, PaddleX, PaperMage, SAM2
-    
--   Fix page rotation, table of contents, format of lists
-    
--   Fix pixel formula in old papers
-    
--   Async retry except KeyboardInterrupt
-    
--   Knuth–Plass algorithm for western languages
-    
--   Support non-PDF/A files
-    
--   Plugins of Zotero and Obsidian
-    
+Sponsors
+--------
 
 Acknowledgements
 ----------------
