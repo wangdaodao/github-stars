@@ -5,40 +5,37 @@ description: Typecho Fans插件作品目录
 url: https://github.com/typecho-fans/plugins
 ---
 
-Typecho Fans 内部插件目录（社区维护版列表）
-----------------------------
+Typecho Fans 内部目录 (社区维护版列表)
+---------------------------
 
-> 本目录内插件源码由社区成员共同维护，原则上均支持1.0+版本。报错可提交Issues，作者加入请阅读下方须知。:penguin:交流QQ群：**40412938**
+**本目录内源码由社区成员自愿共同维护，报错提交Issues，作者加入请阅读下方须知。🐧交流QQ群：**40412938****
 
 * * *
 
 ### 使用帮助
 
-作者可点击右上角绿色按钮处克隆Git地址或Fork项目所有内容修改提交，一般用户使用下方索引表格的Download链接下载所需插件即可，或推荐安装**新版插件仓库**🗃️**TeStore**更便捷地进行列表筛选、一键下载及自动安装删除等操作。
+作者可点击右上角绿色按钮克隆Git或Fork项目内容提交修改，一般用户使用下方索引表格Download链接下载所需即可，推荐安装**仓库**🗃️**TeStore**更便捷地使用列表筛选、一键安装删除及更新提醒等功能。
 
 ### 作者须知
 
-1.  上传插件源码即视为允许社区修改，如果只为在插件仓库列表显示，编辑TESTORE.md写入下载链接等信息即可。
+1.  上传源码即视为允许社区修改，如果只为在仓库列表显示编辑TESTORE.md写入下载链接等信息即可。
 
-> 目录下插件在TeStore中带社区标记，作者可提交有特色但不再维护的作品，由其他成员视需求能力做后续修正。
+> 目录存放在TeStore带社区标记，作者可提交有特色但不再维护的作品，由其他成员视需求能力做后续修正。
 
-1.  推荐用**subtree**方法上传源码(可随时拉取原目录更新)，手动复制提交亦可，不再接受submodule链接文件夹方式。
+1.  推荐用**subtree**方法上传源码(可随时与原目录同步)，手动复制提交亦可，不再接受submodule链接文件夹方式。
 
-> 若原目录作者回归本目录下源码未有修改可继续拉取同步，已产生社区版勿盲目覆盖，应视情况保留或修改合并。
+> 若原目录作者回归而本目录源码未有改动可继续拉取更新，已产生社区版勿盲目覆盖，应视情况手动修改合并。
 
-1.  管理会邀请GitHub插件作者给予目录权限，其他想参与童鞋可Fork修改后提交Pull Request，或在Issues申请加入。
-    
-2.  插件应自带**README**，zip包上传至releases或放在ZIP\_CDN文件夹里，下载地址写入下方表格即可在TeStore安装。
-    
+1.  应自带子目录**README**，zip上传至Releases或放进ZIP\_CDN文件夹，地址写入下方表格即可在TeStore安装。
 
-> 下表中的下载链接文字可在TeStore附加图标：`Download`即社区版，`N/A`为不可用，`Special`是安装或用法特殊。
+> 下表中下载链接文字可在TeStore附加图标：`Download`即社区版，`N/A`为不可用，`Special`是安装或用法特殊。
 
-### 作品索引 (132)
+### 作品索引 (129)
 
-###### TeStore使用下表“名称”创建安装文件夹，“版本”提示升级，请确保文本准确；注意按字母排序添加，自增上方括号内总数，简介不要太长。
+###### TeStore会使用下表“名称”创建文件夹，“版本”数字判断升级，请尽量确保文本准确，按字母排序，简介便于关键字搜索。
 
 ```
-若用户已安装同名插件TeStore会根据作者名判断版本，请确保下表“作者”文本与Plugin.php内署名保持一致(多人可用,号或&号分隔)。
+同名TeStore根据作者名区分，注意“作者”文本要与Plugin.php内署名一致(多人用,或&号分隔)。
 ```
 
 名称
@@ -53,7 +50,7 @@ zip包
 
 AMP
 
-生成AMP/MIP移动标准页面插件
+生成AMP/MIP移动标准页面
 
 0.7.6.1
 
@@ -61,19 +58,9 @@ Holmesian
 
 Download
 
-AjaxComments
-
-嵌套评论Ajax异步提交效果插件
-
-1.2.0
-
-Byends, Willin Kan
-
-Download
-
 AbbrSlug
 
-多种算法生成数字文章缩略名插件
+生成数字文章缩略名
 
 1.0.0
 
@@ -81,9 +68,19 @@ AbbrSlug
 
 Download
 
+AjaxComments
+
+嵌套评论Ajax异步提交效果
+
+1.2.0
+
+Byends, Willin Kan
+
+Download
+
 AllowIp
 
-Typecho可访问后台IP白名单插件
+限制访问后台IP白名单
 
 1.0.1
 
@@ -93,7 +90,7 @@ Download
 
 Announcement
 
-仿Emlog博客悬浮式公告栏插件
+仿Emlog博客悬浮式公告栏
 
 1.0.0
 
@@ -103,7 +100,7 @@ Download
 
 Another-Like
 
-基于Like动画美化点赞按钮插件
+基于Like动画美化点赞按钮
 
 1.0.0
 
@@ -113,7 +110,7 @@ Download
 
 AntiSpam
 
-经典反垃圾评论机器人陷阱插件
+经典反垃圾评论机器人陷阱
 
 1.0.3
 
@@ -123,7 +120,7 @@ Download
 
 AppStore
 
-Go脚本服务端搭配应用商店插件
+Go脚本服务端搭配应用商店
 
 2.0.0
 
@@ -133,7 +130,7 @@ N/A
 
 ArticleList
 
-热评/随机文章列表插件(可缓存)
+热评随机文章列表(可缓存)
 
 1.1.1
 
@@ -143,7 +140,7 @@ Special
 
 ArticleTemplate
 
-Typecho定制文章类型字段插件
+Typecho定制文章类型字段
 
 1.0.0
 
@@ -153,7 +150,7 @@ Download
 
 At
 
-@链接评论回复与邮件提醒插件
+@链接评论回复与邮件提醒
 
 0.1.1
 
@@ -163,7 +160,7 @@ Download
 
 Attachment
 
-附件下载美化计数(搭配Stat)插件
+附件下载美化计数(搭配Stat)
 
 1.0.2
 
@@ -173,7 +170,7 @@ Download
 
 AudioPlayer
 
-可定制配色伸缩音乐播放器插件
+可定制配色伸缩音乐播放器
 
 1.2.6
 
@@ -183,17 +180,17 @@ Download
 
 AutoBackup
 
-数据库定时备份至邮箱插件
+数据库定时备份至邮箱
 
 1.3.2
 
-泽泽
+泽泽社长
 
 Download
 
 AutoLaTeX
 
-LaTeX公式两种模式自动渲染插件
+LaTeX公式两种模式渲染
 
 0.1.0
 
@@ -203,7 +200,7 @@ Download
 
 AutoSlug
 
-文章缩略名用翻译API生成插件
+文章缩略名用翻译API生成
 
 2.1.1
 
@@ -213,7 +210,7 @@ Download
 
 AutoTags
 
-文章内容解析自动生成标签插件
+文章内容解析自动生成标签
 
 1.0.0
 
@@ -223,7 +220,7 @@ Download
 
 Avatars
 
-评论头像墙排行插件(支持缓存)
+评论头像墙排行(支持缓存)
 
 1.2.5
 
@@ -233,7 +230,7 @@ Download
 
 BackToTop
 
-三款萌娘点击返回顶部按钮插件
+三款萌娘点击返回顶部按钮
 
 1.0
 
@@ -241,21 +238,31 @@ BackToTop
 
 Download
 
+CSDN
+
+将CSDN博文迁移至Typecho
+
+1.0.0
+
+MDY
+
+Download
+
 CatClaw
 
-影视\[一\]二号模板免登录采集插件
+影视二号模板免登录采集
 
 1.8.1
 
-jrotty
+泽泽社长
 
 Download
 
 CateFilter
 
-首页过滤指定分类文章隐藏插件
+首页过滤指定分类文章隐藏
 
-1.2.4
+1.2.5
 
 Rakiy
 
@@ -263,7 +270,7 @@ Download
 
 ChangyanCallback
 
-搜狐畅言社会化评论回推用插件
+搜狐畅言社会化评论回推
 
 1.0.0
 
@@ -271,19 +278,9 @@ mrgeneral
 
 Download
 
-changyandandian
-
-搜狐畅言单点登录插件
-
-1.0.0
-
-泽泽社长
-
-Download
-
 Ckeditor4Typecho
 
-CKEditor4所见即所得编辑器插件
+CKEditor4所见即所得编辑器
 
 1.0.0
 
@@ -293,7 +290,7 @@ Download
 
 CodeMirror
 
-主题外观编辑器内代码高亮插件
+主题外观编辑器内代码高亮
 
 1.0.0
 
@@ -303,7 +300,7 @@ Download
 
 CodeStyle
 
-HighlightJs高亮插件(MD带行号)
+HighlightJs高亮(MD带行号)
 
 0.8.0
 
@@ -311,19 +308,9 @@ hongweipeng
 
 Download
 
-Cloudflare R2
-
-上传附件到 Cloudflare R2
-
-0.0.1
-
-fengqi
-
-Download
-
 CommentFilter
 
-评论昵称/链接/内容/IP过滤插件
+评论昵称/链接/内容/IP过滤
 
 1.2.1
 
@@ -331,9 +318,19 @@ jrotty,ghostry,Hanny
 
 Download
 
+CommentNotifier
+
+Typecho1.2.0+评论邮件提醒
+
+1.2.9
+
+泽泽社长
+
+NewVer
+
 CommentPush
 
-评论推送微信QQ钉钉邮箱插件
+评论推送微信QQ钉钉邮箱
 
 1.7.1
 
@@ -343,7 +340,7 @@ Download
 
 CommentToMail
 
-发布回复评论邮件自动提醒插件
+发布回复评论邮件自动提醒
 
 2.0.1
 
@@ -351,19 +348,9 @@ Byends, DEFE
 
 Download
 
-CommentNotifier
-
-评论邮件提醒插件要求Typecho1.2.0版本及以上
-
-1.4.3
-
-泽泽社长
-
-Download
-
 ContentIndex
 
-自动生成美化版文章目录树插件
+自动生成美化版文章目录树
 
 1.0.0
 
@@ -373,7 +360,7 @@ Download
 
 Contribute
 
-前台免注册投稿及审查发布插件
+前台免注册投稿及审查发布
 
 1.0.0
 
@@ -383,7 +370,7 @@ Special
 
 CosForTypecho
 
-Typecho用腾讯云COS存储插件
+Typecho用腾讯云COS存储
 
 1.0.1
 
@@ -391,29 +378,9 @@ Charmeryl
 
 Download
 
-CSDN
-
-将CSDN博文迁移至Typecho插件
-
-1.0.0
-
-MDY
-
-Download
-
-CustomRSS
-
-Typecho生成rss.xml的RSS订阅
-
-1.0.1
-
-蓝河
-
-Download
-
 DbManager
 
-Mysql数据库导入导出优化插件
+Mysql数据库导入导出优化
 
 2.0.1
 
@@ -423,7 +390,7 @@ Download
 
 DevTool
 
-扩展开发常用数据查看测试插件
+扩展开发常用数据查看测试
 
 1.0.0
 
@@ -433,7 +400,7 @@ Download
 
 DownloadFile
 
-附件下载与上传名保持一致插件
+附件下载与上传名保持一致
 
 1.0.0
 
@@ -443,7 +410,7 @@ Download
 
 DynamicLines
 
-(娱乐向)动态蛛网背景效果插件
+(娱乐向)动态蛛网背景效果
 
 1.0.0
 
@@ -451,19 +418,9 @@ Mario
 
 Download
 
-Editor
-
-简明清爽Markdown编辑器插件
-
-1.0.2
-
-公子
-
-Download
-
 EditorMD
 
-豪华全能Markdown编辑器插件
+豪华全能Markdown编辑器
 
 1.4.0
 
@@ -471,9 +428,19 @@ DT27
 
 Download
 
+Editor
+
+简明清爽Markdown编辑器
+
+1.0.2
+
+公子
+
+Download
+
 EmlogToTypecho
 
-Emlog数据库导入到Typecho插件
+Emlog数据库导入到Typecho
 
 1.0.0
 
@@ -483,7 +450,7 @@ Download
 
 GAuthenticator
 
-Google两步验证插件(带二维码)
+Google两步验证(带二维码)
 
 0.0.6
 
@@ -493,7 +460,7 @@ Download
 
 GHbutton
 
-GitHub项目或用户功能按钮插件
+展示GitHub项目和功能按钮
 
 1.0.4
 
@@ -503,7 +470,7 @@ Download
 
 GeeTest
 
-经典极验证拖拽评论验证码插件
+经典极验证拖拽评论验证码
 
 1.0.1
 
@@ -513,7 +480,7 @@ Download
 
 GithubCard
 
-GitHub项目或用户卡片挂件插件
+GitHub项目或用户卡片挂件
 
 1.0.0
 
@@ -523,7 +490,7 @@ Download
 
 GithubWidgetUser
 
-GitHub用户名片式展示挂件插件
+GitHub用户名片式展示挂件
 
 0.2.0
 
@@ -533,7 +500,7 @@ Download
 
 GoLinks
 
-自定义外链转换为内链跳转插件
+自定义外链转换为内链跳转
 
 0.3.0
 
@@ -543,7 +510,7 @@ Download
 
 GoodLuck
 
-手气不错链接跳转随机文章插件
+手气不错链接跳转随机文章
 
 1.0.2
 
@@ -553,7 +520,7 @@ Download
 
 GoogleAnalytics
 
-异步加载版Google Analytics插件
+异步加载版Google Analytics
 
 1.0.0
 
@@ -563,7 +530,7 @@ Download
 
 GoogleCodePrettify
 
-谷歌Prettify代码高亮插件(MD版)
+谷歌Prettify代码高亮(MD版)
 
 2.0.0
 
@@ -573,7 +540,7 @@ Download
 
 GravatarCache
 
-Gravatar头像自动本地缓存插件
+Gravatar头像自动本地缓存
 
 2.0.2
 
@@ -583,7 +550,7 @@ Special
 
 Hermit
 
-虾米音乐SM2列表型播放器插件
+虾米音乐SM2列表型播放器
 
 1.3.1
 
@@ -591,19 +558,9 @@ mufeng
 
 Download
 
-HighlightSearchKeywords
-
-高亮外部或站内搜索关键字插件
-
-0.1.3
-
-羽中, gouki
-
-Download
-
 HighSlide
 
-自定义图片弹窗+页面相册插件
+自定义图片弹窗+页面相册
 
 1.4.7
 
@@ -611,9 +568,19 @@ HighSlide
 
 Download
 
+HighlightSearchKeywords
+
+高亮外部或站内搜索关键字
+
+0.1.3
+
+羽中, gouki
+
+Download
+
 Html2Text
 
-Html代码转Markdown格式插件
+Html代码转Markdown格式
 
 0.1.0
 
@@ -623,7 +590,7 @@ Download
 
 IQapTcha
 
-评论滑动解锁验证与过滤插件
+评论滑动解锁验证与过滤
 
 1.1.2
 
@@ -633,7 +600,7 @@ Download
 
 JSON
 
-以Json格式输出博客数据API插件
+以Json格式输出博客数据API
 
 1.1
 
@@ -643,7 +610,7 @@ Download
 
 JWPlayer
 
-Html5流媒体播放器Jwplayer插件
+Html5流媒体播放器Jwplayer
 
 1.0.9
 
@@ -653,7 +620,7 @@ Download
 
 JustFeed
 
-文章Feed尾部添加定制信息插件
+文章Feed尾部添加定制信息
 
 0.1.2
 
@@ -663,7 +630,7 @@ Download
 
 Keywords
 
-文章指定关键词自动加链接插件
+文章指定关键词自动加链接
 
 1.0.9
 
@@ -673,7 +640,7 @@ Download
 
 LREditor
 
-Markdown编辑器左右预览插件
+Markdown编辑器左右预览
 
 0.0.4
 
@@ -683,7 +650,7 @@ Download
 
 Like
 
-Typecho文章点赞排行统计插件
+Typecho文章点赞排行统计
 
 1.0.1
 
@@ -693,7 +660,7 @@ Download
 
 Links
 
-Typecho友情链接数据管理插件
+Typecho友情链接数据管理
 
 1.2.3
 
@@ -703,7 +670,7 @@ Download
 
 LoginDesigner
 
-Typecho注册/登录界面美化插件
+Typecho注册/登录界面美化
 
 1.3.0
 
@@ -713,7 +680,7 @@ Download
 
 LoveKKComment
 
-评论邮件通知与密码找回插件
+评论邮件通知与密码找回
 
 1.0.6
 
@@ -723,7 +690,7 @@ Download
 
 LoveKKWeiBo
 
-用新浪微博作附件上传图床插件
+用新浪微博作附件上传图床
 
 1.0.1
 
@@ -733,7 +700,7 @@ Download
 
 MagikeEditor
 
-Magike移植Html源码编辑器插件
+Magike移植Html源码编辑器
 
 1.1.1
 
@@ -741,29 +708,9 @@ Magike移植Html源码编辑器插件
 
 Download
 
-MarkdownParse
-
-Markdown解析(CommonMark+GFM+MathJax+Mermaid+目录)
-
-2.0.0
-
-mrgeneral
-
-Download
-
-Memos
-
-Memos列表读取插件
-
-0.1.0
-
-fengqi
-
-Download
-
 MenuTree
 
-代码嵌入式文章内容目录树插件
+代码嵌入式文章内容目录树
 
 0.1.2
 
@@ -773,7 +720,7 @@ Download
 
 MenuTree
 
-右侧悬浮式文章内容目录树插件
+右侧悬浮式文章内容目录树
 
 0.8.1
 
@@ -783,7 +730,7 @@ Download
 
 MostCache
 
-Mysql/SAE下Memcache缓存插件
+Mysql Memcache缓存
 
 1.1.1
 
@@ -793,7 +740,7 @@ Download
 
 MyPlayer
 
-万能播放器视频站链接转换插件
+万能播放器视频站链接转换
 
 1.1.3
 
@@ -803,7 +750,7 @@ Download
 
 MyTagCloud
 
-Typecho自定义标签云效果插件
+Typecho自定义标签云效果
 
 1.0.0
 
@@ -813,17 +760,17 @@ Download
 
 NavMenu
 
-Typecho自定义插件
+Typecho自定义导航菜单
 
 1.1.1
 
-Ryan,merdan
+Ryan, merdan
 
 Download
 
 Ncache
 
-Nginx开启fastcgi\_cache缓存插件
+Nginx开启fastcgi\_cache缓存
 
 1.1
 
@@ -833,7 +780,7 @@ Special
 
 OssForTypecho
 
-阿里云OSS插件(流上传+缩略图)
+阿里云OSS(流上传+缩略图)
 
 1.0.2
 
@@ -843,17 +790,17 @@ Download
 
 Passport
 
-注册用户密码邮件找回功能插件
+注册用户密码邮件找回功能
 
 1.0.1
 
-胖蒜网,ShingChi
+小否先生,ShingChi
 
 Download
 
 PasteImage
 
-编辑器粘贴图片时自动上传插件
+编辑器粘贴图片时自动上传
 
 1.0.0
 
@@ -861,19 +808,9 @@ qing
 
 Download
 
-PostsCategoryChange
-
-Typecho文章修改分类/状态插件
-
-0.0.4
-
-Fuzqing
-
-Download
-
 PostRating
 
-Typecho文章星级评分管理插件
+Typecho文章星级评分管理
 
 1.1.0
 
@@ -881,9 +818,19 @@ wuwovr, Willin Kan
 
 Download
 
+PostsCategoryChange
+
+Typecho文章修改分类/状态
+
+0.0.4
+
+Fuzqing
+
+Download
+
 Prism
 
-经典Prism代码高亮插件(MD版)
+经典Prism代码高亮(MD版)
 
 1.0.2
 
@@ -893,7 +840,7 @@ Download
 
 QNUpload
 
-经典版(PHP5.2-5.6)七牛附件插件
+经典版(PHP5.2-5.6)七牛附件
 
 1.3.1
 
@@ -903,7 +850,7 @@ Download
 
 QiniuFile
 
-新七牛附件插件(自定路径+截图)
+新七牛附件(自定路径+截图)
 
 1.3.3
 
@@ -913,7 +860,7 @@ Download
 
 RandomThumbnail
 
-随机图片挂件插件(自定义模板)
+随机图片挂件(自定义模板)
 
 2.0.0
 
@@ -921,9 +868,19 @@ LittleJake
 
 Download
 
+Rdog
+
+注册机制优化/发文自动审核
+
+1.6.0
+
+泽泽
+
+Download
+
 Reposidget
 
-GitHub项目信息与内容展示插件
+GitHub项目信息与内容展示
 
 1.0.0
 
@@ -933,7 +890,7 @@ Download
 
 RewriteRule
 
-文章或页面地址重定向跳转插件
+文章或页面地址重定向跳转
 
 1.0.0
 
@@ -941,19 +898,9 @@ laobubu
 
 Download
 
-Rdog
-
-注册机制优化/发文自动审核插件
-
-1.6.0
-
-泽泽
-
-Download
-
 RoutesHelper
 
-Typecho路由信息显示修改插件
+Typecho路由信息显示修改
 
 1.0.3
 
@@ -963,7 +910,7 @@ Download
 
 SCS
 
-系统附件用新浪云存储SCS插件
+系统附件用新浪云存储SCS
 
 1.1.1
 
@@ -973,7 +920,7 @@ Download
 
 Sinauth
 
-新浪用户授权注册帐号登录插件
+新浪用户授权注册帐号登录
 
 1.0.0 Beta
 
@@ -983,7 +930,7 @@ Download
 
 Sitemap
 
-动态生成Xml标准网站地图插件
+动态生成Xml标准网站地图
 
 1.0.5
 
@@ -993,7 +940,7 @@ Download
 
 SlantedExtend
 
-Slanted主题专用自定义字段插件
+Slanted主题专用自定义字段
 
 1.0.0
 
@@ -1003,7 +950,7 @@ Special
 
 SlimBox2
 
-轻量级jQuery图片灯箱弹窗插件
+轻量级jQuery图片灯箱弹窗
 
 1.0.7
 
@@ -1013,7 +960,7 @@ Download
 
 Smilies
 
-Typecho定制图片表情功能插件
+Typecho定制图片表情功能
 
 1.1.3
 
@@ -1023,7 +970,7 @@ Download
 
 Snowstorm
 
-(娱乐向)动态飘雪背景效果插件
+(娱乐向)动态飘雪背景效果
 
 1.0.1
 
@@ -1033,7 +980,7 @@ Download
 
 Soso
 
-Typecho搜索过滤/限制/增强插件
+Typecho搜索过滤/限制/增强
 
 1.2.2
 
@@ -1043,7 +990,7 @@ Download
 
 SplitArchivePage
 
-Typecho文章应用分页效果插件
+Typecho文章应用分页效果
 
 0.1.7
 
@@ -1053,7 +1000,7 @@ Download
 
 Stat
 
-文章浏览数排行插件(支持附件)
+文章浏览数排行(支持附件)
 
 1.0.4
 
@@ -1063,7 +1010,7 @@ Download
 
 Sticky
 
-Typecho首页/分类文章置顶插件
+Typecho首页/分类文章置顶
 
 1.0.1
 
@@ -1073,7 +1020,7 @@ Download
 
 Subscriber
 
-指定文章/内容登录会员可见插件
+指定文章/内容登录会员可见
 
 1.0.0beta
 
@@ -1083,7 +1030,7 @@ Download
 
 SyncPost
 
-新浪腾讯微博豆瓣更新推送插件
+新浪腾讯微博豆瓣更新推送
 
 1.0.0
 
@@ -1093,7 +1040,7 @@ N/A
 
 TEReplace
 
-SQL替换指定内容标题字段插件
+SQL替换指定内容标题字段
 
 1.3.0
 
@@ -1103,7 +1050,7 @@ Download
 
 TeKit
 
-模板用文章或评论数据输出插件
+模板用文章或评论数据输出
 
 2.0.0
 
@@ -1111,39 +1058,29 @@ TeKit
 
 Download
 
-tagshelper
-
-发布文章列出已用标签供点选插件
-
-1.1
-
-泽泽社长
-
-Download
-
 TeStore
 
-GitHub表格解析版插件仓库插件
+GitHub表格解析版仓库
 
-1.1.5
+1.1.6
 
-羽中, zhulin3141
+羽中, zhulin3141, Ryan
 
 Download
 
 ThemeDemo
 
-双模式导航条主题外观演示插件
+双模式导航条主题外观演示
 
-1.2.1
+1.2.2
 
-ShingChi, doudou
+ShingChi, doudou, hongweipeng
 
 Download
 
 Tinyfader
 
-Typecho简易首页图片轮播插件
+Typecho简易首页图片轮播
 
 1.0.0
 
@@ -1153,7 +1090,7 @@ Download
 
 Titleshow
 
-Typecho加密文章显示标题插件
+Typecho加密文章显示标题
 
 1.1.3
 
@@ -1163,7 +1100,7 @@ Download
 
 TopTop
 
-卡通吊绳点击返回顶部按钮插件
+卡通吊绳点击返回顶部按钮
 
 1.0.0
 
@@ -1173,7 +1110,7 @@ Download
 
 Typembed
 
-常见视频站链接转为播放器插件
+常见视频站链接转为播放器
 
 1.3.0
 
@@ -1183,7 +1120,7 @@ Download
 
 Ueditor
 
-百度贴吧可视编辑器Ueditor插件
+百度贴吧可视编辑器Ueditor
 
 1.0.0
 
@@ -1193,7 +1130,7 @@ Download
 
 Ugauka
 
-(娱乐向)二次元伪春菜挂件插件
+(娱乐向)二次元伪春菜挂件
 
 1.0.0
 
@@ -1201,19 +1138,9 @@ Kunr
 
 Download
 
-Update
-
-Typecho一键升级至开发版插件
-
-0.0.3
-
-公子
-
-Download
-
 UpdateAssistant
 
-自动升级系统为正式/开发版插件
+自动升级系统为正式/开发版
 
 1.0.1
 
@@ -1221,9 +1148,19 @@ mrgeneral
 
 Download
 
+Update
+
+Typecho一键升级至开发版
+
+0.0.3
+
+公子
+
+Download
+
 UploadPlugin
 
-上传zip自动安装插件/主题插件
+上传zip自动安装/主题
 
 1.1.3
 
@@ -1233,7 +1170,7 @@ Download
 
 UpyunFile
 
-Typecho附件用又拍云存储插件
+Typecho附件用又拍云存储
 
 1.0.4
 
@@ -1243,7 +1180,7 @@ Download
 
 UserSign
 
-为博客用户添加个性签名档插件
+为博客用户添加个性签名档
 
 0.0.1
 
@@ -1253,7 +1190,7 @@ Special
 
 Version
 
-文章页面可恢复多历史版本插件
+文章页面可恢复多历史版本
 
 1.3
 
@@ -1263,7 +1200,7 @@ Download
 
 Views
 
-Typecho文章浏览计数排行插件
+Typecho文章浏览计数排行
 
 1.0.1
 
@@ -1273,7 +1210,7 @@ Download
 
 Watermark
 
-文章图片自动添加定制水印插件
+文章图片自动添加定制水印
 
 1.2.0
 
@@ -1283,7 +1220,7 @@ Download
 
 WeChatHelper
 
-微信公众号功能自定义集成插件
+微信公众号功能自定义集成
 
 2.2.1
 
@@ -1293,7 +1230,7 @@ Download
 
 WeChatShare
 
-定制文章微信/QQ分享链接插件
+定制文章微信/QQ分享链接
 
 1.0.6
 
@@ -1303,7 +1240,7 @@ Download
 
 WeiboSync
 
-博客文章更新推送新浪微博插件
+博客文章更新推送新浪微博
 
 1.0.0
 
@@ -1313,7 +1250,7 @@ Special
 
 XiaMiPlayer
 
-虾米音乐jPlayer极简播放器插件
+虾米音乐jPlayer极简播放器
 
 3.1.4
 
@@ -1323,7 +1260,7 @@ Download
 
 YoduBGM
 
-迷你按钮型BGM音乐播放器插件
+迷你按钮型BGM音乐播放器
 
 1.7.0
 
@@ -1333,7 +1270,7 @@ Download
 
 YoduPlayer
 
-悬浮式音乐播放器插件(支持Pjax)
+悬浮式音乐播放器(支持Pjax)
 
 2.4.6
 
@@ -1343,7 +1280,7 @@ Download
 
 Zan
 
-自定义字段输出文章点赞数插件
+自定义字段输出文章点赞数
 
 1.0.0
 
@@ -1353,7 +1290,7 @@ Download
 
 alexarank
 
-在主题模板中输出Alexa排名插件
+在主题模板中输出Alexa排名
 
 1.0
 
@@ -1361,9 +1298,19 @@ Jrotty
 
 Download
 
+changyandandian
+
+搜狐畅言单点登录
+
+1.0.0
+
+泽泽社长
+
+Download
+
 reCAPTCHA
 
-谷歌reCAPTCHA点击验证码插件
+谷歌reCAPTCHA点击验证码
 
 0.0.1
 
@@ -1373,10 +1320,20 @@ Download
 
 reCAPTCHAv3
 
-基于reCAPTCHAv3版验证码插件
+基于reCAPTCHAv3版验证码
 
 0.0.2
 
 D-Bood
+
+Download
+
+tagshelper
+
+发布文章列出已用标签
+
+1.1
+
+泽泽社长
 
 Download

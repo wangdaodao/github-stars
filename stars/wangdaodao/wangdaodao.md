@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-24 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-31 06:20.
 
 📝 Hitokoto
 -----------
 
-> 凡是过去，皆为序章；凡是未来，皆有可期。—— 莎士比亚
+> 在虚构现实里寻求现实感的人才有问题—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_St. Barbara's Cathedral, Kutná Hora, Czechia (© Castka/Getty Images)_
+_Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)_
 
 📚 My Blog posts ...
 --------------------

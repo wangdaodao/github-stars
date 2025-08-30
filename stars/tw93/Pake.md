@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 41149
+stars: 41837
 description: 🤱🏻 Turn any webpage into a desktop app with Rust.  🤱🏻 利用 Rust 轻松构建轻量级多端桌面应用
 url: https://github.com/tw93/Pake
 ---
@@ -20,7 +20,8 @@ Features
 -   🎐 Nearly 20 times smaller than an Electron package (around 5M!)
 -   🚀 With Rust Tauri, Pake is much more lightweight and faster than JS-based frameworks.
 -   📦 Battery-included package — shortcut pass-through, immersive windows, and minimalist customization.
--   👻 Pake is just a simple tool — replace the old bundle approach with Tauri (though PWA is good enough).
+-   🖱️ Smart right-click context menus with download support for images, videos, and files.
+-   👻 Pake is just a simple tool — replaces the old bundle approach with Tauri (though PWA is also a good alternative).
 
 Popular Packages
 ----------------
@@ -91,7 +92,7 @@ Refresh Page
 
 Ctrl + w
 
-Hide window, not quite
+Hide window, not quit
 
 ⌘ + \-
 
@@ -129,9 +130,12 @@ Before starting
 Command-Line Packaging
 ----------------------
 
-**Pake provides a command line tool, making the flow of package customization quicker and easier. See documentation for more information.**
+**Pake provides a command line tool, making the flow of package customization quicker and easier. See the CLI usage guide for more information.**
 
-# Install with npm
+# Recommended (pnpm)
+pnpm install -g pake-cli
+
+# Alternative (npm)
 npm install -g pake-cli
 
 # Command usage
@@ -140,31 +144,32 @@ pake url \[OPTIONS\]...
 # Feel free to play with Pake! It might take a while to prepare the environment the first time you launch Pake.
 pake https://weekly.tw93.fun --name Weekly --hide-title-bar
 
-If you are new to the command line, you can compile packages online with _GitHub Actions_. See the Tutorial for more information.
+If you are new to the command line, you can compile packages online with _GitHub Actions_. See our documentation for detailed guides.
 
 Development
 -----------
 
-Prepare your environment before starting. Make sure you have Rust `>=1.89` and Node `>=22` (e.g., `22.11.0`) installed on your computer. _Note: Older versions (Rust ≥1.78, Node ≥16) may also work but latest stable versions are recommended._ For installation guidance, see Tauri documentation.
+Prepare your environment before starting. Make sure you have Rust `>=1.89` and Node `>=18` (e.g., `22.11.0`) installed on your computer. _Note: Latest stable versions are recommended._ For installation guidance, see Tauri documentation.
 
 If you are unfamiliar with these, it is better to try out the above tool to pack with one click.
 
-# Install Dependencies
-npm i
+# Install dependencies
+pnpm i
 
-# Local development \[Right-click to open debug mode.\]
-npm run dev
+# Local development (right-click to open debug mode)
+pnpm run dev
 
-# Pack application
-npm run build
+# Build application
+pnpm run build
 
-Advanced Usage
---------------
+Documentation
+-------------
 
-1.  You can refer to the codebase structure before working on Pake, which will help you much in development.
-2.  Modify the `url` and `productName` fields in the `pake.json` file under the src-tauri directory, the "domain" field in the `tauri.config.json` file needs to be modified synchronously, as well as the `icon` and `identifier` fields in the `tauri.xxx.conf.json` file. You can select an `icon` from the `icons` directory or download one from macOSicons to match your product needs.
-3.  For configurations on window properties, you can modify the `pake.json` file to change the value of `width`, `height`, `fullscreen` (or not), `resizable` (or not), `hide_on_close` (hide window on close instead of exiting) of the `windows` property. To adapt to the immersive header on Mac, change `hideTitleBar` to `true`, look for the `Header` element, and add the `padding-top` property.
-4.  For advanced usages such as style rewriting, advertisement removal, JS injection, container message communication, and user-defined shortcut keys, see Advanced Usage of Pake.
+-   **CLI Usage** | 中文 - Command-line interface reference
+-   **Advanced Usage** | 中文 - Customization and advanced features
+-   **GitHub Actions** | 中文 - Build apps online
+-   **Pake Action** - Use Pake as GitHub Action in your projects
+-   **Contributing** - How to contribute to development
 
 Developers
 ----------
@@ -268,6 +273,9 @@ Pake's development can not be without these Hackers. They contributed a lot of c
 **Jiaqi Gu**
 
   
+**Luminall**
+
+  
 **Milo**
 
   
@@ -299,11 +307,6 @@ Pake's development can not be without these Hackers. They contributed a lot of c
 
   
 **贺天卓**
-
-Frequently Asked Questions
---------------------------
-
-1.  Right-clicking on an image element in the page to open the menu and select download image or other events does not work (common in MacOS systems). This issue is due to the MacOS built-in webview not supporting this feature.
 
 Support
 -------

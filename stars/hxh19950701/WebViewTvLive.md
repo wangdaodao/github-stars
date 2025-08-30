@@ -1,6 +1,6 @@
 ---
 project: WebViewTvLive
-stars: 2234
+stars: 2278
 description: 使用 腾讯X5 WebView 开发的电视直播App
 url: https://github.com/hxh19950701/WebViewTvLive
 ---

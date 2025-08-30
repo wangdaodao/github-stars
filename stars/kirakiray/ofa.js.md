@@ -24,13 +24,13 @@ How to Use
 
 To start using ofa.js, simply add a reference to ofa.js in your HTML file.
 
-<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.6.11/dist/ofa.min.js"\></script\>
+<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.6.12/dist/ofa.min.js"\></script\>
 
 ### Debug Mode
 
 To better facilitate development and debugging, ofa.js provides a debug mode feature. In debug mode, component templates will enable the sourcemap feature, allowing you to more easily locate and solve problems. Enabling debug mode is very simple; just add the `#debug` parameter to the ofa.js reference URL:
 
-<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.6.11/dist/ofa.js#debug"\></script\>
+<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.6.12/dist/ofa.js#debug"\></script\>
 
 Usage Experience
 ----------------
@@ -48,7 +48,7 @@ However, with ofa.js, you can quickly create a component by simply creating an H
 </template\>
 
 <!-- Using the encapsulated component -->
-<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.6.11/dist/ofa.min.js"\></script\>
+<script src\="https://cdn.jsdelivr.net/gh/kirakiray/ofa.js@4.6.12/dist/ofa.min.js"\></script\>
 <l-m src\="./my-component.html"\></l-m\>
 <my-component\>
     ...

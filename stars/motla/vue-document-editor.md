@@ -1,6 +1,6 @@
 ---
 project: vue-document-editor
-stars: 327
+stars: 328
 description: :page_facing_up: Paper-sized WYSIWYG document editor for Vue apps
 url: https://github.com/motla/vue-document-editor
 ---

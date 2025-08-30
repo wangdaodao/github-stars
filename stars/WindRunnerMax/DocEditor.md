@@ -1,6 +1,6 @@
 ---
 project: DocEditor
-stars: 191
+stars: 189
 description: 文档编辑器
 url: https://github.com/WindRunnerMax/DocEditor
 ---

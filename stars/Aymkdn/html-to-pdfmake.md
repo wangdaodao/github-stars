@@ -61,13 +61,14 @@ Quick Start
 </body\>
 </html\>
 
-### Node.js Usage
+### Node based Project Usage
 
 npm install html-to-pdfmake jsdom
 
 const pdfMake \= require('pdfmake/build/pdfmake');
 const pdfFonts \= require('pdfmake/build/vfs\_fonts');
 const htmlToPdfmake \= require('html-to-pdfmake');
+// if you need to run it in a terminal console using "node", then you need the below two lines:
 const jsdom \= require('jsdom');
 const { JSDOM } \= jsdom;
 
@@ -75,7 +76,7 @@ const { JSDOM } \= jsdom;
 // please, check https://github.com/bpampuch/pdfmake to know how to initialize this library
 pdfMake.vfs \= pdfFonts;
 
-// initiate the "window" object in Node
+// if you need to run it in a terminal console using "node", then you need to initiate the "window" object with the below line:
 const { window } \= new JSDOM('');
 
 // Convert HTML to PDFMake format
@@ -91,6 +92,7 @@ const docDefinition \= { content: converted };
 
 // Generate PDF
 pdfMake.createPdf(docDefinition).getBuffer((buffer) \=> {
+  // when running the command in a terminal console using "node", then we can save the file using the 'fs' native package
   require('fs').writeFileSync('output.pdf', buffer);
 });
 

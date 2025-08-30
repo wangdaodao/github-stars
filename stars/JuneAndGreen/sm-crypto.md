@@ -1,6 +1,6 @@
 ---
 project: sm-crypto
-stars: 1057
+stars: 1062
 description: 国密算法js版
 url: https://github.com/JuneAndGreen/sm-crypto
 ---
@@ -114,7 +114,7 @@ let point \= sm2.getPoint() // 获取一个椭圆曲线点，可在sm2签名时�
 
 ### 根据私钥获取公钥
 
-const sm2 \= require('sm-crypto).sm2
+const sm2 \= require('sm-crypto').sm2
 
 let publicKey \= sm2.getPublicKeyFromPrivateKey(privateKey)
 

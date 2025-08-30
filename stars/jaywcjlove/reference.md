@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 14381
+stars: 14404
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -44,7 +44,7 @@ Ansible CMake C# Django FFmpeg Flask FastAPI Flutter Gitlab CI/CD LaTeX Lua Nest
 编程
 --
 
-Bash Powershell C 语言 C# C++ Dart Elixir Erlang Flutter Golang GraphQL Hook Java Julia Kotlin Kubernetes LaTeX Laravel 8 Markdown MATLAB PHP R 语言 Ruby Rust Scala Swift SwiftUI Spring Boot Lua Minio
+Bash Powershell C 语言 C# C++ Dart Elixir Erlang Flutter Golang GraphQL Hook Java Julia Kotlin Kubernetes LaTeX Laravel 8 Lua Markdown MATLAB Nix PHP R 语言 Ruby Rust Scala Swift SwiftUI Spring Boot Minio
 
 Docker
 ------

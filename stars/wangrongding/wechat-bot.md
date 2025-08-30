@@ -1,14 +1,12 @@
 ---
 project: wechat-bot
-stars: 8637
+stars: 8666
 description: 🤖一个基于 WeChaty 结合 DeepSeek / ChatGPT / Kimi / 讯飞等Ai服务实现的微信机器人 ，可以用来帮助你自动回复微信消息，或者管理微信群/好友，检测僵尸粉等...
 url: https://github.com/wangrongding/wechat-bot
 ---
 
 WeChat Bot
 ==========
-
-### Tip：最近本人正在看新的工作机会，如果你有合适的 `前端开发岗位` 在招，欢迎一起聊聊，我的 wx: ChicSparrow
 
 一个 基于 `chatgpt` + `wechaty` 的微信机器人
 

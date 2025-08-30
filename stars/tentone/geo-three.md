@@ -1,6 +1,6 @@
 ---
 project: geo-three
-stars: 866
+stars: 867
 description: Tile based geographic world map visualization library for threejs
 url: https://github.com/tentone/geo-three
 ---

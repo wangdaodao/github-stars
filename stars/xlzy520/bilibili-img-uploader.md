@@ -1,6 +1,6 @@
 ---
 project: bilibili-img-uploader
-stars: 396
+stars: 399
 description: Chrome/Firefox/Edge Extension bilibili img uploader。哔哩哔哩图床上传插件.https://chrome.google.com/webstore/detail/b%E7%AB%99%E5%9B%BE%E5%BA%8A/domljbndjbjgpkhdbmfgmiclggdfojnd?hl=zh-CN
 url: https://github.com/xlzy520/bilibili-img-uploader
 ---

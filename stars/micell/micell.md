@@ -1,6 +1,6 @@
 ---
 project: micell
-stars: 23
+stars: 24
 description: A collection of functions for front-end development
 url: https://github.com/micell/micell
 ---

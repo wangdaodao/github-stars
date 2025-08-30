@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 25549
+stars: 26021
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -20,7 +20,7 @@ If you encounter problems or have doubts, do not hesitate to look at the **Quick
 To verify that a game works, you can look at **shadPS4 Game Compatibility**.  
 To discuss shadPS4 development, suggest ideas or to ask for help, join our **Discord server**.  
 To get the latest news, go to our **X (Twitter)** or our **website**.  
-For those who'd like to donate to the project, we now have a **Kofi page**!
+You can donate to the project via our **Kofi page**.
 
 Status
 ======
@@ -29,12 +29,12 @@ Important
 
 shadPS4 is early in development, don't expect a flawless experience.
 
-Currently, the emulator can successfully run games like **Bloodborne**, **Dark Souls Remastered**, **Red Dead Redemption** and many other games.
+Currently, the emulator can successfully run games like **Bloodborne**, **Dark Souls Remastered**, **Red Dead Redemption**, and many other games.
 
 Why
 ===
 
-This project began as a fun project. Given our limited free time, it may take some time before shadPS4 can run more complex games, but we're committed to making small, regular updates.
+This project began for fun. Given our limited free time, it may take some time before shadPS4 can run more complex games, but we're committed to making small, regular updates.
 
 Building
 ========
@@ -203,7 +203,7 @@ Keyboard and mouse inputs can be customized in the settings menu by clicking the
 Firmware files
 ==============
 
-shadPS4 can load some PlayStation 4 firmware files, these must be dumped from your legally owned PlayStation 4 console. The following firmware modules are supported and must be placed in shadPS4's `sys_modules` folder.
+shadPS4 can load some PlayStation 4 firmware files. The following firmware modules are supported and must be placed in shadPS4's `sys_modules` folder.
 
 Modules
 
@@ -233,7 +233,7 @@ libSceUlt.sprx
 
 Caution
 
-The above modules are required to run the games properly and must be extracted from your PlayStation 4.
+The above modules are required to run the games properly and must be dumped from your legally owned PlayStation 4 console.
 
 Main team
 =========

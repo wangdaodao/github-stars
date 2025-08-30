@@ -1,6 +1,6 @@
 ---
 project: learn-cli
-stars: 9
+stars: 10
 description: null
 url: https://github.com/luoquanquan/learn-cli
 ---

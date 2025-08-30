@@ -1,6 +1,6 @@
 ---
 project: YesPlayMusic
-stars: 31543
+stars: 31585
 description: 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron: 
 url: https://github.com/qier222/YesPlayMusic
 ---
@@ -17,7 +17,7 @@ YesPlayMusic
 全新版本
 ----
 
-全新2.0 Alpha测试版已发布，欢迎前往 Releases 页面下载。 当前版本将会进入维护模式，除重大bug修复外，不会再更新新功能。
+全新 2.0 Alpha 测试版已发布，欢迎前往 Releases 页面下载。 当前版本将会进入维护模式，除重大 bug 修复外，不会再更新新功能。
 
 ✨ 特性
 ----
@@ -53,6 +53,15 @@ Electron 版本由 @hawtim 和 @qier222 适配并维护，支持 macOS、Windows
     
 -   Windows 用户可以通过 Scoop 来安装：`scoop install extras/yesplaymusic`
     
+
+同类项目（排名无先后）
+-----------
+
+欢迎大家通过 PR 分享你的项目，让更多人看到！
+
+-   algerkong/AlgerMusicPlayer
+-   asxez/MusicBox
+-   lianchengwu/wmplayer
 
 ⚙️ 部署至 Vercel
 -------------
@@ -115,14 +124,14 @@ yarn run build
 
 1.  将 `/dist` 目录下的文件上传到你的 Web 服务器
 
-⚙️ 宝塔面板 docker应用商店 部署
----------------------
+⚙️ 宝塔面板 docker 应用商店 部署
+----------------------
 
 1.  安装宝塔面板，前往宝塔面板官网 ，选择正式版的脚本下载安装。
     
-2.  安装后登录宝塔面板，在左侧导航栏中点击 Docker，首次进入会提示安装Docker服务，点击立即安装，按提示完成安装
+2.  安装后登录宝塔面板，在左侧导航栏中点击 Docker，首次进入会提示安装 Docker 服务，点击立即安装，按提示完成安装
     
-3.  安装完成后在应用商店中找到YesPlayMusic，点击安装，配置域名、端口等基本信息即可完成安装。
+3.  安装完成后在应用商店中找到 YesPlayMusic，点击安装，配置域名、端口等基本信息即可完成安装。
     
 4.  安装后在浏览器输入上一步骤设置的域名即可访问。
     

@@ -1,6 +1,6 @@
 ---
 project: jest-tutorial
-stars: 791
+stars: 792
 description: 🃏《Jest 实践指南》
 url: https://github.com/haixiangyan/jest-tutorial
 ---

@@ -1,6 +1,6 @@
 ---
 project: github-stars
-stars: 73
+stars: 76
 description: A Cloudflare-powered MCP (Model Context Protocol) Server that allows you to search and query your GitHub starred repositories using natural language.
 url: https://github.com/ccbikai/github-stars
 ---
@@ -63,6 +63,7 @@ Setup
     
     -   Create an AutoRAG instance in Cloudflare
     -   Set the `AUTO_RAG_NAME` environment variable in your Cloudflare Worker
+    -   `MCP_API_KEY`: API key for securing MCP server access (generate a secure random string)
 
 ### Local Development
 
@@ -94,7 +95,15 @@ Usage
 
 Once deployed, you can interact with the MCP Server using any MCP-compatible client:
 
-SSE: `https://your-worker-url.workers.dev`
+### API Key Authentication
+
+The MCP server requires API key authentication for security. Include your `MCP_API_KEY` in the request headers:
+
+Authorization: Bearer your-mcp-api-key
+
+### Endpoint
+
+Streamable HTTP: `https://your-worker-url.workers.dev`
 
 API Reference
 -------------

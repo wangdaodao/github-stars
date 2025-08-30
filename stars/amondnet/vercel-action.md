@@ -1,6 +1,6 @@
 ---
 project: vercel-action
-stars: 708
+stars: 712
 description: This action make a deployment with github actions instead of Vercel builder.
 url: https://github.com/amondnet/vercel-action
 ---
@@ -13,7 +13,7 @@ This action was formerly Zeit Now Deployment. Migration Guide
 Introduction to Vercel
 ----------------------
 
-​Vercel is a cloud platform for **static sites** and **Serverless Functions** that fits perfectly with your workflow. It enables developers to host **Jamstack** websites and web services that **deploy instantly**, **scale automatically**, and requires **no supervision**, all with **no configuration**.
+Vercel is a cloud platform for **static sites** and **Serverless Functions** that fits perfectly with your workflow. It enables developers to host **Jamstack** websites and web services that **deploy instantly**, **scale automatically**, and requires **no supervision**, all with **no configuration**.
 
 This action make a Vercel deployment with github actions.
 
@@ -165,7 +165,7 @@ vercel
 
 Once set up, a new `.vercel` directory will be added to your directory. The `.vercel` directory contains both the organization(`vercel-org-id`) and project(`vercel-project-id`) id of your project.
 
-{"orgId":"example\_org\_id","projectId":"example\_project\_id"}
+{ "orgId": "example\_org\_id", "projectId": "example\_project\_id" }
 
 You can save both values in the secrets setting in your repository. Read the Official documentation if you want further info on how secrets work on Github.
 
@@ -185,13 +185,13 @@ jobs:
       #  your build commands
       # - run: |
       #    ng build --prod
-      - uses: amondnet/vercel-action@v25 #deploy
+      - uses: amondnet/vercel-action@v25 # deploy
         with:
           vercel-token: ${{ secrets.VERCEL\_TOKEN }} # Required
-          github-token: ${{ secrets.GITHUB\_TOKEN }} #Optional 
-          vercel-args: '\--prod' #Optional
-          vercel-org-id: ${{ secrets.ORG\_ID}}  #Required
-          vercel-project-id: ${{ secrets.PROJECT\_ID}} #Required 
+          github-token: ${{ secrets.GITHUB\_TOKEN }} # Optional
+          vercel-args: \--prod # Optional
+          vercel-org-id: ${{ secrets.ORG\_ID}} # Required
+          vercel-project-id: ${{ secrets.PROJECT\_ID}} # Required
           working-directory: ./sub-directory
 
 ### Angular Example
@@ -247,12 +247,12 @@ jobs:
       - uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL\_TOKEN }} # Required
-          github-token: ${{ secrets.GITHUB\_TOKEN }} #Optional 
-          vercel-args: '\--prod' #Optional
-          vercel-org-id: ${{ secrets.ORG\_ID}}  #Required
-          vercel-project-id: ${{ secrets.PROJECT\_ID}} #Required 
-          working-directory: ./sub-directory #Your Working Directory, Optional
-          alias-domains: | #Optional
+          github-token: ${{ secrets.GITHUB\_TOKEN }} # Optional
+          vercel-args: \--prod # Optional
+          vercel-org-id: ${{ secrets.ORG\_ID}} # Required
+          vercel-project-id: ${{ secrets.PROJECT\_ID}} # Required
+          working-directory: ./sub-directory # Your Working Directory, Optional
+          alias-domains: | # Optional
             staging.angular.vercel-action.amond.dev
             pr-{{PR\_NUMBER}}.angular.vercel-action.amond.dev
 
@@ -261,8 +261,8 @@ Migration from v2
 
 1.  Change action name in `workflows` from `now-deployment` to `vercel-action`
     
-     - name: Vercel Action
-       uses: amondnet/vercel-action@v25
+    \- name: Vercel Action
+      uses: amondnet/vercel-action@v25
     
 2.  Change input values.
     -   `zeit-token` -> `vercel-token`

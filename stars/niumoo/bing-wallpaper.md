@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 2975
+stars: 2997
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: St. Barbara's Cathedral, Kutná Hora, Czechia (© Castka/Getty Images)
+Today: Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)
+
+2025-08-31 download 4k
+
+2025-08-30 download 4k
+
+2025-08-29 download 4k
+
+2025-08-28 download 4k
+
+2025-08-27 download 4k
+
+2025-08-26 download 4k
+
+2025-08-25 download 4k
 
 2025-08-24 download 4k
 
@@ -55,20 +69,6 @@ Today: St. Barbara's Cathedral, Kutná Hora, Czechia (© Castka/Getty Images)
 2025-08-03 download 4k
 
 2025-08-02 download 4k
-
-2025-08-01 download 4k
-
-2025-07-31 download 4k
-
-2025-07-30 download 4k
-
-2025-07-29 download 4k
-
-2025-07-28 download 4k
-
-2025-07-27 download 4k
-
-2025-07-26 download 4k
 
 ### 历史归档：
 

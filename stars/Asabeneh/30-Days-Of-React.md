@@ -1,6 +1,6 @@
 ---
 project: 30-Days-Of-React
-stars: 26898
+stars: 26923
 description: 30 Days of  React challenge is a step by step guide to learn React in 30 days.  These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
 url: https://github.com/Asabeneh/30-Days-Of-React
 ---

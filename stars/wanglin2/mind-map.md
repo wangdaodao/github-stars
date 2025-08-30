@@ -1,6 +1,6 @@
 ---
 project: mind-map
-stars: 10227
+stars: 10270
 description: SimpleMindMap（思绪思维导图）：一个强大的Web思维导图。A powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---
@@ -144,6 +144,11 @@ MIT。保留`simple-mind-map`版权声明和注明来源的情况下可随意商
 > 示例：可以在你应用中的关于页面、帮助页面、文档页面、开源声明等任何页面添加以下内容：
 > 
 > 本产品思维导图基于SimpleMindMap项目开发，版权归源项目所有，开源协议。
+
+开发帮助/技术支持/咨询等
+=============
+
+因精力有限，及重心转变，暂不提供任何开发支持（包括有偿），请见谅！
 
 star
 ====
