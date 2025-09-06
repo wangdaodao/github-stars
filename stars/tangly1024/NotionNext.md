@@ -1,6 +1,6 @@
 ---
 project: NotionNext
-stars: 10104
+stars: 10153
 description: 使用 NextJS + Notion API 实现的，支持多种部署方案的静态博客，无需服务器、零门槛搭建网站，为Notion和所有创作者设计。 (A static blog built with NextJS and Notion API, supporting multiple deployment options. No server required, zero threshold to set up a website. Designed for Notion and all creators.)
 url: https://github.com/tangly1024/NotionNext
 ---
@@ -59,7 +59,7 @@ Craig Hart
 贡献者
 ---
 
-感谢所有为 NotionNext 做出贡献的人！
+致敬每一位开发者！
 
 引用技术
 ----

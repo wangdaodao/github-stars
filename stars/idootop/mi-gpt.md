@@ -1,6 +1,6 @@
 ---
 project: mi-gpt
-stars: 11510
+stars: 11527
 description: 🏠 将小爱音箱接入 ChatGPT 和豆包，改造成你的专属语音助手。
 url: https://github.com/idootop/mi-gpt
 ---

@@ -1,6 +1,6 @@
 ---
 project: dayjs
-stars: 48177
+stars: 48192
 description: ⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
 url: https://github.com/iamkun/dayjs
 ---
@@ -79,8 +79,6 @@ dayjs().format('Q Do k kk X x') // more available formats
 
 📚Plugin List
 
-### Usage Trend
-
 Sponsors
 --------
 
@@ -88,7 +86,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 
 \[Become a sponsor via Github\] \[Become a sponsor via OpenCollective\]
 
-                                                                                                  
+                                                                                
 
 Contributors
 ------------

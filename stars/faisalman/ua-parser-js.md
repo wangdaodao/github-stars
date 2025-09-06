@@ -1,7 +1,7 @@
 ---
 project: ua-parser-js
-stars: 9824
-description: "Unmask Your Traffic" - UAParser.js: The Essential Web Development Tool for User-Agent Detection
+stars: 9833
+description: The most comprehensive, compact, and up-to-date JavaScript library to detect user's browser, OS, CPU, and device type/model. Also detect bots, apps, and more. Runs seamlessly in the browser (client-side) or Node.js (server-side).
 url: https://github.com/faisalman/ua-parser-js
 ---
 

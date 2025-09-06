@@ -1,6 +1,6 @@
 ---
 project: adchs
-stars: 124
+stars: 123
 description: Android 设计指南非官方简体中文版
 url: https://github.com/sunjw/adchs
 ---

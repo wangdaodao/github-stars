@@ -1,6 +1,6 @@
 ---
 project: lucky
-stars: 6342
+stars: 6388
 description: 软硬路由公网神器,ipv6/ipv4 端口转发,反向代理,DDNS,WOL,ipv4 stun内网穿透,cron,acme,阿里云盘,ftp,webdav,filebrowser
 url: https://github.com/gdy666/lucky
 ---

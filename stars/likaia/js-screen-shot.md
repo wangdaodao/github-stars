@@ -1,6 +1,6 @@
 ---
 project: js-screen-shot
-stars: 913
+stars: 916
 description: web端自定义截图插件(原生JS版)
 url: https://github.com/likaia/js-screen-shot
 ---

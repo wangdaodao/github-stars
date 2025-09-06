@@ -1,6 +1,6 @@
 ---
 project: docsify
-stars: 30338
+stars: 30368
 description: 🃏 A magical documentation site generator.
 url: https://github.com/docsifyjs/docsify
 ---

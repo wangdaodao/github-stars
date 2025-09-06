@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-08-31 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-09-07 06:18.
 
 📝 Hitokoto
 -----------
 
-> 在虚构现实里寻求现实感的人才有问题—— 佚名
+> 盛年不重来，一日难再晨。—— 陶渊明
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Whale shark off the coast of Alifu Dhaalu Atoll, Maldives (© Bachir Moukarzel/Amazing Aerial Agency)_
+_Rufous hummingbird, Golden Gate Park, San Francisco, California (© jeremyborkat/Getty Images)_
 
 📚 My Blog posts ...
 --------------------

@@ -1,6 +1,6 @@
 ---
 project: vscode
-stars: 176234
+stars: 176453
 description: Visual Studio Code
 url: https://github.com/microsoft/vscode
 ---
@@ -73,7 +73,7 @@ This repository includes a Visual Studio Code Dev Containers / GitHub Codespaces
 -   For Codespaces, install the GitHub Codespaces extension in VS Code, and use the **Codespaces: Create New Codespace** command.
     
 
-Docker / the Codespace should have at least **4 Cores and 6 GB of RAM (8 GB recommended)** to run full build. See the development container README for more information.
+Docker / the Codespace should have at least **4 Cores and 6 GB of RAM (8 GB recommended)** to run a full build. See the development container README for more information.
 
 Code of Conduct
 ---------------

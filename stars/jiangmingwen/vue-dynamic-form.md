@@ -1,6 +1,6 @@
 ---
 project: vue-dynamic-form
-stars: 45
+stars: 44
 description: vue+antd实现的动态表单，可拖拽，可响应式，完全自定义布局
 url: https://github.com/jiangmingwen/vue-dynamic-form
 ---

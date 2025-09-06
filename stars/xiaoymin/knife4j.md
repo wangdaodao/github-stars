@@ -1,6 +1,6 @@
 ---
 project: knife4j
-stars: 4392
+stars: 4397
 description: Knife4j is a set of Swagger2 and OpenAPI3 All-in-one enhancement solution
 url: https://github.com/xiaoymin/knife4j
 ---

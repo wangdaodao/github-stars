@@ -1,6 +1,6 @@
 ---
 project: emoji-mart
-stars: 9146
+stars: 9161
 description: 🏪 One component to pick them all
 url: https://github.com/missive/emoji-mart
 ---

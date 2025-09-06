@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 65043
+stars: 65062
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -12,31 +12,6 @@ maintained by @hlohaus**
 
 Support the project on GitHub Sponsors ❤️
 
-Important
-
-**GPT4Free Manifesto**
-
-We live in a time where access to information and technology is increasingly restricted. Large corporations seek to monopolize control over their models, subjecting essential resources to strict terms of service and opaque practices. But we are here to stand against this tide.
-
-We declare:
-
-1.  **Open Access:** Developing software and utilizing AI models is not illegal. It is a basic right that belongs to everyone. The notion that developing or using AI for purposes outside of what large companies dictate constitutes a legal violation is not only incorrect, but it is also an attack on creativity and innovation.
-    
-2.  **Collaboration Over Isolation:** Instead of monopolizing a platform through enclosure, we should connect various models together. Only through collaboration can we make the benefits of AI accessible to all and foster diversity and progress.
-    
-3.  **Against Privatization:** The privatization and isolation of models by large companies is not only dishonest but also unethical. It hinders progress and innovation while restricting developers' and users' opportunities. We rise against this form of market dominance.
-    
-4.  **For the Community:** Let’s build a community that promotes the free exchange of ideas and technologies. An effective and just system must reflect the diversity of voices and perspectives.
-    
-5.  **Unleashing Creativity:** We firmly believe that the true value of AI lies in its ability to solve problems, support, and inspire. Let us not be held back by restrictive practices.
-    
-
-In this spirit, we proclaim: The future of AI does not belong to a few giant corporations; it belongs to each and every one of us. Let’s work together to create a space where innovation can flourish, and where everyone has access to the tools they need to express themselves and grow.
-
-Note
-
-Together, we will shape an open, inclusive, and more just digital world. 🤗
-
 > **Latest version:**  
 >   
 > **Stats:**  
@@ -44,6 +19,17 @@ Together, we will shape an open, inclusive, and more just digital world. 🤗
 pip install -U g4f\[all\]
 
 docker pull hlohaus789/g4f
+
+npm install @gpt4free/g4f.dev
+
+🚀 **Experience Live G4F**
+--------------------------
+
+Want to see G4F in action? Explore a live demo now!
+
+tablet2.webm
+
+Curious to see what G4F can do? Dive into a live demonstration and visit the official g4f.dev homepage for more.
 
 🆕 What's New
 -------------
@@ -63,20 +49,6 @@ docker pull hlohaus789/g4f
 -   **Read our Documentation** 📖  
     Find detailed guidance and resources at g4f.dev/docs.
     
-
-🔻 Site Takedown
-----------------
-
-Is your site on this repository and you want to take it down? Send an email to takedown@g4f.ai with proof it is yours and it will be removed as fast as possible. To prevent reproduction please secure your API. 😉
-
-🚀 **Experience Live G4F**
---------------------------
-
-Want to see G4F in action? Explore a live demo now!
-
-tablet2.webm
-
-Curious to see what G4F can do? Dive into a live demonstration and visit the official g4f.dev homepage for more.
 
 * * *
 
@@ -223,6 +195,23 @@ response \= client.images.generate(
 
 print(f"Generated image URL: {response.data\[0\].url}")
 
+### 🧙‍♂️ Using GPT4Free.js
+
+Use the **official JS client** right in the browser—no backend needed.
+
+For text generation:
+
+<script type\="module"\>
+    import Client from 'https://g4f.dev/dist/js/client.js';
+
+    const client \= new Client();
+    const result \= await client.chat.completions.create({
+        model: 'gpt-4.1',  // Or "gpt-4o", "deepseek-v3"
+        messages: \[{ role: 'user', content: 'Explain quantum computing' }\]
+    });
+    console.log(result.choices\[0\].message.content);
+</script\>
+
 ### 🌐 Web Interface
 
 **Run the GUI using Python:**
@@ -312,7 +301,6 @@ Contributors
 
 A list of all contributors is available here
 
--   The `Vercel.py` file contains code from vercel-llm-api by @ading2210
 -   The `har_file.py` has input from xqdoo00o/ChatGPT-to-API
 -   The `PerplexityLabs.py` has input from nathanrchn/perplexityai
 -   The `Gemini.py` has input from dsdanielpark/Gemini-API
@@ -322,13 +310,46 @@ A list of all contributors is available here
 
 _Having input implies that the AI's code generation utilized it as one of many sources._
 
+⭐ Star History
+--------------
+
+Important
+
+**GPT4Free Manifesto**
+
+We live in a time where access to information and technology is increasingly restricted. Large corporations seek to monopolize control over their models, subjecting essential resources to strict terms of service and opaque practices. But we are here to stand against this tide.
+
+We declare:
+
+1.  **Open Access:** Developing software and utilizing AI models is not illegal. It is a basic right that belongs to everyone. The notion that developing or using AI for purposes outside of what large companies dictate constitutes a legal violation is not only incorrect, but it is also an attack on creativity and innovation.
+    
+2.  **Collaboration Over Isolation:** Instead of monopolizing a platform through enclosure, we should connect various models together. Only through collaboration can we make the benefits of AI accessible to all and foster diversity and progress.
+    
+3.  **Against Privatization:** The privatization and isolation of models by large companies is not only dishonest but also unethical. It hinders progress and innovation while restricting developers' and users' opportunities. We rise against this form of market dominance.
+    
+4.  **For the Community:** Let’s build a community that promotes the free exchange of ideas and technologies. An effective and just system must reflect the diversity of voices and perspectives.
+    
+5.  **Unleashing Creativity:** We firmly believe that the true value of AI lies in its ability to solve problems, support, and inspire. Let us not be held back by restrictive practices.
+    
+
+In this spirit, we proclaim: The future of AI does not belong to a few giant corporations; it belongs to each and every one of us. Let’s work together to create a space where innovation can flourish, and where everyone has access to the tools they need to express themselves and grow.
+
+Note
+
+Together, we will shape an open, inclusive, and more just digital world. 🤗
+
+🔻 Site Takedown
+----------------
+
+Is your site on this repository and you want to take it down? Send an email to takedown@g4f.ai with proof it is yours and it will be removed as fast as possible. To prevent reproduction please secure your API. 😉
+
 ©️ Copyright
 ------------
 
 This program is licensed under the GNU GPL v3
 
 ```
-xtekky/gpt4free: Copyright (C) 2023 xtekky
+xtekky/gpt4free: Copyright (C) 2025 xtekky
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -343,9 +364,6 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
-
-⭐ Star History
---------------
 
 📄 License
 ----------

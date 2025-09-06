@@ -1,6 +1,6 @@
 ---
 project: vxe-pc-ui
-stars: 171
+stars: 168
 description: Vxe UI 支持 vue2, vue3 的 PC 端组件库
 url: https://github.com/x-extends/vxe-pc-ui
 ---
@@ -77,7 +77,7 @@ QQ 交流群
 -   breadcrumb 面包屑
     -   breadcrumb-item 面包屑-项
 -   button 按钮
-    -   button-group 按钮组
+-   button-group 按钮组
 -   calendar 日历
 -   card 卡片
 -   carousel 走马灯
