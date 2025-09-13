@@ -1,6 +1,6 @@
 ---
 project: vue-okr-tree
-stars: 645
+stars: 644
 description: http://www.longstudy.club/vue-okr-tree-doc/index.html
 url: https://github.com/husky-dot/vue-okr-tree
 ---

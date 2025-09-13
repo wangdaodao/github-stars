@@ -1,6 +1,6 @@
 ---
 project: duilib
-stars: 5876
+stars: 5878
 description: null
 url: https://github.com/duilib/duilib
 ---

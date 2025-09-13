@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3019
+stars: 3033
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Rufous hummingbird, Golden Gate Park, San Francisco, California (© jeremyborkat/Getty Images)
+Today: Chimney Rock, Point Reyes National Seashore, California (© Enrique Aguirre Aves/Getty Images)
+
+2025-09-14 download 4k
+
+2025-09-13 download 4k
+
+2025-09-12 download 4k
+
+2025-09-11 download 4k
+
+2025-09-10 download 4k
+
+2025-09-09 download 4k
+
+2025-09-08 download 4k
 
 2025-09-07 download 4k
 
@@ -55,20 +69,6 @@ Today: Rufous hummingbird, Golden Gate Park, San Francisco, California (© jerem
 2025-08-17 download 4k
 
 2025-08-16 download 4k
-
-2025-08-15 download 4k
-
-2025-08-14 download 4k
-
-2025-08-13 download 4k
-
-2025-08-12 download 4k
-
-2025-08-11 download 4k
-
-2025-08-10 download 4k
-
-2025-08-09 download 4k
 
 ### 历史归档：
 

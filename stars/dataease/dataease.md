@@ -1,6 +1,6 @@
 ---
 project: dataease
-stars: 21742
+stars: 21838
 description: 🔥 人人可用的开源 BI 工具，数据可视化神器。An open-source BI tool alternative to Tableau.
 url: https://github.com/dataease/dataease
 ---
@@ -19,7 +19,8 @@ DataEase 是开源的 BI 工具，帮助用户快速分析数据并洞察业务�
 -   开源开放：零门槛，线上快速获取和安装，按月迭代；
 -   简单易用：极易上手，通过鼠标点击和拖拽即可完成分析；
 -   全场景支持：多平台安装和多样化嵌入支持；
--   安全分享：支持多种数据分享方式，确保数据安全。
+-   安全分享：支持多种数据分享方式，确保数据安全；
+-   AI 加持：无缝集成 SQLBot 实现智能问数。
 
 **DataEase 支持的数据源：**
 

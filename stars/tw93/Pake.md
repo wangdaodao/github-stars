@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 41957
+stars: 42158
 description: 🤱🏻 Turn any webpage into a desktop app with one command. 🤱🏻 一键打包网页生成轻量桌面应用。
 url: https://github.com/tw93/Pake
 ---
@@ -18,7 +18,7 @@ Features
 -   🎐 **Lightweight**: Nearly 20 times smaller than Electron packages, typically around 5M
 -   🚀 **Fast**: Built with Rust Tauri, much faster than traditional JS frameworks with lower memory usage
 -   ⚡ **Easy to use**: One-command packaging via CLI or online building, no complex configuration needed
--   📦 **Feature-rich**: Supports shortcut pass-through, immersive windows, drag & drop, style customization, ad removal
+-   📦 **Feature-rich**: Supports shortcuts, immersive windows, drag & drop, style customization, ad removal
 
 Getting Started
 ---------------
@@ -127,14 +127,14 @@ In addition, double-click the title bar to switch to full-screen mode. For Mac u
 Command-Line Packaging
 ----------------------
 
-# Install
+# Install Pake CLI
 pnpm install -g pake-cli
 
-# Basic usage (auto-fetch website icon)
-pake https://weekly.tw93.fun --name Weekly
+# Basic usage - automatically fetches website icon
+pake https://github.com --name GitHub
 
-# Common options: --name app name, --icon custom icon, --width/--height window size, --hide-title-bar macOS immersive
-pake https://weekly.tw93.fun --name Weekly --icon https://cdn.tw93.fun/pake/weekly.icns --hide-title-bar
+# Advanced usage with custom options
+pake https://weekly.tw93.fun --name Weekly --icon https://cdn.tw93.fun/pake/weekly.icns --width 1200 --height 800 --hide-title-bar
 
 First-time packaging requires environment setup and may be slower, subsequent builds are fast. For complete parameter documentation, see CLI Usage Guide. Don't want to use CLI? Try GitHub Actions Online Building.
 
@@ -259,6 +259,9 @@ Pake's development can not be without these Hackers. They contributed a lot of c
 **Jiaqi Gu**
 
   
+**Johannlai**
+
+  
 **Luminall**
 
   
@@ -297,7 +300,7 @@ Pake's development can not be without these Hackers. They contributed a lot of c
 Support
 -------
 
-1.  I have two cats, TangYuan and Coke. If you think Pake delights your life, you can feed them some canned food 🥩.
+1.  I have two cats, TangYuan and Coke. If you think Pake delights your life, you can feed them food 🥩.
 2.  If you like Pake, you can star it on GitHub. Also, welcome to recommend Pake to your friends.
 3.  You can follow my Twitter to get the latest news of Pake or join our Telegram chat group.
 4.  I hope that you enjoy playing with it. Let us know if you find a website that would be great for a Mac App!

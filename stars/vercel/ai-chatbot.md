@@ -1,6 +1,6 @@
 ---
 project: ai-chatbot
-stars: 17827
+stars: 17950
 description: A full-featured, hackable Next.js AI chatbot built by Vercel
 url: https://github.com/vercel/ai-chatbot
 ---
@@ -36,7 +36,7 @@ Features
 Model Providers
 ---------------
 
-This template uses the Vercel AI Gateway to access multiple AI models through a unified interface. The default configuration includes xAI models (`grok-2-vision-1212`, `grok-3-mini-beta`) routed through the gateway.
+This template uses the Vercel AI Gateway to access multiple AI models through a unified interface. The default configuration includes xAI models (`grok-2-vision-1212`, `grok-3-mini`) routed through the gateway.
 
 ### AI Gateway Authentication
 

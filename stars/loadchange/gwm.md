@@ -1,6 +1,6 @@
 ---
 project: gwm
-stars: 209
+stars: 210
 description: 🍭gwm.js Generate Watermark  用于生成网页水印，警示信息安全与责任追踪。
 url: https://github.com/loadchange/gwm
 ---
@@ -18,12 +18,10 @@ It can be used to generate watermarking in internal system, which can prompt inf
 -   Supporting element monitoring to prevent tampering
 -   Extensibility
 
-### Screenshot
-
 Example
 -------
 
-Click here to see the effect →：Demo示例
+Click here to see the effect →：Demo
 
 Instructions
 ------------
@@ -134,9 +132,9 @@ Setting Watermark Element Styles
 
 destroy
 
-true
+false
 
-If \`true\`, cannot be called repeatedly \`creation\`
+If \`true\`, prevents multiple calls to \`creation\` to protect against tampering
 
 container
 

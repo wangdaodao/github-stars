@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 26047
+stars: 26058
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.09.07) —— 第2336天
+🕟 今天的知识点 (2025.09.14) —— 第2343天
 --------------------------------
 
-        :one: \[ECMAScript\] ECMAScript的主要版本有哪些？每个版本引入了哪些新特性？
+        :one: \[ECMAScript\] 对象的深拷贝和浅拷贝的区别是什么？请给出实现方法并解释
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2335天 (2025.09.06)  
-    1️⃣ \[TypeScript\] 描述一个你使用TypeScript进行插件或扩展开发的案例
+-   第2342天 (2025.09.13)  
+    1️⃣ \[ECMAScript\] 请解释位操作符在JavaScript中的作用和使用场景，并给出示例
     
 -   **查看全部**
     

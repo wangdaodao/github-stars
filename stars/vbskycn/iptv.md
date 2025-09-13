@@ -1,6 +1,6 @@
 ---
 project: iptv
-stars: 4490
+stars: 4528
 description: iptv最新可用直播源,支持iptv4/iptv6双栈访问。直播电视系统，这里有折腾好的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
 url: https://github.com/vbskycn/iptv
 ---
@@ -23,7 +23,7 @@ default
 
 本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
 
-IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,live.izbds.com,live.zbds.top, liev.zbds.org
+IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app,livetv.izbds.com,live.izbds.com,live.zbds.top, liev.zbds.org
 
 /
 
@@ -35,7 +35,7 @@ true
 🔄永久免费 完全开源 不含广告 直播源支持IPv4/IPv6双栈访问🔄
 -------------------------------------
 
-本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。  
+本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备，支持各种播放器。  
   
 **请注意:**直播源全部来源于网络公开资源，本项目不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性。为维持网站开销，页面上有些自动广告链接，上面有标注，请自行甄别。
 
@@ -54,7 +54,7 @@ true
 
 **IPTV4直播源**由部署在服务器上的程序自动扫描验证，确保**直播源**的时效性和稳定性。
 
-本次更新时间: 2025-09-07 00:38:00
+本次更新时间: 2025-09-14 06:27:54
 
 名称
 
@@ -64,13 +64,13 @@ true
 
 TXT 格式直播源
 
-https://live.zbds.org/tv/iptv4.txt
+https://livetv.izbds.com/tv/iptv4.txt
 
 快速复制
 
 M3U 格式直播源（已带台标和EPG）
 
-https://live.zbds.org/tv/iptv4.m3u
+https://livetv.izbds.com/tv/iptv4.m3u
 
 快速复制
 
@@ -89,7 +89,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 **IPTV6直播源**专为IPv6网络优化，由部署在服务器上的程序自动扫描验证，确保**直播源**的时效和稳定
 
-本次更新时间: 2025-09-07 00:38:00
+本次更新时间: 2025-09-14 06:27:54
 
 _有ipv6环境的强烈推荐这个列表，高速稳定_
 
@@ -103,13 +103,13 @@ _有ipv6环境的强烈推荐这个列表，高速稳定_
 
 TXT 格式直播源
 
-https://live.zbds.org/tv/iptv6.txt
+https://livetv.izbds.com/tv/iptv6.txt
 
 快速复制
 
 M3U 格式直播源（已带台标和EPG）
 
-https://live.zbds.org/tv/iptv6.m3u
+https://livetv.izbds.com/tv/iptv6.m3u
 
 快速复制
 

@@ -1,6 +1,6 @@
 ---
 project: es6tutorial
-stars: 21436
+stars: 21431
 description: 《ECMAScript 6入门》是一本开源的 JavaScript 语言教程，全面介绍 ECMAScript 6 新增的语法特性。
 url: https://github.com/ruanyf/es6tutorial
 ---

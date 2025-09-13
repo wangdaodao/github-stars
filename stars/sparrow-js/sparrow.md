@@ -1,6 +1,6 @@
 ---
 project: sparrow
-stars: 3213
+stars: 3210
 description: 🎉场景化低代码（LowCode）搭建工作台，实时输出源代码
 url: https://github.com/sparrow-js/sparrow
 ---

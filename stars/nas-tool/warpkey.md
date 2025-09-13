@@ -1,6 +1,6 @@
 ---
 project: warpkey
-stars: 68
+stars: 69
 description: CloudFlare Key Collection Tool CloudFlare WARP KEY收集工具，WARP KEY收集工具，每小时自动更新https://www.wanghaoyu.com.cn/archives/cloudflare-warp-key.html
 url: https://github.com/nas-tool/warpkey
 ---

@@ -1,6 +1,6 @@
 ---
 project: rock-markdown-editor
-stars: 114
+stars: 113
 description: Cross-platform Markdown Editor
 url: https://github.com/superRaytin/rock-markdown-editor
 ---

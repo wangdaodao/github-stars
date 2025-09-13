@@ -1,6 +1,6 @@
 ---
 project: lowcode-materials
-stars: 348
+stars: 351
 description: An enterprise-class low-code technology stack with scale-out design / 一套面向扩展设计的企业级低代码技术体系
 url: https://github.com/alibaba/lowcode-materials
 ---

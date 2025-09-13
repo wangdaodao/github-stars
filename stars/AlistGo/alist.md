@@ -1,6 +1,6 @@
 ---
 project: alist
-stars: 48340
+stars: 48348
 description: 🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 url: https://github.com/AlistGo/alist
 ---
@@ -28,6 +28,7 @@ Features
     -   UPYUN Storage Service
     -   WebDav(Support OneDrive/SharePoint without API)
     -   Teambition(China,International)
+    -   MediaFire
     -   Mediatrack
     -   139yun (Personal, Family, Group)
     -   YandexDisk

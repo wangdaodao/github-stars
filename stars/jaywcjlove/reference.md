@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 14433
+stars: 14448
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -44,7 +44,7 @@ Tuple, the premier screen sharing app for developers on macOS and Windows.
 
 坑已挖，需要您的参与完善和贡献！🙏
 
-Ansible CMake C# Django FFmpeg Flask FastAPI Flutter Gitlab CI/CD LaTeX Lua NestJS MATLAB Oracle Pytorch Vue 3 Github Copilot Chown R 语言 Elixir Tauri Docker Compose
+Ansible CMake C# Django FFmpeg Flask FastAPI Flutter Gitlab CI/CD LaTeX Lua NestJS MATLAB Oracle Pytorch Vue 3 Github Copilot Chown R 语言 Elixir Tauri Claude Code
 
 编程
 --
@@ -94,7 +94,7 @@ ADB, Android Debug Bridge Ansible Awk Curl Chmod Chown Cron CMake CMD .NET CLI F
 工具
 --
 
-ChatGPT Emacs Linux Command Mitmproxy nginx RegEx 正则表达式 Semver 语义化版本 Vim XPath
+ChatGPT Claude Code Emacs Linux Command Mitmproxy nginx RegEx 正则表达式 Semver 语义化版本 Vim XPath
 
 软件包管理器
 ------

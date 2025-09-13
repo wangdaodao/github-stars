@@ -1,188 +1,252 @@
 ---
 project: gpt4free
-stars: 65062
+stars: 65096
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
 
-* * *
+GPT4Free (g4f)
+==============
 
 **Created by @xtekky,  
 maintained by @hlohaus**
 
 Support the project on GitHub Sponsors ❤️
 
-> **Latest version:**  
->   
-> **Stats:**  
-
-pip install -U g4f\[all\]
-
-docker pull hlohaus789/g4f
-
-npm install @gpt4free/g4f.dev
-
-🚀 **Experience Live G4F**
---------------------------
-
-Want to see G4F in action? Explore a live demo now!
-
-tablet2.webm
-
-Curious to see what G4F can do? Dive into a live demonstration and visit the official g4f.dev homepage for more.
-
-🆕 What's New
--------------
-
--   **Explore the latest features and updates**  
-    Find comprehensive details on our Releases Page.
-    
--   **Stay updated with our Telegram Channel** 📨  
-    Join us at telegram.me/g4f\_channel.
-    
--   **Subscribe to our Discord News Channel** 💬🆕️  
-    Stay informed about updates via our News Channel: discord.gg/5E39JUWUFa.
-    
--   **Get support in our Discord Community** 🤝💻  
-    Reach out for help in our Support Group: discord.gg/qXA4Wf4Fsm.
-    
--   **Read our Documentation** 📖  
-    Find detailed guidance and resources at g4f.dev/docs.
-    
+Live demo & docs: https://g4f.dev | Documentation: https://g4f.dev/docs
 
 * * *
 
-📚 Table of Contents
---------------------
+GPT4Free (g4f) is a community-driven project that aggregates multiple accessible providers and interfaces to make working with modern LLMs and media-generation models easier and more flexible. GPT4Free aims to offer multi-provider support, local GUI, OpenAI-compatible REST APIs, and convenient Python and JavaScript clients — all under a community-first license.
 
--   🆕 What's New
--   📚 Table of Contents
--   ⚡ Getting Started
-    -   🛠 Installation
-        -   🐳 Using Docker
-        -   🪟 Windows Guide (.exe)
-        -   🐍 Python Installation
--   💡 Usage
-    -   📝 Text Generation
-    -   🎨 Image Generation
-    -   🌐 Web Interface
-    -   🖥️ Local Inference
-    -   🤖 Interference API
-    -   🛠️ Configuration
-    -   📱 Run on Smartphone
-    -   📘 Full Documentation for Python API
--   🚀 Providers and Models
--   🔗 Powered by gpt4free
--   🤝 Contribute
-    -   How do i create a new Provider?
-    -   How can AI help me with writing code?
--   🙌 Contributors
--   ©️ Copyright
--   ⭐ Star History
--   📄 License
+This README is a consolidated, improved, and complete guide to installing, running, and contributing to GPT4Free.
+
+Table of contents
+
+-   What’s included
+-   Quick links
+-   Requirements & compatibility
+-   Installation
+    -   Docker (recommended)
+    -   Slim Docker image
+    -   Windows (.exe)
+    -   Python (pip / from source / partial installs)
+-   Running the app
+    -   GUI (web client)
+    -   FastAPI / Interference API
+    -   CLI
+    -   Optional provider login (desktop in container)
+-   Using the Python client
+    -   Synchronous text example
+    -   Image generation example
+    -   Async client example
+-   Using GPT4Free.js (browser JS client)
+-   Providers & models (overview)
+-   Local inference & media
+-   Configuration & customization
+-   Running on smartphone
+-   Interference API (OpenAI‑compatible)
+-   Examples & common patterns
+-   Contributing
+    -   How to create a new provider
+    -   How AI can help you write code
+-   Security, privacy & takedown policy
+-   Credits, contributors & attribution
+-   Powered-by highlights
+-   Changelog & releases
+-   Manifesto / Project principles
+-   License
+-   Contact & sponsorship
+-   Appendix: Quick commands & examples
 
 * * *
 
-⚡️ Getting Started
-------------------
-
-🛠 Installation
+What’s included
 ---------------
 
-### 🐳 Using Docker
+-   Python client library and async client.
+-   Optional local web GUI.
+-   FastAPI-based OpenAI-compatible API (Interference API).
+-   Official browser JS client (g4f.dev distribution).
+-   Docker images (full and slim).
+-   Multi-provider adapters (LLMs, media providers, local inference backends).
+-   Tooling for image/audio/video generation and media persistence.
 
-1.  **Install Docker:** Download and install Docker.
-2.  **Set Up Directories:** Before running the container, make sure the necessary data directories exist or can be created. For example, you can create and set ownership on these directories by running:
+* * *
 
-mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_media
-sudo chown -R 1200:1201 ${PWD}/har\_and\_cookies ${PWD}/generated\_media
+Quick links
+-----------
 
-1.  **Run the Docker Container:** Use the following commands to pull the latest image and start the container (Only x64):
+-   Website & docs: https://g4f.dev | https://g4f.dev/docs
+-   PyPI: https://pypi.org/project/g4f
+-   Docker image: https://hub.docker.com/r/hlohaus789/g4f
+-   Releases: https://github.com/xtekky/gpt4free/releases
+-   Issues: https://github.com/xtekky/gpt4free/issues
+-   Community: Telegram (https://telegram.me/g4f\_channel) · Discord News (https://discord.gg/5E39JUWUFa) · Discord Support (https://discord.gg/qXA4Wf4Fsm)
 
-docker pull hlohaus789/g4f
-docker run -p 8080:8080 -p 7900:7900 \\
-  --shm-size="2g" \\
-  -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
-  -v ${PWD}/generated\_media:/app/generated\_media \\
-  hlohaus789/g4f:latest
+* * *
 
-1.  **Running the Slim Docker Image:** And use the following commands to run the Slim Docker image. This command also updates the `g4f` package at startup and installs any additional dependencies: (x64 and arm64)
+Requirements & compatibility
+----------------------------
+
+-   Python 3.10+ recommended.
+-   Google Chrome/Chromium for providers using browser automation.
+-   Docker for containerized deployment.
+-   Works on x86\_64 and arm64 (slim image supports both).
+-   Some provider adapters may require platform-specific tooling (Chrome/Chromium, etc.). Check provider docs for details.
+
+* * *
+
+Installation
+------------
+
+### Docker (recommended)
+
+1.  Install Docker: https://docs.docker.com/get-docker/
+2.  Create persistent directories:
+    -   Example (Linux/macOS):
+        
+        mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_media
+        sudo chown -R 1200:1201 ${PWD}/har\_and\_cookies ${PWD}/generated\_media
+        
+3.  Pull image:
+    
+    docker pull hlohaus789/g4f
+    
+4.  Run container:
+    
+    docker run -p 8080:8080 -p 7900:7900 \\
+      --shm-size="2g" \\
+      -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
+      -v ${PWD}/generated\_media:/app/generated\_media \\
+      hlohaus789/g4f:latest
+    
+
+Notes:
+
+-   Port 8080 serves GUI/API; 7900 can expose a VNC-like desktop for provider logins (optional).
+-   Increase --shm-size for heavier browser automation tasks.
+
+### Slim Docker image (x64 & arm64)
 
 mkdir -p ${PWD}/har\_and\_cookies ${PWD}/generated\_media
 chown -R 1000:1000 ${PWD}/har\_and\_cookies ${PWD}/generated\_media
+
 docker run \\
   -p 1337:8080 -p 8080:8080 \\
   -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
   -v ${PWD}/generated\_media:/app/generated\_media \\
   hlohaus789/g4f:latest-slim
 
-1.  **Access the Client Interface:**
-    
-    -   **To use the included client, navigate to:** http://localhost:8080/chat/
-    -   **Or set the API base for your client to:** http://localhost:8080/v1
-2.  **(Optional) Provider Login:** If required, you can access the container's desktop here: http://localhost:7900/?autoconnect=1&resize=scale&password=secret for provider login purposes.
-    
+Notes:
 
-* * *
+-   The slim image can update the g4f package on startup and installs additional dependencies as needed.
+-   In this example, the Interference API is mapped to 1337.
 
-### 🪟 Windows Guide (.exe)
+### Windows Guide (.exe)
 
-To ensure the seamless operation of our application, please follow the instructions below. These steps are designed to guide you through the installation process on Windows operating systems.
+1.  Download the release artifact `g4f.exe.zip` from: https://github.com/xtekky/gpt4free/releases/latest
+2.  Unzip and run `g4f.exe`.
+3.  Open GUI at: http://localhost:8080/chat/
+4.  If Windows Firewall blocks access, allow the application.
 
-**Installation Steps:**
+### Python Installation (pip / from source / partial installs)
 
-1.  **Download the Application**: Visit our releases page and download the most recent version of the application, named `g4f.exe.zip`.
-2.  **File Placement**: After downloading, locate the `.zip` file in your Downloads folder. Unpack it to a directory of your choice on your system, then execute the `g4f.exe` file to run the app.
-3.  **Open GUI**: The app starts a web server with the GUI. Open your favorite browser and navigate to http://localhost:8080/chat/ to access the application interface.
-4.  **Firewall Configuration (Hotfix)**: Upon installation, it may be necessary to adjust your Windows Firewall settings to allow the application to operate correctly. To do this, access your Windows Firewall settings and allow the application.
+Prerequisites:
 
-By following these steps, you should be able to successfully install and run the application on your Windows system. If you encounter any issues during the installation process, please refer to our Issue Tracker or try to get contact over Discord for assistance.
+-   Python 3.10+ (https://www.python.org/downloads/)
+-   Chrome/Chromium for some providers.
 
-* * *
-
-### 🐍 Python Installation
-
-#### Prerequisites:
-
-1.  Install Python 3.10+ from python.org.
-2.  Install Google Chrome for certain providers.
-
-#### Install with PyPI:
+Install from PyPI (recommended):
 
 pip install -U g4f\[all\]
 
-> How do I install only parts or do disable parts? **Use partial requirements:** /docs/requirements
+Partial installs
 
-#### Install from Source:
+-   To install only specific functionality, use optional extras groups. See docs/requirements.md in the project docs.
+
+Install from source:
 
 git clone https://github.com/xtekky/gpt4free.git
 cd gpt4free
 pip install -r requirements.txt
+pip install -e .
 
-> How do I load the project using git and installing the project requirements? **Read this tutorial and follow it step by step:** /docs/git
+Notes:
+
+-   Some features require Chrome/Chromium or other tools; follow provider-specific docs.
 
 * * *
 
-💡 Usage
---------
+Running the app
+---------------
 
-### 📝 Text Generation
+### GUI (web client)
+
+-   Run via Python:
+
+from g4f.gui import run\_gui
+run\_gui()
+
+-   Or via CLI:
+
+python -m g4f.cli gui --port 8080 --debug
+
+-   Open: http://localhost:8080/chat/
+
+### FastAPI / Interference API
+
+-   Start FastAPI server:
+
+python -m g4f --port 8080 --debug
+
+-   If using slim docker mapping, Interference API may be available at `http://localhost:1337/v1`
+-   Swagger UI: `http://localhost:1337/docs`
+
+### CLI
+
+-   Start GUI server:
+
+python -m g4f.cli gui --port 8080 --debug
+
+### Optional provider login (desktop within container)
+
+-   Accessible at:
+    
+    ```
+    http://localhost:7900/?autoconnect=1&resize=scale&password=secret
+    ```
+    
+-   Useful for logging into web-based providers to obtain cookies/HAR files.
+
+* * *
+
+Using the Python client
+-----------------------
+
+Install:
+
+pip install -U g4f\[all\]
+
+Synchronous text example:
 
 from g4f.client import Client
 
 client \= Client()
 response \= client.chat.completions.create(
     model\="gpt-4o-mini",
-    messages\=\[{"role": "user", "content": "Hello"}\],
+    messages\=\[{"role": "user", "content": "Hello, how are you?"}\],
     web\_search\=False
 )
 print(response.choices\[0\].message.content)
+
+Expected:
 
 ```
 Hello! How can I assist you today?
 ```
 
-### 🎨 Image Generation
+Image generation example:
 
 from g4f.client import Client
 
@@ -192,161 +256,212 @@ response \= client.images.generate(
     prompt\="a white siamese cat",
     response\_format\="url"
 )
-
 print(f"Generated image URL: {response.data\[0\].url}")
 
-### 🧙‍♂️ Using GPT4Free.js
+Async client example:
 
-Use the **official JS client** right in the browser—no backend needed.
+from g4f.async\_client import AsyncClient
+import asyncio
 
-For text generation:
+async def main():
+    client \= AsyncClient()
+    response \= await client.chat.completions.create(
+        model\="gpt-4o-mini",
+        messages\=\[{"role": "user", "content": "Explain quantum computing briefly"}\],
+    )
+    print(response.choices\[0\].message.content)
+
+asyncio.run(main())
+
+Notes:
+
+-   See the full API reference for streaming, tool-calling patterns, and advanced options: https://g4f.dev/docs/client
+
+* * *
+
+Using GPT4Free.js (browser JS client)
+-------------------------------------
+
+Use the official JS client in the browser—no backend required.
+
+Example:
 
 <script type\="module"\>
-    import Client from 'https://g4f.dev/dist/js/client.js';
+  import Client from 'https://g4f.dev/dist/js/client.js';
 
-    const client \= new Client();
-    const result \= await client.chat.completions.create({
-        model: 'gpt-4.1',  // Or "gpt-4o", "deepseek-v3"
-        messages: \[{ role: 'user', content: 'Explain quantum computing' }\]
-    });
-    console.log(result.choices\[0\].message.content);
+  const client \= new Client();
+  const result \= await client.chat.completions.create({
+      model: 'gpt-4.1',  // Or "gpt-4o", "deepseek-v3", etc.
+      messages: \[{ role: 'user', content: 'Explain quantum computing' }\]
+  });
+  console.log(result.choices\[0\].message.content);
 </script\>
 
-### 🌐 Web Interface
+Notes:
 
-**Run the GUI using Python:**
-
-from g4f.gui import run\_gui
-
-run\_gui()
-
-**Run via CLI (To start the Flask Server):**
-
-python -m g4f.cli gui --port 8080 --debug
-
-**Or, start the FastAPI Server:**
-
-python -m g4f --port 8080 --debug
-
-> **Learn More About the GUI:** For detailed instructions on how to set up, configure, and use the GPT4Free GUI, refer to the GUI Documentation . This guide includes step-by-step details on provider selection, managing conversations, using advanced features like speech recognition, and more.
+-   The JS client is distributed via the g4f.dev CDN for easy usage. Review CORS considerations and usage limits.
 
 * * *
 
-### 🤖 Interference API
+Providers & models (overview)
+-----------------------------
 
-The **Interference API** enables seamless integration with OpenAI's services through G4F, allowing you to deploy efficient AI solutions.
+-   GPT4Free integrates many providers including (but not limited to) OpenAI-compatible endpoints, PerplexityLabs, Gemini, MetaAI, Pollinations (media), and local inference backends.
+-   Model availability and behavior depend on provider capabilities. See the providers doc for current, supported provider/model lists: https://g4f.dev/docs/providers-and-models
 
--   **Documentation**: Interference API Docs
--   **Endpoint**: `http://localhost:1337/v1`
--   **Swagger UI**: Explore the OpenAPI documentation via Swagger UI at `http://localhost:1337/docs`
--   **Provider Selection**: How to Specify a Provider?
+Provider requirements may include:
 
-This API is designed for straightforward implementation and enhanced compatibility with other OpenAI integrations.
-
-* * *
-
-### 📱 Run on Smartphone
-
-Run the Web UI on your smartphone for easy access on the go. Check out the dedicated guide to learn how to set up and use the GUI on your mobile device: Run on Smartphone Guide
+-   API keys or tokens (for authenticated providers)
+-   Browser cookies / HAR files for providers scraped via browser automation
+-   Chrome/Chromium or headless browser tooling
+-   Local model binaries and runtime (for local inference)
 
 * * *
 
-#### **📘 Full Documentation for Python API**
+Local inference & media
+-----------------------
 
--   **Client API from G4F:** /docs/client
--   **AsyncClient API from G4F:** /docs/async\_client
--   **Requests API from G4F:** /docs/requests
--   **File API from G4F:** /docs/file
--   **PydanticAI and LangChain Integration for G4F:** /docs/pydantic\_ai
--   **Legacy API with python modules:** /docs/legacy
--   **G4F - Media Documentation (Image, Audio and Video)** /docs/media _(New)_
+-   GPT4Free supports local inference backends. See docs/local.md for supported runtimes and hardware guidance.
+-   Media generation (image, audio, video) is supported through providers (e.g., Pollinations). See docs/media.md for formats, options, and sample usage.
 
 * * *
 
-### Powered by Pollinations AI
+Configuration & customization
+-----------------------------
 
-**🌟 Pollinations AI**
-
-A creative AI content platform that generates images, audios, and other media using advanced generative models. Pollinations AI empowers users and developers to turn text into visuals and multimedia experiences.
-
-> pollinations/pollinations on GitHub
+-   Configure via environment variables, CLI flags, or config files. See docs/config.md.
+-   To reduce install size, use partial requirement groups. See docs/requirements.md.
+-   Provider selection: learn how to set defaults and override per-request at docs/selecting\_a\_provider.md.
+-   Persistence: HAR files, cookies, and generated media persist in mapped directories (e.g., har\_and\_cookies, generated\_media).
 
 * * *
 
-### Powered by GPT4Free
+Running on smartphone
+---------------------
 
-**💸 MoneyPrinter**
+-   The web GUI is responsive and can be accessed from a phone by visiting your host IP:8080 or via a tunnel. See docs/guides/phone.md.
 
-MoneyPrinter V2 cranks up the automation for making money online. It’s a complete overhaul of the original MoneyPrinter, rebuilt from the ground up for more features and a plug-and-play, modular design. MPV2 takes the grind and guesswork out of online income: just set it up, let it run, and watch your earnings stack.
+* * *
 
-> FujiwaraChoki/MoneyPrinterV2 on GitHub
+Interference API (OpenAI‑compatible)
+------------------------------------
 
-> Full list of GPT4Free powered sites and tools
+-   The Interference API enables OpenAI-like workflows routed through GPT4Free provider selection.
+-   Docs: docs/interference-api.md
+-   Default endpoint (example slim docker): `http://localhost:1337/v1`
+-   Swagger UI: `http://localhost:1337/docs`
 
-🤝 Contribute
--------------
+* * *
 
-We welcome contributions from the community. Whether you're adding new providers or features, or simply fixing typos and making small improvements, your input is valued. Creating a pull request is all it takes – our co-pilot will handle the code review process. Once all changes have been addressed, we'll merge the pull request into the main branch and release the updates at a later time.
+Examples & common patterns
+--------------------------
 
-###### Guide: How do i create a new Provider?
+-   Streaming completions, stopping criteria, system messages, and tool-calling patterns are documented in:
+    -   docs/client.md
+    -   docs/async\_client.md
+    -   docs/requests.md
+-   Integrations (LangChain, PydanticAI): docs/pydantic\_ai.md
+-   Legacy examples: docs/legacy.md
 
--   **Read:** Create Provider Guide
+* * *
 
-###### Guide: How can AI help me with writing code?
-
--   **Read:** AI Assistance Guide
-
-Contributors
+Contributing
 ------------
 
-A list of all contributors is available here
+Contributions are welcome — new providers, features, docs, and fixes are appreciated.
 
--   The `har_file.py` has input from xqdoo00o/ChatGPT-to-API
--   The `PerplexityLabs.py` has input from nathanrchn/perplexityai
--   The `Gemini.py` has input from dsdanielpark/Gemini-API
--   The `MetaAI.py` file contains code from meta-ai-api by @Strvm
--   The `proofofwork.py` has input from missuo/FreeGPT35
--   The `Gemini.py` has input from HanaokaYuzu/Gemini-API
+How to contribute:
 
-_Having input implies that the AI's code generation utilized it as one of many sources._
+1.  Fork the repository.
+2.  Create a branch for your change.
+3.  Run tests and linters.
+4.  Open a Pull Request with a clear description and tests/examples if applicable.
 
-⭐ Star History
---------------
+Repository: https://github.com/xtekky/gpt4free
 
-Important
+### How to create a new provider
 
-**GPT4Free Manifesto**
+-   Read the guide: docs/guides/create\_provider.md
+-   Typical steps:
+    -   Implement a provider adapter in `g4f/Provider/`
+    -   Add configuration and dependency notes
+    -   Include tests and usage examples
+    -   Respect third‑party code licenses and attribute appropriately
 
-We live in a time where access to information and technology is increasingly restricted. Large corporations seek to monopolize control over their models, subjecting essential resources to strict terms of service and opaque practices. But we are here to stand against this tide.
+### How AI can help you write code
 
-We declare:
+-   See: docs/guides/help\_me.md for prompt templates and workflows to accelerate development.
 
-1.  **Open Access:** Developing software and utilizing AI models is not illegal. It is a basic right that belongs to everyone. The notion that developing or using AI for purposes outside of what large companies dictate constitutes a legal violation is not only incorrect, but it is also an attack on creativity and innovation.
-    
-2.  **Collaboration Over Isolation:** Instead of monopolizing a platform through enclosure, we should connect various models together. Only through collaboration can we make the benefits of AI accessible to all and foster diversity and progress.
-    
-3.  **Against Privatization:** The privatization and isolation of models by large companies is not only dishonest but also unethical. It hinders progress and innovation while restricting developers' and users' opportunities. We rise against this form of market dominance.
-    
-4.  **For the Community:** Let’s build a community that promotes the free exchange of ideas and technologies. An effective and just system must reflect the diversity of voices and perspectives.
-    
-5.  **Unleashing Creativity:** We firmly believe that the true value of AI lies in its ability to solve problems, support, and inspire. Let us not be held back by restrictive practices.
-    
+* * *
 
-In this spirit, we proclaim: The future of AI does not belong to a few giant corporations; it belongs to each and every one of us. Let’s work together to create a space where innovation can flourish, and where everyone has access to the tools they need to express themselves and grow.
+Security, privacy & takedown policy
+-----------------------------------
 
-Note
+-   Do not store or share sensitive credentials. Use per-provider recommended security practices.
+-   If your site appears in the project’s links and you want it removed, send proof of ownership to takedown@g4f.ai and it will be removed promptly.
+-   For production, secure the server with HTTPS, authentication, and firewall rules. Limit access to provider credentials and cookie/HAR storage.
 
-Together, we will shape an open, inclusive, and more just digital world. 🤗
+* * *
 
-🔻 Site Takedown
-----------------
+Credits, contributors & attribution
+-----------------------------------
 
-Is your site on this repository and you want to take it down? Send an email to takedown@g4f.ai with proof it is yours and it will be removed as fast as possible. To prevent reproduction please secure your API. 😉
+-   Core creators: @xtekky (original), maintained by @hlohaus.
+-   Full contributor graph: https://github.com/xtekky/gpt4free/graphs/contributors
+-   Notable code inputs and attributions:
+    -   `har_file.py` — input from xqdoo00o/ChatGPT-to-API
+    -   `PerplexityLabs.py` — input from nathanrchn/perplexityai
+    -   `Gemini.py` — input from dsdanielpark/Gemini-API and HanaokaYuzu/Gemini-API
+    -   `MetaAI.py` — inspired by meta-ai-api by Strvm
+    -   `proofofwork.py` — input from missuo/FreeGPT35
 
-©️ Copyright
-------------
+Many more contributors are acknowledged in the repository.
 
-This program is licensed under the GNU GPL v3
+* * *
+
+Powered-by highlights
+---------------------
+
+-   Pollinations AI — generative media: https://github.com/pollinations/pollinations
+-   MoneyPrinter V2 — example project using GPT4Free: https://github.com/FujiwaraChoki/MoneyPrinterV2
+-   For a full list of projects and sites using GPT4Free, see: docs/powered-by.md
+
+* * *
+
+Changelog & releases
+--------------------
+
+-   Releases and full changelog: https://github.com/xtekky/gpt4free/releases
+-   Subscribe to Discord/Telegram for announcements.
+
+* * *
+
+Manifesto / Project principles
+------------------------------
+
+GPT4Free is guided by community principles:
+
+1.  Open access to AI tooling and models.
+2.  Collaboration across providers and projects.
+3.  Opposition to monopolistic, closed systems that restrict creativity.
+4.  Community-centered development and broad access to AI technologies.
+5.  Promote innovation, creativity, and accessibility.
+
+https://g4f.dev/manifest
+
+* * *
+
+License
+-------
+
+This program is licensed under the GNU General Public License v3.0 (GPLv3). See the full license: https://www.gnu.org/licenses/gpl-3.0.txt
+
+Summary:
+
+-   You may redistribute and/or modify under the terms of GPLv3.
+-   The program is provided WITHOUT ANY WARRANTY.
+
+Copyright notice
 
 ```
 xtekky/gpt4free: Copyright (C) 2025 xtekky
@@ -360,17 +475,63 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>.
 ```
-
-📄 License
-----------
-
-  
-This project is licensed under GNU\_GPL\_v3.0.
 
 * * *
 
-(🔼 Back to top)
+Contact & sponsorship
+---------------------
+
+-   Maintainers: https://github.com/hlohaus
+-   Sponsorship: https://github.com/sponsors/hlohaus
+-   Issues & feature requests: https://github.com/xtekky/gpt4free/issues
+-   Takedown requests: takedown@g4f.ai
+
+* * *
+
+Appendix: Quick commands & examples
+-----------------------------------
+
+Install (pip):
+
+pip install -U g4f\[all\]
+
+Run GUI (Python):
+
+python -m g4f.cli gui --port 8080 --debug
+# or
+python -c "from g4f.gui import run\_gui; run\_gui()"
+
+Docker (full):
+
+docker pull hlohaus789/g4f
+docker run -p 8080:8080 -p 7900:7900 \\
+  --shm-size="2g" \\
+  -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
+  -v ${PWD}/generated\_media:/app/generated\_media \\
+  hlohaus789/g4f:latest
+
+Docker (slim):
+
+docker run -p 1337:8080 -p 8080:8080 \\
+  -v ${PWD}/har\_and\_cookies:/app/har\_and\_cookies \\
+  -v ${PWD}/generated\_media:/app/generated\_media \\
+  hlohaus789/g4f:latest-slim
+
+Python usage patterns:
+
+-   `client.chat.completions.create(...)`
+-   `client.images.generate(...)`
+-   Async variants via `AsyncClient`
+
+Docs & deeper reading
+
+-   Full docs: https://g4f.dev/docs
+-   Client API docs: https://g4f.dev/docs/client
+-   Async client docs: https://g4f.dev/docs/async\_client
+-   Provider guides: https://g4f.dev/docs/guides
+-   Local inference: https://g4f.dev/docs/local
+
+* * *
+
+Thank you for using and contributing to GPT4Free — together we make powerful AI tooling accessible, flexible, and community-driven.

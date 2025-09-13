@@ -1,6 +1,6 @@
 ---
 project: chili3d
-stars: 3824
+stars: 3843
 description: A web-based 3D CAD application for online model design and editing
 url: https://github.com/xiangechen/chili3d
 ---

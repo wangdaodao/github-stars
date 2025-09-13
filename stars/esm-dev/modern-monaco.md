@@ -1,6 +1,6 @@
 ---
 project: modern-monaco
-stars: 1285
+stars: 1320
 description: A modern version of Monaco Editor.
 url: https://github.com/esm-dev/modern-monaco
 ---
@@ -94,7 +94,7 @@ export default {
       },
     );
     return new Response(
-      /\* html \*/\`
+      /\* html \*/ \`
         ${editorHTML}
         <script type="module">
           import { hydrate } from "https://esm.sh/modern-monaco";
@@ -330,7 +330,7 @@ export interface LSPLanguageConfig {
 
 modern-monaco uses import maps to resolve **bare specifier** imports in JavaScript/TypeScript. By default, modern-monaco detects the `importmap` from the root `index.html` in the workspace.
 
-const indexHtml \= /\* html \*/\`<!DOCTYPE html>
+const indexHtml \= /\* html \*/ \`<!DOCTYPE html>
 <html>
   <head>
     <script type="importmap">

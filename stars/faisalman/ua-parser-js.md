@@ -1,6 +1,6 @@
 ---
 project: ua-parser-js
-stars: 9833
+stars: 9843
 description: The most comprehensive, compact, and up-to-date JavaScript library to detect user's browser, OS, CPU, and device type/model. Also detect bots, apps, and more. Runs seamlessly in the browser (client-side) or Node.js (server-side).
 url: https://github.com/faisalman/ua-parser-js
 ---
@@ -8,7 +8,7 @@ url: https://github.com/faisalman/ua-parser-js
 UAParser.js
 ===========
 
-The most comprehensive, compact, & up-to-date isomorphic JavaScript library to detect user's Browser, Engine, OS, CPU, and Device type/model. Runs either in browser (client-side) or node.js (server-side).
+The most comprehensive, compact, and up-to-date JavaScript library to detect user's browser, OS, CPU, and device type/model. Also detect bots, apps, and more. Runs seamlessly in the browser (client-side) or Node.js (server-side).
 
 Demo
 ====
@@ -23,8 +23,8 @@ Documentation
 
 Before upgrading from `v0.7` / `v1.0`, please read CHANGELOG to see what's new & breaking.
 
-License Options
-===============
+Package & Pricing
+=================
 
 Open-Source Editions
 
@@ -32,9 +32,9 @@ PRO / Commercial Editions
 
 License options
 
-MIT (v0.7~v1.0)
+MIT (v1.x)
 
-AGPL (>=v2.0)
+AGPL (v2.x)
 
 PRO Personal
 
@@ -186,18 +186,6 @@ ES modules support
 
 ✅
 
-npm module
-
-✅
-
-✅
-
-✅
-
-✅
-
-✅
-
 TypeScript declarations
 
 ⚠️
@@ -210,7 +198,31 @@ TypeScript declarations
 
 ✅
 
-Allows commercial use
+npm module available
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+Direct downloads available
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+Allows commercial usage
 
 ✅
 
@@ -234,7 +246,31 @@ Permissive (non-copyleft) license
 
 ✅
 
-Unlimited use per 1 license
+No open-source obligations
+
+✅
+
+**❌**
+
+✅
+
+✅
+
+✅
+
+Unlimited end-products
+
+✅
+
+✅
+
+✅
+
+**❌**
+
+✅
+
+Unlimited deployments
 
 ✅
 
@@ -272,9 +308,9 @@ Lifetime updates
 
 Price
 
-**FREE (License)**
+**FREE\* (License)**
 
-**FREE (License)**
+**FREE\* (License)**
 
 **$14 (License)**
 
@@ -297,4 +333,4 @@ Made with contributors-img.
 Backers & Sponsors
 ------------------
 
-You can support the open-source editions of UAParser.js through one of the following options:
+Support the **open-source editions** of UAParser.js through one of the following options:

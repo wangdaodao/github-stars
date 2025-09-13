@@ -1,6 +1,6 @@
 ---
 project: mind-map
-stars: 10309
+stars: 10358
 description: SimpleMindMap（思绪思维导图）：一个强大的Web思维导图。A powerful web mind map.
 url: https://github.com/wanglin2/mind-map
 ---

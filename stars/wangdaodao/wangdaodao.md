@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-09-07 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-09-14 06:18.
 
 📝 Hitokoto
 -----------
 
-> 盛年不重来，一日难再晨。—— 陶渊明
+> 今天不想做，所以才要做—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Rufous hummingbird, Golden Gate Park, San Francisco, California (© jeremyborkat/Getty Images)_
+_Chimney Rock, Point Reyes National Seashore, California (© Enrique Aguirre Aves/Getty Images)_
 
 📚 My Blog posts ...
 --------------------
