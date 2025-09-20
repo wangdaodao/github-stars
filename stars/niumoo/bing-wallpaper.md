@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3033
+stars: 3051
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Chimney Rock, Point Reyes National Seashore, California (© Enrique Aguirre Aves/Getty Images)
+Today: Swing carousel at Oktoberfest, Munich, Germany (© LOOK-foto/Alamy)
+
+2025-09-21 download 4k
+
+2025-09-20 download 4k
+
+2025-09-19 download 4k
+
+2025-09-18 download 4k
+
+2025-09-17 download 4k
+
+2025-09-16 download 4k
+
+2025-09-15 download 4k
 
 2025-09-14 download 4k
 
@@ -55,20 +69,6 @@ Today: Chimney Rock, Point Reyes National Seashore, California (© Enrique Aguir
 2025-08-24 download 4k
 
 2025-08-23 download 4k
-
-2025-08-22 download 4k
-
-2025-08-21 download 4k
-
-2025-08-20 download 4k
-
-2025-08-19 download 4k
-
-2025-08-18 download 4k
-
-2025-08-17 download 4k
-
-2025-08-16 download 4k
 
 ### 历史归档：
 

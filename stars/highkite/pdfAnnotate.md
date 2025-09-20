@@ -1,6 +1,6 @@
 ---
 project: pdfAnnotate
-stars: 613
+stars: 614
 description: Javascript library for creating annotations in PDF documents
 url: https://github.com/highkite/pdfAnnotate
 ---

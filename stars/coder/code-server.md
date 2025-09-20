@@ -1,6 +1,6 @@
 ---
 project: code-server
-stars: 73835
+stars: 73930
 description: VS Code in the browser
 url: https://github.com/coder/code-server
 ---

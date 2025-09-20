@@ -1,6 +1,6 @@
 ---
 project: mammoth.js
-stars: 5668
+stars: 5674
 description: Convert Word documents (.docx files) to HTML
 url: https://github.com/mwilliamson/mammoth.js
 ---
@@ -299,7 +299,7 @@ Converts the source document to HTML.
         
     -   `includeDefaultStyleMap`: by default, the style map passed in `styleMap` is combined with the default style map. To stop using the default style map altogether, set `options.includeDefaultStyleMap` to `false`.
         
-    -   `externalFileAccess`: Source documents may reference files outside of the source document. To disable access to any such external files during the conversion process, set `options.externalFileAccess` to `false`. This is highly recommended when converting untrusted user input.
+    -   `externalFileAccess`: Source documents may reference files outside of the source document. Access to any such external files is disabled by default. To enable access when converting trusted source documents, set `options.externalFileAccess` to `true`.
         
     -   `convertImage`: by default, images are converted to `<img>` elements with the source included inline in the `src` attribute. Set this option to an image converter to override the default behaviour.
         
@@ -413,7 +413,7 @@ Mammoth performs no sanitisation of the source document, and should therefore be
     
 -   Source documents may reference files outside of the source document. If, for instance, you allow users to upload source documents to a server, automatically convert the document into HTML on the server, and embed the HTML into your website, this may allow arbitrary files on the server to be read and exfiltrated.
     
-    To disable access to any such external files during the conversion process, set `options.externalFileAccess` to `false`.
+    To avoid this issue, access to any such external files is disabled by default. To enable access when converting trusted source documents, set `options.externalFileAccess` to `true`.
     
 
 ### Document transforms

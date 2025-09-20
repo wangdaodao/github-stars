@@ -1,6 +1,6 @@
 ---
 project: wechat-article-exporter
-stars: 4434
+stars: 4468
 description: 一个在线的微信公众号文章批量下载工具，支持下载阅读量与评论数据，支持私有化部署，通过浏览器进行使用，无需进行安装
 url: https://github.com/wechat-article/wechat-article-exporter
 ---
@@ -11,6 +11,17 @@ wechat-article-exporter
 一个在线的微信公众号文章批量下载工具，支持下载阅读量与评论数据，无需搭建任何环境，HTML 格式可100%还原文章样式，支持私有化部署，可在 Windows/macOS/Linux 系统上使用。
 
 交流群(QQ): `991482155`
+
+部署站点
+----
+
+开源版
+
+专业版
+
+https://free-wxdown.deno.dev
+
+https://exporter.wxdown.online
 
 文档
 --
@@ -58,6 +69,15 @@ wechat-article-exporter
 -----
 
 MIT
+
+声明
+--
+
+本程序(开源版 and 专业版)承诺，不会利用您扫码登录的公众号进行任何形式的私有爬虫，也就是说不存在把你的账号作为公共账号为别人爬取文章的行为，也不存在类似账号池的东西。
+
+您的公众号只会服务于您自己的抓取文章的目的。
+
+通过本程序获取的公众号文章内容，版权归文章原作者所有，请合理使用。若发现侵权行为，请通过邮件联系我们。
 
 ⭐ Star 历史
 ---------

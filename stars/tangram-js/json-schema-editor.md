@@ -1,6 +1,6 @@
 ---
 project: json-schema-editor
-stars: 286
+stars: 287
 description: JSON Schema Editor is an intuitive editor for JSON schema. It provides a tree view to present the structure of schema, and a property inspector to edit the properties of schema element. Develop with Vue.js 2 and Firebase.
 url: https://github.com/tangram-js/json-schema-editor
 ---

@@ -1,6 +1,6 @@
 ---
 project: bing
-stars: 1701
+stars: 1699
 description: Bing 壁纸 API
 url: https://github.com/xCss/bing
 ---

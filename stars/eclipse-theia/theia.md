@@ -1,6 +1,6 @@
 ---
 project: theia
-stars: 21013
+stars: 21026
 description: Eclipse Theia is a cloud & desktop IDE framework implemented in TypeScript.
 url: https://github.com/eclipse-theia/theia
 ---
@@ -110,6 +110,11 @@ Documentation
     -   Coding Guidelines
     -   Code Organization
     -   Plugin and VSCode API
+
+SBOM
+----
+
+To enhance supply chain security and offer users clear insight into project components, Eclipse Theia now generates a Software Bill of Materials (SBOM) for every release. These are published to the Eclipse Foundation SBOM registry, with access instructions and usage details available in this documentation.
 
 License
 -------

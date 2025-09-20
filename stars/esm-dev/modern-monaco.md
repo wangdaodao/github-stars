@@ -1,6 +1,6 @@
 ---
 project: modern-monaco
-stars: 1320
+stars: 1334
 description: A modern version of Monaco Editor.
 url: https://github.com/esm-dev/modern-monaco
 ---
@@ -321,8 +321,6 @@ export interface LSPLanguageConfig {
     compilerOptions?: ts.CompilerOptions;
     /\*\* The global import map. \*/
     importMap?: ImportMap;
-    /\*\* The version of TypeScript from the CDN. Default: ">= 5.0.0" \*/
-    tsVersion?: string;
   };
 }
 

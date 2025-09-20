@@ -1,6 +1,6 @@
 ---
 project: myIPTV
-stars: 3754
+stars: 3840
 description: 【典藏版】高清直播源涵盖几乎所有卫视节目，内置完美台标加节目预告
 url: https://github.com/suxuang/myIPTV
 ---
@@ -46,6 +46,8 @@ url: https://github.com/suxuang/myIPTV
 🆕更新日志
 ------
 
+-   2025/09/18：更新部分直播源，如果看不了就换个组
+    
 -   2025/09/04：更新央视备用频道，修复失效台标，同时感谢视友们的赞赏
     
 -   2025/08/25：新增了多个直播合集，哪个能看就看哪个

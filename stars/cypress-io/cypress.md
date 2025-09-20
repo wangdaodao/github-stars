@@ -1,6 +1,6 @@
 ---
 project: cypress
-stars: 48873
+stars: 49179
 description: Fast, easy and reliable testing for anything that runs in a browser.
 url: https://github.com/cypress-io/cypress
 ---

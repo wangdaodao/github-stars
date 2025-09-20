@@ -1,6 +1,6 @@
 ---
 project: epic-designer
-stars: 559
+stars: 563
 description: vue3 表单设计器
 url: https://github.com/Kchengz/epic-designer
 ---

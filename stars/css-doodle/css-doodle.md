@@ -1,14 +1,14 @@
 ---
 project: css-doodle
-stars: 5837
+stars: 5841
 description: A web component for visual art and creative coding
 url: https://github.com/css-doodle/css-doodle
 ---
 
-<css-doodle />
-==============
+css-doodle
+==========
 
-A web component for drawing patterns with CSS.
+A web component designed to explore the creative potential of CSS in a simple and expressive manner. It facilitates the creation of graphic patterns, visual backgrounds, handcrafted icons, and random decorations.
 
 Example
 -------

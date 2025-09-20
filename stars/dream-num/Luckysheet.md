@@ -1,6 +1,6 @@
 ---
 project: Luckysheet
-stars: 16468
+stars: 16486
 description: Luckysheet upgraded to Univer
 url: https://github.com/dream-num/Luckysheet
 ---

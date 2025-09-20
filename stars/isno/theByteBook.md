@@ -1,7 +1,7 @@
 ---
 project: theByteBook
-stars: 8332
-description: ⭐ 【开源书籍】深入讲解内核网络、Kubernetes、ServiceMesh、容器等云原生相关技术。经历实践检验的 DevOps、SRE指南。如发现错误，谢谢提issue
+stars: 8344
+description: ⭐ 【出版书籍】京东购买链接 https://item.jd.com/10183653901041.html  深入讲解内核网络、Kubernetes、ServiceMesh、容器等云原生相关技术。经历实践检验的 DevOps、SRE指南。
 url: https://github.com/isno/theByteBook
 ---
 
@@ -11,9 +11,10 @@ url: https://github.com/isno/theByteBook
 这是什么？
 -----
 
-这是一本关于架构设计的开源书籍，已经完稿。如果阅读文章发现问题，欢迎在 github 给我提交 PR 或者 issue。
+这是一本关于架构设计的开源书籍，已经出版。如果阅读文章发现问题，欢迎在 github 给我提交 PR 或者 issue。
 
-以下为我的公众号，欢迎与我讨论技术。
+-   出版书籍名称 **《深入高可用系统原理与设计》**，在京东、淘宝搜索书名可购买。
+-   【京东购买】https://item.jd.com/10183653901041.html
 
 ⭐️ 为什么要写这个？
 -----------

@@ -1,6 +1,6 @@
 ---
 project: js-screen-shot
-stars: 916
+stars: 917
 description: web端自定义截图插件(原生JS版)
 url: https://github.com/likaia/js-screen-shot
 ---
@@ -382,6 +382,22 @@ screenShotHandler.destroyComponents()
         });
 
 > 注意：此方法在1.9.9版本之后不再返回字符串类型的数据，而是返回的对象格式。
+
+#### getCutBoxInfo
+
+该函数用于获取裁剪框的位置信息，返回值为一个对象，有下述字段：
+
+-   `startX` 数字类型的数据，x点坐标
+-   `startY` 数字类型的数据，y点坐标
+-   `width` 数字类型的数据，裁剪框宽度
+-   `height` 数字类型的数据，裁剪框高度
+
+示例代码：
+
+import ScreenShot from "js-web-screen-shot";
+
+const screenShotHandler \= new ScreenShot();
+const info \= screenShotHandler.getCutBoxInfo();
 
 ### 工具栏图标定制
 

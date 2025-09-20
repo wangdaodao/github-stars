@@ -1,6 +1,6 @@
 ---
 project: ant-design-vue
-stars: 21109
+stars: 21111
 description: 🌈  An enterprise-class UI components based on Ant Design and Vue. 🐜
 url: https://github.com/vueComponent/ant-design-vue
 ---
@@ -123,7 +123,6 @@ ant-design-vue is an MIT-licensed open source project. In order to achieve bette
 -   Patreon
 -   opencollective
 -   paypal
--   支付宝或微信
 -   ETH: 0x30cc48515d8ae9fefa20ab87226ad7e8ab9c3bc2
 
 Sponsors

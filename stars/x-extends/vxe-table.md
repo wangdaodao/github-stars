@@ -1,6 +1,6 @@
 ---
 project: vxe-table
-stars: 8301
+stars: 8314
 description: vxe table 支持 vue2, vue3 的表格解决方案
 url: https://github.com/x-extends/vxe-table
 ---
@@ -10,7 +10,7 @@ vxe-table
 
 简体中文 | 繁體中文 | English | 日本語
 
-一个基于 Vxe UI 的 PC 端表格组件，支持复制粘贴、数据透视表、虚拟列表高性能的企业级表格解决方案
+一个基于 Vxe UI 的 PC 端表格组件，支持增删改查的可编辑表格，支持复制粘贴、数据透视表、虚拟列表高性能的企业级表格解决方案
 
 -   设计理念
     

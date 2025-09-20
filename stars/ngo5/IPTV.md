@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 3326
+stars: 3630
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---

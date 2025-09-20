@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-09-14 06:18.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-09-21 06:19.
 
 📝 Hitokoto
 -----------
 
-> 今天不想做，所以才要做—— 佚名
+> リア充死ね！—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Chimney Rock, Point Reyes National Seashore, California (© Enrique Aguirre Aves/Getty Images)_
+_Swing carousel at Oktoberfest, Munich, Germany (© LOOK-foto/Alamy)_
 
 📚 My Blog posts ...
 --------------------

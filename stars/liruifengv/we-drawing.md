@@ -1,6 +1,6 @@
 ---
 project: we-drawing
-stars: 607
+stars: 609
 description: AI画图。每天一句中国古诗词，生成 AI 图片。
 url: https://github.com/liruifengv/we-drawing
 ---

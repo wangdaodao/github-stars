@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 27329
+stars: 27517
 description: PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -10,39 +10,35 @@ English | 简体中文 | 繁體中文 | 日本語 | 한국어
 PDFMathTranslate
 ----------------
 
-PDF scientific paper translation and bilingual comparison.
+1\. What does this do?
+----------------------
 
--   📊 Preserve formulas, charts, table of contents, and annotations _(preview)_.
+Scientific PDF document translation preserving layouts.
+
+-   📊 Preserve formulas, charts, table of contents, and annotations.
 -   🌐 Support multiple languages, and diverse translation services.
 -   🤖 Provides commandline tool, interactive user interface, and Docker
 
-Feel free to provide feedback in GitHub Issues or Telegram Group.
-
-For details on how to contribute, please consult the Contribution Guide.
-
-Updates
--------
+2\. Recent Updates
+------------------
 
 -   \[May 9, 2025\] pdf2zh 2.0 Preview Version #586: The Windows ZIP file and Docker image are now available.
-
-Note
-
-2.0 Moved to a new repository under the organization: PDFMathTranslate/PDFMathTranslate-next
-
-Version 2.0 official release has been published.
-
+    
+    > \[!NOTE\]
+    > 
+    > 2.0 Moved to a new repository under the organization: PDFMathTranslate/PDFMathTranslate-next
+    > 
+    > Version 2.0 official release has been published.
+    
 -   \[Mar. 3, 2025\] Experimental support for the new backend BabelDOC WebUI added as an experimental option (by @awwaawwa)
+    
 -   \[Feb. 22 2025\] Better release CI and well-packaged windows-amd64 exe (by @awwaawwa)
--   \[Dec. 24 2024\] The translator now supports local models on Xinference _(by @imClumsyPanda)_
--   \[Dec. 19 2024\] Non-PDF/A documents are now supported using `-cp` _(by @reycn)_
--   \[Dec. 13 2024\] Additional support for backend by _(by @YadominJinta)_
--   \[Dec. 10 2024\] The translator now supports OpenAI models on Azure _(by @yidasanqian)_
+    
 
-Preview
--------
+3\. Use 🌟
+----------
 
-Online Service 🌟
------------------
+### 3.1 Online Service 🌟
 
 You can try our application out using either of the following demos:
 
@@ -53,14 +49,11 @@ You can try our application out using either of the following demos:
 
 Note that the computing resources of the demo are limited, so please avoid abusing them.
 
-Installation and Usage
-----------------------
-
-### Methods
+### 3.2 Local Installation
 
 For different use cases, we provide distinct methods to use our program:
 
-1\. UV install
+3.2.1 Python: Install using uv
 
 1.  Python installed (3.10 <= version <= 3.12)
     
@@ -74,14 +67,20 @@ For different use cases, we provide distinct methods to use our program:
     pdf2zh document.pdf
     
 
-2\. Windows exe
+3.2.2 Python: Install using pip
 
-1.  Download pdf2zh-version-win64.zip from release page
+1.  Python installed (3.10 <= version <= 3.12)
     
-2.  Unzip and double-click `pdf2zh.exe` to run.
+2.  Install our package:
+    
+    pip install pdf2zh
+    
+3.  Execute translation, files generated in current working directory:
+    
+    pdf2zh document.pdf
     
 
-3\. Graphic user interface
+3.3.3 Python: Graphic user interface
 
 1.  Python installed (3.10 <= version <= 3.12)
     
@@ -101,7 +100,22 @@ pip install pdf2zh
 
 See documentation for GUI for more details.
 
-4\. Docker
+3.2.4 Application: On Windows
+
+1.  Download pdf2zh-version-win64.zip from release page
+    
+2.  Unzip and double-click `pdf2zh.exe` to run.
+    
+
+> \[!TIP\]
+> 
+> -   If you're using Windows and cannot open the file after downloading, please install vc\_redist.x64.exe and try again.
+
+3.2.5 Reference manager: Zotero Plugin
+
+See Zotero PDF2zh for more details.
+
+3.2.6 Docker: Containerized Deployment
 
 1.  Pull and run:
     
@@ -117,36 +131,18 @@ See documentation for GUI for more details.
 
 For docker deployment on cloud service:
 
-5\. Zotero Plugin
+> \[!TIP\]
+> 
+> -   If you cannot access Docker Hub, please try the image on GitHub Container Registry.
+> 
+> docker pull ghcr.io/byaidu/pdfmathtranslate
+> docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate
 
-See Zotero PDF2zh for more details.
+3.2.\* Solutions for network issues in installation
 
-6\. Commandline
+Users in specific regions may encounter network difficulties when loading the AI model. The current program relies on the AI model (`wybxc/DocLayout-YOLO-DocStructBench-onnx`), and some users are unable to download it due to these network issues.
 
-1.  Python installed (3.10 <= version <= 3.12)
-    
-2.  Install our package:
-    
-    pip install pdf2zh
-    
-3.  Execute translation, files generated in current working directory:
-    
-    pdf2zh document.pdf
-    
-
-Tip
-
--   If you're using Windows and cannot open the file after downloading, please install vc\_redist.x64.exe and try again.
-    
--   If you cannot access Docker Hub, please try the image on GitHub Container Registry.
-    
-
-docker pull ghcr.io/byaidu/pdfmathtranslate
-docker run -d -p 7860:7860 ghcr.io/byaidu/pdfmathtranslate
-
-### Unable to install?
-
-The present program needs an AI model(`wybxc/DocLayout-YOLO-DocStructBench-onnx`) before working and some users are not able to download due to network issues. If you have a problem with downloading this model, we provide a workaround using the following environment variable:
+To address issues with downloading this model, use the following environment variable as a workaround:
 
 set HF\_ENDPOINT=https://hf-mirror.com
 
@@ -154,10 +150,12 @@ For PowerShell user:
 
 $env:HF\_ENDPOINT = https://hf-mirror.com
 
-If the solution does not work to you / you encountered other issues, please refer to frequently asked questions.
+If the solution does not work to you / you encountered other issues, please refer to Frequently Asked Questions.
 
-Advanced Options
-----------------
+4\. Technical Details
+---------------------
+
+### 4.1 Advanced options
 
 Execute the translation command in the command line to generate the translated document `example-mono.pdf` and the bilingual document `example-dual.pdf` in the current working directory. Use Google as the default translation service. More support translation services can find HERE.
 
@@ -315,16 +313,49 @@ Enable MCP SSE mode
 
 For detailed explanations, please refer to our document about Advanced Usage for a full list of each option.
 
-Secondary Development (APIs)
-----------------------------
+### 4.2 Downstream Development
 
-For downstream applications, please refer to our document about API Details for further information about:
+For downstream applications, please refer to our document about \[API Details\](./docs/APIS.md) for further information about:
 
 -   Python API, how to use the program in other Python programs
 -   HTTP API, how to communicate with a server with the program installed
 
-Acknowledgements
-----------------
+### 4.3 Differences between two major forks
+
+-   Byaidu/PDFMathTranslate: The present and the original project for stable release.
+    
+-   PDFMathTranslate/PDFMathTranslate-next: A fork with web-ui and additional features. This fork handles a large number of marginal cases, improves PDF compatibility, and optimizes cross-column and cross-page semantic consistency, dynamic scaling, and dynamic scaling consistency, among many other translation quality improvements. However, this fork is intended solely for development and does not address compatibility issues and is not designed for community-contributions.
+    
+
+5\. Project Information
+-----------------------
+
+### 5.1 Citation
+
+This work has been accepted by the _Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations_ (EMNLP 2025).
+
+-   Pre-print version: PDFMathTranslate: Scientific Document Translation Preserving Layouts
+    
+    ```
+    @online{ouyang2025pdfmathtranslate,
+      title = {{{PDFMathTranslate}}: {{Scientific Document Translation Preserving Layouts}}},
+      shorttitle = {{{PDFMathTranslate}}},
+      author = {Ouyang, Rongxin and Chu, Chang and Xin, Zhikuang and Ma, Xiangyao},
+      date = {2025-07-08},
+      eprint = {2507.03009},
+      eprinttype = {arXiv},
+      eprintclass = {cs},
+      doi = {10.48550/arXiv.2507.03009},
+      url = {http://arxiv.org/abs/2507.03009},
+      urldate = {2025-08-27},
+      pubstate = {prepublished}
+    }
+    ```
+    
+-   The citation for the EMNLP proceedings will be provided upon release.
+    
+
+### 5.2 Acknowledgement
 
 -   Immersive Translation sponsors monthly Pro membership redemption codes for active contributors to this project, see details at: CONTRIBUTOR\_REWARD.md
     
@@ -347,8 +378,8 @@ Acknowledgements
 -   Multilingual Font: Go Noto Universal
     
 
-Contributors
-------------
+### 5.3 Contributors
 
-Star History
-------------
+For details on how to contribute, please consult the Contribution Guide.
+
+### 5.4 Star History

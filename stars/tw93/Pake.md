@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 42158
+stars: 42295
 description: 🤱🏻 Turn any webpage into a desktop app with one command. 🤱🏻 一键打包网页生成轻量桌面应用。
 url: https://github.com/tw93/Pake
 ---
@@ -301,6 +301,11 @@ Support
 -------
 
 1.  I have two cats, TangYuan and Coke. If you think Pake delights your life, you can feed them food 🥩.
+    
 2.  If you like Pake, you can star it on GitHub. Also, welcome to recommend Pake to your friends.
+    
 3.  You can follow my Twitter to get the latest news of Pake or join our Telegram chat group.
+    
 4.  I hope that you enjoy playing with it. Let us know if you find a website that would be great for a Mac App!
+    
+5.  CDN acceleration and security protection for this project are sponsored by Tencent EdgeOne.

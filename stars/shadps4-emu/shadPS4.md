@@ -1,6 +1,6 @@
 ---
 project: shadPS4
-stars: 26157
+stars: 26253
 description: PlayStation 4 emulator for Windows, Linux and macOS written in C++
 url: https://github.com/shadps4-emu/shadPS4
 ---
@@ -10,6 +10,14 @@ url: https://github.com/shadps4-emu/shadPS4
 **shadPS4**  
 
 ====================
+
+Bloodborne by From Software
+
+Hatsune Miku Project DIVA Future Tone by SEGA
+
+Yakuza 0 by SEGA
+
+DRIVECLUB™ by Evolution Studios
 
 General information
 ===================
