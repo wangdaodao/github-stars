@@ -5,7 +5,7 @@ description: Lerna is a fast, modern build system for managing and publishing mu
 url: https://github.com/lerna/lerna
 ---
 
-> **Important note: this project recently changed stewardship to Nrwl!**
+> **Important note: this project changed stewardship to Nx!**
 > 
 > **Your favorite tool is alive and well: https://blog.nrwl.io/lerna-5-1-new-website-new-guides-new-lerna-example-repo-distributed-caching-support-and-speed-64d66410bec7**
 

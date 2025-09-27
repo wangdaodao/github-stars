@@ -1,6 +1,6 @@
 ---
 project: approvalFlow
-stars: 1248
+stars: 1250
 description: 基于form-generator，仿钉钉审批流程创建（表单创建/流程节点可视化配置/必填条件及校验）
 url: https://github.com/SNFocus/approvalFlow
 ---

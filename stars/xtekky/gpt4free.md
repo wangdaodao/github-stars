@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 65134
+stars: 65162
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -260,7 +260,7 @@ print(f"Generated image URL: {response.data\[0\].url}")
 
 Async client example:
 
-from g4f.async\_client import AsyncClient
+from g4f.client import AsyncClient
 import asyncio
 
 async def main():

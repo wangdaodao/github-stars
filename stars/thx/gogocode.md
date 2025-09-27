@@ -1,6 +1,6 @@
 ---
 project: gogocode
-stars: 6032
+stars: 6036
 description: GoGoCode is a transformer for JavaScript/Typescript/HTML based on AST but providing a more intuitive API.
 url: https://github.com/thx/gogocode
 ---

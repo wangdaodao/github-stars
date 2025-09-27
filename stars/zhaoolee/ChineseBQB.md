@@ -1,6 +1,6 @@
 ---
 project: ChineseBQB
-stars: 14798
+stars: 14823
 description: 🇨🇳 Chinese sticker pack,More joy / 表情包的博物馆, Github最有毒的仓库, 中国表情包大集合, 聚欢乐~
 url: https://github.com/zhaoolee/ChineseBQB
 ---
@@ -8,6 +8,9 @@ url: https://github.com/zhaoolee/ChineseBQB
 本项目VI由方圆STU创始人老罗巴扎嘿独立设计
 
 #### 本项目Github永久开源地址: https://github.com/zhaoolee/ChineseBQB
+
+友情链接：《更纯粹的程序员梗图仓库：程序员梗图火炬》
+--------------------------
 
 《ChineseBQB 在线搜图斗图工具》
 ---------------------

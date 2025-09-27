@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3051
+stars: 3078
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Swing carousel at Oktoberfest, Munich, Germany (© LOOK-foto/Alamy)
+Today: Tank Lakes, Alpine Lakes Wilderness, Washington (© Austin Trigg/TANDEM Stills + Motion)
+
+2025-09-28 download 4k
+
+2025-09-27 download 4k
+
+2025-09-26 download 4k
+
+2025-09-25 download 4k
+
+2025-09-24 download 4k
+
+2025-09-23 download 4k
+
+2025-09-22 download 4k
 
 2025-09-21 download 4k
 
@@ -55,20 +69,6 @@ Today: Swing carousel at Oktoberfest, Munich, Germany (© LOOK-foto/Alamy)
 2025-08-31 download 4k
 
 2025-08-30 download 4k
-
-2025-08-29 download 4k
-
-2025-08-28 download 4k
-
-2025-08-27 download 4k
-
-2025-08-26 download 4k
-
-2025-08-25 download 4k
-
-2025-08-24 download 4k
-
-2025-08-23 download 4k
 
 ### 历史归档：
 

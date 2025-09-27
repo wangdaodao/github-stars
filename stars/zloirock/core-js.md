@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 25234
+stars: 25252
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -167,6 +167,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `JSON.parse` source text access
             -   `Symbol.metadata` for decorators metadata proposal
         -   Stage 2.7 proposals
+            -   `Iterator` chunking
             -   Joint iteration
         -   Stage 2 proposals
             -   `AsyncIterator` helpers
@@ -176,7 +177,6 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `String.dedent`
             -   `Symbol` predicates
             -   `Symbol.customMatcher` for extractors
-            -   `Iterator` chunking
         -   Stage 1 proposals
             -   `Observable`
             -   New collections methods
@@ -2925,6 +2925,35 @@ _CommonJS entry points:_
 core-js(-pure)/stage/2.7
 ```
 
+##### `Iterator` chunking⬆
+
+Modules `esnext.iterator.chunks` and `esnext.iterator.windows`
+
+class Iterator {
+  chunks(chunkSize: number): Iterator<any\>;
+  windows(windowSize: number, undersized?: 'only-full' | 'allow-partial' | undefined): Iterator<any\>;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/iterator-chunking-v2
+core-js(-pure)/full/iterator/chunks
+core-js(-pure)/full/iterator/windows
+```
+
+_Examples_
+
+const digits \= () \=> \[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\].values();
+
+let chunks \= Array.from(digits().chunks(2));  // \[\[0, 1\], \[2, 3\], \[4, 5\], \[6, 7\], \[8, 9\]\]
+
+let windows \= Array.from(digits().windows(2));  // \[\[0, 1\], \[1, 2\], \[2, 3\], \[3, 4\], \[4, 5\], \[5, 6\], \[6, 7\], \[7, 8\], \[8, 9\]\]
+
+let windowsPartial \= Array.from(\[0, 1\].values().windows(3, 'allow-partial'));  // \[\[0, 1\]\]
+
+let windowsFull \= Array.from(\[0, 1\].values().windows(3));  // \[\]
+
 ##### Joint iteration⬆
 
 Modules esnext.iterator.zip, esnext.iterator.zip-keyed
@@ -3198,35 +3227,6 @@ _CommonJS entry points:_
 core-js/proposals/pattern-extractors
 core-js(-pure)/full/symbol/custom-matcher
 ```
-
-##### `Iterator` chunking⬆
-
-Modules `esnext.iterator.chunks` and `esnext.iterator.windows`
-
-class Iterator {
-  chunks(chunkSize: number): Iterator<any\>;
-  windows(windowSize: number, undersized?: 'only-full' | 'allow-partial' | undefined): Iterator<any\>;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/iterator-chunking-v2
-core-js(-pure)/full/iterator/chunks
-core-js(-pure)/full/iterator/windows
-```
-
-_Examples_
-
-const digits \= () \=> \[0, 1, 2, 3, 4, 5, 6, 7, 8, 9\].values();
-
-let chunks \= Array.from(digits().chunks(2));  // \[\[0, 1\], \[2, 3\], \[4, 5\], \[6, 7\], \[8, 9\]\]
-
-let windows \= Array.from(digits().windows(2));  // \[\[0, 1\], \[1, 2\], \[2, 3\], \[3, 4\], \[4, 5\], \[5, 6\], \[6, 7\], \[7, 8\], \[8, 9\]\]
-
-let windowsPartial \= Array.from(\[0, 1\].values().windows(3, 'allow-partial'));  // \[\[0, 1\]\]
-
-let windowsFull \= Array.from(\[0, 1\].values().windows(3));  // \[\]
 
 #### Stage 1 proposals⬆
 

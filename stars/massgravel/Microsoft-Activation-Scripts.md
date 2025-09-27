@@ -1,6 +1,6 @@
 ---
 project: Microsoft-Activation-Scripts
-stars: 149020
+stars: 150044
 description: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 url: https://github.com/massgravel/Microsoft-Activation-Scripts
 ---
@@ -28,43 +28,30 @@ How to Activate Windows / Office / Extended Updates (ESU)?
         irm https://get.activated.win | iex
         ```
         
+        If the above is blocked (by ISP/DNS), try this (needs updated Windows 10 or 11):
+        
+        ```
+        iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+        ```
+        
     -   For **Windows 7** and later:
         
         ```
         iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
         ```
         
-
-Script not launching❓Click here for info.
-
-* * *
-
--   If the above is blocked (by ISP/DNS), try this (needs **updated Windows 10 or 11**):
+    -   **Script not launching❓Use the below-listed Method 2.**
+3.  The activation menu will appear. **Choose the green-highlighted options** to activate Windows or Office.
     
-    ```
-    iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
-    ```
-    
--   If that fails or you have an older Windows, use the below-listed Method 2.
-
-* * *
-
-1.  The activation menu will appear. **Choose the green-highlighted options** to activate Windows or Office.
-    
-2.  **Done!**
+4.  **Done!**
     
 
 * * *
 
 ### Method 2 - Traditional (Windows Vista and later)
 
-Click here to view
-
-1.  Download the file using one of the links below:  
-    `https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`  
-    or  
-    `https://git.activated.win/massgrave/Microsoft-Activation-Scripts/archive/master.zip`
-2.  Right-click on the downloaded zip file and extract it.
+1.  Download the ZIP file from this Azure DevOps link.
+2.  Right-click on the downloaded ZIP file and extract it.
 3.  In the extracted folder, find the folder named `All-In-One-Version`.
 4.  Run the file named `MAS_AIO.cmd`.
 5.  You will see the activation options. Follow the on-screen instructions.

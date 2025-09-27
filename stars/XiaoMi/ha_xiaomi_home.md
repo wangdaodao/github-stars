@@ -1,6 +1,6 @@
 ---
 project: ha_xiaomi_home
-stars: 20706
+stars: 20740
 description: Xiaomi Home Integration for Home Assistant
 url: https://github.com/XiaoMi/ha_xiaomi_home
 ---

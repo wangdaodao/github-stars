@@ -1,9 +1,13 @@
 ---
 project: ua-parser-js
-stars: 9852
+stars: 9859
 description: The most comprehensive, compact, and up-to-date JavaScript library to detect user's browser, OS, CPU, and device type/model. Also detect bots, apps, and more. Runs seamlessly in the browser (client-side) or Node.js (server-side).
 url: https://github.com/faisalman/ua-parser-js
 ---
+
+#### Featured Sponsors
+
+* * *
 
 UAParser.js
 ===========

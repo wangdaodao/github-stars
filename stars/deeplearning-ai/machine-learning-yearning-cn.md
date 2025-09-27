@@ -1,6 +1,6 @@
 ---
 project: machine-learning-yearning-cn
-stars: 7818
+stars: 7820
 description: Machine Learning Yearning 中文版 - 《机器学习训练秘籍》 - Andrew Ng 著
 url: https://github.com/deeplearning-ai/machine-learning-yearning-cn
 ---

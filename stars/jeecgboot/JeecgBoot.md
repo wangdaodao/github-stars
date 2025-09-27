@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 43918
+stars: 43975
 description: 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot3，SpringCloud、Mybatis，Ant Design&Vue3、TS+vite！强大代码生成器实现前后端一键生成，无需手写代码! 引领AI低代码开发模式：AI生成→在线编码→代码生成→手工合并，解决Java项目80%重复工作，提升效率，节省成本，兼顾灵活性~
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -8,7 +8,7 @@ url: https://github.com/jeecgboot/JeecgBoot
 JeecgBoot AI低代码平台
 =================
 
-当前最新版本： 3.8.2（发布日期：2025-08-04）
+当前最新版本： 3.8.3（发布日期：2025-10-09）
 
 项目介绍
 ----
@@ -103,7 +103,7 @@ JeecgBoot平台提供了一套完善的AI应用管理系统模块，是一套类
 为什么选择JeecgBoot?
 ---------------
 
--   1.采用最新主流前后分离框架（Spring Boot3 + MyBatis + Ant Design4 + Vue3），容易上手；代码生成器依赖性低，灵活的扩展能力，可快速实现二次开发。
+-   1.采用最新主流前后分离框架（Spring Boot3 + MyBatis + Shiro/SpringAuthorizationServer + Ant Design4 + Vue3），容易上手；代码生成器依赖性低，灵活的扩展能力，可快速实现二次开发。
 -   2.前端大版本换代，最新版采用 Vue3.0 + TypeScript + Vite6 + Ant Design Vue4 等新技术方案。
 -   3.支持微服务Spring Cloud Alibaba（Nacos、Gateway、Sentinel、Skywalking），提供简易机制，支持单体和微服务自由切换（这样可以满足各类项目需求）。
 -   4.开发效率高，支持在线建表和AI建表，提供强大代码生成器，单表、树列表、一对多、一对一等数据模型，增删改查功能一键生成，菜单配置直接使用。
@@ -162,7 +162,7 @@ JeecgBoot平台提供了一套完善的AI应用管理系统模块，是一套类
 #### 后端
 
 -   IDE建议： IDEA (必须安装lombok插件 )
--   语言：Java 默认jdk17(jdk21)
+-   语言：Java 默认jdk17(jdk21、jdk24)
 -   依赖管理：Maven
 -   基础框架：Spring Boot 3.5.5
 -   微服务框架： Spring Cloud Alibaba 2023.0.3.3

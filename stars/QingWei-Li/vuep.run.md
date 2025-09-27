@@ -1,6 +1,6 @@
 ---
 project: vuep.run
-stars: 139
+stars: 140
 description: 🏃 An online playground for Vue2.0
 url: https://github.com/QingWei-Li/vuep.run
 ---

@@ -1,6 +1,6 @@
 ---
 project: Vue-Socket.io
-stars: 3935
+stars: 3931
 description: 😻 Socket.io implementation for Vuejs and Vuex
 url: https://github.com/MetinSeylan/Vue-Socket.io
 ---

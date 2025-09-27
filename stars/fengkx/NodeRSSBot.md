@@ -1,6 +1,6 @@
 ---
 project: NodeRSSBot
-stars: 397
+stars: 398
 description: Another Telegram RSS bot  but in Node.js Telegram RSS 机器人
 url: https://github.com/fengkx/NodeRSSBot
 ---

@@ -1,6 +1,6 @@
 ---
 project: vite-plugin-vue-component-preview
-stars: 132
+stars: 133
 description: Vite plugin for preview Vue component
 url: https://github.com/johnsoncodehk/vite-plugin-vue-component-preview
 ---

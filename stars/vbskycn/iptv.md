@@ -1,7 +1,7 @@
 ---
 project: iptv
-stars: 4564
-description: iptv最新可用直播源,支持iptv4/iptv6双栈访问。直播电视系统，这里有折腾好的，直接下载用吧。直播电视app电视手机全部兼容。（包含港澳台）
+stars: 4614
+description: iptv最新可用直播源,支持iptv4/iptv6双栈访问。直播电视系统，这里有折腾好的，直接下载用吧。直播电视app电视手机全部兼容。
 url: https://github.com/vbskycn/iptv
 ---
 
@@ -21,9 +21,9 @@ default
 
 最新IPTV直播源|每日更新直播源|免费电视直播源|Github开源项目
 
-本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视、港澳台、海外频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
+本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视等频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
 
-IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,港澳台,海外,国内,直播电视app
+IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,国内,直播电视app
 
 /
 
@@ -41,9 +41,9 @@ true
 
 > 如不愿折腾开源项目，可以下载第三方开发的软件 **直播电视**APP 使用，手机电视盒子都兼容，没有广告，完全免费。
 > 
-> 直播电视APP 下载地址：https://izbds.com 野草助手安装码：**0024**
+> 直播电视APP 下载地址：https://izbds.com/aztv/ 野草助手安装码：**0024**
 > 
-> 软件内包含大量直播源，包含港澳台频道，速度流畅，并且每日多次更新。
+> 软件内包含大量直播源，速度流畅，并且每日多次更新。
 
 * * *
 
@@ -52,7 +52,7 @@ true
 
 **IPTV4直播源**由部署在服务器上的程序自动扫描验证，确保**直播源**的时效性和稳定性。
 
-请使用国内站访问:https://zbds.org/ 本次更新时间: 2025-09-21 06:24:43
+请使用国内站访问:https://zbds.org/ 本次更新时间: 2025-09-28 06:25:01
 
 名称
 
@@ -87,7 +87,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 **IPTV6直播源**专为IPv6网络优化，由部署在服务器上的程序自动扫描验证，确保**直播源**的时效和稳定
 
-请使用国内站访问:https://zbds.org/ 本次更新时间: 2025-09-21 06:24:43
+请使用国内站访问:https://zbds.org/ 本次更新时间: 2025-09-28 06:25:01
 
 **近期由于不可力抗原因，大部分ipv6源都关门了，大玩家各玩各的。造成网友们不能一网通吃，请大家静待花开吧！！如有开门的大玩家，本仓库第一时间更新上来给大家分享**
 
@@ -131,11 +131,11 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 纯前端**直播源**格式转换器（开源在本仓库tools目录）
 
--   https://izbds.com/tools/index.html
+-   https://izbds.com/tools/
 
 ### 直播源开源站点地址
 
--   https://livetv.izbds.com/index.html
+-   https://zbds.org/
 
 📱 直播电视APP
 ----------
@@ -144,7 +144,7 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 
 ### 最新稳定版
 
--   下载链接： https://izbds.com （包含港澳台）
+-   下载链接： https://izbds.com/aztv/
 
 📅 更新
 -----

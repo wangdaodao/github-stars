@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-09-21 06:19.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-09-28 06:19.
 
 📝 Hitokoto
 -----------
 
-> リア充死ね！—— 佚名
+> 前进！前进！不择手段的前进！—— 佚名
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Swing carousel at Oktoberfest, Munich, Germany (© LOOK-foto/Alamy)_
+_Tank Lakes, Alpine Lakes Wilderness, Washington (© Austin Trigg/TANDEM Stills + Motion)_
 
 📚 My Blog posts ...
 --------------------

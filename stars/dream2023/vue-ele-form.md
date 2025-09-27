@@ -1,6 +1,6 @@
 ---
 project: vue-ele-form
-stars: 874
+stars: 873
 description: 基于element-ui的数据驱动表单组件
 url: https://github.com/dream2023/vue-ele-form
 ---

@@ -1,6 +1,6 @@
 ---
 project: vue-echarts
-stars: 10339
+stars: 10351
 description: Vue.js component for Apache ECharts™.
 url: https://github.com/ecomfe/vue-echarts
 ---
@@ -24,7 +24,7 @@ npm install echarts vue-echarts
 Demo →
 
 <template\>
-  <v-chart class\="chart" :option\="option" />
+  <VChart class\="chart" :option\="option" />
 </template\>
 
 <script setup>
@@ -109,12 +109,12 @@ Demo →
 
 <script src\="https://cdn.jsdelivr.net/npm/echarts@6.0.0"\></script\>
 <script src\="https://cdn.jsdelivr.net/npm/vue@3.5.21"\></script\>
-<script src\="https://cdn.jsdelivr.net/npm/vue-echarts@8.0.0-beta.2"\></script\>
+<script src\="https://cdn.jsdelivr.net/npm/vue-echarts@8.0.0"\></script\>
 
 const app \= Vue.createApp(...)
 
 // register globally (or you can do it locally)
-app.component('v-chart', VueECharts)
+app.component('VChart', VueECharts)
 
 See more examples here.
 
@@ -175,7 +175,7 @@ See more examples here.
 You can bind events with Vue's `v-on` directive.
 
 <template\>
-  <v-chart :option\="option" @highlight\="handleHighlight" />
+  <VChart :option\="option" @highlight\="handleHighlight" />
 </template\>
 
 Note
@@ -235,7 +235,7 @@ See supported events here →
 As Vue ECharts binds events to the ECharts instance by default, there is some caveat when using native DOM events. You need to prefix the event name with `native:` to bind native DOM events.
 
 <template\>
-  <v-chart @native:click\="handleClick" />
+  <VChart @native:click\="handleClick" />
 </template\>
 
 ### Provide / Inject
@@ -331,7 +331,7 @@ The slot props correspond to the first parameter of the callback function.
 Usage
 
 <template\>
-  <v-chart :option\="chartOptions"\>
+  <VChart :option\="chartOptions"\>
     <!-- Global \`tooltip.formatter\` \-->
     <template #tooltip\="params"\>
       <div v-for\="(param, i) in params" :key\="i"\>
@@ -364,7 +364,7 @@ Usage
         </tbody\>
       </table\>
     </template\>
-  </v-chart\>
+  </VChart\>
 </template\>
 
 Example →
@@ -405,6 +405,8 @@ pnpm i
 pnpm dev
 
 Open `http://localhost:5173` to see the demo.
+
+For testing and CI details, see `tests/TESTING.md`.
 
 Notice
 ------

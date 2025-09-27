@@ -1,9 +1,14 @@
 ---
 project: dayjs
-stars: 48231
+stars: 48255
 description: ⏰ Day.js 2kB immutable date-time library alternative to Moment.js with the same modern API
 url: https://github.com/iamkun/dayjs
 ---
+
+  
+Warp is built for coding with multiple AI agents
+
+* * *
 
 English | 简体中文 | 日本語 | Português Brasileiro | 한국어 | Español (España) | Русский | Türkçe | සිංහල | עברית
 

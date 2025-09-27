@@ -1,6 +1,6 @@
 ---
 project: B23Downloader
-stars: 2459
+stars: 2458
 description: （已长久停更）
 url: https://github.com/vooidzero/B23Downloader
 ---

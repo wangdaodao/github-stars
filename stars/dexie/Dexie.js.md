@@ -1,6 +1,6 @@
 ---
 project: Dexie.js
-stars: 13517
+stars: 13549
 description: A Minimalistic Wrapper for IndexedDB
 url: https://github.com/dexie/Dexie.js
 ---
