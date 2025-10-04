@@ -1,6 +1,6 @@
 ---
 project: RTCMultiConnection
-stars: 2610
+stars: 2609
 description: RTCMultiConnection is a WebRTC JavaScript library for peer-to-peer applications (screen sharing, audio/video conferencing, file sharing, media streaming etc.)
 url: https://github.com/muaz-khan/RTCMultiConnection
 ---

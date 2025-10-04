@@ -1,6 +1,6 @@
 ---
 project: regexlearn.com
-stars: 3866
+stars: 3865
 description: Learn RegEx step by step, from zero to advanced.
 url: https://github.com/aykutkardas/regexlearn.com
 ---

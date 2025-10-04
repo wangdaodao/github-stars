@@ -1,14 +1,12 @@
 ---
 project: 30-Days-Of-React
-stars: 27049
+stars: 27077
 description: 30 Days of  React challenge is a step by step guide to learn React in 30 days.  These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
 url: https://github.com/Asabeneh/30-Days-Of-React
 ---
 
 30 Days Of React
 ================
-
-**Learn with Asabeneh by joining the upcoming _CODING BOOTCAMP_**
 
 Author: Asabeneh Yetayeh  
 October, 2020
@@ -148,10 +146,32 @@ Conclusions
 
 🧡🧡🧡 HAPPY CODING 🧡🧡🧡
 
-Support the **author** to create more educational materials  
+* * *
+
+💖 Sponsors
+-----------
+
+Our amazing sponsors for supporting my open-source contribution and the **30 Days of Challenge** series!
+
+### Current Sponsor
 
 * * *
 
+### Dictation that understands code
+
+_Ship 4x faster with developer-first dictation that works in every app._
+
+* * *
+
+### 🙌 Become a Sponsor
+
+You can support this project by becoming a sponsor on **GitHub Sponsors** or through **PayPal**.
+
+Every contribution, big or small, makes a huge difference. Thank you for your support! 🌟
+
+\---
+
+-   
 -   Introduction
 -   Requirements
 -   How to Use Repo

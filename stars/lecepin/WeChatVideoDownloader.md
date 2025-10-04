@@ -1,6 +1,6 @@
 ---
 project: WeChatVideoDownloader
-stars: 4630
+stars: 4632
 description: 超方便的微信视频号下载器
 url: https://github.com/lecepin/WeChatVideoDownloader
 ---

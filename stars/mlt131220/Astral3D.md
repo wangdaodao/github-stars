@@ -1,8 +1,8 @@
 ---
-project: Astral3DEditor
-stars: 1731
-description: 基于Vue3 + THREE.JS 免费开源的三维可视化孪生场景编辑器，包含BIM轻量化、CAD解析预览、粒子系统、插件系统等特色功能。               Based on vue3 + three.js free open source 3D visual twin scene editor, including BIM lightweight, CAD analysis preview, particle system, plug-in system and other features.
-url: https://github.com/mlt131220/Astral3DEditor
+project: Astral3D
+stars: 1755
+description: 基于Vue3 + THREE.JS 免费开源的三维引擎及配套编辑器，包含BIM轻量化、CAD解析预览、粒子系统、插件系统等功能。               A free and open-source 3D engine based on Vue3 + THREE.JS and its accompanying editor, featuring functions such as BIM lightweighting, CAD parsing preview, particle system, and plugin system.
+url: https://github.com/mlt131220/Astral3D
 ---
 
 Astral 3D Editor
@@ -53,19 +53,21 @@ Astral 3D Editor
 
 ### 前置需求
 
--   Node.js ≥ 18.x
--   Yarn
+-   Node.js ≥ 23.0.0
+-   PNPM
 
 ### 本地运行
 
-git clone https://github.com/mlt131220/Astral3DEditor.git
-cd Astral3DEditor
-yarn install
-yarn run dev
+    git clone https://github.com/mlt131220/Astral3D.git
+
+    cd Astral3D
+    pnpm install
+    pnpm run sdk:build
+    pnpm run editor:dev
 
 ### 生产构建
 
-yarn run build
+    pnpm run editor:build
 
 📚 生态相关
 -------
@@ -84,7 +86,7 @@ yarn run build
 
 支付宝
 
-微信支付
+微信
 
 ⚖️ 许可协议
 -------

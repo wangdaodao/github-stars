@@ -1,6 +1,6 @@
 ---
 project: v-region
-stars: 930
+stars: 931
 description: 提供 5 种应用形式的 4 级行政区划选择器 A simple region cascade selector, provide 4 levels Chinese administrative division data
 url: https://github.com/TerryZ/v-region
 ---

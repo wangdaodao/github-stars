@@ -1,6 +1,6 @@
 ---
 project: Microsoft-Activation-Scripts
-stars: 150044
+stars: 150834
 description: Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 url: https://github.com/massgravel/Microsoft-Activation-Scripts
 ---
@@ -50,12 +50,10 @@ How to Activate Windows / Office / Extended Updates (ESU)?
 
 ### Method 2 - Traditional (Windows Vista and later)
 
-1.  Download the ZIP file from this Azure DevOps link.
-2.  Right-click on the downloaded ZIP file and extract it.
-3.  In the extracted folder, find the folder named `All-In-One-Version`.
-4.  Run the file named `MAS_AIO.cmd`.
-5.  You will see the activation options. Follow the on-screen instructions.
-6.  That's all.
+1.  Download the script: **MAS\_AIO.cmd** or the full ZIP.
+2.  Run the file named `MAS_AIO.cmd`.
+3.  You will see the activation options. Follow the on-screen instructions.
+4.  That's all.
 
 * * *
 

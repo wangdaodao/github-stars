@@ -1,6 +1,6 @@
 ---
 project: dataease
-stars: 21977
+stars: 22003
 description: 🔥 人人可用的开源 BI 工具，数据可视化神器。An open-source BI tool alternative to Tableau.
 url: https://github.com/dataease/dataease
 ---

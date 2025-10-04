@@ -1,6 +1,6 @@
 ---
 project: vue-iClient3D_for_Cesium
-stars: 68
+stars: 69
 description: null
 url: https://github.com/SuperMap/vue-iClient3D_for_Cesium
 ---

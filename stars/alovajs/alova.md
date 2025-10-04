@@ -1,6 +1,6 @@
 ---
 project: alova
-stars: 3811
+stars: 3818
 description: The Request Toolkit For Ultimate Efficiency
 url: https://github.com/alovajs/alova
 ---

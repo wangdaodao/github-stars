@@ -1,6 +1,6 @@
 ---
 project: android-training-course-in-chinese
-stars: 10772
+stars: 10801
 description: Android官方培训课程中文版
 url: https://github.com/kesenhoo/android-training-course-in-chinese
 ---

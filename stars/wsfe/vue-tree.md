@@ -1,6 +1,6 @@
 ---
 project: vue-tree
-stars: 282
+stars: 283
 description: 使用虚拟列表优化的 Vue 树组件 Vue tree component optimized using virtual list
 url: https://github.com/wsfe/vue-tree
 ---

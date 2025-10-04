@@ -1,6 +1,6 @@
 ---
 project: flowchart-vue
-stars: 357
+stars: 358
 description: Vue.js Flowchart Component with Drag-and-Drop Designer
 url: https://github.com/joyceworks/flowchart-vue
 ---

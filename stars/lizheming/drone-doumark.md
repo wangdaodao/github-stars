@@ -1,6 +1,6 @@
 ---
 project: drone-doumark
-stars: 38
+stars: 37
 description: Douban movie/book/music marked data sync plugin | 豆瓣观影/阅读/音乐记录同步
 url: https://github.com/lizheming/drone-doumark
 ---

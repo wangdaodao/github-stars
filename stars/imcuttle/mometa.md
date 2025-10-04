@@ -1,6 +1,6 @@
 ---
 project: mometa
-stars: 4083
+stars: 4082
 description: 🛠 [Beta] 面向研发的低代码元编程，代码可视编辑，辅助编码工具 The coding tools which is visual code editing, auxiliary and Low-code metaprogramming for R&D
 url: https://github.com/imcuttle/mometa
 ---

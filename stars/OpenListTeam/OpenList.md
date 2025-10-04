@@ -1,6 +1,6 @@
 ---
 project: OpenList
-stars: 16262
+stars: 16462
 description: A new AList Fork to Anti Trust Crisis
 url: https://github.com/OpenListTeam/OpenList
 ---
@@ -54,7 +54,6 @@ Features
 --------
 
 -   Multiple storages
-    
     -   Local storage
     -   Aliyundrive
     -   OneDrive / Sharepoint (Global, CN, DE, US)
@@ -69,6 +68,7 @@ Features
     -   WebDAV
     -   Teambition(China, International)
     -   Mediatrack
+    -   MediaFire
     -   139yun (Personal, Family, Group)
     -   YandexDisk
     -   BaiduNetdisk
@@ -98,41 +98,23 @@ Features
     -   Teldrive
     -   Weiyun
 -   Easy to deploy and out-of-the-box
-    
 -   File preview (PDF, markdown, code, plain text, ...)
-    
 -   Image preview in gallery mode
-    
 -   Video and audio preview, support lyrics and subtitles
-    
 -   Office documents preview (docx, pptx, xlsx, ...)
-    
 -   `README.md` preview rendering
-    
 -   File permalink copy and direct file download
-    
 -   Dark mode
-    
 -   I18n
-    
 -   Protected routes (password protection and authentication)
-    
 -   WebDAV
-    
 -   Docker Deploy
-    
 -   Cloudflare Workers proxy
-    
 -   File/Folder package download
-    
 -   Web upload(Can allow visitors to upload), delete, mkdir, rename, move and copy
-    
 -   Offline download
-    
 -   Copy files between two storage
-    
 -   Multi-thread downloading acceleration for single-thread download/stream
-    
 
 Document
 --------
