@@ -1,14 +1,12 @@
 ---
 project: fanqiang
-stars: 40600
+stars: 40645
 description: 翻墙-科学上网
 url: https://github.com/bannedbook/fanqiang
 ---
 
 翻墙-科学上网、翻墙工具、翻墙教程项目库
 ====================
-
-本库大陆直连网址: https://fq.88888004.xyz/
 
 -   热点禁闻
 -   翻墙新闻-FQNews-安卓APP

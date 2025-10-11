@@ -1,6 +1,6 @@
 ---
 project: mpvue-calendar
-stars: 533
+stars: 536
 description: 📅 A calendar component for vue3.0. Support gesture sliding, range selection, according to the week switch...
 url: https://github.com/Hzy0913/mpvue-calendar
 ---

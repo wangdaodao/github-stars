@@ -1,9 +1,18 @@
 ---
 project: YesPlayMusic
-stars: 31767
+stars: 31810
 description: 高颜值的第三方网易云播放器，支持 Windows / macOS / Linux :electron: 
 url: https://github.com/qier222/YesPlayMusic
 ---
+
+Special thanks to:  
+  
+Warp is built for coding with multiple AI agents  
+Available for macOS, Linux and Windows
+
+  
+
+* * *
 
   
 

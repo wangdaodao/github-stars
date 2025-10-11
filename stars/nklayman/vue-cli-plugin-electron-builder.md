@@ -1,6 +1,6 @@
 ---
 project: vue-cli-plugin-electron-builder
-stars: 4113
+stars: 4112
 description: Easily Build Your Vue.js App For Desktop With Electron
 url: https://github.com/nklayman/vue-cli-plugin-electron-builder
 ---

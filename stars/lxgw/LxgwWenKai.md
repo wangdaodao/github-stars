@@ -1,6 +1,6 @@
 ---
 project: LxgwWenKai
-stars: 21696
+stars: 21781
 description: An unprofessional open-source Chinese font derived from Fontworks' Klee One. 一款非专业的开源中文字体，基于 FONTWORKS 出品字体 Klee One 衍生。  
 url: https://github.com/lxgw/LxgwWenKai
 ---
@@ -137,6 +137,7 @@ An open-source Chinese font derived from Fontworks' Klee One. 一款开源中文
 -   制表符、表意文字结构描述符（Ideographic Description Character, IDC）等字符借自 思源黑体；
 -   吉祥图案、CC 许可图标等字符衍生自 煮豆黑体；
 -   缺字标记 `.notdef` 的「🤔」外部轮廓取自 Noto Emoji (Monochrome)；
+-   带圈无衬线数字序号（➀`U+2780`～➓`U+2793`）内部数字字形借自 Ysabeau Office 字体；
 -   @派对大魔王 的 快去写作业 字体提供全谚文拼字模板。
 
 由本字体衍生的字体

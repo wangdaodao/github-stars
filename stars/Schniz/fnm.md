@@ -1,6 +1,6 @@
 ---
 project: fnm
-stars: 22309
+stars: 22364
 description: 🚀 Fast and simple Node.js version manager, built in Rust
 url: https://github.com/Schniz/fnm
 ---

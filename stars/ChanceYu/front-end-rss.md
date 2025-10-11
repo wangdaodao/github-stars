@@ -1,6 +1,6 @@
 ---
 project: front-end-rss
-stars: 2785
+stars: 2788
 description: :orange_book: 根据 RSS 订阅最新前端技术文章并自动分类
 url: https://github.com/ChanceYu/front-end-rss
 ---
@@ -16,7 +16,7 @@ Front-End RSS
 
 备用地址：https://front-end-rss.surge.sh
 
-⏰ 更新时间: 2025-10-04 14:13:33，🚀 更新条数: +1， 表示有更新，文章分类
+⏰ 更新时间: 2025-10-11 00:11:35，🚀 更新条数: +1， 表示有更新，文章分类
 
 文章来源
 ----
@@ -47,6 +47,7 @@ Front-End RSS
 
 Node-Weekly
 
+-   2025-10-07-npm-security-best-practices-to-consider
 -   2025-09-30-Using-Node-with-Cloudflare-Workers
 -   2025-09-16-pnpm-adds-support-for-delayed-dependency-updates
 -   2025-09-09-A-significant-supply-chain-attack-on-the-npm-ecosystem
@@ -66,13 +67,13 @@ Node-Weekly
 -   2025-05-13-Making-and-parsing-RSS-and-Atom-feeds
 -   2025-05-06-Node.js-24-released
 -   2025-04-29-Koa-3.0,-Node-22.15.0,-and-a-V8-boost
--   2025-04-22-Handling-V8's-memory-usage-and-GC
 -   查看更多 >
 
 ⬆ 返回顶部
 
 JavaScript-Weekly
 
+-   2025-10-10-Vite-gets-its-own-documentary
 -   2025-10-03-React-19.2-is-in-the-building
 -   2025-09-26-The-first-browser-with-JavaScript-landed-30-years-ago
 -   2025-09-19-The-attack-on-the-npm-ecosystem-continues
@@ -92,7 +93,6 @@ JavaScript-Weekly
 -   2025-06-06-TC39-advances-numerous-proposals-at-latest-meeting
 -   2025-05-30-How-Remix-is-shaking-things-up
 -   2025-05-23-A-timeline-of-JavaScript's-history
--   2025-05-16-The-power-of-generators
 -   查看更多 >
 
 ⬆ 返回顶部
@@ -333,10 +333,12 @@ iCSS前端趣闻
 
 前端食堂
 
+-   2025-10-06-实测腾讯混元图像3.0，不愧是全球第一
+-   2025-10-04-我让AI写了个故事，给我看破防了
 -   2025-10-03-Claude-Sonnet-4.5解析，编程封神但远不止于此
 -   2025-10-01-一手实测Sora2，OpenAI还做了个AI抖音
--   2025-09-30-我早就感觉不对劲，DeepSeek果然憋了个大招
 -   2025-09-30-实测可灵新视频模型2.5-Turbo，未来已来
+-   2025-09-30-我早就感觉不对劲，DeepSeek果然憋了个大招
 -   2025-09-27-实测Kimi最新智能体「OK-Computer」，何止是OK？
 -   2025-09-26-阶跃AI桌面伙伴，让你和别人拉开差距的答案
 -   2025-09-25-别当AI铲屎官了，Lovart让你当爷
@@ -351,8 +353,6 @@ iCSS前端趣闻
 -   2025-09-09-再见Claude，国产平替真香
 -   2025-09-08-Kimi这次真玩大了
 -   2025-09-04-玩了几天Fellou-CE，我好像有了超能力
--   2025-08-31-我替你们试过了，这才是Nano-Banana在国内最爽的玩法
--   2025-08-30-看完钉钉发布会，只想说他们干了件“实在事”
 -   查看更多 >
 
 ⬆ 返回顶部

@@ -1,6 +1,6 @@
 ---
 project: mediago
-stars: 7848
+stars: 7881
 description: 跨平台视频提取工具：支持流媒体下载、视频下载、m3u8 下载及 B站视频下载，提供 Windows 和 Mac 桌面客户端。Cross-platform video extraction tool: Supports streaming download, video download, m3u8 download, and Bilibili video download, with desktop clients for Windows and Mac.
 url: https://github.com/caorushizi/mediago
 ---
@@ -38,19 +38,22 @@ Quickstart
 git clone https://github.com/caorushizi/mediago.git
 
 # 安装依赖
-pnpm i
+pnpm install
 
-# 开发环境
-pnpm dev
+# 首次安装需要 rebuild 一下
+pnpm rebuild:workspace
 
-# 打包运行
-pnpm release
+# electron 开发环境
+pnpm dev:electron
 
-# 构建 docker 镜像
-docker buildx build -t caorushizi/mediago:latest .
+# electron 打包运行
+pnpm release:electron
 
-# docker 启动
-docker run -d --name mediago -p 8899:8899 -v mediago-data:/root/mediago registry.cn-beijing.aliyuncs.com/caorushizi/mediago
+# server 开发环境
+pnpm dev:server
+
+# server 打包运行
+pnpm release:server
 
 Releases
 --------

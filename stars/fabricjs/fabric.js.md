@@ -1,6 +1,6 @@
 ---
 project: fabric.js
-stars: 30458
+stars: 30473
 description: Javascript Canvas Library, SVG-to-Canvas (& canvas-to-SVG) Parser
 url: https://github.com/fabricjs/fabric.js
 ---
@@ -15,13 +15,14 @@ A **simple and powerful Javascript HTML5 canvas library**.
 -   **GOTCHAS**
 -   **Contributing, Developing and More**
 
-* * *
+Special Thanks
+--------------
 
-* * *
+Here is a section for recognition of companies or individuals that support fabricJS with a sponsorship
 
-* * *
+### Warp, built for coding with multiple AI agents
 
-* * *
+Available for MacOS, Linux, & Windows  
 
 Features
 --------

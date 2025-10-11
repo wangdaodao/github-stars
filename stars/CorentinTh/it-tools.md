@@ -1,11 +1,20 @@
 ---
 project: it-tools
-stars: 33186
+stars: 33365
 description: Collection of handy online tools for developers, with great UX. 
 url: https://github.com/CorentinTh/it-tools
 ---
 
-Useful tools for developer and people working in IT. Have a look !.
+Useful tools for developer and people working in IT. Try it!
+
+Sponsors
+--------
+
+IT-Tools is proudly sponsored by:
+
+### Warp, built for coding with multiple AI agents.
+
+Available for MacOS, Linux, & Windows  
 
 Functionalities and roadmap
 ---------------------------

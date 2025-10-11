@@ -1,6 +1,6 @@
 ---
 project: vue-checkbox-radio
-stars: 100
+stars: 99
 description: Checkbox and radio component for Vue.js
 url: https://github.com/mariomka/vue-checkbox-radio
 ---

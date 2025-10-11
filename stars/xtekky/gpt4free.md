@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 65176
+stars: 65389
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -144,6 +144,9 @@ Notes:
 -   In this example, the Interference API is mapped to 1337.
 
 ### Windows Guide (.exe)
+
+👉 Check out the Windows launcher for GPT4Free:  
+🔗 https://github.com/gpt4free/g4f.exe 🚀
 
 1.  Download the release artifact `g4f.exe.zip` from: https://github.com/xtekky/gpt4free/releases/latest
 2.  Unzip and run `g4f.exe`.

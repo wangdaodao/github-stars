@@ -1,6 +1,6 @@
 ---
 project: iview
-stars: 23903
+stars: 23902
 description: A high quality UI Toolkit built on Vue.js 2.0
 url: https://github.com/iview/iview
 ---

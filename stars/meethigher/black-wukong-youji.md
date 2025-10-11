@@ -1,6 +1,6 @@
 ---
 project: black-wukong-youji
-stars: 685
+stars: 686
 description: 黑神话悟空妖怪平生录
 url: https://github.com/meethigher/black-wukong-youji
 ---

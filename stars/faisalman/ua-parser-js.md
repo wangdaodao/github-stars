@@ -1,7 +1,7 @@
 ---
 project: ua-parser-js
-stars: 9859
-description: The most comprehensive, compact, and up-to-date JavaScript library to detect user's browser, OS, CPU, and device type/model. Also detect bots, apps, and more. Runs seamlessly in the browser (client-side) or Node.js (server-side).
+stars: 9868
+description: Detect Browsers, OS, Devices, Bots, AI Crawlers, Apps, and more. Run in Browser (client-side) or Node.js (server-side).
 url: https://github.com/faisalman/ua-parser-js
 ---
 
@@ -46,7 +46,7 @@ PRO Business
 
 PRO Enterprise
 
-Browser detection
+Browser Detection
 
 ⚠️
 
@@ -58,7 +58,7 @@ Browser detection
 
 ✅
 
-CPU detection
+CPU Detection
 
 ⚠️
 
@@ -70,7 +70,7 @@ CPU detection
 
 ✅
 
-Device detection
+Device Detection
 
 ⚠️
 
@@ -82,7 +82,7 @@ Device detection
 
 ✅
 
-Engine detection
+Rendering Engine Detection
 
 ⚠️
 
@@ -106,7 +106,7 @@ OS detection
 
 ✅
 
-Bot detection
+Enhanced+ Accuracy
 
 ❌
 
@@ -118,7 +118,7 @@ Bot detection
 
 ✅
 
-AI Bot detection
+Bot Detection
 
 ❌
 
@@ -130,7 +130,7 @@ AI Bot detection
 
 ✅
 
-Extras (Apps, Libs, Emails, Media Players, etc) detection
+AI Detection
 
 ❌
 
@@ -142,7 +142,7 @@ Extras (Apps, Libs, Emails, Media Players, etc) detection
 
 ✅
 
-Enhanced detection result
+Extra Detections (Apps, Libs, Emails, Media Players, Crawlers, and more)
 
 ❌
 
@@ -154,7 +154,7 @@ Enhanced detection result
 
 ✅
 
-Client Hints support
+Client Hints Support
 
 ❌
 
@@ -166,7 +166,7 @@ Client Hints support
 
 ✅
 
-CommonJS support
+CommonJS Support
 
 ✅
 
@@ -178,7 +178,7 @@ CommonJS support
 
 ✅
 
-ES modules support
+ESM Support
 
 ❌
 
@@ -190,19 +190,7 @@ ES modules support
 
 ✅
 
-TypeScript declarations
-
-⚠️
-
-✅
-
-✅
-
-✅
-
-✅
-
-npm module available
+TypeScript Definitions
 
 ✅
 
@@ -214,7 +202,7 @@ npm module available
 
 ✅
 
-Direct downloads available
+npm Module Available
 
 ✅
 
@@ -226,7 +214,19 @@ Direct downloads available
 
 ✅
 
-Allows commercial usage
+Direct Downloads Available
+
+✅
+
+✅
+
+✅
+
+✅
+
+✅
+
+Commercial Use Allowed
 
 ✅
 
@@ -238,7 +238,7 @@ Allows commercial usage
 
 ✅
 
-Permissive (non-copyleft) license
+Permissive (non-Copyleft) License
 
 ✅
 
@@ -250,7 +250,7 @@ Permissive (non-copyleft) license
 
 ✅
 
-No open-source obligations
+No Open-Source Obligations
 
 ✅
 
@@ -262,7 +262,7 @@ No open-source obligations
 
 ✅
 
-Unlimited end-products
+Unlimited End-Products
 
 ✅
 
@@ -274,7 +274,7 @@ Unlimited end-products
 
 ✅
 
-Unlimited deployments
+Unlimited Deployments
 
 ✅
 
@@ -286,7 +286,7 @@ Unlimited deployments
 
 ✅
 
-1-year product support
+1-year Product Support
 
 ❌
 
@@ -298,7 +298,7 @@ Unlimited deployments
 
 ✅
 
-Lifetime updates
+Lifetime Updates
 
 ✅
 

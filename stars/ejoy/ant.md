@@ -1,6 +1,6 @@
 ---
 project: ant
-stars: 3907
+stars: 3910
 description: Ant game engine
 url: https://github.com/ejoy/ant
 ---

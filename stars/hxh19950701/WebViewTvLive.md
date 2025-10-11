@@ -1,6 +1,6 @@
 ---
 project: WebViewTvLive
-stars: 2732
+stars: 2818
 description: 使用 腾讯X5 WebView 开发的电视直播App
 url: https://github.com/hxh19950701/WebViewTvLive
 ---
@@ -20,7 +20,7 @@ WebView 电视
 -   自动更新频道列表
 -   多直播源
 -   应用自定义设置
--   适配手机、平板、电视、车机和手表
+-   适配手机、平板、电视和车机
 -   数字键换台
 -   上下键换台反转
 -   自主选择是否启用TBS内核

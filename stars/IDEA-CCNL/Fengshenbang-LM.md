@@ -1,6 +1,6 @@
 ---
 project: Fengshenbang-LM
-stars: 4142
+stars: 4141
 description: Fengshenbang-LM(封神榜大模型)是IDEA研究院认知计算与自然语言研究中心主导的大模型开源体系，成为中文AIGC和认知智能的基础设施。
 url: https://github.com/IDEA-CCNL/Fengshenbang-LM
 ---

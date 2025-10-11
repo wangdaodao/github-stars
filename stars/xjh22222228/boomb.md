@@ -1,6 +1,6 @@
 ---
 project: boomb
-stars: 336
+stars: 337
 description: 💣 Manage your pictures easily for Github. 基于 Github 轻松管理您的存储图库
 url: https://github.com/xjh22222228/boomb
 ---

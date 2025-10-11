@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3098
+stars: 3108
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)
+Today: Wood duck hen (© ps50ace/iStock/Getty Images)
+
+2025-10-12 download 4k
+
+2025-10-11 download 4k
+
+2025-10-10 download 4k
+
+2025-10-09 download 4k
+
+2025-10-08 download 4k
+
+2025-10-07 download 4k
+
+2025-10-06 download 4k
 
 2025-10-05 download 4k
 
@@ -55,20 +69,6 @@ Today: ISS main solar arrays seen from SpaceX Crew Dragon Endeavour (© NASA)
 2025-09-14 download 4k
 
 2025-09-13 download 4k
-
-2025-09-12 download 4k
-
-2025-09-11 download 4k
-
-2025-09-10 download 4k
-
-2025-09-09 download 4k
-
-2025-09-08 download 4k
-
-2025-09-07 download 4k
-
-2025-09-06 download 4k
 
 ### 历史归档：
 

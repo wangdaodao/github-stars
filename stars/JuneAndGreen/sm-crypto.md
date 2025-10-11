@@ -1,6 +1,6 @@
 ---
 project: sm-crypto
-stars: 1069
+stars: 1070
 description: 国密算法js版
 url: https://github.com/JuneAndGreen/sm-crypto
 ---

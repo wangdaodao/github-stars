@@ -15,6 +15,11 @@ Registry HTTP API
 
 See registry-api.md
 
+Internal API for Direct HTTP Requests
+-------------------------------------
+
+See internal-api.md for comprehensive documentation of cnpmcore's internal APIs that allow direct HTTP requests for package synchronization, administration, and other advanced operations.
+
 How to contribute
 -----------------
 

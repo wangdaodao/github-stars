@@ -1,6 +1,6 @@
 ---
 project: cmap-resources
-stars: 286
+stars: 288
 description: CMap Resources
 url: https://github.com/adobe-type-tools/cmap-resources
 ---

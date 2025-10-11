@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 44005
+stars: 44035
 description: 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot3，SpringCloud、Mybatis，Ant Design&Vue3、TS+vite！强大代码生成器实现前后端一键生成，无需手写代码! 引领AI低代码开发模式：AI生成→在线编码→代码生成→手工合并，解决Java项目80%重复工作，提升效率，节省成本，兼顾灵活性~
 url: https://github.com/jeecgboot/JeecgBoot
 ---
@@ -154,6 +154,9 @@ JeecgBoot平台提供了一套完善的AI应用管理系统模块，是一套类
 #### 前端
 
 -   前端环境要求：Node.js要求`Node 20+` 版本以上、pnpm 要求`9+` 版本以上
+
+`( Vite 不再支持已结束生命周期（EOL）的 Node.js 18。现在需要使用 Node.js 20.19+ 或 22.12+)`
+
 -   依赖管理：node、npm、pnpm
 -   前端IDE建议：IDEA、WebStorm、Vscode
 -   采用 Vue3.0+TypeScript+Vite6+Ant-Design-Vue4等新技术方案，包括二次封装组件、utils、hooks、动态菜单、权限校验、按钮级别权限控制等功能

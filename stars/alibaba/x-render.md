@@ -1,7 +1,7 @@
 ---
 project: x-render
-stars: 7727
-description: 🚴‍♀️ 阿里 - 很易用的中后台「表单 / 表格 / 图表」解决方案
+stars: 7730
+description: 🚴‍♀️ Very easy to use process form table chart solution. 很易用的流程 / 表单 / 表格 / 图表解决方案
 url: https://github.com/alibaba/x-render
 ---
 
