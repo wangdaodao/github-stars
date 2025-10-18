@@ -1,6 +1,6 @@
 ---
 project: layui
-stars: 30375
+stars: 30385
 description: 一套遵循原生态开发模式的 Web UI 组件库，采用自身轻量级模块化规范，易上手，可以更简单快速地构建网页界面。
 url: https://github.com/layui/layui
 ---

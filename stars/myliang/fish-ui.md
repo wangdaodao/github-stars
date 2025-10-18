@@ -1,6 +1,6 @@
 ---
 project: fish-ui
-stars: 909
+stars: 908
 description: A Vue.js 2.0 UI Toolkit for Web
 url: https://github.com/myliang/fish-ui
 ---

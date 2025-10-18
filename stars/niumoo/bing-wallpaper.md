@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3108
+stars: 3121
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Wood duck hen (© ps50ace/iStock/Getty Images)
+Today: Neolithic site of Silbury Hill, Tilshead, Wiltshire, England (© dbstockphoto/Getty Images)
+
+2025-10-19 download 4k
+
+2025-10-18 download 4k
+
+2025-10-17 download 4k
+
+2025-10-16 download 4k
+
+2025-10-15 download 4k
+
+2025-10-14 download 4k
+
+2025-10-13 download 4k
 
 2025-10-12 download 4k
 
@@ -55,20 +69,6 @@ Today: Wood duck hen (© ps50ace/iStock/Getty Images)
 2025-09-21 download 4k
 
 2025-09-20 download 4k
-
-2025-09-19 download 4k
-
-2025-09-18 download 4k
-
-2025-09-17 download 4k
-
-2025-09-16 download 4k
-
-2025-09-15 download 4k
-
-2025-09-14 download 4k
-
-2025-09-13 download 4k
 
 ### 历史归档：
 

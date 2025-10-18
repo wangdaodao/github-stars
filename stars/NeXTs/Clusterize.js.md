@@ -1,6 +1,6 @@
 ---
 project: Clusterize.js
-stars: 7267
+stars: 7268
 description: Tiny vanilla JS plugin to display large data sets easily
 url: https://github.com/NeXTs/Clusterize.js
 ---

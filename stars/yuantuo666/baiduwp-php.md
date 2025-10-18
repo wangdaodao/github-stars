@@ -1,6 +1,6 @@
 ---
 project: baiduwp-php
-stars: 6461
+stars: 6458
 description: A tool to get the download link of the Baidu netdisk / 一个获取百度网盘分享链接下载地址的工具
 url: https://github.com/yuantuo666/baiduwp-php
 ---

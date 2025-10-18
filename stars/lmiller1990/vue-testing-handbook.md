@@ -1,6 +1,6 @@
 ---
 project: vue-testing-handbook
-stars: 873
+stars: 874
 description: A guide on testing Vue components and applications
 url: https://github.com/lmiller1990/vue-testing-handbook
 ---

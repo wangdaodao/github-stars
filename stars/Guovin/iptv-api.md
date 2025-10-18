@@ -1,6 +1,6 @@
 ---
 project: iptv-api
-stars: 19059
+stars: 19252
 description: 📺IPTV电视直播源更新项目『✨秒播级体验🚀』：支持自定义频道与EPG；支持多种源获取方式；支持RTMP推流；支持IPv4/IPv6；支持获取归属地与运营商；每天自动更新两次，结果可用于TVBox等播放软件；支持工作流、Docker(amd64/arm64/arm v7)、命令行、GUI运行方式 | IPTV live TV source update project
 url: https://github.com/Guovin/iptv-api
 ---
@@ -22,6 +22,7 @@ English | 中文
 -   🔗 最新结果
 -   ⚙️ 配置参数
 -   🚀 快速上手
+    -   目录说明
     -   工作流
     -   命令行
     -   GUI软件
@@ -73,7 +74,7 @@ Important
 
 ✅
 
-提升频道结果获取量与准确率
+提升频道结果获取量与准确率，支持正则表达式
 
 **多种源获取方式**
 
@@ -98,6 +99,12 @@ Important
 ✅
 
 显示频道预告内容
+
+**频道台标**
+
+✅
+
+支持自定义频道台标库来源
 
 **接口测速验效**
 
@@ -156,6 +163,10 @@ https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
 
 配置
 --
+
+Note
+
+以下配置项位于`config/config.ini`文件中，支持通过配置文件或环境变量(配置项同名)实现修改，修改保存后重启即可生效
 
 配置项
 
@@ -403,6 +414,16 @@ local\_num
 
 10
 
+logo\_url
+
+频道台标库地址
+
+logo\_type
+
+频道台标文件类型
+
+png
+
 min\_resolution
 
 接口最小分辨率，需要开启 open\_filter\_resolution 才能生效
@@ -517,12 +538,114 @@ update\_interval
 
 update\_time\_position
 
-更新时间显示位置，需要开启 open\_update\_time 才能生效，可选值：top、bottom，top: 显示于结果顶部，bottom: 显示于结果底部
+更新时间显示位置，需要开启 open\_update\_time 才能生效，可选值：top、bottom，top:显示于结果顶部，bottom: 显示于结果底部
 
 top
 
 快速上手
 ----
+
+### 目录说明
+
+目录路径
+
+说明
+
+config
+
+配置文件目录，包含配置文件、模板文件等
+
+config/config.ini
+
+配置参数文件
+
+config/rtp
+
+各地区运营商组播源ip
+
+config/demo.txt
+
+频道模板
+
+config/alias.txt
+
+频道别名
+
+config/blacklist.txt
+
+接口黑名单
+
+config/whitelist.txt
+
+接口白名单
+
+config/subscribe.txt
+
+频道订阅源列表
+
+config/local.txt
+
+本地源文件
+
+config/epg.txt
+
+EPG订阅源列表
+
+output
+
+结果文件目录，包含生成的结果文件等
+
+output/data
+
+结果数据缓存目录
+
+output/epg
+
+EPG结果目录
+
+output/ipv4
+
+IPv4结果目录
+
+output/ipv6
+
+IPv6结果目录
+
+output/result(.m3u/txt)
+
+m3u/txt结果
+
+output/live(.m3u/txt)
+
+RTMP推流live结果
+
+output/hls(.m3u/txt)
+
+RTMP推流hls结果
+
+output/log
+
+日志文件目录
+
+output/log/result.log
+
+有效结果日志
+
+output/log/speed\_test.log
+
+测速日志
+
+output/log/statistic.log
+
+统计结果日志
+
+output/log/nomatch.log
+
+未匹配频道记录
+
+source.json
+
+点播源配置文件
 
 ### 工作流
 
@@ -647,6 +770,14 @@ ipv6 m3u接口
 /log/speed-test
 
 所有参与测速接口的日志
+
+/log/statistic
+
+统计结果的日志
+
+/log/nomatch
+
+未匹配频道的日志
 
 -   RTMP 推流：
 

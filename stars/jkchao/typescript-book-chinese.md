@@ -1,6 +1,6 @@
 ---
 project: typescript-book-chinese
-stars: 6625
+stars: 6627
 description: TypeScript Deep Dive 中文版 
 url: https://github.com/jkchao/typescript-book-chinese
 ---

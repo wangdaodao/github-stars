@@ -1,6 +1,6 @@
 ---
 project: date-holidays
-stars: 1015
+stars: 1017
 description: worldwide holidays
 url: https://github.com/commenthol/date-holidays
 ---

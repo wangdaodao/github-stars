@@ -1,7 +1,7 @@
 ---
 project: Mxgraph-EasyFlowEditor
-stars: 203
-description: 基于mxGraph+vue设计的流程图编辑器
+stars: 204
+description: 基于mxGraph和Vue2.0 设计的流程图编辑器（A flowchart editor designed with mxGraph and Vue 2.0）
 url: https://github.com/Jason-chen-coder/Mxgraph-EasyFlowEditor
 ---
 

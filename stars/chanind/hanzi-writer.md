@@ -1,6 +1,6 @@
 ---
 project: hanzi-writer
-stars: 4167
+stars: 4172
 description: Chinese character stroke order animations and practice quizzes
 url: https://github.com/chanind/hanzi-writer
 ---

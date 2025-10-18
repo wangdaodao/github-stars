@@ -1,6 +1,6 @@
 ---
 project: freeCodeCamp
-stars: 430023
+stars: 430370
 description: freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.
 url: https://github.com/freeCodeCamp/freeCodeCamp
 ---
@@ -250,4 +250,4 @@ Copyright © 2025 freeCodeCamp.org
 The content of this repository is bound by the following licenses:
 
 -   The computer software is licensed under the BSD-3-Clause license.
--   The learning resources in the `/curriculum` directory including their subdirectories thereon are copyright © 2025 freeCodeCamp.org
+-   The learning resources in the `/curriculum` directory including their subdirectories therein are copyright © 2025 freeCodeCamp.org

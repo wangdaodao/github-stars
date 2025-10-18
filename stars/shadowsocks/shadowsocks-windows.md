@@ -1,6 +1,6 @@
 ---
 project: shadowsocks-windows
-stars: 59058
+stars: 59077
 description: A C# port of shadowsocks
 url: https://github.com/shadowsocks/shadowsocks-windows
 ---

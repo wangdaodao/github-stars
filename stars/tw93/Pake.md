@@ -1,6 +1,6 @@
 ---
 project: Pake
-stars: 42677
+stars: 42752
 description: 🤱🏻 Turn any webpage into a desktop app with one command. 一键打包网页生成轻量桌面应用
 url: https://github.com/tw93/Pake
 ---
@@ -26,6 +26,7 @@ Getting Started
 -   **Beginners**: Download ready-made Popular Packages or use Online Building with no environment setup required
 -   **Developers**: Install CLI Tool for one-command packaging of any website with customizable icons, window settings, and more
 -   **Advanced Users**: Clone the project locally for Custom Development, or check Advanced Usage for style customization and feature enhancement
+-   **Troubleshooting**: Check FAQ for common issues and solutions
 
 Popular Packages
 ----------------

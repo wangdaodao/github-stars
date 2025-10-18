@@ -1,6 +1,6 @@
 ---
 project: vue-print-nb
-stars: 664
+stars: 666
 description: Vue plug-in, print! Good!
 url: https://github.com/Power-kxLee/vue-print-nb
 ---

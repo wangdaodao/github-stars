@@ -1,6 +1,6 @@
 ---
 project: vue-echarts
-stars: 10419
+stars: 10432
 description: Vue.js component for Apache ECharts™.
 url: https://github.com/ecomfe/vue-echarts
 ---
@@ -12,7 +12,7 @@ Vue.js component for Apache ECharts™.
 
 > Still using Vue 2? Read v7 docs here →
 
-Installation & Usage
+Installation & usage
 --------------------
 
 ### npm
@@ -91,9 +91,9 @@ const option \= ref({
 }
 </style\>
 
-Important
+#### On-demand importing 
 
-We encourage manually importing components and charts from ECharts for smaller bundle size. We've built an import code generator to help you with that. You can just paste in your `option` code and we'll generate the precise import code for you.
+To keep your bundle size small, we recommend manually importing the components and charts you need from ECharts. To make this easier, we’ve created an import code generator. Simply paste your `option` code into the tool, and it will generate the exact import statements for you.
 
 Try it →
 
@@ -136,7 +136,7 @@ See more examples here.
     
     ECharts' universal interface. Modifying this prop triggers Vue ECharts to compute an update plan and call `setOption`. Read more here →
     
-    #### Smart Update
+    #### Smart update
     
     -   If you supply `update-options` (via prop or injection), Vue ECharts forwards it directly to `setOption` and skips the planner.
     -   Manual `setOption` calls (only available when `manual-update` is `true`) behave like native ECharts, honouring only the per-call override you pass in and are not carried across re-initializations.
@@ -230,7 +230,7 @@ Vue ECharts support the following events:
 
 See supported events in the ECharts API reference →
 
-#### Native DOM Events
+#### Native DOM events
 
 As Vue ECharts binds events to the ECharts instance by default, there is some caveat when using native DOM events. You need to prefix the event name with `native:` to bind native DOM events.
 
@@ -238,7 +238,7 @@ As Vue ECharts binds events to the ECharts instance by default, there is some ca
   <VChart @native:click\="handleClick" />
 </template\>
 
-### Provide / Inject
+### Provide / inject
 
 Vue ECharts provides provide/inject API for `theme`, `init-options`, `update-options` and `loading-options` to help configuring contextual options. eg. for `theme` you can use the provide API like this:
 
@@ -307,11 +307,11 @@ The following ECharts instance methods aren't exposed because their functionalit
 -   `showLoading` / `hideLoading`: use the `loading` and `loading-options` props instead.
 -   `setTheme`: use the `theme` prop instead.
 
-### Slots
+### Slots 
 
 Vue ECharts allows you to define ECharts option's `tooltip.formatter` and `toolbox.feature.dataView.optionToContent` callbacks via Vue slots instead of defining them in your `option` object. This simplifies custom HTMLElement rendering using familiar Vue templating.
 
-#### Slot Naming Convention
+#### Slot naming convention
 
 -   Slot names begin with `tooltip`/`dataView`, followed by hyphen-separated path segments to the target.
 -   Each segment corresponds to an `option` property name or an array index (for arrays, use the numeric index).
@@ -373,7 +373,7 @@ Note
 
 Slots take precedence over the corresponding callback defined in `props.option`.
 
-### Static Methods
+### Static methods
 
 Static methods can be accessed from `echarts` itself.
 

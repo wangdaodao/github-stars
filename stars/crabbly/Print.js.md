@@ -1,6 +1,6 @@
 ---
 project: Print.js
-stars: 4526
+stars: 4529
 description: A tiny javascript library to help printing from the web.
 url: https://github.com/crabbly/Print.js
 ---

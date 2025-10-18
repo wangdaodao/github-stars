@@ -1,6 +1,6 @@
 ---
 project: html5-rtsp
-stars: 300
+stars: 301
 description: HTML5 播放 RTSP 示例仓库
 url: https://github.com/GWmodel-Developers/html5-rtsp
 ---

@@ -1,6 +1,6 @@
 ---
 project: vis-three
-stars: 368
+stars: 378
 description: A web 3D development framework for assembled based on three.js
 url: https://github.com/vis-three/vis-three
 ---

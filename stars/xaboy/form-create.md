@@ -1,6 +1,6 @@
 ---
 project: form-create
-stars: 6763
+stars: 6772
 description: :fire::fire::fire: 强大的低代码动态表单组件，通过JSON数据驱动表单渲染，适配移动端，支持可视化设计。提高开发者对表单的开发效率。目前在政务系统、OA系统、ERP系统、电商系统、流程管理等系统中已稳定应用。
 url: https://github.com/xaboy/form-create
 ---

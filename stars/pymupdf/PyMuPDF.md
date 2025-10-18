@@ -1,6 +1,6 @@
 ---
 project: PyMuPDF
-stars: 8226
+stars: 8278
 description: PyMuPDF is a high performance Python library for data extraction, analysis, conversion & manipulation of PDF (and other) documents.
 url: https://github.com/pymupdf/PyMuPDF
 ---

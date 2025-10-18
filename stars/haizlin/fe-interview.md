@@ -1,6 +1,6 @@
 ---
 project: fe-interview
-stars: 26114
+stars: 26140
 description: 前端面试每日 3+1，以面试题来驱动学习，提倡每日学习与思考，每天进步一点！每天早上5点纯手工发布面试题（死磕自己，愉悦大家），6000+道前端面试题全面覆盖，HTML/CSS/JavaScript/Vue/React/Nodejs/TypeScript/ECMAScritpt/Webpack/Jquery/小程序/软技能……
 url: https://github.com/haizlin/fe-interview
 ---
@@ -58,10 +58,10 @@ webpack 13+
 
 历史题目
 
-🕟 今天的知识点 (2025.10.12) —— 第2371天
+🕟 今天的知识点 (2025.10.19) —— 第2378天
 --------------------------------
 
-        :one: \[ECMAScript\] 如何使用JavaScript实现自定义事件？
+        :one: \[ECMAScript\] 如何使用JavaScript的Profiler工具进行性能分析？
 
 ### 🐫 历史题目
 
@@ -72,8 +72,8 @@ webpack 13+
     
     …………
     
--   第2370天 (2025.10.11)  
-    1️⃣ \[ECMAScript\] 请解释并给出JavaScript中事件委托的示例和用法
+-   第2377天 (2025.10.18)  
+    1️⃣ \[ECMAScript\] 请解释JavaScript中的内存泄漏问题及其解决方法
     
 -   **查看全部**
     

@@ -1,7 +1,7 @@
 ---
 project: JeecgBoot
-stars: 44035
-description: 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot3，SpringCloud、Mybatis，Ant Design&Vue3、TS+vite！强大代码生成器实现前后端一键生成，无需手写代码! 引领AI低代码开发模式：AI生成→在线编码→代码生成→手工合并，解决Java项目80%重复工作，提升效率，节省成本，兼顾灵活性~
+stars: 44084
+description: 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot3，SpringCloud、MybatisPlus，Ant Design&Vue3、TS+vite！强大代码生成器实现前后端一键生成，无需手写代码! 引领AI低代码开发模式：AI生成→在线编码→代码生成→手工合并，解决Java项目80%重复工作，提升效率，节省成本，兼顾灵活性~
 url: https://github.com/jeecgboot/JeecgBoot
 ---
 
@@ -41,17 +41,21 @@ JeecgBoot低代码平台兼容所有J2EE项目开发，支持信创国产化，�
 
 下载
 
-JDK17 + SpringBoot3.3 + Shiro
+SpringBoot3.5 + Shiro
 
-JDK17 + SpringBoot3.3+ SpringAuthorizationServer
+SpringBoot3.5+ SpringAuthorizationServer
 
-JDK17/JDK8 + SpringBoot2.7
+SpringBoot3.5 + Sa-Token
+
+SpringBoot2.7(JDK17/JDK8)
 
 Github
 
 `springboot3`
 
 `springboot3_sas` 分支
+
+`springboot3-satoken` 分支
 
 `master` 分支
 
@@ -60,6 +64,8 @@ Gitee
 `springboot3`
 
 `springboot3_sas` 分支
+
+`springboot3-satoken` 分支
 
 `master` 分支
 
