@@ -1,6 +1,6 @@
 ---
 project: screenshot-to-code
-stars: 70979
+stars: 71048
 description: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
 url: https://github.com/abi/screenshot-to-code
 ---

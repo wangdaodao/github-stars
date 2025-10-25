@@ -1,6 +1,6 @@
 ---
 project: SingleFile
-stars: 19289
+stars: 19354
 description: Web Extension for saving a faithful copy of a complete web page in a single HTML file
 url: https://github.com/gildas-lormeau/SingleFile
 ---
@@ -44,7 +44,7 @@ SingleFile can be installed from the store of:
 
 -   Firefox: https://addons.mozilla.org/firefox/addon/single-file
 -   Firefox for Android: https://addons.mozilla.org/android/addon/single-file
--   Chrome: https://chrome.google.com/extensions/detail/mpiodijhokgodhhofbcjdecpffjipkle
+-   Chrome: https://chromewebstore.google.com/detail/singlefile/mpiodijhokgodhhofbcjdecpffjipkle
 -   Safari (macOS and iOS): https://apps.apple.com/us/app/singlefile-for-safari/id6444322545
 -   Microsoft Edge: https://microsoftedge.microsoft.com/addons/detail/efnbkdcfmcmnhlkaijjjmhjjgladedno
 
@@ -217,12 +217,15 @@ Projects using/compatible with SingleFile
 -   Karakeep - Self-hostable bookmark-everything app with a touch of AI: https://karakeep.app
 -   KOReader - Document viewer primarily aimed at e-ink readers: https://github.com/koreader/koreader
 -   linkding - Bookmark manager that you can host yourself. It's designed be to be minimal, fast, and easy to set up using Docker: https://github.com/sissbruecker/linkding
+-   Linkwarden - Self-hosted collaborative bookmark manager to collect, read, annotate, and fully preserve what matters, all in one place: https://github.com/linkwarden/linkwarden
 -   obsidian-html-plugin - Plugin for reading HTML pages in Obsidian: https://github.com/nuthrash/obsidian-html-plugin
 -   Org-Dex.el - Emacs package designed to enhance Org-mode by integrating SingleFile CLI: https://github.com/nitincodery/org-dex.el
 -   Petal Cite Web Importer - Browser extension to save PDFs and capture web pages in Petal Cite: https://github.com/ks-collab/cite-extension
 -   Pocket Search Engine - Semantic search app for Android that works entirely offline: https://play.google.com/store/apps/details?id=com.pocketsearchengine.app
 -   singlefile2trilium - Tool to save faithful copy of a web page as a Trilium note with SingleFile: https://github.com/nil0x42/singlefile2trilium
 -   SingleFileMac - Integration of SingleFile in a swift application using webkit: https://github.com/david-littlefield/SingleFileMac
+-   SingleFile MV3 CDP Patched - fork of SingleFile patched to allow programmatic control with Chrome DevTools Protocol: https://github.com/Cosmologist/SingleFile-MV3-CDP-Patched
+-   SingleFile MCP - Model Context Protocol (MCP) server that provides intelligent web content extraction using single-file and trafilatura: https://github.com/kwinsch/singlefile-mcp
 -   Trilium-SingleFile - An addon for Trilium Notes to easily import SingleFile html pages: https://github.com/rauenzi/Trilium-SingleFile
 -   Trilium Simple SingleFile Renderer - A plugin to add a new Template note to Trilium for render file created by SingleFile: https://github.com/xnohat/trilium-simple-singlefile-renderer
 -   web document - Browser extension for saving web documents locally, allowing you to access them offline and quickly search for webpage: https://github.com/wvit/web-document

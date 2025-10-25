@@ -173,7 +173,7 @@ npm install vxe-pc-ui
 # npm install vxe-pc-ui vxe-table vxe-design
 
 // ...
-import VxeUIAll from 'vxe-pc-ui'
+import VxeUIBase from 'vxe-pc-ui'
 import 'vxe-pc-ui/lib/style.css'
 
 // import VxeUITable from 'vxe-table'
@@ -184,7 +184,7 @@ import 'vxe-pc-ui/lib/style.css'
 // ...
 
 createApp(App)
-  .use(VxeUIAll)
+  .use(VxeUIBase)
   // .use(VxeUITable)
   // .use(VxeUIDesign)
   .mount('#app')
@@ -261,7 +261,7 @@ _**不建议将第三方的 CDN 地址用于正式环境，因为该连接随时
           }
         }
       }
-      Vue.createApp(App).use(VxeUIAll).use(VxeUITable).mount('#app')
+      Vue.createApp(App).use(VxeUIBase).use(VxeUITable).mount('#app')
     })()
   </script\>
 </body\>

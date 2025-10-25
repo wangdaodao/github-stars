@@ -1,13 +1,13 @@
 ---
 project: alova
-stars: 3836
+stars: 3845
 description: The Request Toolkit For Ultimate Efficiency
 url: https://github.com/alovajs/alova
 ---
 
 alova is perfectly compatible with your favorite HTTP clients and UI frameworks, makes ultimate efficiency in APIs integration with its business modules and devtools.
 
-English | Chinese
+English | 中文
 
 Documentation | Deoms
 

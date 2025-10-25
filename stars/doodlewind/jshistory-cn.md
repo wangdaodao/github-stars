@@ -1,6 +1,6 @@
 ---
 project: jshistory-cn
-stars: 4247
+stars: 4250
 description: 🇨🇳 《JavaScript 二十年》中文版
 url: https://github.com/doodlewind/jshistory-cn
 ---

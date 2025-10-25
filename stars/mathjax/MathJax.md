@@ -1,6 +1,6 @@
 ---
 project: MathJax
-stars: 10654
+stars: 10655
 description: Beautiful and accessible math in all browsers
 url: https://github.com/mathjax/MathJax
 ---

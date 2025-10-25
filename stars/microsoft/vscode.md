@@ -1,6 +1,6 @@
 ---
 project: vscode
-stars: 177669
+stars: 177885
 description: Visual Studio Code
 url: https://github.com/microsoft/vscode
 ---
@@ -60,7 +60,7 @@ Many of the core components and extensions to VS Code live in their own reposito
 Bundled Extensions
 ------------------
 
-VS Code includes a set of built-in extensions located in the extensions folder, including grammars and snippets for many languages. Extensions that provide rich language support (code completion, Go to Definition) for a language have the suffix `language-features`. For example, the `json` extension provides coloring for `JSON` and the `json-language-features` extension provides rich language support for `JSON`.
+VS Code includes a set of built-in extensions located in the extensions folder, including grammars and snippets for many languages. Extensions that provide rich language support (inline suggestions, Go to Definition) for a language have the suffix `language-features`. For example, the `json` extension provides coloring for `JSON` and the `json-language-features` extension provides rich language support for `JSON`.
 
 Development Container
 ---------------------

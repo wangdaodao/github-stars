@@ -1,6 +1,6 @@
 ---
 project: vue-d3-charts
-stars: 101
+stars: 102
 description: D3 charts for Vue
 url: https://github.com/Saigesp/vue-d3-charts
 ---

@@ -1,6 +1,6 @@
 ---
 project: email-helper
-stars: 725
+stars: 724
 description: Generate your business emails in seconds (by OpenAI)
 url: https://github.com/shengxinjing/email-helper
 ---

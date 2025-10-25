@@ -1,6 +1,6 @@
 ---
 project: pic-smaller
-stars: 2532
+stars: 2535
 description: Pic Smaller – Compress JPEG, PNG, WEBP, AVIF, SVG and GIF images intelligently
 url: https://github.com/joye61/pic-smaller
 ---

@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 25275
+stars: 25290
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -12,8 +12,6 @@ url: https://github.com/zloirock/core-js
 -----------------------------------------------------
 
 > Modular standard library for JavaScript. Includes polyfills for ECMAScript up to 2025: promises, symbols, collections, iterators, typed arrays, many other features, ECMAScript proposals, some cross-platform WHATWG / W3C features and proposals like `URL`. You can load only required features or use it without global namespace pollution.
-
-**If you are looking for documentation for obsolete `core-js@2`, please, check this branch.**
 
 core-js@3, babel and a look into the future
 -------------------------------------------

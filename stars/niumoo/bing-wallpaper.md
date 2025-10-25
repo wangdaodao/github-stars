@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3121
+stars: 3128
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Neolithic site of Silbury Hill, Tilshead, Wiltshire, England (© dbstockphoto/Getty Images)
+Today: Aerial view of peatland in Martimoaapa Mire Reserve, Finland (© romikatarina/Shutterstock)
+
+2025-10-26 download 4k
+
+2025-10-25 download 4k
+
+2025-10-24 download 4k
+
+2025-10-23 download 4k
+
+2025-10-22 download 4k
+
+2025-10-21 download 4k
+
+2025-10-20 download 4k
 
 2025-10-19 download 4k
 
@@ -55,20 +69,6 @@ Today: Neolithic site of Silbury Hill, Tilshead, Wiltshire, England (© dbstockp
 2025-09-28 download 4k
 
 2025-09-27 download 4k
-
-2025-09-26 download 4k
-
-2025-09-25 download 4k
-
-2025-09-24 download 4k
-
-2025-09-23 download 4k
-
-2025-09-22 download 4k
-
-2025-09-21 download 4k
-
-2025-09-20 download 4k
 
 ### 历史归档：
 

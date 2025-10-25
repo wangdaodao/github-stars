@@ -1,6 +1,6 @@
 ---
 project: GlobeStream3D
-stars: 527
+stars: 530
 description:  基于threejs开发的3D地球2D 地图 js组件，适用所有前端js框架 Building 3D visualization based on three.js, High efficiency component
 url: https://github.com/hululuuuuu/GlobeStream3D
 ---

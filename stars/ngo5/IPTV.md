@@ -1,6 +1,6 @@
 ---
 project: IPTV
-stars: 3973
+stars: 4026
 description: IPV4/IPV6 TVBOX 电视直播点播源收集
 url: https://github.com/ngo5/IPTV
 ---
@@ -69,6 +69,26 @@ IPV4
 
 ✔️
 
+Guovin
+
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
+
+IPV6
+
+✔️
+
+✔️
+
+Guovin
+
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
+
+IPV4
+
+✔️
+
+✔️
+
 fanmingming
 
 https://live.fanmingming.cn/tv/m3u/ipv6.m3u
@@ -81,13 +101,13 @@ IPV6
 
 YueChan
 
-https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/APTV.m3u
+https://raw.githubusercontent.com/YueChan/Live/refs/heads/main/IPTV.m3u
 
 IPV4
 
-✔️
-
 ❌
+
+✔️
 
 Kimentanm
 
@@ -106,26 +126,6 @@ https://raw.githubusercontent.com/BurningC4/Chinese-IPTV/master/TV-IPV4.m3u
 IPV4
 
 ❌
-
-❌
-
-Ftindy
-
-https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
-
-IPV4
-
-✔️
-
-✔️
-
-AKTV
-
-https://aktv.space/live.m3u
-
-IPV4
-
-✔️
 
 ❌
 
@@ -169,26 +169,6 @@ IPV6
 
 ✔️
 
-iptv-api
-
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
-
-IPV4
-
-✔️
-
-✔️
-
-iptv-api
-
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
-
-IPV6
-
-✔️
-
-✔️
-
 传说引导页
 
 http://tttttt.tttttttttt.top/jk.txt
@@ -203,7 +183,7 @@ iptv-sources
 
 https://m3u.ibert.me/fmml\_ipv6.m3u
 
-IPV4
+IPV6
 
 ✔️
 
@@ -218,6 +198,26 @@ IPV4
 ❌
 
 ✔️
+
+Ftindy
+
+https://raw.githubusercontent.com/Ftindy/IPTV-URL/main/IPV6.m3u
+
+IPV4
+
+✔️
+
+✔️
+
+AKTV
+
+https://aktv.space/live.m3u
+
+IPV4
+
+✔️
+
+❌
 
 直播源有人卡有人不卡都是正常的，请测试后选择适合自己地区的直播源。20250115突然大部分IPV6直播源只能本省看，好多项目IPV6源也替换成IPV4源，现在看直播可试试“自带源软件”下几个软件。也可以先输入点播源，这样会自动填写点播源自带的直播源。
 
@@ -293,12 +293,6 @@ http://肥猫.com/
 
 源
 
-安卓哥
-
-https://安卓哥.com
-
-源
-
 盒子迷
 
 https://盒子迷.top/禁止贩卖
@@ -332,6 +326,18 @@ https://fongmi.eu.org/
 APP宫殿
 
 https://gongdian.top/tvbox/nanfeng/api.json
+
+源
+
+Guovin
+
+https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
+
+源
+
+安卓哥
+
+https://安卓哥.com
 
 源
 
@@ -396,7 +402,7 @@ https://github.com/FongMi/Release/tree/fongmi/apk/release
 
 Android电视/手机
 
-影视(OK)
+OK影视
 
 https://github.com/FongMi/Release/tree/okjack/apk/release
 
@@ -410,7 +416,7 @@ Android电视
 
 MoonTV
 
-https://github.com/senshinya/MoonTV
+https://github.com/MoonTechLab/LunaTV
 
 需自己构建
 
@@ -513,7 +519,7 @@ TVBOX直播没有台标没有节目单，影视APP有。TiviMate不能扫码输�
 自带源软件
 -----
 
-电视直播 电视APP
+电视直播 安卓电视APP
 
 名称
 
@@ -561,13 +567,13 @@ https://www.dajitv.com/dajitv-app/
 
 https://github.com/lizongying/my-tv-0/releases
 
-空壳+源
+内置源
 
 GD影视
 
 https://www.gongdian.top/?p=4761
 
-OK影视空壳内置源
+OK影视内置源
 
 影用仓库
 
@@ -612,7 +618,7 @@ https://github.com/lizongying/my-tv-1/releases
 
 BrowseHere
 
-https://tcl-img.b-cdn.net/BrowseHere/APK/release/ape\_6.44.011\_4f72312d\_221221\_gp\_BrowseHere.apk
+v6.44.011
 
 官方
 
@@ -630,7 +636,7 @@ GitHub镜像
 -   https://ghfast.top/
 -   https://gh-proxy.com/
 
-在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。举例：https://github.do/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
+在国内网络无法打开GitHub相关地址时候使用，使用方法是在地址前加上面其中一个链接。举例：https://gh-proxy.com/https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u
 
 解决无法打开GitHub还有一种方法是更换DNS。DNS合集：https://dns.iui.im/ DNS测速：https://ping.sx/ping
 

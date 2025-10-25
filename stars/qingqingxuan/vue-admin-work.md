@@ -1,6 +1,6 @@
 ---
 project: vue-admin-work
-stars: 110
+stars: 109
 description: 🎉🎉🚀🚀🚀🚀vue-admin-work是一个中后台系统管理方案。使用 vue2.x  及周边全家桶工具开发而来。支持多种功能，不同角色权限🚀🚀🚀🎉🎉
 url: https://github.com/qingqingxuan/vue-admin-work
 ---

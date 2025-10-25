@@ -1,6 +1,6 @@
 ---
 project: dumi
-stars: 3761
+stars: 3764
 description: 📖 Static Site Generator for component library development
 url: https://github.com/umijs/dumi
 ---

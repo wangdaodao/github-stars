@@ -1,6 +1,6 @@
 ---
 project: three.js
-stars: 109027
+stars: 109110
 description: JavaScript 3D Library.
 url: https://github.com/mrdoob/three.js
 ---
