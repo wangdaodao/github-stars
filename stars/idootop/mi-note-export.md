@@ -1,6 +1,6 @@
 ---
 project: mi-note-export
-stars: 130
+stars: 142
 description: 📝 小米笔记秒变个人博客网站，一键备份小米笔记（包含图片、录音等文件）
 url: https://github.com/idootop/mi-note-export
 ---

@@ -1,6 +1,6 @@
 ---
 project: gpt4free
-stars: 65443
+stars: 65467
 description: The official gpt4free repository | various collection of powerful language models | o4, o3 and deepseek r1, gpt-4.1, gemini 2.5
 url: https://github.com/xtekky/gpt4free
 ---
@@ -211,6 +211,52 @@ python -m g4f --port 8080 --debug
 -   Start GUI server:
 
 python -m g4f.cli gui --port 8080 --debug
+
+### MCP Server
+
+GPT4Free now includes a Model Context Protocol (MCP) server that allows AI assistants like Claude to access web search, scraping, and image generation capabilities.
+
+**Starting the MCP server (stdio mode):**
+
+# Using g4f command
+g4f mcp
+
+# Or using Python module
+python -m g4f.mcp
+
+**Starting the MCP server (HTTP mode):**
+
+# Start HTTP server on port 8765
+g4f mcp --http --port 8765
+
+# Custom host and port
+g4f mcp --http --host 127.0.0.1 --port 3000
+
+HTTP mode provides:
+
+-   `POST http://localhost:8765/mcp` - JSON-RPC endpoint
+-   `GET http://localhost:8765/health` - Health check
+
+**Configuring with Claude Desktop:**
+
+Add to your `claude_desktop_config.json`:
+
+{
+  "mcpServers": {
+    "gpt4free": {
+      "command": "python",
+      "args": \["\-m", "g4f.mcp"\]
+    }
+  }
+}
+
+**Available MCP Tools:**
+
+-   `web_search` - Search the web using DuckDuckGo
+-   `web_scrape` - Extract text content from web pages
+-   `image_generation` - Generate images from text prompts
+
+For detailed MCP documentation, see g4f/mcp/README.md
 
 ### Optional provider login (desktop within container)
 

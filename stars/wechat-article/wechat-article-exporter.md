@@ -1,6 +1,6 @@
 ---
 project: wechat-article-exporter
-stars: 4623
+stars: 4651
 description: 一个在线的微信公众号文章批量下载工具，支持下载阅读量与评论数据，支持私有化部署，通过浏览器进行使用，无需进行安装
 url: https://github.com/wechat-article/wechat-article-exporter
 ---
@@ -30,7 +30,6 @@ wechat-article-exporter
 -   支持视频分享消息
 -   支持导出评论、评论回复、阅读量、转发量等数据 (需要抓包获取 credentials 信息，查看操作步骤)
 -   支持docker部署
--   支持订阅机制，根据指定规则自动下载文章
 -   开放 API 接口
 
 ❤️ 感谢

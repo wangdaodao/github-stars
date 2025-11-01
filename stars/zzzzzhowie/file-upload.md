@@ -1,6 +1,6 @@
 ---
 project: file-upload
-stars: 700
+stars: 699
 description: A guide about how to upload and process large files (using Vue.js for frontend and Node.js for backend)
 url: https://github.com/zzzzzhowie/file-upload
 ---

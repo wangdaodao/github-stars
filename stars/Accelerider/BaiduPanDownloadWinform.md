@@ -1,6 +1,6 @@
 ---
 project: BaiduPanDownloadWinform
-stars: 2925
+stars: 2924
 description: 百度网盘不限速下载工具
 url: https://github.com/Accelerider/BaiduPanDownloadWinform
 ---

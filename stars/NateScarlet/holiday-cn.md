@@ -1,6 +1,6 @@
 ---
 project: holiday-cn
-stars: 1642
+stars: 1648
 description: 📅🇨🇳中国法定节假日数据 自动每日抓取国务院公告
 url: https://github.com/NateScarlet/holiday-cn
 ---

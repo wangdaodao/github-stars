@@ -1,6 +1,6 @@
 ---
 project: editor
-stars: 1192
+stars: 1200
 description: Umo Editor is an open-source document editor, based on Vue3 and Tiptap.
 url: https://github.com/umodoc/editor
 ---
@@ -174,6 +174,16 @@ If you find Umo Editor useful, please consider supporting us in the following wa
 
 -   ⭐ Star the Umo Editor repository to show your support.
 -   🔗 If you use Umo Editor in your project, add a link to https://github.com/umodoc/editor.
+
+Products from Umo Team
+----------------------
+
+-   Umo Editor: A localized open-source document editor based on Vue3 and Tiptap.
+-   Umo Viewer: A PDF viewer built with Vue3 and PDF.js, enabling direct PDF preview in the browser and also supporting preview of Umo Editor documents.
+-   Umo Editor Next: An enhanced version of Umo Editor that includes all features of the latest Umo Editor while adding or improving support for multi-user real-time collaborative editing, document annotations (comments), document version history, AI-assisted creation, document import/export, tables, and more. It also enhances customization of toolbars and sidebars.
+-   Umo Editor Server: A companion server-side software developed to extend Umo Editor capabilities such as multi-user collaborative editing, document annotations, and document import/export.
+-   Umo Office Viewer: An Office document viewer that supports previewing over 40 mainstream office document in web pages.
+-   Umo Office Convert: Converts over 40 office formats into web-viewable formats, ready to pair with Umo Office Viewer for seamless online document preview.
 
 Open Source License
 -------------------

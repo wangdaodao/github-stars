@@ -1,6 +1,6 @@
 ---
 project: html-to-pdfmake
-stars: 628
+stars: 629
 description: This module permits to convert HTML to the PDFMake format
 url: https://github.com/Aymkdn/html-to-pdfmake
 ---
@@ -10,7 +10,9 @@ html-to-pdfmake
 
 Convert HTML to PDFMake format with ease. This library bridges the gap between HTML content and PDFMake document definitions, allowing you to generate PDFs from basic HTML while maintaining based styling and structure.
 
-**Note**: if you need to convert a complex HTML, check some online solutions, like Doppio, or you could try to convert your HTML to canvas or to an image and then to export it to PDF.
+**Note**: if you need to convert a complex HTML (e.g. something produced by a Rich Text Editor), check some online solutions, like Doppio, or you could try to convert your HTML to canvas or to an image and then to export it to PDF.
+
+This library will have the same limitation as PDFMake. If you need to verify if a style is supported by PDFMake, you can check its documentation.
 
 Features
 --------

@@ -1,6 +1,6 @@
 ---
 project: date-holidays
-stars: 1019
+stars: 1020
 description: worldwide holidays
 url: https://github.com/commenthol/date-holidays
 ---
@@ -408,13 +408,17 @@ Countries: 199
 ├── IR: جمهوری اسلامی ایران
 ├── IS: Ísland
 ├── IT: Italia
+│   ├── 21: Piedmont
+│   │   └── TO: [object Object]
 │   ├── 25: Lombardy
 │   │   └── MI: Milan
 │   ├── 32: Alto Adige
 │   ├── 52: Toscana
 │   │   └── FI: Firenze
-│   └── 62: Lazio
-│       └── RM: Roma
+│   ├── 62: Lazio
+│   │   └── RM: Roma
+│   └── 82: Sicily
+│       └── PA: Palermo
 ├── JE: Jersey
 ├── JM: Jamaica
 ├── JP: 日本

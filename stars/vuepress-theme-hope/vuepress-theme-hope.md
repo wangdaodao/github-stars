@@ -1,6 +1,6 @@
 ---
 project: vuepress-theme-hope
-stars: 2432
+stars: 2435
 description: A vuepress theme with tons of features✨
 url: https://github.com/vuepress-theme-hope/vuepress-theme-hope
 ---
@@ -30,7 +30,7 @@ We recommend contacting us through issues and discussions, but you are also welc
 Details
 -------
 
-V2 is based on **VuePress2**, with the power of **Vite6** / **Webpack5** and **Vue3** to provide powerful features.
+V2 is based on **VuePress2**, with the power of **Vite7** / **Webpack5** and **Vue3** to provide powerful features.
 
 V2 is a complete rewrite including:
 

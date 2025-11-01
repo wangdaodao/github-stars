@@ -1,6 +1,6 @@
 ---
 project: ams
-stars: 397
+stars: 398
 description: AMS是基于 Vue.js 和 Element组件库、通过JSON配置来快速搭建管理后台的一整套前端解决方案
 url: https://github.com/vipshop/ams
 ---

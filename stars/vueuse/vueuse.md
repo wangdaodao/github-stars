@@ -1,6 +1,6 @@
 ---
 project: vueuse
-stars: 21736
+stars: 21765
 description: Collection of essential Vue Composition Utilities for Vue 3
 url: https://github.com/vueuse/vueuse
 ---

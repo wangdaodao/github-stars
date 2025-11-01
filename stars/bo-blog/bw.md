@@ -1,6 +1,6 @@
 ---
 project: bw
-stars: 95
+stars: 96
 description: Bo-blog Wind Version
 url: https://github.com/bo-blog/bw
 ---

@@ -1,9 +1,16 @@
 ---
 project: PDFMathTranslate
-stars: 29255
+stars: 29477
 description: [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
+
+Special thanks to:  
+  
+Warp, built for coding with multiple AI agents  
+Available for macOS, Linux and Windows
+
+  
 
 English | 简体中文 | 繁體中文 | 日本語 | 한국어
 
@@ -43,7 +50,7 @@ Scientific PDF document translation preserving layouts.
 You can try our application out using either of the following demos:
 
 -   Public free service online without installation _(recommended)_.
--   Immersive Translate - BabelDOC 1000 free pages per month. _(recommended)_
+-   Immersive Translate - BabelDOC Free usage quota is available; please refer to the FAQ section on the page for details. _(recommended)_
 -   Demo hosted on HuggingFace
 -   Demo hosted on ModelScope without installation.
 

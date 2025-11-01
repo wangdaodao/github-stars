@@ -1,6 +1,6 @@
 ---
 project: reference
-stars: 14554
+stars: 14580
 description: 为开发人员分享快速参考备忘清单(速查表)
 url: https://github.com/jaywcjlove/reference
 ---
@@ -35,7 +35,6 @@ Quick Reference
   
 **Warp, the intelligent terminal for developers!**  
 Available for MacOS, Linux, & Windows  
-
   
 Tuple, the premier screen sharing app for developers on macOS and Windows.  
 
@@ -145,7 +144,7 @@ Quick Reference Aspect Ratio ASCII Code Symbol Code Colors Named HTTP 状态码 
 
 由于中国国内访问，时常打不开，你可以访问下面镜像网站(国内打不开的不再收录)。推荐自己的镜像网站
 
-quickref.cn axchen.top tamamo.top sakuraovo.site nyanon.online dotcube.cc 78888889.xyz pusukeji.com magese.com doraemon.press foreverlink.love xod.cc jhao.me maoo.me luckyits.com 9up.dev ylmty.cc mingming.dev itzcy.com ref.v-ta.com eryajf.net isteed.cc 666666.dev srebro.cn guoxudong.io terryyoung.cn quickref.binscor.top zone.id aibk.cn docflow.cn quickref.hestudio.net qiubit.cc moeyuuko.com haah.net ownit.top laoleng.vip if010.com cms.im itcent.cn coolxy.top kclouder.cn xalaok.top hao.kim tool.sakura.vin chenchen.site jgeek.cn gaojs.com.cn 15926.tech okhk.net wdft.com likui.info ruiange.work denganliang.com ivanz.cc dev6.site zishu.me sucan2233.cn bobh.cool tangwudi.com osz.icu docs.willxup.top wangchunfei.com object.cool jeremyjone.com gistudy.net deyout.com const.team liamng.de zcsk18.cn hhxyrk.icu vhcffh.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net yunshangmanyou.com xiaokaixuan.com opzz.top songbaixin.xin dev.bi ecdata.cn cnxiaobai.com web.app OneNAS.space leonus.cn taotaome.com hurcaguari.top cutterman.cn notes-bin.top dongdong741236.cn
+hanacloud.site doc.xyz.sb quickref.cn axchen.top tamamo.top sakuraovo.site nyanon.online dotcube.cc 78888889.xyz pusukeji.com magese.com doraemon.press foreverlink.love xod.cc jhao.me maoo.me luckyits.com 9up.dev ylmty.cc mingming.dev itzcy.com ref.v-ta.com eryajf.net isteed.cc 666666.dev srebro.cn guoxudong.io terryyoung.cn quickref.binscor.top zone.id aibk.cn docflow.cn quickref.hestudio.net qiubit.cc moeyuuko.com haah.net ownit.top laoleng.vip if010.com cms.im itcent.cn coolxy.top kclouder.cn xalaok.top hao.kim tool.sakura.vin chenchen.site jgeek.cn gaojs.com.cn 15926.tech okhk.net wdft.com likui.info ruiange.work denganliang.com ivanz.cc dev6.site zishu.me sucan2233.cn bobh.cool tangwudi.com osz.icu docs.willxup.top wangchunfei.com object.cool jeremyjone.com gistudy.net deyout.com const.team liamng.de zcsk18.cn hhxyrk.icu vhcffh.com childish.vip hackshen.com afetera.top trtuaazz.com anhaoyang.com xxcxx.lat fishlee.net yunshangmanyou.com xiaokaixuan.com opzz.top songbaixin.xin dev.bi ecdata.cn cnxiaobai.com web.app OneNAS.space leonus.cn taotaome.com hurcaguari.top cutterman.cn notes-bin.top dongdong741236.cn
 
 下面网站暂时飞走了
 

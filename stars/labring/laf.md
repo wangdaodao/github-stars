@@ -1,6 +1,6 @@
 ---
 project: laf
-stars: 7601
+stars: 7602
 description: Laf is a vibrant cloud development platform that provides essential tools like cloud functions, databases, and storage solutions. It enables developers to quickly unleash their creativity and bring innovative ideas to life with ease.
 url: https://github.com/labring/laf
 ---
@@ -68,10 +68,8 @@ laf 是开源的云开发平台，提供云函数、云数据库、云存储等�
 
 > life is short, you need laf:)
 
-🎉 Self-hosted Deployment
--------------------------
-
-> 快速部署：Sealos 提供开箱即用的域名、证书、网关、数据库、监控、备份等，无需配置，点击下面按钮，快速一键部署：
+Deployment
+----------
 
 > 本地部署：需要自己配置域名、证书、网关等并且熟悉 kubernetes 的运维，可参考下面的文档。
 

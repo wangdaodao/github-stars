@@ -1,6 +1,6 @@
 ---
 project: morjs
-stars: 2035
+stars: 2040
 description: 基于小程序 DSL（微信、支付宝）的，可扩展的多端研发框架，支持一键将微信或支付宝小程序转换为微信、支付宝、百度、字节、QQ、快手、淘宝、钉钉等小程序 或 Web 应用。
 url: https://github.com/eleme/morjs
 ---

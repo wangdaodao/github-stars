@@ -1,6 +1,6 @@
 ---
 project: modern-monaco
-stars: 1403
+stars: 1440
 description: A modern version of Monaco Editor.
 url: https://github.com/esm-dev/modern-monaco
 ---

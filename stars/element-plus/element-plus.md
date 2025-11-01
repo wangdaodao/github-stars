@@ -1,6 +1,6 @@
 ---
 project: element-plus
-stars: 26698
+stars: 26720
 description: 🎉 A Vue.js 3 UI Library made by Element team
 url: https://github.com/element-plus/element-plus
 ---
@@ -15,14 +15,14 @@ Element Plus - A Vue.js 3 UI library
 Getting Started
 ---------------
 
-Alright, for you to get started if you are looking for making Element Plus better you should keep reading. For developers that uses Element Plus to develop your website you should go ahead visit Getting Started.
+Alright, if you're looking to make Element Plus better, keep reading. For developers using Element Plus to build websites, please visit Getting Started.
 
 -   中国大陆加速镜像站点
 
-Breaking change list
+Breaking Change List
 --------------------
 
-The first stable release of Element Plus suitable for use in production was released on February 07, 2022. The APIs is stable right now, and here's also a full list about how to get upgraded from Element UI to Element Plus.
+The first stable release of Element Plus, suitable for production use, was released on February 7, 2022. The API is stable now, and here's a full list on how to upgrade from Element UI to Element Plus.
 
 You can find the breaking change list here: Breaking Change List.
 
@@ -30,21 +30,21 @@ You can find the breaking change list here: Breaking Change List.
 
 We have made a migration tool for you to migrate your project from Element UI to Element Plus.
 
-You can find the gogo code migration tool here.
+You can find the gogocode migration tool here.
 
 We have tested this on Vue Element Admin. You can find the transpiled code here.
 
 ### Playground
 
-You can also try Element Plus out with the components built-in playground.
+You can also try out Element Plus with its built-in component playground.
 
 #### Try it with our built-in playground
 
 Playground
 
-#### Try it with code sandbox
+#### Try it with CodeSandbox
 
-**Special thanks to the generous sponsorship by:**
+**Special thanks to our generous sponsors:**
 
   
 
@@ -57,13 +57,13 @@ Playground
 Translations
 ------------
 
-Element Plus is translated to multiple languages, you can click the badge to help up update the translation or apply to become a proofreader
+Element Plus has been translated into multiple languages. You can click the badge to help us update the translations or apply to become a proofreader.
 
-For now we are only showing English and Chinese for resource reasons, but we are looking forward to translate it into more languages, please go to the link above and leave a message if you want to help translating Element Plus into your desired language.
+For now, we are only providing English and Chinese versions due to limited resources, but we are looking forward to translating it into more languages. Please visit the link above and leave a message if you would like to help translate Element Plus into your preferred language.
 
-### How to help translating
+### How to help translate
 
-See how to help translating in Translating Element Plus.
+See how to help translate in Translating Element Plus.
 
 Stay tuned 👀
 -------------
@@ -78,9 +78,9 @@ Awesommmmmmee. Everything you need is down below. You can also refer to CONTRIBU
 I would like to become a part of the development team!
 ------------------------------------------------------
 
-Welcome 🤩! We are looking for talented developers to join us and making Element Plus better! If you care to join the development team, please reach out to us, you are more than welcomed to join us! ❤️
+Welcome 🤩! We are looking for talented developers to join us and make Element Plus better! If you're interested in joining the development team, please reach out to us -- you're more than welcome to join us! ❤️
 
-We are now lacking of experts of `Testing`, `GitHub Actions`, `PM`, if you do feel like you can and willing to help us, please do reach out to us. 🙏
+We are now looking for experts in `Testing`, `GitHub Actions` and `PM`. If you feel like you can and are willing to help, please don't hesitate to reach out to us. 🙏
 
 Contributors
 ------------

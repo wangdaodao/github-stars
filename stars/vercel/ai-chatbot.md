@@ -1,6 +1,6 @@
 ---
 project: ai-chatbot
-stars: 18457
+stars: 18548
 description: A full-featured, hackable Next.js AI chatbot built by Vercel
 url: https://github.com/vercel/ai-chatbot
 ---
@@ -63,6 +63,7 @@ You will need to use the environment variables defined in `.env.example` to run 
 3.  Download your environment variables: `vercel env pull`
 
 pnpm install
+pnpm db:migrate # Setup database or apply latest database changes
 pnpm dev
 
 Your app template should now be running on localhost:3000.

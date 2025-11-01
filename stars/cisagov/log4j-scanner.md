@@ -1,6 +1,6 @@
 ---
 project: log4j-scanner
-stars: 1281
+stars: 1282
 description: log4j-scanner is a project derived from other members of the open-source community by CISA to help organizations identify potentially vulnerable web services affected by the log4j vulnerabilities. 
 url: https://github.com/cisagov/log4j-scanner
 ---

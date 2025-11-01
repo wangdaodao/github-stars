@@ -1,6 +1,6 @@
 ---
 project: report-designer
-stars: 1150
+stars: 1153
 description: ⚡设计、可视化、标签、编辑器、设计器、报表、流程图、试卷、SVG、物联网、小票、打印、套打
 url: https://github.com/xinglie/report-designer
 ---

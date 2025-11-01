@@ -1,6 +1,6 @@
 ---
 project: ofdrw
-stars: 1659
+stars: 1665
 description: OFD Reader & Writer 开源的OFD处理库，支持文档生成、数字签名、文档保护、文档合并、转换、导出等功能，文档格式遵循《GB/T 33190-2016 电子文件存储与交换格式版式文档》。
 url: https://github.com/ofdrw/ofdrw
 ---

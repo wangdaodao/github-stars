@@ -1,6 +1,6 @@
 ---
 project: warpkey
-stars: 69
+stars: 70
 description: CloudFlare Key Collection Tool CloudFlare WARP KEY收集工具，WARP KEY收集工具，每小时自动更新https://www.wanghaoyu.com.cn/archives/cloudflare-warp-key.html
 url: https://github.com/nas-tool/warpkey
 ---
@@ -15,10 +15,10 @@ Direct Access
 
 You can directly access Warp KEY from the following URL (Update data every hour):
 
--   https://raw.githubusercontent.com/geeklinux-io/warpkey/main/data/lite
--   https://raw.githubusercontent.com/geeklinux-io/warpkey/main/data/full
+-   https://raw.githubusercontent.com/nas-tool/warpkey/main/data/lite
+-   https://raw.githubusercontent.com/nas-tool/warpkey/main/data/full
 
-You can also obtain it through my GitHub Pages:CloudFlare WARP Key (geeklinux-io.github.io)
+You can also obtain it through my GitHub Pages:CloudFlare WARP Key (nas-tool.github.io)
 
 Private Deployment
 ------------------
@@ -31,7 +31,7 @@ Make sure you have Go installed. You can download and install Go from the offici
 
 Clone this repository to your local environment:
 
-git clone https://github.com/geeklinux-io/warpkey.git
+git clone https://github.com/nas-tool/warpkey.git
 cd warpkey
 
 ### 3\. Configure

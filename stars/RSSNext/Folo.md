@@ -1,7 +1,7 @@
 ---
 project: Folo
-stars: 35347
-description: 🧡 Follow everything in one place
+stars: 35535
+description: 🧡 Folo is the AI Reader
 url: https://github.com/RSSNext/Folo
 ---
 

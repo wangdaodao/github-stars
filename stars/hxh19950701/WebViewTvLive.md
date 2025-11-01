@@ -1,6 +1,6 @@
 ---
 project: WebViewTvLive
-stars: 2995
+stars: 3024
 description: 使用 腾讯X5 WebView 开发的电视直播App
 url: https://github.com/hxh19950701/WebViewTvLive
 ---
@@ -50,12 +50,12 @@ WebView 电视
 缺点
 --
 
--   基于 WebView 构建，对设备性能有一定的要求，详见性能要求
+-   基于 WebView 构建，对设备性能有一定的要求，详见设备要求
 -   载入频道稍长，需要等待一定时间
 -   无法选择视频清晰度，帧率有限（大部分为 24FPS）
 -   由于版权限制，官网可能不会播放某些时段的节目
 
-性能要求
+设备要求
 ----
 
 项目
@@ -80,13 +80,13 @@ CPU
 
 Android 5.0
 
-Android 9.0 及以上
+Android 11 及以上
 
 WebView 版本
 
 WebView 78
 
-WebView 100 及以上
+WebView 120 及以上
 
 常见问题（FAQ）
 ---------

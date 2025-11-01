@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 25290
+stars: 25305
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -222,8 +222,6 @@ npm install --save core-js@3.46.0
 npm install --save core-js-pure@3.46.0
 // bundled global version
 npm install --save core-js-bundle@3.46.0
-
-Or you can use `core-js` from CDN.
 
 ### `postinstall` message⬆
 
@@ -1593,15 +1591,11 @@ Symbol().description;      // => undefined
 You can disable defining setters in `Object.prototype`. Example:
 
 Symbol.useSimple();
-let symbol1 \= Symbol('symbol1');
-let object1 \= {};
-object1\[symbol1\] \= true;
+let object1 \= { \[Symbol('symbol1')\]: true };
 for (let key in object1) console.log(key); // => 'Symbol(symbol1)\_t.qamkg9f3q', w/o native Symbol
 
 Symbol.useSetter();
-let symbol2 \= Symbol('symbol2');
-let object2 \= {};
-object2\[symbol2\] \= true;
+let object2 \= { \[Symbol('symbol2')\]: true };
 for (let key in object2) console.log(key); // nothing
 
 -   Currently, `core-js` does not add setters to `Object.prototype` for well-known symbols for correct work something like `Symbol.iterator in foo`. It can cause problems with their enumerability.
