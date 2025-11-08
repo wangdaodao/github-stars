@@ -1,6 +1,6 @@
 ---
 project: choco-builder
-stars: 222
+stars: 221
 description: ChocoBuilder (Chocolate Factory) is a cutting-edge LLM toolkit designed to empower you in creating your very own AI assistant.Chocolate Factory 是一款开源的 LLM 应用开发框架，旨在帮助您轻松打造强大的软件开发 SDLC + LLM 生成助手。无论您是需要生成前端页面、后端 API、SQL 图表，还是测试用例数据，Chocolate Factory 都能满足您的需求。
 url: https://github.com/unit-mesh/choco-builder
 ---

@@ -1,6 +1,6 @@
 ---
 project: webrtc-demo
-stars: 149
+stars: 150
 description: webrtc 演示示例
 url: https://github.com/nashaofu/webrtc-demo
 ---

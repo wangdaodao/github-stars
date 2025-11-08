@@ -1,6 +1,6 @@
 ---
 project: modern.js
-stars: 4859
+stars: 4862
 description: A progressive web framework based on React and Rsbuild.
 url: https://github.com/web-infra-dev/modern.js
 ---

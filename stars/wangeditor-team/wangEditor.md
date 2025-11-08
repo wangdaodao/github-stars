@@ -1,6 +1,6 @@
 ---
 project: wangEditor
-stars: 18171
+stars: 18182
 description: wangEditor, open-source Web rich text editor 开源 Web 富文本编辑器
 url: https://github.com/wangeditor-team/wangEditor
 ---

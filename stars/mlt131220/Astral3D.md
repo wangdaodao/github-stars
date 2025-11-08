@@ -1,6 +1,6 @@
 ---
 project: Astral3D
-stars: 1811
+stars: 1823
 description: 基于Vue3 + THREE.JS 免费开源的三维引擎及配套编辑器，包含BIM轻量化、CAD解析预览、粒子系统、插件系统等功能。               A free and open-source 3D engine based on Vue3 + THREE.JS and its accompanying editor, featuring functions such as BIM lightweighting, CAD parsing preview, particle system, and plugin system.
 url: https://github.com/mlt131220/Astral3D
 ---
@@ -53,7 +53,7 @@ Astral 3D Editor
 
 ### 前置需求
 
--   Node.js ≥ 23.0.0
+-   Node.js ≥ 23.11.x
 -   PNPM
 
 ### 本地运行
@@ -91,11 +91,12 @@ Astral 3D Editor
 ⚖️ 许可协议
 -------
 
-本项目采用 开源协议，使用时请遵守以下条款：
+本项目采用 开源协议，使用时请遵守协议条款及以下补充条款：
 
--   ✅ 允许：个人学习、二次开发、商业用途
+-   ✅ 允许：个人学习/二次开发
 -   ⚠️ 需要版权声明
--   ❌ 禁止：将本项目用于非法用途
+-   ⚠️ 商业用途需要授权
+-   ❌ 禁止：将本项目用于与**杭州星孪数字科技**有竞争性的业务或非法用途
 
 **完整法律声明** | **贡献指南**
 

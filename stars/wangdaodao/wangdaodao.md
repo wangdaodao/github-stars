@@ -10,32 +10,21 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-11-02 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-11-09 06:20.
 
 📝 Hitokoto
 -----------
 
-> 我该用什么来回应你的不义。—— 阿米娅
+> 对于我们的幸福来说，别人的看法在本质上来讲并不十分重要。—— 叔本华
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Bison grazing at thermal hot springs, Yellowstone National Park, Wyoming (© Cheryl Ramalho/Getty Images)_
+_Sea stacks of Bandon Beach in Bandon, Oregon (© Grant Ordelheide/TANDEM Stills + Motion)_
 
 📚 My Blog posts ...
 --------------------
-
-1.  开源Bilibili播放器插件 _\[2025-11-01\]_
-2.  折腾一个Typecho 360全景插件 _\[2025-10-30\]_
-3.  3I/ATLAS到底是什么 _\[2025-10-29\]_
-4.  周末随笔 _\[2025-10-27\]_
-5.  使用GitHub Action定时抓取RSS _\[2025-10-24\]_
-6.  给Typecho增加文章置顶功能 _\[2025-10-22\]_
-7.  Typecho非插件实现文章相册功能 _\[2025-10-19\]_
-8.  折腾了几个插件 _\[2025-10-09\]_
-9.  蓟县三日游记 _\[2025-10-08\]_
-10.  给博客增加点小功能 _\[2025-09-28\]_
 
 ➡️ More blog posts
 

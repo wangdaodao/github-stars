@@ -1,6 +1,6 @@
 ---
 project: wl-micro-frontends
-stars: 518
+stars: 519
 description: Micro front end practical project tutorial. 微前端项目实战vue项目。基于vue3.0&qiankun2.0进阶版：https://github.com/wl-ui/wl-mfe
 url: https://github.com/hql7/wl-micro-frontends
 ---

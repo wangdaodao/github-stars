@@ -1,6 +1,6 @@
 ---
 project: auto-dev
-stars: 4109
+stars: 4135
 description: 🧙‍AutoDev: The AI-powered coding wizard（AI  驱动编程助手）with multilingual support 🌐, auto code generation 🏗️, and a helpful bug-slaying assistant 🐞! Customizable prompts 🎨 and a magic Auto Dev/Testing/Document/Agent  feature 🧪 included! 🚀
 url: https://github.com/unit-mesh/auto-dev
 ---
@@ -252,6 +252,8 @@ Welcome to add your company here.
 
 License
 -------
+
+-   `@autodev/cli` Inspired and Tools system based on Google Gemini CLI withApache License 2.0
 
 Inspired by:
 

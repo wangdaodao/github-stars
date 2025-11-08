@@ -1,6 +1,6 @@
 ---
 project: sample-monorepo
-stars: 648
+stars: 649
 description: Sample monorepo setup with npm workspaces and typescript project references
 url: https://github.com/wixplosives/sample-monorepo
 ---

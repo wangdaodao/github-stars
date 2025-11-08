@@ -1,6 +1,6 @@
 ---
 project: canvas-painter
-stars: 54
+stars: 55
 description: 🎨 基于canvas的Web绘图应用，支持压感。
 url: https://github.com/chenyulian/canvas-painter
 ---

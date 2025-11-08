@@ -1,6 +1,6 @@
 ---
 project: PDFMathTranslate
-stars: 29477
+stars: 29684
 description: [EMNLP 2025 Demo] PDF scientific paper translation with preserved formats - 基于 AI 完整保留排版的 PDF 文档全文双语翻译，支持 Google/DeepL/Ollama/OpenAI 等服务，提供 CLI/GUI/MCP/Docker/Zotero
 url: https://github.com/Byaidu/PDFMathTranslate
 ---
@@ -341,26 +341,29 @@ For downstream applications, please refer to our document about \[API Details\](
 
 This work has been accepted by the _Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations_ (EMNLP 2025).
 
--   Pre-print version: PDFMathTranslate: Scientific Document Translation Preserving Layouts
-    
-    ```
-    @online{ouyang2025pdfmathtranslate,
-      title = {{{PDFMathTranslate}}: {{Scientific Document Translation Preserving Layouts}}},
-      shorttitle = {{{PDFMathTranslate}}},
-      author = {Ouyang, Rongxin and Chu, Chang and Xin, Zhikuang and Ma, Xiangyao},
-      date = {2025-07-08},
-      eprint = {2507.03009},
-      eprinttype = {arXiv},
-      eprintclass = {cs},
-      doi = {10.48550/arXiv.2507.03009},
-      url = {http://arxiv.org/abs/2507.03009},
-      urldate = {2025-08-27},
-      pubstate = {prepublished}
-    }
-    ```
-    
--   The citation for the EMNLP proceedings will be provided upon release.
-    
+Citation:
+
+```
+@inproceedings{ouyang-etal-2025-pdfmathtranslate,
+	    title = "{PDFM}ath{T}ranslate: Scientific Document Translation Preserving Layouts",
+	    author = "Ouyang, Rongxin  and
+	      Chu, Chang  and
+	      Xin, Zhikuang  and
+	      Ma, Xiangyao",
+	    editor = {Habernal, Ivan  and
+	      Schulam, Peter  and
+	      Tiedemann, J{\"o}rg},
+	    booktitle = "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+	    month = nov,
+	    year = "2025",
+	    address = "Suzhou, China",
+	    publisher = "Association for Computational Linguistics",
+	    url = "https://aclanthology.org/2025.emnlp-demos.71/",
+	    pages = "918--924",
+	    ISBN = "979-8-89176-334-0",
+	    abstract = "Language barriers in scientific documents hinder the diffusion and development of science and technologies. However, prior efforts in translating such documents largely overlooked the information in layouts. To bridge the gap, we introduce PDFMathTranslate, the world{'}s first open-source software for translating scientific documents while preserving layouts. Leveraging the most recent advances in large language models and precise layout detection, we contribute to the community with key improvements in precision, flexibility, and efficiency. The work is open-sourced at https://github.com/byaidu/pdfmathtranslate with more than 222k downloads."
+	}
+```
 
 ### 5.2 Acknowledgement
 

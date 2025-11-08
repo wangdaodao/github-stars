@@ -1,6 +1,6 @@
 ---
 project: WTF-JavaScript
-stars: 283
+stars: 284
 description: 我最近在重新学 JavaScript, 巩固一下细节, 也写一个“WTF JavaScript极简入门”，供新人学习。
 url: https://github.com/WTFAcademy/WTF-JavaScript
 ---

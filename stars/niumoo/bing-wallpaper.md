@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3140
+stars: 3156
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Bison grazing at thermal hot springs, Yellowstone National Park, Wyoming (© Cheryl Ramalho/Getty Images)
+Today: Sea stacks of Bandon Beach in Bandon, Oregon (© Grant Ordelheide/TANDEM Stills + Motion)
+
+2025-11-09 download 4k
+
+2025-11-08 download 4k
+
+2025-11-07 download 4k
+
+2025-11-06 download 4k
+
+2025-11-05 download 4k
+
+2025-11-04 download 4k
+
+2025-11-03 download 4k
 
 2025-11-02 download 4k
 
@@ -55,20 +69,6 @@ Today: Bison grazing at thermal hot springs, Yellowstone National Park, Wyoming 
 2025-10-12 download 4k
 
 2025-10-11 download 4k
-
-2025-10-10 download 4k
-
-2025-10-09 download 4k
-
-2025-10-08 download 4k
-
-2025-10-07 download 4k
-
-2025-10-06 download 4k
-
-2025-10-05 download 4k
-
-2025-10-04 download 4k
 
 ### 历史归档：
 

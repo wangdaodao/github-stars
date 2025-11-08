@@ -1,6 +1,6 @@
 ---
 project: vue-draggable-resizable-gorkys
-stars: 1249
+stars: 1248
 description: Vue 用于可调整大小和可拖动元素的组件并支持冲突检测、元素吸附、元素对齐、辅助线
 url: https://github.com/gorkys/vue-draggable-resizable-gorkys
 ---

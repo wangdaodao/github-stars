@@ -1,6 +1,6 @@
 ---
 project: 30-Days-Of-React
-stars: 27165
+stars: 27179
 description: 30 Days of  React challenge is a step by step guide to learn React in 30 days.  These videos may help too: https://www.youtube.com/channel/UC7PNRuno1rzYPb1xLa4yktw
 url: https://github.com/Asabeneh/30-Days-Of-React
 ---
@@ -157,9 +157,11 @@ Our amazing sponsors for supporting my open-source contribution and the **30 Day
 
 * * *
 
-### Dictation that understands code
+Talk to code, stay in the Flow.
+===============================
 
-_Ship 4x faster with developer-first dictation that works in every app._
+Flow is built for devs who live in their tools. Speak and give more context, get better results.
+------------------------------------------------------------------------------------------------
 
 * * *
 

@@ -1,6 +1,6 @@
 ---
 project: poi
-stars: 5201
+stars: 5199
 description: ⚡A zero-config bundler for JavaScript applications.
 url: https://github.com/egoist/poi
 ---

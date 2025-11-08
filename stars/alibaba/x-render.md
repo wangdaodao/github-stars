@@ -1,6 +1,6 @@
 ---
 project: x-render
-stars: 7756
+stars: 7757
 description: 🚴‍♀️ Very easy to use process form table chart solution. 很易用的流程 / 表单 / 表格 / 图表解决方案
 url: https://github.com/alibaba/x-render
 ---
