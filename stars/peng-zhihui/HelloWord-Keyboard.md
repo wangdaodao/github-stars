@@ -1,6 +1,6 @@
 ---
 project: HelloWord-Keyboard
-stars: 6500
+stars: 6512
 description: null
 url: https://github.com/peng-zhihui/HelloWord-Keyboard
 ---

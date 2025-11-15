@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3156
+stars: 3179
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Sea stacks of Bandon Beach in Bandon, Oregon (© Grant Ordelheide/TANDEM Stills + Motion)
+Today: Irohazaka Road in fall, Nikko, Tochigi, Japan (© oneinchpunch/Shutterstock)
+
+2025-11-16 download 4k
+
+2025-11-15 download 4k
+
+2025-11-14 download 4k
+
+2025-11-13 download 4k
+
+2025-11-12 download 4k
+
+2025-11-11 download 4k
+
+2025-11-10 download 4k
 
 2025-11-09 download 4k
 
@@ -55,20 +69,6 @@ Today: Sea stacks of Bandon Beach in Bandon, Oregon (© Grant Ordelheide/TANDEM 
 2025-10-19 download 4k
 
 2025-10-18 download 4k
-
-2025-10-17 download 4k
-
-2025-10-16 download 4k
-
-2025-10-15 download 4k
-
-2025-10-14 download 4k
-
-2025-10-13 download 4k
-
-2025-10-12 download 4k
-
-2025-10-11 download 4k
 
 ### 历史归档：
 

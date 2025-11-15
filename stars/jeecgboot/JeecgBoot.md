@@ -1,7 +1,7 @@
 ---
 project: JeecgBoot
-stars: 44281
-description: 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！前后端分离架构 SpringBoot3，SpringCloud、MybatisPlus，Ant Design&Vue3、TS+vite！强大代码生成器实现前后端一键生成，无需手写代码! 引领AI低代码开发模式：AI生成→在线编码→代码生成→手工合并，解决Java项目80%重复工作，提升效率，节省成本，兼顾灵活性~
+stars: 44352
+description: 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！ 集成一套完整AI应用平台：涵盖AI应用、AI模型、AI聊天助手、知识库、AI流程编排等，兼容多种大模型；提供强大代码生成器：实现前后端一键生成，无需手写代码! 引领AI开发模式：AI生成→在线配置→代码生成→手工合并，解决Java项目80%重复工作，提升效率节省成本，又不失灵活~
 url: https://github.com/jeecgboot/JeecgBoot
 ---
 
@@ -72,6 +72,7 @@ Gitee
 -   `jeecg-boot` 是后端JAVA源码项目Springboot3+SpringCloudAlibaba（支持单体和微服务切换）.
 -   `jeecgboot-vue3` 是前端VUE3源码项目（vue3+vite6+ts最新技术栈）.
 -   `JeecgUniapp` 是配套APP框架 适配多个终端，支持APP、小程序、H5、鸿蒙、鸿蒙Next.
+-   `jeecg-boot-starter` 是jeecg-boot对应的底层封装starter ：微服务启动、xxljob、分布式锁starter、rabbitmq、分布式事务、分库分表shardingsphere等.
 -   参考 文档 可以删除不需要的demo，制作一个精简版本
 
 启动项目

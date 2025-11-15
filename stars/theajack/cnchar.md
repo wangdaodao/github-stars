@@ -1,6 +1,6 @@
 ---
 project: cnchar
-stars: 2903
+stars: 2909
 description: 🇨🇳 功能全面的汉字工具库 (拼音 笔画 偏旁 成语 语音 可视化等) (Chinese character util)
 url: https://github.com/theajack/cnchar
 ---

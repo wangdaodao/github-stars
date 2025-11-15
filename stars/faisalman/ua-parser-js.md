@@ -1,6 +1,6 @@
 ---
 project: ua-parser-js
-stars: 9915
+stars: 9926
 description: Detect Browsers, OS, Devices, Bots, AI Crawlers, Apps, and more. Run in Browser (client-side) or Node.js (server-side).
 url: https://github.com/faisalman/ua-parser-js
 ---

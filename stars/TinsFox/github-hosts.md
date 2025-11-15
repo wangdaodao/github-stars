@@ -1,6 +1,6 @@
 ---
 project: github-hosts
-stars: 189
+stars: 194
 description: GitHub 访问加速，解决 GitHub 访问慢的问题。使用 Cloudflare Workers 和公共 DNS API 来获取 IP 地址。
 url: https://github.com/TinsFox/github-hosts
 ---

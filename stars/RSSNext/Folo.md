@@ -1,6 +1,6 @@
 ---
 project: Folo
-stars: 35689
+stars: 35811
 description: 🧡 Folo is the AI Reader
 url: https://github.com/RSSNext/Folo
 ---
@@ -42,10 +42,10 @@ Linux
 
 You can also install using the following methods maintained by our community:
 
--   If you are using Arch Linux, you can install package folo-appimage that maintained by timochan and grtsinry43.
--   If you are using Nix, you can install package follow that maintained by iosmanthus.
--   If you are using macOS with Homebrew, you can install cask folo that maintained by realSunyz.
--   If you are using Windows with Scoop, you can install manifest folo that maintained by cscnk52.
+-   If you are using Arch Linux, you can install the package folo-appimage that is maintained by timochan and grtsinry43.
+-   If you are using Nix, you can install the package follow that is maintained by iosmanthus.
+-   If you are using macOS with Homebrew, you can install the cask folo that is maintained by realSunyz.
+-   If you are using Windows with Scoop, you can install the manifest folo that is maintained by cscnk52.
 
 Join our Discord server to connect with developers, request features, and receive support.
 
@@ -82,9 +82,9 @@ You are welcome to join the open source community to build together, please chec
 🔏 Code signing policy
 ----------------------
 
-Folo for Windows uses free code signing provided by SignPath.io, certificate by SignPath Foundation.
+Folo for Windows uses free code signing provided by SignPath.io, a certificate by SignPath Foundation.
 
-Folo for macOS and iOS are signed and notarized by Apple Developer Program.
+Folo for macOS and iOS is signed and notarized by Apple Developer Program.
 
 All released files are verified with GitHub artifact attestations to ensure their provenance and integrity.
 

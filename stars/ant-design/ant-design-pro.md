@@ -1,6 +1,6 @@
 ---
 project: ant-design-pro
-stars: 37634
+stars: 37659
 description: 👨🏻‍💻👩🏻‍💻 Use Ant Design like a Pro!
 url: https://github.com/ant-design/ant-design-pro
 ---

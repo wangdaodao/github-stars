@@ -1,6 +1,6 @@
 ---
 project: github-contributions-api
-stars: 204
+stars: 205
 description: :octocat: Github contributions API (bootleg)
 url: https://github.com/sallar/github-contributions-api
 ---

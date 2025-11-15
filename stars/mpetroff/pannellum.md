@@ -1,6 +1,6 @@
 ---
 project: pannellum
-stars: 4624
+stars: 4632
 description: Pannellum is a lightweight, free, and open source panorama viewer for the web.
 url: https://github.com/mpetroff/pannellum
 ---

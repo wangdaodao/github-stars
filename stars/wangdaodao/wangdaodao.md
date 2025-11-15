@@ -10,18 +10,18 @@ Hi 👋, I'm wangdaodao 👨‍💻
 
 I live in Beijing/Tianjin, China. A developer who loves open source!
 
-⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-11-09 06:20.
+⭐️ Star my homepage will be updated automatically, last updated: (UTC+8) 2025-11-16 06:19.
 
 📝 Hitokoto
 -----------
 
-> 对于我们的幸福来说，别人的看法在本质上来讲并不十分重要。—— 叔本华
+> 探索自己独一无二的世界，挺过黑夜，并创建您能想象的一切！—— Minecraft
 
 🌈 Daily Bing Wallpaper
 -----------------------
 
   
-_Sea stacks of Bandon Beach in Bandon, Oregon (© Grant Ordelheide/TANDEM Stills + Motion)_
+_Irohazaka Road in fall, Nikko, Tochigi, Japan (© oneinchpunch/Shutterstock)_
 
 📚 My Blog posts ...
 --------------------

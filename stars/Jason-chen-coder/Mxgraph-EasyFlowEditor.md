@@ -8,7 +8,7 @@ url: https://github.com/Jason-chen-coder/Mxgraph-EasyFlowEditor
 Mxgraph-EasyFlowEditor
 ======================
 
-本项目是基于mxGraph+vue设计的流程图编辑器，可用于流程图绘制，流程渲染等等；欢迎交流，欢迎star，谢谢！:
+EasyFlowEditor是基于mxGraph+vue设计的流程图编辑器，可用于流程图绘制，流程渲染等等；欢迎交流，欢迎star，谢谢！:
 
 项目展示：
 -----

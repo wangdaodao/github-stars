@@ -1,6 +1,6 @@
 ---
 project: tenon
-stars: 73
+stars: 74
 description: 页面可视化搭建工具。A visual dragging-and-dropping page builder base on Vue. what you see is what you get.
 url: https://github.com/wuyaoxing/tenon
 ---
