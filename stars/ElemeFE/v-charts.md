@@ -1,6 +1,6 @@
 ---
 project: v-charts
-stars: 6803
+stars: 6801
 description: 基于 Vue2.0 和 ECharts 封装的图表组件📈📊
 url: https://github.com/ElemeFE/v-charts
 ---

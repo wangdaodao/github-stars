@@ -1,6 +1,6 @@
 ---
 project: Auto-i18n
-stars: 379
+stars: 378
 description: 使用 ChatGPT 自动将 Markdown 文件批量翻译为多语言 | Auto translate Markdown files to multi languages using ChatGPT
 url: https://github.com/linyuxuanlin/Auto-i18n
 ---

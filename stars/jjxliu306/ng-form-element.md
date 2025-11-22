@@ -1,6 +1,6 @@
 ---
 project: ng-form-element
-stars: 132
+stars: 133
 description: 动态表单，VUE动态表单。基于vue+elementui实现动态表单组件，通过拖拽组件到面板即可实现一个表单。支持各个组件的动态隐藏显示，动态表格弹窗式维护。致力打造开源最强vue动态表单组件，持续维护。
 url: https://github.com/jjxliu306/ng-form-element
 ---

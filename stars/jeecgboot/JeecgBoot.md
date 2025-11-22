@@ -1,6 +1,6 @@
 ---
 project: JeecgBoot
-stars: 44352
+stars: 44432
 description: 🔥AI低代码平台，助力企业快速实现低代码开发和构建AI应用！ 集成一套完整AI应用平台：涵盖AI应用、AI模型、AI聊天助手、知识库、AI流程编排等，兼容多种大模型；提供强大代码生成器：实现前后端一键生成，无需手写代码! 引领AI开发模式：AI生成→在线配置→代码生成→手工合并，解决Java项目80%重复工作，提升效率节省成本，又不失灵活~
 url: https://github.com/jeecgboot/JeecgBoot
 ---

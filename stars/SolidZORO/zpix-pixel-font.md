@@ -1,6 +1,6 @@
 ---
 project: zpix-pixel-font
-stars: 2774
+stars: 2778
 description: Zpix (最像素) is a pixel font (中文像素字体), supporting English, Chinese (Simplified + Traditional) and Japanese.
 url: https://github.com/SolidZORO/zpix-pixel-font
 ---

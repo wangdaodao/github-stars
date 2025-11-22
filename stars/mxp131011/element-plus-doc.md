@@ -1,6 +1,6 @@
 ---
 project: element-plus-doc
-stars: 17
+stars: 18
 description: null
 url: https://github.com/mxp131011/element-plus-doc
 ---

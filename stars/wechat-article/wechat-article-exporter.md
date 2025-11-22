@@ -1,6 +1,6 @@
 ---
 project: wechat-article-exporter
-stars: 4714
+stars: 4746
 description: 一款在线的 微信公众号文章批量下载 工具，支持导出阅读量与评论数据，无需搭建任何环境，可通过 在线网站(https://down.mptext.top) 使用，同时也支持 docker 私有化部署和 Cloudflare 部署。  支持下载各种文件格式，其中 HTML 格式可100%还原文章排版与样式。
 url: https://github.com/wechat-article/wechat-article-exporter
 ---

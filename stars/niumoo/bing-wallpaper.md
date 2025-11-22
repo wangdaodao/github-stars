@@ -1,6 +1,6 @@
 ---
 project: bing-wallpaper
-stars: 3179
+stars: 3191
 description: 必应每日超清壁纸（4K） Bing Daily Wallpaper (4K)
 url: https://github.com/niumoo/bing-wallpaper
 ---
@@ -8,7 +8,21 @@ url: https://github.com/niumoo/bing-wallpaper
 Bing Wallpaper
 --------------
 
-Today: Irohazaka Road in fall, Nikko, Tochigi, Japan (© oneinchpunch/Shutterstock)
+Today: Leshan Giant Buddha, Sichuan, China (© www.anotherdayattheoffice.org/Getty Images)
+
+2025-11-23 download 4k
+
+2025-11-22 download 4k
+
+2025-11-21 download 4k
+
+2025-11-20 download 4k
+
+2025-11-19 download 4k
+
+2025-11-18 download 4k
+
+2025-11-17 download 4k
 
 2025-11-16 download 4k
 
@@ -55,20 +69,6 @@ Today: Irohazaka Road in fall, Nikko, Tochigi, Japan (© oneinchpunch/Shuttersto
 2025-10-26 download 4k
 
 2025-10-25 download 4k
-
-2025-10-24 download 4k
-
-2025-10-23 download 4k
-
-2025-10-22 download 4k
-
-2025-10-21 download 4k
-
-2025-10-20 download 4k
-
-2025-10-19 download 4k
-
-2025-10-18 download 4k
 
 ### 历史归档：
 

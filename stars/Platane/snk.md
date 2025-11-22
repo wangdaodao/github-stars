@@ -1,6 +1,6 @@
 ---
 project: snk
-stars: 5386
+stars: 5401
 description: 🟩⬜ Generates a snake game from a github user contributions graph and output a screen capture as animated svg or gif
 url: https://github.com/Platane/snk
 ---
@@ -31,15 +31,16 @@ Usage
     # one file per line. Each output can be customized with options as query string.
     #
     #  supported options:
-    #  - palette:     A preset of color, one of \[github, github-dark, github-light\]
-    #  - color\_snake: Color of the snake
-    #  - color\_dots:  Coma separated list of dots color.
-    #                 The first one is 0 contribution, then it goes from the low contribution to the highest.
-    #                 Exactly 5 colors are expected.
+    #  - palette:           A preset of color, one of \[github, github-dark, github-light\]
+    #  - color\_snake:       Color of the snake
+    #  - color\_dots:        Coma separated list of dots color.
+    #                       The first one is 0 contribution, then it goes from the low contribution to the highest.
+    #                       Exactly 5 colors are expected.
+    #  - color\_background:  Color of the background (for gif only)
     outputs: |
       dist/github-snake.svg
       dist/github-snake-dark.svg?palette=github-dark
-      dist/ocean.gif?color\_snake=orange&color\_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+      dist/ocean.gif?color\_snake=orange&color\_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color\_background=#aaaaaa
 
 example with cron job
 

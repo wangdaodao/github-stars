@@ -1,6 +1,6 @@
 ---
 project: APlayer-Typecho
-stars: 492
+stars: 493
 description: 在线音乐播放器插件 for typecho 1.0
 url: https://github.com/MoePlayer/APlayer-Typecho
 ---

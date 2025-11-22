@@ -1,6 +1,6 @@
 ---
 project: node-in-debugging
-stars: 6479
+stars: 6477
 description: 《Node.js 调试指南》
 url: https://github.com/nswbmw/node-in-debugging
 ---

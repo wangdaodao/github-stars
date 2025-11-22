@@ -1,6 +1,6 @@
 ---
 project: i18n-cli
-stars: 196
+stars: 198
 description: 支持将vue、react项目里的中文替换成 i18n 国际化标记，并支持自动翻译的命令行工具
 url: https://github.com/IFreeOvO/i18n-cli
 ---

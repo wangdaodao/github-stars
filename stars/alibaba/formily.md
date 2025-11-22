@@ -1,6 +1,6 @@
 ---
 project: formily
-stars: 12362
+stars: 12378
 description: 📱🚀 🧩 Cross Device & High Performance Normal Form/Dynamic(JSON Schema) Form/Form Builder -- Support React/React Native/Vue 2/Vue 3
 url: https://github.com/alibaba/formily
 ---

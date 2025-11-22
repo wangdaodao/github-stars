@@ -1,6 +1,6 @@
 ---
 project: VTable
-stars: 3206
+stars: 3217
 description: VTable is not just a high-performance multidimensional data analysis table, but also a grid artist that creates art between rows and columns.
 url: https://github.com/VisActor/VTable
 ---

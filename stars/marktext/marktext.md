@@ -1,6 +1,6 @@
 ---
 project: marktext
-stars: 52344
+stars: 52432
 description: 📝A simple and elegant markdown editor, available for Linux, macOS and Windows.
 url: https://github.com/marktext/marktext
 ---
@@ -34,7 +34,7 @@ MarkText is an MIT licensed open source project, and the latest version will alw
 
 Patreon: Funds will be directly sponsored to Luo Ran (@jocs) who created MarkText and continues to maintain it. Open Collective: All expenses are transparent. The funds will be used for the development and maintenance of MarkText, funding online and offline activities, and acquiring other necessary resources. Names and company logos of all sponsors (from both Patreon and Open Collective) will appear on the official website for MarkText and in its README.md file.
 
-**Special Sponsors**
+**Looking for MarkText-like editing with cloud storage? try Inkio**
 
 **Platinum Sponsors**
 

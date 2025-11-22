@@ -1,6 +1,6 @@
 ---
 project: vxe-table
-stars: 8413
+stars: 8420
 description: vxe table 支持 vue2, vue3 的表格解决方案
 url: https://github.com/x-extends/vxe-table
 ---

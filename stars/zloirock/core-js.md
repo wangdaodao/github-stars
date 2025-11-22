@@ -1,6 +1,6 @@
 ---
 project: core-js
-stars: 25328
+stars: 25331
 description: Standard Library
 url: https://github.com/zloirock/core-js
 ---
@@ -140,6 +140,7 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   Explicit Resource Management
             -   `Float16` methods
             -   `Iterator` helpers
+            -   `Iterator` sequencing
             -   `Object.values` / `Object.entries`
             -   `Object.fromEntries`
             -   `Object.getOwnPropertyDescriptors`
@@ -158,18 +159,17 @@ structuredClone(new Set(\[1, 2, 3\])); // => new Set(\[1, 2, 3\])
             -   `Promise.withResolvers`
             -   `Symbol.asyncIterator` for asynchronous iteration
             -   `Symbol.prototype.description`
+            -   `JSON.parse` source text access
             -   Well-formed `JSON.stringify`
             -   Well-formed unicode strings
             -   New `Set` methods
             -   `Math.sumPrecise`
         -   Stage 3 proposals
-            -   `Iterator` sequencing
+            -   Joint iteration
             -   `Map` upsert
-            -   `JSON.parse` source text access
             -   `Symbol.metadata` for decorators metadata proposal
         -   Stage 2.7 proposals
             -   `Iterator` chunking
-            -   Joint iteration
         -   Stage 2 proposals
             -   `AsyncIterator` helpers
             -   `Iterator.range`
@@ -217,11 +217,11 @@ Usage⬆
 ### Installation:⬆
 
 // global version
-npm install --save core-js@3.46.0
+npm install --save core-js@3.47.0
 // version without global namespace pollution
-npm install --save core-js-pure@3.46.0
+npm install --save core-js-pure@3.47.0
 // bundled global version
-npm install --save core-js-bundle@3.46.0
+npm install --save core-js-bundle@3.47.0
 
 ### `postinstall` message⬆
 
@@ -317,11 +317,11 @@ import 'regenerator-runtime/runtime';
 
 #### `@babel/preset-env`⬆
 
-`@babel/preset-env` has `useBuiltIns` option, which optimizes the use of the global version of `core-js`. With `useBuiltIns` option, you should also set `corejs` option to the used version of `core-js`, like `corejs: '3.46'`.
+`@babel/preset-env` has `useBuiltIns` option, which optimizes the use of the global version of `core-js`. With `useBuiltIns` option, you should also set `corejs` option to the used version of `core-js`, like `corejs: '3.47'`.
 
 Important
 
-It is recommended to specify the used minor `core-js` version, like `corejs: '3.46'`, instead of `corejs: 3`, since with `corejs: 3` will not be injected modules which were added in minor `core-js` releases.
+It is recommended to specify the used minor `core-js` version, like `corejs: '3.47'`, instead of `corejs: 3`, since with `corejs: 3` will not be injected modules which were added in minor `core-js` releases.
 
 * * *
 
@@ -378,7 +378,7 @@ import 'core-js/modules/es.array.of';
 
 var array \= Array.of(1, 2, 3);
 
-By default, `@babel/preset-env` with `useBuiltIns: 'usage'` option only polyfills stable features, but you can enable polyfilling of proposals by the `proposals` option, as `corejs: { version: '3.46', proposals: true }`.
+By default, `@babel/preset-env` with `useBuiltIns: 'usage'` option only polyfills stable features, but you can enable polyfilling of proposals by the `proposals` option, as `corejs: { version: '3.47', proposals: true }`.
 
 Important
 
@@ -417,7 +417,7 @@ Fast JavaScript transpiler `swc` contains integration with `core-js`, that optim
   "env": {
     "targets": "\> 0.25%, not dead",
     "mode": "entry",
-    "coreJs": "3.46"
+    "coreJs": "3.47"
   }
 }
 
@@ -873,9 +873,10 @@ await Array.fromAsync((async function \* () { yield \* \[1, 2, 3\]; })(), i \=> 
 
 #### ECMAScript: Iterator⬆
 
-Modules `es.iterator.constructor`, `es.iterator.dispose`, `es.iterator.drop`, `es.iterator.every`, `es.iterator.filter`, `es.iterator.find`, `es.iterator.flat-map`, `es.iterator.for-each`, `es.iterator.from`, `es.iterator.map`, `es.iterator.reduce`, `es.iterator.some`, `es.iterator.take`, `es.iterator.to-array`
+Modules `es.iterator.constructor`, `es.iterator.concat`, `es.iterator.dispose`, `es.iterator.drop`, `es.iterator.every`, `es.iterator.filter`, `es.iterator.find`, `es.iterator.flat-map`, `es.iterator.for-each`, `es.iterator.from`, `es.iterator.map`, `es.iterator.reduce`, `es.iterator.some`, `es.iterator.take`, `es.iterator.to-array`
 
 class Iterator {
+  static concat(...items: Array<IterableObject\>): Iterator<any\>;
   static from(iterable: Iterable<any\> | Iterator<any\>): Iterator<any\>;
   drop(limit: uint): Iterator<any\>;
   every(callbackfn: (value: any, counter: uint) \=> boolean): boolean;
@@ -896,6 +897,7 @@ _CommonJS entry points:_
 
 ```
 core-js(-pure)/es|stable|actual|full/iterator
+core-js(-pure)/es|stable|actual|full/iterator/concat
 core-js(-pure)/es|stable|actual|full/iterator/dispose
 core-js(-pure)/es|stable|actual|full/iterator/drop
 core-js(-pure)/es|stable|actual|full/iterator/every
@@ -923,6 +925,11 @@ Examples:
 Iterator.from({
   next: () \=> ({ done: Math.random() \> 0.9, value: Math.random() \* 10 | 0 }),
 }).toArray(); // => \[7, 6, 3, 0, 2, 8\]
+
+Iterator.concat(\[0, 1\].values(), \[2, 3\], function \* () {
+  yield 4;
+  yield 5;
+}()).toArray(); // => \[0, 1, 2, 3, 4, 5\]
 
 Warning
 
@@ -2171,11 +2178,14 @@ instance.c; // => 42
 
 #### ECMAScript: JSON⬆
 
-Since `JSON` object is missed only in very old engines like IE7-, `core-js` does not provide a full `JSON` polyfill, however, fix already existing implementations by the current standard, for example, well-formed `JSON.stringify`. `JSON` is also fixed in other modules - for example, `Symbol` polyfill fixes `JSON.stringify` for correct work with symbols.
+Since `JSON` object is missed only in very old engines like IE7-, `core-js` does not provide a full `JSON.{ parse, stringify }` polyfill, however, fix already existing implementations by the current standard.
 
-Module `es.json.to-string-tag` and `es.json.stringify`.
+Modules `es.json.is-raw-json`, `es.json.parse`, `es.json.raw-json`, `es.json.stringify` and `es.json.to-string-tag` .
 
 namespace JSON {
+  isRawJSON(O: any): boolean;
+  parse(text: string, reviver?: (this: any, key: string, value: any, context: { source?: string }) \=\> any): any;
+  rawJSON(text: any): RawJSON;
   stringify(value: any, replacer?: Array<string | number\> | (this: any, key: string, value: any) \=> any, space?: string | number): string | void;
   @@toStringTag: 'JSON';
 }
@@ -2183,6 +2193,10 @@ namespace JSON {
 _CommonJS entry points:_
 
 ```
+core-js(-pure)/es|stable|actual|full/json/is-raw-json
+core-js(-pure)/es|stable|actual|full/json/parse
+core-js(-pure)/es|stable|actual|full/json/raw-json
+core-js(-pure)/es|stable|actual|full/json/stringify
 core-js(-pure)/es|stable|actual|full/json/stringify
 core-js(-pure)/es|stable|actual|full/json/to-string-tag
 ```
@@ -2190,6 +2204,23 @@ core-js(-pure)/es|stable|actual|full/json/to-string-tag
 _Examples_:
 
 JSON.stringify({ '𠮷': \['\\uDF06\\uD834'\] }); // => '{"𠮷":\["\\\\udf06\\\\ud834"\]}'
+
+function digitsToBigInt(key, val, { source }) {
+  return /^\\d+$/.test(source) ? BigInt(source) : val;
+}
+
+function bigIntToRawJSON(key, val) {
+  return typeof val \=== 'bigint' ? JSON.rawJSON(String(val)) : val;
+}
+
+const tooBigForNumber \= BigInt(Number.MAX\_SAFE\_INTEGER) + 2n;
+JSON.parse(String(tooBigForNumber), digitsToBigInt) \=== tooBigForNumber; // true
+
+const wayTooBig \= BigInt(\`1${ '0'.repeat(1000) }\`);
+JSON.parse(String(wayTooBig), digitsToBigInt) \=== wayTooBig; // true
+
+const embedded \= JSON.stringify({ tooBigForNumber }, bigIntToRawJSON);
+embedded \=== '{"tooBigForNumber":9007199254740993}'; // true
 
 #### ECMAScript: globalThis⬆
 
@@ -2493,6 +2524,18 @@ _CommonJS entry points:_
 core-js/proposals/iterator-helpers-stage-3-2
 ```
 
+##### `Iterator` sequencing⬆
+
+class Iterator {
+  static concat(...items: Array<IterableObject\>): Iterator<any\>;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/iterator-sequencing
+```
+
 ##### `Object.values` / `Object.entries`⬆
 
 class Object {
@@ -2727,6 +2770,23 @@ _CommonJS entry points:_
 core-js/proposals/symbol-description
 ```
 
+##### `JSON.parse` source text access⬆
+
+namespace JSON {
+  isRawJSON(O: any): boolean;
+  // patched for source support
+  parse(text: string, reviver?: (this: any, key: string, value: any, context: { source?: string }) \=\> any): any;
+  rawJSON(text: any): RawJSON;
+  // patched for \`JSON.rawJSON\` support
+  stringify(value: any, replacer?: Array<string | number\> | (this: any, key: string, value: any) \=> any, space?: string | number): string | void;
+}
+
+_CommonJS entry points:_
+
+```
+core-js/proposals/json-parse-with-source
+```
+
 ##### Well-formed `JSON.stringify`⬆
 
 namespace JSON {
@@ -2790,27 +2850,58 @@ _CommonJS entry points:_
 core-js(-pure)/stage/3
 ```
 
-##### `Iterator` sequencing⬆
+##### Joint iteration⬆
 
-Module `esnext.iterator.concat`
+Modules esnext.iterator.zip, esnext.iterator.zip-keyed
 
 class Iterator {
-  static concat(...items: Array<IterableObject\>): Iterator<any\>;
+  zip<T extends readonly Iterable<unknown\>\[\]\>(
+    iterables: T,
+    options?: {
+      mode?: 'shortest' | 'longest' | 'strict';
+      padding?: { \[K in keyof T\]?: T\[K\] extends Iterable<infer U\> ? U : never };
+    }
+  ): IterableIterator<{ \[K in keyof T\]: T\[K\] extends Iterable<infer U\> ? U : never }\>;
+  zipKeyed<K extends PropertyKey, V extends Record<K, Iterable<unknown\>\>\>(
+    iterables: V,
+    options?: {
+      mode?: 'shortest' | 'longest' | 'strict';
+      padding?: { \[P in keyof V\]?: V\[P\] extends Iterable<infer U\> ? U : never };
+    }
+  ): IterableIterator<{ \[P in keyof V\]: V\[P\] extends Iterable<infer U\> ? U : never }\>;
 }
 
 _CommonJS entry points:_
 
 ```
-core-js/proposals/iterator-sequencing
-core-js(-pure)/actual|full/iterator/concat
+core-js/proposals/joint-iteration
+core-js(-pure)/actual|full/iterator/zip
+core-js(-pure)/actual|full/iterator/zip-keyed
 ```
 
 _Example_:
 
-Iterator.concat(\[0, 1\].values(), \[2, 3\], function \* () {
-  yield 4;
-  yield 5;
-}()).toArray(); // => \[0, 1, 2, 3, 4, 5\]
+Iterator.zip(\[
+  \[0, 1, 2\],
+  \[3, 4, 5\],
+\]).toArray();  // => \[\[0, 3\], \[1, 4\], \[2, 5\]\]
+
+Iterator.zipKeyed({
+  a: \[0, 1, 2\],
+  b: \[3, 4, 5, 6\],
+  c: \[7, 8, 9\],
+}, {
+  mode: 'longest',
+  padding: { c: 10 },
+}).toArray();
+/\*
+\[
+  { a: 0,         b: 3, c: 7  },
+  { a: 1,         b: 4, c: 8  },
+  { a: 2,         b: 5, c: 9  },
+  { a: undefined, b: 6, c: 10 },
+\];
+ \*/
 
 ##### `Map` upsert⬆
 
@@ -2849,48 +2940,6 @@ map.getOrInsertComputed('a', key \=> key); // => 1
 map.getOrInsertComputed('c', key \=> key); // => 'c'
 
 console.log(map); // => Map { 'a': 1, 'b': 3, 'c': 'c' }
-
-##### `JSON.parse` source text access⬆
-
-Modules `esnext.json.is-raw-json`, `esnext.json.parse`, `esnext.json.raw-json`.
-
-namespace JSON {
-  isRawJSON(O: any): boolean;
-  // patched for source support
-  parse(text: string, reviver?: (this: any, key: string, value: any, context: { source?: string }) \=\> any): any;
-  rawJSON(text: any): RawJSON;
-  // patched for \`JSON.rawJSON\` support
-  stringify(value: any, replacer?: Array<string | number\> | (this: any, key: string, value: any) \=> any, space?: string | number): string | void;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/json-parse-with-source
-core-js(-pure)/actual|full/json/is-raw-json
-core-js(-pure)/actual|full/json/parse
-core-js(-pure)/actual|full/json/raw-json
-core-js(-pure)/actual|full/json/stringify
-```
-
-_Examples_:
-
-function digitsToBigInt(key, val, { source }) {
-  return /^\\d+$/.test(source) ? BigInt(source) : val;
-}
-
-function bigIntToRawJSON(key, val) {
-  return typeof val \=== 'bigint' ? JSON.rawJSON(String(val)) : val;
-}
-
-const tooBigForNumber \= BigInt(Number.MAX\_SAFE\_INTEGER) + 2n;
-JSON.parse(String(tooBigForNumber), digitsToBigInt) \=== tooBigForNumber; // true
-
-const wayTooBig \= BigInt(\`1${ '0'.repeat(1000) }\`);
-JSON.parse(String(wayTooBig), digitsToBigInt) \=== wayTooBig; // true
-
-const embedded \= JSON.stringify({ tooBigForNumber }, bigIntToRawJSON);
-embedded \=== '{"tooBigForNumber":9007199254740993}'; // true
 
 ##### `Symbol.metadata` for decorators metadata proposal⬆
 
@@ -2948,59 +2997,6 @@ let windows \= Array.from(digits().windows(2));  // \[\[0, 1\], \[1, 2\], \[2, 3
 let windowsPartial \= Array.from(\[0, 1\].values().windows(3, 'allow-partial'));  // \[\[0, 1\]\]
 
 let windowsFull \= Array.from(\[0, 1\].values().windows(3));  // \[\]
-
-##### Joint iteration⬆
-
-Modules esnext.iterator.zip, esnext.iterator.zip-keyed
-
-class Iterator {
-  zip<T extends readonly Iterable<unknown\>\[\]\>(
-    iterables: T,
-    options?: {
-      mode?: 'shortest' | 'longest' | 'strict';
-      padding?: { \[K in keyof T\]?: T\[K\] extends Iterable<infer U\> ? U : never };
-    }
-  ): IterableIterator<{ \[K in keyof T\]: T\[K\] extends Iterable<infer U\> ? U : never }\>;
-  zipKeyed<K extends PropertyKey, V extends Record<K, Iterable<unknown\>\>\>(
-    iterables: V,
-    options?: {
-      mode?: 'shortest' | 'longest' | 'strict';
-      padding?: { \[P in keyof V\]?: V\[P\] extends Iterable<infer U\> ? U : never };
-    }
-  ): IterableIterator<{ \[P in keyof V\]: V\[P\] extends Iterable<infer U\> ? U : never }\>;
-}
-
-_CommonJS entry points:_
-
-```
-core-js/proposals/joint-iteration
-core-js(-pure)/full/iterator/zip
-core-js(-pure)/full/iterator/zip-keyed
-```
-
-_Example_:
-
-Iterator.zip(\[
-  \[0, 1, 2\],
-  \[3, 4, 5\],
-\]).toArray();  // => \[\[0, 3\], \[1, 4\], \[2, 5\]\]
-
-Iterator.zipKeyed({
-  a: \[0, 1, 2\],
-  b: \[3, 4, 5, 6\],
-  c: \[7, 8, 9\],
-}, {
-  mode: 'longest',
-  padding: { c: 10 },
-}).toArray();
-/\*
-\[
-  { a: 0,         b: 3, c: 7  },
-  { a: 1,         b: 4, c: 8  },
-  { a: 2,         b: 5, c: 9  },
-  { a: undefined, b: 6, c: 10 },
-\];
- \*/
 
 #### Stage 2 proposals⬆
 

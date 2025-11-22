@@ -1,6 +1,6 @@
 ---
 project: lugia
-stars: 456
+stars: 455
 description: Lugia产品包括一套标准的前端组件库、一套统一的模型管理框架、一套完整的工程构建工具链，以及一套高效并且开箱即用的前端可视化开发工具。
 url: https://github.com/lugia-ysstech/lugia
 ---
